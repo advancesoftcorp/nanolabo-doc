@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, AdvanceSoft Corporation
+# This file is distributed under the same license as the Advance/NanoLabo
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advance/NanoLabo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-05 10:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../index.rst:8
+msgid "ナノ材料解析統合GUI Advance/NanoLabo"
+msgstr "Integrated GUI for nano material analysis: Advance/NanoLabo"
+
+#: ../../index.rst:10
+msgid ""
+"Advance/PHASE（当社製品）および、Quantum "
+"ESPRESSOやLAMMPSなどオープンソースのナノ材料解析ソフトウェアに対応した統合GUIです。Materials "
+"Projectなどの材料データベースを検索し、モデリング・計算条件設定が極めて容易に行えます。計算実行後は、結果を瞬時にグラフィック表示できます。"
+msgstr ""
+"An integrated GUI capable of handling Advance/PHASE(our product) and open"
+" source softwares for nano material analysis as Quantum ESPRESSO and "
+"LAMMPS."
+
+#: ../../index.rst:12
+msgid "初めて使用される場合は、インストールを行った後、使用の流れをご確認ください。"
+msgstr "For the first time users: see usage outline after the installation."
+
+#: ../../index.rst:14
+msgid "目次:"
+msgstr "Index"
+
+#~ msgid "Indices and tables"
+#~ msgstr ""
+
+#~ msgid ":ref:`genindex`"
+#~ msgstr ""
+
+#~ msgid ":ref:`modindex`"
+#~ msgstr ""
+
+#~ msgid ":ref:`search`"
+#~ msgstr ""
+

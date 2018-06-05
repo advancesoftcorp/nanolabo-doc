@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, AdvanceSoft Corporation
+# This file is distributed under the same license as the Advance/NanoLabo
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advance/NanoLabo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-05 10:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../install.rst:3
+msgid "インストール"
+msgstr "install"
+
+#: ../../install/linux.rst:3
+msgid "インストール手順(Linux)"
+msgstr "how to install(Linux)"
+
+#: ../../install/purchase.rst:3
+msgid "ライセンスご購入方法"
+msgstr "license"
+
+#: ../../install/windows.rst:3
+msgid "インストール手順(Windows)"
+msgstr "how to install(Windows)"
+

@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, AdvanceSoft Corporation
+# This file is distributed under the same license as the Advance/NanoLabo
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advance/NanoLabo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-05 10:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../usage.rst:3
+msgid "各画面の説明"
+msgstr "description of each screen"
+
+#: ../../usage/explorer.rst:3
+msgid "エクスプローラー"
+msgstr "explorer"
+
+#: ../../usage/initial.rst:3
+msgid "初期画面"
+msgstr "initial screen"
+
+#: ../../usage/materialsapi.rst:3
+msgid "Materials API"
+msgstr "Materials API"
+
+#: ../../usage/project.rst:3
+msgid "プロジェクト"
+msgstr "projects"
+
+#: ../../usage/webbrowser.rst:3
+msgid "Webブラウザ"
+msgstr "Web borwser"
+
+#~ msgid "使い方"
+#~ msgstr ""
+
