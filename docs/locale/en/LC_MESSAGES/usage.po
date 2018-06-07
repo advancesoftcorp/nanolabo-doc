@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-05 10:31+0900\n"
+"POT-Creation-Date: 2018-06-07 18:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,16 +19,61 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../usage.rst:3
-msgid "各画面の説明"
+#, fuzzy
+msgid "各画面の操作説明"
 msgstr "description of each screen"
+
+#: ../../usage/atomsviewer.rst:3
+msgid "原子構造ビューワー"
+msgstr ""
+
+#: ../../usage/calculation.rst:3
+msgid "計算実行"
+msgstr ""
 
 #: ../../usage/explorer.rst:3
 msgid "エクスプローラー"
 msgstr "explorer"
 
 #: ../../usage/initial.rst:3
-msgid "初期画面"
-msgstr "initial screen"
+msgid "画面の構成"
+msgstr ""
+
+#: ../../usage/initial.rst:5
+msgid "画面の基本的な構成と、ヘッダーバーの操作を説明します。"
+msgstr ""
+
+#: ../../usage/initial.rst:8
+msgid "タブ"
+msgstr ""
+
+#: ../../usage/initial.rst:16
+msgid "ヘッダーバー"
+msgstr ""
+
+#: ../../usage/initial.rst:18
+msgid "常時表示されているヘッダー"
+msgstr ""
+
+#: ../../usage/initial.rst:22
+msgid "メインメニュー"
+msgstr ""
+
+#: ../../usage/initial.rst:25
+msgid "左上"
+msgstr ""
+
+#: ../../usage/initial.rst:29
+msgid "材料データベース検索"
+msgstr ""
+
+#: ../../usage/initial.rst:32
+msgid "右上"
+msgstr ""
+
+#: ../../usage/inputeditor.rst:3
+msgid "設定ファイルエディタ"
+msgstr ""
 
 #: ../../usage/materialsapi.rst:3
 msgid "Materials API"
@@ -38,10 +83,36 @@ msgstr "Materials API"
 msgid "プロジェクト"
 msgstr "projects"
 
+#: ../../usage/result.rst:3
+msgid "結果表示"
+msgstr ""
+
 #: ../../usage/webbrowser.rst:3
-msgid "Webブラウザ"
+#, fuzzy
+msgid "Webブラウザー"
 msgstr "Web borwser"
 
 #~ msgid "使い方"
+#~ msgstr ""
+
+#~ msgid "初期画面"
+#~ msgstr "initial screen"
+
+#~ msgid "画面の基本的な構成と、ヘッダーの操作を説明します。"
+#~ msgstr ""
+
+#~ msgid "画面構成"
+#~ msgstr ""
+
+#~ msgid "タブとか"
+#~ msgstr ""
+
+#~ msgid "ヘッダー"
+#~ msgstr ""
+
+#~ msgid "左上のあれ"
+#~ msgstr ""
+
+#~ msgid "右上のあれ"
 #~ msgstr ""
 

@@ -1,12 +1,15 @@
-==============
-各画面の説明
-==============
+================
+各画面の操作説明
+================
 
 .. toctree::
    :maxdepth: 2
 
-   初期画面<usage/initial>
+   画面の構成<usage/initial>
    エクスプローラー<usage/explorer>
-   Materials API<usage/materialsapi>
    Webブラウザー<usage/webbrowser>
    プロジェクト<usage/project>
+   原子構造ビューワー<usage/atomsviewer>
+   設定ファイルエディタ<usage/inputeditor>
+   計算実行<usage/calculation>
+   結果表示<usage/result>

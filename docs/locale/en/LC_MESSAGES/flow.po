@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-05 10:31+0900\n"
+"POT-Creation-Date: 2018-06-07 18:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,4 +21,70 @@ msgstr ""
 #: ../../flow.rst:3
 msgid "使用の流れ"
 msgstr "usage outline"
+
+#: ../../flow.rst:7
+msgid "解析したい物質を決めます。"
+msgstr ""
+
+#: ../../flow.rst:12
+msgid "原子構造ファイルを用意します。"
+msgstr ""
+
+#: ../../flow.rst:10
+msgid ""
+"画面上部の検索ボックスから、外部の材料データベース(Materials "
+"Project)を物質名や化学式で検索できます。また、お手持ちの構造ファイルを使用することもできます。"
+msgstr ""
+
+#: ../../flow.rst:12
+msgid ""
+"（:doc:`→初期画面<usage/initial>`  :doc:`→Materials API<usage/materialsapi>`  "
+":doc:`→エクスプローラー<usage/explorer>`）"
+msgstr ""
+
+#: ../../flow.rst:14
+msgid "解析の方法（計算ソルバー）を選び、設定を行います。"
+msgstr ""
+
+#: ../../flow.rst:16
+msgid "（:doc:`→設定ファイルエディタ<usage/inputeditor>`）"
+msgstr ""
+
+#: ../../flow.rst:21
+msgid "プロジェクトとして保存し、計算を実行します。"
+msgstr ""
+
+#: ../../flow.rst:19
+msgid "1つの構造ファイルに対し、計算の設定ファイル・出力ファイルをまとめて「プロジェクト」として管理します。"
+msgstr ""
+
+#: ../../flow.rst:21
+msgid "（:doc:`→プロジェクト<usage/project>`  :doc:`→計算実行<usage/calculation>`）"
+msgstr ""
+
+#: ../../flow.rst:25
+msgid "結果を確認します。"
+msgstr ""
+
+#: ../../flow.rst:24
+msgid "画像や動画として結果を可視化し、ご活用ください。"
+msgstr ""
+
+#: ../../flow.rst:26
+msgid "（:doc:`→結果表示<usage/result>`）"
+msgstr ""
+
+#~ msgid ""
+#~ "画面上部の検索ボックスから、外部の材料データベース(Materials "
+#~ "Project)を化学式で検索できます。また、お手持ちの構造ファイルを使用することもできます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "（:doc:`→初期画面 <usage/initial>`  :doc:`→Materials API"
+#~ " <usage/materialsapi>`  :doc:`→エクスプローラー "
+#~ "<usage/explorer>`）"
+#~ msgstr ""
+
+#~ msgid "（:doc:`→プロジェクト <usage/project>`）"
+#~ msgstr ""
 
