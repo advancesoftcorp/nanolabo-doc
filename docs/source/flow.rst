@@ -2,14 +2,14 @@
 使用の流れ
 ==========
 
-.. image:: /img/flow/overview.svg
+.. image:: /img/overview.svg
 
 1. 解析したい物質を決めます。
 
-2. 原子構造ファイルを用意します。
+2. 原子構造情報ファイルを用意します。
     画面上部の検索ボックスから、外部の材料データベース(Materials Project)を物質名や化学式で検索できます。また、お手持ちの構造ファイルを使用することもできます。
 
-    （:doc:`→初期画面<usage/initial>`  :doc:`→Materials API<usage/materialsapi>`  :doc:`→エクスプローラー<usage/explorer>`）
+    （:doc:`→画面の構成<usage/initial>` :doc:`→エクスプローラー<usage/explorer>`）
 
 3. 解析の方法（計算ソルバー）を選び、設定を行います。
 

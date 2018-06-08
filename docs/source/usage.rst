@@ -7,7 +7,7 @@
 
    画面の構成<usage/initial>
    エクスプローラー<usage/explorer>
-   Webブラウザー<usage/webbrowser>
+   ウェブブラウザー<usage/webbrowser>
    プロジェクト<usage/project>
    原子構造ビューワー<usage/atomsviewer>
    設定ファイルエディタ<usage/inputeditor>
