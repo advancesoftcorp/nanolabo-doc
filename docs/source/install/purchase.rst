@@ -69,8 +69,8 @@
 試用期間中
 ----------------------------------
 
-1. 左上のメインメニュー |mainmenuicon| から、Licenseをクリックします。
-2. License Registration Guidance ウィンドウが表示されます。Mailをクリックするか、ウィンドウ内のIDをコピーし、 office@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
+1. 左上のメインメニュー |mainmenuicon| から、 :guilabel:`License` をクリックします。
+2. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のIDをコピーし、 office@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
 
 
 .. |mainmenuicon| image:: /img/mainmenuicon.png
@@ -80,6 +80,6 @@
 
 試用期間終了後（またはインストール時にライセンス登録をしなかった場合）、ソフトウェアを起動しようとすると、ライセンス登録を案内する画面が表示されます。
 
-1. FLEXible License Managerというタイトルのウィンドウが表示されることがあります。OKをクリックして閉じてください。
-2. Errorというタイトルのウィンドウが表示されます。OKをクリックしてください。
-3. License Registration Guidance ウィンドウが表示されます。Mailをクリックするか、ウィンドウ内のIDをコピーし、 office@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
+1. :guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示されることがあります。 :guilabel:`OK` をクリックして閉じてください。
+2. :guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。
+3. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のIDをコピーし、 office@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
