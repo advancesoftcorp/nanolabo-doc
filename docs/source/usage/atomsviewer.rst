@@ -29,7 +29,7 @@
 表示デザインの変更
 =====================
 
-画面左下のメニュー |projectmenuicon| から :guilabel:`Designer` をクリックして、デザイン変更画面を開いてください。画面右側のパネルで、3Dモデルの表示方法を詳細に設定できます。設定が終わりましたら、左下の |back| ボタンをクリックして元の画面に戻ります。
+画面左下のメニュー |projectmenuicon| から :guilabel:`Designer` をクリックして、デザイン変更画面を開いてください。画面右側のパネルで、3Dモデルの表示方法を詳細に設定できます。設定が終わりましたら、左下の戻るボタン |back| をクリックして元の画面に戻ります。
 
 .. |projectmenuicon| image:: /img/projectmenuicon.png
 .. |back| image:: /img/back.png
