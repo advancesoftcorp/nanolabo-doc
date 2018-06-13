@@ -80,7 +80,7 @@
 ----------------------------------
 
 1. 左上のメインメニュー |mainmenuicon| から、 :guilabel:`License` をクリックします。
-2. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のIDをコピーし、 office@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
+2. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のIDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
 
 
 .. |mainmenuicon| image:: /img/mainmenuicon.png
@@ -94,4 +94,4 @@
 
 1. :guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示されることがあります。 :guilabel:`OK` をクリックして閉じてください。
 2. :guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。
-3. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のIDをコピーし、 office@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
+3. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のIDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
