@@ -82,7 +82,6 @@
 1. 左上のメインメニュー |mainmenuicon| から、 :guilabel:`License` をクリックします。
 2. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のIDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
 
-
 .. |mainmenuicon| image:: /img/mainmenuicon.png
 
 .. _id-after:
