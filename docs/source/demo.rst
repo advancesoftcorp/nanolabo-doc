@@ -1,7 +1,10 @@
+.. _demo:
+
 ==============
 デモ動画
 ==============
 
+.. _input:
 
 Quantum ESPRESSOのインプットファイル作成
 =========================================
@@ -22,6 +25,8 @@ Quantum ESPRESSOのインプットファイル作成
    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
    <iframe src="https://www.youtube.com/embed/4m8FnGPOhP8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
    </div>
+
+.. _calculation:
 
 Quantum ESPRESSOの計算実行
 =========================================
@@ -63,6 +68,7 @@ Quantum ESPRESSOの計算実行
    <iframe src="https://www.youtube.com/embed/cKIgnmVCU9A" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
    </div>
 
+.. _modeler:
 
 モデル作成
 ==================
@@ -84,6 +90,8 @@ Quantum ESPRESSOの計算実行
    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
    <iframe src="https://www.youtube.com/embed/OZTcK_Utfqg" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
    </div>
+
+.. _designer:
 
 表示デザイン変更
 ===================
