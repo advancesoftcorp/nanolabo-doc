@@ -159,3 +159,6 @@ texinfo_documents = [
 
 # -- Extension configuration -------------------------------------------------
 locale_dirs = ["../locale"]
+
+def setup(app):
+    app.add_stylesheet('css/custom.css')

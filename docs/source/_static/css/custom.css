@@ -1,0 +1,4 @@
+table.align-center td, table.align-center th {
+    text-align: center;
+    vertical-align: middle;
+}
