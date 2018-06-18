@@ -4,7 +4,7 @@
 計算実行
 =====================
 
-プロジェクト画面左下のメニュー |projectmenuicon| から :guilabel:`Run`をクリックすると、計算ジョブの設定を行う :guilabel:`Run a job` ウィンドウが表示されます。
+プロジェクト画面左下のメニュー |projectmenuicon| から :guilabel:`Run` をクリックすると、計算ジョブの設定を行う :guilabel:`Run a job` ウィンドウが表示されます。
 
 .. |projectmenuicon| image:: /img/projectmenuicon.png
 
