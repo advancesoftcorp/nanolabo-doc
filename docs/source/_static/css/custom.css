@@ -2,3 +2,7 @@ table.align-center td, table.align-center th {
     text-align: center;
     vertical-align: middle;
 }
+
+table.align-center div.first {
+    margin-top: 1em !important;
+}
