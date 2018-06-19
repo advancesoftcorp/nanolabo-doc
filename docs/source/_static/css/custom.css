@@ -6,3 +6,44 @@ table.align-center td, table.align-center th {
 table.align-center div.first {
     margin-top: 1em !important;
 }
+
+.youtube {
+    position:relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.youtube_play:hover {
+    cursor:pointer;
+}
+
+.youtube_play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.youtube_btn {
+    width:64px;
+    height:45px;
+    background-image: url('../youtube_social_icon_dark.png');
+    background-size: 64px 45px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
