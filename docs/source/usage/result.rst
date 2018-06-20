@@ -23,6 +23,10 @@
 
 .. image:: /img/2dplot.png
 
+.. image:: /img/dos.png
+
+.. image:: /img/band.png
+
 .. _movie:
 
 動画
