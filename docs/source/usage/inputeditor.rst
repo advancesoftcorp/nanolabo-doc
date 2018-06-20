@@ -4,7 +4,9 @@
 入力ファイルエディター
 ==============================
 
-プロジェクト画面右側のパネルで、計算エンジンの入力ファイルを編集します。各設定項目にはあらかじめ値が入力されており、そのまま計算を実行することもできますが、各計算エンジンのマニュアルを参照して適切な値を設定してください。
+プロジェクト画面右側のパネルで、計算エンジンの入力ファイルを編集します。実行したい計算に応じて右下のメニュー |editormenuicon| からエディターのモードを選び、各計算エンジンのマニュアルを参照して適切な値を設定してください。
+
+.. |editormenuicon| image:: /img/editormenuicon.png
 
 デフォルト値設定ボタン |default| がある設定項目は、ボタンをクリックするとデフォルト値が入力されます。
 
@@ -12,6 +14,14 @@
 
 .. |default| image:: /img/default.png
 .. |collapse| image:: /img/collapse.png
+
+いくつかの設定画面については補足説明がありますので、以下のリンクよりご覧ください。
+
+.. toctree::
+   :maxdepth: 2
+
+   Quantum ESPRESSO<inputeditorqe>
+   LAMMPS<inputeditorlammps>
 
 .. _texteditor:
 
