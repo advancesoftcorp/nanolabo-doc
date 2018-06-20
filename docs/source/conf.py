@@ -160,6 +160,8 @@ texinfo_documents = [
 # -- Extension configuration -------------------------------------------------
 locale_dirs = ["../locale"]
 
+imgmath_image_format = 'svg'
+
 def setup(app):
     app.add_stylesheet('css/custom.css')
     app.add_javascript('js/movies.js')
