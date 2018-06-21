@@ -4,7 +4,13 @@
 モデラ―
 ===========================
 
-原子構造の高度な編集を行います。モデラ―上で行った編集は、 :guilabel:`Reflect on Input-file` をクリックすることでプロジェクトに反映されます。 :guilabel:`Initialize Model` をクリックすると、編集を行う前（モデラ―画面を開いた時点）の状態に戻ります。
+原子構造の高度な編集を行います。左下のメニュー |projectmenuicon| から :guilabel:`Modeler` をクリックして、モデラ―画面を開いてください。
+
+モデラ―上で行った編集は、 :guilabel:`Reflect on Input-file` をクリックすることでプロジェクトに反映されます。 :guilabel:`Initialize Model` をクリックすると、編集を行う前（モデラ―画面を開いた時点）の状態に戻ります。
+
+編集が終わりましたら、左下の戻るボタン |back| をクリックしてプロジェクト画面に戻ります。
+
+.. |projectmenuicon| image:: /img/projectmenuicon.png
 
 .. _translation:
 
