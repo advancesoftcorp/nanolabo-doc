@@ -58,6 +58,15 @@ LAMMPSホームページ
 マニュアル
  http://lammps.sandia.gov/doc/Manual.html
 
+材料データベース
+===================
+
+Materials Project
+ https://materialsproject.org/
+
+PubChem
+ https://pubchem.ncbi.nlm.nih.gov/
+
 .. |lsquo| raw:: html
 
    &lsquo;

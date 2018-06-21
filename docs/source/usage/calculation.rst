@@ -9,7 +9,7 @@
 .. |projectmenuicon| image:: /img/projectmenuicon.png
 
 - Job
-   （Quantum ESPRESSOのみ）計算エンジンでどの計算を行うか選択します。
+   （\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_\ のみ）計算エンジンでどの計算を行うか選択します。
 
 - Parallel
    並列計算を行う場合、その並列数を設定します。

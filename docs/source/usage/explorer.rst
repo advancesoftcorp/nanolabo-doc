@@ -72,19 +72,27 @@
    :widths: auto
 
    +---------------+-----------------------------------------------------------------+
-   | .cif          | Crystallographic Information Framework                          |
+   | .cif          | `Crystallographic Information Framework`_                       |
    +---------------+-----------------------------------------------------------------+
    | .xyz          | XYZ chemical file format                                        |
    +---------------+-----------------------------------------------------------------+
-   | .xsf          | XCrySDen file format                                            |
+   | .xsf          | `XCrySDen file format`_                                         |
    +---------------+-----------------------------------------------------------------+
-   | .POSCAR       | VASP input file                                                 |
+   | .POSCAR       | `VASP input file`_                                              |
    +---------------+-----------------------------------------------------------------+
-   | .in           | QE input file                                                   |
+   | .in           | `Quantum ESPRESSO input file`_                                  |
    +---------------+-----------------------------------------------------------------+
-   | nfinp.data    | Advance/PHASE input file                                        |
+   | nfinp.data    | `Advance/PHASE`_ input file                                     |
    +---------------+-----------------------------------------------------------------+
-   | .cube, .cub   | Gaussian cube file                                              |
+   | .cube, .cub   | `Gaussian cube file`_                                           |
    +---------------+-----------------------------------------------------------------+
-   | .lmp          | LAMMPS data file                                                |
+   | .lmp          | `LAMMPS data file`_                                             |
    +---------------+-----------------------------------------------------------------+
+
+.. _`Crystallographic Information Framework`: https://www.iucr.org/resources/cif
+.. _`XCrySDen file format`: http://www.xcrysden.org/doc/XSF.html
+.. _`VASP input file`: http://cms.mpi.univie.ac.at/vasp/vasp/POSCAR_file.html
+.. _`Quantum ESPRESSO input file`: https://www.quantum-espresso.org/Doc/INPUT_PW.html
+.. _`Advance/PHASE`: http://www.advancesoft.jp/product/advance_phase/
+.. _`Gaussian cube file`: http://gaussian.com/cubegen/
+.. _`LAMMPS data file`: http://lammps.sandia.gov/doc/read_data.html
