@@ -15,12 +15,12 @@
    :maxdepth: 2
    :caption: 目次:
 
-   インストール<install>
-   使用の流れ<flow>
-   各画面の説明<usage>
-   デモ動画<demo>
-   バージョン情報<version>
-   リンク<link>
+   install
+   flow
+   usage
+   demo
+   version
+   link
 
 .. Indices and tables
    ==================
