@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-07 18:03+0900\n"
+"POT-Creation-Date: 2018-06-22 15:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,73 +18,71 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../flow.rst:3
+#: ../../flow.rst:5
 msgid "使用の流れ"
-msgstr "usage outline"
-
-#: ../../flow.rst:7
-msgid "解析したい物質を決めます。"
-msgstr ""
-
-#: ../../flow.rst:12
-msgid "原子構造ファイルを用意します。"
-msgstr ""
+msgstr "Usage Outline"
 
 #: ../../flow.rst:10
+msgid "解析したい物質を決めます。"
+msgstr "Decide a substance you'd like to analyze."
+
+#: ../../flow.rst:10
+msgid "\\"
+msgstr "\\"
+
+#: ../../flow.rst:15
+msgid "原子構造情報ファイルを用意します。"
+msgstr "Get the atomic structure information file."
+
+#: ../../flow.rst:13
 msgid ""
-"画面上部の検索ボックスから、外部の材料データベース(Materials "
-"Project)を物質名や化学式で検索できます。また、お手持ちの構造ファイルを使用することもできます。"
+"画面上部の検索ボックスから、外部の材料データベース（\\ `Materials Project "
+"<https://materialsproject.org/>`_\\ 、\\ `PubChem "
+"<https://pubchem.ncbi.nlm.nih.gov/>`_\\ "
+"）を物質名や化学式で検索できます。また、お手持ちのファイルを読み込んだり、原子構造の編集（モデリング）ができます。"
+msgstr ""
+"Search external material databases (\\ `Materials Project "
+"<https://materialsproject.org/>`_\\ , `PubChem "
+"<https://pubchem.ncbi.nlm.nih.gov/>`_\\ ) by substance name or chemical "
+"formula from the search box at the top of the window. Also, you can "
+"import the files you have, or modify the atomic structure (Modeling)."
+
+#: ../../flow.rst:15
+msgid "(\\ |rarr|\\ :doc:`usage/initial` |rarr|\\ :doc:`usage/explorer`)"
 msgstr ""
 
-#: ../../flow.rst:12
-msgid ""
-"（:doc:`→初期画面<usage/initial>`  :doc:`→Materials API<usage/materialsapi>`  "
-":doc:`→エクスプローラー<usage/explorer>`）"
+#: ../../flow.rst:20
+msgid "解析の方法（計算エンジン）を選び、設定を行います。"
 msgstr ""
+"Select the analysis method (calculation engine) and configure the "
+"calculation."
 
-#: ../../flow.rst:14
-msgid "解析の方法（計算ソルバー）を選び、設定を行います。"
+#: ../../flow.rst:18
+msgid "計算条件などを指定する入力ファイルをGUI上で作成できます。"
 msgstr ""
+"You can create the input files on GUI to specify the calculation "
+"conditions etc."
 
-#: ../../flow.rst:16
-msgid "（:doc:`→設定ファイルエディタ<usage/inputeditor>`）"
-msgstr ""
+#: ../../flow.rst:20
+msgid "(\\ |rarr|\\ :doc:`usage/project` |rarr|\\ :doc:`usage/inputeditor`)"
+msgstr "(\\ |rarr|\\ :doc:`usage/project` |rarr|\\ :doc:`usage/inputeditor`)"
 
-#: ../../flow.rst:21
-msgid "プロジェクトとして保存し、計算を実行します。"
-msgstr ""
+#: ../../flow.rst:23
+msgid "計算を実行します。"
+msgstr "Run the calculation."
 
-#: ../../flow.rst:19
-msgid "1つの構造ファイルに対し、計算の設定ファイル・出力ファイルをまとめて「プロジェクト」として管理します。"
-msgstr ""
+#: ../../flow.rst:23
+msgid "(\\ |rarr|\\ :doc:`usage/calculation`)"
+msgstr "(\\ |rarr|\\ :doc:`usage/calculation`)"
 
-#: ../../flow.rst:21
-msgid "（:doc:`→プロジェクト<usage/project>`  :doc:`→計算実行<usage/calculation>`）"
-msgstr ""
-
-#: ../../flow.rst:25
+#: ../../flow.rst:28
 msgid "結果を確認します。"
-msgstr ""
-
-#: ../../flow.rst:24
-msgid "画像や動画として結果を可視化し、ご活用ください。"
-msgstr ""
+msgstr "Check the result."
 
 #: ../../flow.rst:26
-msgid "（:doc:`→結果表示<usage/result>`）"
-msgstr ""
+msgid "画像や動画として結果を可視化し、ご活用ください。"
+msgstr "Visualize the results as images or movies, and then utilize them."
 
-#~ msgid ""
-#~ "画面上部の検索ボックスから、外部の材料データベース(Materials "
-#~ "Project)を化学式で検索できます。また、お手持ちの構造ファイルを使用することもできます。"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "（:doc:`→初期画面 <usage/initial>`  :doc:`→Materials API"
-#~ " <usage/materialsapi>`  :doc:`→エクスプローラー "
-#~ "<usage/explorer>`）"
-#~ msgstr ""
-
-#~ msgid "（:doc:`→プロジェクト <usage/project>`）"
-#~ msgstr ""
-
+#: ../../flow.rst:28
+msgid "(\\ |rarr|\\ :doc:`usage/result`)"
+msgstr "(\\ |rarr|\\ :doc:`usage/result`)"

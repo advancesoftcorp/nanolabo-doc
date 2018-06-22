@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-29 18:13+0900\n"
+"POT-Creation-Date: 2018-06-19 14:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../version.rst:3
+#: ../../version.rst:5
 msgid "バージョン情報"
-msgstr "version"
+msgstr "Version Information"
+
+#: ../../version.rst:7
+msgid "2018/08/01 バージョン1.0"
+msgstr "2018/08/01 Version 1.0"
+
+#: ../../version.rst:8
+msgid "初回リリース"
+msgstr "Initial release"
 

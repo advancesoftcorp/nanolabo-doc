@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-05 10:31+0900\n"
+"POT-Creation-Date: 2018-06-22 13:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../demo.rst:3
+#: ../../demo.rst:5
 msgid "デモ動画"
-msgstr "demo movie"
+msgstr "Demo Movies"
 
+#: ../../demo.rst:10
+msgid "Quantum ESPRESSOのインプットファイル作成"
+msgstr "Creating input files for Quantum ESPRESSO"
+
+#: ../../demo.rst:12
+msgid "検索窓に化学式を入力し、 :kbd:`Enter` キーを押すと、対応する構造情報ファイルが一覧で表示されます。"
+msgstr "Type the chemical formula in the search box and press :kbd:`Enter` key to list the corresponding structure information files."
+
+#: ../../demo.rst:20
+msgid "ファイルを選択すると新しい画面が開き、Quantum ESPRESSOのインプットファイルを作成できます。"
+msgstr "When you select a file, a new screen opens and you can create input files for Quantum ESPRESSO."
+
+#: ../../demo.rst:32
+msgid "Quantum ESPRESSOの計算実行"
+msgstr "Running Quantum ESPRESSO calculation"
+
+#: ../../demo.rst:34
+msgid "構造最適化"
+msgstr "Structure optimization"
+
+#: ../../demo.rst:42
+msgid "状態密度"
+msgstr "Density of states"
+
+#: ../../demo.rst:50
+msgid "バンド構造"
+msgstr "Band structure"
+
+#: ../../demo.rst:58
+msgid "分子動力学計算"
+msgstr "Molecular dynamics calculation"
+
+#: ../../demo.rst:69
+msgid "モデル作成"
+msgstr "Modeler"
+
+#: ../../demo.rst:71
+msgid "超格子"
+msgstr "Super cell"
+
+#: ../../demo.rst:79
+msgid "スラブモデル"
+msgstr "Slab model"
+
+#: ../../demo.rst:90
+msgid "表示デザイン変更"
+msgstr "Changing display design"

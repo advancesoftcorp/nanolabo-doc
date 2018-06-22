@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-29 18:13+0900\n"
+"POT-Creation-Date: 2018-06-22 13:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,159 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../link.rst:3
+#: ../../link.rst:5
 msgid "リンク"
-msgstr "links"
+msgstr "Link"
+
+#: ../../link.rst:8
+msgid "Advance/PHASE"
+msgstr ""
+
+#: ../../link.rst:11
+msgid "Advance/PHASEホームページ"
+msgstr "Advance/PHASE home page"
+
+#: ../../link.rst:11
+msgid "http://www.advancesoft.jp/product/advance_phase/"
+msgstr ""
+
+#: ../../link.rst:14
+msgid "アドバンスソフト株式会社"
+msgstr "AdvanceSoft Corporation"
+
+#: ../../link.rst:14
+msgid "http://www.advancesoft.jp/"
+msgstr ""
+
+#: ../../link.rst:17
+msgid "Quantum ESPRESSO"
+msgstr ""
+
+#: ../../link.rst:20
+msgid "Quantum ESPRESSO ホームページ"
+msgstr "Quantum ESPRESSO home page"
+
+#: ../../link.rst:20
+msgid "http://www.quantum-espresso.org/"
+msgstr ""
+
+#: ../../link.rst:23
+msgid "擬ポテンシャル"
+msgstr "Pseudo potential"
+
+#: ../../link.rst:23
+msgid "http://www.quantum-espresso.org/pseudopotentials/original-qe-pp-library"
+msgstr ""
+
+#: ../../link.rst:26
+msgid "|lsquo|\\ pw.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ pw.x\\ |rsquo| manual"
+
+#: ../../link.rst:26
+msgid "http://www.quantum-espresso.org/Doc/INPUT_PW.html"
+msgstr ""
+
+#: ../../link.rst:29
+msgid "|lsquo|\\ dos.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ dos.x\\ |rsquo| manual"
+
+#: ../../link.rst:29
+msgid "http://www.quantum-espresso.org/Doc/INPUT_DOS.html"
+msgstr ""
+
+#: ../../link.rst:32
+msgid "|lsquo|\\ projwfc.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ projwfc.x\\ |rsquo| manual"
+
+#: ../../link.rst:32
+msgid "http://www.quantum-espresso.org/Doc/INPUT_PROJWFC.html"
+msgstr ""
+
+#: ../../link.rst:35
+msgid "|lsquo|\\ band.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ band.x\\ |rsquo| manual"
+
+#: ../../link.rst:35
+msgid "http://www.quantum-espresso.org/Doc/INPUT_BANDS.html"
+msgstr ""
+
+#: ../../link.rst:38
+msgid "|lsquo|\\ turbo_lanczos.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ turbo_lanczos.x\\ |rsquo| manual"
+
+#: ../../link.rst:38
+msgid "http://www.quantum-espresso.org/Doc/INPUT_Lanczos.html"
+msgstr ""
+
+#: ../../link.rst:41
+msgid "|lsquo|\\ turbo_eels.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ turbo_eels.x\\ |rsquo| manual"
+
+#: ../../link.rst:41
+msgid "http://www.quantum-espresso.org/Doc/INPUT_EELS.html"
+msgstr ""
+
+#: ../../link.rst:44
+msgid "|lsquo|\\ turbo_spectrum.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ turbo_spectrum.x\\ |rsquo| manual"
+
+#: ../../link.rst:44
+msgid "http://www.quantum-espresso.org/Doc/INPUT_Spectrum.html"
+msgstr ""
+
+#: ../../link.rst:47
+msgid "|lsquo|\\ ph.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ ph.x\\ |rsquo| manual"
+
+#: ../../link.rst:47
+msgid "http://www.quantum-espresso.org/Doc/INPUT_PH.html"
+msgstr ""
+
+#: ../../link.rst:50
+msgid "|lsquo|\\ dynmat.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ dynmat.x\\ |rsquo| manual"
+
+#: ../../link.rst:50
+msgid "http://www.quantum-espresso.org/Doc/INPUT_DYNMAT.html"
+msgstr ""
+
+#: ../../link.rst:53
+msgid "LAMMPS"
+msgstr ""
+
+#: ../../link.rst:56
+msgid "LAMMPSホームページ"
+msgstr "LAMMPS home page"
+
+#: ../../link.rst:56
+msgid "http://lammps.sandia.gov/"
+msgstr ""
+
+#: ../../link.rst:59
+msgid "マニュアル"
+msgstr "Manual"
+
+#: ../../link.rst:59
+msgid "http://lammps.sandia.gov/doc/Manual.html"
+msgstr ""
+
+#: ../../link.rst:62
+msgid "材料データベース"
+msgstr "Materials database"
+
+#: ../../link.rst:65
+msgid "Materials Project"
+msgstr ""
+
+#: ../../link.rst:65
+msgid "https://materialsproject.org/"
+msgstr ""
+
+#: ../../link.rst:68
+msgid "PubChem"
+msgstr ""
+
+#: ../../link.rst:68
+msgid "https://pubchem.ncbi.nlm.nih.gov/"
+msgstr ""
 
