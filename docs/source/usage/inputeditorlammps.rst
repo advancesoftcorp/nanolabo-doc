@@ -39,7 +39,11 @@ Scheme（計算過程）
 
 .. |editormenuicon| image:: /img/editormenuicon.png
 
-画面右側のパネルで計算の設定を行い、 :guilabel:`Add Scheme` の :guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定→ :guilabel:`Apply` を繰り返して過程を追加していきます。
+画面右側のパネルで計算の設定を行い、 :guilabel:`Add Scheme` の :guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| :guilabel:`Apply` を繰り返して過程を追加していきます。
+
+.. |rarr| raw:: html
+
+   &rarr;
 
 タイルの左上の数字が過程の実行される順番です。前へボタン |lpback| 、後へボタン |lpfwd| で順番を入れ替えます。削除ボタン |lpdel| で削除します。
 
