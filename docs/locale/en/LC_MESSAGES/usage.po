@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-07 18:03+0900\n"
+"POT-Creation-Date: 2018-06-25 19:52+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,100 +19,1308 @@ msgstr ""
 "Generated-By: Babel 2.5.3\n"
 
 #: ../../usage.rst:3
-#, fuzzy
-msgid "各画面の操作説明"
-msgstr "description of each screen"
+msgid "各画面の説明"
+msgstr "Screen by Screen Guide"
 
-#: ../../usage/atomsviewer.rst:3
+#: ../../usage/atomsviewer.rst:5
 msgid "原子構造ビューワー"
-msgstr ""
+msgstr "Atomic Structure Viewer"
 
-#: ../../usage/calculation.rst:3
+#: ../../usage/atomsviewer.rst:7
+msgid ""
+"プロジェクト画面内では、原子構造情報ファイルが3Dモデルとして表示されます。原子構造の簡単な編集もこの画面内で行うことができます。より高度な編集機能は\\"
+" :doc:`モデラ―<modeler>`\\ 画面でご使用いただけます。"
+msgstr ""
+"In the project view, atomic structure information file is displayed as 3D"
+" model. Simple editing of atomic structure can also be done within this "
+"view. More advanced editing functions can be used on the :doc:`modeler` "
+"view."
+
+#: ../../usage/atomsviewer.rst:12
+msgid "視点の操作"
+msgstr "Viewpoint manipulation"
+
+#: ../../usage/atomsviewer.rst:18
+msgid "操作"
+msgstr "Operation"
+
+#: ../../usage/atomsviewer.rst:18
+msgid "マウス"
+msgstr "Mouse"
+
+#: ../../usage/atomsviewer.rst:18
+msgid "キーボード"
+msgstr "Keyboard"
+
+#: ../../usage/atomsviewer.rst:20
+msgid "回転"
+msgstr "Rotation"
+
+#: ../../usage/atomsviewer.rst:20
+msgid "ドラッグ"
+msgstr "Drag"
+
+#: ../../usage/atomsviewer.rst:20
+msgid "矢印キー"
+msgstr "Arrow key"
+
+#: ../../usage/atomsviewer.rst:22
+msgid "ズーム"
+msgstr "Zoom"
+
+#: ../../usage/atomsviewer.rst:22
+msgid "ホイールスクロール"
+msgstr "Wheel scroll"
+
+#: ../../usage/atomsviewer.rst:22
+msgid ":kbd:`Alt` + 上下矢印キー"
+msgstr ":kbd:`Alt` + Up or Down arrow key"
+
+#: ../../usage/atomsviewer.rst:24 ../../usage/explorer.rst:16
+msgid "移動"
+msgstr "Move"
+
+#: ../../usage/atomsviewer.rst:24
+msgid "ホイールドラッグ"
+msgstr "Wheel drag"
+
+#: ../../usage/atomsviewer.rst:24
+msgid ":kbd:`Shift` + 矢印キー"
+msgstr ":kbd:`Shift` + Arrow key"
+
+#: ../../usage/atomsviewer.rst:30
+msgid "表示デザインの変更"
+msgstr "Changing display design"
+
+#: ../../usage/atomsviewer.rst:32
+msgid ""
+"画面左下のメニュー |projectmenuicon| から :guilabel:`Designer` "
+"をクリックして、デザイン変更画面を開いてください。画面右側のパネルで、3Dモデルの表示方法を詳細に設定できます。設定が終わりましたら、左下の戻るボタン"
+" |back| をクリックして元の画面に戻ります。"
+msgstr ""
+"From the menu |projectmenuicon| on the lower left of the window, click "
+":guilabel:`Designer` to open designer view. In the panel on the right "
+"side of the window, you can set the way how the 3D model is shown. When "
+"done, click back button |back| on the lower left to go back to previous "
+"view."
+
+#: ../../usage/atomsviewer.rst:42
+msgid "原子構造の簡単な編集"
+msgstr "Simple editing of atomic structure"
+
+#: ../../usage/atomsviewer.rst:47
+msgid "原子の変更"
+msgstr "Changing atom"
+
+#: ../../usage/atomsviewer.rst:49
+msgid ""
+"変更したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + "
+"右ドラッグで選択します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Rename selected "
+"atoms` をクリックします。"
+msgstr ""
+"Right click the atom you'd like to change. Select multiple atoms by "
+":kbd:`Ctrl` + right drag. The target atom(s) is now displayed in wire "
+"frame. Click :guilabel:`Rename selected atoms` from the menu."
+
+#: ../../usage/atomsviewer.rst:50
+msgid "周期律表が表示されますので、元素を選択してください。"
+msgstr "Choose an element from the periodic table."
+
+#: ../../usage/atomsviewer.rst:51
+msgid "原子が選択した元素に変更されます。"
+msgstr "The atom(s) is changed to the selected element."
+
+#: ../../usage/atomsviewer.rst:56
+msgid "原子の削除"
+msgstr "Deleting atom"
+
+#: ../../usage/atomsviewer.rst:58
+msgid ""
+"削除したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + "
+"右ドラッグで選択します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Delete selected "
+"atoms` をクリックします。"
+msgstr ""
+"Right click the atom you'd like to remove. Select multiple atoms by "
+":kbd:`Ctrl` + right drag. The target atom(s) is now displayed in wire "
+"frame. Click :guilabel:`Delete selected atoms` from the menu."
+
+#: ../../usage/atomsviewer.rst:59
+msgid "確認が表示されますので、 :guilabel:`OK` をクリックすると、原子が削除されます。"
+msgstr "Confirmation window appears. Click :guilabel:`OK` to delete the atom(s)."
+
+#: ../../usage/atomsviewer.rst:64
+msgid "原子の移動"
+msgstr "Moving atom"
+
+#: ../../usage/atomsviewer.rst:66
+msgid ""
+"移動したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + "
+"右ドラッグで選択します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Move selected "
+"atoms` をクリックします。"
+msgstr ""
+"Right click the atom you'd like to move. Select multiple atoms by "
+":kbd:`Ctrl` + right drag. The target atom(s) is now displayed in wire "
+"frame. Click :guilabel:`Move selected atoms` from the menu."
+
+#: ../../usage/atomsviewer.rst:67
+msgid "緑色の平面と、黒色の法線が表示されます。ドラッグ（または矢印キー）で平面を回転させます。選択した原子をドラッグすると、平面に沿って移動させることができます。"
+msgstr ""
+"Green plane and black normal line are shown. Use dragging (or arrow keys)"
+" to rotate the plane. Then you can drag selected atom(s) along the plane."
+
+#: ../../usage/atomsviewer.rst:68
+msgid "ドロップ（マウスのボタンを離す）すると、位置が確定します。"
+msgstr "Drop (release mouse button) to determine the position."
+
+#: ../../usage/atomsviewer.rst:73
+msgid "原子の追加"
+msgstr "Putting atom"
+
+#: ../../usage/atomsviewer.rst:75
+msgid "原子を追加したい位置を右クリックし、メニューから :guilabel:`Put an atom` をクリックします。"
+msgstr ""
+"Right click where you want to put an atom. Click :guilabel:`Put an atom` "
+"from the menu."
+
+#: ../../usage/atomsviewer.rst:76
+msgid "周期律表が表示されますので、元素を選択すると、原子が追加されます。"
+msgstr "Choose an element from the periodic table to put the atom."
+
+#: ../../usage/calculation.rst:5
 msgid "計算実行"
+msgstr "Running Calculation"
+
+#: ../../usage/calculation.rst:7
+msgid ""
+"プロジェクト画面左下のメニュー |projectmenuicon| から :guilabel:`Run` をクリックすると、計算ジョブの設定を行う"
+" :guilabel:`Run a job` ウィンドウが表示されます。"
+msgstr ""
+"From the menu |projectmenuicon| on the lower left of the project view, "
+"click :guilabel:`Run` to open :guilabel:`Run a job` window, where you can"
+" configure the calculation job."
+
+#: ../../usage/calculation.rst:12
+msgid "Job"
 msgstr ""
 
-#: ../../usage/explorer.rst:3
-msgid "エクスプローラー"
-msgstr "explorer"
+#: ../../usage/calculation.rst:12
+msgid ""
+"（\\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_\\ "
+"のみ）計算エンジンでどの計算を行うか選択します。"
+msgstr ""
+"(\\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_ only) Choose "
+"which calculation to run with the calculation engine."
 
-#: ../../usage/initial.rst:3
-msgid "画面の構成"
+#: ../../usage/calculation.rst:15
+msgid "Parallel"
+msgstr "Parallel"
+
+#: ../../usage/calculation.rst:15
+msgid "並列計算を行う場合、その並列数を設定します。"
+msgstr "If you'd like to perform parallel calculation, set the parallel number."
+
+#: ../../usage/calculation.rst:18
+msgid "Host"
+msgstr "Host"
+
+#: ../../usage/calculation.rst:18
+msgid "別のコンピューターで計算を行う場合、そのホスト名を選択します。"
+msgstr "If you'd like to calculate on another computer, select that host name."
+
+#: ../../usage/calculation.rst:21
+msgid "Project"
+msgstr "Project"
+
+#: ../../usage/calculation.rst:21
+msgid "プロジェクトが保存されていない場合は、 :guilabel:`Save Project` ボタンをクリックして保存してから計算を実行してください。"
+msgstr ""
+"If the project is not saved, click :guilabel:`Save Project` button here "
+"before running the calculation."
+
+#: ../../usage/calculation.rst:23
+msgid "設定後、 :guilabel:`OK` をクリックすると、計算が実行されます。"
+msgstr "After configuration finished, click :guilabel:`OK` to run the calculation."
+
+#: ../../usage/calculation.rst:28
+msgid "計算ジョブ管理"
+msgstr "Managing calculation job"
+
+#: ../../usage/calculation.rst:30
+msgid ""
+"実行中・実行待機中の計算ジョブは、エクスプローラーの :guilabel:`Calculating` "
+"に一覧表示されます。各計算ジョブは3Dモデルのアイコンで表示され、左上には計算エンジン、右下には計算の種類を示すラベルが表示されています。右下のラベルの色は計算ジョブの状態を示しており、赤色が実行中、黄色が実行待機中です。ジョブが終了すると、ラベルが緑色になり、"
+" :guilabel:`Calculating` から消えます。"
+msgstr ""
+"Running/waiting caclucation jobs are listed in :guilabel:`Calculating` in"
+" explorer. Each calculation job is shown as 3D model icon with "
+"calculation engine label on the upper left and calculation type label on "
+"the lower right. The label on lower right indicates the state of the job:"
+" red for running and yerrow for waiting. When the job is finished, the "
+"label turns green, and then the icon disappers from "
+":guilabel:`Calculating` ."
+
+#: ../../usage/calculation.rst:34
+msgid ""
+"実行中・実行待機中の計算ジョブを中止するには、プロジェクト画面を開き、画面右側のパネルの :guilabel:`Stop Calculation`"
+" をクリックしてください。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー |projectmenuicon|"
+" から :guilabel:`Result` をクリックしてください。）"
+msgstr ""
+"To abort running/waiting job, open the project view and click "
+":guilabel:`Stop Calculation` on the right side panel. (In case input file"
+" editor is shown in project view, first click :guilabel:`Result` from the"
+" menu |projectmenuicon| on lower left.)"
+
+#: ../../usage/calculation.rst:39
+msgid "計算がうまくいかない場合"
+msgstr "Troubleshooting"
+
+#: ../../usage/calculation.rst:41
+msgid ""
+"計算が正常に実行できなかった場合、 :guilabel:`Error` "
+"ウィンドウが表示されます。エラーの内容を確認するには、プロジェクト画面を開き、 :guilabel:`CRASH` "
+"をクリックして、エラーログを表示してください。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー "
+"|projectmenuicon| から :guilabel:`Result` をクリックしてください。）"
+msgstr ""
+"When a calculation failed, :guilabel:`Error` window is shown. To look "
+"into the error, open project view and click :guilabel:`CRASH` to display "
+"the error log. (In case input file editor is shown in project view, first"
+" click :guilabel:`Result` from the menu |projectmenuicon| on lower left.)"
+
+#: ../../usage/explorer.rst:5
+msgid "エクスプローラー"
+msgstr "Explorer"
+
+#: ../../usage/explorer.rst:7
+msgid "プロジェクトや構造情報ファイルなどを表示・管理します。表示領域には、本ソフトウェアで扱える項目のみが表示されます。原子構造はアイコンが3D表示され、ドラッグ操作で回転させて確認できます。（プロジェクトの実体はフォルダー（ディレクトリ）ですが、構造情報ファイルと同様に表示されます。）"
+msgstr ""
+"Display and manage projects and structure information files. Only items "
+"that can be handled by this software are shown in the display area. "
+"Atomic structure is shown as 3D icon and can be rotated by dragging. (A "
+"project is in actuality a folder (directory), but is displayed in the "
+"same way as structure information file.)"
+
+#: ../../usage/explorer.rst:9
+msgid "解析したい構造情報ファイルを開くと、解析を行うプロジェクト画面に移行できます。"
+msgstr ""
+"Open a structure information file to switch to the project view, where "
+"you can perform analysis."
+
+#: ../../usage/explorer.rst:18
+msgid "左のパネルの各項目をクリックして移動します。"
+msgstr "Click on each item on the left panel to move."
+
+#: ../../usage/explorer.rst:24
+msgid "Recently Used"
+msgstr ""
+
+#: ../../usage/explorer.rst:24
+msgid "最近使用した項目が一覧できます。"
+msgstr "Items recently used are listed."
+
+#: ../../usage/explorer.rst:26
+msgid "My Computer"
+msgstr ""
+
+#: ../../usage/explorer.rst:26
+msgid "ルート（Windowsでは :file:`C:`、Linuxでは :file:`/`）に移動します。"
+msgstr "Move to the root (\\ :file:`C:` on Windows, :file:`/` on Linux)."
+
+#: ../../usage/explorer.rst:28
+msgid "My Projects"
+msgstr ""
+
+#: ../../usage/explorer.rst:28
+msgid "プロジェクトの保存場所に移動します。"
+msgstr "Move to where projects are stored."
+
+#: ../../usage/explorer.rst:30
+msgid "Advance/PHASE"
+msgstr ""
+
+#: ../../usage/explorer.rst:30
+msgid "弊社PHASE-Viewerのプロジェクトの保存場所に移動します。"
+msgstr "Move to where PHASE-Viewer (our product) projects are stored."
+
+#: ../../usage/explorer.rst:32
+msgid "Calculating"
+msgstr ""
+
+#: ../../usage/explorer.rst:32
+msgid "計算中、または待機中の計算ジョブが一覧できます。"
+msgstr "Running or waiting calculation jobs are listed."
+
+#: ../../usage/explorer.rst:34
+msgid "Searched"
+msgstr ""
+
+#: ../../usage/explorer.rst:34
+msgid "直前の材料データベース検索結果を表示します。"
+msgstr "Previous result of materials database search is shown."
+
+#: ../../usage/explorer.rst:36
+msgid "Web"
+msgstr ""
+
+#: ../../usage/explorer.rst:36
+msgid "内蔵ウェブブラウザのブックマークを表示します。"
+msgstr "Bookmarks of internal web browser are shown."
+
+#: ../../usage/explorer.rst:38
+msgid "Downloads"
+msgstr ""
+
+#: ../../usage/explorer.rst:38
+msgid "ウェブサイトからダウンロードしたファイルの保存場所に移動します。"
+msgstr "Move to the destination folder of files downloaded from websites."
+
+#: ../../usage/explorer.rst:44
+msgid "ナビボタン"
+msgstr "Navi buttons"
+
+#: ../../usage/explorer.rst:46
+msgid ""
+"戻るボタン |back| 、進むボタン |fwd| でこれまでに表示した場所に移動します。上へボタン |up| "
+"で一つ上のフォルダ（ディレクトリ）に移動します。"
+msgstr ""
+"Click back button |back| or forward button |fwd| to move to previously "
+"displayed locations. Click up button |up| to move to parent folder "
+"(directory)."
+
+#: ../../usage/explorer.rst:55
+msgid "ロケーションバー"
+msgstr "Location bar"
+
+#: ../../usage/explorer.rst:57
+msgid ""
+"表示している場所のパス（コンピューター内の場所）を表示します。パスを入力し :kbd:`Enter` "
+"キーを押すと、その場所に移動します。WindowsでCドライブ以外の場所を表示したい場合はこちらをご使用ください。"
+msgstr ""
+"Shows the path (location in the computer) of currently displayed "
+"location. Type a path and press :kbd:`Enter` key to move to the location."
+" Use this function if you'd like to move to a location other than C drive"
+" on Windows."
+
+#: ../../usage/explorer.rst:62
+msgid "表示変更"
+msgstr "View"
+
+#: ../../usage/explorer.rst:64
+msgid "表示領域のアイコンの大きさを選択します。 :guilabel:`List` を選択すると、各項目の詳細情報をリスト表示します。"
+msgstr ""
+"Choose the size of icons in the display area. Select :guilabel:`List` to "
+"list detailed information of each item."
+
+#: ../../usage/explorer.rst:69
+msgid "対応する構造情報ファイル形式"
+msgstr "Supported structure information files"
+
+#: ../../usage/explorer.rst:75
+msgid ".cif"
+msgstr ""
+
+#: ../../usage/explorer.rst:75
+msgid "`Crystallographic Information Framework`_"
+msgstr ""
+
+#: ../../usage/explorer.rst:77
+msgid ".xyz"
+msgstr ""
+
+#: ../../usage/explorer.rst:77
+msgid "XYZ chemical file format"
+msgstr ""
+
+#: ../../usage/explorer.rst:79
+msgid ".xsf"
+msgstr ""
+
+#: ../../usage/explorer.rst:79
+msgid "`XCrySDen file format`_"
+msgstr ""
+
+#: ../../usage/explorer.rst:81
+msgid ".POSCAR"
+msgstr ""
+
+#: ../../usage/explorer.rst:81
+msgid "`VASP input file`_"
+msgstr ""
+
+#: ../../usage/explorer.rst:83
+msgid ".in"
+msgstr ""
+
+#: ../../usage/explorer.rst:83
+msgid "`Quantum ESPRESSO input file`_"
+msgstr ""
+
+#: ../../usage/explorer.rst:85
+msgid "nfinp.data"
+msgstr ""
+
+#: ../../usage/explorer.rst:85
+msgid "`Advance/PHASE`_ input file"
+msgstr ""
+
+#: ../../usage/explorer.rst:87
+msgid ".cube, .cub"
+msgstr ""
+
+#: ../../usage/explorer.rst:87
+msgid "`Gaussian cube file`_"
+msgstr ""
+
+#: ../../usage/explorer.rst:89
+msgid ".lmp"
+msgstr ""
+
+#: ../../usage/explorer.rst:89
+msgid "`LAMMPS data file`_"
 msgstr ""
 
 #: ../../usage/initial.rst:5
-msgid "画面の基本的な構成と、ヘッダーバーの操作を説明します。"
-msgstr ""
+msgid "画面の構成"
+msgstr "User Interface Overview"
 
-#: ../../usage/initial.rst:8
+#: ../../usage/initial.rst:7
+msgid "画面の基本的な構成と、ヘッダーバーの操作を説明します。"
+msgstr "Overview of display layout and usage of header bar."
+
+#: ../../usage/initial.rst:14
 msgid "タブ"
-msgstr ""
+msgstr "Tab"
 
 #: ../../usage/initial.rst:16
-msgid "ヘッダーバー"
+msgid "開いているプロジェクトはタブで一覧でき、プロジェクトを切り替えながら解析を行えます。"
 msgstr ""
+"Opened projects are shown as tabs, and you can switch from one project to"
+" another while performing analysis."
 
 #: ../../usage/initial.rst:18
-msgid "常時表示されているヘッダー"
-msgstr ""
+msgid "内蔵ウェブブラウザで開いているページもタブとして表示されます。"
+msgstr "Web pages opened in the internal web browser are also shown as tabs."
 
-#: ../../usage/initial.rst:22
-msgid "メインメニュー"
+#: ../../usage/initial.rst:20
+msgid "タブ領域の一番左にはホームタブがあり、エクスプローラーが表示できます。"
 msgstr ""
+"Home tab is located at the left end of the tab area. Click it to show "
+"explorer."
 
 #: ../../usage/initial.rst:25
-msgid "左上"
-msgstr ""
+msgid "ヘッダーバー"
+msgstr "Header bar"
 
-#: ../../usage/initial.rst:29
-msgid "材料データベース検索"
-msgstr ""
+#: ../../usage/initial.rst:27
+msgid "常に画面上部に表示されているバーです。"
+msgstr "A bar always displayed at the top of the window."
 
 #: ../../usage/initial.rst:32
-msgid "右上"
+msgid "メインメニュー"
+msgstr "Main menu"
+
+#: ../../usage/initial.rst:34
+msgid "左上のアイコン |mainmenuicon| をクリックしてメインメニューを開きます。ここでは全般的な設定等を行います。"
+msgstr ""
+"Click the icon |mainmenuicon| located at upper left to open mein menu. "
+"Here you can do general settings etc."
+
+#: ../../usage/initial.rst:40
+msgid "メインメニューの項目"
+msgstr "Items in main menu"
+
+#: ../../usage/initial.rst:42
+msgid ":guilabel:`About`"
 msgstr ""
 
-#: ../../usage/inputeditor.rst:3
-msgid "設定ファイルエディタ"
+#: ../../usage/initial.rst:42
+msgid "バージョン情報などを表示します。"
+msgstr "Version information etc."
+
+#: ../../usage/initial.rst:44
+msgid ":guilabel:`Documents`"
 msgstr ""
 
-#: ../../usage/materialsapi.rst:3
-msgid "Materials API"
-msgstr "Materials API"
+#: ../../usage/initial.rst:44
+msgid "このドキュメントを内蔵ウェブブラウザで開きます。"
+msgstr "Open this document in internal web browser."
 
-#: ../../usage/project.rst:3
+#: ../../usage/initial.rst:46
+msgid ":guilabel:`Links of Web`"
+msgstr ""
+
+#: ../../usage/initial.rst:46
+msgid "各計算エンジンや擬ポテンシャルなどのリンク集です。"
+msgstr "Collection of links to calculation engines, pseudopotentials etc."
+
+#: ../../usage/initial.rst:48
+msgid ":guilabel:`Setting`"
+msgstr ""
+
+#: ../../usage/initial.rst:48
+msgid "各計算エンジンのパスなどを設定します。"
+msgstr "Set the path of calculation engines etc."
+
+#: ../../usage/initial.rst:50
+msgid ":guilabel:`License`"
+msgstr ""
+
+#: ../../usage/initial.rst:50
+msgid "ライセンス登録の案内を表示します。"
+msgstr "License registration guide is shown."
+
+#: ../../usage/initial.rst:52
+msgid ":guilabel:`Proxy server`"
+msgstr ""
+
+#: ../../usage/initial.rst:52
+msgid "本ソフトウェアが接続時に使用するプロキシサーバーを設定します。"
+msgstr "Set up the proxy server this software uses to connect."
+
+#: ../../usage/initial.rst:54
+msgid ":guilabel:`Full screen`"
+msgstr ""
+
+#: ../../usage/initial.rst:54
+msgid "フルスクリーンモードで表示します。 :kbd:`Esc` キーで戻ります。"
+msgstr "Switch to full screen mode. :kbd:`Esc` key to return."
+
+#: ../../usage/initial.rst:56
+msgid ":guilabel:`Quit`"
+msgstr ""
+
+#: ../../usage/initial.rst:56
+msgid "終了します。"
+msgstr "Quit this software."
+
+#: ../../usage/initial.rst:64
+msgid "材料データベース検索 (Materials Finder)"
+msgstr "Searching materials databases (Materials Finder)"
+
+#: ../../usage/initial.rst:66
+msgid ""
+"右上の入力欄に物質名や化学式を入力することで、外部の材料データベース（\\ `Materials Project "
+"<https://materialsproject.org/>`_\\ 、\\ `PubChem "
+"<https://pubchem.ncbi.nlm.nih.gov/>`_\\ "
+"）から構造情報ファイルを検索します。検索結果から解析したい構造情報ファイルを開くと、そのまま解析を行うプロジェクト画面に移行できます。"
+msgstr ""
+"Type substance name or chemical formula in the text box on upper right to"
+" search external materials databases (\\ `Materials Project "
+"<https://materialsproject.org/>`_\\ , `PubChem "
+"<https://pubchem.ncbi.nlm.nih.gov/>`_\\ ) for structure information "
+"files. Open a structure information file you'd like to analyze to "
+"directly switch to project view, where you can perform analysis."
+
+#: ../../usage/initial.rst:72
+msgid "検索に使用できる表記"
+msgstr "Supported expressions for searching"
+
+#: ../../usage/initial.rst:74
+msgid "元素のリスト（スペース区切り）"
+msgstr "List of elements (space separated)"
+
+#: ../../usage/initial.rst:74
+msgid "Li Fe O"
+msgstr ""
+
+#: ../../usage/initial.rst:76
+msgid "化学式"
+msgstr "Chemical formula"
+
+#: ../../usage/initial.rst:76
+msgid "Fe2O3"
+msgstr ""
+
+#: ../../usage/initial.rst:78
+msgid "`SMILES`_\\ 記法"
+msgstr "`SMILES`_"
+
+#: ../../usage/initial.rst:78
+msgid "CN=C=O"
+msgstr ""
+
+#: ../../usage/initial.rst:80
+msgid "物質名（英語）"
+msgstr "Substance name"
+
+#: ../../usage/initial.rst:80
+msgid "methyl isocyanate"
+msgstr ""
+
+#: ../../usage/initial.rst:85
+msgid "また、 :guilabel:`Materials Finder` と書かれた部分をクリックすることで、APIキーなどの詳細な設定を行います。"
+msgstr "In addition, click on the text written as :guilabel:`Materials Finder` to configure detailed settings such as API key."
+
+#: ../../usage/inputeditor.rst:5
+msgid "入力ファイルエディター"
+msgstr "Input File Editor"
+
+#: ../../usage/inputeditor.rst:7
+msgid ""
+"プロジェクト画面右側のパネルで、計算エンジンの入力ファイルを編集します。実行したい計算に応じて右下のメニュー |editormenuicon| "
+"からエディターのモードを選び、各計算エンジンのマニュアルを参照して適切な値を設定してください。"
+msgstr "Edit input files for the calculation engine on the right side panel of project view. "
+"Select a mode of editor corresponding to the calculation you'd like to perform from the menu on lower right |editormenuicon|. "
+"Then, set the appropriate values referring to the calculation engine manual."
+
+#: ../../usage/inputeditor.rst:11
+msgid "デフォルト値設定ボタン |default| がある設定項目は、ボタンをクリックするとデフォルト値が入力されます。"
+msgstr "Some of the setting items have default value button |default| . Click the button to set the default value."
+
+#: ../../usage/inputeditor.rst:13
+msgid "折り畳まれて表示されていない項目（右三角アイコン |collapse| ）は、クリックして展開することで表示できます。"
+msgstr "Items that are collapsed and not visible can be expanded by clicking the right-pointing triangle icon |collapse| ."
+
+#: ../../usage/inputeditor.rst:18
+msgid "いくつかの設定画面については補足説明がありますので、以下のリンクよりご覧ください。"
+msgstr "There are supplemental description for some setting views. See the links below."
+
+#: ../../usage/inputeditor.rst:29
+msgid "内蔵テキストエディタ―"
+msgstr "Internal text editor"
+
+#: ../../usage/inputeditor.rst:31
+msgid ""
+"左下のメニュー |projectmenuicon| から :guilabel:`Input-file` "
+"を開くと、作成される入力ファイルの内容を内蔵テキストエディタ―で確認することができます。"
+msgstr ""
+
+#: ../../usage/inputeditor.rst:33
+msgid "画面右側のパネルで変更した設定項目は、再読み込みボタン |reloadac| をクリックすることでテキストエディタ―側に反映されます。"
+msgstr ""
+
+#: ../../usage/inputeditor.rst:35
+msgid ""
+"また、テキストエディタ―で入力ファイルの内容を直接変更することもできます。変更した内容は、アップロードボタン |up| "
+"をクリックすることで画面右側のパネルに反映されます。"
+msgstr ""
+
+#: ../../usage/inputeditor.rst:42
+msgid ""
+"テキストエディターの内容は、実際の入力ファイルを開いているわけではなく、設定項目から生成された一時的なものです。 "
+"アップロードボタンをクリックしてから保存をすることで、実際の入力ファイルに反映されます。 "
+"アップロードボタンをクリックしなかった場合、保存をしても実際の入力ファイルには反映されません。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:5
+msgid "入力ファイルエディター（LAMMPS固有の設定）"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:10
+msgid "Force-Field（力場）"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:12
+msgid ""
+"入力ファイルエディターの :guilabel:`Force-Field` で力場の設定を行います。画面右下のメニュー "
+"|editormenuicon| から :guilabel:`Force-Field` をクリックしてください。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:14
+msgid ""
+":guilabel:`Type of Force Field` "
+"で使用したい力場の種類を選ぶと、それに対応した設定項目が有効になりますので、設定を行ってください。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:16
+msgid ""
+"力場の設定後、設定内容に応じて各原子のパラメーターを調整する必要がある場合には、 :guilabel:`Resolve Force Field` "
+"の :guilabel:`Apply` ボタンが赤色になりますので、クリックして設定を反映させてください。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:19
+msgid "Lennard-Jones"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:21
+msgid ""
+":guilabel:`Non-Bonded Interactions` 欄でLennard-Jonesポテンシャル "
+":math:`E=4\\epsilon [(\\sigma /r)^{12} -(\\sigma /r)^6]` のパラメーター\\ "
+":math:`\\epsilon`\\ 、\\ :math:`\\sigma`\\ を設定してください。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:24
+msgid "Charge & Lennard-Jones"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:26
+msgid ""
+"Lennard-Jonesポテンシャルのパラメーターに加え、電荷を設定して下さい。全電荷が0でない場合、 :guilabel:`Resolve "
+"Force Field` の :guilabel:`Apply` ボタンをクリックすると、全電荷が0になるように一定の値を差し引きます。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:29
+msgid "OPLS-AA"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:31
+msgid ""
+":guilabel:`Resolve Force Field` の :guilabel:`Apply` ボタンをクリックすると、OPLS-AA"
+"パラメーターセットに基づき、電荷およびLennard-"
+"Jonesポテンシャルのパラメーターを設定します。その後、全電荷が0になるように一定の値を差し引きます。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:36
+msgid "Scheme（計算過程）"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:38
+msgid ""
+"入力ファイルエディターの :guilabel:`Scheme` で計算過程の設定を行います。画面右下のメニュー |editormenuicon| "
+"から :guilabel:`Scheme` をクリックしてください。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:42
+msgid ""
+"画面右側のパネルで計算の設定を行い、 :guilabel:`Add Scheme` の :guilabel:`Apply` "
+"をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| :guilabel:`Apply` "
+"を繰り返して過程を追加していきます。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:48
+msgid ""
+"タイルの左上の数字が過程の実行される順番です。前へボタン |lpback| 、後へボタン |lpfwd| で順番を入れ替えます。削除ボタン "
+"|lpdel| で削除します。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:54
+msgid ""
+"追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` "
+"ウィンドウが表示され、設定を編集できます。"
+msgstr ""
+
+#: ../../usage/inputeditorqe.rst:5
+msgid "入力ファイルエディター（Quantum ESPRESSO固有の設定）"
+msgstr ""
+
+#: ../../usage/inputeditorqe.rst:10
+msgid "バンド計算の経路"
+msgstr ""
+
+#: ../../usage/inputeditorqe.rst:12
+msgid ""
+"画面右下のメニュー |editormenuicon| から :guilabel:`Band` または :guilabel:`Ph. "
+"Dispersion` を選ぶと、設定項目の中に :guilabel:`Path through B.Z.` "
+"（バンド計算の経路）があります。この設定方法を説明します。"
+msgstr ""
+
+#: ../../usage/inputeditorqe.rst:16
+msgid ""
+":guilabel:`Symbol` では、経由する点を指定します。リストボックス中に無い任意の点を指定したい場合は、 "
+":guilabel:`Symbol` を空白にし、座標を :guilabel:`kx, ky, kz` （または :guilabel:`qx, "
+"qy, qz` ）に入力します。"
+msgstr ""
+
+#: ../../usage/inputeditorqe.rst:18
+msgid "点の追加、削除、入れ替えは行の右クリックメニューから行います。追加の際は、クリックした行の次に新しい行が挿入されます。"
+msgstr ""
+
+#: ../../usage/inputeditorqe.rst:20
+msgid ""
+":guilabel:`nk` （または :guilabel:`nq` "
+"）には、その行と次の行で指定した点の間で計算する点の数を指定します。例えば画像の1行目では :guilabel:`nk` "
+"に20と入力していますが、これはその行で指定している\\ |gamma|\\ 点と、次の行で指定しているY点の間の20点で計算することを表します。"
+msgstr ""
+
+#: ../../usage/inputeditorqe.rst:22
+msgid ""
+"また :guilabel:`nk` "
+"に0を入力すると、その行と次の行で指定した点の間では計算を行いません。バンド図上では、その行と次の行の点が重なって表示されます。"
+msgstr ""
+
+#: ../../usage/modeler.rst:5
+msgid "モデラ―"
+msgstr ""
+
+#: ../../usage/modeler.rst:7
+msgid ""
+"原子構造の高度な編集を行います。左下のメニュー |projectmenuicon| から :guilabel:`Modeler` "
+"をクリックして、モデラ―画面を開いてください。"
+msgstr ""
+
+#: ../../usage/modeler.rst:9
+msgid ""
+"モデラ―上で行った編集は、 :guilabel:`Reflect on Input-file` をクリックすることでプロジェクトに反映されます。 "
+":guilabel:`Initialize Model` をクリックすると、編集を行う前（モデラ―画面を開いた時点）の状態に戻ります。"
+msgstr ""
+
+#: ../../usage/modeler.rst:11
+msgid "編集が終わりましたら、左下の戻るボタン |back| をクリックしてプロジェクト画面に戻ります。"
+msgstr ""
+
+#: ../../usage/modeler.rst:18
+msgid "並進移動"
+msgstr ""
+
+#: ../../usage/modeler.rst:20
+msgid ""
+":guilabel:`Translation of Cell` "
+"で、すべての原子を同じ方向・距離に移動させます。各単位格子ベクトルのスライダーを動かすと、リアルタイムでビューワーに反映されます。"
+msgstr ""
+
+#: ../../usage/modeler.rst:25
+msgid "超格子"
+msgstr ""
+
+#: ../../usage/modeler.rst:27
+msgid ""
+":guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 :guilabel:`Scaling` "
+"欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。"
+msgstr ""
+
+#: ../../usage/modeler.rst:34
+msgid "スラブモデル"
+msgstr ""
+
+#: ../../usage/modeler.rst:36
+msgid "表面などの非周期系を近似的に周期的境界条件で扱う、スラブ近似のためのモデルを作成します。"
+msgstr ""
+
+#: ../../usage/modeler.rst:38
+msgid ""
+":guilabel:`Slab Model` で、表面となる結晶面をミラー指数で指定し、 :guilabel:`Build` "
+"をクリックすると、スラブモデルの詳細設定を行う画面が表示されます。"
+msgstr ""
+
+#: ../../usage/modeler.rst:40
+msgid ""
+"スラブの厚さを :guilabel:`Slab System` の :guilabel:`Width / Cell` スライダーで、真空層の厚さを"
+" :guilabel:`Vacuum of a Side` の :guilabel:`Width / Angs.` スライダーで変更します。 "
+":guilabel:`Area Scaling` のテキストボックスに繰り返し回数をそれぞれ入力し、 :guilabel:`Build` "
+"をクリックすると、スラブの層内方向に繰り返した構造を生成します。"
+msgstr ""
+
+#: ../../usage/modeler.rst:42
+msgid ""
+"複数の異なる表面原子構造が存在する場合、 :guilabel:`Kind of Surface` "
+"に複数の候補が表示されますので、クリックして選択してください。"
+msgstr ""
+
+#: ../../usage/modeler.rst:44
+msgid "変更はリアルタイムでビューワーに反映されます。"
+msgstr ""
+
+#: ../../usage/modeler.rst:46
+msgid ":guilabel:`Initialize Model` をクリックすると、詳細設定を行う前（スラブモデル画面を開いた時点）の状態に戻ります。"
+msgstr ""
+
+#: ../../usage/modeler.rst:48 ../../usage/modeler.rst:65
+#: ../../usage/modeler.rst:78
+msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
+msgstr ""
+
+#: ../../usage/modeler.rst:57
+msgid "元素置換"
+msgstr ""
+
+#: ../../usage/modeler.rst:59
+msgid "モデル中の原子の一部を異なる種類に変更します。"
+msgstr ""
+
+#: ../../usage/modeler.rst:61
+msgid ""
+":guilabel:`Crystal` タブの :guilabel:`Element Substitution` にある "
+":guilabel:`Start Modeling` をクリックすると、元素置換を行う画面が表示されます。"
+msgstr ""
+
+#: ../../usage/modeler.rst:63
+msgid ""
+":guilabel:`Element to be Substituted` （置換元の元素）、 :guilabel:`For What "
+"Element ?` （置換先の元素）、 :guilabel:`Super Cell` （超格子を作成する場合その繰り返し回数）、 "
+":guilabel:`Rate of Substitution` （置換する割合）を順に設定してください。 :guilabel:`Next` "
+"で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` "
+"をクリックすると、置換後の構造がビューワーに表示されます。 そのまま再度 :guilabel:`Build` "
+"をクリックすると、同じ置換設定で異なる構造が表示されます。"
+msgstr ""
+
+#: ../../usage/modeler.rst:70
+msgid "点欠陥（空孔）"
+msgstr ""
+
+#: ../../usage/modeler.rst:72
+msgid "モデル中の原子の一部を取り除き、点欠陥（空孔）を作成します。"
+msgstr ""
+
+#: ../../usage/modeler.rst:74
+msgid ""
+":guilabel:`Crystal` タブの :guilabel:`Lattice Defect` にある :guilabel:`Start "
+"Modeling` をクリックすると、点欠陥を作成する画面が表示されます。"
+msgstr ""
+
+#: ../../usage/modeler.rst:76
+msgid ""
+":guilabel:`Element to be Removed` （取り除く元素）、 :guilabel:`Super Cell` "
+"（超格子を作成する場合その繰り返し回数）、 :guilabel:`Rate of Lattice Defect` "
+"（取り除く割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` "
+"で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、欠陥を入れた構造がビューワーに表示されます。"
+" そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。"
+msgstr ""
+
+#: ../../usage/project.rst:5
 msgid "プロジェクト"
-msgstr "projects"
+msgstr ""
 
-#: ../../usage/result.rst:3
+#: ../../usage/project.rst:7
+msgid "1つの構造情報ファイルに対し、計算の入力ファイル・出力ファイルをまとめて「プロジェクト」として管理します。"
+msgstr ""
+
+#: ../../usage/project.rst:9
+msgid "エクスプローラーから構造情報ファイルを開くと、新しいプロジェクトのタブが開きます。"
+msgstr ""
+
+#: ../../usage/project.rst:16
+msgid "計算エンジンの選択"
+msgstr ""
+
+#: ../../usage/project.rst:18
+msgid ""
+"左下のメニュー |projectmenuicon| から :guilabel:`Change calculator` "
+"をクリックします。使用できる計算エンジンが表示されますので、解析に使用したいものをクリックして選択してください。"
+msgstr ""
+
+#: ../../usage/project.rst:22
+msgid ""
+"さらに、選択した計算エンジンの機能に応じ、どの入力ファイルを作成するか、右下のメニュー |editormenuicon| "
+"からエディターのモードを選びます。"
+msgstr ""
+
+#: ../../usage/project.rst:32
+msgid "計算エンジン"
+msgstr ""
+
+#: ../../usage/project.rst:32
+msgid "エディターのモード"
+msgstr ""
+
+#: ../../usage/project.rst:34
+msgid "`Advance/PHASE`_"
+msgstr ""
+
+#: ../../usage/project.rst:34
+msgid "（PHASE-Viewerが起動し、プロジェクトが開きます。）"
+msgstr ""
+
+#: ../../usage/project.rst:36
+msgid "`Quantum ESPRESSO`_"
+msgstr ""
+
+#: ../../usage/project.rst:36 ../../usage/project.rst:54
+msgid ":guilabel:`Geometry`"
+msgstr ""
+
+#: ../../usage/project.rst:36 ../../usage/project.rst:54
+msgid "原子構造・結晶構造の設定"
+msgstr ""
+
+#: ../../usage/project.rst:38
+msgid ":guilabel:`SCF`"
+msgstr ""
+
+#: ../../usage/project.rst:38
+msgid "自己無撞着場計算"
+msgstr ""
+
+#: ../../usage/project.rst:40
+msgid ":guilabel:`Optimize`"
+msgstr ""
+
+#: ../../usage/project.rst:40
+msgid "第一原理構造最適化"
+msgstr ""
+
+#: ../../usage/project.rst:42
+msgid ":guilabel:`MD`"
+msgstr ""
+
+#: ../../usage/project.rst:42
+msgid "第一原理分子動力学法"
+msgstr ""
+
+#: ../../usage/project.rst:44
+msgid ":guilabel:`DOS`"
+msgstr ""
+
+#: ../../usage/project.rst:44
+msgid "状態密度計算"
+msgstr ""
+
+#: ../../usage/project.rst:46
+msgid ":guilabel:`Band`"
+msgstr ""
+
+#: ../../usage/project.rst:46
+msgid "バンド計算"
+msgstr ""
+
+#: ../../usage/project.rst:48
+msgid ":guilabel:`TD-DFT`"
+msgstr ""
+
+#: ../../usage/project.rst:48
+msgid "時間依存密度汎関数法"
+msgstr ""
+
+#: ../../usage/project.rst:50
+msgid ":guilabel:`Phonon`"
+msgstr ""
+
+#: ../../usage/project.rst:50
+msgid "フォノン計算"
+msgstr ""
+
+#: ../../usage/project.rst:52
+msgid ":guilabel:`Ph. Dispersion`"
+msgstr ""
+
+#: ../../usage/project.rst:52
+msgid "フォノン状態密度・バンド計算"
+msgstr ""
+
+#: ../../usage/project.rst:54
+msgid "`LAMMPS`_"
+msgstr ""
+
+#: ../../usage/project.rst:56
+msgid ":guilabel:`Force-Field`"
+msgstr ""
+
+#: ../../usage/project.rst:56
+msgid "力場の設定"
+msgstr ""
+
+#: ../../usage/project.rst:58
+msgid ":guilabel:`Scheme`"
+msgstr ""
+
+#: ../../usage/project.rst:58
+msgid "計算過程の設定"
+msgstr ""
+
+#: ../../usage/project.rst:65
+msgid "使用する計算エンジンとエディターのモードを選ぶと、それに応じた設定項目が画面右側のエディターパネルに表示されます。"
+msgstr ""
+
+#: ../../usage/project.rst:70
+msgid "プロジェクトの保存"
+msgstr ""
+
+#: ../../usage/project.rst:72
+msgid ""
+"新しいプロジェクトを開いた場合、そのままではまだ保存されていません。左下のメニュー |projectmenuicon| から "
+":guilabel:`Save` をクリックし、保存場所とプロジェクト名を設定して保存してください。タブにプロジェクト名が表示されます。"
+msgstr ""
+
+#: ../../usage/project.rst:74
+msgid "保存していないプロジェクトで計算を実行しようとしたり、エディターで変更を加えたまま保存せずにタブを閉じようとしたりすると、保存するよう促されます。"
+msgstr ""
+
+#: ../../usage/result.rst:5
 msgid "結果表示"
 msgstr ""
 
-#: ../../usage/webbrowser.rst:3
-#, fuzzy
-msgid "Webブラウザー"
-msgstr "Web borwser"
+#: ../../usage/result.rst:7
+msgid ""
+"計算を実行したプロジェクトのタブを開くと、表示可能な計算結果がタイル状に一覧表示されます。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー"
+" |projectmenuicon| から :guilabel:`Result` をクリックしてください。）"
+msgstr ""
 
-#~ msgid "使い方"
+#: ../../usage/result.rst:11
+msgid "表示したいものを選んでクリックすると、可視化された計算結果の画面を表示します。左下の戻るボタン |back| をクリックすると一覧表示に戻ります。"
+msgstr ""
+
+#: ../../usage/result.rst:18
+msgid "2Dプロット"
+msgstr ""
+
+#: ../../usage/result.rst:20
+msgid ""
+"時系列データや状態密度・バンド構造は2Dプロットで表示します。画面右側のパネルでプロットの体裁を調整します。計算実行中の場合、 "
+":guilabel:`Reload` をクリックすると出力ファイルを読み込んで表示を更新します。"
+msgstr ""
+
+#: ../../usage/result.rst:22
+msgid ":guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。"
+msgstr ""
+
+#: ../../usage/result.rst:33
+msgid "動画"
+msgstr ""
+
+#: ../../usage/result.rst:35
+msgid ""
+":guilabel:`.movie` をクリックすると、原子構造の変化を動画として表示します。計算実行中の場合、 "
+":guilabel:`Reload` をクリックすると出力ファイルを読み込み、増えたフレーム（コマ）を追加します。"
+msgstr ""
+
+#: ../../usage/result.rst:37
+msgid "視点の操作は原子構造ビューワーと同様に行うことができます。再生中でも視点を変えられます。"
+msgstr ""
+
+#: ../../usage/result.rst:39
+msgid ""
+":guilabel:`Screen-shot` をクリックして表示中のフレーム（コマ）を画像ファイルに保存します。 :guilabel:`Save"
+" Movie` をクリックしてすべてのフレーム（コマ）を動画ファイルに保存します。"
+msgstr ""
+
+#: ../../usage/result.rst:41
+msgid ":guilabel:`New Project` をクリックすると、表示中の原子構造を使って新しく別のプロジェクトを作成し、解析を行うことができます。"
+msgstr ""
+
+#: ../../usage/result.rst:48
+msgid "テキスト"
+msgstr ""
+
+#: ../../usage/result.rst:50
+msgid ""
+":guilabel:`IN` （入力ファイル）、 :guilabel:`LOG` （ログファイル）、 :guilabel:`ERR` "
+"（エラーログファイル）をクリックすると、テキストファイルの内容をそのまま表示します。ファイル内検索、ハイライト表示や抽出も可能です。"
+msgstr ""
+
+#: ../../usage/webbrowser.rst:5
+msgid "ウェブブラウザー"
+msgstr ""
+
+#: ../../usage/webbrowser.rst:7
+msgid ""
+"エクスプローラーの :guilabel:`Web` から、またはメインメニューの :guilabel:`Links of Web` "
+"からウェブページを開くと、内蔵のウェブブラウザーにより表示されます。開いたウェブページはタブとして表示されます。"
+msgstr ""
+
+#: ../../usage/webbrowser.rst:9
+msgid ""
+"操作方法は既存のウェブブラウザーと同様です。戻るボタン |back| 、進むボタン |fwd| "
+"でこれまでに表示したウェブページに移動します。再読み込みボタン |reload| でウェブページを最新の状態に更新します。お気に入りボタン "
+"|favorite| でウェブページのURLを保存します。保存したウェブページはエクスプローラーの :guilabel:`Web` "
+"に一覧表示されます。"
+msgstr ""
+
+#: ../../usage/webbrowser.rst:19
+msgid "構造情報ファイル・擬ポテンシャルファイルのダウンロード"
+msgstr ""
+
+#: ../../usage/webbrowser.rst:21
+msgid "構造情報ファイルや擬ポテンシャルファイルのダウンロードリンクをクリックすると、ダウンロードすると同時にポップアップウィンドウが開き、ファイルの情報を確認することができます。構造情報ファイルは3Dモデルが表示され、ダブルクリックするとそのまま解析を行うプロジェクト画面に移行できます。"
+msgstr ""
+
+#~ msgid "Job"
 #~ msgstr ""
 
-#~ msgid "初期画面"
-#~ msgstr "initial screen"
-
-#~ msgid "画面の基本的な構成と、ヘッダーの操作を説明します。"
+#~ msgid ""
+#~ "実行中・実行待機中の計算ジョブは、エクスプローラーの :guilabel:`Calculating` "
+#~ "に一覧表示されます。各計算ジョブは3Dモデルのアイコンで表示され、右下には計算の種類を示すラベルが表示されています。ラベルの色は計算ジョブの状態を示しており、赤色が実行中、黄色が実行待機中です。ジョブが終了すると、ラベルが緑色になり、"
+#~ " :guilabel:`Calculating` から消えます。"
 #~ msgstr ""
 
-#~ msgid "画面構成"
+#~ msgid ""
+#~ "テキストエディターは、実際の入力ファイルを開いているわけではなく、設定項目から生成された一時的なものです。 "
+#~ "アップロードボタンをクリックしてから保存をすることで、実際の入力ファイルに反映されます。 "
+#~ "アップロードボタンをクリックしなかった場合、保存をしても実際の入力ファイルには反映されません。"
 #~ msgstr ""
 
-#~ msgid "タブとか"
+#~ msgid ":kbd:`Alt` +上下矢印キー"
 #~ msgstr ""
 
-#~ msgid "ヘッダー"
+#~ msgid ":kbd:`Shift` +矢印キー"
 #~ msgstr ""
 
-#~ msgid "左上のあれ"
+#~ msgid ""
+#~ "変更したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` "
+#~ "+右ドラッグで選択します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Rename"
+#~ " selected atoms` をクリックします。"
 #~ msgstr ""
 
-#~ msgid "右上のあれ"
+#~ msgid ""
+#~ "削除したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` "
+#~ "+右ドラッグで選択します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Delete"
+#~ " selected atoms` をクリックします。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "移動したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` "
+#~ "+右ドラッグで選択します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Move "
+#~ "selected atoms` をクリックします。"
+#~ msgstr ""
+
+#~ msgid "Job (Quantum ESPRESSO)"
+#~ msgstr ""
+
+#~ msgid "計算エンジンでどの計算を行うか選択します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "実行中・実行待機中の計算ジョブは、エクスプローラーの :guilabel:`Calculating` "
+#~ "に一覧表示されます。各計算ジョブは3Dモデルのアイコンで表示され、左上には計算エンジン、右下には計算の種類を示すラベルが表示されています。ラベルの色は計算ジョブの状態を示しており、赤色が実行中、黄色が実行待機中です。ジョブが終了すると、ラベルが緑色になり、"
+#~ " :guilabel:`Calculating` から消えます。"
+#~ msgstr ""
+
+#~ msgid "Crystallographic Information Framework"
+#~ msgstr ""
+
+#~ msgid "XCrySDen file format"
+#~ msgstr ""
+
+#~ msgid "VASP input file"
+#~ msgstr ""
+
+#~ msgid "QE input file"
+#~ msgstr ""
+
+#~ msgid "Advance/PHASE input file"
+#~ msgstr ""
+
+#~ msgid "Gaussian cube file"
+#~ msgstr ""
+
+#~ msgid "LAMMPS data file"
+#~ msgstr ""
+
+#~ msgid "フルスクリーンモードで表示します。 :kbd:`ESC` キーで戻ります。"
+#~ msgstr ""
+
+#~ msgid "材料データベース検索(Materials Finder)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "右上の入力欄に物質名や化学式を入力することで、外部の材料データベース(Materials "
+#~ "Project、PubChem)から構造情報ファイルを検索します。検索結果から解析したい構造情報ファイルを開くと、そのまま解析を行うプロジェクト画面に移行できます。"
+#~ msgstr ""
+
+#~ msgid "SMILES記法"
+#~ msgstr ""
+
+#~ msgid "物質名"
+#~ msgstr ""
+
+#~ msgid "プロジェクト画面右側のパネルで、計算エンジンの入力ファイルを編集します。各設定項目にはあらかじめ値が入力されており、そのまま計算を実行することもできますが、各計算エンジンのマニュアルを参照して適切な値を設定してください。"
+#~ msgstr ""
+
+#~ msgid "LAMMPSのScheme（計算過程）"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "計算エンジンでLAMMPSを選んだ場合に、入力ファイルエディターの :guilabel:`Scheme` "
+#~ "で計算過程の設定を行います。画面右下のメニュー |editormenuicon| から "
+#~ ":guilabel:`Scheme` をクリックしてください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "原子構造の高度な編集を行います。モデラ―上で行った編集は、 :guilabel:`Reflect on "
+#~ "Input-file` をクリックすることでプロジェクトに反映されます。 "
+#~ ":guilabel:`Initialize Model` "
+#~ "をクリックすると、編集を行う前（モデラ―画面を開いた時点）の状態に戻ります。"
+#~ msgstr ""
+
+#~ msgid "Quantum ESPRESSO"
+#~ msgstr ""
+
+#~ msgid "LAMMPS"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "画面右側のパネルで計算の設定を行い、 :guilabel:`Add Scheme` の "
+#~ ":guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定→ "
+#~ ":guilabel:`Apply` を繰り返して過程を追加していきます。"
+#~ msgstr ""
+
+#~ msgid "`SMILES記法`_"
 #~ msgstr ""
 
