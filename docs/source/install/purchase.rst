@@ -6,7 +6,7 @@
 
 本ソフトウェアは有償です。試用ライセンスで1カ月間ご試用いただき、お客様の需要に応えると判断していただけましたら、継続利用のため製品ライセンスのご購入をお願いします。
 
-試用ライセンス・製品ライセンスとも、インストールした特定のコンピューターでの使用を許諾するものとなります（ノードロックライセンス）。ご使用になるコンピューター固有のIDを取得し、そのIDに対してライセンスファイルを発行します。
+試用ライセンス・製品ライセンスとも、インストールした特定のコンピューターでの使用を許諾するものとなります（ノードロックライセンス）。ご使用になるコンピューター固有のHost IDを取得し、そのHost IDに対してライセンスファイルを発行します。
 
 また、本ソフトウェアから使用できるオープンソースの計算エンジンについて、有償にて技術サポートを承ります。併せてご利用ください。
 
@@ -68,7 +68,7 @@
 
 .. _id:
 
-固有ID取得方法
+Host ID取得方法
 ===================
 
 .. _id-install:
@@ -82,7 +82,7 @@
 ----------------------------------
 
 1. 左上のメインメニュー |mainmenuicon| から、 :guilabel:`License` をクリックします。
-2. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のIDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
+2. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のHost IDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
 
 .. |mainmenuicon| image:: /img/mainmenuicon.png
 
@@ -95,4 +95,4 @@
 
 1. :guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示されることがあります。 :guilabel:`OK` をクリックして閉じてください。
 2. :guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。
-3. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のIDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
+3. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のHost IDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。

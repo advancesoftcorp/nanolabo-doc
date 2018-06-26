@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 18:48+0900\n"
+"POT-Creation-Date: 2018-06-26 17:40+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,11 +38,13 @@ msgstr ""
 "please purchase the paid license for continued use."
 
 #: ../../install/purchase.rst:9
-msgid "試用ライセンス・製品ライセンスとも、インストールした特定のコンピューターでの使用を許諾するものとなります（ノードロックライセンス）。ご使用になるコンピューター固有のIDを取得し、そのIDに対してライセンスファイルを発行します。"
+msgid ""
+"試用ライセンス・製品ライセンスとも、インストールした特定のコンピューターでの使用を許諾するものとなります（ノードロックライセンス）。ご使用になるコンピューター固有のHost"
+" IDを取得し、そのHost IDに対してライセンスファイルを発行します。"
 msgstr ""
 "Both trial license and paid license allow you to use the software on one "
-"specific computer (node-locked license). This software get an ID "
-"unique to the computer, and we issue a license file for that ID."
+"specific computer (node-locked license). This software get a Host ID unique "
+"to the computer, and we issue a license file for that Host ID."
 
 #: ../../install/purchase.rst:11
 msgid "また、本ソフトウェアから使用できるオープンソースの計算エンジンについて、有償にて技術サポートを承ります。併せてご利用ください。"
@@ -170,16 +172,22 @@ msgid "オプションLPサポート\\ `**`:sup:"
 msgstr "LP Support Option\\ `**`:sup:"
 
 #: ../../install/purchase.rst:65
-msgid "`*`:sup:\\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_\\ の技術サポートです。"
-msgstr "`\*`:sup:\\ Technical support on using `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_\\ ."
+msgid ""
+"`*`:sup:\\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_\\ "
+"の技術サポートです。"
+msgstr ""
+"`\\*`:sup:\\ Technical support on using `Quantum ESPRESSO <http://www"
+".quantum-espresso.org/>`_\\ ."
 
 #: ../../install/purchase.rst:67
 msgid "`**`:sup:\\ `LAMMPS <http://lammps.sandia.gov/>`_\\ の技術サポートです。"
-msgstr "`**`:sup:\\ Technical support on using `LAMMPS <http://lammps.sandia.gov/>`_\\ ."
+msgstr ""
+"`**`:sup:\\ Technical support on using `LAMMPS "
+"<http://lammps.sandia.gov/>`_\\ ."
 
 #: ../../install/purchase.rst:72
-msgid "固有ID取得方法"
-msgstr "How to acquire the unique ID"
+msgid "Host ID取得方法"
+msgstr "How to acquire the Host ID"
 
 #: ../../install/purchase.rst:77
 msgid "インストール時"
@@ -196,11 +204,11 @@ msgstr "From main menu |mainmenuicon| on the top left, click :guilabel:`License`
 #: ../../install/purchase.rst:85 ../../install/purchase.rst:98
 msgid ""
 ":guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` "
-"をクリックするか、ウィンドウ内のIDをコピーし、 support.nano@advancesoft.jp "
+"をクリックするか、ウィンドウ内のHost IDをコピーし、 support.nano@advancesoft.jp "
 "宛にご希望のライセンス種別と併せてお送りください。"
 msgstr ""
 ":guilabel:`License Registration Guidance` window appears. Click "
-":guilabel:`Mail` or copy the ID in the window and send it to "
+":guilabel:`Mail` or copy the Host ID in the window and send it to "
 "support.nano@advancesoft.jp along with the license type you order."
 
 #: ../../install/purchase.rst:92
