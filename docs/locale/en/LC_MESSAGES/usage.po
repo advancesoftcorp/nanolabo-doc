@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-25 19:52+0900\n"
+"POT-Creation-Date: 2018-06-26 17:40+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -363,7 +363,7 @@ msgstr ""
 
 #: ../../usage/explorer.rst:36
 msgid "内蔵ウェブブラウザのブックマークを表示します。"
-msgstr "Bookmarks of internal web browser are shown."
+msgstr "Bookmarks of built-in web browser are shown."
 
 #: ../../usage/explorer.rst:38
 msgid "Downloads"
@@ -498,7 +498,7 @@ msgstr ""
 
 #: ../../usage/initial.rst:18
 msgid "内蔵ウェブブラウザで開いているページもタブとして表示されます。"
-msgstr "Web pages opened in the internal web browser are also shown as tabs."
+msgstr "Web pages opened in the Built-in web browser are also shown as tabs."
 
 #: ../../usage/initial.rst:20
 msgid "タブ領域の一番左にはホームタブがあり、エクスプローラーが表示できます。"
@@ -522,7 +522,7 @@ msgstr "Main menu"
 msgid "左上のアイコン |mainmenuicon| をクリックしてメインメニューを開きます。ここでは全般的な設定等を行います。"
 msgstr ""
 "Click the icon |mainmenuicon| located at upper left to open mein menu. "
-"Here you can do general settings etc."
+"Here you can configure general settings etc."
 
 #: ../../usage/initial.rst:40
 msgid "メインメニューの項目"
@@ -542,7 +542,7 @@ msgstr ""
 
 #: ../../usage/initial.rst:44
 msgid "このドキュメントを内蔵ウェブブラウザで開きます。"
-msgstr "Open this document in internal web browser."
+msgstr "Open this document in built-in web browser."
 
 #: ../../usage/initial.rst:46
 msgid ":guilabel:`Links of Web`"
@@ -648,7 +648,9 @@ msgstr ""
 
 #: ../../usage/initial.rst:85
 msgid "また、 :guilabel:`Materials Finder` と書かれた部分をクリックすることで、APIキーなどの詳細な設定を行います。"
-msgstr "In addition, click on the text written as :guilabel:`Materials Finder` to configure detailed settings such as API key."
+msgstr ""
+"In addition, click on the text written as :guilabel:`Materials Finder` to"
+" configure detailed settings such as API key."
 
 #: ../../usage/inputeditor.rst:5
 msgid "入力ファイルエディター"
@@ -658,41 +660,57 @@ msgstr "Input File Editor"
 msgid ""
 "プロジェクト画面右側のパネルで、計算エンジンの入力ファイルを編集します。実行したい計算に応じて右下のメニュー |editormenuicon| "
 "からエディターのモードを選び、各計算エンジンのマニュアルを参照して適切な値を設定してください。"
-msgstr "Edit input files for the calculation engine on the right side panel of project view. "
-"Select a mode of editor corresponding to the calculation you'd like to perform from the menu on lower right |editormenuicon|. "
-"Then, set the appropriate values referring to the calculation engine manual."
+msgstr ""
+"Edit input files for the calculation engine on the right side panel of "
+"project view. Select a mode of editor corresponding to the calculation "
+"you'd like to perform from the menu on lower right |editormenuicon|. "
+"Then, set the appropriate values referring to the calculation engine "
+"manual."
 
 #: ../../usage/inputeditor.rst:11
 msgid "デフォルト値設定ボタン |default| がある設定項目は、ボタンをクリックするとデフォルト値が入力されます。"
-msgstr "Some of the setting items have default value button |default| . Click the button to set the default value."
+msgstr ""
+"Some of the setting items have default value button |default| . Click the"
+" button to set the default value."
 
 #: ../../usage/inputeditor.rst:13
 msgid "折り畳まれて表示されていない項目（右三角アイコン |collapse| ）は、クリックして展開することで表示できます。"
-msgstr "Items that are collapsed and not visible can be expanded by clicking the right-pointing triangle icon |collapse| ."
+msgstr ""
+"Items that are collapsed and not visible can be expanded by clicking the "
+"right-pointing triangle icon |collapse| ."
 
 #: ../../usage/inputeditor.rst:18
 msgid "いくつかの設定画面については補足説明がありますので、以下のリンクよりご覧ください。"
-msgstr "There are supplemental description for some setting views. See the links below."
+msgstr ""
+"There are supplemental description for some setting views. See the links "
+"below."
 
 #: ../../usage/inputeditor.rst:29
 msgid "内蔵テキストエディタ―"
-msgstr "Internal text editor"
+msgstr "Built-in text editor"
 
 #: ../../usage/inputeditor.rst:31
 msgid ""
 "左下のメニュー |projectmenuicon| から :guilabel:`Input-file` "
 "を開くと、作成される入力ファイルの内容を内蔵テキストエディタ―で確認することができます。"
 msgstr ""
+"Open :guilabel:`Input-file` from the menu on lower left to check the "
+"input file to be created in text format."
 
 #: ../../usage/inputeditor.rst:33
 msgid "画面右側のパネルで変更した設定項目は、再読み込みボタン |reloadac| をクリックすることでテキストエディタ―側に反映されます。"
 msgstr ""
+"Click reload button |reloadac| to reflect the modified items on right "
+"side panel in the text editor."
 
 #: ../../usage/inputeditor.rst:35
 msgid ""
 "また、テキストエディタ―で入力ファイルの内容を直接変更することもできます。変更した内容は、アップロードボタン |up| "
 "をクリックすることで画面右側のパネルに反映されます。"
 msgstr ""
+"You can also directly edit the text of the input file with the text "
+"editor. Click upload button |up| to reflect the modified items in right "
+"side panel."
 
 #: ../../usage/inputeditor.rst:42
 msgid ""
@@ -700,32 +718,46 @@ msgid ""
 "アップロードボタンをクリックしてから保存をすることで、実際の入力ファイルに反映されます。 "
 "アップロードボタンをクリックしなかった場合、保存をしても実際の入力ファイルには反映されません。"
 msgstr ""
+"The text editor does not open the actual input file; it just displays "
+"temporary text generated from the setting items. You need to click upload"
+" button then save the project to reflect the text in the actual input "
+"file. If you do not click the upload button, the text will not be "
+"reflected in the actual input file even if you save the project."
 
 #: ../../usage/inputeditorlammps.rst:5
 msgid "入力ファイルエディター（LAMMPS固有の設定）"
-msgstr ""
+msgstr "Input File Editor (LAMMPS specific settings)"
 
 #: ../../usage/inputeditorlammps.rst:10
 msgid "Force-Field（力場）"
-msgstr ""
+msgstr "Force-Field"
 
 #: ../../usage/inputeditorlammps.rst:12
 msgid ""
 "入力ファイルエディターの :guilabel:`Force-Field` で力場の設定を行います。画面右下のメニュー "
 "|editormenuicon| から :guilabel:`Force-Field` をクリックしてください。"
 msgstr ""
+"Configure the force field in :guilabel:`Force-Field` mode of input file "
+"editor. Click :guilabel:`Force-Field` from the menu |editormenuicon| on "
+"lower right."
 
 #: ../../usage/inputeditorlammps.rst:14
 msgid ""
 ":guilabel:`Type of Force Field` "
 "で使用したい力場の種類を選ぶと、それに対応した設定項目が有効になりますので、設定を行ってください。"
 msgstr ""
+"When you choose a force field you'd like to use from :guilabel:`Type of "
+"Force Field`, corresponding setting items become enabled, so set up those"
+" items."
 
 #: ../../usage/inputeditorlammps.rst:16
 msgid ""
 "力場の設定後、設定内容に応じて各原子のパラメーターを調整する必要がある場合には、 :guilabel:`Resolve Force Field` "
 "の :guilabel:`Apply` ボタンが赤色になりますので、クリックして設定を反映させてください。"
 msgstr ""
+"After setting force field, :guilabel:`Apply` button in :guilabel:`Resolve"
+" Force Field` turns red if the parameters of each atom need to be "
+"adjusted. In that case, click the button to reflect the settings."
 
 #: ../../usage/inputeditorlammps.rst:19
 msgid "Lennard-Jones"
@@ -737,6 +769,9 @@ msgid ""
 ":math:`E=4\\epsilon [(\\sigma /r)^{12} -(\\sigma /r)^6]` のパラメーター\\ "
 ":math:`\\epsilon`\\ 、\\ :math:`\\sigma`\\ を設定してください。"
 msgstr ""
+"Set parameters :math:`\\epsilon` , :math:`\\sigma` of Lennard-Jones "
+"potential :math:`E=4\\epsilon [(\\sigma /r)^{12} -(\\sigma /r)^6]` in "
+":guilabel:`Non-Bonded Interactions` field."
 
 #: ../../usage/inputeditorlammps.rst:24
 msgid "Charge & Lennard-Jones"
@@ -747,6 +782,9 @@ msgid ""
 "Lennard-Jonesポテンシャルのパラメーターに加え、電荷を設定して下さい。全電荷が0でない場合、 :guilabel:`Resolve "
 "Force Field` の :guilabel:`Apply` ボタンをクリックすると、全電荷が0になるように一定の値を差し引きます。"
 msgstr ""
+"Set electric charge in addition to Lennard-Jones potential parameters. "
+"When you click :guilabel:`Apply` in :guilabel:`Resolve Force Field`, a "
+"fixed value is subtracted so that the total charge bocomes 0."
 
 #: ../../usage/inputeditorlammps.rst:29
 msgid "OPLS-AA"
@@ -758,16 +796,23 @@ msgid ""
 "パラメーターセットに基づき、電荷およびLennard-"
 "Jonesポテンシャルのパラメーターを設定します。その後、全電荷が0になるように一定の値を差し引きます。"
 msgstr ""
+"When you click :guilabel:`Apply` in :guilabel:`Resolve Force Field` , "
+"electric charges and Lennard-Jones potential parameters are set referring"
+" to OPLS-AA parameter set. Then, a fixed value is subtracted so that the "
+"total charge bocomes 0."
 
 #: ../../usage/inputeditorlammps.rst:36
 msgid "Scheme（計算過程）"
-msgstr ""
+msgstr "Scheme"
 
 #: ../../usage/inputeditorlammps.rst:38
 msgid ""
 "入力ファイルエディターの :guilabel:`Scheme` で計算過程の設定を行います。画面右下のメニュー |editormenuicon| "
 "から :guilabel:`Scheme` をクリックしてください。"
 msgstr ""
+"Configure the calculation scheme in :guilabel:`Scheme` mode of input file"
+" editor. Click :guilabel:`Scheme` from the menu |editormenuicon| on lower"
+" right."
 
 #: ../../usage/inputeditorlammps.rst:42
 msgid ""
@@ -775,26 +820,36 @@ msgid ""
 "をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| :guilabel:`Apply` "
 "を繰り返して過程を追加していきます。"
 msgstr ""
+"Configure the calculation on right side panel, and then click "
+":guilabel:`Apply` in :guilabel:`Add Scheme` to add the setting on left "
+"side of the window as a tile. Repeat configuring |rarr| :guilabel:`Apply`"
+" to add processes as many times as necessary."
 
 #: ../../usage/inputeditorlammps.rst:48
 msgid ""
 "タイルの左上の数字が過程の実行される順番です。前へボタン |lpback| 、後へボタン |lpfwd| で順番を入れ替えます。削除ボタン "
 "|lpdel| で削除します。"
 msgstr ""
+"The number on upper left of the tile indicates the order in which the "
+"process is executed. Use back button |lpback| and forth button |lpfwd| to"
+" change the order. Delete it by delete button |lpdel| ."
 
 #: ../../usage/inputeditorlammps.rst:54
 msgid ""
 "追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` "
 "ウィンドウが表示され、設定を編集できます。"
 msgstr ""
+"To edit the settings of an already added tile, double click on it. "
+":guilabel:`Set the scheme` window is displayed and you can edit the "
+"settings."
 
 #: ../../usage/inputeditorqe.rst:5
 msgid "入力ファイルエディター（Quantum ESPRESSO固有の設定）"
-msgstr ""
+msgstr "Input File Editor (Quantum ESPRESSO specific settings)"
 
 #: ../../usage/inputeditorqe.rst:10
 msgid "バンド計算の経路"
-msgstr ""
+msgstr "Path of the band cacluation"
 
 #: ../../usage/inputeditorqe.rst:12
 msgid ""
@@ -802,6 +857,10 @@ msgid ""
 "Dispersion` を選ぶと、設定項目の中に :guilabel:`Path through B.Z.` "
 "（バンド計算の経路）があります。この設定方法を説明します。"
 msgstr ""
+"When you choose :guilabel:`Band` or :guilabel:`Ph. Dispersion` from the "
+"menu |editormenuicon| on lower right, you will see :guilabel:`Path "
+"through B.Z.` among the setting items. Setting method of that item is "
+"described."
 
 #: ../../usage/inputeditorqe.rst:16
 msgid ""
@@ -809,10 +868,15 @@ msgid ""
 ":guilabel:`Symbol` を空白にし、座標を :guilabel:`kx, ky, kz` （または :guilabel:`qx, "
 "qy, qz` ）に入力します。"
 msgstr ""
+"In :guilabel:`Symbol` , specify points to go through. To specify a point "
+"not in the listbox, leave :guilabel:`Symbol` empty and enter the "
+"coordinate in :guilabel:`kx, ky, kz` (or :guilabel:`qx, qy, qz` )."
 
 #: ../../usage/inputeditorqe.rst:18
 msgid "点の追加、削除、入れ替えは行の右クリックメニューから行います。追加の際は、クリックした行の次に新しい行が挿入されます。"
 msgstr ""
+"Add, delete or reorder the point from the right click menu of the row. "
+"When you add a point, a new row is inserted next to the clicked row."
 
 #: ../../usage/inputeditorqe.rst:20
 msgid ""
@@ -820,66 +884,95 @@ msgid ""
 "）には、その行と次の行で指定した点の間で計算する点の数を指定します。例えば画像の1行目では :guilabel:`nk` "
 "に20と入力していますが、これはその行で指定している\\ |gamma|\\ 点と、次の行で指定しているY点の間の20点で計算することを表します。"
 msgstr ""
+"In :guilabel:`nk` (or :guilabel:`nq` ), specify the number of points to "
+"be calculated in between the points specified in that row and the next "
+"row. For example, in the first row in the image, :guilabel:`nk` is 20, "
+"which means that calculations are performed at 20 points in between "
+"|gamma| point specified in that row and Y point specified in the next "
+"row."
 
 #: ../../usage/inputeditorqe.rst:22
 msgid ""
 "また :guilabel:`nk` "
 "に0を入力すると、その行と次の行で指定した点の間では計算を行いません。バンド図上では、その行と次の行の点が重なって表示されます。"
 msgstr ""
+"If :guilabel:`nk` is 0, then no calculation is performed in between the "
+"points specified in that row and the next row. On the band diagram, the "
+"points of that row and the next row are displayed merged."
 
 #: ../../usage/modeler.rst:5
 msgid "モデラ―"
-msgstr ""
+msgstr "Modeler"
 
 #: ../../usage/modeler.rst:7
 msgid ""
 "原子構造の高度な編集を行います。左下のメニュー |projectmenuicon| から :guilabel:`Modeler` "
 "をクリックして、モデラ―画面を開いてください。"
 msgstr ""
+"Perform advanced editing of the atomic structure. Click "
+":guilabel:`Modeler` from the menu |projectmenuicon| on lower left to open"
+" modeler view."
 
 #: ../../usage/modeler.rst:9
+#, fuzzy
 msgid ""
 "モデラ―上で行った編集は、 :guilabel:`Reflect on Input-file` をクリックすることでプロジェクトに反映されます。 "
-":guilabel:`Initialize Model` をクリックすると、編集を行う前（モデラ―画面を開いた時点）の状態に戻ります。"
+":guilabel:`Initialize Model` をクリックすると、編集を行う前（モデラー画面を開いた時点）の状態に戻ります。"
 msgstr ""
+"Changes made in modeler are reflected in the project by clicking "
+":guilabel:`Reflect on Input-file` . Click :guilabel:`Initialize Model` to"
+" return to the state before editing is performed (when modeler view was "
+"opened)."
 
 #: ../../usage/modeler.rst:11
 msgid "編集が終わりましたら、左下の戻るボタン |back| をクリックしてプロジェクト画面に戻ります。"
 msgstr ""
+"When editing is finished, click back button |back| on lower left to go "
+"back to project view."
 
 #: ../../usage/modeler.rst:18
 msgid "並進移動"
-msgstr ""
+msgstr "Translation"
 
 #: ../../usage/modeler.rst:20
 msgid ""
 ":guilabel:`Translation of Cell` "
 "で、すべての原子を同じ方向・距離に移動させます。各単位格子ベクトルのスライダーを動かすと、リアルタイムでビューワーに反映されます。"
 msgstr ""
+"Use :guilabel:`Translation of Cell` to move all atoms to the same "
+"direction and distance. Changes made to the sliders of the vectors are "
+"reflected in the viewer in real time."
 
 #: ../../usage/modeler.rst:25
 msgid "超格子"
-msgstr ""
+msgstr "Super cell"
 
 #: ../../usage/modeler.rst:27
 msgid ""
 ":guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 :guilabel:`Scaling` "
 "欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。"
 msgstr ""
+"Use :guilabel:`Super Cell` to build super cell which has repeating unit "
+"cell structure. Enter repeat counts along a, b, c axes in the three text "
+"boxes in :guilabel:`Scaling` field, and then click :guilabel:`Build` ."
 
 #: ../../usage/modeler.rst:34
 msgid "スラブモデル"
-msgstr ""
+msgstr "Slab model"
 
 #: ../../usage/modeler.rst:36
 msgid "表面などの非周期系を近似的に周期的境界条件で扱う、スラブ近似のためのモデルを作成します。"
 msgstr ""
+"Build a model for slab approximation which treats aperiodic system such "
+"as surface in approximate periodic boundary condition."
 
 #: ../../usage/modeler.rst:38
 msgid ""
 ":guilabel:`Slab Model` で、表面となる結晶面をミラー指数で指定し、 :guilabel:`Build` "
 "をクリックすると、スラブモデルの詳細設定を行う画面が表示されます。"
 msgstr ""
+"Specify a crystal plane to be the surface by Miller indices and click "
+":guilabel:`Build` . Detailed setting view of slab model is shown."
 
 #: ../../usage/modeler.rst:40
 msgid ""
@@ -888,39 +981,50 @@ msgid ""
 ":guilabel:`Area Scaling` のテキストボックスに繰り返し回数をそれぞれ入力し、 :guilabel:`Build` "
 "をクリックすると、スラブの層内方向に繰り返した構造を生成します。"
 msgstr ""
+"Change the thickness of the slab by :guilabel:`Width / Cell` in "
+":guilabel:`Slab System` and the thickness of the vacuum layer by "
+":guilabel:`Width / Angs.` in :guilabel:`Vacuum of a Side` . Enter repeat "
+"count in the textboxes in :guilabel:`Area Scaling` and click "
+":guilabel:`Build` to build repeated structure along in-plane direction of"
+" the slab."
 
 #: ../../usage/modeler.rst:42
 msgid ""
 "複数の異なる表面原子構造が存在する場合、 :guilabel:`Kind of Surface` "
 "に複数の候補が表示されますので、クリックして選択してください。"
 msgstr ""
+"In case there exists multiple different surface atomic structures, click "
+"one from candidates displayed in :guilabel:`Kind of Surface` ."
 
 #: ../../usage/modeler.rst:44
 msgid "変更はリアルタイムでビューワーに反映されます。"
-msgstr ""
+msgstr "The changes are reflected in the viewer in real time."
 
 #: ../../usage/modeler.rst:46
 msgid ":guilabel:`Initialize Model` をクリックすると、詳細設定を行う前（スラブモデル画面を開いた時点）の状態に戻ります。"
-msgstr ""
+msgstr "Click :guilabel:`Initialize Model` to"
+" return to the state before detailed setting is performed (when slab model view was "
+"opened)."
 
 #: ../../usage/modeler.rst:48 ../../usage/modeler.rst:65
 #: ../../usage/modeler.rst:78
 msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
-msgstr ""
+msgstr "Click back button |back| on lower left to go "
+"back to modeler view."
 
 #: ../../usage/modeler.rst:57
 msgid "元素置換"
-msgstr ""
+msgstr "Element substitution"
 
 #: ../../usage/modeler.rst:59
 msgid "モデル中の原子の一部を異なる種類に変更します。"
-msgstr ""
+msgstr "Substitute some of the atoms in the model for different atoms."
 
 #: ../../usage/modeler.rst:61
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Element Substitution` にある "
 ":guilabel:`Start Modeling` をクリックすると、元素置換を行う画面が表示されます。"
-msgstr ""
+msgstr "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in :guilabel:`Element Substitution` to show element substitution view."
 
 #: ../../usage/modeler.rst:63
 msgid ""
@@ -930,21 +1034,24 @@ msgid ""
 "で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` "
 "をクリックすると、置換後の構造がビューワーに表示されます。 そのまま再度 :guilabel:`Build` "
 "をクリックすると、同じ置換設定で異なる構造が表示されます。"
-msgstr ""
+msgstr "Set :guilabel:`Element to be Substituted` , :guilabel:`For What Element ?` , :guilabel:`Super Cell` and :guilabel:`Rate of Substitution` "
+"in sequence. Click :guilabel:`Next` ( :guilabel:`Previous` ) to move to the next (previous) item. When finished, click :guilabel:`Build` to show "
+"the structure after the substitution in the viewer. If you click :guilabel:`Build` again here, different structure with the same substitution setting "
+"is shown."
 
 #: ../../usage/modeler.rst:70
 msgid "点欠陥（空孔）"
-msgstr ""
+msgstr "Point defect (vacancy)"
 
 #: ../../usage/modeler.rst:72
 msgid "モデル中の原子の一部を取り除き、点欠陥（空孔）を作成します。"
-msgstr ""
+msgstr "Remove some of the atoms in the model and create point defects (vacancies)."
 
 #: ../../usage/modeler.rst:74
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Lattice Defect` にある :guilabel:`Start "
 "Modeling` をクリックすると、点欠陥を作成する画面が表示されます。"
-msgstr ""
+msgstr "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in :guilabel:`Lattice Defect` to show lattice defect view."
 
 #: ../../usage/modeler.rst:76
 msgid ""
@@ -953,11 +1060,14 @@ msgid ""
 "（取り除く割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` "
 "で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、欠陥を入れた構造がビューワーに表示されます。"
 " そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。"
-msgstr ""
+msgstr "Set :guilabel:`Element to be Removed` , :guilabel:`Super Cell` , :guilabel:`Rate of Lattice Defect` in sequence. "
+"Click :guilabel:`Next` ( :guilabel:`Previous` ) to move to the next (previous) item. When finished, click :guilabel:`Build` to show "
+"the structure with defects in the viewer. If you click :guilabel:`Build` again here, different structure with the same defect setting "
+"is shown."
 
 #: ../../usage/project.rst:5
 msgid "プロジェクト"
-msgstr ""
+msgstr "Project"
 
 #: ../../usage/project.rst:7
 msgid "1つの構造情報ファイルに対し、計算の入力ファイル・出力ファイルをまとめて「プロジェクト」として管理します。"
