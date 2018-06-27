@@ -32,7 +32,7 @@ msgstr "Type the chemical formula in the search box and press :kbd:`Enter` key t
 
 #: ../../demo.rst:20
 msgid "ファイルを選択すると新しい画面が開き、Quantum ESPRESSOのインプットファイルを作成できます。"
-msgstr "When you select a file, a new screen opens and you can create input files for Quantum ESPRESSO."
+msgstr "When you select a file, a new view opens and you can create input files for Quantum ESPRESSO."
 
 #: ../../demo.rst:32
 msgid "Quantum ESPRESSOの計算実行"

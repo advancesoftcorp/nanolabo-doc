@@ -149,7 +149,7 @@ msgstr ""
 
 #: ../../install/purchase.rst
 msgid "（予定価格）"
-msgstr "(planned plice)"
+msgstr "(planned price)"
 
 #: ../../install/purchase.rst:57
 msgid "100"
@@ -219,7 +219,7 @@ msgstr "After trial period"
 msgid "試用期間終了後（またはインストール時にライセンス登録をしなかった場合）、ソフトウェアを起動しようとすると、ライセンス登録を案内する画面が表示されます。"
 msgstr ""
 "Once trial period is up (or if not registered during installation), a "
-"screen to guide the license registration appears when you launch the "
+"window to guide the license registration appears when you launch the "
 "software."
 
 #: ../../install/purchase.rst:96
