@@ -10,7 +10,7 @@
    usage/webbrowser
    usage/project
    usage/atomsviewer
-   usage/modeler
    usage/inputeditor
+   usage/modeler
    usage/calculation
    usage/result
