@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-26 17:40+0900\n"
+"POT-Creation-Date: 2018-06-28 15:24+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,8 +34,8 @@ msgstr "Purchasing License"
 msgid "本ソフトウェアは有償です。試用ライセンスで1カ月間ご試用いただき、お客様の需要に応えると判断していただけましたら、継続利用のため製品ライセンスのご購入をお願いします。"
 msgstr ""
 "This software is a shareware. Try it out for one month with trial "
-"license. If you make sure this software meets your demands, "
-"please purchase the paid license for continued use."
+"license. If you make sure this software meets your demands, please "
+"purchase the paid license for continued use."
 
 #: ../../install/purchase.rst:9
 msgid ""
@@ -43,8 +43,8 @@ msgid ""
 " IDを取得し、そのHost IDに対してライセンスファイルを発行します。"
 msgstr ""
 "Both trial license and paid license allow you to use the software on one "
-"specific computer (node-locked license). This software get a Host ID unique "
-"to the computer, and we issue a license file for that Host ID."
+"specific computer (node-locked license). This software get a Host ID "
+"unique to the computer, and we issue a license file for that Host ID."
 
 #: ../../install/purchase.rst:11
 msgid "また、本ソフトウェアから使用できるオープンソースの計算エンジンについて、有償にて技術サポートを承ります。併せてご利用ください。"
@@ -233,6 +233,30 @@ msgstr ""
 #: ../../install/purchase.rst:97
 msgid ":guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。"
 msgstr "A window titled :guilabel:`Error` appears. Click :guilabel:`OK` ."
+
+#: ../../install/requirement.rst:5
+msgid "動作環境"
+msgstr "Requirements"
+
+#: ../../install/requirement.rst:7
+msgid "OS"
+msgstr ""
+
+#: ../../install/requirement.rst:9
+msgid "Windows 10"
+msgstr ""
+
+#: ../../install/requirement.rst:10
+msgid "CentOS 6"
+msgstr ""
+
+#: ../../install/requirement.rst:12
+msgid "Java"
+msgstr ""
+
+#: ../../install/requirement.rst:14
+msgid "JRE1.8以降"
+msgstr "JRE1.8 or later"
 
 #: ../../install/windows.rst:3
 msgid "インストール手順 (Windows)"
