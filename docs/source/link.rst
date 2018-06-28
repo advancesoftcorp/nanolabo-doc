@@ -58,6 +58,8 @@ LAMMPSホームページ
 マニュアル
  http://lammps.sandia.gov/doc/Manual.html
 
+.. _materialsdb:
+
 材料データベース
 ===================
 
