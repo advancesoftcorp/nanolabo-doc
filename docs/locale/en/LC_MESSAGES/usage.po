@@ -32,9 +32,8 @@ msgid ""
 " :doc:`モデラ―<modeler>`\\ 画面でご使用いただけます。"
 msgstr ""
 "In the project view, atomic structure information file is displayed as 3D"
-" model. Simple editing of atomic structure can also be done within this "
-"view. More advanced editing functions can be used on the :doc:`modeler` "
-"view."
+" model. You can also do some simple edits of the atomic structure in this view. "
+"More advanced edit functions can be used in :doc:`modeler` view."
 
 #: ../../usage/atomsviewer.rst:12
 msgid "視点の操作"
@@ -106,7 +105,7 @@ msgstr ""
 
 #: ../../usage/atomsviewer.rst:42
 msgid "原子構造の簡単な編集"
-msgstr "Simple editing of atomic structure"
+msgstr "Simple edits of atomic structure"
 
 #: ../../usage/atomsviewer.rst:47
 msgid "原子の変更"
@@ -166,11 +165,11 @@ msgstr ""
 msgid "緑色の平面と、黒色の法線が表示されます。ドラッグ（または矢印キー）で平面を回転させます。選択した原子をドラッグすると、平面に沿って移動させることができます。"
 msgstr ""
 "Green plane and black normal line are shown. Use dragging (or arrow keys)"
-" to rotate the plane. Then you can drag selected atom(s) along the plane."
+" to rotate the plane. You can then drag selected atom(s) along the plane."
 
 #: ../../usage/atomsviewer.rst:68
 msgid "ドロップ（マウスのボタンを離す）すると、位置が確定します。"
-msgstr "Drop (release mouse button) to determine the position."
+msgstr "Drop (release mouse button) to fix the position."
 
 #: ../../usage/atomsviewer.rst:73
 msgid "原子の追加"
@@ -209,7 +208,7 @@ msgid ""
 "のみ）計算エンジンでどの計算を行うか選択します。"
 msgstr ""
 "(\\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_ only) Choose "
-"which calculation to run with the calculation engine."
+"a calculation type to be run by the calculation engine."
 
 #: ../../usage/calculation.rst:15
 msgid "Parallel"
@@ -254,7 +253,7 @@ msgstr ""
 "Running/waiting calculation jobs are listed in :guilabel:`Calculating` in"
 " explorer. Each calculation job is shown as 3D model icon with "
 "calculation engine label on the upper left and calculation type label on "
-"the lower right. The label on the lower right indicates the state of the job:"
+"the lower right. The label color on the lower right indicates the state of the job:"
 " red for running and yellow for waiting. When the job is finished, the "
 "label turns green, and then the icon disappears from "
 ":guilabel:`Calculating` ."
@@ -675,7 +674,7 @@ msgstr ""
 #: ../../usage/inputeditor.rst:13
 msgid "折り畳まれて表示されていない項目（右三角アイコン |collapse| ）は、クリックして展開することで表示できます。"
 msgstr ""
-"Items that are collapsed and not visible can be expanded by clicking the "
+"Some of the setting items are collapsed and not visible. They can be expanded by clicking the "
 "right-pointing triangle icon |collapse| ."
 
 #: ../../usage/inputeditor.rst:18
@@ -938,7 +937,7 @@ msgid ""
 "で、すべての原子を同じ方向・距離に移動させます。各単位格子ベクトルのスライダーを動かすと、リアルタイムでビューワーに反映されます。"
 msgstr ""
 "Use :guilabel:`Translation of Cell` to move all atoms to the same "
-"direction and distance. Changes made to the sliders of the vectors are "
+"direction and distance. Changes made to the vector sliders are "
 "reflected in the viewer in real time."
 
 #: ../../usage/modeler.rst:25
@@ -950,8 +949,8 @@ msgid ""
 ":guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 :guilabel:`Scaling` "
 "欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。"
 msgstr ""
-"Use :guilabel:`Super Cell` to build super cell which has repeating unit "
-"cell structure. Enter repeat counts along a, b, c axes in the three text "
+"Use :guilabel:`Super Cell` to build the super cell which has repeating unit "
+"cell structure. Enter the repeat counts along a, b, c axes in the three text "
 "boxes in :guilabel:`Scaling` field, and then click :guilabel:`Build` ."
 
 #: ../../usage/modeler.rst:34
@@ -981,7 +980,7 @@ msgid ""
 msgstr ""
 "Change the thickness of the slab by :guilabel:`Width / Cell` in "
 ":guilabel:`Slab System` and the thickness of the vacuum layer by "
-":guilabel:`Width / Angs.` in :guilabel:`Vacuum of a Side` . Enter repeat "
+":guilabel:`Width / Angs.` in :guilabel:`Vacuum of a Side` . Enter the repeat "
 "count in the text boxes in :guilabel:`Area Scaling` and click "
 ":guilabel:`Build` to build repeated structure along in-plane direction of"
 " the slab."
@@ -992,7 +991,7 @@ msgid ""
 "に複数の候補が表示されますので、クリックして選択してください。"
 msgstr ""
 "In case there exists multiple different surface atomic structures, click "
-"one from candidates displayed in :guilabel:`Kind of Surface` ."
+"one from the candidates displayed in :guilabel:`Kind of Surface` ."
 
 #: ../../usage/modeler.rst:44
 msgid "変更はリアルタイムでビューワーに反映されます。"
@@ -1231,14 +1230,14 @@ msgstr "Result"
 msgid ""
 "計算を実行したプロジェクトのタブを開くと、表示可能な計算結果がタイル状に一覧表示されます。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー"
 " |projectmenuicon| から :guilabel:`Result` をクリックしてください。）"
-msgstr "Once the calculation is launched, the results that can be displayed are listed as tiles when you open the project tab. "
+msgstr "Once the calculation is launched, you can check the results in the project tab, where the results ready for visualization are listed as tiles. "
 "(In case input file"
 " editor is shown in project view, first click :guilabel:`Result` from the"
 " menu |projectmenuicon| on the lower left.)"
 
 #: ../../usage/result.rst:11
 msgid "表示したいものを選んでクリックすると、可視化された計算結果の画面を表示します。左下の戻るボタン |back| をクリックすると一覧表示に戻ります。"
-msgstr "Click an item to show visualized calculation result. Click back button |back| on the lower left to go back to the list."
+msgstr "Click an item you'd like to see to open the result view. Click back button |back| on the lower left to go back to the list."
 
 #: ../../usage/result.rst:18
 msgid "2Dプロット"
@@ -1248,7 +1247,7 @@ msgstr "2D plot"
 msgid ""
 "時系列データや状態密度・バンド構造は2Dプロットで表示します。画面右側のパネルでプロットの体裁を調整します。計算実行中の場合、 "
 ":guilabel:`Reload` をクリックすると出力ファイルを読み込んで表示を更新します。"
-msgstr "Time series data, density of states or band structure are shown in 2D plot. Optimize the appearance of the plot in the right side panel. "
+msgstr "Time series data, density of states or band structure are shown in 2D plot. Tweak the plot appearance using the right side panel. "
 "In case the calculation is running, click :guilabel:`Reload` to read the output file and update the display."
 
 #: ../../usage/result.rst:22
@@ -1263,12 +1262,12 @@ msgstr "Movie"
 msgid ""
 ":guilabel:`.movie` をクリックすると、原子構造の変化を動画として表示します。計算実行中の場合、 "
 ":guilabel:`Reload` をクリックすると出力ファイルを読み込み、増えたフレーム（コマ）を追加します。"
-msgstr "Click :guilabel:`.movie` to show the change of atomic structure as animation. "
+msgstr "Click :guilabel:`.movie` to show the change of the atomic structure as animation. "
 "In case the calculation is running, click :guilabel:`Reload` to read the output file and add updated frames."
 
 #: ../../usage/result.rst:37
 msgid "視点の操作は原子構造ビューワーと同様に行うことができます。再生中でも視点を変えられます。"
-msgstr "You can change the viewpoint in the same way as atomic structure viewer. You can change the viewpoint even during playback."
+msgstr "You can change the viewpoint in the same way as atomic structure viewer. You can change the viewpoint even during the playback."
 
 #: ../../usage/result.rst:39
 msgid ""
@@ -1290,7 +1289,7 @@ msgid ""
 ":guilabel:`IN` （入力ファイル）、 :guilabel:`LOG` （ログファイル）、 :guilabel:`ERR` "
 "（エラーログファイル）をクリックすると、テキストファイルの内容をそのまま表示します。ファイル内検索、ハイライト表示や抽出も可能です。"
 msgstr "Click :guilabel:`IN` (input file), :guilabel:`LOG` (log file), :guilabel:`ERR` (error log file) to show the content of the file. "
-"In-file search, highlighting and extracting are possible."
+"You can use in-file search, highlighting and extracting."
 
 #: ../../usage/webbrowser.rst:5
 msgid "ウェブブラウザー"
