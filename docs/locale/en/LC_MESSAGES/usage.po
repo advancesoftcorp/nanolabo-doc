@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-26 17:40+0900\n"
+"POT-Creation-Date: 2018-06-28 15:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,8 +32,8 @@ msgid ""
 " :doc:`モデラ―<modeler>`\\ 画面でご使用いただけます。"
 msgstr ""
 "In the project view, atomic structure information file is displayed as 3D"
-" model. You can also do some simple edits of the atomic structure in this view. "
-"More advanced edit functions can be used in :doc:`modeler` view."
+" model. You can also do some simple edits of the atomic structure in this"
+" view. More advanced edit functions can be used in :doc:`modeler` view."
 
 #: ../../usage/atomsviewer.rst:12
 msgid "視点の操作"
@@ -75,7 +75,7 @@ msgstr "Wheel scroll"
 msgid ":kbd:`Alt` + 上下矢印キー"
 msgstr ":kbd:`Alt` + Up or Down arrow key"
 
-#: ../../usage/atomsviewer.rst:24 ../../usage/explorer.rst:16
+#: ../../usage/atomsviewer.rst:24
 msgid "移動"
 msgstr "Move"
 
@@ -207,8 +207,8 @@ msgid ""
 "（\\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_\\ "
 "のみ）計算エンジンでどの計算を行うか選択します。"
 msgstr ""
-"(\\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_ only) Choose "
-"a calculation type to be run by the calculation engine."
+"(\\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_ only) Choose a"
+" calculation type to be run by the calculation engine."
 
 #: ../../usage/calculation.rst:15
 msgid "Parallel"
@@ -253,9 +253,9 @@ msgstr ""
 "Running/waiting calculation jobs are listed in :guilabel:`Calculating` in"
 " explorer. Each calculation job is shown as 3D model icon with "
 "calculation engine label on the upper left and calculation type label on "
-"the lower right. The label color on the lower right indicates the state of the job:"
-" red for running and yellow for waiting. When the job is finished, the "
-"label turns green, and then the icon disappears from "
+"the lower right. The label color on the lower right indicates the state "
+"of the job: red for running and yellow for waiting. When the job is "
+"finished, the label turns green, and then the icon disappears from "
 ":guilabel:`Calculating` ."
 
 #: ../../usage/calculation.rst:34
@@ -283,7 +283,8 @@ msgstr ""
 "When a calculation failed, :guilabel:`Error` window is shown. To look "
 "into the error, open project view and click :guilabel:`CRASH` to display "
 "the error log. (In case input file editor is shown in project view, first"
-" click :guilabel:`Result` from the menu |projectmenuicon| on the lower left.)"
+" click :guilabel:`Result` from the menu |projectmenuicon| on the lower "
+"left.)"
 
 #: ../../usage/explorer.rst:5
 msgid "エクスプローラー"
@@ -292,9 +293,9 @@ msgstr "Explorer"
 #: ../../usage/explorer.rst:7
 msgid "プロジェクトや構造情報ファイルなどを表示・管理します。表示領域には、本ソフトウェアで扱える項目のみが表示されます。原子構造はアイコンが3D表示され、ドラッグ操作で回転させて確認できます。（プロジェクトの実体はフォルダー（ディレクトリ）ですが、構造情報ファイルと同様に表示されます。）"
 msgstr ""
-"Display and manage projects and structure information files. Only the items "
-"that can be handled by this software are shown in the display area. "
-"Atomic structure is shown as 3D icon and can be rotated by dragging. (A "
+"Display and manage projects and structure information files. Only the "
+"items that can be handled by this software are shown in the display area."
+" Atomic structure is shown as 3D icon and can be rotated by dragging. (A "
 "project is in actuality a folder (directory), but is displayed in the "
 "same way as structure information file.)"
 
@@ -304,9 +305,13 @@ msgstr ""
 "Open a structure information file to switch to the project view, where "
 "you can perform analysis."
 
+#: ../../usage/explorer.rst:16
+msgid "移動パネル"
+msgstr "Navigation panel"
+
 #: ../../usage/explorer.rst:18
 msgid "左のパネルの各項目をクリックして移動します。"
-msgstr "Click on each item on the left panel to move."
+msgstr "Click on each item on the left panel to go there."
 
 #: ../../usage/explorer.rst:24
 msgid "Recently Used"
@@ -322,7 +327,7 @@ msgstr ""
 
 #: ../../usage/explorer.rst:26
 msgid "ルート（Windowsでは :file:`C:`、Linuxでは :file:`/`）に移動します。"
-msgstr "Move to the root (\\ :file:`C:` on Windows, :file:`/` on Linux)."
+msgstr "Go to the root (\\ :file:`C:` on Windows, :file:`/` on Linux)."
 
 #: ../../usage/explorer.rst:28
 msgid "My Projects"
@@ -330,7 +335,7 @@ msgstr ""
 
 #: ../../usage/explorer.rst:28
 msgid "プロジェクトの保存場所に移動します。"
-msgstr "Move to where projects are stored."
+msgstr "Go where projects are stored."
 
 #: ../../usage/explorer.rst:30
 msgid "Advance/PHASE"
@@ -338,7 +343,7 @@ msgstr ""
 
 #: ../../usage/explorer.rst:30
 msgid "弊社PHASE-Viewerのプロジェクトの保存場所に移動します。"
-msgstr "Move to where PHASE-Viewer (our product) projects are stored."
+msgstr "Go where PHASE-Viewer (our product) projects are stored."
 
 #: ../../usage/explorer.rst:32
 msgid "Calculating"
@@ -370,20 +375,20 @@ msgstr ""
 
 #: ../../usage/explorer.rst:38
 msgid "ウェブサイトからダウンロードしたファイルの保存場所に移動します。"
-msgstr "Move to the destination folder of files downloaded from the web sites."
+msgstr "Go to the destination folder (directory) of files downloaded from the web sites."
 
 #: ../../usage/explorer.rst:44
 msgid "ナビボタン"
-msgstr "Navi buttons"
+msgstr "Navigation buttons"
 
 #: ../../usage/explorer.rst:46
 msgid ""
 "戻るボタン |back| 、進むボタン |fwd| でこれまでに表示した場所に移動します。上へボタン |up| "
 "で一つ上のフォルダ（ディレクトリ）に移動します。"
 msgstr ""
-"Click back button |back| or forward button |fwd| to move to the previously "
-"displayed locations. Click up button |up| to move to the parent folder "
-"(directory)."
+"Click back button |back| or forward button |fwd| to go to "
+"previously displayed locations. Click up button |up| to go to the"
+"parent folder (directory)."
 
 #: ../../usage/explorer.rst:55
 msgid "ロケーションバー"
@@ -395,22 +400,23 @@ msgid ""
 "キーを押すと、その場所に移動します。WindowsでCドライブ以外の場所を表示したい場合はこちらをご使用ください。"
 msgstr ""
 "Shows the path (location in the computer) of currently displayed "
-"location. Type a path and press :kbd:`Enter` key to move to the location."
-" On Windows, use this function if you'd like to move to a location other than C drive."
+"location. Type a path and press :kbd:`Enter` key to go to the location."
+" On Windows, use this function if you'd like to go to a location other "
+"than C drive."
 
 #: ../../usage/explorer.rst:62
 msgid "表示変更"
-msgstr "View"
+msgstr "Change view"
 
 #: ../../usage/explorer.rst:64
 msgid "表示領域のアイコンの大きさを選択します。 :guilabel:`List` を選択すると、各項目の詳細情報をリスト表示します。"
 msgstr ""
-"Choose the size of the icons in the display area. Select :guilabel:`List` to "
-"list the detailed information of each item."
+"Choose the size of the icons in the display area. Select :guilabel:`List`"
+" to list the detailed information of each item."
 
 #: ../../usage/explorer.rst:69
 msgid "対応する構造情報ファイル形式"
-msgstr "Supported structure information files"
+msgstr "Supported structure information file types"
 
 #: ../../usage/explorer.rst:75
 msgid ".cif"
@@ -519,8 +525,8 @@ msgstr "Main menu"
 #: ../../usage/initial.rst:34
 msgid "左上のアイコン |mainmenuicon| をクリックしてメインメニューを開きます。ここでは全般的な設定等を行います。"
 msgstr ""
-"Click the icon |mainmenuicon| on the upper left to open main menu. "
-"Here you can configure general settings etc."
+"Click the icon |mainmenuicon| on the upper left to open main menu. Here "
+"you can configure general settings etc."
 
 #: ../../usage/initial.rst:40
 msgid "メインメニューの項目"
@@ -601,8 +607,8 @@ msgid ""
 "<https://pubchem.ncbi.nlm.nih.gov/>`_\\ "
 "）から構造情報ファイルを検索します。検索結果から解析したい構造情報ファイルを開くと、そのまま解析を行うプロジェクト画面に移行できます。"
 msgstr ""
-"Type substance name or chemical formula in the text box on the upper right to"
-" search external materials databases (\\ `Materials Project "
+"Type substance name or chemical formula in the text box on the upper "
+"right to search external materials databases (\\ `Materials Project "
 "<https://materialsproject.org/>`_\\ , `PubChem "
 "<https://pubchem.ncbi.nlm.nih.gov/>`_\\ ) for structure information "
 "files. Open a structure information file you'd like to analyze to "
@@ -647,8 +653,8 @@ msgstr ""
 #: ../../usage/initial.rst:85
 msgid "また、 :guilabel:`Materials Finder` と書かれた部分をクリックすることで、APIキーなどの詳細な設定を行います。"
 msgstr ""
-"In addition, click on the text saying :guilabel:`Materials Finder` to"
-" configure detailed settings such as API key."
+"In addition, click on the text saying :guilabel:`Materials Finder` to "
+"configure detailed settings such as API key."
 
 #: ../../usage/inputeditor.rst:5
 msgid "入力ファイルエディター"
@@ -674,8 +680,8 @@ msgstr ""
 #: ../../usage/inputeditor.rst:13
 msgid "折り畳まれて表示されていない項目（右三角アイコン |collapse| ）は、クリックして展開することで表示できます。"
 msgstr ""
-"Some of the setting items are collapsed and not visible. They can be expanded by clicking the "
-"right-pointing triangle icon |collapse| ."
+"Some of the setting items are collapsed and not visible. They can be "
+"expanded by clicking the right-pointing triangle icon |collapse| ."
 
 #: ../../usage/inputeditor.rst:18
 msgid "いくつかの設定画面については補足説明がありますので、以下のリンクよりご覧ください。"
@@ -698,8 +704,8 @@ msgstr ""
 #: ../../usage/inputeditor.rst:33
 msgid "画面右側のパネルで変更した設定項目は、再読み込みボタン |reloadac| をクリックすることでテキストエディタ―側に反映されます。"
 msgstr ""
-"Click reload button |reloadac| to reflect the modified items on the right "
-"side panel in the text editor."
+"Click reload button |reloadac| to reflect the modified items on the right"
+" side panel in the text editor."
 
 #: ../../usage/inputeditor.rst:35
 msgid ""
@@ -809,8 +815,8 @@ msgid ""
 "から :guilabel:`Scheme` をクリックしてください。"
 msgstr ""
 "Configure the calculation scheme in :guilabel:`Scheme` mode of input file"
-" editor. Click :guilabel:`Scheme` from the menu |editormenuicon| on the lower"
-" right."
+" editor. Click :guilabel:`Scheme` from the menu |editormenuicon| on the "
+"lower right."
 
 #: ../../usage/inputeditorlammps.rst:42
 msgid ""
@@ -819,18 +825,18 @@ msgid ""
 "を繰り返して過程を追加していきます。"
 msgstr ""
 "Configure the calculation on the right side panel, and then click "
-":guilabel:`Apply` in :guilabel:`Add Scheme` to add the setting on the left "
-"side of the window as a tile. Repeat configuring |rarr| :guilabel:`Apply`"
-" to add processes as many times as necessary."
+":guilabel:`Apply` in :guilabel:`Add Scheme` to add the setting on the "
+"left side of the window as a tile. Repeat configuring |rarr| "
+":guilabel:`Apply` to add processes as many times as necessary."
 
 #: ../../usage/inputeditorlammps.rst:48
 msgid ""
 "タイルの左上の数字が過程の実行される順番です。前へボタン |lpback| 、後へボタン |lpfwd| で順番を入れ替えます。削除ボタン "
 "|lpdel| で削除します。"
 msgstr ""
-"The number on the upper left of the tile indicates the order in which the "
-"process is executed. Use back button |lpback| and forward button |lpfwd| to"
-" change the order. Delete it by delete button |lpdel| ."
+"The number on the upper left of the tile indicates the order in which the"
+" process is executed. Use back button |lpback| and forward button |lpfwd|"
+" to change the order. Delete it by delete button |lpdel| ."
 
 #: ../../usage/inputeditorlammps.rst:54
 msgid ""
@@ -908,8 +914,8 @@ msgid ""
 "をクリックして、モデラ―画面を開いてください。"
 msgstr ""
 "Perform advanced editing of the atomic structure. Click "
-":guilabel:`Modeler` from the menu |projectmenuicon| on the lower left to open"
-" modeler view."
+":guilabel:`Modeler` from the menu |projectmenuicon| on the lower left to "
+"open modeler view."
 
 #: ../../usage/modeler.rst:9
 msgid ""
@@ -924,8 +930,8 @@ msgstr ""
 #: ../../usage/modeler.rst:11
 msgid "編集が終わりましたら、左下の戻るボタン |back| をクリックしてプロジェクト画面に戻ります。"
 msgstr ""
-"When editing is finished, click back button |back| on the lower left to go "
-"back to project view."
+"When editing is finished, click back button |back| on the lower left to "
+"go back to project view."
 
 #: ../../usage/modeler.rst:18
 msgid "並進移動"
@@ -937,8 +943,8 @@ msgid ""
 "で、すべての原子を同じ方向・距離に移動させます。各単位格子ベクトルのスライダーを動かすと、リアルタイムでビューワーに反映されます。"
 msgstr ""
 "Use :guilabel:`Translation of Cell` to move all atoms to the same "
-"direction and distance. Changes made to the vector sliders are "
-"reflected in the viewer in real time."
+"direction and distance. Changes made to the vector sliders are reflected "
+"in the viewer in real time."
 
 #: ../../usage/modeler.rst:25
 msgid "超格子"
@@ -949,9 +955,10 @@ msgid ""
 ":guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 :guilabel:`Scaling` "
 "欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。"
 msgstr ""
-"Use :guilabel:`Super Cell` to build the super cell which has repeating unit "
-"cell structure. Enter the repeat counts along a, b, c axes in the three text "
-"boxes in :guilabel:`Scaling` field, and then click :guilabel:`Build` ."
+"Use :guilabel:`Super Cell` to build the super cell which has repeating "
+"unit cell structure. Enter the repeat counts along a, b, c axes in the "
+"three text boxes in :guilabel:`Scaling` field, and then click "
+":guilabel:`Build` ."
 
 #: ../../usage/modeler.rst:34
 msgid "スラブモデル"
@@ -980,8 +987,8 @@ msgid ""
 msgstr ""
 "Change the thickness of the slab by :guilabel:`Width / Cell` in "
 ":guilabel:`Slab System` and the thickness of the vacuum layer by "
-":guilabel:`Width / Angs.` in :guilabel:`Vacuum of a Side` . Enter the repeat "
-"count in the text boxes in :guilabel:`Area Scaling` and click "
+":guilabel:`Width / Angs.` in :guilabel:`Vacuum of a Side` . Enter the "
+"repeat count in the text boxes in :guilabel:`Area Scaling` and click "
 ":guilabel:`Build` to build repeated structure along in-plane direction of"
 " the slab."
 
@@ -999,15 +1006,14 @@ msgstr "The changes are reflected in the viewer in real time."
 
 #: ../../usage/modeler.rst:46
 msgid ":guilabel:`Initialize Model` をクリックすると、詳細設定を行う前（スラブモデル画面を開いた時点）の状態に戻ります。"
-msgstr "Click :guilabel:`Initialize Model` to"
-" return to the state before detailed setting is performed (when slab model view was "
-"opened)."
+msgstr ""
+"Click :guilabel:`Initialize Model` to return to the state before detailed"
+" setting is performed (when slab model view was opened)."
 
 #: ../../usage/modeler.rst:48 ../../usage/modeler.rst:65
 #: ../../usage/modeler.rst:78
 msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
-msgstr "Click back button |back| on the lower left to go "
-"back to modeler view."
+msgstr "Click back button |back| on the lower left to go back to modeler view."
 
 #: ../../usage/modeler.rst:57
 msgid "元素置換"
@@ -1021,7 +1027,9 @@ msgstr "Substitute some of the atoms in the model for different atoms."
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Element Substitution` にある "
 ":guilabel:`Start Modeling` をクリックすると、元素置換を行う画面が表示されます。"
-msgstr "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in :guilabel:`Element Substitution` to show element substitution view."
+msgstr ""
+"In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
+":guilabel:`Element Substitution` to show element substitution view."
 
 #: ../../usage/modeler.rst:63
 msgid ""
@@ -1031,10 +1039,14 @@ msgid ""
 "で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` "
 "をクリックすると、置換後の構造がビューワーに表示されます。 そのまま再度 :guilabel:`Build` "
 "をクリックすると、同じ置換設定で異なる構造が表示されます。"
-msgstr "Set :guilabel:`Element to be Substituted` , :guilabel:`For What Element ?` , :guilabel:`Super Cell` and :guilabel:`Rate of Substitution` "
-"one by one. Click :guilabel:`Next` ( :guilabel:`Previous` ) to move to the next (previous) item. When finished, click :guilabel:`Build` to show "
-"the structure after the substitution in the viewer. If you click :guilabel:`Build` again here, different structure with the same substitution setting "
-"is shown."
+msgstr ""
+"Set :guilabel:`Element to be Substituted` , :guilabel:`For What Element "
+"?` , :guilabel:`Super Cell` and :guilabel:`Rate of Substitution` one by "
+"one. Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to the next "
+"(previous) item. When finished, click :guilabel:`Build` to show the "
+"structure after the substitution in the viewer. If you click "
+":guilabel:`Build` again here, different structure with the same "
+"substitution setting is shown."
 
 #: ../../usage/modeler.rst:70
 msgid "点欠陥（空孔）"
@@ -1042,13 +1054,17 @@ msgstr "Point defect (vacancy)"
 
 #: ../../usage/modeler.rst:72
 msgid "モデル中の原子の一部を取り除き、点欠陥（空孔）を作成します。"
-msgstr "Remove some of the atoms in the model and create point defects (vacancies)."
+msgstr ""
+"Remove some of the atoms in the model and create point defects "
+"(vacancies)."
 
 #: ../../usage/modeler.rst:74
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Lattice Defect` にある :guilabel:`Start "
 "Modeling` をクリックすると、点欠陥を作成する画面が表示されます。"
-msgstr "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in :guilabel:`Lattice Defect` to show lattice defect view."
+msgstr ""
+"In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
+":guilabel:`Lattice Defect` to show lattice defect view."
 
 #: ../../usage/modeler.rst:76
 msgid ""
@@ -1057,10 +1073,13 @@ msgid ""
 "（取り除く割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` "
 "で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、欠陥を入れた構造がビューワーに表示されます。"
 " そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。"
-msgstr "Set :guilabel:`Element to be Removed` , :guilabel:`Super Cell` , :guilabel:`Rate of Lattice Defect` one by one. "
-"Click :guilabel:`Next` ( :guilabel:`Previous` ) to move to the next (previous) item. When finished, click :guilabel:`Build` to show "
-"the structure with defects in the viewer. If you click :guilabel:`Build` again here, different structure with the same defect setting "
-"is shown."
+msgstr ""
+"Set :guilabel:`Element to be Removed` , :guilabel:`Super Cell` , "
+":guilabel:`Rate of Lattice Defect` one by one. Click :guilabel:`Next` ( "
+":guilabel:`Previous` ) to move on to the next (previous) item. When "
+"finished, click :guilabel:`Build` to show the structure with defects in "
+"the viewer. If you click :guilabel:`Build` again here, different "
+"structure with the same defect setting is shown."
 
 #: ../../usage/project.rst:5
 msgid "プロジェクト"
@@ -1068,7 +1087,9 @@ msgstr "Project"
 
 #: ../../usage/project.rst:7
 msgid "1つの構造情報ファイルに対し、計算の入力ファイル・出力ファイルをまとめて「プロジェクト」として管理します。"
-msgstr "Input files and output files belonging to a structure information file are managed as a \"project\"."
+msgstr ""
+"Input files and output files belonging to a structure information file "
+"are managed as a \"project\"."
 
 #: ../../usage/project.rst:9
 msgid "エクスプローラーから構造情報ファイルを開くと、新しいプロジェクトのタブが開きます。"
@@ -1082,145 +1103,157 @@ msgstr "Selecting calculation engine"
 msgid ""
 "左下のメニュー |projectmenuicon| から :guilabel:`Change calculator` "
 "をクリックします。使用できる計算エンジンが表示されますので、解析に使用したいものをクリックして選択してください。"
-msgstr "Click :guilabel:`Change calculator` from the menu |projectmenuicon| on the lower left. "
-"Choose a calculation engine you'd like to use for the analysis from available engines."
+msgstr ""
+"Click :guilabel:`Change calculator` from the menu |projectmenuicon| on "
+"the lower left. Choose a calculation engine you'd like to use for the "
+"analysis from available engines."
 
 #: ../../usage/project.rst:22
 msgid ""
 "さらに、選択した計算エンジンの機能に応じ、どの入力ファイルを作成するか、右下のメニュー |editormenuicon| "
 "からエディターのモードを選びます。"
-msgstr "Then, choose a mode of editor from the menu |editormenuicon| on the lower right to create the input file, corresponding to the function of the selected calculation engine."
+msgstr ""
+"Then, choose a mode of editor from the menu |editormenuicon| on the lower"
+" right to create the input file, corresponding to the function of the "
+"selected calculation engine."
 
-#: ../../usage/project.rst:32
+#: ../../usage/project.rst:31
 msgid "計算エンジン"
 msgstr "Calculation engine"
 
-#: ../../usage/project.rst:32
+#: ../../usage/project.rst:31
 msgid "エディターのモード"
 msgstr "Editor mode"
 
-#: ../../usage/project.rst:34
+#: ../../usage/project.rst:33
 msgid "`Advance/PHASE`_"
 msgstr ""
 
-#: ../../usage/project.rst:34
+#: ../../usage/project.rst:33
 msgid "（PHASE-Viewerが起動し、プロジェクトが開きます。）"
 msgstr "(PHASE-Viewer is launched to open the project.)"
 
-#: ../../usage/project.rst:36
+#: ../../usage/project.rst:35
 msgid "`Quantum ESPRESSO`_"
 msgstr ""
 
-#: ../../usage/project.rst:36 ../../usage/project.rst:54
+#: ../../usage/project.rst:35 ../../usage/project.rst:53
 msgid ":guilabel:`Geometry`"
 msgstr ""
 
-#: ../../usage/project.rst:36 ../../usage/project.rst:54
+#: ../../usage/project.rst:35 ../../usage/project.rst:53
 msgid "原子構造・結晶構造の設定"
 msgstr "atomic / crystal structure settings"
 
-#: ../../usage/project.rst:38
+#: ../../usage/project.rst:37
 msgid ":guilabel:`SCF`"
 msgstr ""
 
-#: ../../usage/project.rst:38
+#: ../../usage/project.rst:37
 msgid "自己無撞着場計算"
 msgstr "self consistent field calculation"
 
-#: ../../usage/project.rst:40
+#: ../../usage/project.rst:39
 msgid ":guilabel:`Optimize`"
 msgstr ""
 
-#: ../../usage/project.rst:40
+#: ../../usage/project.rst:39
 msgid "第一原理構造最適化"
 msgstr "first principle structure optimization"
 
-#: ../../usage/project.rst:42
+#: ../../usage/project.rst:41
 msgid ":guilabel:`MD`"
 msgstr ""
 
-#: ../../usage/project.rst:42
+#: ../../usage/project.rst:41
 msgid "第一原理分子動力学法"
 msgstr "first principle molecular dynamics"
 
-#: ../../usage/project.rst:44
+#: ../../usage/project.rst:43
 msgid ":guilabel:`DOS`"
 msgstr ""
 
-#: ../../usage/project.rst:44
+#: ../../usage/project.rst:43
 msgid "状態密度計算"
 msgstr "density of states calculation"
 
-#: ../../usage/project.rst:46
+#: ../../usage/project.rst:45
 msgid ":guilabel:`Band`"
 msgstr ""
 
-#: ../../usage/project.rst:46
+#: ../../usage/project.rst:45
 msgid "バンド計算"
 msgstr "band calculation"
 
-#: ../../usage/project.rst:48
+#: ../../usage/project.rst:47
 msgid ":guilabel:`TD-DFT`"
 msgstr ""
 
-#: ../../usage/project.rst:48
+#: ../../usage/project.rst:47
 msgid "時間依存密度汎関数法"
 msgstr "time dependent density functional theory"
 
-#: ../../usage/project.rst:50
+#: ../../usage/project.rst:49
 msgid ":guilabel:`Phonon`"
 msgstr ""
 
-#: ../../usage/project.rst:50
+#: ../../usage/project.rst:49
 msgid "フォノン計算"
 msgstr "phonon calculation"
 
-#: ../../usage/project.rst:52
+#: ../../usage/project.rst:51
 msgid ":guilabel:`Ph. Dispersion`"
 msgstr ""
 
-#: ../../usage/project.rst:52
+#: ../../usage/project.rst:51
 msgid "フォノン状態密度・バンド計算"
 msgstr "phonon density of states / band calculation"
 
-#: ../../usage/project.rst:54
+#: ../../usage/project.rst:53
 msgid "`LAMMPS`_"
 msgstr ""
 
-#: ../../usage/project.rst:56
+#: ../../usage/project.rst:55
 msgid ":guilabel:`Force-Field`"
 msgstr ""
 
-#: ../../usage/project.rst:56
+#: ../../usage/project.rst:55
 msgid "力場の設定"
 msgstr "force field settings"
 
-#: ../../usage/project.rst:58
+#: ../../usage/project.rst:57
 msgid ":guilabel:`Scheme`"
 msgstr ""
 
-#: ../../usage/project.rst:58
+#: ../../usage/project.rst:57
 msgid "計算過程の設定"
 msgstr "calculation scheme settings"
 
-#: ../../usage/project.rst:65
+#: ../../usage/project.rst:64
 msgid "使用する計算エンジンとエディターのモードを選ぶと、それに応じた設定項目が画面右側のエディターパネルに表示されます。"
-msgstr "When you select the calculation engine and the editor mode, corresponding setting items are displayed in editor panel on the right side."
+msgstr ""
+"When you select the calculation engine and the editor mode, corresponding"
+" setting items are displayed in editor panel on the right side."
 
-#: ../../usage/project.rst:70
+#: ../../usage/project.rst:69
 msgid "プロジェクトの保存"
 msgstr "Saving project"
 
-#: ../../usage/project.rst:72
+#: ../../usage/project.rst:71
 msgid ""
 "新しいプロジェクトを開いた場合、そのままではまだ保存されていません。左下のメニュー |projectmenuicon| から "
 ":guilabel:`Save` をクリックし、保存場所とプロジェクト名を設定して保存してください。タブにプロジェクト名が表示されます。"
-msgstr "A newly opened project is not saved automatically. Click :guilabel:`Save` from the menu |projectmenuicon| on the lower left and specify "
-"the name and the location to save it. The project name is displayed on the tab."
+msgstr ""
+"A newly opened project is not saved automatically. Click :guilabel:`Save`"
+" from the menu |projectmenuicon| on the lower left and specify the name "
+"and the location to save it. The project name is displayed on the tab."
 
-#: ../../usage/project.rst:74
+#: ../../usage/project.rst:73
 msgid "保存していないプロジェクトで計算を実行しようとしたり、エディターで変更を加えたまま保存せずにタブを閉じようとしたりすると、保存するよう促されます。"
-msgstr "You will be prompted to save the project if you try to run the calculation in an unsaved project or if you try to close a tab with unsaved changes."
+msgstr ""
+"You will be prompted to save the project if you try to run the "
+"calculation in an unsaved project or if you try to close a tab with "
+"unsaved changes."
 
 #: ../../usage/result.rst:5
 msgid "結果表示"
@@ -1230,14 +1263,17 @@ msgstr "Result"
 msgid ""
 "計算を実行したプロジェクトのタブを開くと、表示可能な計算結果がタイル状に一覧表示されます。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー"
 " |projectmenuicon| から :guilabel:`Result` をクリックしてください。）"
-msgstr "Once the calculation is launched, you can check the results in the project tab, where the results ready for visualization are listed as tiles. "
-"(In case input file"
-" editor is shown in project view, first click :guilabel:`Result` from the"
-" menu |projectmenuicon| on the lower left.)"
+msgstr ""
+"Once the calculation is launched, you can check the results in the "
+"project tab, where the results ready for visualization are listed as "
+"tiles. (In case input file editor is shown in project view, first click "
+":guilabel:`Result` from the menu |projectmenuicon| on the lower left.)"
 
 #: ../../usage/result.rst:11
 msgid "表示したいものを選んでクリックすると、可視化された計算結果の画面を表示します。左下の戻るボタン |back| をクリックすると一覧表示に戻ります。"
-msgstr "Click an item you'd like to see to open the result view. Click back button |back| on the lower left to go back to the list."
+msgstr ""
+"Click an item you'd like to see to open the result view. Click back "
+"button |back| on the lower left to go back to the list."
 
 #: ../../usage/result.rst:18
 msgid "2Dプロット"
@@ -1247,8 +1283,11 @@ msgstr "2D plot"
 msgid ""
 "時系列データや状態密度・バンド構造は2Dプロットで表示します。画面右側のパネルでプロットの体裁を調整します。計算実行中の場合、 "
 ":guilabel:`Reload` をクリックすると出力ファイルを読み込んで表示を更新します。"
-msgstr "Time series data, density of states or band structure are shown in 2D plot. Tweak the plot appearance using the right side panel. "
-"In case the calculation is running, click :guilabel:`Reload` to read the output file and update the display."
+msgstr ""
+"Time series data, density of states or band structure are shown in 2D "
+"plot. Tweak the plot appearance using the right side panel. In case the "
+"calculation is running, click :guilabel:`Reload` to read the output file "
+"and update the display."
 
 #: ../../usage/result.rst:22
 msgid ":guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。"
@@ -1262,23 +1301,30 @@ msgstr "Movie"
 msgid ""
 ":guilabel:`.movie` をクリックすると、原子構造の変化を動画として表示します。計算実行中の場合、 "
 ":guilabel:`Reload` をクリックすると出力ファイルを読み込み、増えたフレーム（コマ）を追加します。"
-msgstr "Click :guilabel:`.movie` to show the change of the atomic structure as animation. "
-"In case the calculation is running, click :guilabel:`Reload` to read the output file and add updated frames."
+msgstr ""
+"Click :guilabel:`.movie` to show the change of the atomic structure as "
+"animation. In case the calculation is running, click :guilabel:`Reload` "
+"to read the output file and add updated frames."
 
 #: ../../usage/result.rst:37
 msgid "視点の操作は原子構造ビューワーと同様に行うことができます。再生中でも視点を変えられます。"
-msgstr "You can change the viewpoint in the same way as atomic structure viewer. You can change the viewpoint even during the playback."
+msgstr ""
+"You can change the viewpoint in the same way as atomic structure viewer. "
+"You can change the viewpoint even during the playback."
 
 #: ../../usage/result.rst:39
 msgid ""
 ":guilabel:`Screen-shot` をクリックして表示中のフレーム（コマ）を画像ファイルに保存します。 :guilabel:`Save"
 " Movie` をクリックしてすべてのフレーム（コマ）を動画ファイルに保存します。"
-msgstr "Click :guilabel:`Screen-shot` to save current frame as an image file. "
+msgstr ""
+"Click :guilabel:`Screen-shot` to save current frame as an image file. "
 "Click :guilabel:`Save Movie` to save the entire frames as a movie file."
 
 #: ../../usage/result.rst:41
 msgid ":guilabel:`New Project` をクリックすると、表示中の原子構造を使って新しく別のプロジェクトを作成し、解析を行うことができます。"
-msgstr "Click :guilabel:`New Project` to newly create another project using current atomic structure and start the analysis."
+msgstr ""
+"Click :guilabel:`New Project` to newly create another project using "
+"current atomic structure and start the analysis."
 
 #: ../../usage/result.rst:48
 msgid "テキスト"
@@ -1288,8 +1334,10 @@ msgstr "Text"
 msgid ""
 ":guilabel:`IN` （入力ファイル）、 :guilabel:`LOG` （ログファイル）、 :guilabel:`ERR` "
 "（エラーログファイル）をクリックすると、テキストファイルの内容をそのまま表示します。ファイル内検索、ハイライト表示や抽出も可能です。"
-msgstr "Click :guilabel:`IN` (input file), :guilabel:`LOG` (log file), :guilabel:`ERR` (error log file) to show the content of the file. "
-"You can use in-file search, highlighting and extracting."
+msgstr ""
+"Click :guilabel:`IN` (input file), :guilabel:`LOG` (log file), "
+":guilabel:`ERR` (error log file) to show the content of the file. You can"
+" use in-file search, highlighting and extracting."
 
 #: ../../usage/webbrowser.rst:5
 msgid "ウェブブラウザー"
@@ -1299,8 +1347,10 @@ msgstr "Web Browser"
 msgid ""
 "エクスプローラーの :guilabel:`Web` から、またはメインメニューの :guilabel:`Links of Web` "
 "からウェブページを開くと、内蔵のウェブブラウザーにより表示されます。開いたウェブページはタブとして表示されます。"
-msgstr "Web pages opened from :guilabel:`Web` in explorer or from :guilabel:`Links of Web` in the main menu are displayed by built-in web browser. "
-"The web pages are shown as tabs."
+msgstr ""
+"Web pages opened from :guilabel:`Web` in explorer or from "
+":guilabel:`Links of Web` in the main menu are displayed by built-in web "
+"browser. The web pages are shown as tabs."
 
 #: ../../usage/webbrowser.rst:9
 msgid ""
@@ -1308,9 +1358,13 @@ msgid ""
 "でこれまでに表示したウェブページに移動します。再読み込みボタン |reload| でウェブページを最新の状態に更新します。お気に入りボタン "
 "|favorite| でウェブページのURLを保存します。保存したウェブページはエクスプローラーの :guilabel:`Web` "
 "に一覧表示されます。"
-msgstr "You can use built-in web browser in the same way as ordinary web browsers. Use back button |back| and forward button |fwd| to move to previously displayed web pages. "
-"Use reload button |reload| to update the web page to the latest state. Use favorite button |favorite| to save the URL of the webpage. "
-"The saved web pages are listed in :guilabel:`Web` in explorer."
+msgstr ""
+"You can use built-in web browser in the same way as ordinary web "
+"browsers. Use back button |back| and forward button |fwd| to go to "
+"previously displayed web pages. Use reload button |reload| to update the "
+"web page to the latest state. Use favorite button |favorite| to save the "
+"URL of the webpage. The saved web pages are listed in :guilabel:`Web` in "
+"explorer."
 
 #: ../../usage/webbrowser.rst:19
 msgid "構造情報ファイル・擬ポテンシャルファイルのダウンロード"
@@ -1318,5 +1372,10 @@ msgstr "Downloading structure information file or pseudopotential file"
 
 #: ../../usage/webbrowser.rst:21
 msgid "構造情報ファイルや擬ポテンシャルファイルのダウンロードリンクをクリックすると、ダウンロードすると同時にポップアップウィンドウが開き、ファイルの情報を確認することができます。構造情報ファイルは3Dモデルが表示され、ダブルクリックするとそのまま解析を行うプロジェクト画面に移行できます。"
-msgstr "When you click a download link of the structure information file or the pseudopotential file, a popup window showing the information of the file appears concurrently with downloading. "
-"In case of structure information file, the 3D model is displayed. Double click the model to move to the project view and start the analysis."
+msgstr ""
+"When you click a download link of the structure information file or the "
+"pseudopotential file, a popup window showing the information of the file "
+"appears concurrently with downloading. In case of structure information "
+"file, the 3D model is displayed. Double click the model to open a new "
+"project view and start the analysis."
+

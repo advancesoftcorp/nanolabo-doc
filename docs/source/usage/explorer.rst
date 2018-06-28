@@ -10,9 +10,9 @@
 
 .. image:: /img/explorer.svg
 
-.. _transition:
+.. _navipanel:
 
-移動
+移動パネル
 ===================
 
 左のパネルの各項目をクリックして移動します。
