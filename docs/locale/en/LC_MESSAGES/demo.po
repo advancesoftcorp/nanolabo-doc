@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 13:11+0900\n"
+"POT-Creation-Date: 2018-06-29 16:32+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,44 +28,85 @@ msgstr "Creating input files for Quantum ESPRESSO"
 
 #: ../../demo.rst:12
 msgid "検索窓に化学式を入力し、 :kbd:`Enter` キーを押すと、対応する構造情報ファイルが一覧で表示されます。"
-msgstr "Type the chemical formula in the search box and press :kbd:`Enter` key to list the corresponding structure information files."
+msgstr ""
+"Type the chemical formula in the search box and press :kbd:`Enter` key to"
+" list the corresponding structure information files."
 
-#: ../../demo.rst:20
+#: ../../demo.rst:14
+msgid "|yt01|"
+msgstr "|yt01en|"
+
+#: ../../demo.rst:28
 msgid "ファイルを選択すると新しい画面が開き、Quantum ESPRESSOのインプットファイルを作成できます。"
-msgstr "When you select a file, a new view opens and you can create input files for Quantum ESPRESSO."
+msgstr ""
+"When you select a file, a new view opens and you can create input files "
+"for Quantum ESPRESSO."
 
-#: ../../demo.rst:32
+#: ../../demo.rst:30
+msgid "|yt02|"
+msgstr "|yt02en|"
+
+#: ../../demo.rst:47
 msgid "Quantum ESPRESSOの計算実行"
 msgstr "Running Quantum ESPRESSO calculation"
 
-#: ../../demo.rst:34
+#: ../../demo.rst:49
 msgid "構造最適化"
 msgstr "Structure optimization"
 
-#: ../../demo.rst:42
+#: ../../demo.rst:51
+msgid "|yt03|"
+msgstr "|yt03en|"
+
+#: ../../demo.rst:65
 msgid "状態密度"
 msgstr "Density of states"
 
-#: ../../demo.rst:50
+#: ../../demo.rst:67
+msgid "|yt04|"
+msgstr "|yt04en|"
+
+#: ../../demo.rst:81
 msgid "バンド構造"
 msgstr "Band structure"
 
-#: ../../demo.rst:58
+#: ../../demo.rst:83
+msgid "|yt05|"
+msgstr "|yt05en|"
+
+#: ../../demo.rst:97
 msgid "分子動力学計算"
 msgstr "Molecular dynamics calculation"
 
-#: ../../demo.rst:69
+#: ../../demo.rst:99
+msgid "|yt06|"
+msgstr "|yt06en|"
+
+#: ../../demo.rst:116
 msgid "モデル作成"
 msgstr "Modeler"
 
-#: ../../demo.rst:71
+#: ../../demo.rst:118
 msgid "超格子"
 msgstr "Super cell"
 
-#: ../../demo.rst:79
+#: ../../demo.rst:120
+msgid "|yt07|"
+msgstr "|yt07en|"
+
+#: ../../demo.rst:134
 msgid "スラブモデル"
 msgstr "Slab model"
 
-#: ../../demo.rst:90
+#: ../../demo.rst:136
+msgid "|yt08|"
+msgstr "|yt08en|"
+
+#: ../../demo.rst:153
 msgid "表示デザイン変更"
 msgstr "Changing display design"
+
+#: ../../demo.rst:155
+msgid "|yt09|"
+msgstr "|yt09en|"
+
