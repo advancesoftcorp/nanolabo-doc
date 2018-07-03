@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-28 15:43+0900\n"
+"POT-Creation-Date: 2018-07-03 15:24+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../usage.rst:3
+#: ../../usage.rst:5
 msgid "各画面の説明"
 msgstr "Screen by Screen Guide"
 
@@ -218,7 +218,7 @@ msgstr "Parallel"
 msgid "並列計算を行う場合、その並列数を設定します。"
 msgstr "If you'd like to perform parallel calculation, set the parallel number."
 
-#: ../../usage/calculation.rst:18
+#: ../../usage/calculation.rst:20
 msgid "Host"
 msgstr "Host"
 
@@ -226,25 +226,31 @@ msgstr "Host"
 msgid "別のコンピューターで計算を行う場合、そのホスト名を選択します。"
 msgstr "If you'd like to calculate on another computer, select that host name."
 
-#: ../../usage/calculation.rst:21
+#: ../../usage/calculation.rst:20
+msgid ""
+"（※現在のバージョンではLocal "
+"Host（このコンピューター）のみ選択可能です。別のコンピューターでの計算実行は今後の機能追加をお待ちください。）"
+msgstr "(Note: Current version only supports Local Host (this computer). To run on another computer, please wait for the feature to be implemented.)"
+
+#: ../../usage/calculation.rst:23
 msgid "Project"
 msgstr "Project"
 
-#: ../../usage/calculation.rst:21
+#: ../../usage/calculation.rst:23
 msgid "プロジェクトが保存されていない場合は、 :guilabel:`Save Project` ボタンをクリックして保存してから計算を実行してください。"
 msgstr ""
 "If the project is not saved, click :guilabel:`Save Project` button here "
 "before running the calculation."
 
-#: ../../usage/calculation.rst:23
+#: ../../usage/calculation.rst:25
 msgid "設定後、 :guilabel:`OK` をクリックすると、計算が実行されます。"
 msgstr "After configuration finished, click :guilabel:`OK` to run the calculation."
 
-#: ../../usage/calculation.rst:28
+#: ../../usage/calculation.rst:30
 msgid "計算ジョブ管理"
 msgstr "Managing calculation job"
 
-#: ../../usage/calculation.rst:30
+#: ../../usage/calculation.rst:32
 msgid ""
 "実行中・実行待機中の計算ジョブは、エクスプローラーの :guilabel:`Calculating` "
 "に一覧表示されます。各計算ジョブは3Dモデルのアイコンで表示され、左上には計算エンジン、右下には計算の種類を示すラベルが表示されています。右下のラベルの色は計算ジョブの状態を示しており、赤色が実行中、黄色が実行待機中です。ジョブが終了すると、ラベルが緑色になり、"
@@ -258,7 +264,7 @@ msgstr ""
 "finished, the label turns green, and then the icon disappears from "
 ":guilabel:`Calculating` ."
 
-#: ../../usage/calculation.rst:34
+#: ../../usage/calculation.rst:36
 msgid ""
 "実行中・実行待機中の計算ジョブを中止するには、プロジェクト画面を開き、画面右側のパネルの :guilabel:`Stop Calculation`"
 " をクリックしてください。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー |projectmenuicon|"
@@ -269,11 +275,11 @@ msgstr ""
 " editor is shown in project view, first click :guilabel:`Result` from the"
 " menu |projectmenuicon| on the lower left.)"
 
-#: ../../usage/calculation.rst:39
+#: ../../usage/calculation.rst:41
 msgid "計算がうまくいかない場合"
 msgstr "Troubleshooting"
 
-#: ../../usage/calculation.rst:41
+#: ../../usage/calculation.rst:43
 msgid ""
 "計算が正常に実行できなかった場合、 :guilabel:`Error` "
 "ウィンドウが表示されます。エラーの内容を確認するには、プロジェクト画面を開き、 :guilabel:`CRASH` "
@@ -375,7 +381,9 @@ msgstr ""
 
 #: ../../usage/explorer.rst:38
 msgid "ウェブサイトからダウンロードしたファイルの保存場所に移動します。"
-msgstr "Go to the destination folder (directory) of files downloaded from the web sites."
+msgstr ""
+"Go to the destination folder (directory) of files downloaded from the web"
+" sites."
 
 #: ../../usage/explorer.rst:44
 msgid "ナビボタン"
@@ -386,9 +394,9 @@ msgid ""
 "戻るボタン |back| 、進むボタン |fwd| でこれまでに表示した場所に移動します。上へボタン |up| "
 "で一つ上のフォルダ（ディレクトリ）に移動します。"
 msgstr ""
-"Click back button |back| or forward button |fwd| to go to "
-"previously displayed locations. Click up button |up| to go to the"
-"parent folder (directory)."
+"Click back button |back| or forward button |fwd| to go to previously "
+"displayed locations. Click up button |up| to go to theparent folder "
+"(directory)."
 
 #: ../../usage/explorer.rst:55
 msgid "ロケーションバー"
@@ -400,8 +408,8 @@ msgid ""
 "キーを押すと、その場所に移動します。WindowsでCドライブ以外の場所を表示したい場合はこちらをご使用ください。"
 msgstr ""
 "Shows the path (location in the computer) of currently displayed "
-"location. Type a path and press :kbd:`Enter` key to go to the location."
-" On Windows, use this function if you'd like to go to a location other "
+"location. Type a path and press :kbd:`Enter` key to go to the location. "
+"On Windows, use this function if you'd like to go to a location other "
 "than C drive."
 
 #: ../../usage/explorer.rst:62
@@ -1042,8 +1050,8 @@ msgid ""
 msgstr ""
 "Set :guilabel:`Element to be Substituted` , :guilabel:`For What Element "
 "?` , :guilabel:`Super Cell` and :guilabel:`Rate of Substitution` one by "
-"one. Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to the next "
-"(previous) item. When finished, click :guilabel:`Build` to show the "
+"one. Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to the "
+"next (previous) item. When finished, click :guilabel:`Build` to show the "
 "structure after the substitution in the viewer. If you click "
 ":guilabel:`Build` again here, different structure with the same "
 "substitution setting is shown."
@@ -1378,4 +1386,3 @@ msgstr ""
 "appears concurrently with downloading. In case of structure information "
 "file, the 3D model is displayed. Double click the model to open a new "
 "project view and start the analysis."
-
