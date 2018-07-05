@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 11:55+0900\n"
+"POT-Creation-Date: 2018-07-05 15:51+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -219,7 +219,7 @@ msgid "Windows 10"
 msgstr ""
 
 #: ../../install/requirement.rst:10
-msgid "CentOS 6"
+msgid "CentOS 7"
 msgstr ""
 
 #: ../../install/requirement.rst:12

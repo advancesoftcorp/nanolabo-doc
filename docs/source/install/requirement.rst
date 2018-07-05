@@ -7,7 +7,7 @@
 OS
 
 * Windows 10
-* CentOS 6
+* CentOS 7
 
 Java
 
