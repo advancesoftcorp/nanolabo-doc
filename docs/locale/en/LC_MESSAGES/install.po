@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-05 15:51+0900\n"
+"POT-Creation-Date: 2018-07-10 12:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,70 +38,81 @@ msgstr ""
 "purchase the paid license for continued use."
 
 #: ../../install/purchase.rst:9
-msgid ""
-"試用ライセンス・製品ライセンスとも、インストールした特定のコンピューターでの使用を許諾するものとなります（ノードロックライセンス）。ご使用になるコンピューター固有のHost"
-" IDを取得し、そのHost IDに対してライセンスファイルを発行します。"
-msgstr ""
-"Both trial license and paid license allow you to use the software on one "
-"specific computer (node-locked license). This software get a Host ID "
-"unique to the computer, and we issue a license file for that Host ID."
+msgid "試用版・製品版とも、ご使用には弊社よりライセンスを取得していただく必要があります。ライセンス形態は実行環境により以下のようになっています。"
+msgstr "Please obtain your license from us to use trial or paid version. The license model is as follows depending on the environment:"
 
 #: ../../install/purchase.rst:11
+msgid "Windows： ノードロックライセンス"
+msgstr "Windows: node-locked license"
+
+#: ../../install/purchase.rst:13
+msgid "本製品を使用するコンピューターが固定されます。"
+msgstr "You can use the software on one fixed computer."
+
+#: ../../install/purchase.rst:15
+msgid "Linux： フローティングライセンス"
+msgstr "Linux: floating license"
+
+#: ../../install/purchase.rst:17
+msgid "本製品を使用するコンピューターは固定されませんが、ライセンスサーバー（ライセンス認証用のプログラム）を起動するコンピューターが固定されます。"
+msgstr "You can use the software on any computer, but you can run the license server (program for license authentication) on one fixed computer."
+
+#: ../../install/purchase.rst:19
 msgid "また、本ソフトウェアから使用できるオープンソースの計算エンジンについて、有償にて技術サポートを承ります。併せてご利用ください。"
 msgstr ""
 "We also offer paid technical support on the open source calculation "
 "engines which can be used from this software. Please consider using it as"
 " well."
 
-#: ../../install/purchase.rst:16
+#: ../../install/purchase.rst:24
 msgid "エディション"
 msgstr "Editions"
 
-#: ../../install/purchase.rst:18
+#: ../../install/purchase.rst:26
 msgid "トライアルパッケージ"
 msgstr "Trial Package"
 
-#: ../../install/purchase.rst:20
+#: ../../install/purchase.rst:28
 msgid "1カ月間無料"
 msgstr "Free for 1 month"
 
-#: ../../install/purchase.rst:21
+#: ../../install/purchase.rst:29
 msgid "製品パッケージの全機能を使用可能"
 msgstr "All functionalities in production package available"
 
-#: ../../install/purchase.rst ../../install/purchase.rst:23
+#: ../../install/purchase.rst ../../install/purchase.rst:31
 msgid "製品パッケージ"
 msgstr "Production Package"
 
-#: ../../install/purchase.rst:25
+#: ../../install/purchase.rst:33
 msgid "年間ライセンス"
 msgstr "Annual license"
 
-#: ../../install/purchase.rst:30
+#: ../../install/purchase.rst:38
 msgid "価格表"
 msgstr "Pricing"
 
-#: ../../install/purchase.rst:37
+#: ../../install/purchase.rst:45
 msgid "（万円／年）"
 msgstr "(ten thousand JPY/yr.)"
 
-#: ../../install/purchase.rst:37
+#: ../../install/purchase.rst:45
 msgid "企業、国研"
 msgstr "Company, National institute"
 
-#: ../../install/purchase.rst:37
+#: ../../install/purchase.rst:45
 msgid "大学"
 msgstr "University"
 
-#: ../../install/purchase.rst:39
+#: ../../install/purchase.rst:47
 msgid "1本"
 msgstr "1 pack"
 
-#: ../../install/purchase.rst:39
+#: ../../install/purchase.rst:47
 msgid "3本pack"
 msgstr "3-pack bundle"
 
-#: ../../install/purchase.rst:39
+#: ../../install/purchase.rst:47
 msgid "5本pack"
 msgstr "5-pack bundle"
 
@@ -109,41 +120,41 @@ msgstr "5-pack bundle"
 msgid "Advance/NanoLabo"
 msgstr "Advance/NanoLabo"
 
-#: ../../install/purchase.rst:42 ../../install/purchase.rst:44
-#: ../../install/purchase.rst:46
+#: ../../install/purchase.rst:50 ../../install/purchase.rst:52
+#: ../../install/purchase.rst:54
 msgid "50"
 msgstr ""
 
-#: ../../install/purchase.rst:42
+#: ../../install/purchase.rst:50
 msgid "120"
 msgstr ""
 
-#: ../../install/purchase.rst:42
+#: ../../install/purchase.rst:50
 msgid "175"
 msgstr ""
 
-#: ../../install/purchase.rst:42 ../../install/purchase.rst:44
-#: ../../install/purchase.rst:46
+#: ../../install/purchase.rst:50 ../../install/purchase.rst:52
+#: ../../install/purchase.rst:54
 msgid "25"
 msgstr ""
 
-#: ../../install/purchase.rst:42
+#: ../../install/purchase.rst:50
 msgid "60"
 msgstr ""
 
-#: ../../install/purchase.rst:42
+#: ../../install/purchase.rst:50
 msgid "87.5"
 msgstr ""
 
-#: ../../install/purchase.rst:44
+#: ../../install/purchase.rst:52
 msgid "オプションQEサポート\\ `*`:sup:"
 msgstr "QE Support Option\\ `*`:sup:"
 
-#: ../../install/purchase.rst:46
+#: ../../install/purchase.rst:54
 msgid "オプションLPサポート\\ `**`:sup:"
 msgstr "LP Support Option\\ `**`:sup:"
 
-#: ../../install/purchase.rst:49
+#: ../../install/purchase.rst:57
 msgid ""
 "`*`:sup:\\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_\\ "
 "の技術サポートです。"
@@ -151,29 +162,35 @@ msgstr ""
 "`\\*`:sup:\\ Technical support on using `Quantum ESPRESSO <http://www"
 ".quantum-espresso.org/>`_\\ ."
 
-#: ../../install/purchase.rst:51
+#: ../../install/purchase.rst:59
 msgid "`**`:sup:\\ `LAMMPS <http://lammps.sandia.gov/>`_\\ の技術サポートです。"
 msgstr ""
 "`**`:sup:\\ Technical support on using `LAMMPS "
 "<http://lammps.sandia.gov/>`_\\ ."
 
-#: ../../install/purchase.rst:56
+#: ../../install/purchase.rst:64
 msgid "お申し込み手順"
 msgstr "Licensing procedure"
 
-#: ../../install/purchase.rst:61
+#: ../../install/purchase.rst:66
+msgid ""
+"ご使用になるコンピューター（Windowsでは本製品を使用するコンピューター、Linuxではライセンスサーバーを起動するコンピューター）について、固有のHost"
+" IDを取得し、そのHost IDに対してライセンスファイルを発行します。"
+msgstr "This software get a Host ID unique to the computer (Windows computer on which you use this software, or Linux computer on which you run the license server), and we issue a license file for that Host ID."
+
+#: ../../install/purchase.rst:71
 msgid "インストール時"
 msgstr "During installation"
 
-#: ../../install/purchase.rst:66
+#: ../../install/purchase.rst:76
 msgid "試用期間中"
 msgstr "During trial period"
 
-#: ../../install/purchase.rst:68
+#: ../../install/purchase.rst:78
 msgid "左上のメインメニュー |mainmenuicon| から、 :guilabel:`License` をクリックします。"
 msgstr "From main menu |mainmenuicon| on the top left, click :guilabel:`License` ."
 
-#: ../../install/purchase.rst:69 ../../install/purchase.rst:82
+#: ../../install/purchase.rst:79 ../../install/purchase.rst:92
 msgid ""
 ":guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` "
 "をクリックするか、ウィンドウ内のHost IDをコピーし、 support.nano@advancesoft.jp "
@@ -183,18 +200,18 @@ msgstr ""
 ":guilabel:`Mail` or copy the Host ID in the window and send it to "
 "support.nano@advancesoft.jp along with the license type you order."
 
-#: ../../install/purchase.rst:76
+#: ../../install/purchase.rst:86
 msgid "試用期間後"
 msgstr "After trial period"
 
-#: ../../install/purchase.rst:78
+#: ../../install/purchase.rst:88
 msgid "試用期間終了後（またはインストール時にライセンス登録をしなかった場合）、ソフトウェアを起動しようとすると、ライセンス登録を案内する画面が表示されます。"
 msgstr ""
 "Once trial period is up (or if not registered during installation), a "
 "window to guide the license registration appears when you launch the "
 "software."
 
-#: ../../install/purchase.rst:80
+#: ../../install/purchase.rst:90
 msgid ""
 ":guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示されることがあります。 "
 ":guilabel:`OK` をクリックして閉じてください。"
@@ -202,7 +219,7 @@ msgstr ""
 "A window titled :guilabel:`FLEXible License Manager` may appear. Click "
 ":guilabel:`OK` to close it."
 
-#: ../../install/purchase.rst:81
+#: ../../install/purchase.rst:91
 msgid ":guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。"
 msgstr "A window titled :guilabel:`Error` appears. Click :guilabel:`OK` ."
 
