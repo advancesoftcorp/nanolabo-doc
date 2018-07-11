@@ -11,4 +11,4 @@ OS
 
 Java
 
-* JRE1.8以降
+* Java Runtime Environment 1.8以降
