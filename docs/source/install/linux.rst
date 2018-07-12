@@ -94,7 +94,7 @@
 アンインストール
 =============================
 
-端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` フォルダーにある :file:`Change NanoLabo Tool Installation` を起動します。
+端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある :file:`Change NanoLabo Tool Installation` を起動します。
 
 .. code-block:: console
 

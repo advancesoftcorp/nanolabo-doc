@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-10 12:29+0900\n"
+"POT-Creation-Date: 2018-07-12 20:34+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +18,192 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: ../../install.rst:5
+#: ../../install.rst:5 ../../install/linux.rst:23 ../../install/windows.rst:25
 msgid "インストール"
 msgstr "Installation"
 
-#: ../../install/linux.rst:3
+#: ../../install/linux.rst:5
 msgid "インストール手順 (Linux)"
 msgstr "How to Install (Linux)"
+
+#: ../../install/linux.rst:10 ../../install/windows.rst:10
+msgid "インストールの準備"
+msgstr "Preparation"
+
+#: ../../install/linux.rst:12 ../../install/windows.rst:12
+msgid ""
+"本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo"
+" Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。"
+msgstr ""
+"This software is installed using the installers. There are two separate "
+"installers: one is \"Advance/NanoLabo\", the main installer, and the "
+"other is \"Advance/NanoLabo Tool\", which contains open source "
+"calculation engines etc. Download both of them from the links below."
+
+#: ../../install/linux.rst:14
+msgid ""
+"`Advance/NanoLabo (ver.1.0) <https://github.com/advancesoftcorp/nanolabo-"
+"doc/releases/download/v1.0/install_nanolabo_linux.bin>`_"
+msgstr ""
+
+#: ../../install/linux.rst:16
+msgid ""
+"`Advance/NanoLabo Tool (ver.1.0) <https://github.com/advancesoftcorp"
+"/nanolabo-doc/releases/download/v1.0/install_nanolabo_tool_linux.bin>`_"
+msgstr ""
+
+#: ../../install/linux.rst:18
+msgid "インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先ディレクトリにコピーされます。"
+msgstr ""
+"Java Runtime Environment is included in the installer. It will be copied "
+"to the install destination directory while installing."
+
+#: ../../install/linux.rst:25
+msgid "端末（ターミナル）で、インストーラーのあるディレクトリに移動します。実行権限を付与したら、まずAdvance/NanoLaboのインストーラーを実行します。"
+msgstr ""
+"On a terminal, move to the directory where the installers are located. "
+"After granting execute permission, first run Advance/NanoLabo installer."
+
+#: ../../install/linux.rst:32
+msgid "言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
+msgstr ""
+"If you see language selection window, choose a language during the "
+"installation (it is not the language used in the software itself)."
+
+#: ../../install/linux.rst:34
+msgid "画面の指示に従い、インストールの設定を行ってください。"
+msgstr "Follow displayed instructions and configure the installation."
+
+#: ../../install/linux.rst:38
+msgid ""
+"書き込み権限のない場所にはインストールできません。インストール先として書き込み権限のある場所（ "
+":file:`/home/ユーザー名/AdvanceSoft/NanoLabo` "
+"など）を指定するか、書き込み権限のあるユーザーでインストーラーを実行してください。"
+msgstr ""
+"You can not install the software to the location without write "
+"permission. Choose the location with write permission (e.g. "
+":file:`/home/username/AdvanceSoft/NanoLabo` ) as the install destination,"
+" or run the installer as the user with write permission."
+
+#: ../../install/linux.rst:40
+msgid ""
+"設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo "
+"Toolのインストール、およびライセンスの設定の際に必要になりますので、控えておいていただくようお願いします。"
+msgstr ""
+"When the configuration is finished, summary window is shown. Take care "
+"that the Install Folder will be necessary when you install "
+"Advance/NanoLabo Tool and when you set license; please note down the "
+"install folder."
+
+#: ../../install/linux.rst:44 ../../install/windows.rst:33
+msgid "インストールが終わると、ライセンス登録案内が表示されます。ライセンス登録がお済みでない場合は、必要な項目をご記入ください。次へをクリックすると、ライセンス登録メールの内容が表示されますので、弊社宛に送信してください。"
+msgstr ""
+"When the installation is finished, license registration guide is shown. "
+"In case you have not registered the license yet, please fill in the form."
+" When you click next, the contents of the license registration mail will "
+"be displayed, so please send it to us."
+
+#: ../../install/linux.rst:50 ../../install/windows.rst:39
+msgid "ここでライセンス登録を行わない場合でも、ソフトウェア起動時に表示される案内画面から登録していただくことができます。"
+msgstr ""
+"Even if you do not register the license here, you can register from the "
+"guide window shown at the software startup."
+
+#: ../../install/linux.rst:52 ../../install/windows.rst:41
+msgid "最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。"
+msgstr ""
+"At the last window, click Done to complete the Advance/NanoLabo "
+"installation."
+
+#: ../../install/linux.rst:54 ../../install/windows.rst:43
+msgid "続けて、Advance/NanoLabo Toolのインストーラーを実行します。"
+msgstr "Then, proceed to run Advance/NanoLabo Tool installer."
+
+#: ../../install/linux.rst:60 ../../install/windows.rst:45
+msgid "画面の指示に従い、インストールの設定を行ってください。インストール先として、Advance/NanoLaboと同じ場所を選択してください。"
+msgstr ""
+"Follow displayed instructions and configure the installation. Choose the "
+"same location as Advance/NanoLabo as the install destination."
+
+#: ../../install/linux.rst:64 ../../install/windows.rst:49
+msgid "インストール後、最後の画面で完了をクリックすると、Advance/NanoLabo Toolのインストールが終了します。"
+msgstr ""
+"At the last window, click Done to complete the Advance/NanoLabo Tool "
+"installation."
+
+#: ../../install/linux.rst:69 ../../install/windows.rst:54
+msgid "ライセンスの設定"
+msgstr "Setting license"
+
+#: ../../install/linux.rst:71
+msgid ""
+"ライセンス登録後、ライセンスファイル( :file:`nanolabo.lic` )をお送りします。インストール先の "
+":file:`license` ディレクトリにコピーしてください。"
+msgstr ""
+"After the license registration, we will send you a license file ( "
+":file:`nanolabo.lic` ). Copy it to :file:`license` directory in the "
+"install destination."
+
+#: ../../install/linux.rst:73
+msgid ""
+"本ソフトウェアを使用する際には、ライセンスサーバー（ライセンス認証用のプログラム）を起動しておく必要があります。実行ファイルはインストール先の "
+":file:`exec.LINUX/flex/lmgrd` "
+"です。端末（ターミナル）でインストール先のディレクトリに移動したら、以下のコマンド例のように起動してください。"
+msgstr ""
+"When you use this software, license server (program for license "
+"authentication) must be running. The executable is located at "
+":file:`exec.LINUX/flex/lmgrd` in the install destination. On a terminal, "
+"if you are at the install destination, run it as the example below."
+
+#: ../../install/linux.rst:82 ../../install/windows.rst:61
+msgid "起動"
+msgstr "Launching"
+
+#: ../../install/linux.rst:84 ../../install/windows.rst:63
+msgid "インストール時にショートカットを作成した場合は、ショートカットから起動してください。"
+msgstr ""
+"In case you made a shortcut during the installation, launch the software "
+"from the shortcut."
+
+#: ../../install/linux.rst:86
+msgid ""
+"直接起動する場合は、端末（ターミナル）でインストール先の :file:`bin` ディレクトリに移動し、 :file:`nanolabo.sh` "
+"を起動してください。"
+msgstr ""
+"To directly launch the software, open a terminal and move to the "
+":file:`bin` directory in the install destination, and then run "
+":file:`nanolabo.sh` ."
+
+#: ../../install/linux.rst:95 ../../install/windows.rst:70
+msgid "アンインストール"
+msgstr "Uninstallation"
+
+#: ../../install/linux.rst:97
+msgid ""
+"端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
+":file:`Change NanoLabo Tool Installation` を起動します。"
+msgstr ""
+"On a terminal, run :file:`Change NanoLabo Tool Installation` located at "
+":file:`_NanoLabo_Tool_installation` directory in the install destination."
+
+#: ../../install/linux.rst:103 ../../install/windows.rst:78
+msgid "画面の指示に従い、アンインストールを行ってください。"
+msgstr "Follow displayed instructions to uninstall."
+
+#: ../../install/linux.rst:105 ../../install/windows.rst:80
+msgid "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。"
+msgstr "Once the uninstallation of Advance/NanoLabo Tool is finished, uninstall Advance/NanoLabo in the same way."
+
+#: ../../install/linux.rst:109 ../../install/windows.rst:84
+msgid "アンインストールの際に、インストール先のライセンスファイルは削除されずに残ります。また、インストールログファイルが残る場合があります。その際はお手数ですが手動で削除してください。"
+msgstr "License file in the install destination is not removed during the uninstallation. Also, installation log file may remain. In that case please remove them manually."
+
+#: ../../install/linux.rst:113
+msgid ""
+"本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` "
+"）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"
+msgstr "Configuration or projects created by this software are stored in the location other than the install destination ( :file:`home directory/.nanolabo` ) and are not removed during the uninstallation. "
+"Please remove them manually if you'd like to."
 
 #: ../../install/purchase.rst:5
 msgid "ライセンスご購入方法"
@@ -39,7 +218,9 @@ msgstr ""
 
 #: ../../install/purchase.rst:9
 msgid "試用版・製品版とも、ご使用には弊社よりライセンスを取得していただく必要があります。ライセンス形態は実行環境により以下のようになっています。"
-msgstr "Please obtain your license from us to use trial or paid version. The license model is as follows depending on the environment:"
+msgstr ""
+"Please obtain your license from us to use trial or paid version. The "
+"license model is as follows depending on the environment:"
 
 #: ../../install/purchase.rst:11
 msgid "Windows： ノードロックライセンス"
@@ -55,7 +236,9 @@ msgstr "Linux: floating license"
 
 #: ../../install/purchase.rst:17
 msgid "本製品を使用するコンピューターは固定されませんが、ライセンスサーバー（ライセンス認証用のプログラム）を起動するコンピューターが固定されます。"
-msgstr "You can use the software on any computer, but you can run the license server (program for license authentication) on one fixed computer."
+msgstr ""
+"You can use the software on any computer, but you can run the license "
+"server (program for license authentication) on one fixed computer."
 
 #: ../../install/purchase.rst:19
 msgid "また、本ソフトウェアから使用できるオープンソースの計算エンジンについて、有償にて技術サポートを承ります。併せてご利用ください。"
@@ -176,7 +359,10 @@ msgstr "Licensing procedure"
 msgid ""
 "ご使用になるコンピューター（Windowsでは本製品を使用するコンピューター、Linuxではライセンスサーバーを起動するコンピューター）について、固有のHost"
 " IDを取得し、そのHost IDに対してライセンスファイルを発行します。"
-msgstr "This software get a Host ID unique to the computer (Windows computer on which you use this software, or Linux computer on which you run the license server), and we issue a license file for that Host ID."
+msgstr ""
+"This software get a Host ID unique to the computer (Windows computer on "
+"which you use this software, or Linux computer on which you run the "
+"license server), and we issue a license file for that Host ID."
 
 #: ../../install/purchase.rst:71
 msgid "インストール時"
@@ -244,9 +430,111 @@ msgid "Java"
 msgstr ""
 
 #: ../../install/requirement.rst:14
-msgid "JRE1.8以降"
-msgstr "JRE1.8 or later"
+msgid "Java Runtime Environment 1.8以降"
+msgstr ""
 
-#: ../../install/windows.rst:3
+#: ../../install/windows.rst:5
 msgid "インストール手順 (Windows)"
 msgstr "How to Install (Windows)"
+
+#: ../../install/windows.rst:14
+msgid ""
+"`Advance/NanoLabo (ver.1.0) <https://github.com/advancesoftcorp/nanolabo-"
+"doc/releases/download/v1.0/install_nanolabo_windows.exe>`_"
+msgstr ""
+
+#: ../../install/windows.rst:16
+msgid ""
+"`Advance/NanoLabo Tool (ver.1.0) <https://github.com/advancesoftcorp"
+"/nanolabo-doc/releases/download/v1.0/install_nanolabo_tool_windows.exe>`_"
+msgstr ""
+
+#: ../../install/windows.rst:18
+msgid ""
+"また、本ソフトウェアの実行にはJava Runtime Environment "
+"1.8以降が必要です。事前にインストールしていただくようお願いします。"
+msgstr ""
+
+#: ../../install/windows.rst:20
+msgid "https://java.com/ja/download/"
+msgstr ""
+
+#: ../../install/windows.rst:27
+msgid "まず、Advance/NanoLaboのインストーラーを実行します。言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
+msgstr ""
+
+#: ../../install/windows.rst:29
+msgid ""
+"画面の指示に従い、インストールの設定を行ってください。設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo"
+" Toolのインストール、およびライセンスの設定の際に必要になりますので、控えておいていただくようお願いします。"
+msgstr ""
+
+#: ../../install/windows.rst:56
+msgid ""
+"ライセンス登録後、ライセンスファイル( :file:`nanolabo.lic` )をお送りします。インストール先の "
+":file:`license` フォルダーにコピーしてください。"
+msgstr ""
+
+#: ../../install/windows.rst:65
+msgid "直接起動する場合は、インストール先の :file:`bin` フォルダにある :file:`NanoLabo.exe` を起動してください。"
+msgstr ""
+
+#: ../../install/windows.rst:72
+msgid "次のいずれかの方法でアンインストーラーを起動してください。"
+msgstr ""
+
+#: ../../install/windows.rst:74
+msgid ""
+"スタートボタンを右クリックし、「アプリと機能」を開きます。リストの中にあるAdvance/NanoLabo "
+"Toolをクリックし、アンインストールボタンをクリックします。"
+msgstr ""
+
+#: ../../install/windows.rst:75
+msgid ""
+"スタートメニューから「Windows システム ツール」内の「コントロール "
+"パネル」を開きます。「プログラムと機能」を開き、リストの中にあるAdvance/NanoLabo Toolをダブルクリックします。"
+msgstr ""
+
+#: ../../install/windows.rst:76
+msgid ""
+"インストール先の :file:`_NanoLabo_Tool_installation` フォルダーにある :file:`Change "
+"NanoLabo Tool Installation.exe` を起動します。"
+msgstr ""
+
+#: ../../install/windows.rst:88
+msgid ""
+"本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ "
+":file:`C:\\\\Users\\\\ユーザ名\\\\.nanolabo` "
+"）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"
+msgstr ""
+
+#~ msgid "JRE1.8以降"
+#~ msgstr "JRE1.8 or later"
+
+#~ msgid "まず、Advance/NanoLaboのインストーラーを実行します。"
+#~ msgstr ""
+
+#~ msgid "初めに言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体の言語ではありません）。"
+#~ msgstr ""
+
+#~ msgid "最後の画面で完了をクリックすると、Advance/NanoLabo Toolのインストールが終了します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "ライセンス登録後、ライセンスファイル( :file:`nanolabo.lic` "
+#~ ")をお送りします。インストール先のlicenseフォルダにコピーしてください。"
+#~ msgstr ""
+
+#~ msgid "直接起動する場合は、インストール先のbinフォルダにあるNanoLabo.exeを起動してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "スタートメニューを右クリックし、「アプリと機能」を開きます。リストの中にあるAdvance/NanoLabo "
+#~ "Toolをクリックし、アンインストールボタンをクリックします。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "インストール先の_NanoLabo_Tool_installationフォルダにあるChange NanoLabo "
+#~ "Tool Installation.exeを起動します。"
+#~ msgstr ""
+
