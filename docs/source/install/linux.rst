@@ -47,7 +47,17 @@
 
 .. note::
 
-   ここでライセンス登録を行わない場合でも、ソフトウェア起動時に表示される案内画面から登録していただくことができます。
+ メール本文の「ホストＩＤ」が空欄になっている場合、Host ID取得時に必要なredhat-lsbライブラリがインストールされていない可能性があります。その場合、次のコマンドをroot権限で実行してインストールしてください。
+
+ .. code-block:: console
+
+  # yum -y install redhat-lsb-core
+
+ インストーラーで一旦「戻る」をクリックし、再度「次へ」をクリックしていただくことで、Host IDの取得を再試行します。
+
+.. note::
+
+ ここでライセンス登録を行わない場合でも、ソフトウェア起動時に表示される案内画面から登録していただくことができます。
 
 最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。
 
@@ -75,6 +85,18 @@
 .. code-block:: console
 
  $ exec.LINUX/flex/lmgrd -c license/nanolabo.lic -l lmgrd.log
+
+ライセンスサーバーの状態を表示するには、インストール先の :file:`exec.LINUX/flex/lmstat` を使用します。
+
+.. code-block:: console
+
+ $ exec.LINUX/flex/lmstat -a -c license/nanolabo.lic
+
+また、ライセンスサーバーを終了するには、インストール先の :file:`exec.LINUX/flex/lmdown` を使用します。
+
+.. code-block:: console
+
+ $ exec.LINUX/flex/lmdown -c license/nanolabo.lic
 
 .. _launchl:
 
