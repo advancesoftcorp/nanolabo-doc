@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-13 17:04+0900\n"
+"POT-Creation-Date: 2018-07-17 12:23+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,10 +90,9 @@ msgid ""
 "設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo "
 "Toolのインストール、およびライセンスの設定の際に必要になりますので、控えておいていただくようお願いします。"
 msgstr ""
-"When the configuration is finished, summary window is shown. Note "
-"that the Install Folder will be necessary when you install "
-"Advance/NanoLabo Tool and when you set license; please note down the "
-"install folder."
+"When the configuration is finished, summary window is shown. Note that "
+"the Install Folder will be necessary when you install Advance/NanoLabo "
+"Tool and when you set license; please note down the install folder."
 
 #: ../../install/linux.rst:44 ../../install/windows.rst:33
 msgid "インストールが終わると、ライセンス登録案内が表示されます。ライセンス登録がお済みでない場合は、必要な項目をご記入ください。次へをクリックすると、ライセンス登録メールの内容が表示されますので、弊社宛に送信してください。"
@@ -107,12 +106,16 @@ msgstr ""
 msgid ""
 "メール本文の「ホストＩＤ」が空欄になっている場合、Host ID取得時に必要なredhat-"
 "lsbライブラリがインストールされていない可能性があります。その場合、次のコマンドをroot権限で実行してインストールしてください。"
-msgstr "In case \"Host ID\" field in the mail body is empty, redhat-lsb library which is necessary to get Host ID may be missing. "
-"In that case, please execute following command with root privilege to install it."
+msgstr ""
+"In case \"Host ID\" field in the mail body is empty, redhat-lsb library "
+"which is necessary to get Host ID may be missing. In that case, please "
+"execute following command with root privilege to install it."
 
 #: ../../install/linux.rst:56
 msgid "インストーラーで一旦「戻る」をクリックし、再度「次へ」をクリックしていただくことで、Host IDの取得を再試行します。"
-msgstr "Click Previous once and click Next again in the installer to retry getting Host ID."
+msgstr ""
+"Click Previous once and click Next again in the installer to retry "
+"getting Host ID."
 
 #: ../../install/linux.rst:60 ../../install/windows.rst:39
 msgid "ここでライセンス登録を行わない場合でも、ソフトウェア起動時に表示される案内画面から登録していただくことができます。"
@@ -168,11 +171,15 @@ msgstr ""
 
 #: ../../install/linux.rst:89
 msgid "ライセンスサーバーの状態を表示するには、インストール先の :file:`exec.LINUX/flex/lmstat` を使用します。"
-msgstr "To check the status of license server, use :file:`exec.LINUX/flex/lmstat` in the install destination."
+msgstr ""
+"To check the status of license server, use :file:`exec.LINUX/flex/lmstat`"
+" in the install destination."
 
 #: ../../install/linux.rst:95
 msgid "また、ライセンスサーバーを終了するには、インストール先の :file:`exec.LINUX/flex/lmdown` を使用します。"
-msgstr "To stop license server, use :file:`exec.LINUX/flex/lmdown` in the install destination."
+msgstr ""
+"To stop license server, use :file:`exec.LINUX/flex/lmdown` in the install"
+" destination."
 
 #: ../../install/linux.rst:104 ../../install/windows.rst:61
 msgid "起動"
@@ -395,36 +402,43 @@ msgstr ""
 msgid "インストール時"
 msgstr "During installation"
 
-#: ../../install/purchase.rst:76
+#: ../../install/purchase.rst:73
+msgid ""
+"インストーラーでインストールを行う際に、ライセンス登録画面が表示されます。\\ :doc:`windows`\\ 、\\ "
+":doc:`linux`\\ を参照ください。"
+msgstr "License registration window is shown during the installation by installer. Please refer to :doc:`windows`\\ , "
+":doc:`linux`\ ."
+
+#: ../../install/purchase.rst:78
 msgid "試用期間中"
 msgstr "During trial period"
 
-#: ../../install/purchase.rst:78
+#: ../../install/purchase.rst:80
 msgid "左上のメインメニュー |mainmenuicon| から、 :guilabel:`License` をクリックします。"
 msgstr "From main menu |mainmenuicon| on the top left, click :guilabel:`License` ."
 
-#: ../../install/purchase.rst:79 ../../install/purchase.rst:92
+#: ../../install/purchase.rst:81 ../../install/purchase.rst:94
 msgid ""
 ":guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` "
-"をクリックするか、ウィンドウ内のHost IDをコピーし、 support.nano@advancesoft.jp "
+"をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 support.nano@advancesoft.jp "
 "宛にご希望のライセンス種別と併せてお送りください。"
 msgstr ""
 ":guilabel:`License Registration Guidance` window appears. Click "
-":guilabel:`Mail` or copy the Host ID in the window and send it to "
+":guilabel:`Mail` or copy the Host Name and Host ID in the window and send it to "
 "support.nano@advancesoft.jp along with the license type you order."
 
-#: ../../install/purchase.rst:86
+#: ../../install/purchase.rst:88
 msgid "試用期間後"
 msgstr "After trial period"
 
-#: ../../install/purchase.rst:88
+#: ../../install/purchase.rst:90
 msgid "試用期間終了後（またはインストール時にライセンス登録をしなかった場合）、ソフトウェアを起動しようとすると、ライセンス登録を案内する画面が表示されます。"
 msgstr ""
 "Once trial period is up (or if not registered during installation), a "
 "window to guide the license registration appears when you launch the "
 "software."
 
-#: ../../install/purchase.rst:90
+#: ../../install/purchase.rst:92
 msgid ""
 ":guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示されることがあります。 "
 ":guilabel:`OK` をクリックして閉じてください。"
@@ -432,7 +446,7 @@ msgstr ""
 "A window titled :guilabel:`FLEXible License Manager` may appear. Click "
 ":guilabel:`OK` to close it."
 
-#: ../../install/purchase.rst:91
+#: ../../install/purchase.rst:93
 msgid ":guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。"
 msgstr "A window titled :guilabel:`Error` appears. Click :guilabel:`OK` ."
 
@@ -501,9 +515,9 @@ msgid ""
 " Toolのインストール、およびライセンスの設定の際に必要になりますので、控えておいていただくようお願いします。"
 msgstr ""
 "Follow displayed instructions and configure the installation. When the "
-"configuration is finished, summary window is shown. Note that the "
-"Install Folder will be necessary when you install Advance/NanoLabo Tool "
-"and when you set license; please note down the install folder."
+"configuration is finished, summary window is shown. Note that the Install"
+" Folder will be necessary when you install Advance/NanoLabo Tool and when"
+" you set license; please note down the install folder."
 
 #: ../../install/windows.rst:56
 msgid ""
