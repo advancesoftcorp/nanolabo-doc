@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-17 12:23+0900\n"
+"POT-Creation-Date: 2018-07-19 12:08+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -310,8 +310,8 @@ msgid "価格表"
 msgstr "Pricing"
 
 #: ../../install/purchase.rst:45
-msgid "（万円／年）"
-msgstr "(ten thousand JPY/yr.)"
+msgid "（万円／年、税抜）"
+msgstr "(ten thousand JPY/yr. without tax)"
 
 #: ../../install/purchase.rst:45
 msgid "企業、国研"
@@ -406,8 +406,9 @@ msgstr "During installation"
 msgid ""
 "インストーラーでインストールを行う際に、ライセンス登録画面が表示されます。\\ :doc:`windows`\\ 、\\ "
 ":doc:`linux`\\ を参照ください。"
-msgstr "License registration window is shown during the installation by installer. Please refer to :doc:`windows`\\ , "
-":doc:`linux`\ ."
+msgstr ""
+"License registration window is shown during the installation by "
+"installer. Please refer to :doc:`windows`\\ , :doc:`linux`\\ ."
 
 #: ../../install/purchase.rst:78
 msgid "試用期間中"
@@ -424,8 +425,8 @@ msgid ""
 "宛にご希望のライセンス種別と併せてお送りください。"
 msgstr ""
 ":guilabel:`License Registration Guidance` window appears. Click "
-":guilabel:`Mail` or copy the Host Name and Host ID in the window and send it to "
-"support.nano@advancesoft.jp along with the license type you order."
+":guilabel:`Mail` or copy the Host Name and Host ID in the window and send"
+" it to support.nano@advancesoft.jp along with the license type you order."
 
 #: ../../install/purchase.rst:88
 msgid "試用期間後"
