@@ -15,9 +15,7 @@
 
  `Advance/NanoLabo Tool (ver.1.0) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.0/install_nanolabo_tool_windows.exe>`_
 
-また、本ソフトウェアの実行にはJava Runtime Environment 1.8以降が必要です。事前にインストールしていただくようお願いします。
-
- https://java.com/ja/download/
+インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先フォルダにコピーされます。
 
 .. _installerw:
 
@@ -62,7 +60,7 @@
 
 インストール時にショートカットを作成した場合は、ショートカットから起動してください。
 
-直接起動する場合は、インストール先の :file:`bin` フォルダにある :file:`NanoLabo.exe` を起動してください。
+直接起動する場合は、インストール先の :file:`bin` フォルダーにある :file:`NanoLabo.exe` を起動してください。
 
 .. _uninstallw:
 
