@@ -6,6 +6,8 @@
 
 原子構造の高度な編集を行います。左下のメニュー |projectmenuicon| から :guilabel:`Modeler` をクリックして、モデラ―画面を開いてください。
 
+画面右側のパネルから、各モデリング機能を使用します。複数の機能を続けて使うことも可能です。
+
 モデラ―上で行った編集は、 :guilabel:`Reflect on Input-file` をクリックすることでプロジェクトに反映されます。 :guilabel:`Initialize Model` をクリックすると、編集を行う前（モデラー画面を開いた時点）の状態に戻ります。
 
 編集が終わりましたら、左下の戻るボタン |back| をクリックしてプロジェクト画面に戻ります。
@@ -26,7 +28,7 @@
 
 :guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 :guilabel:`Scaling` 欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。
 
-.. image:: /img/supercell.png
+.. image:: /img/supercell.svg
 
 .. _slab:
 
@@ -51,6 +53,29 @@
 
 .. image:: /img/slab.png
 
+.. _conversion:
+
+結晶格子の変換
+================
+
+モデルの格子ベクトルを再定義し、結晶格子を変換します。
+
+:guilabel:`Crystal` タブの :guilabel:`Conversion of Cell Type` の各 :guilabel:`Build` ボタンをクリックすると、変換が行われます。
+
+- Finding a Primitive Cell
+   基本単位胞を探索し、変換します。
+
+- Finding a Standard Cell
+   慣用単位胞へ変換します。
+
+   .. image:: /img/primitive_standard.svg
+
+- Hexagonal -> Orthorhombic
+- Orthorhombic -> Hexagonal
+   六方晶と直方晶（斜方晶）を相互に変換します。
+
+   .. image:: /img/hexa_ortho.svg
+
 .. _substitution:
 
 元素置換
@@ -60,7 +85,7 @@
 
 :guilabel:`Crystal` タブの :guilabel:`Element Substitution` にある :guilabel:`Start Modeling` をクリックすると、元素置換を行う画面が表示されます。
 
-:guilabel:`Element to be Substituted` （置換元の元素）、 :guilabel:`For What Element ?` （置換先の元素）、 :guilabel:`Super Cell` （超格子を作成する場合その繰り返し回数）、 :guilabel:`Rate of Substitution` （置換する割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、置換後の構造がビューワーに表示されます。 そのまま再度 :guilabel:`Build` をクリックすると、同じ置換設定で異なる構造が表示されます。
+:guilabel:`Element to be Substituted` （置換元の元素）、 :guilabel:`For What Element ?` （置換先の元素）、 :guilabel:`Super Cell` （超格子を作成する場合その繰り返し回数）、 :guilabel:`Rate of Substitution` （置換する割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、置換後の構造がビューワー内に表示されます。また、置換後の構造の対称性がビューワー内に表示されます。 そのまま再度 :guilabel:`Build` をクリックすると、同じ置換設定で異なる構造が表示されます。
 
 左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
 
@@ -73,6 +98,66 @@
 
 :guilabel:`Crystal` タブの :guilabel:`Lattice Defect` にある :guilabel:`Start Modeling` をクリックすると、点欠陥を作成する画面が表示されます。
 
-:guilabel:`Element to be Removed` （取り除く元素）、 :guilabel:`Super Cell` （超格子を作成する場合その繰り返し回数）、 :guilabel:`Rate of Lattice Defect` （取り除く割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、欠陥を入れた構造がビューワーに表示されます。 そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。
+:guilabel:`Element to be Removed` （取り除く元素）、 :guilabel:`Super Cell` （超格子を作成する場合その繰り返し回数）、 :guilabel:`Rate of Lattice Defect` （取り除く割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、欠陥を入れた構造がビューワーに表示されます。 また、欠陥を入れた構造の対称性がビューワー内に表示されます。そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。
 
 左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
+
+.. _drawing:
+
+分子エディタ―
+================
+
+分子エディタ―\ `JSME <http://peter-ertl.com/jsme/>`_\ を使用し、作図した構造をそのままモデルとして使用できます。
+
+:guilabel:`Molecule` タブの :guilabel:`Drawing a Molecule` にある :guilabel:`Start Modeling` をクリックすると、左側に分子エディタ―、右側に3Dモデルが表示されます。エディター上で作図した構造がリアルタイムで3Dモデルとして表示されます。
+
+エディターの使用方法については、JSMEの\ `ヘルプ <http://peter-ertl.com/jsme/2013_03/help.html>`_\ を参照してください。
+
+.. image:: /img/drawing.png
+
+左下の戻るボタン |back| をクリックすると、作図した構造が確定され、モデラ―画面に戻ります。このとき前のモデルは上書きされます。
+
+
+.. _packing:
+
+分子充填
+================
+
+モデルの空いている領域に、分子を充填します。
+
+分子を充填できる空間を持ったモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Packing Molecules` にある :guilabel:`Start Modeling` をクリックしてください。分子充填を行う画面が表示されます。
+
+右側のパネルの :guilabel:`Molecules to be Packed` で、充填する分子とその数を設定します。最初は分子のリストに水が設定されています。
+
+リストに分子を追加するには、 |add| ボタンをクリックします。最近使用したモデルがエクスプローラーで表示されますので、分子をダブルクリックして選択してください。この場で :guilabel:`Materials Finder` を使ってモデルを検索し、そのまま使うこともできます。リストに分子が追加されたら、充填する数を入力します。
+
+リストから分子を削除するには、右側の |remove| ボタンをクリックします。
+
+充填する分子を設定し終わったら、 :guilabel:`Build` をクリックしてください。充填後の構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。
+
+左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
+
+.. |add| image:: /img/add.png
+.. |remove| image:: /img/remove.png
+
+.. image:: /img/packing.png
+
+.. _adsorption:
+
+分子吸着
+=================
+
+スラブモデルの表面に分子を吸着します。
+
+スラブモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Molecular Adsorption onto Slab` にある :guilabel:`Start Modeling` をクリックしてください。分子吸着を行う画面が表示されます。
+
+:guilabel:`Adsorbate` （吸着する分子）、 :guilabel:`Site` （吸着サイトの種類）、 :guilabel:`Fraction of Occupied Sites` （分子を吸着するサイトの割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、分子を吸着した構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。
+
+また、 :guilabel:`Fraction of Occupied Sites` の代わりに :guilabel:`Single Site` を選択すると、単一の吸着サイトを選択して分子を吸着させることができます。サイトには通し番号が振られていますので、番号を入力するか、 |increment| |decrement| ボタンをクリックして指定してください。
+
+左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
+
+.. |increment| image:: /img/increment.png
+.. |decrement| image:: /img/decrement.png
+
+.. image:: /img/adsorption.png

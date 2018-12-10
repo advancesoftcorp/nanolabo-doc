@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-12 11:33+0900\n"
+"POT-Creation-Date: 2018-12-07 20:20+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1020,20 +1020,61 @@ msgstr ""
 "Click :guilabel:`Initialize Model` to return to the state before detailed"
 " setting is performed (when slab model view was opened)."
 
-#: ../../usage/modeler.rst:48 ../../usage/modeler.rst:65
-#: ../../usage/modeler.rst:78
+#: ../../usage/modeler.rst:48 ../../usage/modeler.rst:84
+#: ../../usage/modeler.rst:97
 msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
 msgstr "Click back button |back| on the lower left to go back to modeler view."
 
 #: ../../usage/modeler.rst:57
+msgid "結晶格子の変換"
+msgstr ""
+
+#: ../../usage/modeler.rst:59
+msgid "モデルの格子ベクトルを再定義し、結晶格子を変換します。"
+msgstr ""
+
+#: ../../usage/modeler.rst:61
+#, fuzzy
+msgid ""
+":guilabel:`Crystal` タブの :guilabel:`Conversion of Cell Type` の各 "
+":guilabel:`Build` ボタンをクリックすると、変換が行われます。"
+msgstr ""
+"In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
+":guilabel:`Lattice Defect` to show lattice defect view."
+
+#: ../../usage/modeler.rst:64
+msgid "Finding a Primitive Cell"
+msgstr ""
+
+#: ../../usage/modeler.rst:64
+msgid "基本単位胞を探索し、変換します。"
+msgstr ""
+
+#: ../../usage/modeler.rst:67
+msgid "Finding a Standard Cell"
+msgstr ""
+
+#: ../../usage/modeler.rst:67
+msgid "慣用単位胞へ変換します。"
+msgstr ""
+
+#: ../../usage/modeler.rst:69
+msgid "Hexagonal -> Orthorhombic Orthorhombic -> Hexagonal"
+msgstr ""
+
+#: ../../usage/modeler.rst:71
+msgid "六方晶と斜方晶を相互に変換します。"
+msgstr ""
+
+#: ../../usage/modeler.rst:76
 msgid "元素置換"
 msgstr "Element substitution"
 
-#: ../../usage/modeler.rst:59
+#: ../../usage/modeler.rst:78
 msgid "モデル中の原子の一部を異なる種類に変更します。"
 msgstr "Substitute some of the atoms in the model for different atoms."
 
-#: ../../usage/modeler.rst:61
+#: ../../usage/modeler.rst:80
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Element Substitution` にある "
 ":guilabel:`Start Modeling` をクリックすると、元素置換を行う画面が表示されます。"
@@ -1041,7 +1082,7 @@ msgstr ""
 "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Element Substitution` to show element substitution view."
 
-#: ../../usage/modeler.rst:63
+#: ../../usage/modeler.rst:82
 msgid ""
 ":guilabel:`Element to be Substituted` （置換元の元素）、 :guilabel:`For What "
 "Element ?` （置換先の元素）、 :guilabel:`Super Cell` （超格子を作成する場合その繰り返し回数）、 "
@@ -1058,17 +1099,17 @@ msgstr ""
 ":guilabel:`Build` again here, different structure with the same "
 "substitution setting is shown."
 
-#: ../../usage/modeler.rst:70
+#: ../../usage/modeler.rst:89
 msgid "点欠陥（空孔）"
 msgstr "Point defect (vacancy)"
 
-#: ../../usage/modeler.rst:72
+#: ../../usage/modeler.rst:91
 msgid "モデル中の原子の一部を取り除き、点欠陥（空孔）を作成します。"
 msgstr ""
 "Remove some of the atoms in the model and create point defects "
 "(vacancies)."
 
-#: ../../usage/modeler.rst:74
+#: ../../usage/modeler.rst:93
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Lattice Defect` にある :guilabel:`Start "
 "Modeling` をクリックすると、点欠陥を作成する画面が表示されます。"
@@ -1076,7 +1117,7 @@ msgstr ""
 "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Lattice Defect` to show lattice defect view."
 
-#: ../../usage/modeler.rst:76
+#: ../../usage/modeler.rst:95
 msgid ""
 ":guilabel:`Element to be Removed` （取り除く元素）、 :guilabel:`Super Cell` "
 "（超格子を作成する場合その繰り返し回数）、 :guilabel:`Rate of Lattice Defect` "
@@ -1388,3 +1429,4 @@ msgstr ""
 "appears concurrently with downloading. In case of structure information "
 "file, the 3D model is displayed. Double click the model to open a new "
 "project view and start the analysis."
+
