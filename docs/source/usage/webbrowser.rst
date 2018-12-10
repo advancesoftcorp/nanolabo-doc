@@ -22,8 +22,4 @@
 
 .. image:: /img/downloadcif.png
 
-
-
-
-
-
+ウェブブラウザーでダウンロードしたファイルは、エクスプローラーの :guilabel:`Downloads` で一覧表示できます。
