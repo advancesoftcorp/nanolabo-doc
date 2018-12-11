@@ -8,7 +8,7 @@
 
 試用版・製品版とも、ご使用には弊社よりライセンスを取得していただく必要があります。ライセンス形態は実行環境により以下のようになっています。
 
-* Windows： ノードロックライセンス
+* Windows・macOS： ノードロックライセンス
 
  本製品を使用するコンピューターが固定されます。
 
@@ -63,32 +63,25 @@
 お申し込み手順
 ==========================
 
-ご使用になるコンピューター（Windowsでは本製品を使用するコンピューター、Linuxではライセンスサーバーを起動するコンピューター）について、固有のHost IDを取得し、そのHost IDに対してライセンスファイルを発行します。
+ご使用になるコンピューター（Windows・macOSでは本製品を使用するコンピューター、Linuxではライセンスサーバーを起動するコンピューター）について、固有のHost IDを取得し、そのHost IDに対してライセンスファイルを発行します。
+
+ライセンス登録後、原則5営業日以内にライセンスファイルをお送りします。
 
 .. _id-install:
 
 インストール時
 ----------------------------------
 
-インストーラーでインストールを行う際に、ライセンス登録画面が表示されます。\ :doc:`windows`\ 、\ :doc:`linux`\ を参照ください。
-
-.. _id-trial:
-
-試用期間中
-----------------------------------
-
-1. 左上のメインメニュー |mainmenuicon| から、 :guilabel:`License` をクリックします。
-2. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
-
-.. |mainmenuicon| image:: /img/mainmenuicon.png
+インストーラーでインストールを行う際に、ライセンス登録画面が表示されます。インストール手順（\ :doc:`Windows<windows>`\ 、\ :doc:`Linux<linux>`\ 、macOS）を参照ください。
 
 .. _id-after:
 
-試用期間後
+インストール後または試用期間後
 ----------------------------------
 
-試用期間終了後（またはインストール時にライセンス登録をしなかった場合）、ソフトウェアを起動しようとすると、ライセンス登録を案内する画面が表示されます。
+ライセンス未登録、または期間が終了した状態でソフトウェアを起動しようとすると、ライセンス登録を案内する画面が表示されます。
 
-1. :guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示されることがあります。 :guilabel:`OK` をクリックして閉じてください。
-2. :guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。
-3. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
+#. :guilabel:`FlexNet License Finder` というタイトルのウィンドウが表示された場合、 :guilabel:`Cancel` をクリックして閉じてください。
+#. :guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示された場合、 :guilabel:`OK` をクリックして閉じてください。
+#. :guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。
+#. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
