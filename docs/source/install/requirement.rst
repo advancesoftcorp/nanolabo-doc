@@ -8,7 +8,7 @@ OS
 
 * Windows 10
 * CentOS 7
-* macOS （OS X 10.8.3以降）
+* macOS （10.12 Sierra以降）
 
 Java
 
