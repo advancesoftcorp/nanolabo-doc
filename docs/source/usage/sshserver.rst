@@ -8,6 +8,9 @@ SSHサーバーの設定
 
 .. |mainmenuicon| image:: /img/mainmenuicon.png
 
+.. image:: /img/sshserver.png
+   :width: 350 px
+
 サーバーの追加
 -------------------------
 
