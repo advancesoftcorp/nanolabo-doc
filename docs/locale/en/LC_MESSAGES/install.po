@@ -165,7 +165,7 @@ msgid ""
 ":file:`license` ディレクトリにコピーしてください。"
 msgstr ""
 "After the license registration, we will send you a license file ( "
-":file:`nanolabo.lic` ), generally within 5 business days. Copy it to :file:`license` directory in the "
+":file:`nanolabo.lic` ), basically within 5 business days. Copy it to :file:`license` directory in the "
 "install destination."
 
 #: ../../install/linux.rst:83
@@ -511,7 +511,7 @@ msgstr ""
 
 #: ../../install/purchase.rst:68
 msgid "ライセンス登録後、原則5営業日以内にライセンスファイルをお送りします。"
-msgstr "After the license registration, we will send you a license file, generally within 5 business days. "
+msgstr "After the license registration, we will send you a license file, basically within 5 business days. "
 
 #: ../../install/purchase.rst:73
 msgid "インストール時"
@@ -604,5 +604,5 @@ msgid ""
 ":file:`license` フォルダーにコピーしてください。"
 msgstr ""
 "After the license registration, we will send you a license file ( "
-":file:`nanolabo.lic` ), generally within 5 business days. Copy it to :file:`license` folder in the install "
+":file:`nanolabo.lic` ), basically within 5 business days. Copy it to :file:`license` folder in the install "
 "destination."
