@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-19 14:37+0900\n"
+"POT-Creation-Date: 2018-12-12 12:04+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,55 @@ msgstr ""
 msgid "バージョン情報"
 msgstr "Version Information"
 
-#: ../../version.rst:7
+#: ../../version.rst:19
+msgid "2018/12/21 バージョン1.1"
+msgstr "2018/12/21 Version 1.1"
+
+#: ../../version.rst:8
+msgid "macOS対応"
+msgstr "macOS support"
+
+#: ../../version.rst:9
+msgid "機能追加"
+msgstr "New features"
+
+#: ../../version.rst:11
+msgid "計算サーバーへのジョブ投入（SSH接続）"
+msgstr "Post jobs to calculation server (SSH connection)"
+
+#: ../../version.rst:12
+msgid "有機分子の描画"
+msgstr "Drawing a molecule"
+
+#: ../../version.rst:13
+msgid "表面への小分子吸着モデル"
+msgstr "Molecular adsorption onto slab"
+
+#: ../../version.rst:14
+msgid "溶媒分子充填"
+msgstr "Packing molecules"
+
+#: ../../version.rst:15
+msgid "Primitive Cell、Standard Cellの自動決定"
+msgstr "Automatically find Primitive Cell / Standard Cell"
+
+#: ../../version.rst:16
+msgid "空間群の判定"
+msgstr "Detect space group"
+
+#: ../../version.rst:17
+msgid "外部テキストエディターでのログ表示"
+msgstr "Open logs with external text editor"
+
+#: ../../version.rst:19
+msgid "その他、バグ修正等"
+msgstr "Bug fixes, etc."
+
+#: ../../version.rst:21
 msgid "2018/08/01 バージョン1.0"
 msgstr "2018/08/01 Version 1.0"
 
-#: ../../version.rst:8
+#: ../../version.rst:22
 msgid "初回リリース"
 msgstr "Initial release"
 
