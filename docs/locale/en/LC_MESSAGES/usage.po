@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-07 20:20+0900\n"
+"POT-Creation-Date: 2018-12-12 16:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,11 +87,19 @@ msgstr "Wheel drag"
 msgid ":kbd:`Shift` + 矢印キー"
 msgstr ":kbd:`Shift` + Arrow key"
 
-#: ../../usage/atomsviewer.rst:30
+#: ../../usage/atomsviewer.rst:28
+msgid ""
+"右クリックメニューの :guilabel:`Operations for Atoms` "
+"をクリックすると、視点を微調整するためのウィンドウが表示されます。"
+msgstr ""
+"In the right click menu, click :guilabel:`Operations for Atoms` to show "
+"the window for fine-tuning the viewpoint."
+
+#: ../../usage/atomsviewer.rst:33
 msgid "表示デザインの変更"
 msgstr "Changing display design"
 
-#: ../../usage/atomsviewer.rst:32
+#: ../../usage/atomsviewer.rst:35
 msgid ""
 "画面左下のメニュー |projectmenuicon| から :guilabel:`Designer` "
 "をクリックして、デザイン変更画面を開いてください。画面右側のパネルで、3Dモデルの表示方法を詳細に設定できます。設定が終わりましたら、左下の戻るボタン"
@@ -103,87 +111,109 @@ msgstr ""
 "done, click back button |back| on the lower left to go back to previous "
 "view."
 
-#: ../../usage/atomsviewer.rst:42
+#: ../../usage/atomsviewer.rst:45
 msgid "原子構造の簡単な編集"
 msgstr "Simple edits of atomic structure"
 
-#: ../../usage/atomsviewer.rst:47
+#: ../../usage/atomsviewer.rst:50
 msgid "原子の変更"
 msgstr "Changing atom"
 
-#: ../../usage/atomsviewer.rst:49
+#: ../../usage/atomsviewer.rst:52
 msgid ""
-"変更したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + "
-"右ドラッグで選択します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Rename selected "
-"atoms` をクリックします。"
+"変更したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ :kbd:`Ctrl` + "
+"右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Rename selected"
+" atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to change. Select multiple atoms by "
-":kbd:`Ctrl` + right drag. The target atom(s) is now displayed in wire "
+":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target atom(s) is now displayed in wire "
 "frame. Click :guilabel:`Rename selected atoms` from the menu."
 
-#: ../../usage/atomsviewer.rst:50
+#: ../../usage/atomsviewer.rst:53
 msgid "周期律表が表示されますので、元素を選択してください。"
 msgstr "Choose an element from the periodic table."
 
-#: ../../usage/atomsviewer.rst:51
+#: ../../usage/atomsviewer.rst:54
 msgid "原子が選択した元素に変更されます。"
 msgstr "The atom(s) is changed to the selected element."
 
-#: ../../usage/atomsviewer.rst:56
+#: ../../usage/atomsviewer.rst:59
 msgid "原子の削除"
 msgstr "Deleting atom"
 
-#: ../../usage/atomsviewer.rst:58
+#: ../../usage/atomsviewer.rst:61
 msgid ""
-"削除したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + "
-"右ドラッグで選択します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Delete selected "
-"atoms` をクリックします。"
+"削除したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ :kbd:`Ctrl` + "
+"右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Delete selected"
+" atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to remove. Select multiple atoms by "
-":kbd:`Ctrl` + right drag. The target atom(s) is now displayed in wire "
+":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target atom(s) is now displayed in wire "
 "frame. Click :guilabel:`Delete selected atoms` from the menu."
 
-#: ../../usage/atomsviewer.rst:59
+#: ../../usage/atomsviewer.rst:62
 msgid "確認が表示されますので、 :guilabel:`OK` をクリックすると、原子が削除されます。"
 msgstr "Confirmation window appears. Click :guilabel:`OK` to delete the atom(s)."
 
-#: ../../usage/atomsviewer.rst:64
+#: ../../usage/atomsviewer.rst:67
 msgid "原子の移動"
 msgstr "Moving atom"
 
-#: ../../usage/atomsviewer.rst:66
+#: ../../usage/atomsviewer.rst:69
 msgid ""
-"移動したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + "
-"右ドラッグで選択します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Move selected "
+"移動したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ :kbd:`Ctrl` + "
+"右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Move selected "
 "atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to move. Select multiple atoms by "
-":kbd:`Ctrl` + right drag. The target atom(s) is now displayed in wire "
+":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target atom(s) is now displayed in wire "
 "frame. Click :guilabel:`Move selected atoms` from the menu."
 
-#: ../../usage/atomsviewer.rst:67
+#: ../../usage/atomsviewer.rst:70
 msgid "緑色の平面と、黒色の法線が表示されます。ドラッグ（または矢印キー）で平面を回転させます。選択した原子をドラッグすると、平面に沿って移動させることができます。"
 msgstr ""
 "Green plane and black normal line are shown. Use dragging (or arrow keys)"
 " to rotate the plane. You can then drag selected atom(s) along the plane."
 
-#: ../../usage/atomsviewer.rst:68
+#: ../../usage/atomsviewer.rst:71
 msgid "ドロップ（マウスのボタンを離す）すると、位置が確定します。"
 msgstr "Drop (release mouse button) to fix the position."
 
-#: ../../usage/atomsviewer.rst:73
+#: ../../usage/atomsviewer.rst:76
 msgid "原子の追加"
 msgstr "Putting atom"
 
-#: ../../usage/atomsviewer.rst:75
+#: ../../usage/atomsviewer.rst:78
 msgid "原子を追加したい位置を右クリックし、メニューから :guilabel:`Put an atom` をクリックします。"
 msgstr ""
 "Right click where you want to put an atom. Click :guilabel:`Put an atom` "
 "from the menu."
 
-#: ../../usage/atomsviewer.rst:76
+#: ../../usage/atomsviewer.rst:79
 msgid "周期律表が表示されますので、元素を選択すると、原子が追加されます。"
 msgstr "Choose an element from the periodic table to put the atom."
+
+#: ../../usage/atomsviewer.rst:82
+msgid "空間群の判定"
+msgstr "Detect space group"
+
+#: ../../usage/atomsviewer.rst:84
+msgid "右クリックメニューの :guilabel:`Detect space group` をクリックすると、モデルの原子構造の属する空間群を表示します。"
+msgstr ""
+"In the right click menu, click :guilabel:`Detect space group` to display "
+"the space group to which the atomic structure of the model belongs."
+
+#: ../../usage/atomsviewer.rst:87
+msgid "原子構造のエクスポート"
+msgstr "Export atomic configuration"
+
+#: ../../usage/atomsviewer.rst:89
+msgid ""
+"右クリックメニューの :guilabel:`Export atomic configuration` "
+"をクリックすると、モデルの原子構造をCIFファイル・XYZファイルとしてエクスポートできます。"
+msgstr ""
+"In the right click menu, click :guilabel:`Export atomic configuration` to"
+" export the atomic configuration of the model as CIF or XYZ file."
 
 #: ../../usage/calculation.rst:5
 msgid "計算実行"
@@ -199,7 +229,7 @@ msgstr ""
 " configure the calculation job."
 
 #: ../../usage/calculation.rst:12
-msgid "Job"
+msgid "Job Type"
 msgstr ""
 
 #: ../../usage/calculation.rst:12
@@ -210,78 +240,111 @@ msgstr ""
 "(\\ `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_ only) Choose a"
 " calculation type to be run by the calculation engine."
 
-#: ../../usage/calculation.rst:15
-msgid "Parallel"
-msgstr "Parallel"
-
-#: ../../usage/calculation.rst:15
-msgid "並列計算を行う場合、その並列数を設定します。"
-msgstr "If you'd like to perform parallel calculation, set the parallel number."
-
-#: ../../usage/calculation.rst:20
-msgid "Host"
-msgstr "Host"
-
-#: ../../usage/calculation.rst:18
-msgid "別のコンピューターで計算を行う場合、そのホスト名を選択します。"
-msgstr "If you'd like to calculate on another computer, select that host name."
-
-#: ../../usage/calculation.rst:20
-msgid ""
-"（※現在のバージョンではLocal "
-"Host（このコンピューター）のみ選択可能です。別のコンピューターでの計算実行は今後の機能追加をお待ちください。）"
+#: ../../usage/calculation.rst:17 ../../usage/sshserver.rst:30
+msgid "Host Name"
 msgstr ""
-"(Note: Current version only supports Local Host (this computer). To run "
-"on another computer, please wait for the feature to be implemented.)"
 
-#: ../../usage/calculation.rst:23
+#: ../../usage/calculation.rst:15
+msgid ""
+"計算をどのコンピューターで実行するか選択します。ローカル実行（このコンピューターで実行）する場合は :guilabel:`localhost` "
+"、リモート実行（別のコンピューターで実行）する場合はそのホスト名を選択します。"
+msgstr ""
+"Specify the computer to execute the calculation. Choose "
+":guilabel:`localhost` for local execution (calculate on this computer), "
+"or the hostname for remote execution (calculate on another computer)."
+
+#: ../../usage/calculation.rst:17
+msgid "リモート実行のホスト・キューは、事前に設定画面から追加してください。"
+msgstr "Add the host and queue for remote execution beforehand in the setting."
+
+#: ../../usage/calculation.rst:25
+msgid "Queue Type"
+msgstr ""
+
+#: ../../usage/calculation.rst:25
+msgid "（リモート実行時のみ）使用するキューを選択します。"
+msgstr "(Remote execution only) specify the queue to use."
+
+#: ../../usage/calculation.rst:27
+msgid "#Processes"
+msgstr ""
+
+#: ../../usage/calculation.rst:29
+msgid "#Threads"
+msgstr ""
+
+#: ../../usage/calculation.rst:29
+msgid "（ローカル実行時のみ）並列計算を行う場合、並列数を設定します。"
+msgstr ""
+"(Local execution only) If you'd like to perform parallel calculation, set"
+" the parallel number."
+
+#: ../../usage/calculation.rst:32
 msgid "Project"
 msgstr "Project"
 
-#: ../../usage/calculation.rst:23
+#: ../../usage/calculation.rst:32
 msgid "プロジェクトが保存されていない場合は、 :guilabel:`Save Project` ボタンをクリックして保存してから計算を実行してください。"
 msgstr ""
 "If the project is not saved, click :guilabel:`Save Project` button here "
 "before running the calculation."
 
-#: ../../usage/calculation.rst:25
+#: ../../usage/calculation.rst:34
 msgid "設定後、 :guilabel:`OK` をクリックすると、計算が実行されます。"
 msgstr "After configuration finished, click :guilabel:`OK` to run the calculation."
 
-#: ../../usage/calculation.rst:30
+#: ../../usage/calculation.rst:36
+msgid "リモート実行時には、計算エンジンの実行ファイルをサーバーに転送して実行します。事前にサーバーに計算エンジンをインストールしておく必要はありません。"
+msgstr ""
+"When you use remote execution, executable files of the calculation engine"
+" are transferred to the server in advance. There is no need to install "
+"the calculation engine on the server."
+
+#: ../../usage/calculation.rst:41
 msgid "計算ジョブ管理"
 msgstr "Managing calculation job"
 
-#: ../../usage/calculation.rst:32
+#: ../../usage/calculation.rst:43
 msgid ""
 "実行中・実行待機中の計算ジョブは、エクスプローラーの :guilabel:`Calculating` "
-"に一覧表示されます。各計算ジョブは3Dモデルのアイコンで表示され、左上には計算エンジン、右下には計算の種類を示すラベルが表示されています。右下のラベルの色は計算ジョブの状態を示しており、赤色が実行中、黄色が実行待機中です。ジョブが終了すると、ラベルが緑色になり、"
-" :guilabel:`Calculating` から消えます。"
+"に一覧表示されます。各計算ジョブは3Dモデルのアイコンで表示され、左上には計算エンジン、右下には計算の種類を示すラベルが表示されています。リモート実行ジョブには右上に雲のアイコン"
+" |cloud| が表示されます。"
 msgstr ""
 "Running/waiting calculation jobs are listed in :guilabel:`Calculating` in"
 " explorer. Each calculation job is shown as 3D model icon with "
 "calculation engine label on the upper left and calculation type label on "
-"the lower right. The label color on the lower right indicates the state "
-"of the job: red for running and yellow for waiting. When the job is "
-"finished, the label turns green, and then the icon disappears from "
-":guilabel:`Calculating` ."
+"the lower right. Remote jobs appear with cloud icon |cloud| on the upper "
+"right."
 
-#: ../../usage/calculation.rst:36
+#: ../../usage/calculation.rst:45
 msgid ""
-"実行中・実行待機中の計算ジョブを中止するには、プロジェクト画面を開き、画面右側のパネルの :guilabel:`Stop Calculation`"
-" をクリックしてください。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー |projectmenuicon|"
-" から :guilabel:`Result` をクリックしてください。）"
+"ローカル実行ジョブは1つずつ順に実行されます。右下のラベルの色は計算ジョブの状態を示しており、赤色が実行中、黄色が実行待機中です。ジョブが終了すると、ラベルが緑色になり、"
+" Calculating から消えます。実行前にキャンセルされたリモート実行ジョブは、ラベルが灰色になります。"
 msgstr ""
-"To abort running/waiting job, open the project view and click "
+"Local jobs are executed one by one in serial. The label color on the "
+"lower right indicates the state of the job: red for running and yellow "
+"for waiting. When the job is finished, the label turns green, and then "
+"the icon disappears from :guilabel:`Calculating` . The label on the "
+"remote job that is cancelled before execution turns gray."
+
+#: ../../usage/calculation.rst:49
+msgid ""
+"実行中・実行待機中の計算ジョブを中止するには、アイコンを右クリックして :guilabel:`Delete jobs` "
+"をクリックするか、プロジェクト画面を開き、画面右側のパネルの :guilabel:`Stop Calculation` "
+"をクリックしてください。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー |projectmenuicon| "
+"から :guilabel:`Result` をクリックしてください。）"
+msgstr ""
+"To abort running/waiting job, right click the icon and click "
+":guilabel:`Delete jobs`, or open the project view and click "
 ":guilabel:`Stop Calculation` on the right side panel. (In case input file"
 " editor is shown in project view, first click :guilabel:`Result` from the"
 " menu |projectmenuicon| on the lower left.)"
 
-#: ../../usage/calculation.rst:41
+#: ../../usage/calculation.rst:56
 msgid "計算がうまくいかない場合"
 msgstr "Troubleshooting"
 
-#: ../../usage/calculation.rst:43
+#: ../../usage/calculation.rst:58
 msgid ""
 "計算が正常に実行できなかった場合、 :guilabel:`Error` "
 "ウィンドウが表示されます。エラーの内容を確認するには、プロジェクト画面を開き、 :guilabel:`CRASH` "
@@ -334,8 +397,8 @@ msgid "My Computer"
 msgstr ""
 
 #: ../../usage/explorer.rst:26
-msgid "ルート（Windowsでは :file:`C:`、Linuxでは :file:`/`）に移動します。"
-msgstr "Go to the root (\\ :file:`C:` on Windows, :file:`/` on Linux)."
+msgid "ルート（Windowsでは :file:`C:`、Linux・macOSでは :file:`/`）に移動します。"
+msgstr "Go to the root (\\ :file:`C:` on Windows, :file:`/` on Linux/macOS)."
 
 #: ../../usage/explorer.rst:28
 msgid "My Projects"
@@ -387,11 +450,19 @@ msgstr ""
 "Go to the destination folder (directory) of files downloaded from the web"
 " sites."
 
-#: ../../usage/explorer.rst:44
+#: ../../usage/explorer.rst:40
+msgid "|add|"
+msgstr ""
+
+#: ../../usage/explorer.rst:40
+msgid "任意の場所を追加します。追加したリンクは右クリックで編集・削除できます。"
+msgstr "Add any location. Use right click to edit/remove previously added links."
+
+#: ../../usage/explorer.rst:48
 msgid "ナビボタン"
 msgstr "Navigation buttons"
 
-#: ../../usage/explorer.rst:46
+#: ../../usage/explorer.rst:50
 msgid ""
 "戻るボタン |back| 、進むボタン |fwd| でこれまでに表示した場所に移動します。上へボタン |up| "
 "で一つ上のフォルダー（ディレクトリ）に移動します。"
@@ -400,11 +471,11 @@ msgstr ""
 "displayed locations. Click up button |up| to go to theparent folder "
 "(directory)."
 
-#: ../../usage/explorer.rst:55
+#: ../../usage/explorer.rst:59
 msgid "ロケーションバー"
 msgstr "Location bar"
 
-#: ../../usage/explorer.rst:57
+#: ../../usage/explorer.rst:61
 msgid ""
 "表示している場所のパス（コンピューター内の場所）を表示します。パスを入力し :kbd:`Enter` "
 "キーを押すと、その場所に移動します。WindowsでCドライブ以外の場所を表示したい場合はこちらをご使用ください。"
@@ -414,81 +485,81 @@ msgstr ""
 "On Windows, use this function if you'd like to go to a location other "
 "than C drive."
 
-#: ../../usage/explorer.rst:62
+#: ../../usage/explorer.rst:66
 msgid "表示変更"
 msgstr "Change view"
 
-#: ../../usage/explorer.rst:64
+#: ../../usage/explorer.rst:68
 msgid "表示領域のアイコンの大きさを選択します。 :guilabel:`List` を選択すると、各項目の詳細情報をリスト表示します。"
 msgstr ""
 "Choose the size of the icons in the display area. Select :guilabel:`List`"
 " to list the detailed information of each item."
 
-#: ../../usage/explorer.rst:69
+#: ../../usage/explorer.rst:73
 msgid "対応する構造情報ファイル形式"
 msgstr "Supported structure information file types"
 
-#: ../../usage/explorer.rst:75
+#: ../../usage/explorer.rst:79
 msgid ".cif"
 msgstr ""
 
-#: ../../usage/explorer.rst:75
+#: ../../usage/explorer.rst:79
 msgid "`Crystallographic Information Framework`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:77
+#: ../../usage/explorer.rst:81
 msgid ".xyz"
 msgstr ""
 
-#: ../../usage/explorer.rst:77
+#: ../../usage/explorer.rst:81
 msgid "XYZ chemical file format"
 msgstr ""
 
-#: ../../usage/explorer.rst:79
+#: ../../usage/explorer.rst:83
 msgid ".xsf"
 msgstr ""
 
-#: ../../usage/explorer.rst:79
+#: ../../usage/explorer.rst:83
 msgid "`XCrySDen file format`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:81
+#: ../../usage/explorer.rst:85
 msgid ".POSCAR"
 msgstr ""
 
-#: ../../usage/explorer.rst:81
+#: ../../usage/explorer.rst:85
 msgid "`VASP input file`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:83
+#: ../../usage/explorer.rst:87
 msgid ".in"
 msgstr ""
 
-#: ../../usage/explorer.rst:83
+#: ../../usage/explorer.rst:87
 msgid "`Quantum ESPRESSO input file`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:85
+#: ../../usage/explorer.rst:89
 msgid "nfinp.data"
 msgstr ""
 
-#: ../../usage/explorer.rst:85
+#: ../../usage/explorer.rst:89
 msgid "`Advance/PHASE`_ input file"
 msgstr ""
 
-#: ../../usage/explorer.rst:87
+#: ../../usage/explorer.rst:91
 msgid ".cube, .cub"
 msgstr ""
 
-#: ../../usage/explorer.rst:87
+#: ../../usage/explorer.rst:91
 msgid "`Gaussian cube file`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:89
+#: ../../usage/explorer.rst:93
 msgid ".lmp"
 msgstr ""
 
-#: ../../usage/explorer.rst:89
+#: ../../usage/explorer.rst:93
 msgid "`LAMMPS data file`_"
 msgstr ""
 
@@ -551,44 +622,46 @@ msgid "バージョン情報などを表示します。"
 msgstr "Version information etc."
 
 #: ../../usage/initial.rst:44
-msgid ":guilabel:`Documents`"
-msgstr ""
-
-#: ../../usage/initial.rst:44
-msgid "このドキュメントを内蔵ウェブブラウザで開きます。"
-msgstr "Open this document in built-in web browser."
-
-#: ../../usage/initial.rst:46
-msgid ":guilabel:`Links of Web`"
-msgstr ""
-
-#: ../../usage/initial.rst:46
-msgid "各計算エンジンや擬ポテンシャルなどのリンク集です。"
-msgstr "Collection of links to calculation engines, pseudopotentials etc."
-
-#: ../../usage/initial.rst:48
-msgid ":guilabel:`Setting`"
-msgstr ""
-
-#: ../../usage/initial.rst:48
-msgid "各計算エンジンのパスなどを設定します。"
-msgstr "Set the path of calculation engines etc."
-
-#: ../../usage/initial.rst:50
 msgid ":guilabel:`License`"
 msgstr ""
 
+#: ../../usage/initial.rst:44
+msgid "ライセンスの状態を表示します。"
+msgstr "Status of the license."
+
+#: ../../usage/initial.rst:46
+msgid ":guilabel:`Documents`"
+msgstr ""
+
+#: ../../usage/initial.rst:46
+msgid "このドキュメントを内蔵ウェブブラウザで開きます。"
+msgstr "Open this document in built-in web browser."
+
+#: ../../usage/initial.rst:48
+msgid ":guilabel:`Links of Web`"
+msgstr ""
+
+#: ../../usage/initial.rst:48
+msgid "各計算エンジンや擬ポテンシャルなどのリンク集です。"
+msgstr "Collection of links to calculation engines, pseudopotentials etc."
+
 #: ../../usage/initial.rst:50
-msgid "ライセンス登録の案内を表示します。"
-msgstr "License registration guide is shown."
+msgid ":guilabel:`Properties`"
+msgstr ""
+
+#: ../../usage/initial.rst:50
+msgid "テキストエディターや各計算エンジンのパスを設定します。"
+msgstr "Set the path of text editor / calculation engines."
 
 #: ../../usage/initial.rst:52
-msgid ":guilabel:`Proxy server`"
+msgid ":guilabel:`Network`"
 msgstr ""
 
 #: ../../usage/initial.rst:52
-msgid "本ソフトウェアが接続時に使用するプロキシサーバーを設定します。"
-msgstr "Set up the proxy server this software uses for connections."
+msgid "プロキシの設定、リモート実行用の\\ :doc:`SSHサーバーの設定<sshserver>`\\ を行います。"
+msgstr ""
+"Proxy settings, :doc:`SSH server settings<sshserver>` for remote "
+"execution."
 
 #: ../../usage/initial.rst:54
 msgid ":guilabel:`Full screen`"
@@ -928,6 +1001,10 @@ msgstr ""
 "open modeler view."
 
 #: ../../usage/modeler.rst:9
+msgid "画面右側のパネルから、各モデリング機能を使用します。複数の機能を続けて使うことも可能です。"
+msgstr "Modeling functions can be used from the right side panel. You can use multiple functions one after another."
+
+#: ../../usage/modeler.rst:11
 msgid ""
 "モデラ―上で行った編集は、 :guilabel:`Reflect on Input-file` をクリックすることでプロジェクトに反映されます。 "
 ":guilabel:`Initialize Model` をクリックすると、編集を行う前（モデラー画面を開いた時点）の状態に戻ります。"
@@ -937,17 +1014,17 @@ msgstr ""
 " return to the state before editing is performed (when modeler view was "
 "opened)."
 
-#: ../../usage/modeler.rst:11
+#: ../../usage/modeler.rst:13
 msgid "編集が終わりましたら、左下の戻るボタン |back| をクリックしてプロジェクト画面に戻ります。"
 msgstr ""
 "When editing is finished, click back button |back| on the lower left to "
 "go back to project view."
 
-#: ../../usage/modeler.rst:18
+#: ../../usage/modeler.rst:20
 msgid "並進移動"
 msgstr "Translation"
 
-#: ../../usage/modeler.rst:20
+#: ../../usage/modeler.rst:22
 msgid ""
 ":guilabel:`Translation of Cell` "
 "で、すべての原子を同じ方向・距離に移動させます。各単位格子ベクトルのスライダーを動かすと、リアルタイムでビューワーに反映されます。"
@@ -956,11 +1033,11 @@ msgstr ""
 "direction and distance. Changes made to the vector sliders are reflected "
 "in the viewer in real time."
 
-#: ../../usage/modeler.rst:25
+#: ../../usage/modeler.rst:27
 msgid "超格子"
 msgstr "Super cell"
 
-#: ../../usage/modeler.rst:27
+#: ../../usage/modeler.rst:29
 msgid ""
 ":guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 :guilabel:`Scaling` "
 "欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。"
@@ -970,17 +1047,17 @@ msgstr ""
 "three text boxes in :guilabel:`Scaling` field, and then click "
 ":guilabel:`Build` ."
 
-#: ../../usage/modeler.rst:34
+#: ../../usage/modeler.rst:36
 msgid "スラブモデル"
 msgstr "Slab model"
 
-#: ../../usage/modeler.rst:36
+#: ../../usage/modeler.rst:38
 msgid "表面などの非周期系を近似的に周期的境界条件で扱う、スラブ近似のためのモデルを作成します。"
 msgstr ""
 "Build a model for slab approximation which treats aperiodic system such "
 "as surface in approximate periodic boundary condition."
 
-#: ../../usage/modeler.rst:38
+#: ../../usage/modeler.rst:40
 msgid ""
 ":guilabel:`Slab Model` で、表面となる結晶面をミラー指数で指定し、 :guilabel:`Build` "
 "をクリックすると、スラブモデルの詳細設定を行う画面が表示されます。"
@@ -988,7 +1065,7 @@ msgstr ""
 "Specify a crystal plane to be the surface by Miller indices and click "
 ":guilabel:`Build` . Detailed setting view of slab model is shown."
 
-#: ../../usage/modeler.rst:40
+#: ../../usage/modeler.rst:42
 msgid ""
 "スラブの厚さを :guilabel:`Slab System` の :guilabel:`Width / Cell` スライダーで、真空層の厚さを"
 " :guilabel:`Vacuum of a Side` の :guilabel:`Width / Angs.` スライダーで変更します。 "
@@ -1002,7 +1079,7 @@ msgstr ""
 ":guilabel:`Build` to build repeated structure along in-plane direction of"
 " the slab."
 
-#: ../../usage/modeler.rst:42
+#: ../../usage/modeler.rst:44
 msgid ""
 "複数の異なる表面原子構造が存在する場合、 :guilabel:`Kind of Surface` "
 "に複数の候補が表示されますので、クリックして選択してください。"
@@ -1010,71 +1087,71 @@ msgstr ""
 "In case there exists multiple different surface atomic structures, click "
 "one from the candidates displayed in :guilabel:`Kind of Surface` ."
 
-#: ../../usage/modeler.rst:44
+#: ../../usage/modeler.rst:46
 msgid "変更はリアルタイムでビューワーに反映されます。"
 msgstr "The changes are reflected in the viewer in real time."
 
-#: ../../usage/modeler.rst:46
+#: ../../usage/modeler.rst:48
 msgid ":guilabel:`Initialize Model` をクリックすると、詳細設定を行う前（スラブモデル画面を開いた時点）の状態に戻ります。"
 msgstr ""
 "Click :guilabel:`Initialize Model` to return to the state before detailed"
 " setting is performed (when slab model view was opened)."
 
-#: ../../usage/modeler.rst:48 ../../usage/modeler.rst:84
-#: ../../usage/modeler.rst:97
+#: ../../usage/modeler.rst:50 ../../usage/modeler.rst:88
+#: ../../usage/modeler.rst:101 ../../usage/modeler.rst:136
+#: ../../usage/modeler.rst:160
 msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
 msgstr "Click back button |back| on the lower left to go back to modeler view."
 
-#: ../../usage/modeler.rst:57
-msgid "結晶格子の変換"
-msgstr ""
-
 #: ../../usage/modeler.rst:59
-msgid "モデルの格子ベクトルを再定義し、結晶格子を変換します。"
-msgstr ""
+msgid "結晶格子の変換"
+msgstr "Conversion of crystal lattice"
 
 #: ../../usage/modeler.rst:61
-#, fuzzy
+msgid "モデルの格子ベクトルを再定義し、結晶格子を変換します。"
+msgstr "Redefine the lattice vector of the model and convert the crystal lattice."
+
+#: ../../usage/modeler.rst:63
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Conversion of Cell Type` の各 "
 ":guilabel:`Build` ボタンをクリックすると、変換が行われます。"
 msgstr ""
-"In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
-":guilabel:`Lattice Defect` to show lattice defect view."
+"In :guilabel:`Crystal` tab, click each :guilabel:`Build` button to "
+"perform the conversion."
 
-#: ../../usage/modeler.rst:64
+#: ../../usage/modeler.rst:65
 msgid "Finding a Primitive Cell"
 msgstr ""
 
-#: ../../usage/modeler.rst:64
-msgid "基本単位胞を探索し、変換します。"
-msgstr ""
-
-#: ../../usage/modeler.rst:67
+#: ../../usage/modeler.rst:69
 msgid "Finding a Standard Cell"
 msgstr ""
 
 #: ../../usage/modeler.rst:67
-msgid "慣用単位胞へ変換します。"
-msgstr ""
-
-#: ../../usage/modeler.rst:69
-msgid "Hexagonal -> Orthorhombic Orthorhombic -> Hexagonal"
-msgstr ""
+msgid "基本単位胞・慣用単位胞を自動的に決定し、相互に変換します。"
+msgstr "Find primitive / standard cell automatically, and convert to it."
 
 #: ../../usage/modeler.rst:71
-msgid "六方晶と斜方晶を相互に変換します。"
+msgid "Hexagonal -> Orthorhombic"
 msgstr ""
 
-#: ../../usage/modeler.rst:76
+#: ../../usage/modeler.rst:75
+msgid "Orthorhombic -> Hexagonal"
+msgstr ""
+
+#: ../../usage/modeler.rst:73
+msgid "六方晶・直方晶（斜方晶）を相互に変換します。"
+msgstr "Convert to hexagonal crystal / orthorhombic crystal."
+
+#: ../../usage/modeler.rst:80
 msgid "元素置換"
 msgstr "Element substitution"
 
-#: ../../usage/modeler.rst:78
+#: ../../usage/modeler.rst:82
 msgid "モデル中の原子の一部を異なる種類に変更します。"
 msgstr "Substitute some of the atoms in the model for different atoms."
 
-#: ../../usage/modeler.rst:80
+#: ../../usage/modeler.rst:84
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Element Substitution` にある "
 ":guilabel:`Start Modeling` をクリックすると、元素置換を行う画面が表示されます。"
@@ -1082,34 +1159,35 @@ msgstr ""
 "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Element Substitution` to show element substitution view."
 
-#: ../../usage/modeler.rst:82
+#: ../../usage/modeler.rst:86
 msgid ""
 ":guilabel:`Element to be Substituted` （置換元の元素）、 :guilabel:`For What "
 "Element ?` （置換先の元素）、 :guilabel:`Super Cell` （超格子を作成する場合その繰り返し回数）、 "
 ":guilabel:`Rate of Substitution` （置換する割合）を順に設定してください。 :guilabel:`Next` "
 "で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` "
-"をクリックすると、置換後の構造がビューワーに表示されます。 そのまま再度 :guilabel:`Build` "
-"をクリックすると、同じ置換設定で異なる構造が表示されます。"
+"をクリックすると、置換後の構造がビューワー内に表示されます。また、置換後の構造の対称性がビューワー内に表示されます。 そのまま再度 "
+":guilabel:`Build` をクリックすると、同じ置換設定で異なる構造が表示されます。"
 msgstr ""
 "Set :guilabel:`Element to be Substituted` , :guilabel:`For What Element "
 "?` , :guilabel:`Super Cell` and :guilabel:`Rate of Substitution` one by "
 "one. Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to the "
 "next (previous) item. When finished, click :guilabel:`Build` to show the "
-"structure after the substitution in the viewer. If you click "
+"structure after the substitution in the viewer. The symmetry of the "
+"structure after the substitution is also shown. If you click "
 ":guilabel:`Build` again here, different structure with the same "
 "substitution setting is shown."
 
-#: ../../usage/modeler.rst:89
+#: ../../usage/modeler.rst:93
 msgid "点欠陥（空孔）"
 msgstr "Point defect (vacancy)"
 
-#: ../../usage/modeler.rst:91
+#: ../../usage/modeler.rst:95
 msgid "モデル中の原子の一部を取り除き、点欠陥（空孔）を作成します。"
 msgstr ""
 "Remove some of the atoms in the model and create point defects "
 "(vacancies)."
 
-#: ../../usage/modeler.rst:93
+#: ../../usage/modeler.rst:97
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Lattice Defect` にある :guilabel:`Start "
 "Modeling` をクリックすると、点欠陥を作成する画面が表示されます。"
@@ -1117,20 +1195,168 @@ msgstr ""
 "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Lattice Defect` to show lattice defect view."
 
-#: ../../usage/modeler.rst:95
+#: ../../usage/modeler.rst:99
 msgid ""
 ":guilabel:`Element to be Removed` （取り除く元素）、 :guilabel:`Super Cell` "
 "（超格子を作成する場合その繰り返し回数）、 :guilabel:`Rate of Lattice Defect` "
 "（取り除く割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` "
 "で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、欠陥を入れた構造がビューワーに表示されます。"
-" そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。"
+" また、欠陥を入れた構造の対称性がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
+"をクリックすると、同じ設定で異なる構造が表示されます。"
 msgstr ""
 "Set :guilabel:`Element to be Removed` , :guilabel:`Super Cell` , "
 ":guilabel:`Rate of Lattice Defect` one by one. Click :guilabel:`Next` ( "
 ":guilabel:`Previous` ) to move on to the next (previous) item. When "
 "finished, click :guilabel:`Build` to show the structure with defects in "
-"the viewer. If you click :guilabel:`Build` again here, different "
-"structure with the same defect setting is shown."
+"the viewer. The symmetry of the structure with defects is also shown. If "
+"you click :guilabel:`Build` again here, different structure with the same"
+" defect setting is shown."
+
+#: ../../usage/modeler.rst:106
+msgid "分子エディタ―"
+msgstr "Drawing a molecule"
+
+#: ../../usage/modeler.rst:108
+msgid ""
+"分子エディタ―\\ `JSME <http://peter-ertl.com/jsme/>`_\\ "
+"を使用し、作図した構造をそのままモデルとして使用できます。"
+msgstr ""
+"Draw a molecule structure and use it as the model, using the molecular "
+"editor `JSME <http://peter-ertl.com/jsme/>`_ ."
+
+#: ../../usage/modeler.rst:110
+msgid ""
+":guilabel:`Molecule` タブの :guilabel:`Drawing a Molecule` にある "
+":guilabel:`Start Modeling` "
+"をクリックすると、左側に分子エディタ―、右側に3Dモデルが表示されます。エディター上で作図した構造がリアルタイムで3Dモデルとして表示されます。"
+msgstr ""
+"In :guilabel:`Molecule` tab, click :guilabel:`Start Modeling` in "
+":guilabel:`Drawing a Molecule` to show drawing a molecule view. The left "
+"side is molecule editor and the right side is 3D model. The structure you"
+" created on the editor is displayed as 3D model in real time."
+
+#: ../../usage/modeler.rst:112
+msgid ""
+"エディターの使用方法については、JSMEの\\ `ヘルプ <http://peter-"
+"ertl.com/jsme/2013_03/help.html>`_\\ を参照してください。"
+msgstr ""
+"Please refer to JSME `Help <http://peter-"
+"ertl.com/jsme/2013_03/help.html>`_ for the usage of the editor."
+
+#: ../../usage/modeler.rst:116
+msgid "左下の戻るボタン |back| をクリックすると、作図した構造が確定され、モデラ―画面に戻ります。このとき前のモデルは上書きされます。"
+msgstr ""
+"Click back button |back| on the lower left to go back to modeler view. "
+"Previous model is overwritten."
+
+#: ../../usage/modeler.rst:122
+msgid "分子充填"
+msgstr "Packing Molecules"
+
+#: ../../usage/modeler.rst:124
+msgid "モデルの空いている領域に、小分子を充填します。"
+msgstr "Pack small molecules into the empty space in the model."
+
+#: ../../usage/modeler.rst:126
+msgid ""
+"分子を充填できる空間を持ったモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Packing "
+"Molecules` にある :guilabel:`Start Modeling` をクリックしてください。分子充填を行う画面が表示されます。"
+msgstr ""
+"Prepare a model with enough space to pack molecules. In "
+":guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
+":guilabel:`Lattice Defect` to show packing molecules view."
+
+#: ../../usage/modeler.rst:128
+msgid ""
+"右側のパネルの :guilabel:`Molecules to be Packed` "
+"で、充填する分子とその数を設定します。最初は分子のリストに水が設定されています。"
+msgstr ""
+"On the right side panel, set up the molecules and number of them to be "
+"packed in :guilabel:`Molecules to be Packed` . At first, watar is set in "
+"the molecules list."
+
+#: ../../usage/modeler.rst:130
+msgid ""
+"リストに分子を追加するには、 |add| "
+"ボタンをクリックします。最近使用したモデルがエクスプローラーで表示されますので、分子をダブルクリックして選択してください。この場で "
+":guilabel:`Materials Finder` "
+"を使ってモデルを検索し、そのまま使うこともできます。リストに分子が追加されたら、充填する数を入力します。"
+msgstr ""
+"Click |add| button to add a molecule to the list. Recently used models "
+"are shown in explorer view, so double click the molecule you'd like to "
+"use. Here you can also use :guilabel:`Materials Finder` to search the "
+"molecule. After the molecule is added to the list, enter the number of it"
+" to be packed."
+
+#: ../../usage/modeler.rst:132
+msgid "リストから分子を削除するには、右側の |remove| ボタンをクリックします。"
+msgstr "Click |remove| button on the right to remove the molecule from the list."
+
+#: ../../usage/modeler.rst:134
+msgid ""
+"充填する分子を設定し終わったら、 :guilabel:`Build` "
+"をクリックしてください。充填後の構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
+"をクリックすると、同じ設定で異なる構造が表示されます。"
+msgstr ""
+"When finished, click :guilabel:`Build` to show the structure with packed "
+"molecules in the viewer. If you click :guilabel:`Build` again here, "
+"different structure with the same setting is shown."
+
+#: ../../usage/modeler.rst:146
+msgid "分子吸着"
+msgstr "Molecules adsorption"
+
+#: ../../usage/modeler.rst:148
+msgid "スラブモデルの表面に分子を吸着します。"
+msgstr "Adsorb molecules onto the slab model."
+
+#: ../../usage/modeler.rst:150
+msgid ""
+"スラブモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Molecular Adsorption onto "
+"Slab` にある :guilabel:`Start Modeling` をクリックしてください。分子吸着を行う画面が表示されます。"
+msgstr ""
+"Prepare a slab model. In :guilabel:`Molecule` tab, click :guilabel:`Start"
+" Modeling` in :guilabel:`Molecular Adsorption onto Slab` to show "
+"molecules adsorption view."
+
+#: ../../usage/modeler.rst:152
+msgid ""
+":guilabel:`Adsorbate Molecule / Atom` （吸着する分子）、 :guilabel:`Adsorption "
+"Site` （吸着サイトの種類）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous`"
+" で前の項目の設定に移ります。"
+msgstr ""
+"Set :guilabel:`Adsorbate Molecule / Atom` and :guilabel:`Adsorption Site`"
+" . Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to the next"
+" (previous) item."
+
+#: ../../usage/modeler.rst:154
+msgid ""
+"吸着の方法には、:guilabel:`Adsorption to Single Site` （選択した単一サイトへの吸着）と、 "
+":guilabel:`Rate of Occupied Sites` （サイトの占有率を指定した吸着）があります。使用したい方を選択してください。"
+msgstr ""
+"Two types of adsorption method are available: :guilabel:`Adsorption to "
+"Single Site` and :guilabel:`Rate of Occupied Sites` .Choose one you'd "
+"like to use."
+
+#: ../../usage/modeler.rst:156
+msgid ""
+":guilabel:`Adsorption to Single Site` "
+"では、a軸・b軸方向の位置をスライダーで変更するか、サイトに振られた通し番号を使って、サイトを指定してください。"
+msgstr ""
+":guilabel:`Adsorption to Single Site` : use sliders to set the position "
+"along a/b axis, or specify the site using the serial number given to the "
+"sites."
+
+#: ../../usage/modeler.rst:158
+msgid ""
+":guilabel:`Rate of Occupied Sites` では、占有率を入力して :guilabel:`Build` "
+"をクリックすると、分子を吸着した構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
+"をクリックすると、同じ設定で異なる構造が表示されます。"
+msgstr ""
+":guilabel:`Rate of Occupied Sites` : enter the occupation rate and click "
+":guilabel:`Build` to show the structure with adsorbed molecules in the "
+"viewer. If you click :guilabel:`Build` again here, different structure "
+"with the same setting is shown."
 
 #: ../../usage/project.rst:5
 msgid "プロジェクト"
@@ -1390,6 +1616,144 @@ msgstr ""
 ":guilabel:`ERR` (error log file) to show the content of the file. You can"
 " use in-file search, highlighting and extracting."
 
+#: ../../usage/result.rst:52
+msgid ":guilabel:`Text editor` をクリックすると、外部のテキストエディターでファイルを開きます。"
+msgstr "Click :guilabel:`Text editor` to open the file with external text editor."
+
+#: ../../usage/sshserver.rst:5
+msgid "SSHサーバーの設定"
+msgstr "SSH server settings"
+
+#: ../../usage/sshserver.rst:7
+msgid "画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> SSH server` を開きます。"
+msgstr "Click the icon |mainmenuicon| on upper left of the screen, and open :menuselection:`Network --> SSH server` ."
+
+#: ../../usage/sshserver.rst:15
+msgid "サーバーの追加"
+msgstr "Add server"
+
+#: ../../usage/sshserver.rst:17
+msgid ""
+"サーバーを追加するには、:guilabel:`SSH Configuration` の右側の |add| "
+"ボタンをクリックし、分かりやすい名前を付けて :guilabel:`OK` "
+"をクリックします。リストに名前が表示されますので、以降このサーバーの設定をしていきます。設定内容は自動的に保存されます。"
+msgstr "To add a server, click |add| button on the right of :guilabel:`SSH Configuration` , enter identifiable name and click :guilabel:`OK` ."
+"The name appears in the list, and hereafter, you can set up this server. The settings are saved automatically."
+
+#: ../../usage/sshserver.rst:23
+msgid ""
+"リストにはあらかじめ `FOCUSスパコン <https://www.j-focus.or.jp/>`_ "
+"用の設定例「FOCUS」が入っています。FOCUSスパコンへのジョブ投入を行う場合は、リストで「FOCUS」を選択し、設定していただくと簡単です。"
+msgstr "There is an example configuration \"FOCUS\" for `FOCUS supercomputer <https://www.j-focus.or.jp/>`_ in the list."
+"If you are planning to post jobs to FOCUS supercomputer, the easyest way is to select \"FOCUS\" from the list and set it up."
+
+#: ../../usage/sshserver.rst:26
+msgid "Serverタブの設定"
+msgstr "Server settings"
+
+#: ../../usage/sshserver.rst:28
+msgid ":guilabel:`Server` タブで、サーバーへの接続に関する設定を行います。"
+msgstr "In :guilabel:`Server` tab, configure settings related to the connection to the server."
+
+#: ../../usage/sshserver.rst:32
+msgid "Port"
+msgstr ""
+
+#: ../../usage/sshserver.rst:32
+msgid "サーバーのホスト名（またはIPアドレス）、ポート番号を入力します。"
+msgstr "Enter the host name (or IP address) and port number."
+
+#: ../../usage/sshserver.rst:39
+msgid "Job Manager"
+msgstr "Job Manager settings"
+
+#: ../../usage/sshserver.rst:35
+msgid "サーバーで使われているジョブ管理システムを選択します。PBS、SLURMに対応しています。Rawを選択すると、ジョブ管理システムを使わずに直接計算を実行します。"
+msgstr "Select job manager used on the server. PBS and SLURM are supported. Select Raw to execute the calculation directly without using job manager."
+
+#: ../../usage/sshserver.rst:39
+msgid "通常、ジョブ管理システムを導入しているサーバーでは、計算の直接実行は想定されていません。サーバーの管理者に確認した上で設定してください。"
+msgstr "Normally, direct execution of calculation is not assumed on a server that is running job manager. Please check with the server administrator before setting."
+
+#: ../../usage/sshserver.rst:42
+msgid "Work Directory"
+msgstr ""
+
+#: ../../usage/sshserver.rst:42
+msgid "計算で使用するファイルの転送先（サーバー上のディレクトリパス）を入力します。書き込み権限のある場所を指定してください。通常、ユーザーのホームディレクトリを指定すれば問題ありません。"
+msgstr "Enter the transfer destination (directory path on the server) of the files used in the calculation. Specify the location with write permission. Normally, user home directory is suitable."
+
+#: ../../usage/sshserver.rst:45
+msgid "Account"
+msgstr ""
+
+#: ../../usage/sshserver.rst:45
+msgid "サーバーにSSH接続する際のアカウント情報を入力します。認証の方式により、秘密鍵ファイルまたはパスワードを設定してください。"
+msgstr "Enter informations used for ssh connection. Specify private key file or password, depending on the authentication method."
+
+#: ../../usage/sshserver.rst:47
+msgid "設定内容に問題がなければ、タブが白色になります。問題がある場合はその項目が赤色で表示されますので、確認してください。"
+msgstr "If settings are OK, the tab turns white. In case something is wrong, the item is displayed in red, so please check it."
+
+#: ../../usage/sshserver.rst:50
+msgid "Jobタブの設定"
+msgstr "Job settings"
+
+#: ../../usage/sshserver.rst:52
+msgid "次に、 :guilabel:`Job` タブでサーバーへのジョブ投入に関する設定を行います。"
+msgstr "Next, in :guilabel:`Job` tab, configure settings related to job posting to the server."
+
+#: ../../usage/sshserver.rst:56
+msgid "Job Queue"
+msgstr ""
+
+#: ../../usage/sshserver.rst:55
+msgid ""
+"キューの名前のリストです。 |add| ボタンで追加、 |remove| ボタンで削除します。 "
+"ジョブ管理システムを使わずに実行する場合でも、適当な名前のキューを作成してください。"
+msgstr "List of the names of the queues. Click |add| ( |remove| ) to add (remove) item. "
+"Even if you do not use job manager, add a queue with some name."
+
+#: ../../usage/sshserver.rst:60
+msgid "Job Posting Command"
+msgstr ""
+
+#: ../../usage/sshserver.rst:68
+msgid "Job Script"
+msgstr ""
+
+#: ../../usage/sshserver.rst:62
+msgid "キューごとに、ジョブ投入用のコマンドとジョブスクリプトを設定します。ジョブ管理システムに応じたデフォルトの内容がキュー追加時に設定されます。必要に応じて編集してください。"
+msgstr "Set the command to post a job and the job script for each queue. Default values tailored for the job manager are set when you add a queue. Edit them if you need."
+
+#: ../../usage/sshserver.rst:66
+msgid "実際に実行されるスクリプトの内容は、ジョブ投入時に表示されるウィンドウでご確認ください。"
+msgstr "The actual content of the script to be executed is shown when you post a job."
+
+#: ../../usage/sshserver.rst:71
+msgid "Speedタブの設定"
+msgstr "Speed settings"
+
+#: ../../usage/sshserver.rst:73
+msgid ":guilabel:`Speed` タブでは、サーバーからの情報取得・ファイルダウンロードの間隔、同時接続数を設定できます。"
+msgstr "In :guilabel:`Speed` tab, you can configure the intervals of retrieving informations / downloading files from the server, and the number of simultaneous accesses."
+
+#: ../../usage/sshserver.rst:75
+msgid "通常は変更する必要はありません。"
+msgstr "Normally, you do not have to change them."
+
+#: ../../usage/sshserver.rst:78
+msgid "サーバーの編集・削除"
+msgstr "Edit / remove server"
+
+#: ../../usage/sshserver.rst:80
+msgid "各タブで設定した内容は、サーバーごとに保存されます。リストから既に保存されているサーバーを選択すると、その設定内容を編集できます。"
+msgstr "Settings in the tabs are saved server by server. Select previously saved server from the list to edit the settings of it."
+
+#: ../../usage/sshserver.rst:82
+msgid "サーバーを削除するには、:guilabel:`SSH Configuration` の右側の |remove| ボタンをクリックしてください。"
+msgstr "To remove a server, click |remove| button on the right of :guilabel:`SSH Configuration` ."
+
 #: ../../usage/webbrowser.rst:5
 msgid "ウェブブラウザー"
 msgstr "Web Browser"
@@ -1430,3 +1794,8 @@ msgstr ""
 "file, the 3D model is displayed. Double click the model to open a new "
 "project view and start the analysis."
 
+#: ../../usage/webbrowser.rst:25
+msgid "ウェブブラウザーでダウンロードしたファイルは、エクスプローラーの :guilabel:`Downloads` で一覧表示できます。"
+msgstr ""
+"The files downloaded in web browser are listed in :guilabel:`Downloads` "
+"in explorer."
