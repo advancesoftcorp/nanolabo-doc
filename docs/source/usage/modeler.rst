@@ -63,16 +63,14 @@
 :guilabel:`Crystal` タブの :guilabel:`Conversion of Cell Type` の各 :guilabel:`Build` ボタンをクリックすると、変換が行われます。
 
 - Finding a Primitive Cell
-   基本単位胞を探索し、変換します。
-
 - Finding a Standard Cell
-   慣用単位胞へ変換します。
+   基本単位胞・慣用単位胞を自動的に決定し、相互に変換します。
 
    .. image:: /img/primitive_standard.svg
 
 - Hexagonal -> Orthorhombic
 - Orthorhombic -> Hexagonal
-   六方晶と直方晶（斜方晶）を相互に変換します。
+   六方晶・直方晶（斜方晶）を相互に変換します。
 
    .. image:: /img/hexa_ortho.svg
 
@@ -123,7 +121,7 @@
 分子充填
 ================
 
-モデルの空いている領域に、分子を充填します。
+モデルの空いている領域に、小分子を充填します。
 
 分子を充填できる空間を持ったモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Packing Molecules` にある :guilabel:`Start Modeling` をクリックしてください。分子充填を行う画面が表示されます。
 
@@ -151,9 +149,13 @@
 
 スラブモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Molecular Adsorption onto Slab` にある :guilabel:`Start Modeling` をクリックしてください。分子吸着を行う画面が表示されます。
 
-:guilabel:`Adsorbate` （吸着する分子）、 :guilabel:`Site` （吸着サイトの種類）、 :guilabel:`Fraction of Occupied Sites` （分子を吸着するサイトの割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、分子を吸着した構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。
+:guilabel:`Adsorbate Molecule / Atom` （吸着する分子）、 :guilabel:`Adsorption Site` （吸着サイトの種類）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。
 
-また、 :guilabel:`Fraction of Occupied Sites` の代わりに :guilabel:`Single Site` を選択すると、単一の吸着サイトを選択して分子を吸着させることができます。サイトには通し番号が振られていますので、番号を入力するか、 |increment| |decrement| ボタンをクリックして指定してください。
+吸着の方法には、:guilabel:`Adsorption to Single Site` （選択した単一サイトへの吸着）と、 :guilabel:`Rate of Occupied Sites` （サイトの占有率を指定した吸着）があります。使用したい方を選択してください。
+
+:guilabel:`Adsorption to Single Site` では、a軸・b軸方向の位置をスライダーで変更するか、サイトに振られた通し番号を使って、サイトを指定してください。
+
+:guilabel:`Rate of Occupied Sites` では、占有率を入力して :guilabel:`Build` をクリックすると、分子を吸着した構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。
 
 左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
 

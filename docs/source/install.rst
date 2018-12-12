@@ -10,4 +10,5 @@
    install/requirement
    install/windows
    install/linux
+   install/mac
    install/purchase
