@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-14 21:34+0900\n"
+"POT-Creation-Date: 2018-12-14 21:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,14 +44,14 @@ msgstr ""
 
 #: ../../install/linux.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.1.0) <https://github.com/advancesoftcorp/nanolabo-"
-"doc/releases/download/v1.0/install_nanolabo_linux.bin>`_"
+"`Advance/NanoLabo (ver.1.1) <https://github.com/advancesoftcorp/nanolabo-"
+"doc/releases/download/v1.1/install_nanolabo_linux.bin>`_"
 msgstr ""
 
 #: ../../install/linux.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.1.0) <https://github.com/advancesoftcorp"
-"/nanolabo-doc/releases/download/v1.0/install_nanolabo_tool_linux.bin>`_"
+"`Advance/NanoLabo Tool (ver.1.1) <https://github.com/advancesoftcorp"
+"/nanolabo-doc/releases/download/v1.1/install_nanolabo_tool_linux.bin>`_"
 msgstr ""
 
 #: ../../install/linux.rst:18
@@ -326,8 +326,8 @@ msgstr ""
 #: ../../install/mac.rst:73
 msgid "ソフトウェアを起動すると、ライセンス登録を案内する画面が表示されます。"
 msgstr ""
-"A window to guide the "
-"license registration appears when you launch the software."
+"A window to guide the license registration appears when you launch the "
+"software."
 
 #: ../../install/mac.rst:75
 msgid ""
@@ -621,14 +621,14 @@ msgstr "How to Install (Windows)"
 
 #: ../../install/windows.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.1.0) <https://github.com/advancesoftcorp/nanolabo-"
-"doc/releases/download/v1.0/install_nanolabo_windows.exe>`_"
+"`Advance/NanoLabo (ver.1.1) <https://github.com/advancesoftcorp/nanolabo-"
+"doc/releases/download/v1.1/install_nanolabo_windows.exe>`_"
 msgstr ""
 
 #: ../../install/windows.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.1.0) <https://github.com/advancesoftcorp"
-"/nanolabo-doc/releases/download/v1.0/install_nanolabo_tool_windows.exe>`_"
+"`Advance/NanoLabo Tool (ver.1.1) <https://github.com/advancesoftcorp"
+"/nanolabo-doc/releases/download/v1.1/install_nanolabo_tool_windows.exe>`_"
 msgstr ""
 
 #: ../../install/windows.rst:18

@@ -11,9 +11,9 @@
 
 本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。
 
- `Advance/NanoLabo (ver.1.0) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.0/install_nanolabo_linux.bin>`_
+ `Advance/NanoLabo (ver.1.1) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.1/install_nanolabo_linux.bin>`_
 
- `Advance/NanoLabo Tool (ver.1.0) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.0/install_nanolabo_tool_linux.bin>`_
+ `Advance/NanoLabo Tool (ver.1.1) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.1/install_nanolabo_tool_linux.bin>`_
 
 インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先ディレクトリにコピーされます。
 
