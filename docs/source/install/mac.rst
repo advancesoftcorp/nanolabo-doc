@@ -38,15 +38,6 @@
    :width: 300 px
    :align: center
 
-.. _licensem:
-
-ライセンスの設定
-=============================
-
-ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。 :file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` ディレクトリにコピーしてください。
-
-Finderのメニューバーから :menuselection:`移動 --> フォルダへ移動...` をクリックし、上記パスを入力していただくと簡単です。
-
 .. _launchm:
 
 起動
@@ -56,7 +47,7 @@ Finderのメニューバーから :menuselection:`移動 --> フォルダへ移�
 
 初回のみ、起動の際に許可が必要となります。以下の手順で起動してください。
 
-#.  :kbd:`control` を押しながらNanoLaboを開きます（開くをクリックするまで :kbd:`control` を離さないでください）。
+#.  :kbd:`control` キーを押しながらNanoLaboを開きます（開くをクリックするまで :kbd:`control` キーを離さないでください）。
 
     .. image:: /img/mac_open.png
        :width: 300 px
@@ -73,6 +64,17 @@ Finderのメニューバーから :menuselection:`移動 --> フォルダへ移�
     .. image:: /img/mac_confirm.png
        :width: 300 px
        :align: center
+
+.. _licensem:
+
+ライセンスの設定
+=============================
+
+ソフトウェアを起動すると、ライセンス登録を案内する画面が表示されます。
+
+ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。 :file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` ディレクトリにコピーしてください。
+
+Finderのメニューバーから :menuselection:`移動 --> フォルダへ移動...` をクリックし、上記パスを入力していただくと簡単です。
 
 .. _uninstallm:
 
