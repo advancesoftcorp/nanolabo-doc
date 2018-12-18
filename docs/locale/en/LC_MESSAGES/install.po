@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-14 21:38+0900\n"
+"POT-Creation-Date: 2018-12-18 20:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -206,10 +206,24 @@ msgstr ""
 
 #: ../../install/linux.rst:117 ../../install/mac.rst:82
 #: ../../install/windows.rst:68
+msgid "アップグレード"
+msgstr "Upgrade"
+
+#: ../../install/linux.rst:119 ../../install/mac.rst:84
+#: ../../install/windows.rst:70
+msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
+msgstr "When upgrading from trial version to production version, there is no need of additional installation. Just replace the license file."
+
+#: ../../install/linux.rst:121 ../../install/windows.rst:72
+msgid "新しいバージョンにアップデートされる場合、上書きインストールを行うことも可能ではありますが、あらかじめ以前のバージョンをアンインストールするか、インストール先を変更していただくことをお勧めします。"
+msgstr "When updating to newer version, although overwrite installation is possible, it is recommended to uninstall previous version in advance or install to another destination."
+
+#: ../../install/linux.rst:126 ../../install/mac.rst:91
+#: ../../install/windows.rst:77
 msgid "アンインストール"
 msgstr "Uninstallation"
 
-#: ../../install/linux.rst:119
+#: ../../install/linux.rst:128
 msgid ""
 "端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
 ":file:`Change NanoLabo Tool Installation` を起動します。"
@@ -217,24 +231,24 @@ msgstr ""
 "On a terminal, run :file:`Change NanoLabo Tool Installation` located at "
 ":file:`_NanoLabo_Tool_installation` directory in the install destination."
 
-#: ../../install/linux.rst:125 ../../install/windows.rst:76
+#: ../../install/linux.rst:134 ../../install/windows.rst:85
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow displayed instructions to uninstall."
 
-#: ../../install/linux.rst:127 ../../install/windows.rst:78
+#: ../../install/linux.rst:136 ../../install/windows.rst:87
 msgid "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。"
 msgstr ""
 "Once the uninstallation of Advance/NanoLabo Tool is finished, uninstall "
 "Advance/NanoLabo as well."
 
-#: ../../install/linux.rst:131 ../../install/windows.rst:82
+#: ../../install/linux.rst:140 ../../install/windows.rst:91
 msgid "アンインストールの際に、インストール先のライセンスファイルは削除されずに残ります。また、インストールログファイルが残る場合があります。その際はお手数ですが手動で削除してください。"
 msgstr ""
 "License file in the install destination is not removed during the "
 "uninstallation. Also, installation log file may remain. In that case "
 "please remove them manually."
 
-#: ../../install/linux.rst:135
+#: ../../install/linux.rst:144
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` "
 "）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"
@@ -348,11 +362,18 @@ msgstr ""
 "The easy way is to click :menuselection:`Go --> Go to Folder...` in "
 "Finder's menu bar and enter the path above."
 
-#: ../../install/mac.rst:84
+#: ../../install/mac.rst:86
+msgid ""
+"新しいバージョンにアップデートされる場合は、インストール時と同じ操作を行い、確認が表示されたら「置き換える」を選択してください。アップデート後、ライセンスファイルを再度"
+" :file:`license` ディレクトリにコピーしてください。"
+msgstr "When updating to newer version, follow the same steps as installation, and choose :guilabel:`Replace` when confirmation is displayed. "
+"After that, copy the license file to :file:`license` directory again."
+
+#: ../../install/mac.rst:93
 msgid "アプリケーションディレクトリのNanoLaboを削除してください。"
 msgstr "Remove NanoLabo in the Application directory."
 
-#: ../../install/mac.rst:88
+#: ../../install/mac.rst:97
 msgid ""
 "計算エンジンの実行ファイル等は :file:`/Library/Application Support/AdvanceSoft` "
 "以下に保存されていますので、必要に応じて削除してください。"
@@ -361,7 +382,7 @@ msgstr ""
 ":file:`/Library/Application Support/AdvanceSoft` . Please remove them if "
 "you'd like to."
 
-#: ../../install/mac.rst:92
+#: ../../install/mac.rst:101
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは :file:`ホームディレクトリ/.nanolabo` "
 "に保存されていますので、必要に応じて削除してください。"
@@ -669,11 +690,11 @@ msgstr ""
 "To directly launch the software, move to the :file:`bin` folder in the "
 "install destination, and then run :file:`NanoLabo.exe` ."
 
-#: ../../install/windows.rst:70
+#: ../../install/windows.rst:79
 msgid "次のいずれかの方法でアンインストーラーを起動してください。"
 msgstr "Use one of the following procedures to run the uninstaller."
 
-#: ../../install/windows.rst:72
+#: ../../install/windows.rst:81
 msgid ""
 "スタートボタンを右クリックし、「アプリと機能」を開きます。リストの中にあるAdvance/NanoLabo "
 "Toolをクリックし、アンインストールボタンをクリックします。"
@@ -681,7 +702,7 @@ msgstr ""
 "Right click Start button and open \"Apps and Features\" . Click "
 "Advance/NanoLabo Tool in the list and then click Uninstall button."
 
-#: ../../install/windows.rst:73
+#: ../../install/windows.rst:82
 msgid ""
 "スタートメニューから「Windows システム ツール」内の「コントロール "
 "パネル」を開きます。「プログラムのアンインストール」（アイコン表示の場合は「プログラムと機能」）を開き、リストの中にあるAdvance/NanoLabo"
@@ -691,7 +712,7 @@ msgstr ""
 "\"Uninstall a program\" (or \"Programs and Features\" in case of icons "
 "view) and double click Advance/NanoLabo Tool in the list."
 
-#: ../../install/windows.rst:74
+#: ../../install/windows.rst:83
 msgid ""
 "インストール先の :file:`_NanoLabo_Tool_installation` フォルダーにある :file:`Change "
 "NanoLabo Tool Installation.exe` を起動します。"
@@ -699,7 +720,7 @@ msgstr ""
 "Run :file:`Change NanoLabo Tool Installation.exe` in "
 ":file:`_NanoLabo_Tool_installation` in the install destination."
 
-#: ../../install/windows.rst:86
+#: ../../install/windows.rst:95
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\.nanolabo` "
