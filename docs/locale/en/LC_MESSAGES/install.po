@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-18 20:13+0900\n"
+"POT-Creation-Date: 2018-12-19 01:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -212,11 +212,16 @@ msgstr "Upgrade"
 #: ../../install/linux.rst:119 ../../install/mac.rst:84
 #: ../../install/windows.rst:70
 msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
-msgstr "When upgrading from trial version to production version, there is no need of additional installation. Just replace the license file."
+msgstr ""
+"When upgrading from trial version to production version, there is no need"
+" of additional installation. Just replace the license file."
 
 #: ../../install/linux.rst:121 ../../install/windows.rst:72
 msgid "新しいバージョンにアップデートされる場合、上書きインストールを行うことも可能ではありますが、あらかじめ以前のバージョンをアンインストールするか、インストール先を変更していただくことをお勧めします。"
-msgstr "When updating to newer version, although overwrite installation is possible, it is recommended to uninstall previous version in advance or install to another destination."
+msgstr ""
+"When updating to newer version, although overwrite installation is "
+"possible, it is recommended to uninstall previous version in advance or "
+"install to another destination."
 
 #: ../../install/linux.rst:126 ../../install/mac.rst:91
 #: ../../install/windows.rst:77
@@ -275,13 +280,13 @@ msgstr ""
 #: ../../install/mac.rst:14
 msgid ""
 "`Advance/NanoLabo (ver.1.1) <https://github.com/advancesoftcorp/nanolabo-"
-"doc/releases/download/v1.1/nanolabo.dmg>`_"
+"doc/releases/download/v1.1/install_nanolabo_mac.dmg>`_"
 msgstr ""
 
 #: ../../install/mac.rst:16
 msgid ""
 "`Advance/NanoLabo Tool (ver.1.1) <https://github.com/advancesoftcorp"
-"/nanolabo-doc/releases/download/v1.1/nanolabo_tool.dmg>`_"
+"/nanolabo-doc/releases/download/v1.1/install_nanolabo_tool_mac.dmg>`_"
 msgstr ""
 
 #: ../../install/mac.rst:23
@@ -366,8 +371,10 @@ msgstr ""
 msgid ""
 "新しいバージョンにアップデートされる場合は、インストール時と同じ操作を行い、確認が表示されたら「置き換える」を選択してください。アップデート後、ライセンスファイルを再度"
 " :file:`license` ディレクトリにコピーしてください。"
-msgstr "When updating to newer version, follow the same steps as installation, and choose :guilabel:`Replace` when confirmation is displayed. "
-"After that, copy the license file to :file:`license` directory again."
+msgstr ""
+"When updating to newer version, follow the same steps as installation, "
+"and choose :guilabel:`Replace` when confirmation is displayed. After "
+"that, copy the license file to :file:`license` directory again."
 
 #: ../../install/mac.rst:93
 msgid "アプリケーションディレクトリのNanoLaboを削除してください。"
@@ -730,14 +737,3 @@ msgstr ""
 "location other than the install destination ( "
 ":file:`C:\\\\Users\\\\username\\\\.nanolabo` ) and are not removed during"
 " the uninstallation. Please remove them manually if you'd like to."
-
-#~ msgid ""
-#~ "ライセンス登録後、ライセンスファイル( :file:`nanolabo.lic` )をお送りします。インストール先の"
-#~ " :file:`license` フォルダーにコピーしてください。"
-#~ msgstr ""
-#~ "After the license registration, we will"
-#~ " send you a license file ( "
-#~ ":file:`nanolabo.lic` ). Copy it to "
-#~ ":file:`license` folder in the install "
-#~ "destination."
-

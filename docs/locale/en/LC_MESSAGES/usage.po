@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 16:41+0900\n"
+"POT-Creation-Date: 2018-12-19 16:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,8 +126,9 @@ msgid ""
 " atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to change. Select multiple atoms by "
-":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target atom(s) is now displayed in wire "
-"frame. Click :guilabel:`Rename selected atoms` from the menu."
+":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target "
+"atom(s) is now displayed in wire frame. Click :guilabel:`Rename selected "
+"atoms` from the menu."
 
 #: ../../usage/atomsviewer.rst:53
 msgid "周期律表が表示されますので、元素を選択してください。"
@@ -148,8 +149,9 @@ msgid ""
 " atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to remove. Select multiple atoms by "
-":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target atom(s) is now displayed in wire "
-"frame. Click :guilabel:`Delete selected atoms` from the menu."
+":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target "
+"atom(s) is now displayed in wire frame. Click :guilabel:`Delete selected "
+"atoms` from the menu."
 
 #: ../../usage/atomsviewer.rst:62
 msgid "確認が表示されますので、 :guilabel:`OK` をクリックすると、原子が削除されます。"
@@ -166,8 +168,9 @@ msgid ""
 "atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to move. Select multiple atoms by "
-":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target atom(s) is now displayed in wire "
-"frame. Click :guilabel:`Move selected atoms` from the menu."
+":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target "
+"atom(s) is now displayed in wire frame. Click :guilabel:`Move selected "
+"atoms` from the menu."
 
 #: ../../usage/atomsviewer.rst:70
 msgid "緑色の平面と、黒色の法線が表示されます。ドラッグ（または矢印キー）で平面を回転させます。選択した原子をドラッグすると、平面に沿って移動させることができます。"
@@ -761,22 +764,26 @@ msgstr ""
 " button to set the default value."
 
 #: ../../usage/inputeditor.rst:13
+msgid "ファイルを設定する項目で、テキストファイルアイコン |textviewer| があるものは、アイコンをクリックするとファイルの内容が表示されます。"
+msgstr "Some items to set file have text file icon |textviewer| . Click the icon to display the content of the file."
+
+#: ../../usage/inputeditor.rst:15
 msgid "折り畳まれて表示されていない項目（右三角アイコン |collapse| ）は、クリックして展開することで表示できます。"
 msgstr ""
 "Some of the setting items are collapsed and not visible. They can be "
 "expanded by clicking the right-pointing triangle icon |collapse| ."
 
-#: ../../usage/inputeditor.rst:18
+#: ../../usage/inputeditor.rst:21
 msgid "いくつかの設定画面については補足説明がありますので、以下のリンクよりご覧ください。"
 msgstr ""
 "There are supplemental description for some setting views. See the links "
 "below."
 
-#: ../../usage/inputeditor.rst:29
+#: ../../usage/inputeditor.rst:32
 msgid "内蔵テキストエディタ―"
 msgstr "Built-in text editor"
 
-#: ../../usage/inputeditor.rst:31
+#: ../../usage/inputeditor.rst:34
 msgid ""
 "左下のメニュー |projectmenuicon| から :guilabel:`Input-file` "
 "を開くと、作成される入力ファイルの内容を内蔵テキストエディタ―で確認することができます。"
@@ -784,13 +791,13 @@ msgstr ""
 "Open :guilabel:`Input-file` from the menu on the lower left to check the "
 "input file to be created in text format."
 
-#: ../../usage/inputeditor.rst:33
+#: ../../usage/inputeditor.rst:36
 msgid "画面右側のパネルで変更した設定項目は、再読み込みボタン |reloadac| をクリックすることでテキストエディタ―側に反映されます。"
 msgstr ""
 "Click reload button |reloadac| to reflect the modified items on the right"
 " side panel in the text editor."
 
-#: ../../usage/inputeditor.rst:35
+#: ../../usage/inputeditor.rst:38
 msgid ""
 "また、テキストエディタ―で入力ファイルの内容を直接変更することもできます。変更した内容は、アップロードボタン |up| "
 "をクリックすることで画面右側のパネルに反映されます。"
@@ -799,7 +806,7 @@ msgstr ""
 "editor. Click upload button |up| to reflect the modified items in right "
 "side panel."
 
-#: ../../usage/inputeditor.rst:42
+#: ../../usage/inputeditor.rst:45
 msgid ""
 "テキストエディターの内容は、実際の入力ファイルを開いているわけではなく、設定項目から生成された一時的なものです。 "
 "アップロードボタンをクリックしてから保存をすることで、実際の入力ファイルに反映されます。 "
@@ -810,6 +817,35 @@ msgstr ""
 " button then save the project to reflect the text in the actual input "
 "file. If you do not click the upload button, the text will not be "
 "reflected in the actual input file even if you save the project."
+
+#: ../../usage/inputeditor.rst:52
+msgid "原子の固定・可動設定"
+msgstr ""
+
+#: ../../usage/inputeditor.rst:54
+msgid "構造最適化や分子動力学計算を行う際に、指定した原子の座標を固定して計算を行うための設定を行います。"
+msgstr ""
+
+#: ../../usage/inputeditor.rst:56
+#, fuzzy
+msgid ""
+"画面左側のビューワーで、固定したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ "
+":kbd:`Ctrl` + 右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから "
+":guilabel:`Let selected atoms be FIXED` "
+"をクリックします。固定された原子を可動に戻したい場合は、同様にメニューから :guilabel:`Let selected atoms be "
+"MOBILE` をクリックします。"
+msgstr ""
+"Right click the atom you'd like to move. Select multiple atoms by "
+":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target "
+"atom(s) is now displayed in wire frame. Click :guilabel:`Move selected "
+"atoms` from the menu."
+
+#: ../../usage/inputeditor.rst:58
+msgid ""
+"固定・可動の設定を確認するには、右下のメニュー |editormenuicon| から :guilabel:`Geometry` を開き、 "
+":guilabel:`Atoms` 内の :guilabel:`Atomic Configuration` "
+"を見てください。固定された原子の座標は青文字で表示されます。また、原子の行の右クリックメニューから、XYZの各方向ごとに固定・可動を設定できます。"
+msgstr ""
 
 #: ../../usage/inputeditorlammps.rst:5
 msgid "入力ファイルエディター（LAMMPS固有の設定）"
@@ -1002,7 +1038,9 @@ msgstr ""
 
 #: ../../usage/modeler.rst:9
 msgid "画面右側のパネルから、各モデリング機能を使用します。複数の機能を続けて使うことも可能です。"
-msgstr "Modeling functions can be used from the right side panel. You can use multiple functions one after another."
+msgstr ""
+"Modeling functions can be used from the right side panel. You can use "
+"multiple functions one after another."
 
 #: ../../usage/modeler.rst:11
 msgid ""
@@ -1552,29 +1590,39 @@ msgstr ""
 "Click an item you'd like to see to open the result view. Click back "
 "button |back| on the lower left to go back to the list."
 
-#: ../../usage/result.rst:18
+#: ../../usage/result.rst:20
 msgid "2Dプロット"
 msgstr "2D plot"
 
-#: ../../usage/result.rst:20
+#: ../../usage/result.rst:22
 msgid ""
-"時系列データや状態密度・バンド構造は2Dプロットで表示します。画面右側のパネルでプロットの体裁を調整します。計算実行中の場合、 "
-":guilabel:`Reload` をクリックすると出力ファイルを読み込んで表示を更新します。"
+"時系列データや状態密度・バンド構造は2Dプロットで表示します。画面右側のパネルでプロットの体裁を調整します。 :guilabel:`Data "
+"Series` でデータ系列ごとに表示・非表示の設定、体裁の調整が可能です。"
 msgstr ""
 "Time series data, density of states or band structure are shown in 2D "
-"plot. Tweak the plot appearance using the right side panel. In case the "
+"plot. Tweak the plot appearance using the right side panel. On :guilabel:`Data "
+"Series` , you can choose whether to show each data series, and tweak the appearance."
+
+#: ../../usage/result.rst:24
+msgid "計算実行中の場合、 :guilabel:`Reload` をクリックすると出力ファイルを読み込んで表示を更新します。"
+msgstr ""
+"In case the "
 "calculation is running, click :guilabel:`Reload` to read the output file "
 "and update the display."
 
-#: ../../usage/result.rst:22
-msgid ":guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。"
-msgstr "Click :guilabel:`Screen-shot` to save the plot as an image file."
+#: ../../usage/result.rst:26
+msgid ""
+":guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。また、 :guilabel:`Export as"
+" CSV file` をクリックすると表示しているデータをCSVファイルとして保存します。"
+msgstr ""
+"Click :guilabel:`Screen-shot` to save the plot as an image file. "
+"Click :guilabel:`Export as CSV file` to save the displayed data as a CSV file."
 
-#: ../../usage/result.rst:33
+#: ../../usage/result.rst:37
 msgid "動画"
 msgstr "Movie"
 
-#: ../../usage/result.rst:35
+#: ../../usage/result.rst:39
 msgid ""
 ":guilabel:`.movie` をクリックすると、原子構造の変化を動画として表示します。計算実行中の場合、 "
 ":guilabel:`Reload` をクリックすると出力ファイルを読み込み、増えたフレーム（コマ）を追加します。"
@@ -1583,13 +1631,13 @@ msgstr ""
 "animation. In case the calculation is running, click :guilabel:`Reload` "
 "to read the output file and add updated frames."
 
-#: ../../usage/result.rst:37
+#: ../../usage/result.rst:41
 msgid "視点の操作は原子構造ビューワーと同様に行うことができます。再生中でも視点を変えられます。"
 msgstr ""
 "You can change the viewpoint in the same way as atomic structure viewer. "
 "You can change the viewpoint even during the playback."
 
-#: ../../usage/result.rst:39
+#: ../../usage/result.rst:43
 msgid ""
 ":guilabel:`Screen-shot` をクリックして表示中のフレーム（コマ）を画像ファイルに保存します。 :guilabel:`Save"
 " Movie` をクリックしてすべてのフレーム（コマ）を動画ファイルに保存します。"
@@ -1597,17 +1645,17 @@ msgstr ""
 "Click :guilabel:`Screen-shot` to save current frame as an image file. "
 "Click :guilabel:`Save Movie` to save the entire frames as a movie file."
 
-#: ../../usage/result.rst:41
+#: ../../usage/result.rst:45
 msgid ":guilabel:`New Project` をクリックすると、表示中の原子構造を使って新しく別のプロジェクトを作成し、解析を行うことができます。"
 msgstr ""
 "Click :guilabel:`New Project` to newly create another project using "
 "current atomic structure and start the analysis."
 
-#: ../../usage/result.rst:48
+#: ../../usage/result.rst:52
 msgid "テキスト"
 msgstr "Text"
 
-#: ../../usage/result.rst:50
+#: ../../usage/result.rst:54
 msgid ""
 ":guilabel:`IN` （入力ファイル）、 :guilabel:`LOG` （ログファイル）、 :guilabel:`ERR` "
 "（エラーログファイル）をクリックすると、テキストファイルの内容をそのまま表示します。ファイル内検索、ハイライト表示や抽出も可能です。"
@@ -1616,7 +1664,7 @@ msgstr ""
 ":guilabel:`ERR` (error log file) to show the content of the file. You can"
 " use in-file search, highlighting and extracting."
 
-#: ../../usage/result.rst:52
+#: ../../usage/result.rst:56
 msgid ":guilabel:`Text editor` をクリックすると、外部のテキストエディターでファイルを開きます。"
 msgstr "Click :guilabel:`Text editor` to open the file with external text editor."
 
@@ -1626,7 +1674,9 @@ msgstr "SSH server settings"
 
 #: ../../usage/sshserver.rst:7
 msgid "画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> SSH server` を開きます。"
-msgstr "Click the icon |mainmenuicon| on upper left of the screen, and open :menuselection:`Network --> SSH server` ."
+msgstr ""
+"Click the icon |mainmenuicon| on upper left of the screen, and open "
+":menuselection:`Network --> SSH server` ."
 
 #: ../../usage/sshserver.rst:15
 msgid "サーバーの追加"
@@ -1637,15 +1687,21 @@ msgid ""
 "サーバーを追加するには、:guilabel:`SSH Configuration` の右側の |add| "
 "ボタンをクリックし、分かりやすい名前を付けて :guilabel:`OK` "
 "をクリックします。リストに名前が表示されますので、以降このサーバーの設定をしていきます。設定内容は自動的に保存されます。"
-msgstr "To add a server, click |add| button on the right of :guilabel:`SSH Configuration` , enter identifiable name and click :guilabel:`OK` ."
-"The name appears in the list, and hereafter, you can set up this server. The settings are saved automatically."
+msgstr ""
+"To add a server, click |add| button on the right of :guilabel:`SSH "
+"Configuration` , enter identifiable name and click :guilabel:`OK` .The "
+"name appears in the list, and hereafter, you can set up this server. The "
+"settings are saved automatically."
 
 #: ../../usage/sshserver.rst:23
 msgid ""
 "リストにはあらかじめ `FOCUSスパコン <https://www.j-focus.or.jp/>`_ "
 "用の設定例「FOCUS」が入っています。FOCUSスパコンへのジョブ投入を行う場合は、リストで「FOCUS」を選択し、設定していただくと簡単です。"
-msgstr "There is an example configuration \"FOCUS\" for `FOCUS supercomputer <https://www.j-focus.or.jp/>`_ in the list."
-"If you are planning to post jobs to FOCUS supercomputer, the easyest way is to select \"FOCUS\" from the list and set it up."
+msgstr ""
+"There is an example configuration \"FOCUS\" for `FOCUS supercomputer "
+"<https://www.j-focus.or.jp/>`_ in the list.If you are planning to post "
+"jobs to FOCUS supercomputer, the easyest way is to select \"FOCUS\" from "
+"the list and set it up."
 
 #: ../../usage/sshserver.rst:26
 msgid "Serverタブの設定"
@@ -1653,7 +1709,9 @@ msgstr "Server settings"
 
 #: ../../usage/sshserver.rst:28
 msgid ":guilabel:`Server` タブで、サーバーへの接続に関する設定を行います。"
-msgstr "In :guilabel:`Server` tab, configure settings related to the connection to the server."
+msgstr ""
+"In :guilabel:`Server` tab, configure settings related to the connection "
+"to the server."
 
 #: ../../usage/sshserver.rst:32
 msgid "Port"
@@ -1669,11 +1727,16 @@ msgstr "Job Manager settings"
 
 #: ../../usage/sshserver.rst:35
 msgid "サーバーで使われているジョブ管理システムを選択します。PBS、SLURMに対応しています。Rawを選択すると、ジョブ管理システムを使わずに直接計算を実行します。"
-msgstr "Select job manager used on the server. PBS and SLURM are supported. Select Raw to execute the calculation directly without using job manager."
+msgstr ""
+"Select job manager used on the server. PBS and SLURM are supported. "
+"Select Raw to execute the calculation directly without using job manager."
 
 #: ../../usage/sshserver.rst:39
 msgid "通常、ジョブ管理システムを導入しているサーバーでは、計算の直接実行は想定されていません。サーバーの管理者に確認した上で設定してください。"
-msgstr "Normally, direct execution of calculation is not assumed on a server that is running job manager. Please check with the server administrator before setting."
+msgstr ""
+"Normally, direct execution of calculation is not assumed on a server that"
+" is running job manager. Please check with the server administrator "
+"before setting."
 
 #: ../../usage/sshserver.rst:42
 msgid "Work Directory"
@@ -1681,7 +1744,10 @@ msgstr ""
 
 #: ../../usage/sshserver.rst:42
 msgid "計算で使用するファイルの転送先（サーバー上のディレクトリパス）を入力します。書き込み権限のある場所を指定してください。通常、ユーザーのホームディレクトリを指定すれば問題ありません。"
-msgstr "Enter the transfer destination (directory path on the server) of the files used in the calculation. Specify the location with write permission. Normally, user home directory is suitable."
+msgstr ""
+"Enter the transfer destination (directory path on the server) of the "
+"files used in the calculation. Specify the location with write "
+"permission. Normally, user home directory is suitable."
 
 #: ../../usage/sshserver.rst:45
 msgid "Account"
@@ -1689,11 +1755,15 @@ msgstr ""
 
 #: ../../usage/sshserver.rst:45
 msgid "サーバーにSSH接続する際のアカウント情報を入力します。認証の方式により、秘密鍵ファイルまたはパスワードを設定してください。"
-msgstr "Enter informations used for ssh connection. Specify private key file or password, depending on the authentication method."
+msgstr ""
+"Enter informations used for ssh connection. Specify private key file or "
+"password, depending on the authentication method."
 
 #: ../../usage/sshserver.rst:47
 msgid "設定内容に問題がなければ、タブが白色になります。問題がある場合はその項目が赤色で表示されますので、確認してください。"
-msgstr "If settings are OK, the tab turns white. In case something is wrong, the item is displayed in red, so please check it."
+msgstr ""
+"If settings are OK, the tab turns white. In case something is wrong, the "
+"item is displayed in red, so please check it."
 
 #: ../../usage/sshserver.rst:50
 msgid "Jobタブの設定"
@@ -1701,7 +1771,9 @@ msgstr "Job settings"
 
 #: ../../usage/sshserver.rst:52
 msgid "次に、 :guilabel:`Job` タブでサーバーへのジョブ投入に関する設定を行います。"
-msgstr "Next, in :guilabel:`Job` tab, configure settings related to job posting to the server."
+msgstr ""
+"Next, in :guilabel:`Job` tab, configure settings related to job posting "
+"to the server."
 
 #: ../../usage/sshserver.rst:56
 msgid "Job Queue"
@@ -1711,8 +1783,9 @@ msgstr ""
 msgid ""
 "キューの名前のリストです。 |add| ボタンで追加、 |remove| ボタンで削除します。 "
 "ジョブ管理システムを使わずに実行する場合でも、適当な名前のキューを作成してください。"
-msgstr "List of the names of the queues. Click |add| ( |remove| ) to add (remove) item. "
-"Even if you do not use job manager, add a queue with some name."
+msgstr ""
+"List of the names of the queues. Click |add| ( |remove| ) to add (remove)"
+" item. Even if you do not use job manager, add a queue with some name."
 
 #: ../../usage/sshserver.rst:60
 msgid "Job Posting Command"
@@ -1724,11 +1797,16 @@ msgstr ""
 
 #: ../../usage/sshserver.rst:62
 msgid "キューごとに、ジョブ投入用のコマンドとジョブスクリプトを設定します。ジョブ管理システムに応じたデフォルトの内容がキュー追加時に設定されます。必要に応じて編集してください。"
-msgstr "Set the command to post a job and the job script for each queue. Default values tailored for the job manager are set when you add a queue. Edit them if you need."
+msgstr ""
+"Set the command to post a job and the job script for each queue. Default "
+"values tailored for the job manager are set when you add a queue. Edit "
+"them if you need."
 
 #: ../../usage/sshserver.rst:66
 msgid "実際に実行されるスクリプトの内容は、ジョブ投入時に表示されるウィンドウでご確認ください。"
-msgstr "The actual content of the script to be executed is shown when you post a job."
+msgstr ""
+"The actual content of the script to be executed is shown when you post a "
+"job."
 
 #: ../../usage/sshserver.rst:71
 msgid "Speedタブの設定"
@@ -1736,7 +1814,10 @@ msgstr "Speed settings"
 
 #: ../../usage/sshserver.rst:73
 msgid ":guilabel:`Speed` タブでは、サーバーからの情報取得・ファイルダウンロードの間隔、同時接続数を設定できます。"
-msgstr "In :guilabel:`Speed` tab, you can configure the intervals of retrieving informations / downloading files from the server, and the number of simultaneous accesses."
+msgstr ""
+"In :guilabel:`Speed` tab, you can configure the intervals of retrieving "
+"informations / downloading files from the server, and the number of "
+"simultaneous accesses."
 
 #: ../../usage/sshserver.rst:75
 msgid "通常は変更する必要はありません。"
@@ -1748,11 +1829,15 @@ msgstr "Edit / remove server"
 
 #: ../../usage/sshserver.rst:80
 msgid "各タブで設定した内容は、サーバーごとに保存されます。リストから既に保存されているサーバーを選択すると、その設定内容を編集できます。"
-msgstr "Settings in the tabs are saved server by server. Select previously saved server from the list to edit the settings of it."
+msgstr ""
+"Settings in the tabs are saved server by server. Select previously saved "
+"server from the list to edit the settings of it."
 
 #: ../../usage/sshserver.rst:82
 msgid "サーバーを削除するには、:guilabel:`SSH Configuration` の右側の |remove| ボタンをクリックしてください。"
-msgstr "To remove a server, click |remove| button on the right of :guilabel:`SSH Configuration` ."
+msgstr ""
+"To remove a server, click |remove| button on the right of :guilabel:`SSH "
+"Configuration` ."
 
 #: ../../usage/webbrowser.rst:5
 msgid "ウェブブラウザー"
@@ -1799,3 +1884,7 @@ msgid "ウェブブラウザーでダウンロードしたファイルは、エ�
 msgstr ""
 "The files downloaded in web browser are listed in :guilabel:`Downloads` "
 "in explorer."
+
+#~ msgid ":guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。"
+#~ msgstr "Click :guilabel:`Screen-shot` to save the plot as an image file."
+

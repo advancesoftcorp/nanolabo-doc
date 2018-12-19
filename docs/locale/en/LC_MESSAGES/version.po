@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-12 12:04+0900\n"
+"POT-Creation-Date: 2018-12-19 16:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,8 +59,8 @@ msgid "空間群の判定"
 msgstr "Detect space group"
 
 #: ../../version.rst:17
-msgid "外部テキストエディターでのログ表示"
-msgstr "Open logs with external text editor"
+msgid "外部テキストエディターでのファイル表示"
+msgstr "Open files with external text editor"
 
 #: ../../version.rst:19
 msgid "その他、バグ修正等"
