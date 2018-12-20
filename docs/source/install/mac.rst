@@ -20,13 +20,13 @@
 インストール
 =============================
 
-まず、Advance/NanoLaboのdmgファイル( :file:`nanolabo.dmg` )を開きます。マウントが終わるとディスクイメージの内容が表示されますので、NanoLaboアイコンをアプリケーションディレクトリへドラッグ＆ドロップしてください。
+まず、Advance/NanoLaboのdmgファイルを開きます。マウントが終わるとディスクイメージの内容が表示されますので、NanoLaboアイコンをアプリケーションディレクトリへドラッグ＆ドロップしてください。
 
 .. image:: /img/mac_dmg.png
    :width: 350 px
    :align: center
 
-次に、Advance/NanoLabo Toolのdmgファイル( :file:`nanolabo_tool.dmg` )を開き、同じようにAdvanceSoftディレクトリをApplication Supportへドラッグ＆ドロップします。
+次に、Advance/NanoLabo Toolのdmgファイルを開き、同じようにAdvanceSoftディレクトリをApplication Supportへドラッグ＆ドロップします。
 
 .. image:: /img/mac_dmg_tool.png
    :width: 350 px
