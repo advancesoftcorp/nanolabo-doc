@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-19 16:31+0900\n"
+"POT-Creation-Date: 2018-12-20 20:53+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -657,36 +657,44 @@ msgid "テキストエディターや各計算エンジンのパスを設定し�
 msgstr "Set the path of text editor / calculation engines."
 
 #: ../../usage/initial.rst:52
-msgid ":guilabel:`Network`"
+msgid ":guilabel:`Job Manager`"
 msgstr ""
 
 #: ../../usage/initial.rst:52
+msgid "（Linuxのみ）ローカル実行時に使用するジョブ管理システムを設定します。"
+msgstr "(Linux only) Set job manager used for local execution."
+
+#: ../../usage/initial.rst:54
+msgid ":guilabel:`Network`"
+msgstr ""
+
+#: ../../usage/initial.rst:54
 msgid "プロキシの設定、リモート実行用の\\ :doc:`SSHサーバーの設定<sshserver>`\\ を行います。"
 msgstr ""
 "Proxy settings, :doc:`SSH server settings<sshserver>` for remote "
 "execution."
 
-#: ../../usage/initial.rst:54
+#: ../../usage/initial.rst:56
 msgid ":guilabel:`Full screen`"
 msgstr ""
 
-#: ../../usage/initial.rst:54
+#: ../../usage/initial.rst:56
 msgid "フルスクリーンモードで表示します。 :kbd:`Esc` キーで戻ります。"
 msgstr "Switch to full screen mode. :kbd:`Esc` key to return."
 
-#: ../../usage/initial.rst:56
+#: ../../usage/initial.rst:58
 msgid ":guilabel:`Quit`"
 msgstr ""
 
-#: ../../usage/initial.rst:56
+#: ../../usage/initial.rst:58
 msgid "終了します。"
 msgstr "Quit this software."
 
-#: ../../usage/initial.rst:64
+#: ../../usage/initial.rst:66
 msgid "材料データベース検索 (Materials Finder)"
 msgstr "Searching materials databases (Materials Finder)"
 
-#: ../../usage/initial.rst:66
+#: ../../usage/initial.rst:68
 msgid ""
 "右上の入力欄に物質名や化学式を入力することで、外部の材料データベース（\\ `Materials Project "
 "<https://materialsproject.org/>`_\\ 、\\ `PubChem "
@@ -700,43 +708,43 @@ msgstr ""
 "files. Open a structure information file you'd like to analyze to "
 "directly switch to project view, where you can perform analysis."
 
-#: ../../usage/initial.rst:72
+#: ../../usage/initial.rst:74
 msgid "検索に使用できる表記"
 msgstr "Supported expressions for searching"
 
-#: ../../usage/initial.rst:74
+#: ../../usage/initial.rst:76
 msgid "元素のリスト（スペース区切り）"
 msgstr "List of elements (space separated)"
 
-#: ../../usage/initial.rst:74
+#: ../../usage/initial.rst:76
 msgid "Li Fe O"
 msgstr ""
 
-#: ../../usage/initial.rst:76
+#: ../../usage/initial.rst:78
 msgid "化学式"
 msgstr "Chemical formula"
 
-#: ../../usage/initial.rst:76
+#: ../../usage/initial.rst:78
 msgid "Fe2O3"
 msgstr ""
 
-#: ../../usage/initial.rst:78
+#: ../../usage/initial.rst:80
 msgid "`SMILES`_\\ 記法"
 msgstr "`SMILES`_"
 
-#: ../../usage/initial.rst:78
+#: ../../usage/initial.rst:80
 msgid "CN=C=O"
 msgstr ""
 
-#: ../../usage/initial.rst:80
+#: ../../usage/initial.rst:82
 msgid "物質名（英語）"
 msgstr "Substance name"
 
-#: ../../usage/initial.rst:80
+#: ../../usage/initial.rst:82
 msgid "methyl isocyanate"
 msgstr ""
 
-#: ../../usage/initial.rst:85
+#: ../../usage/initial.rst:87
 msgid "また、 :guilabel:`Materials Finder` と書かれた部分をクリックすることで、APIキーなどの詳細な設定を行います。"
 msgstr ""
 "In addition, click on the text saying :guilabel:`Materials Finder` to "
@@ -765,7 +773,9 @@ msgstr ""
 
 #: ../../usage/inputeditor.rst:13
 msgid "ファイルを設定する項目で、テキストファイルアイコン |textviewer| があるものは、アイコンをクリックするとファイルの内容が表示されます。"
-msgstr "Some items to set file have text file icon |textviewer| . Click the icon to display the content of the file."
+msgstr ""
+"Some items to set file have text file icon |textviewer| . Click the icon "
+"to display the content of the file."
 
 #: ../../usage/inputeditor.rst:15
 msgid "折り畳まれて表示されていない項目（右三角アイコン |collapse| ）は、クリックして展開することで表示できます。"
@@ -820,14 +830,13 @@ msgstr ""
 
 #: ../../usage/inputeditor.rst:52
 msgid "原子の固定・可動設定"
-msgstr ""
+msgstr "Let atoms fixed / mobile"
 
 #: ../../usage/inputeditor.rst:54
 msgid "構造最適化や分子動力学計算を行う際に、指定した原子の座標を固定して計算を行うための設定を行います。"
-msgstr ""
+msgstr "In structure optimization or molecular dynamics calculation, you can fix coordinates of specified atoms."
 
 #: ../../usage/inputeditor.rst:56
-#, fuzzy
 msgid ""
 "画面左側のビューワーで、固定したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ "
 ":kbd:`Ctrl` + 右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから "
@@ -835,17 +844,19 @@ msgid ""
 "をクリックします。固定された原子を可動に戻したい場合は、同様にメニューから :guilabel:`Let selected atoms be "
 "MOBILE` をクリックします。"
 msgstr ""
-"Right click the atom you'd like to move. Select multiple atoms by "
+"In the viewer on the left side, right click the atom you'd like to fix. Select multiple atoms by "
 ":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target "
-"atom(s) is now displayed in wire frame. Click :guilabel:`Move selected "
-"atoms` from the menu."
+"atom(s) is now displayed in wire frame. Click :guilabel:`Let selected atoms be FIXED` from the menu. "
+"To get fixed atoms mobile again, click :guilabel:`Let selected atoms be MOBILE` from the menu."
 
 #: ../../usage/inputeditor.rst:58
 msgid ""
 "固定・可動の設定を確認するには、右下のメニュー |editormenuicon| から :guilabel:`Geometry` を開き、 "
 ":guilabel:`Atoms` 内の :guilabel:`Atomic Configuration` "
 "を見てください。固定された原子の座標は青文字で表示されます。また、原子の行の右クリックメニューから、XYZの各方向ごとに固定・可動を設定できます。"
-msgstr ""
+msgstr "To review the fixed / mobile settings,  open :guilabel:`Geometry` from the lower right menu |editormenuicon|, and see :guilabel:`Atomic Configuration` "
+"in :guilabel:`Atoms` . Fixed coordinates of atoms are shown in blue letters. Here you can set fixed / mobile along X/Y/Z direction from the right click menu "
+"of the rows of atoms."
 
 #: ../../usage/inputeditorlammps.rst:5
 msgid "入力ファイルエディター（LAMMPS固有の設定）"
@@ -1316,12 +1327,11 @@ msgstr ""
 #: ../../usage/modeler.rst:130
 msgid ""
 "リストに分子を追加するには、 |add| "
-"ボタンをクリックします。最近使用したモデルがエクスプローラーで表示されますので、分子をダブルクリックして選択してください。この場で "
+"ボタンをクリックします。エクスプローラーが表示されますので、分子をダブルクリックして選択してください。この場で "
 ":guilabel:`Materials Finder` "
 "を使ってモデルを検索し、そのまま使うこともできます。リストに分子が追加されたら、充填する数を入力します。"
 msgstr ""
-"Click |add| button to add a molecule to the list. Recently used models "
-"are shown in explorer view, so double click the molecule you'd like to "
+"Click |add| button to add a molecule to the list. In the explorer view, double click the molecule you'd like to "
 "use. Here you can also use :guilabel:`Materials Finder` to search the "
 "molecule. After the molecule is added to the list, enter the number of it"
 " to be packed."
@@ -1600,23 +1610,23 @@ msgid ""
 "Series` でデータ系列ごとに表示・非表示の設定、体裁の調整が可能です。"
 msgstr ""
 "Time series data, density of states or band structure are shown in 2D "
-"plot. Tweak the plot appearance using the right side panel. On :guilabel:`Data "
-"Series` , you can choose whether to show each data series, and tweak the appearance."
+"plot. Tweak the plot appearance using the right side panel. On "
+":guilabel:`Data Series` , you can choose whether to show each data "
+"series, and tweak the appearance."
 
 #: ../../usage/result.rst:24
 msgid "計算実行中の場合、 :guilabel:`Reload` をクリックすると出力ファイルを読み込んで表示を更新します。"
 msgstr ""
-"In case the "
-"calculation is running, click :guilabel:`Reload` to read the output file "
-"and update the display."
+"In case the calculation is running, click :guilabel:`Reload` to read the "
+"output file and update the display."
 
 #: ../../usage/result.rst:26
 msgid ""
 ":guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。また、 :guilabel:`Export as"
 " CSV file` をクリックすると表示しているデータをCSVファイルとして保存します。"
 msgstr ""
-"Click :guilabel:`Screen-shot` to save the plot as an image file. "
-"Click :guilabel:`Export as CSV file` to save the displayed data as a CSV file."
+"Click :guilabel:`Screen-shot` to save the plot as an image file. Click "
+":guilabel:`Export as CSV file` to save the displayed data as a CSV file."
 
 #: ../../usage/result.rst:37
 msgid "動画"
@@ -1884,7 +1894,3 @@ msgid "ウェブブラウザーでダウンロードしたファイルは、エ�
 msgstr ""
 "The files downloaded in web browser are listed in :guilabel:`Downloads` "
 "in explorer."
-
-#~ msgid ":guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。"
-#~ msgstr "Click :guilabel:`Screen-shot` to save the plot as an image file."
-
