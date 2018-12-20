@@ -19,7 +19,7 @@
  .. toctree::
     :maxdepth: 1
 
-    SSHサーバーの設定<sshserver>  
+    sshserver
 
 - Queue Type
    （リモート実行時のみ）使用するキューを選択します。
