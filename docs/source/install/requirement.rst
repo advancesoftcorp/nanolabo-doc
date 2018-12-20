@@ -6,9 +6,9 @@
 
 OS
 
-* Windows 10
-* CentOS 7
-* macOS （10.12 Sierra以降）
+* Windows 10 (64 bit)
+* CentOS 7 (64 bit)
+* macOS 10.13 (64 bit)
 
 Java
 
