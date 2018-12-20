@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-19 16:31+0900\n"
+"POT-Creation-Date: 2018-12-20 12:35+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "バージョン情報"
 msgstr "Version Information"
 
-#: ../../version.rst:19
+#: ../../version.rst:20
 msgid "2018/12/21 バージョン1.1"
 msgstr "2018/12/21 Version 1.1"
 
@@ -43,7 +43,7 @@ msgid "有機分子の描画"
 msgstr "Drawing a molecule"
 
 #: ../../version.rst:13
-msgid "表面への小分子吸着モデル"
+msgid "表面への小分子吸着"
 msgstr "Molecular adsorption onto slab"
 
 #: ../../version.rst:14
@@ -62,15 +62,19 @@ msgstr "Detect space group"
 msgid "外部テキストエディターでのファイル表示"
 msgstr "Open files with external text editor"
 
-#: ../../version.rst:19
+#: ../../version.rst:18
+msgid "エクスプローラーの機能強化"
+msgstr "Enhancement of explorer functions"
+
+#: ../../version.rst:20
 msgid "その他、バグ修正等"
 msgstr "Bug fixes, etc."
 
-#: ../../version.rst:21
+#: ../../version.rst:22
 msgid "2018/08/01 バージョン1.0"
 msgstr "2018/08/01 Version 1.0"
 
-#: ../../version.rst:22
+#: ../../version.rst:23
 msgid "初回リリース"
 msgstr "Initial release"
 
