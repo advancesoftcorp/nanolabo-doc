@@ -110,6 +110,22 @@ Quantum ESPRESSOの計算実行
    <iframe src="https://www.youtube.com/embed/cKIgnmVCU9A?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
+フォノン計算
+
+ |yt10|
+ 
+.. |yt10| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/XUevJCIjCWE?rel=0" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+.. |yt10en| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/XUevJCIjCWE?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
+   </div>
+
 .. _modeling:
 
 モデル作成
@@ -145,6 +161,38 @@ Quantum ESPRESSOの計算実行
 
    <div class="youtube">
    <iframe src="https://www.youtube.com/embed/OZTcK_Utfqg?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+表面への小分子吸着
+
+ |yt11|
+
+.. |yt11| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/6S2HOSfLXkA?rel=0" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+.. |yt11en| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/6S2HOSfLXkA?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+溶媒分子充填
+
+ |yt12|
+
+.. |yt12| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/l-kEUKpZtrE?rel=0" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+.. |yt12en| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/l-kEUKpZtrE?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
 .. _designer:

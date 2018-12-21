@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-29 16:32+0900\n"
+"POT-Creation-Date: 2018-12-21 14:57+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,31 +82,55 @@ msgstr "Molecular dynamics calculation"
 msgid "|yt06|"
 msgstr "|yt06en|"
 
-#: ../../demo.rst:116
+#: ../../demo.rst:113
+msgid "フォノン計算"
+msgstr ""
+
+#: ../../demo.rst:115
+msgid "|yt10|"
+msgstr "|yt10en|"
+
+#: ../../demo.rst:132
 msgid "モデル作成"
 msgstr "Modeler"
 
-#: ../../demo.rst:118
+#: ../../demo.rst:134
 msgid "超格子"
 msgstr "Super cell"
 
-#: ../../demo.rst:120
+#: ../../demo.rst:136
 msgid "|yt07|"
 msgstr "|yt07en|"
 
-#: ../../demo.rst:134
+#: ../../demo.rst:150
 msgid "スラブモデル"
 msgstr "Slab model"
 
-#: ../../demo.rst:136
+#: ../../demo.rst:152
 msgid "|yt08|"
 msgstr "|yt08en|"
 
-#: ../../demo.rst:153
+#: ../../demo.rst:166
+msgid "表面への小分子吸着"
+msgstr ""
+
+#: ../../demo.rst:168
+msgid "|yt11|"
+msgstr "|yt11en|"
+
+#: ../../demo.rst:182
+msgid "溶媒分子充填"
+msgstr ""
+
+#: ../../demo.rst:184
+msgid "|yt12|"
+msgstr "|yt12en|"
+
+#: ../../demo.rst:201
 msgid "表示デザイン変更"
 msgstr "Changing display design"
 
-#: ../../demo.rst:155
+#: ../../demo.rst:203
 msgid "|yt09|"
 msgstr "|yt09en|"
 
