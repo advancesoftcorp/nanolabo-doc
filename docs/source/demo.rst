@@ -41,7 +41,7 @@ Quantum ESPRESSOのインプットファイル作成
    <iframe src="https://www.youtube.com/embed/4m8FnGPOhP8?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-.. _calculation:
+.. _calculationqe:
 
 Quantum ESPRESSOの計算実行
 =========================================
@@ -124,6 +124,25 @@ Quantum ESPRESSOの計算実行
 
    <div class="youtube">
    <iframe src="https://www.youtube.com/embed/XUevJCIjCWE?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+.. _calculationlp:
+
+LAMMPSの計算実行
+=========================================
+
+ |yt13|
+ 
+.. |yt13| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/PgEZ-4PLQ7I?rel=0" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+.. |yt13en| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/PgEZ-4PLQ7I?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
 .. _modeling:

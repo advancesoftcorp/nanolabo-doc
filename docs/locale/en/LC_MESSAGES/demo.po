@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 14:57+0900\n"
+"POT-Creation-Date: 2018-12-26 11:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,53 +84,61 @@ msgstr "|yt06en|"
 
 #: ../../demo.rst:113
 msgid "フォノン計算"
-msgstr ""
+msgstr "Phonon calculation"
 
 #: ../../demo.rst:115
 msgid "|yt10|"
 msgstr "|yt10en|"
 
 #: ../../demo.rst:132
+msgid "LAMMPSの計算実行"
+msgstr "Running LAMMPS calculation"
+
+#: ../../demo.rst:134
+msgid "|yt13|"
+msgstr "|yt13en|"
+
+#: ../../demo.rst:151
 msgid "モデル作成"
 msgstr "Modeler"
 
-#: ../../demo.rst:134
+#: ../../demo.rst:153
 msgid "超格子"
 msgstr "Super cell"
 
-#: ../../demo.rst:136
+#: ../../demo.rst:155
 msgid "|yt07|"
 msgstr "|yt07en|"
 
-#: ../../demo.rst:150
+#: ../../demo.rst:169
 msgid "スラブモデル"
 msgstr "Slab model"
 
-#: ../../demo.rst:152
+#: ../../demo.rst:171
 msgid "|yt08|"
 msgstr "|yt08en|"
 
-#: ../../demo.rst:166
+#: ../../demo.rst:185
 msgid "表面への小分子吸着"
-msgstr ""
+msgstr "Molecular adsorption onto slab"
 
-#: ../../demo.rst:168
+#: ../../demo.rst:187
 msgid "|yt11|"
 msgstr "|yt11en|"
 
-#: ../../demo.rst:182
+#: ../../demo.rst:201
 msgid "溶媒分子充填"
-msgstr ""
+msgstr "Packing molecules"
 
-#: ../../demo.rst:184
+#: ../../demo.rst:203
 msgid "|yt12|"
 msgstr "|yt12en|"
 
-#: ../../demo.rst:201
+#: ../../demo.rst:220
 msgid "表示デザイン変更"
 msgstr "Changing display design"
 
-#: ../../demo.rst:203
+#: ../../demo.rst:222
 msgid "|yt09|"
 msgstr "|yt09en|"
 
