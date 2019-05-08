@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-18 12:20+0900\n"
+"POT-Creation-Date: 2019-05-08 21:06+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,9 +44,9 @@ msgstr ""
 
 #: ../../install/linux.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.1.1.1) <https://github.com/advancesoftcorp"
+"`Advance/NanoLabo (ver.1.1.2) <https://github.com/advancesoftcorp"
 "/nanolabo-"
-"doc/releases/download/v1.1.1/install_nanolabo_linux_v1.1.1.bin>`_"
+"doc/releases/download/v1.1.2/install_nanolabo_linux_v1.1.2.bin>`_"
 msgstr ""
 
 #: ../../install/linux.rst:16
@@ -281,8 +281,8 @@ msgstr ""
 
 #: ../../install/mac.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.1.1.1) <https://github.com/advancesoftcorp"
-"/nanolabo-doc/releases/download/v1.1.1/install_nanolabo_mac_v1.1.1.dmg>`_"
+"`Advance/NanoLabo (ver.1.1.2) <https://github.com/advancesoftcorp"
+"/nanolabo-doc/releases/download/v1.1.2/install_nanolabo_mac_v1.1.2.dmg>`_"
 msgstr ""
 
 #: ../../install/mac.rst:16
@@ -705,9 +705,9 @@ msgstr "How to Install (Windows)"
 
 #: ../../install/windows.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.1.1.1) <https://github.com/advancesoftcorp"
+"`Advance/NanoLabo (ver.1.1.2) <https://github.com/advancesoftcorp"
 "/nanolabo-"
-"doc/releases/download/v1.1.1/install_nanolabo_windows_v1.1.1.exe>`_"
+"doc/releases/download/v1.1.2/install_nanolabo_windows_v1.1.2.exe>`_"
 msgstr ""
 
 #: ../../install/windows.rst:16
@@ -795,3 +795,22 @@ msgstr ""
 "location other than the install destination ( "
 ":file:`C:\\\\Users\\\\username\\\\.nanolabo` ) and are not removed during"
 " the uninstallation. Please remove them manually if you'd like to."
+
+#~ msgid ""
+#~ "`Advance/NanoLabo (ver.1.1.1) "
+#~ "<https://github.com/advancesoftcorp/nanolabo-"
+#~ "doc/releases/download/v1.1.1/install_nanolabo_linux_v1.1.1.bin>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Advance/NanoLabo (ver.1.1.1) "
+#~ "<https://github.com/advancesoftcorp/nanolabo-"
+#~ "doc/releases/download/v1.1.1/install_nanolabo_mac_v1.1.1.dmg>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Advance/NanoLabo (ver.1.1.1) "
+#~ "<https://github.com/advancesoftcorp/nanolabo-"
+#~ "doc/releases/download/v1.1.1/install_nanolabo_windows_v1.1.1.exe>`_"
+#~ msgstr ""
+
