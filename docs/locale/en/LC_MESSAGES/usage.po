@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-20 20:53+0900\n"
+"POT-Creation-Date: 2019-05-08 18:49+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 msgid "視点の操作"
 msgstr "Viewpoint manipulation"
 
-#: ../../usage/atomsviewer.rst:18
+#: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:92
 msgid "操作"
 msgstr "Operation"
 
@@ -120,15 +120,8 @@ msgid "原子の変更"
 msgstr "Changing atom"
 
 #: ../../usage/atomsviewer.rst:52
-msgid ""
-"変更したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ :kbd:`Ctrl` + "
-"右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Rename selected"
-" atoms` をクリックします。"
-msgstr ""
-"Right click the atom you'd like to change. Select multiple atoms by "
-":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target "
-"atom(s) is now displayed in wire frame. Click :guilabel:`Rename selected "
-"atoms` from the menu."
+msgid "変更したい原子を右クリックし、メニューから :guilabel:`Rename selected atoms` をクリックします。"
+msgstr "Right click the atom you'd like to change, and then click :guilabel:`Rename selected atoms` from the menu."
 
 #: ../../usage/atomsviewer.rst:53
 msgid "周期律表が表示されますので、元素を選択してください。"
@@ -143,15 +136,8 @@ msgid "原子の削除"
 msgstr "Deleting atom"
 
 #: ../../usage/atomsviewer.rst:61
-msgid ""
-"削除したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ :kbd:`Ctrl` + "
-"右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Delete selected"
-" atoms` をクリックします。"
-msgstr ""
-"Right click the atom you'd like to remove. Select multiple atoms by "
-":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target "
-"atom(s) is now displayed in wire frame. Click :guilabel:`Delete selected "
-"atoms` from the menu."
+msgid "削除したい原子を右クリックし、メニューから :guilabel:`Delete selected atoms` をクリックします。"
+msgstr "Right click the atom you'd like to delete, and then click :guilabel:`Delete selected atoms` from the menu."
 
 #: ../../usage/atomsviewer.rst:62
 msgid "確認が表示されますので、 :guilabel:`OK` をクリックすると、原子が削除されます。"
@@ -162,15 +148,8 @@ msgid "原子の移動"
 msgstr "Moving atom"
 
 #: ../../usage/atomsviewer.rst:69
-msgid ""
-"移動したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ :kbd:`Ctrl` + "
-"右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Move selected "
-"atoms` をクリックします。"
-msgstr ""
-"Right click the atom you'd like to move. Select multiple atoms by "
-":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target "
-"atom(s) is now displayed in wire frame. Click :guilabel:`Move selected "
-"atoms` from the menu."
+msgid "移動したい原子を右クリックし、メニューから :guilabel:`Move selected atoms` をクリックします。"
+msgstr "Right click the atom you'd like to move, and then click :guilabel:`Move selected atoms` from the menu."
 
 #: ../../usage/atomsviewer.rst:70
 msgid "緑色の平面と、黒色の法線が表示されます。ドラッグ（または矢印キー）で平面を回転させます。選択した原子をドラッグすると、平面に沿って移動させることができます。"
@@ -196,21 +175,72 @@ msgstr ""
 msgid "周期律表が表示されますので、元素を選択すると、原子が追加されます。"
 msgstr "Choose an element from the periodic table to put the atom."
 
-#: ../../usage/atomsviewer.rst:82
+#: ../../usage/atomsviewer.rst:84
+msgid "複数原子の選択・選択解除"
+msgstr "Select / deselect multiple atoms"
+
+#: ../../usage/atomsviewer.rst:86
+msgid "複数の原子を選択して、変更・削除・移動操作を行えます。選択中の原子はワイヤーフレーム表示になります。"
+msgstr "You can select multiple atoms and change / remove / move them all at once. Selected atoms are displayed in wire frame."
+
+#: ../../usage/atomsviewer.rst:94
+msgid "矩形選択"
+msgstr "Rectangle select"
+
+#: ../../usage/atomsviewer.rst:94
+msgid ":kbd:`Ctrl` + ドラッグ"
+msgstr ":kbd:`Ctrl` + drag"
+
+#: ../../usage/atomsviewer.rst:96
+msgid "矩形選択解除"
+msgstr "Rectangle deselect"
+
+#: ../../usage/atomsviewer.rst:96
+msgid ":kbd:`Ctrl` + 右ドラッグ"
+msgstr ":kbd:`Ctrl` + right drag"
+
+#: ../../usage/atomsviewer.rst:98
+msgid "個々の原子を選択・選択解除"
+msgstr "Individual select / deselect"
+
+#: ../../usage/atomsviewer.rst:98
+msgid "ダブルクリック"
+msgstr "double click"
+
+#: ../../usage/atomsviewer.rst:100
+msgid "全選択"
+msgstr "Select all"
+
+#: ../../usage/atomsviewer.rst:100
+msgid ""
+":kbd:`Ctrl` + :kbd:`A` （または :menuselection:`右クリックメニュー --> Select all "
+"atoms` ）"
+msgstr ":kbd:`Ctrl` + :kbd:`A` (or :menuselection:`right click menu --> Select all "
+"atoms` )"
+
+#: ../../usage/atomsviewer.rst:102
+msgid "全選択解除"
+msgstr "Deselect all"
+
+#: ../../usage/atomsviewer.rst:102
+msgid ":kbd:`Esc` （または :menuselection:`右クリックメニュー --> Not select any atoms` ）"
+msgstr ":kbd:`Esc` (or :menuselection:`right click menu --> Not select any atoms` )"
+
+#: ../../usage/atomsviewer.rst:106
 msgid "空間群の判定"
 msgstr "Detect space group"
 
-#: ../../usage/atomsviewer.rst:84
+#: ../../usage/atomsviewer.rst:108
 msgid "右クリックメニューの :guilabel:`Detect space group` をクリックすると、モデルの原子構造の属する空間群を表示します。"
 msgstr ""
 "In the right click menu, click :guilabel:`Detect space group` to display "
 "the space group to which the atomic structure of the model belongs."
 
-#: ../../usage/atomsviewer.rst:87
+#: ../../usage/atomsviewer.rst:111
 msgid "原子構造のエクスポート"
 msgstr "Export atomic configuration"
 
-#: ../../usage/atomsviewer.rst:89
+#: ../../usage/atomsviewer.rst:113
 msgid ""
 "右クリックメニューの :guilabel:`Export atomic configuration` "
 "をクリックすると、モデルの原子構造をCIFファイル・XYZファイルとしてエクスポートできます。"
@@ -834,7 +864,9 @@ msgstr "Let atoms fixed / mobile"
 
 #: ../../usage/inputeditor.rst:54
 msgid "構造最適化や分子動力学計算を行う際に、指定した原子の座標を固定して計算を行うための設定を行います。"
-msgstr "In structure optimization or molecular dynamics calculation, you can fix coordinates of specified atoms."
+msgstr ""
+"In structure optimization or molecular dynamics calculation, you can fix "
+"coordinates of specified atoms."
 
 #: ../../usage/inputeditor.rst:56
 msgid ""
@@ -844,19 +876,24 @@ msgid ""
 "をクリックします。固定された原子を可動に戻したい場合は、同様にメニューから :guilabel:`Let selected atoms be "
 "MOBILE` をクリックします。"
 msgstr ""
-"In the viewer on the left side, right click the atom you'd like to fix. Select multiple atoms by "
-":kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + right drag). The target "
-"atom(s) is now displayed in wire frame. Click :guilabel:`Let selected atoms be FIXED` from the menu. "
-"To get fixed atoms mobile again, click :guilabel:`Let selected atoms be MOBILE` from the menu."
+"In the viewer on the left side, right click the atom you'd like to fix. "
+"Select multiple atoms by :kbd:`Ctrl` + drag (deselect by :kbd:`Ctrl` + "
+"right drag). The target atom(s) is now displayed in wire frame. Click "
+":guilabel:`Let selected atoms be FIXED` from the menu. To get fixed atoms"
+" mobile again, click :guilabel:`Let selected atoms be MOBILE` from the "
+"menu."
 
 #: ../../usage/inputeditor.rst:58
 msgid ""
 "固定・可動の設定を確認するには、右下のメニュー |editormenuicon| から :guilabel:`Geometry` を開き、 "
 ":guilabel:`Atoms` 内の :guilabel:`Atomic Configuration` "
 "を見てください。固定された原子の座標は青文字で表示されます。また、原子の行の右クリックメニューから、XYZの各方向ごとに固定・可動を設定できます。"
-msgstr "To review the fixed / mobile settings,  open :guilabel:`Geometry` from the lower right menu |editormenuicon|, and see :guilabel:`Atomic Configuration` "
-"in :guilabel:`Atoms` . Fixed coordinates of atoms are shown in blue letters. Here you can set fixed / mobile along X/Y/Z direction from the right click menu "
-"of the rows of atoms."
+msgstr ""
+"To review the fixed / mobile settings,  open :guilabel:`Geometry` from "
+"the lower right menu |editormenuicon|, and see :guilabel:`Atomic "
+"Configuration` in :guilabel:`Atoms` . Fixed coordinates of atoms are "
+"shown in blue letters. Here you can set fixed / mobile along X/Y/Z "
+"direction from the right click menu of the rows of atoms."
 
 #: ../../usage/inputeditorlammps.rst:5
 msgid "入力ファイルエディター（LAMMPS固有の設定）"
@@ -1331,10 +1368,10 @@ msgid ""
 ":guilabel:`Materials Finder` "
 "を使ってモデルを検索し、そのまま使うこともできます。リストに分子が追加されたら、充填する数を入力します。"
 msgstr ""
-"Click |add| button to add a molecule to the list. In the explorer view, double click the molecule you'd like to "
-"use. Here you can also use :guilabel:`Materials Finder` to search the "
-"molecule. After the molecule is added to the list, enter the number of it"
-" to be packed."
+"Click |add| button to add a molecule to the list. In the explorer view, "
+"double click the molecule you'd like to use. Here you can also use "
+":guilabel:`Materials Finder` to search the molecule. After the molecule "
+"is added to the list, enter the number of it to be packed."
 
 #: ../../usage/modeler.rst:132
 msgid "リストから分子を削除するには、右側の |remove| ボタンをクリックします。"
