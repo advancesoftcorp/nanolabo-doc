@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 13:11+0900\n"
+"POT-Creation-Date: 2019-06-10 16:21+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: ../../link.rst:5
 msgid "リンク"
@@ -135,42 +135,50 @@ msgid "http://www.quantum-espresso.org/Doc/INPUT_DYNMAT.html"
 msgstr ""
 
 #: ../../link.rst:53
+msgid "|lsquo|\\ neb.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ neb.x\\ |rsquo| manual"
+
+#: ../../link.rst:53
+msgid "https://www.quantum-espresso.org/Doc/INPUT_NEB.html"
+msgstr ""
+
+#: ../../link.rst:56
 msgid "LAMMPS"
 msgstr ""
 
-#: ../../link.rst:56
+#: ../../link.rst:59
 msgid "LAMMPSホームページ"
 msgstr "LAMMPS home page"
 
-#: ../../link.rst:56
+#: ../../link.rst:59
 msgid "http://lammps.sandia.gov/"
 msgstr ""
 
-#: ../../link.rst:59
+#: ../../link.rst:62
 msgid "マニュアル"
 msgstr "Manual"
 
-#: ../../link.rst:59
+#: ../../link.rst:62
 msgid "http://lammps.sandia.gov/doc/Manual.html"
 msgstr ""
 
-#: ../../link.rst:62
+#: ../../link.rst:67
 msgid "材料データベース"
 msgstr "Materials database"
 
-#: ../../link.rst:65
+#: ../../link.rst:70
 msgid "Materials Project"
 msgstr ""
 
-#: ../../link.rst:65
+#: ../../link.rst:70
 msgid "https://materialsproject.org/"
 msgstr ""
 
-#: ../../link.rst:68
+#: ../../link.rst:73
 msgid "PubChem"
 msgstr ""
 
-#: ../../link.rst:68
+#: ../../link.rst:73
 msgid "https://pubchem.ncbi.nlm.nih.gov/"
 msgstr ""
 

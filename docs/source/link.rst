@@ -49,6 +49,9 @@ Quantum ESPRESSO ホームページ
 |lsquo|\ dynmat.x\ |rsquo| マニュアル
  http://www.quantum-espresso.org/Doc/INPUT_DYNMAT.html
 
+|lsquo|\ neb.x\ |rsquo| マニュアル
+ https://www.quantum-espresso.org/Doc/INPUT_NEB.html
+
 LAMMPS
 =============
 
