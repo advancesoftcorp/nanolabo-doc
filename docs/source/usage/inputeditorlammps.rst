@@ -30,6 +30,10 @@ OPLS-AA
 
 :guilabel:`Resolve Force Field` の :guilabel:`Apply` ボタンをクリックすると、OPLS-AAパラメーターセットに基づき、電荷およびLennard-Jonesポテンシャルのパラメーターを設定します。その後、全電荷が0になるように一定の値を差し引きます。
 
+:guilabel:`Non-Bonded Interactions` 欄の各行を右クリックすると、割り当ての詳細を確認できます。
+
+.. image:: /img/opls.png
+
 .. _scheme:
 
 Scheme（計算過程）

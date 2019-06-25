@@ -6,17 +6,24 @@
 
 プロジェクト画面右側のパネルで、計算エンジンの入力ファイルを編集します。実行したい計算に応じて右下のメニュー |editormenuicon| からエディターのモードを選び、各計算エンジンのマニュアルを参照して適切な値を設定してください。
 
-.. |editormenuicon| image:: /img/editormenuicon.png
-
 デフォルト値設定ボタン |default| がある設定項目は、ボタンをクリックするとデフォルト値が入力されます。
 
 ファイルを設定する項目で、テキストファイルアイコン |textviewer| があるものは、アイコンをクリックするとファイルの内容が表示されます。
 
 折り畳まれて表示されていない項目（右三角アイコン |collapse| ）は、クリックして展開することで表示できます。
 
+.. |editormenuicon| image:: /img/editormenuicon.png
 .. |default| image:: /img/default.png
 .. |textviewer| image:: /img/textviewer.png
 .. |collapse| image:: /img/collapse.png
+
+入力欄が黄色くなった場合は、その値が適切でないことを示します。また、入力欄が赤くなった場合は、その値では計算ができない（実行してもエラーになる）ことを示します。入力欄をポイントすると入力可能な値の範囲が表示されます。入力欄を右クリックするとアンドゥ等の操作ができます。
+
+.. image:: /img/textfield.png
+
+スライダーは、マウス操作で値を設定するほか、右クリックメニューの :guilabel:`Input directly` で値を直接入力できます。
+
+.. image:: /img/slider.png
 
 いくつかの設定画面については補足説明がありますので、以下のリンクよりご覧ください。
 

@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 10:24+0900\n"
+"POT-Creation-Date: 2019-06-26 03:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../usage.rst:5
 msgid "各画面の説明"
@@ -224,7 +224,8 @@ msgid ""
 ":guilabel:`Copy selected atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to cut or copy, and then click "
-":guilabel:`Cut selected atoms` or :guilabel:`Copy selected atoms` from the menu."
+":guilabel:`Cut selected atoms` or :guilabel:`Copy selected atoms` from "
+"the menu."
 
 #: ../../usage/atomsviewer.rst:92
 msgid ""
@@ -232,8 +233,8 @@ msgid ""
 "をクリックします。元とは別のプロジェクトに貼り付けることもできます。"
 msgstr ""
 "Right click the position you'd like to paste it, and then click "
-":guilabel:`Paste copied atoms` from the menu. "
-"You can paste it to a different project from the original."
+":guilabel:`Paste copied atoms` from the menu. You can paste it to a "
+"different project from the original."
 
 #: ../../usage/atomsviewer.rst:97
 msgid "複数原子の選択・選択解除"
@@ -275,8 +276,7 @@ msgstr "Select all"
 
 #: ../../usage/atomsviewer.rst:113
 msgid ":menuselection:`右クリックメニュー --> Select all atoms`"
-msgstr ""
-":menuselection:`right click menu --> Not select any atoms`"
+msgstr ":menuselection:`right click menu --> Not select any atoms`"
 
 #: ../../usage/atomsviewer.rst:115 ../../usage/atomsviewer.rst:141
 msgid "全選択解除"
@@ -284,8 +284,7 @@ msgstr "Deselect all"
 
 #: ../../usage/atomsviewer.rst:115
 msgid ":menuselection:`右クリックメニュー --> Not select any atoms`"
-msgstr ""
-":menuselection:`right click menu --> Not select any atoms`"
+msgstr ":menuselection:`right click menu --> Not select any atoms`"
 
 #: ../../usage/atomsviewer.rst:121
 msgid "原子の回転移動"
@@ -301,8 +300,8 @@ msgid ""
 "をクリックします。回転の中心は1.で選択した中の原子でも、他の原子でも構いません。"
 msgstr ""
 "Right click the atom to be the center of rotation, and then click "
-":guilabel:`Rotate selected atoms` from the menu. You can choose the center atom "
-"either from atoms selected at 1. or from other atoms."
+":guilabel:`Rotate selected atoms` from the menu. You can choose the "
+"center atom either from atoms selected at 1. or from other atoms."
 
 #: ../../usage/atomsviewer.rst:125
 msgid "球が表示されますので、ドラッグして回転移動を行います。"
@@ -965,35 +964,43 @@ msgstr ""
 "Then, set the appropriate values referring to the calculation engine "
 "manual."
 
-#: ../../usage/inputeditor.rst:11
+#: ../../usage/inputeditor.rst:9
 msgid "デフォルト値設定ボタン |default| がある設定項目は、ボタンをクリックするとデフォルト値が入力されます。"
 msgstr ""
 "Some of the setting items have default value button |default| . Click the"
 " button to set the default value."
 
-#: ../../usage/inputeditor.rst:13
+#: ../../usage/inputeditor.rst:11
 msgid "ファイルを設定する項目で、テキストファイルアイコン |textviewer| があるものは、アイコンをクリックするとファイルの内容が表示されます。"
 msgstr ""
 "Some items to set file have text file icon |textviewer| . Click the icon "
 "to display the content of the file."
 
-#: ../../usage/inputeditor.rst:15
+#: ../../usage/inputeditor.rst:13
 msgid "折り畳まれて表示されていない項目（右三角アイコン |collapse| ）は、クリックして展開することで表示できます。"
 msgstr ""
 "Some of the setting items are collapsed and not visible. They can be "
 "expanded by clicking the right-pointing triangle icon |collapse| ."
 
-#: ../../usage/inputeditor.rst:21
+#: ../../usage/inputeditor.rst:20
+msgid "入力欄が黄色くなった場合は、その値が適切でないことを示します。また、入力欄が赤くなった場合は、その値では計算ができない（実行してもエラーになる）ことを示します。入力欄をポイントすると入力可能な値の範囲が表示されます。入力欄を右クリックするとアンドゥ等の操作ができます。"
+msgstr "Yellow input field indicates the value is not appropriate. Red input field indicates calculation with the value cannot be done (ends in error). Point the input field to see possible range of the value. Right click the input field for undo etc."
+
+#: ../../usage/inputeditor.rst:24
+msgid "スライダーは、マウス操作で値を設定するほか、右クリックメニューの :guilabel:`Input directly` で値を直接入力できます。"
+msgstr "Besides the mouse manipulation, you can directly set value to a slider from its right click menu."
+
+#: ../../usage/inputeditor.rst:28
 msgid "いくつかの設定画面については補足説明がありますので、以下のリンクよりご覧ください。"
 msgstr ""
 "There are supplemental description for some setting views. See the links "
 "below."
 
-#: ../../usage/inputeditor.rst:32
+#: ../../usage/inputeditor.rst:39
 msgid "内蔵テキストエディタ―"
 msgstr "Built-in text editor"
 
-#: ../../usage/inputeditor.rst:34
+#: ../../usage/inputeditor.rst:41
 msgid ""
 "左下のメニュー |projectmenuicon| から :guilabel:`Input-file` "
 "を開くと、作成される入力ファイルの内容を内蔵テキストエディタ―で確認することができます。"
@@ -1001,13 +1008,13 @@ msgstr ""
 "Open :guilabel:`Input-file` from the menu on the lower left to check the "
 "input file to be created in text format."
 
-#: ../../usage/inputeditor.rst:36
+#: ../../usage/inputeditor.rst:43
 msgid "画面右側のパネルで変更した設定項目は、再読み込みボタン |reloadac| をクリックすることでテキストエディタ―側に反映されます。"
 msgstr ""
 "Click reload button |reloadac| to reflect the modified items on the right"
 " side panel in the text editor."
 
-#: ../../usage/inputeditor.rst:38
+#: ../../usage/inputeditor.rst:45
 msgid ""
 "また、テキストエディタ―で入力ファイルの内容を直接変更することもできます。変更した内容は、アップロードボタン |up| "
 "をクリックすることで画面右側のパネルに反映されます。"
@@ -1016,7 +1023,7 @@ msgstr ""
 "editor. Click upload button |up| to reflect the modified items in right "
 "side panel."
 
-#: ../../usage/inputeditor.rst:45
+#: ../../usage/inputeditor.rst:52
 msgid ""
 "テキストエディターの内容は、実際の入力ファイルを開いているわけではなく、設定項目から生成された一時的なものです。 "
 "アップロードボタンをクリックしてから保存をすることで、実際の入力ファイルに反映されます。 "
@@ -1028,17 +1035,17 @@ msgstr ""
 "file. If you do not click the upload button, the text will not be "
 "reflected in the actual input file even if you save the project."
 
-#: ../../usage/inputeditor.rst:52
+#: ../../usage/inputeditor.rst:59
 msgid "原子の固定・可動設定"
 msgstr "Let atoms fixed / mobile"
 
-#: ../../usage/inputeditor.rst:54
+#: ../../usage/inputeditor.rst:61
 msgid "構造最適化や分子動力学計算を行う際に、指定した原子の座標を固定して計算を行うための設定を行います。"
 msgstr ""
 "In structure optimization or molecular dynamics calculation, you can fix "
 "coordinates of specified atoms."
 
-#: ../../usage/inputeditor.rst:56
+#: ../../usage/inputeditor.rst:63
 msgid ""
 "画面左側のビューワーで、固定したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ "
 ":kbd:`Ctrl` + 右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから "
@@ -1053,7 +1060,7 @@ msgstr ""
 " mobile again, click :guilabel:`Let selected atoms be MOBILE` from the "
 "menu."
 
-#: ../../usage/inputeditor.rst:58
+#: ../../usage/inputeditor.rst:65
 msgid ""
 "固定・可動の設定を確認するには、右下のメニュー |editormenuicon| から :guilabel:`Geometry` を開き、 "
 ":guilabel:`Atoms` 内の :guilabel:`Atomic Configuration` "
@@ -1142,11 +1149,15 @@ msgstr ""
 " to OPLS-AA parameter set. Then, a fixed value is subtracted so that the "
 "total charge becomes 0."
 
-#: ../../usage/inputeditorlammps.rst:36
+#: ../../usage/inputeditorlammps.rst:33
+msgid ":guilabel:`Non-Bonded Interactions` 欄の各行を右クリックすると、割り当ての詳細を確認できます。"
+msgstr "Right click each row in :guilabel:`Non-Bonded Interactions` field to check the detail of the assignment."
+
+#: ../../usage/inputeditorlammps.rst:40
 msgid "Scheme（計算過程）"
 msgstr "Scheme"
 
-#: ../../usage/inputeditorlammps.rst:38
+#: ../../usage/inputeditorlammps.rst:42
 msgid ""
 "入力ファイルエディターの :guilabel:`Scheme` で計算過程の設定を行います。画面右下のメニュー |editormenuicon| "
 "から :guilabel:`Scheme` をクリックしてください。"
@@ -1155,7 +1166,7 @@ msgstr ""
 " editor. Click :guilabel:`Scheme` from the menu |editormenuicon| on the "
 "lower right."
 
-#: ../../usage/inputeditorlammps.rst:42
+#: ../../usage/inputeditorlammps.rst:46
 msgid ""
 "画面右側のパネルで計算の設定を行い、 :guilabel:`Add Scheme` の :guilabel:`Apply` "
 "をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| :guilabel:`Apply` "
@@ -1166,7 +1177,7 @@ msgstr ""
 "left side of the window as a tile. Repeat configuring |rarr| "
 ":guilabel:`Apply` to add processes as many times as necessary."
 
-#: ../../usage/inputeditorlammps.rst:48
+#: ../../usage/inputeditorlammps.rst:52
 msgid ""
 "タイルの左上の数字が過程の実行される順番です。前へボタン |lpback| 、後へボタン |lpfwd| で順番を入れ替えます。削除ボタン "
 "|lpdel| で削除します。"
@@ -1175,7 +1186,7 @@ msgstr ""
 " process is executed. Use back button |lpback| and forward button |lpfwd|"
 " to change the order. Delete it by delete button |lpdel| ."
 
-#: ../../usage/inputeditorlammps.rst:54
+#: ../../usage/inputeditorlammps.rst:58
 msgid ""
 "追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` "
 "ウィンドウが表示され、設定を編集できます。"
