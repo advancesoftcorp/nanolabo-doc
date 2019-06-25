@@ -1,0 +1,611 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, AdvanceSoft Corporation
+# This file is distributed under the same license as the Advance/NanoLabo
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advance/NanoLabo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-25 20:13+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../../python.rst:5
+msgid "Python連携"
+msgstr "Use with Python"
+
+#: ../../python.rst:7
+msgid "Advance/NanoLaboには外部のプログラムから操作するためのインターフェースが備わっています。同梱のモジュールをインポートすることで、PythonからNanoLaboを操作する関数が使えるようになります。"
+msgstr ""
+"Advance/NanoLabo has the interface to allow operation from external "
+"programs. By importing included Python module, you can use functions to "
+"operate NanoLabo from Python."
+
+#: ../../python.rst:10
+msgid "準備"
+msgstr "Preparation"
+
+#: ../../python.rst:12
+msgid ""
+"Python 2系またはPython 3系の実行環境でお使いいただけます。 Pythonのセットアップ・実行方法については、\\ "
+"`Pythonのドキュメント <https://docs.python.org/ja>`_\\ を参照してください。"
+msgstr ""
+"Python 2 series and Python 3 series environments are supported. Please "
+"refer to `Python documentation <https://docs.python.org/>`_ for Python "
+"setup and usage."
+
+#: ../../python.rst:15
+msgid "Windowsでの使用には、pywin32モジュールが必要です。\\ ``pip``\\ を使ってインストールするには、以下のコマンドを実行します。"
+msgstr ""
+"On Windows, pywin32 module is required. To install it using ``pip``, "
+"execute the following command:"
+
+#: ../../python.rst:17
+msgid "> python -m pip install pywin32"
+msgstr ""
+
+#: ../../python.rst:21
+msgid ""
+"NanoLaboのインストール先にある\\ :file:`nanolabo.py`\\ をインポートすることで、モジュール名 "
+"``nanolabo`` を使って関数にアクセスできるようになります。"
+msgstr ""
+"By importing :file:`nanolabo.py` stored in NanoLabo installation "
+"destination, you can access the functions with module name ``nanolabo``."
+
+#: ../../python.rst:23
+msgid ">>> import nanolabo"
+msgstr ""
+
+#: ../../python.rst:27
+msgid "モジュールのヘルプは、以下のように組込み関数を使って参照できます。"
+msgstr "You can see the module help by using built-in functions as follows:"
+
+#: ../../python.rst:29
+msgid ""
+">>> help(nanolabo)                #ヘルプの表示\n"
+">>> dir(nanolabo)                 #関数等の一覧表示\n"
+">>> help(nanolabo.open_project)   #個々の関数のヘルプの表示"
+msgstr ""
+">>> help(nanolabo)                #display help\n"
+">>> dir(nanolabo)                 #display list of functions etc.\n"
+">>> help(nanolabo.open_project)   #display each function's help"
+
+#: ../../python.rst:37
+msgid "操作するNanoLaboをあらかじめ起動しておいてください。複数のNanoLaboが起動している場合、最初に起動したNanoLaboのみがPythonからの操作を受け付けます。"
+msgstr ""
+"Launch target NanoLabo before starting operation. If there are multiple "
+"NanoLabo's launched, one launched at first will accept the operation from"
+" Python."
+
+#: ../../python.rst:40
+msgid "関数一覧"
+msgstr "Functions list"
+
+#: ../../python.rst:43
+msgid "プロジェクト操作"
+msgstr "Project operation"
+
+#: ../../python.rst:47
+msgid "プロジェクトを開きます。"
+msgstr "Open a project."
+
+#: ../../python.rst
+msgid "パラメータ"
+msgstr "Parameter"
+
+#: ../../python.rst:49 ../../python.rst:62 ../../python.rst:75
+#: ../../python.rst:89 ../../python.rst:101 ../../python.rst:132
+#: ../../python.rst:143 ../../python.rst:168 ../../python.rst:182
+#: ../../python.rst:194 ../../python.rst:208 ../../python.rst:224
+#: ../../python.rst:236 ../../python.rst:251 ../../python.rst:266
+#: ../../python.rst:277 ../../python.rst:302 ../../python.rst:316
+#: ../../python.rst:329 ../../python.rst:344 ../../python.rst:363
+#: ../../python.rst:378 ../../python.rst:391 ../../python.rst:405
+msgid "プロジェクトをフォルダの絶対パスで指定します。デフォルトの保存先にあるプロジェクトは、プロジェクト名だけで指定できます。"
+msgstr ""
+"Specify the project by absolute path of the folder. Project stored in the"
+" default location can be specified just by the project name."
+
+#: ../../python.rst:51 ../../python.rst:64 ../../python.rst:78
+#: ../../python.rst:92 ../../python.rst:106 ../../python.rst:120
+#: ../../python.rst:134 ../../python.rst:159 ../../python.rst:172
+#: ../../python.rst:185 ../../python.rst:198 ../../python.rst:212
+#: ../../python.rst:227 ../../python.rst:241 ../../python.rst:256
+#: ../../python.rst:270 ../../python.rst:282 ../../python.rst:306
+#: ../../python.rst:320 ../../python.rst:334 ../../python.rst:348
+#: ../../python.rst:368 ../../python.rst:382 ../../python.rst:395
+#: ../../python.rst:409
+msgid "例"
+msgstr "Example"
+
+#: ../../python.rst:51
+msgid ""
+">>> nanolabo.open_project(r\"C:\\Users\\demouser\\.nanolabo\\SiC\")\n"
+"\n"
+">>> nanolabo.open_project(\"SiC\")   #デフォルトの保存先にあるプロジェクト"
+msgstr ""
+">>> nanolabo.open_project(r\"C:\\Users\\demouser\\.nanolabo\\SiC\")\n"
+"\n"
+">>> nanolabo.open_project(\"SiC\")   #project in default location"
+
+#: ../../python.rst:60
+msgid "プロジェクトを閉じます。"
+msgstr "Close a project."
+
+#: ../../python.rst:64
+msgid ""
+">>> nanolabo.close_project(r\"C:\\Users\\demouser\\.nanolabo\\SiC\")\n"
+"\n"
+">>> nanolabo.close_project(\"SiC\")   #デフォルトの保存先にあるプロジェクト"
+msgstr ""
+">>> nanolabo.close_project(r\"C:\\Users\\demouser\\.nanolabo\\SiC\")\n"
+"\n"
+">>> nanolabo.close_project(\"SiC\")   #project in default location"
+
+#: ../../python.rst:73
+msgid "プロジェクトを保存します。"
+msgstr "Save a project."
+
+#: ../../python.rst:76
+msgid "プロジェクトの保存先をフォルダの絶対パスで指定します。デフォルトの保存先に保存する場合は、プロジェクト名だけで指定できます。指定したフォルダが既に存在する場合は保存しません。省略した場合は、pathで指定したプロジェクトを上書き保存します。"
+msgstr ""
+"Specify the save destination of the project by absolute path of the "
+"folder. To save it in the default location, just specify the project name. "
+"If specified folder already exists, the project is not saved. If not "
+"passed, overwrite the project specified by path."
+
+#: ../../python.rst:78
+msgid ""
+">>> nanolabo.save_project(\"SiC\", \"SiC2\")                       #別名で保存"
+"\n"
+"\n"
+">>> nanolabo.save_project(r\"C:\\Users\\demouser\\.nanolabo\\SiC\")  "
+"#上書き保存"
+msgstr ""
+">>> nanolabo.save_project(\"SiC\", \"SiC2\")                       #save as another project"
+"\n"
+"\n"
+">>> nanolabo.save_project(r\"C:\\Users\\demouser\\.nanolabo\\SiC\")  "
+"#overwrite save"
+
+#: ../../python.rst:87
+msgid "プロジェクトの計算エンジンを変更します。"
+msgstr "Change calculation engine of a project."
+
+#: ../../python.rst:90
+msgid "プロジェクトの計算エンジンを指定します。有効な値：\"QuantumESPRESSO\", \"LAMMPS\""
+msgstr ""
+"Specify calculation engine of the project. Can be: \"QuantumESPRESSO\", "
+"\"LAMMPS\""
+
+#: ../../python.rst:92
+msgid ">>> nanolabo.mode_project(\"SiC\", \"LAMMPS\")"
+msgstr ""
+
+#: ../../python.rst:99
+msgid "計算を実行します。リモートサーバーにジョブを投入する場合は、事前に\\ :doc:`usage/sshserver`\\ をしておく必要があります。"
+msgstr ""
+"Run a calculation. In case posting job to remote server, you have to do "
+":doc:`usage/sshserver` in advance."
+
+#: ../../python.rst:102
+msgid ""
+"実行する計算の種類を指定します。有効な値：\"SCF\", \"OPTIMIZ\", \"MD\", \"DOS\", \"BAND\", "
+"\"TDDFT\", \"Phonon\", \"PhDisp\", \"NEB\", \"LAMMPS\""
+msgstr ""
+"Specify the type of calculation. Can be: \"SCF\", \"OPTIMIZ\", \"MD\", "
+"\"DOS\", \"BAND\", \"TDDFT\", \"Phonon\", \"PhDisp\", \"NEB\", \"LAMMPS\""
+
+#: ../../python.rst:103
+msgid "ローカルで実行する場合は\"localhost\"、リモートサーバーにジョブを投入する場合はその設定名を指定します。省略した場合、直前に実行した計算の設定を引き継ぎます。"
+msgstr ""
+"Specify \"localhost\" to run on local, or setting name of the remote "
+"server to post the job. If not passed, inherited setting from previous "
+"calculation is used."
+
+#: ../../python.rst:104
+msgid "ジョブを投入するキューの設定名を指定します。ローカルで実行する場合は指定しても無視されます。"
+msgstr ""
+"Specify the setting name of the queue to post the job. Ignored in case of"
+" local run even if specified."
+
+#: ../../python.rst:106
+msgid ""
+">>> nanolabo.run_project(\"SiC\", \"SCF\", \"localhost\")                "
+"#ローカル実行\n"
+"\n"
+">>> nanolabo.run_project(\"SiC\", \"SCF\", \"hostname\", \"queuename\")"
+"    #リモートジョブ投入"
+msgstr ""
+">>> nanolabo.run_project(\"SiC\", \"SCF\", \"localhost\")                "
+"#local run\n"
+"\n"
+">>> nanolabo.run_project(\"SiC\", \"SCF\", \"hostname\", \"queuename\")"
+"    #post remote job"
+
+#: ../../python.rst:115
+msgid "原子構造ファイルからプロジェクトを作成します。"
+msgstr "Create new project from atomic structure file."
+
+#: ../../python.rst:117
+msgid "原子構造ファイルを絶対パスで指定します。カレントフォルダにあるファイルはファイル名だけで指定できます。"
+msgstr ""
+"Specify atomic structure file by absolute path. File in current folder "
+"can be specified just by file name."
+
+#: ../../python.rst:118
+msgid "作成したプロジェクトの保存先を絶対パスで指定します。デフォルトの保存先に保存する場合は、プロジェクト名だけで指定できます。省略した場合、原子構造ファイルの名前（拡張子なし）をプロジェクト名にします。指定した保存先が既に存在する場合、プロジェクトを作成しません。"
+msgstr ""
+"Specify the save destination of created project by absolute path of the "
+"folder. To save it in the default location, just specify the project name. "
+"If not passed, the name of atomic structure file (without extension) "
+"will be used as project name. If specified folder already exists, the "
+"project is not created."
+
+#: ../../python.rst:120
+msgid ">>> nanolabo.create_project(r\"C:\\Users\\demouser\\sic.cif\", \"SiC\")"
+msgstr ""
+
+#: ../../python.rst:126
+msgid "原子構造操作"
+msgstr "Atomic structure operation"
+
+#: ../../python.rst:130
+msgid "原子をすべて消去します。"
+msgstr "Clear all atoms."
+
+#: ../../python.rst:134
+msgid ">>> nanolabo.clear_all_atoms(\"SiC\")"
+msgstr ""
+
+#: ../../python.rst:141
+msgid "ファイルで定義した原子構造を設定します。既にプロジェクトにある情報は上書きされます。"
+msgstr ""
+"Import atomic structure defined by a file. Geometry info already in the "
+"project will be overwritten."
+
+#: ../../python.rst:144
+msgid "原子構造の情報を含むファイルを絶対パスで指定します。カレントフォルダにあるファイルはファイル名だけで指定できます。"
+msgstr ""
+"Specify the file containing atomic structure information. File in current"
+" folder can be specified just by file name."
+
+#: ../../python.rst:146
+msgid "ファイルの形式は次の例のようになります。\\ :py:func:`qe_get_geometry`\\ で出力したファイルを読み込むことができます。"
+msgstr ""
+"The file format is as follows. Can import the file exported by "
+":py:func:`qe_get_geometry`."
+
+#: ../../python.rst:148
+msgid ""
+" 3.09200995   0.00000000   0.00000000   # ax ay az\n"
+"-1.54600497   2.67775791   0.00000000   # bx by bz\n"
+" 0.00000000   0.00000000   5.07335137   # cx cy cz\n"
+"4                                       # number of atoms\n"
+"Si     -0.000002   1.785172   2.534588   1   1   1   # name x y z FIXED_X"
+" FIXED_Y FIXED_Z\n"
+"Si      1.546002   0.892585   5.071262   0   0   0   #            "
+"0:fixed, 1:mobile\n"
+"C      -0.000002   1.785172   4.441264   0   0   0\n"
+"C       1.546002   0.892585   1.904590   0   0   0"
+msgstr ""
+
+#: ../../python.rst:159
+msgid ">>> nanolabo.set_all_atoms(\"SiC\", r\"C:\\Users\\demouser\\sic.txt\")"
+msgstr ""
+
+#: ../../python.rst:166
+msgid "格子ベクトルを取得します。"
+msgstr "Get lattice vectors."
+
+#: ../../python.rst
+msgid "戻り値"
+msgstr "Returns"
+
+#: ../../python.rst:169
+msgid "格子ベクトル"
+msgstr "Lattice vectors"
+
+#: ../../python.rst
+msgid "戻り値の型"
+msgstr "Return type"
+
+#: ../../python.rst:172
+msgid ""
+">>> nanolabo.get_lattice(\"SiC\")\n"
+"[[3.09201, 0.0, 0.0], [-1.546005, 2.677759208755522, 0.0], [0.0, 0.0, "
+"5.07335]]"
+msgstr ""
+
+#: ../../python.rst:180
+msgid "格子ベクトルを設定します。"
+msgstr "Set lattice vectors."
+
+#: ../../python.rst:183
+msgid "格子ベクトルを指定します。"
+msgstr "Specify lattice vectors."
+
+#: ../../python.rst:185
+msgid ""
+">>> nanolabo.get_lattice(\"SiC\", [[3.09201, 0.0, 0.0], [-1.546005, "
+"2.677759208755522, 0.0], [0.0, 0.0, 5.07335]])"
+msgstr ""
+
+#: ../../python.rst:192
+msgid "原子数を取得します。"
+msgstr "Get number of atoms."
+
+#: ../../python.rst:195
+msgid "原子数"
+msgstr "Number of atoms"
+
+#: ../../python.rst:198
+msgid ""
+">>> nanolabo.num_atoms(\"SiC\")\n"
+"4"
+msgstr ""
+
+#: ../../python.rst:206
+msgid "原子を追加します。"
+msgstr "Add an atom."
+
+#: ../../python.rst:209
+msgid "追加する原子の種類を元素記号で指定します。"
+msgstr "Specify the type of atom to be added by element symbol."
+
+#: ../../python.rst:210 ../../python.rst:279
+msgid "x, y, z座標(\\ |angs|\\ )を指定します。"
+msgstr "Specify x, y, z coordinates (\\ |angs|\\ )."
+
+#: ../../python.rst:212
+msgid ""
+">>> nanolabo.add_atom(\"SiC\", \"C\", 0.5, 0.5, 0.5)\n"
+"\n"
+">>> coords = [0.5, 0.5, 0.5]\n"
+">>> nanolabo.add_atom(\"SiC\", \"C\", *coords)   #リストを展開して渡す"
+msgstr ""
+">>> nanolabo.add_atom(\"SiC\", \"C\", 0.5, 0.5, 0.5)\n"
+"\n"
+">>> coords = [0.5, 0.5, 0.5]\n"
+">>> nanolabo.add_atom(\"SiC\", \"C\", *coords)   #unpack list at passing"
+
+#: ../../python.rst:222
+msgid "原子を削除します。"
+msgstr "Remove an atom."
+
+#: ../../python.rst:225
+msgid "削除する原子を通し番号で指定します。番号は0から数えます\\ :ref:`*<pynoteindex>`\\ 。"
+msgstr ""
+"Specify atom to be removed by serial number. The index starts at 0\\ "
+":ref:`*<pynoteindex>`\\ ."
+
+#: ../../python.rst:227
+msgid ">>> nanolabo.remove_atom(\"SiC\", 0)"
+msgstr ""
+
+#: ../../python.rst:234
+msgid "原子の種類を取得します。"
+msgstr "Get type of an atom."
+
+#: ../../python.rst:237 ../../python.rst:252 ../../python.rst:267
+#: ../../python.rst:278
+msgid "原子を通し番号で指定します。番号は0から数えます\\ :ref:`*<pynoteindex>`\\ 。"
+msgstr ""
+"Specify atom by serial number. The index starts at 0\\ "
+":ref:`*<pynoteindex>`\\ ."
+
+#: ../../python.rst:238
+msgid "原子の種類（元素記号）"
+msgstr "Type of atom (element symbol)"
+
+#: ../../python.rst:241
+msgid ""
+">>> nanolabo.get_atom_name(\"SiC\", 0)\n"
+"'Si'"
+msgstr ""
+
+#: ../../python.rst:249
+msgid "原子の座標を取得します。"
+msgstr "Get coordinates of an atom."
+
+#: ../../python.rst:253
+msgid "原子の座標(\\ |angs|\\ )、および各方向に固定(0)か可動(1)か"
+msgstr ""
+"Coordinates of an atom (\\ |angs|\\ ), and if it is fixed (0) or mobile "
+"(1) along each direction"
+
+#: ../../python.rst:256
+msgid ""
+">>> nanolabo.get_atom_xyz(\"SiC\", 0)\n"
+"[[1.5019770000000001, 2.1822290000000004, 3.2716700000000007], [1, 1, 1]]"
+msgstr ""
+
+#: ../../python.rst:264
+msgid "原子の種類を設定します。"
+msgstr "Change an atom."
+
+#: ../../python.rst:268
+msgid "設定する原子の種類を元素記号で指定します。"
+msgstr "Specify the type of atom to be set by element symbol."
+
+#: ../../python.rst:270
+msgid ">>> nanolabo.set_atom_name(\"SiC\", 0, \"C\")"
+msgstr ""
+
+#: ../../python.rst:280
+msgid "x, y, z方向に固定(0)か可動(1)か。省略した場合可動(1)になります。"
+msgstr ""
+"Fixed (0) or mobile (1) along x, y, z direction. Defaults to"
+" mobile (1) if not passed."
+
+#: ../../python.rst:282
+msgid ""
+">>> nanolabo.set_atom_xyz(\"SiC\", 0, 0.5, 0.5, 0.5, 0, 0, 0)  #全方向固定\n"
+"\n"
+">>> nanolabo.set_atom_xyz(\"SiC\", 0, 0.5, 0.5, 0.5, zfix=0)   "
+"#xy方向は可動、z方向のみ固定"
+msgstr ""
+">>> nanolabo.set_atom_xyz(\"SiC\", 0, 0.5, 0.5, 0.5, 0, 0, 0)  #fixed along all directions\n"
+"\n"
+">>> nanolabo.set_atom_xyz(\"SiC\", 0, 0.5, 0.5, 0.5, zfix=0)   "
+"#mobile along xy, fixed only along z"
+
+#: ../../python.rst:293
+msgid ""
+":guilabel:`Geometry`\\ |rarr|\\ :guilabel:`Atoms`\\ "
+"の番号(#)は1から数えるので、indexとは1つずれます（順序は同じです）。"
+msgstr ""
+"Serial number (#) shown in :guilabel:`Geometry`\\ |rarr|\\ "
+":guilabel:`Atoms` starts at 1, therefore it is shifted from index by one "
+"(the orders are the same)."
+
+#: ../../python.rst:296
+msgid "Quantum ESPRESSO関連操作"
+msgstr "Operation related to Quantum ESPRESSO"
+
+#: ../../python.rst:300
+msgid ""
+"SCF計算のk点の数を取得します。詳細は\\ `Quantum ESPRESSOのマニュアル <http://www.quantum-"
+"espresso.org/Doc/INPUT_PW.html>`_\\ (K_POINTS automatic)を参照してください。"
+msgstr ""
+"Get number of k points for SCF calculation. Please refer to `Quantum "
+"ESPRESSO manual <http://www.quantum-espresso.org/Doc/INPUT_PW.html>`_ "
+"(K_POINTS automatic) for detail."
+
+#: ../../python.rst:303
+msgid "各方向のk点数と、オフセットを適用する(1)かしない(0)かの設定"
+msgstr ""
+"Number of k points along each direction, and if apply the offset (1) or "
+"not (0)"
+
+#: ../../python.rst:306
+msgid ""
+">>> nanolabo.qe_get_kpoints(\"SiC\")\n"
+"[[4, 4, 2], [0, 0, 0]]"
+msgstr ""
+
+#: ../../python.rst:314
+msgid ""
+"SCF計算のk点の数を設定します。詳細は\\ `Quantum ESPRESSOのマニュアル <http://www.quantum-"
+"espresso.org/Doc/INPUT_PW.html>`_\\ (K_POINTS automatic)を参照してください。"
+msgstr ""
+"Set number of k points for SCF calculation. Please refer to `Quantum "
+"ESPRESSO manual <http://www.quantum-espresso.org/Doc/INPUT_PW.html>`_ "
+"(K_POINTS automatic) for detail."
+
+#: ../../python.rst:317
+msgid "k点分割数"
+msgstr "Number of k points"
+
+#: ../../python.rst:318
+msgid "オフセットを適用する(1)かしない(0)か"
+msgstr "if apply the offset (1) or not (0)"
+
+#: ../../python.rst:320
+msgid ">>> nanolabo.qe_set_kpoints(\"SiC\", 4, 4, 2, 0, 0, 0)"
+msgstr ""
+
+#: ../../python.rst:327
+msgid "元素に設定された質量\\ :ref:`**<pynotemass>`\\ を取得します。"
+msgstr "Get atomic mass :ref:`**<pynotemass>` currently set for an element."
+
+#: ../../python.rst:330 ../../python.rst:345 ../../python.rst:364
+#: ../../python.rst:379
+msgid "元素を元素記号で指定します。"
+msgstr "Specify element by element symbol."
+
+#: ../../python.rst:331
+msgid "元素の質量（原子質量単位）"
+msgstr "Mass of the element (atomic mass unit)"
+
+#: ../../python.rst:334
+msgid ""
+">>> nanolabo.qe_get_mass(\"SiC\", \"Si\")\n"
+"28.0855"
+msgstr ""
+
+#: ../../python.rst:342
+msgid "元素の質量\\ :ref:`**<pynotemass>`\\ を設定します。"
+msgstr "Set atomic mass :ref:`**<pynotemass>` for an element."
+
+#: ../../python.rst:346
+msgid "元素の質量（原子質量単位）を指定します。"
+msgstr "Specify mass of the element (atomic mass unit)."
+
+#: ../../python.rst:348
+msgid ">>> nanolabo.qe_set_mass(\"SiC\", \"Si\", 28.0855)"
+msgstr ""
+
+#: ../../python.rst:357
+msgid "元素の質量の設定は計算エンジンごとに独立しています。"
+msgstr "Mass for elements is separately set for each calculation engine."
+
+#: ../../python.rst:361
+msgid "元素に設定された擬ポテンシャルを取得します。"
+msgstr "Get pseudo potential currently set for an element."
+
+#: ../../python.rst:365
+msgid "擬ポテンシャルのファイル名"
+msgstr "Pseudo potential file name"
+
+#: ../../python.rst:368
+msgid ""
+">>> nanolabo.qe_get_pseudo(\"SiC\", \"Si\")\n"
+"'Si.pbe-rrkj.UPF'"
+msgstr ""
+
+#: ../../python.rst:376
+msgid "元素の擬ポテンシャルを設定します。"
+msgstr "Set pseudo potential for an element."
+
+#: ../../python.rst:380
+msgid "擬ポテンシャルをファイル名で指定します。"
+msgstr "Specify pseudo potential by file name."
+
+#: ../../python.rst:382
+msgid ">>> nanolabo.qe_set_pseudo(\"SiC\", \"Si\", \"Si.pbe-rrkj.UPF\")"
+msgstr ""
+
+#: ../../python.rst:389
+msgid "SCF計算で得られた全エネルギーを取得します。"
+msgstr "Get total energy obtained by SCF calculation."
+
+#: ../../python.rst:392
+msgid "SCF計算が収束している(1)かしていない(0)か、および全エネルギーの値(Ry)"
+msgstr ""
+"if SCF calculation is converged (1) or not (0), and the value of total "
+"energy (Ry)"
+
+#: ../../python.rst:395
+msgid ""
+">>> nanolabo.qe_get_total_energy(\"SiC\")\n"
+"[1, -38.43756505]"
+msgstr ""
+
+#: ../../python.rst:403
+msgid ""
+"第一原理構造最適化計算で得られた原子構造の情報をファイル :file:`ホームディレクトリ/.nanolabo/.tmp_inquiry` "
+"に出力します。ファイルは\\ :py:func:`set_all_atoms`\\ で読み込ませることができます。"
+msgstr ""
+"Export atomic structure information obtained by first principle structure"
+" optimization to :file:`home directory/.nanolabo/.tmp_inquiry` . You can "
+"import the file by :py:func:`set_all_atoms` ."
+
+#: ../../python.rst:406
+msgid "構造最適化が収束しているかどうか"
+msgstr "if structure optimization is converged"
+
+#: ../../python.rst:409
+msgid ""
+">>> nanolabo.qe_get_geometry(\"SiC\")\n"
+"True"
+msgstr ""
+

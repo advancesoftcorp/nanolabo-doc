@@ -165,3 +165,5 @@ imgmath_image_format = 'svg'
 def setup(app):
     app.add_stylesheet('css/custom.css')
     app.add_javascript('js/movies.js')
+
+gettext_additional_targets = ['literal-block']

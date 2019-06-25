@@ -18,6 +18,7 @@
    install
    flow
    usage
+   python
    demo
    version
    link
