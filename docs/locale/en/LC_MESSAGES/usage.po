@@ -670,7 +670,7 @@ msgid ""
 "で一つ上のフォルダー（ディレクトリ）に移動します。"
 msgstr ""
 "Click back button |back| or forward button |fwd| to go to previously "
-"displayed locations. Click up button |up| to go to theparent folder "
+"displayed locations. Click up button |up| to go to the parent folder "
 "(directory)."
 
 #: ../../usage/explorer.rst:59
@@ -1607,7 +1607,7 @@ msgid ""
 "で、充填する分子とその数を設定します。最初は分子のリストに水が設定されています。"
 msgstr ""
 "On the right side panel, set up the molecules and number of them to be "
-"packed in :guilabel:`Molecules to be Packed` . At first, watar is set in "
+"packed in :guilabel:`Molecules to be Packed` . At first, water is set in "
 "the molecules list."
 
 #: ../../usage/modeler.rst:130
@@ -1996,7 +1996,7 @@ msgid ""
 msgstr ""
 "There is an example configuration \"FOCUS\" for `FOCUS supercomputer "
 "<https://www.j-focus.or.jp/>`_ in the list.If you are planning to post "
-"jobs to FOCUS supercomputer, the easyest way is to select \"FOCUS\" from "
+"jobs to FOCUS supercomputer, the easiest way is to select \"FOCUS\" from "
 "the list and set it up."
 
 #: ../../usage/sshserver.rst:26
