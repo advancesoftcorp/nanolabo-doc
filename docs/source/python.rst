@@ -18,7 +18,7 @@ Windowsでの使用には、pywin32モジュールが必要です。\ ``pip``\ �
 
  > python -m pip install pywin32
 
-NanoLaboのインストール先にある\ :file:`nanolabo.py`\ をインポートすることで、モジュール名 ``nanolabo`` を使って関数にアクセスできるようになります。
+モジュールファイル\ :file:`nanolabo.py`\ がWindows・Linux版はNanoLaboのインストール先、macOS版はインストーラーdmgの :file:`python` フォルダにあります。必要に応じて好きな場所にコピーし、お使いください。これをインポートすることで、モジュール名 ``nanolabo`` を使って関数にアクセスできるようになります。
 
 .. code-block:: python
 
