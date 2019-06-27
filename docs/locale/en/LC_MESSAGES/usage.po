@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 03:16+0900\n"
+"POT-Creation-Date: 2019-06-27 19:39+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -949,6 +949,18 @@ msgstr ""
 "In addition, click on the text saying :guilabel:`Materials Finder` to "
 "configure detailed settings such as API key."
 
+#: ../../usage/initial.rst:92
+msgid "分子作成"
+msgstr "Create molecule"
+
+#: ../../usage/initial.rst:94 ../../usage/modeler.rst:108
+msgid ""
+"分子エディタ―\\ `JSME <http://peter-ertl.com/jsme/>`_\\ "
+"を使用し、作図した構造をそのままモデルとして使用できます。"
+msgstr ""
+"Draw a molecule structure using the molecular "
+"editor `JSME <http://peter-ertl.com/jsme/>`_\\ , and use it as the model."
+
 #: ../../usage/inputeditor.rst:5
 msgid "入力ファイルエディター"
 msgstr "Input File Editor"
@@ -984,11 +996,17 @@ msgstr ""
 
 #: ../../usage/inputeditor.rst:20
 msgid "入力欄が黄色くなった場合は、その値が適切でないことを示します。また、入力欄が赤くなった場合は、その値では計算ができない（実行してもエラーになる）ことを示します。入力欄をポイントすると入力可能な値の範囲が表示されます。入力欄を右クリックするとアンドゥ等の操作ができます。"
-msgstr "Yellow input field indicates the value is not appropriate. Red input field indicates calculation with the value cannot be done (ends in error). Point the input field to see possible range of the value. Right click the input field for undo etc."
+msgstr ""
+"Yellow input field indicates the value is not appropriate. Red input "
+"field indicates calculation with the value cannot be done (ends in "
+"error). Point the input field to see possible range of the value. Right "
+"click the input field for undo etc."
 
 #: ../../usage/inputeditor.rst:24
 msgid "スライダーは、マウス操作で値を設定するほか、右クリックメニューの :guilabel:`Input directly` で値を直接入力できます。"
-msgstr "Besides the mouse manipulation, you can directly set value to a slider from its right click menu."
+msgstr ""
+"Besides the mouse manipulation, you can directly set value to a slider "
+"from its right click menu."
 
 #: ../../usage/inputeditor.rst:28
 msgid "いくつかの設定画面については補足説明がありますので、以下のリンクよりご覧ください。"
@@ -1151,7 +1169,9 @@ msgstr ""
 
 #: ../../usage/inputeditorlammps.rst:33
 msgid ":guilabel:`Non-Bonded Interactions` 欄の各行を右クリックすると、割り当ての詳細を確認できます。"
-msgstr "Right click each row in :guilabel:`Non-Bonded Interactions` field to check the detail of the assignment."
+msgstr ""
+"Right click each row in :guilabel:`Non-Bonded Interactions` field to "
+"check the detail of the assignment."
 
 #: ../../usage/inputeditorlammps.rst:40
 msgid "Scheme（計算過程）"
@@ -1550,14 +1570,6 @@ msgstr ""
 #: ../../usage/modeler.rst:106
 msgid "分子エディタ―"
 msgstr "Drawing a molecule"
-
-#: ../../usage/modeler.rst:108
-msgid ""
-"分子エディタ―\\ `JSME <http://peter-ertl.com/jsme/>`_\\ "
-"を使用し、作図した構造をそのままモデルとして使用できます。"
-msgstr ""
-"Draw a molecule structure and use it as the model, using the molecular "
-"editor `JSME <http://peter-ertl.com/jsme/>`_ ."
 
 #: ../../usage/modeler.rst:110
 msgid ""

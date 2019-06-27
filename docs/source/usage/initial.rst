@@ -85,3 +85,10 @@
 .. _SMILES: http://www.daylight.com/smiles/index.html
 
 また、 :guilabel:`Materials Finder` と書かれた部分をクリックすることで、APIキーなどの詳細な設定を行います。
+
+.. _createmolecule:
+
+分子作成
+-----------------------
+
+分子エディタ―\ `JSME <http://peter-ertl.com/jsme/>`_\ を使用し、作図した構造をそのままモデルとして使用できます。
