@@ -9,24 +9,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-20 10:24+0900\n"
+"POT-Creation-Date: 2019-06-28 15:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.5.3\n"
 
 #: ../../version.rst:5
 msgid "バージョン情報"
 msgstr "Version Information"
 
-#: ../../version.rst:13
+#: ../../version.rst:14
 msgid "2019/06/28 バージョン1.2"
-msgstr "2019/05/09 Version 1.2"
+msgstr "2019/06/28 Version 1.2"
 
-#: ../../version.rst:8 ../../version.rst:16 ../../version.rst:29
+#: ../../version.rst:8 ../../version.rst:17 ../../version.rst:30
 msgid "機能追加"
 msgstr "New features"
 
@@ -38,87 +38,91 @@ msgstr "Nudged Elastic Band (NEB) method"
 msgid "Effective Screening Medium（ESM）法"
 msgstr "Effective Screening Medium（ESM）method"
 
-#: ../../version.rst:13
+#: ../../version.rst:12
+msgid "Python連携"
+msgstr "Cooperation with Python"
+
+#: ../../version.rst:14
 msgid "原子構造ビューアーの機能改善"
 msgstr "Tune-up of atomic viewer"
 
-#: ../../version.rst:22
+#: ../../version.rst:23
 msgid "2019/05/09 バージョン1.1.2"
 msgstr "2019/05/09 Version 1.1.2"
 
-#: ../../version.rst:18
+#: ../../version.rst:19
 msgid "起動時アップデートチェック"
 msgstr "Update check at startup"
 
-#: ../../version.rst:19
+#: ../../version.rst:20
 msgid "ラムダシステム"
 msgstr "Lambda System"
 
-#: ../../version.rst:21
+#: ../../version.rst:22
 msgid "LAMMPSでReaxFF使用時にreal単位系を使うよう修正"
 msgstr "Fixed to use real unit system when using ReaxFF in LAMMPS"
 
-#: ../../version.rst:22
+#: ../../version.rst:23
 msgid "その他、動作改善・バグ修正等"
 msgstr "Tune-ups, bug fixes, etc."
 
-#: ../../version.rst:25
+#: ../../version.rst:26
 msgid "2019/01/18 バージョン1.1.1"
 msgstr "2019/01/18 Version 1.1.1"
 
-#: ../../version.rst:25
+#: ../../version.rst:26
 msgid "バグ修正（プロキシ使用時の通信不具合）"
 msgstr "Bug fix (connection problem when using proxy)"
 
-#: ../../version.rst:40
+#: ../../version.rst:41
 msgid "2018/12/21 バージョン1.1"
 msgstr "2018/12/21 Version 1.1"
 
-#: ../../version.rst:28
+#: ../../version.rst:29
 msgid "macOS対応"
 msgstr "macOS support"
 
-#: ../../version.rst:31
+#: ../../version.rst:32
 msgid "計算サーバーへのジョブ投入（SSH接続）"
 msgstr "Post jobs to calculation server (SSH connection)"
 
-#: ../../version.rst:32
+#: ../../version.rst:33
 msgid "有機分子の描画"
 msgstr "Drawing a molecule"
 
-#: ../../version.rst:33
+#: ../../version.rst:34
 msgid "表面への小分子吸着"
 msgstr "Molecular adsorption onto slab"
 
-#: ../../version.rst:34
+#: ../../version.rst:35
 msgid "溶媒分子充填"
 msgstr "Packing molecules"
 
-#: ../../version.rst:35
+#: ../../version.rst:36
 msgid "Primitive Cell、Standard Cellの自動決定"
 msgstr "Automatically find Primitive Cell / Standard Cell"
 
-#: ../../version.rst:36
+#: ../../version.rst:37
 msgid "空間群の判定"
 msgstr "Detect space group"
 
-#: ../../version.rst:37
+#: ../../version.rst:38
 msgid "外部テキストエディターでのファイル表示"
 msgstr "Open files with external text editor"
 
-#: ../../version.rst:38
+#: ../../version.rst:39
 msgid "エクスプローラーの機能強化"
 msgstr "Enhancement of explorer functions"
 
-#: ../../version.rst:40
+#: ../../version.rst:41
 msgid "その他、バグ修正等"
 msgstr "Bug fixes, etc."
 
-#: ../../version.rst:42
+#: ../../version.rst:43
 msgid "2018/08/01 バージョン1.0"
 msgstr "2018/08/01 Version 1.0"
 
-#: ../../version.rst:43
+#: ../../version.rst:44
 msgid "初回リリース"
 msgstr "Initial release"
 

@@ -13,7 +13,7 @@
 
  `Advance/NanoLabo (ver.1.2) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.2/install_nanolabo_linux_v1.2.bin>`_
 
- `Advance/NanoLabo Tool (ver.1.2) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.2/install_nanolabo_tool_linux_v1.2.bin>`_
+ `Advance/NanoLabo Tool (ver.1.1) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.1/install_nanolabo_tool_linux_v1.1.bin>`_
 
 インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先ディレクトリにコピーされます。
 

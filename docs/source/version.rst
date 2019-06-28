@@ -9,6 +9,7 @@
 
    - Nudged Elastic Band（NEB）法　
    - Effective Screening Medium（ESM）法
+   - Python連携
 
  - 原子構造ビューアーの機能改善
 

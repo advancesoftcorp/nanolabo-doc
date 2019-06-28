@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-25 20:13+0900\n"
+"POT-Creation-Date: 2019-06-28 15:31+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,9 +50,9 @@ msgstr ""
 
 #: ../../install/linux.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.1.2) <https://github.com/advancesoftcorp"
+"`Advance/NanoLabo Tool (ver.1.1) <https://github.com/advancesoftcorp"
 "/nanolabo-"
-"doc/releases/download/v1.2/install_nanolabo_tool_linux_v1.2.bin>`_"
+"doc/releases/download/v1.1/install_nanolabo_tool_linux_v1.1.bin>`_"
 msgstr ""
 
 #: ../../install/linux.rst:18
@@ -846,5 +846,11 @@ msgstr ""
 #~ "`Advance/NanoLabo (ver.1.1.1) "
 #~ "<https://github.com/advancesoftcorp/nanolabo-"
 #~ "doc/releases/download/v1.1.1/install_nanolabo_windows_v1.1.1.exe>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Advance/NanoLabo Tool (ver.1.2) "
+#~ "<https://github.com/advancesoftcorp/nanolabo-"
+#~ "doc/releases/download/v1.2/install_nanolabo_tool_linux_v1.2.bin>`_"
 #~ msgstr ""
 
