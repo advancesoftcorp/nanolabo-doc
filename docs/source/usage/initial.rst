@@ -65,7 +65,7 @@
 材料データベース検索 (Materials Finder)
 ------------------------------------------
 
-右上の入力欄に物質名や化学式を入力することで、外部の材料データベース（\ `Materials Project <https://materialsproject.org/>`_\ 、\ `PubChem <https://pubchem.ncbi.nlm.nih.gov/>`_\ ）から構造情報ファイルを検索します。検索結果から解析したい構造情報ファイルを開くと、そのまま解析を行うプロジェクト画面に移行できます。
+右上の入力欄に物質名や化学式を入力することで、外部の材料データベース（\ `Materials Project <https://materialsproject.org/>`_\ 、\ `PubChem <https://pubchem.ncbi.nlm.nih.gov/>`_\ ）から構造情報ファイルを検索します。検索結果から解析したい構造情報ファイルを開くと、そのまま解析を行うプロジェクト画面に移行できます。また、検索結果のアイコンの右クリックメニューから、各データベースのウェブページを開くことができます。
 
 .. table::
    :widths: auto
@@ -84,7 +84,7 @@
 
 .. _SMILES: http://www.daylight.com/smiles/index.html
 
-また、 :guilabel:`Materials Finder` と書かれた部分をクリックすることで、APIキーなどの詳細な設定を行います。
+:guilabel:`Materials Finder` と書かれた部分をクリックすることで、APIキーなどの詳細な設定を行います。
 
 .. _createmolecule:
 
