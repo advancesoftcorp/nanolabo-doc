@@ -22,6 +22,13 @@
 入力ファイルエディター（Quantum ESPRESSO固有の設定）
 ==========================================================
 
+.. _pseudopotential:
+
+擬ポテンシャルの設定
+================================
+
+画面右下のメニュー |editormenuicon| から :guilabel:`Geometry` を選び、 :guilabel:`Elements` の :guilabel:`Element's Properties` で擬ポテンシャルの設定を行います。各元素の :guilabel:`Pseudopotential` 欄にあるボタンをクリックすると、擬ポテンシャルファイルを選択できます。また、設定に応じたカットオフエネルギーの推奨値が下部に表示されます。
+
 .. _kpointpath:
 
 バンド計算の経路

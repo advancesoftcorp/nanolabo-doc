@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-01 11:38+0900\n"
+"POT-Creation-Date: 2019-07-02 14:27+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -905,9 +905,9 @@ msgstr ""
 "<https://materialsproject.org/>`_\\ , `PubChem "
 "<https://pubchem.ncbi.nlm.nih.gov/>`_\\ ) for structure information "
 "files. Open a structure information file you'd like to analyze to "
-"directly switch to project view, where you can perform analysis. "
-"You can also check the webpage in database from right click menu of "
-"the search result icons."
+"directly switch to project view, where you can perform analysis. You can "
+"also check the webpage in database from right click menu of the search "
+"result icons."
 
 #: ../../usage/initial.rst:74
 msgid "検索に使用できる表記"
@@ -948,8 +948,8 @@ msgstr ""
 #: ../../usage/initial.rst:87
 msgid ":guilabel:`Materials Finder` と書かれた部分をクリックすることで、APIキーなどの詳細な設定を行います。"
 msgstr ""
-"Click on the text saying :guilabel:`Materials Finder` to "
-"configure detailed settings such as API key."
+"Click on the text saying :guilabel:`Materials Finder` to configure "
+"detailed settings such as API key."
 
 #: ../../usage/initial.rst:92
 msgid "分子作成"
@@ -1222,10 +1222,24 @@ msgid "入力ファイルエディター（Quantum ESPRESSO固有の設定）"
 msgstr "Input File Editor (Quantum ESPRESSO specific settings)"
 
 #: ../../usage/inputeditorqe.rst:28
+msgid "擬ポテンシャルの設定"
+msgstr "Pseudopotential"
+
+#: ../../usage/inputeditorqe.rst:30
+msgid ""
+"画面右下のメニュー |editormenuicon| から :guilabel:`Geometry` を選び、 "
+":guilabel:`Elements` の :guilabel:`Element's Properties` "
+"で擬ポテンシャルの設定を行います。各元素の :guilabel:`Pseudopotential` "
+"欄にあるボタンをクリックすると、擬ポテンシャルファイルを選択できます。また、設定に応じたカットオフエネルギーの推奨値が下部に表示されます。"
+msgstr "For pseudopotential settings, choose :guilabel:`Geometry` from the menu |editormenuicon| on the lower right, then find "
+":guilabel:`Element's Properties` in :guilabel:`Elements` . Click the button in :guilabel:`Pseudopotential` column to choose the pseudopotential file for the element. "
+"Suggested cutoff energy will be shown below the table."
+
+#: ../../usage/inputeditorqe.rst:35
 msgid "バンド計算の経路"
 msgstr "Path of the band calculation"
 
-#: ../../usage/inputeditorqe.rst:30
+#: ../../usage/inputeditorqe.rst:37
 msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`Band` または :guilabel:`Ph. "
 "Dispersion` を選ぶと、設定項目の中に :guilabel:`Path through B.Z.` "
@@ -1236,7 +1250,7 @@ msgstr ""
 "through B.Z.` among the setting items. Setting method of that item is "
 "described."
 
-#: ../../usage/inputeditorqe.rst:32
+#: ../../usage/inputeditorqe.rst:39
 msgid ""
 ":guilabel:`Symbol` では、経由する点を指定します。リストボックス中に無い任意の点を指定したい場合は、 "
 ":guilabel:`Symbol` を空白にし、座標を :guilabel:`kx, ky, kz` （または :guilabel:`qx, "
@@ -1246,13 +1260,13 @@ msgstr ""
 "not in the list box, leave :guilabel:`Symbol` empty and enter the "
 "coordinate in :guilabel:`kx, ky, kz` (or :guilabel:`qx, qy, qz` )."
 
-#: ../../usage/inputeditorqe.rst:34
+#: ../../usage/inputeditorqe.rst:41
 msgid "点の追加、削除、入れ替えは行の右クリックメニューから行います。追加の際は、クリックした行の次に新しい行が挿入されます。"
 msgstr ""
 "Add, delete or reorder the point from the right click menu of the row. "
 "When you add a point, a new row is inserted next to the clicked row."
 
-#: ../../usage/inputeditorqe.rst:36
+#: ../../usage/inputeditorqe.rst:43
 msgid ""
 ":guilabel:`nk` （または :guilabel:`nq` "
 "）には、その行と次の行で指定した点の間で計算する点の数を指定します。例えば画像の1行目では :guilabel:`nk` "
@@ -1265,7 +1279,7 @@ msgstr ""
 "|gamma| point specified in that row and Y point specified in the next "
 "row."
 
-#: ../../usage/inputeditorqe.rst:38
+#: ../../usage/inputeditorqe.rst:45
 msgid ""
 "また :guilabel:`nk` "
 "に0を入力すると、その行と次の行で指定した点の間では計算を行いません。バンド図上では、その行と次の行の点が重なって表示されます。"
@@ -1274,11 +1288,11 @@ msgstr ""
 "points specified in that row and the next row. On the band diagram, the "
 "points of that row and the next row are displayed merged."
 
-#: ../../usage/inputeditorqe.rst:49
+#: ../../usage/inputeditorqe.rst:56
 msgid "ESM法の設定"
 msgstr "ESM method"
 
-#: ../../usage/inputeditorqe.rst:51
+#: ../../usage/inputeditorqe.rst:58
 msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`SCF` を選ぶと、設定項目の中にIsolated "
 "Systemがあります。Isolated Systemの中にあるIsolation MethodからEffective Screening "
@@ -1288,17 +1302,17 @@ msgstr ""
 " Then select Effective Screening Medium from the menu Isolation Method in"
 " Isolated System. "
 
-#: ../../usage/inputeditorqe.rst:53
+#: ../../usage/inputeditorqe.rst:60
 msgid "ESM法を有効にすると、計算の都合上、原子構造がスラブ面の法線方向にシフトすることがあります。"
 msgstr ""
 "Selection of ESM method causes the atomic positions to move vertically to"
 " the surface. "
 
-#: ../../usage/inputeditorqe.rst:60
+#: ../../usage/inputeditorqe.rst:67
 msgid "NEB法の設定"
 msgstr "NEB method"
 
-#: ../../usage/inputeditorqe.rst:62
+#: ../../usage/inputeditorqe.rst:69
 msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`NEB` "
 "を選ぶと、設定項目の中にImagesがあります。ImagesではNEB法の計算に用いる初期イメージの編集を行います。この設定方法を説明します。"
@@ -1307,7 +1321,7 @@ msgstr ""
 "you will find Images among the setting items. You can configure initial "
 "images for NEB calculation. Setting method of that item is described. "
 
-#: ../../usage/inputeditorqe.rst:64
+#: ../../usage/inputeditorqe.rst:71
 msgid ""
 "はじめは現在のプロジェクトの構造のみがイメージ（First）に追加されています。この状態で |add| "
 "をクリックするとプロジェクトの選択画面が出るので、他端のイメージ（Last）を指定します。このとき中間イメージ（Intermediate）が自動で生成されます。"
@@ -1316,29 +1330,29 @@ msgstr ""
 "project. Then click |add| and select a project to add the last image. "
 "Concurrently intermediate images will be added automatically. "
 
-#: ../../usage/inputeditorqe.rst:68
+#: ../../usage/inputeditorqe.rst:75
 msgid "個別のイメージに対する操作は各行のボタンから行います。"
 msgstr "The buttons on each row allow the following operations: "
 
-#: ../../usage/inputeditorqe.rst:70
+#: ../../usage/inputeditorqe.rst:77
 msgid "イメージを追加するには |add| をクリックします。選択中のイメージの後に新規イメージが挿入されます。"
 msgstr ""
 "Click |add| to insert an image. A new image is inserted after the "
 "selected one."
 
-#: ../../usage/inputeditorqe.rst:71
+#: ../../usage/inputeditorqe.rst:78
 msgid "イメージを削除するには |remove| をクリックします。"
 msgstr "Click |remove| to remove an image."
 
-#: ../../usage/inputeditorqe.rst:72
+#: ../../usage/inputeditorqe.rst:79
 msgid "イメージを別の構造に置き換えるには、 |import| をクリックして、置き換えたい構造を含むプロジェクトを選びます。"
 msgstr "Click |import| and select a project to replace an image with another."
 
-#: ../../usage/inputeditorqe.rst:73
+#: ../../usage/inputeditorqe.rst:80
 msgid "イメージの構造を確認するには、 |view| をクリックします。選択中のイメージ以外は残像で表示されます。"
 msgstr "Click |view| to highlight an image. "
 
-#: ../../usage/inputeditorqe.rst:75
+#: ../../usage/inputeditorqe.rst:82
 msgid "イメージ全体をスムーズ化するには、 |to_be_smooth| をクリックします。"
 msgstr "Also you can click |to_be_smooth| to smoothen a series of images."
 
