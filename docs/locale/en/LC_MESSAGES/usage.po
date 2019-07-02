@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-02 14:27+0900\n"
+"POT-Creation-Date: 2019-07-02 15:08+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1231,9 +1231,12 @@ msgid ""
 ":guilabel:`Elements` の :guilabel:`Element's Properties` "
 "で擬ポテンシャルの設定を行います。各元素の :guilabel:`Pseudopotential` "
 "欄にあるボタンをクリックすると、擬ポテンシャルファイルを選択できます。また、設定に応じたカットオフエネルギーの推奨値が下部に表示されます。"
-msgstr "For pseudopotential settings, choose :guilabel:`Geometry` from the menu |editormenuicon| on the lower right, then find "
-":guilabel:`Element's Properties` in :guilabel:`Elements` . Click the button in :guilabel:`Pseudopotential` column to choose the pseudopotential file for the element. "
-"Suggested cutoff energy will be shown below the table."
+msgstr ""
+"For pseudopotential settings, choose :guilabel:`Geometry` from the menu "
+"|editormenuicon| on the lower right, then find :guilabel:`Element's "
+"Properties` in :guilabel:`Elements` . Click the button in "
+":guilabel:`Pseudopotential` column to choose the pseudopotential file for"
+" the element. Suggested cutoff energy will be shown below the table."
 
 #: ../../usage/inputeditorqe.rst:35
 msgid "バンド計算の経路"
@@ -1991,6 +1994,15 @@ msgstr ""
 #: ../../usage/result.rst:56
 msgid ":guilabel:`Text editor` をクリックすると、外部のテキストエディターでファイルを開きます。"
 msgstr "Click :guilabel:`Text editor` to open the file with external text editor."
+
+#: ../../usage/result.rst:63
+msgid "原子構造の更新"
+msgstr "Update atomic configuration"
+
+#: ../../usage/result.rst:65
+msgid "原子構造の変化を伴う計算を行った後、更新 |updateatomconfig| をクリックすると、プロジェクトの原子構造を変化後のものに更新します。"
+msgstr "After performing a calculation involving changes in atomic configuration, "
+"click Update |updateatomconfig| to update the project's atomic configuration to the changed one."
 
 #: ../../usage/sshserver.rst:5
 msgid "SSHサーバーの設定"

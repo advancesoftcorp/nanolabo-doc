@@ -56,3 +56,12 @@
 :guilabel:`Text editor` をクリックすると、外部のテキストエディターでファイルを開きます。
 
 .. image:: /img/text.png
+
+.. _updateatomconfig:
+
+原子構造の更新
+===========================
+
+原子構造の変化を伴う計算を行った後、更新 |updateatomconfig| をクリックすると、プロジェクトの原子構造を変化後のものに更新します。
+
+.. |updateatomconfig| image:: /img/updateatomconfig.png
