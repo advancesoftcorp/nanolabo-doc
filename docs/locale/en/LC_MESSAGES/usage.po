@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-02 15:08+0900\n"
+"POT-Creation-Date: 2019-07-05 13:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -946,10 +946,13 @@ msgid "methyl isocyanate"
 msgstr ""
 
 #: ../../usage/initial.rst:87
-msgid ":guilabel:`Materials Finder` と書かれた部分をクリックすることで、APIキーなどの詳細な設定を行います。"
-msgstr ""
-"Click on the text saying :guilabel:`Materials Finder` to configure "
-"detailed settings such as API key."
+msgid ""
+":guilabel:`Materials Finder` と書かれた部分をクリックすることで、説明が表示されます。Materials "
+"Projectのアカウントをお持ちの場合、ここで\\ `APIキー <https://materialsproject.org/open>`_\\"
+" を設定することで、基本単位胞／慣用単位胞のどちらを取得するか選択できるようになります。"
+msgstr "Click on the text saying Materials Finder to show the description. If you have "
+"Materials Project account, set your `API key <https://materialsproject.org/open>`_ here "
+"and you can choose either to retrieve primitive cell / standard cell."
 
 #: ../../usage/initial.rst:92
 msgid "分子作成"
@@ -2001,8 +2004,10 @@ msgstr "Update atomic configuration"
 
 #: ../../usage/result.rst:65
 msgid "原子構造の変化を伴う計算を行った後、更新 |updateatomconfig| をクリックすると、プロジェクトの原子構造を変化後のものに更新します。"
-msgstr "After performing a calculation involving changes in atomic configuration, "
-"click Update |updateatomconfig| to update the project's atomic configuration to the changed one."
+msgstr ""
+"After performing a calculation involving changes in atomic configuration,"
+" click Update |updateatomconfig| to update the project's atomic "
+"configuration to the changed one."
 
 #: ../../usage/sshserver.rst:5
 msgid "SSHサーバーの設定"
