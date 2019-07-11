@@ -2040,7 +2040,7 @@ msgid ""
 "用の設定例「FOCUS」が入っています。FOCUSスパコンへのジョブ投入を行う場合は、リストで「FOCUS」を選択し、設定していただくと簡単です。"
 msgstr ""
 "There is an example configuration \"FOCUS\" for `FOCUS supercomputer "
-"<https://www.j-focus.or.jp/>`_ in the list.If you are planning to post "
+"<https://www.j-focus.or.jp/>`_ in the list. If you are planning to post "
 "jobs to FOCUS supercomputer, the easiest way is to select \"FOCUS\" from "
 "the list and set it up."
 
