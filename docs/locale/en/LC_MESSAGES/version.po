@@ -36,7 +36,7 @@ msgstr "Nudged Elastic Band (NEB) method"
 
 #: ../../version.rst:11
 msgid "Effective Screening Medium（ESM）法"
-msgstr "Effective Screening Medium（ESM）method"
+msgstr "Effective Screening Medium (ESM) method"
 
 #: ../../version.rst:12
 msgid "Python連携"
