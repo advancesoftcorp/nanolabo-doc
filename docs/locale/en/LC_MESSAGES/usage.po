@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-05 13:13+0900\n"
+"POT-Creation-Date: 2019-07-25 12:49+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,8 +39,8 @@ msgstr ""
 msgid "視点の操作"
 msgstr "Viewpoint manipulation"
 
-#: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:105
-#: ../../usage/atomsviewer.rst:137
+#: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:109
+#: ../../usage/atomsviewer.rst:141
 msgid "操作"
 msgstr "Operation"
 
@@ -60,67 +60,67 @@ msgstr "Rotation"
 msgid "ドラッグ"
 msgstr "Drag"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:20
 msgid "矢印キー"
 msgstr "Arrow key"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:22
 msgid "（:kbd:`Ctrl` + 矢印キーで微調整）"
 msgstr "(:kbd:`Ctrl` + Arrow key to fine-tune)"
 
-#: ../../usage/atomsviewer.rst:23
+#: ../../usage/atomsviewer.rst:24
 msgid "ズーム"
 msgstr "Zoom"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:24
 msgid "ホイールスクロール"
 msgstr "Wheel scroll"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:26
 msgid ":kbd:`Alt` + 上下ドラッグ"
 msgstr ":kbd:`Alt` + drag up or down"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:24
 msgid ":kbd:`Alt` + 上下矢印キー"
 msgstr ":kbd:`Alt` + Up or Down arrow key"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:26
 msgid "（:kbd:`Ctrl` + :kbd:`Alt` + 上下矢印キーで微調整）"
 msgstr "(:kbd:`Ctrl` + :kbd:`Alt` + Up or Down arrow key to fine-tune)"
 
-#: ../../usage/atomsviewer.rst:26
+#: ../../usage/atomsviewer.rst:28
 msgid "移動"
 msgstr "Move"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:28
 msgid "ホイールドラッグ"
 msgstr "Wheel drag"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:30
 msgid ":kbd:`Shift` + ドラッグ"
 msgstr ":kbd:`Shift` + drag"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:28
 msgid ":kbd:`Shift` + 矢印キー"
 msgstr ":kbd:`Shift` + Arrow key"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:30
 msgid "（:kbd:`Ctrl` + :kbd:`Shift` + 矢印キーで微調整）"
 msgstr "(:kbd:`Ctrl` + :kbd:`Shift` + Arrow key to fine-tune)"
 
-#: ../../usage/atomsviewer.rst:29
+#: ../../usage/atomsviewer.rst:32
 msgid "リセット"
 msgstr "Reset"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:32
 msgid ":kbd:`0`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:34
 msgid ":kbd:`1`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:33
+#: ../../usage/atomsviewer.rst:37
 msgid ""
 "右クリックメニューの :guilabel:`Operations for Atoms` "
 "をクリックすると、視点を微調整するためのウィンドウが表示されます。"
@@ -128,11 +128,11 @@ msgstr ""
 "In the right click menu, click :guilabel:`Operations for Atoms` to show "
 "the window for fine-tuning the viewpoint."
 
-#: ../../usage/atomsviewer.rst:38
+#: ../../usage/atomsviewer.rst:42
 msgid "表示デザインの変更"
 msgstr "Changing display design"
 
-#: ../../usage/atomsviewer.rst:40
+#: ../../usage/atomsviewer.rst:44
 msgid ""
 "画面左下のメニュー |projectmenuicon| から :guilabel:`Designer` "
 "をクリックして、デザイン変更画面を開いてください。画面右側のパネルで、3Dモデルの表示方法を詳細に設定できます。設定が終わりましたら、左下の戻るボタン"
@@ -144,81 +144,81 @@ msgstr ""
 "done, click back button |back| on the lower left to go back to previous "
 "view."
 
-#: ../../usage/atomsviewer.rst:50
+#: ../../usage/atomsviewer.rst:54
 msgid "原子構造の簡単な編集"
 msgstr "Simple edits of atomic structure"
 
-#: ../../usage/atomsviewer.rst:55
+#: ../../usage/atomsviewer.rst:59
 msgid "原子の変更"
 msgstr "Changing atom"
 
-#: ../../usage/atomsviewer.rst:57
+#: ../../usage/atomsviewer.rst:61
 msgid "変更したい原子を右クリックし、メニューから :guilabel:`Rename selected atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to change, and then click "
 ":guilabel:`Rename selected atoms` from the menu."
 
-#: ../../usage/atomsviewer.rst:58
+#: ../../usage/atomsviewer.rst:62
 msgid "周期律表が表示されますので、元素を選択してください。"
 msgstr "Choose an element from the periodic table."
 
-#: ../../usage/atomsviewer.rst:59
+#: ../../usage/atomsviewer.rst:63
 msgid "原子が選択した元素に変更されます。"
 msgstr "The atom(s) is changed to the selected element."
 
-#: ../../usage/atomsviewer.rst:64
+#: ../../usage/atomsviewer.rst:68
 msgid "原子の削除"
 msgstr "Deleting atom"
 
-#: ../../usage/atomsviewer.rst:66
+#: ../../usage/atomsviewer.rst:70
 msgid "削除したい原子を右クリックし、メニューから :guilabel:`Delete selected atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to delete, and then click "
 ":guilabel:`Delete selected atoms` from the menu."
 
-#: ../../usage/atomsviewer.rst:67
+#: ../../usage/atomsviewer.rst:71
 msgid "確認が表示されますので、 :guilabel:`OK` をクリックすると、原子が削除されます。"
 msgstr "Confirmation window appears. Click :guilabel:`OK` to delete the atom(s)."
 
-#: ../../usage/atomsviewer.rst:72
+#: ../../usage/atomsviewer.rst:76
 msgid "原子の移動"
 msgstr "Moving atom"
 
-#: ../../usage/atomsviewer.rst:74
+#: ../../usage/atomsviewer.rst:78
 msgid "移動したい原子を右クリックし、メニューから :guilabel:`Move selected atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to move, and then click :guilabel:`Move "
 "selected atoms` from the menu."
 
-#: ../../usage/atomsviewer.rst:75
+#: ../../usage/atomsviewer.rst:79
 msgid "緑色の平面と、黒色の法線が表示されます。ドラッグ（または矢印キー）で平面を回転させます。選択した原子をドラッグすると、平面に沿って移動させることができます。"
 msgstr ""
 "Green plane and black normal line are shown. Use dragging (or arrow keys)"
 " to rotate the plane. You can then drag selected atom(s) along the plane."
 
-#: ../../usage/atomsviewer.rst:76
+#: ../../usage/atomsviewer.rst:80
 msgid "ドロップ（マウスのボタンを離す）すると、位置が確定します。"
 msgstr "Drop (release mouse button) to fix the position."
 
-#: ../../usage/atomsviewer.rst:81
+#: ../../usage/atomsviewer.rst:85
 msgid "原子の追加"
 msgstr "Putting atom"
 
-#: ../../usage/atomsviewer.rst:83
+#: ../../usage/atomsviewer.rst:87
 msgid "原子を追加したい位置を右クリックし、メニューから :guilabel:`Put an atom` をクリックします。"
 msgstr ""
 "Right click where you want to put an atom. Click :guilabel:`Put an atom` "
 "from the menu."
 
-#: ../../usage/atomsviewer.rst:84
+#: ../../usage/atomsviewer.rst:88
 msgid "周期律表が表示されますので、元素を選択すると、原子が追加されます。"
 msgstr "Choose an element from the periodic table to put the atom."
 
-#: ../../usage/atomsviewer.rst:89
+#: ../../usage/atomsviewer.rst:93
 msgid "原子の切り取り・コピー・貼り付け"
 msgstr "Cut / copy / paste atom"
 
-#: ../../usage/atomsviewer.rst:91
+#: ../../usage/atomsviewer.rst:95
 msgid ""
 "切り取りまたはコピーしたい原子を右クリックし、メニューから :guilabel:`Cut selected atoms` または "
 ":guilabel:`Copy selected atoms` をクリックします。"
@@ -227,7 +227,7 @@ msgstr ""
 ":guilabel:`Cut selected atoms` or :guilabel:`Copy selected atoms` from "
 "the menu."
 
-#: ../../usage/atomsviewer.rst:92
+#: ../../usage/atomsviewer.rst:96
 msgid ""
 "貼り付けたい位置を右クリックし、 :guilabel:`Paste copied atoms` "
 "をクリックします。元とは別のプロジェクトに貼り付けることもできます。"
@@ -236,65 +236,65 @@ msgstr ""
 ":guilabel:`Paste copied atoms` from the menu. You can paste it to a "
 "different project from the original."
 
-#: ../../usage/atomsviewer.rst:97
+#: ../../usage/atomsviewer.rst:101
 msgid "複数原子の選択・選択解除"
 msgstr "Select / deselect multiple atoms"
 
-#: ../../usage/atomsviewer.rst:99
+#: ../../usage/atomsviewer.rst:103
 msgid "複数の原子を選択して、変更・削除・移動操作を行えます。選択中の原子はワイヤーフレーム表示になります。"
 msgstr ""
 "You can select multiple atoms and change / remove / move them all at "
 "once. Selected atoms are displayed in wire frame."
 
-#: ../../usage/atomsviewer.rst:107
+#: ../../usage/atomsviewer.rst:111
 msgid "矩形選択"
 msgstr "Rectangle select"
 
-#: ../../usage/atomsviewer.rst:107
+#: ../../usage/atomsviewer.rst:111
 msgid ":kbd:`Ctrl` + ドラッグ"
 msgstr ":kbd:`Ctrl` + drag"
 
-#: ../../usage/atomsviewer.rst:109
+#: ../../usage/atomsviewer.rst:113
 msgid "矩形選択解除"
 msgstr "Rectangle deselect"
 
-#: ../../usage/atomsviewer.rst:109
+#: ../../usage/atomsviewer.rst:113
 msgid ":kbd:`Ctrl` + 右ドラッグ"
 msgstr ":kbd:`Ctrl` + right drag"
 
-#: ../../usage/atomsviewer.rst:111
+#: ../../usage/atomsviewer.rst:115
 msgid "個々の原子を選択・選択解除"
 msgstr "Individual select / deselect"
 
-#: ../../usage/atomsviewer.rst:111
+#: ../../usage/atomsviewer.rst:115
 msgid "ダブルクリック"
 msgstr "double click"
 
-#: ../../usage/atomsviewer.rst:113 ../../usage/atomsviewer.rst:139
+#: ../../usage/atomsviewer.rst:117 ../../usage/atomsviewer.rst:143
 msgid "全選択"
 msgstr "Select all"
 
-#: ../../usage/atomsviewer.rst:113
+#: ../../usage/atomsviewer.rst:117
 msgid ":menuselection:`右クリックメニュー --> Select all atoms`"
 msgstr ":menuselection:`right click menu --> Not select any atoms`"
 
-#: ../../usage/atomsviewer.rst:115 ../../usage/atomsviewer.rst:141
+#: ../../usage/atomsviewer.rst:119 ../../usage/atomsviewer.rst:145
 msgid "全選択解除"
 msgstr "Deselect all"
 
-#: ../../usage/atomsviewer.rst:115
+#: ../../usage/atomsviewer.rst:119
 msgid ":menuselection:`右クリックメニュー --> Not select any atoms`"
 msgstr ":menuselection:`right click menu --> Not select any atoms`"
 
-#: ../../usage/atomsviewer.rst:121
+#: ../../usage/atomsviewer.rst:125
 msgid "原子の回転移動"
 msgstr "Rotating atom"
 
-#: ../../usage/atomsviewer.rst:123
+#: ../../usage/atomsviewer.rst:127
 msgid "回転移動したい原子を選択します。"
 msgstr "Select the atom(s) you'd like to rotate."
 
-#: ../../usage/atomsviewer.rst:124
+#: ../../usage/atomsviewer.rst:128
 msgid ""
 "回転の中心となる原子を右クリックし、メニューから :guilabel:`Rotate selected atoms` "
 "をクリックします。回転の中心は1.で選択した中の原子でも、他の原子でも構いません。"
@@ -303,19 +303,19 @@ msgstr ""
 ":guilabel:`Rotate selected atoms` from the menu. You can choose the "
 "center atom either from atoms selected at 1. or from other atoms."
 
-#: ../../usage/atomsviewer.rst:125
+#: ../../usage/atomsviewer.rst:129
 msgid "球が表示されますので、ドラッグして回転移動を行います。"
 msgstr "A sphere is shown. Drag it to perform rotation."
 
-#: ../../usage/atomsviewer.rst:126
+#: ../../usage/atomsviewer.rst:130
 msgid ":kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr "Press :kbd:`Esc` key to fix the position."
 
-#: ../../usage/atomsviewer.rst:131
+#: ../../usage/atomsviewer.rst:135
 msgid "ショートカットキー一覧"
 msgstr "Shortcut keys list"
 
-#: ../../usage/atomsviewer.rst:139
+#: ../../usage/atomsviewer.rst:143
 msgid ":kbd:`Ctrl` + :kbd:`A`"
 msgstr ""
 
@@ -327,7 +327,7 @@ msgstr ""
 msgid ":kbd:`Backspace`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:144
+#: ../../usage/atomsviewer.rst:148
 msgid "削除"
 msgstr "Delete"
 
@@ -339,7 +339,7 @@ msgstr ""
 msgid ":kbd:`Delete`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:147
+#: ../../usage/atomsviewer.rst:151
 msgid "変更"
 msgstr "Change"
 
@@ -351,65 +351,65 @@ msgstr ""
 msgid ":kbd:`F2`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:150
+#: ../../usage/atomsviewer.rst:154
 msgid "切り取り"
 msgstr "Cut"
 
-#: ../../usage/atomsviewer.rst:150
+#: ../../usage/atomsviewer.rst:154
 msgid ":kbd:`Ctrl` + :kbd:`X`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:152
+#: ../../usage/atomsviewer.rst:156
 msgid "コピー"
 msgstr "Copy"
 
-#: ../../usage/atomsviewer.rst:152
+#: ../../usage/atomsviewer.rst:156
 msgid ":kbd:`Ctrl` + :kbd:`C`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:154
+#: ../../usage/atomsviewer.rst:158
 msgid "貼り付け\\ `*`:sup:"
 msgstr "Paste\\ `*`:sup:"
 
-#: ../../usage/atomsviewer.rst:154
+#: ../../usage/atomsviewer.rst:158
 msgid ":kbd:`Ctrl` + :kbd:`V`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:156
+#: ../../usage/atomsviewer.rst:160
 msgid "アンドゥ（直前の操作の取り消し）"
 msgstr "Undo"
 
-#: ../../usage/atomsviewer.rst:156
+#: ../../usage/atomsviewer.rst:160
 msgid ":kbd:`Ctrl` + :kbd:`Z`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:158
+#: ../../usage/atomsviewer.rst:162
 msgid "リドゥ（取り消した操作のやり直し）"
 msgstr "Redo"
 
-#: ../../usage/atomsviewer.rst:158
+#: ../../usage/atomsviewer.rst:162
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`Z`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:161
+#: ../../usage/atomsviewer.rst:165
 msgid "`*`:sup: マウスカーソルのある位置に貼り付けられます。"
 msgstr "`*`:sup: pasted at where the mouse cursor is located."
 
-#: ../../usage/atomsviewer.rst:164
+#: ../../usage/atomsviewer.rst:168
 msgid "空間群の判定"
 msgstr "Detect space group"
 
-#: ../../usage/atomsviewer.rst:166
+#: ../../usage/atomsviewer.rst:170
 msgid "右クリックメニューの :guilabel:`Detect space group` をクリックすると、モデルの原子構造の属する空間群を表示します。"
 msgstr ""
 "In the right click menu, click :guilabel:`Detect space group` to display "
 "the space group to which the atomic structure of the model belongs."
 
-#: ../../usage/atomsviewer.rst:169
+#: ../../usage/atomsviewer.rst:173
 msgid "原子構造のエクスポート"
 msgstr "Export atomic configuration"
 
-#: ../../usage/atomsviewer.rst:171
+#: ../../usage/atomsviewer.rst:175
 msgid ""
 "右クリックメニューの :guilabel:`Export atomic configuration` "
 "をクリックすると、モデルの原子構造をCIFファイル・XYZファイルとしてエクスポートできます。"
@@ -950,9 +950,11 @@ msgid ""
 ":guilabel:`Materials Finder` と書かれた部分をクリックすることで、説明が表示されます。Materials "
 "Projectのアカウントをお持ちの場合、ここで\\ `APIキー <https://materialsproject.org/open>`_\\"
 " を設定することで、基本単位胞／慣用単位胞のどちらを取得するか選択できるようになります。"
-msgstr "Click on the text saying Materials Finder to show the description. If you have "
-"Materials Project account, set your `API key <https://materialsproject.org/open>`_ here "
-"and you can choose either to retrieve primitive cell / standard cell."
+msgstr ""
+"Click on the text saying Materials Finder to show the description. If you"
+" have Materials Project account, set your `API key "
+"<https://materialsproject.org/open>`_ here and you can choose either to "
+"retrieve primitive cell / standard cell."
 
 #: ../../usage/initial.rst:92
 msgid "分子作成"
@@ -1782,11 +1784,11 @@ msgstr "(PHASE-Viewer is launched to open the project.)"
 msgid "`Quantum ESPRESSO`_"
 msgstr ""
 
-#: ../../usage/project.rst:35 ../../usage/project.rst:53
+#: ../../usage/project.rst:35 ../../usage/project.rst:55
 msgid ":guilabel:`Geometry`"
 msgstr ""
 
-#: ../../usage/project.rst:35 ../../usage/project.rst:53
+#: ../../usage/project.rst:35 ../../usage/project.rst:55
 msgid "原子構造・結晶構造の設定"
 msgstr "atomic / crystal structure settings"
 
@@ -1855,36 +1857,44 @@ msgid "フォノン状態密度・バンド計算"
 msgstr "phonon density of states / band calculation"
 
 #: ../../usage/project.rst:53
+msgid ":guilabel:`NEB`"
+msgstr ""
+
+#: ../../usage/project.rst:53
+msgid "Nudged Elastic Band法"
+msgstr "Nudged Elastic Band method"
+
+#: ../../usage/project.rst:55
 msgid "`LAMMPS`_"
 msgstr ""
 
-#: ../../usage/project.rst:55
+#: ../../usage/project.rst:57
 msgid ":guilabel:`Force-Field`"
 msgstr ""
 
-#: ../../usage/project.rst:55
+#: ../../usage/project.rst:57
 msgid "力場の設定"
 msgstr "force field settings"
 
-#: ../../usage/project.rst:57
+#: ../../usage/project.rst:59
 msgid ":guilabel:`Scheme`"
 msgstr ""
 
-#: ../../usage/project.rst:57
+#: ../../usage/project.rst:59
 msgid "計算過程の設定"
 msgstr "calculation scheme settings"
 
-#: ../../usage/project.rst:64
+#: ../../usage/project.rst:66
 msgid "使用する計算エンジンとエディターのモードを選ぶと、それに応じた設定項目が画面右側のエディターパネルに表示されます。"
 msgstr ""
 "When you select the calculation engine and the editor mode, corresponding"
 " setting items are displayed in editor panel on the right side."
 
-#: ../../usage/project.rst:69
+#: ../../usage/project.rst:71
 msgid "プロジェクトの保存"
 msgstr "Saving project"
 
-#: ../../usage/project.rst:71
+#: ../../usage/project.rst:73
 msgid ""
 "新しいプロジェクトを開いた場合、そのままではまだ保存されていません。左下のメニュー |projectmenuicon| から "
 ":guilabel:`Save` をクリックし、保存場所とプロジェクト名を設定して保存してください。タブにプロジェクト名が表示されます。"
@@ -1893,7 +1903,7 @@ msgstr ""
 " from the menu |projectmenuicon| on the lower left and specify the name "
 "and the location to save it. The project name is displayed on the tab."
 
-#: ../../usage/project.rst:73
+#: ../../usage/project.rst:75
 msgid "保存していないプロジェクトで計算を実行しようとしたり、エディターで変更を加えたまま保存せずにタブを閉じようとしたりすると、保存するよう促されます。"
 msgstr ""
 "You will be prompted to save the project if you try to run the "
