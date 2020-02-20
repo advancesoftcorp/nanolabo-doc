@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 13:11+0900\n"
+"POT-Creation-Date: 2020-02-19 16:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,52 +177,59 @@ msgstr ""
 ":file:`license` directory in the install destination."
 
 #: ../../install/linux.rst:83
-msgid ""
-"本ソフトウェアを使用する際には、ライセンスサーバー（ライセンス認証用のプログラム）を起動しておく必要があります。実行ファイルはインストール先の "
-":file:`exec.LINUX/flex/lmgrd` "
-"です。端末（ターミナル）でインストール先のディレクトリに移動したら、以下のコマンド例のように起動してください。"
-msgstr ""
-"When you use this software, license server (program for license "
-"authentication) must be running. The executable is located at "
-":file:`exec.LINUX/flex/lmgrd` in the install destination. On a terminal, "
-"run it as the example below, if you are at the install destination."
+msgid "本ソフトウェアのライセンス認証は、ライセンスサーバー（ライセンス認証用のプログラム）により行われます。本ソフトウェアの起動時に自動的にライセンスサーバーが起動されますので、通常はライセンスサーバーの操作を行っていただく必要はございません。"
+msgstr "License authentication of this software is performed by license server (separate program for license authentication). "
+"This software automatically launches the license server at the startup, so normally there is no need to operate the license server manually."
 
-#: ../../install/linux.rst:85
+#: ../../install/linux.rst:87
+msgid "手動でライセンスサーバーを操作することも可能です。"
+msgstr "If needed, you can operate license server manually."
+
+#: ../../install/linux.rst:89
+msgid ""
+"ライセンスサーバーの実行ファイルはインストール先の :file:`exec.LINUX/flex/lmgrd` "
+"です。端末（ターミナル）でインストール先のディレクトリに移動したら、以下のコマンド例のように起動します。"
+msgstr ""
+"The executable of license server is located at "
+":file:`exec.LINUX/flex/lmgrd` in the install destination. After moving to the install destination in a terminal, "
+"run it as the example below."
+
+#: ../../install/linux.rst:91
 msgid "$ exec.LINUX/flex/lmgrd -c license/nanolabo.lic -l lmgrd.log"
 msgstr ""
 
-#: ../../install/linux.rst:89
+#: ../../install/linux.rst:95
 msgid "ライセンスサーバーの状態を表示するには、インストール先の :file:`exec.LINUX/flex/lmstat` を使用します。"
 msgstr ""
 "To check the status of license server, use :file:`exec.LINUX/flex/lmstat`"
 " in the install destination."
 
-#: ../../install/linux.rst:91
+#: ../../install/linux.rst:97
 msgid "$ exec.LINUX/flex/lmstat -a -c license/nanolabo.lic"
 msgstr ""
 
-#: ../../install/linux.rst:95
+#: ../../install/linux.rst:101
 msgid "また、ライセンスサーバーを終了するには、インストール先の :file:`exec.LINUX/flex/lmdown` を使用します。"
 msgstr ""
 "To stop license server, use :file:`exec.LINUX/flex/lmdown` in the install"
 " destination."
 
-#: ../../install/linux.rst:97
+#: ../../install/linux.rst:103
 msgid "$ exec.LINUX/flex/lmdown -c license/nanolabo.lic"
 msgstr ""
 
-#: ../../install/linux.rst:104 ../../install/mac.rst:44
+#: ../../install/linux.rst:110 ../../install/mac.rst:44
 #: ../../install/windows.rst:59
 msgid "起動"
 msgstr "Launching"
 
-#: ../../install/linux.rst:106 ../../install/windows.rst:61
+#: ../../install/linux.rst:112 ../../install/windows.rst:61
 msgid "インストール時にショートカットを作成した場合は、ショートカットから起動してください。"
 msgstr ""
 "In case you made a shortcut during the installation, launch the software "
 "from the shortcut."
 
-#: ../../install/linux.rst:108
+#: ../../install/linux.rst:114
 msgid ""
 "直接起動する場合は、端末（ターミナル）でインストール先の :file:`bin` ディレクトリに移動し、 :file:`nanolabo.sh` "
 "を起動してください。"
@@ -231,30 +238,30 @@ msgstr ""
 ":file:`bin` directory in the install destination, and then run "
 ":file:`nanolabo.sh` ."
 
-#: ../../install/linux.rst:110
+#: ../../install/linux.rst:116
 msgid "$ ./nanolabo.sh"
 msgstr ""
 
-#: ../../install/linux.rst:117 ../../install/mac.rst:82
+#: ../../install/linux.rst:123 ../../install/mac.rst:82
 #: ../../install/windows.rst:68
 msgid "更新・アップグレード"
 msgstr "Update/Upgrade"
 
-#: ../../install/linux.rst:119 ../../install/mac.rst:84
+#: ../../install/linux.rst:125 ../../install/mac.rst:84
 #: ../../install/windows.rst:70
 msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
 msgstr ""
 "When upgrading from trial version to production version, there is no need"
 " of additional installation. Just replace the license file."
 
-#: ../../install/linux.rst:121 ../../install/windows.rst:72
+#: ../../install/linux.rst:127 ../../install/windows.rst:72
 msgid "新しいバージョンにアップデートされる場合、上書きインストールを行うことも可能ではありますが、あらかじめ以前のバージョンをアンインストールするか、インストール先を変更していただくことをお勧めします。"
 msgstr ""
 "When updating to newer version, although overwrite installation is "
 "possible, it is recommended to uninstall previous version in advance or "
 "install to another destination."
 
-#: ../../install/linux.rst:123 ../../install/mac.rst:88
+#: ../../install/linux.rst:129 ../../install/mac.rst:88
 #: ../../install/windows.rst:74
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
@@ -262,12 +269,12 @@ msgstr ""
 "location other than the install destination. You can use it as it was "
 "after the update."
 
-#: ../../install/linux.rst:128 ../../install/mac.rst:93
+#: ../../install/linux.rst:134 ../../install/mac.rst:93
 #: ../../install/windows.rst:79
 msgid "アンインストール"
 msgstr "Uninstallation"
 
-#: ../../install/linux.rst:130
+#: ../../install/linux.rst:136
 msgid ""
 "端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
 ":file:`Change NanoLabo Tool Installation` を起動します。"
@@ -275,30 +282,30 @@ msgstr ""
 "On a terminal, run :file:`Change NanoLabo Tool Installation` located at "
 ":file:`_NanoLabo_Tool_installation` directory in the install destination."
 
-#: ../../install/linux.rst:132
+#: ../../install/linux.rst:138
 msgid ""
 "$ AdvanceSoft/NanoLabo/_NanoLabo_Tool_installation/Change\\ NanoLabo\\ "
 "Tool\\ Installation"
 msgstr ""
 
-#: ../../install/linux.rst:136 ../../install/windows.rst:87
+#: ../../install/linux.rst:142 ../../install/windows.rst:87
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow displayed instructions to uninstall."
 
-#: ../../install/linux.rst:138 ../../install/windows.rst:89
+#: ../../install/linux.rst:144 ../../install/windows.rst:89
 msgid "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。"
 msgstr ""
 "Once the uninstallation of Advance/NanoLabo Tool is finished, uninstall "
 "Advance/NanoLabo as well."
 
-#: ../../install/linux.rst:142 ../../install/windows.rst:93
+#: ../../install/linux.rst:148 ../../install/windows.rst:93
 msgid "アンインストールの際に、インストール先のライセンスファイルは削除されずに残ります。また、インストールログファイルが残る場合があります。その際はお手数ですが手動で削除してください。"
 msgstr ""
 "License file in the install destination is not removed during the "
 "uninstallation. Also, installation log file may remain. In that case "
 "please remove them manually."
 
-#: ../../install/linux.rst:146
+#: ../../install/linux.rst:152
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` "
 "）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"

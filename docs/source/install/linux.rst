@@ -80,23 +80,29 @@
 
 ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。インストール先の :file:`license` ディレクトリにコピーしてください。
 
-本ソフトウェアを使用する際には、ライセンスサーバー（ライセンス認証用のプログラム）を起動しておく必要があります。実行ファイルはインストール先の :file:`exec.LINUX/flex/lmgrd` です。端末（ターミナル）でインストール先のディレクトリに移動したら、以下のコマンド例のように起動してください。
+本ソフトウェアのライセンス認証は、ライセンスサーバー（ライセンス認証用のプログラム）により行われます。本ソフトウェアの起動時に自動的にライセンスサーバーが起動されますので、通常はライセンスサーバーの操作を行っていただく必要はございません。
 
-.. code-block:: console
+.. hint::
 
- $ exec.LINUX/flex/lmgrd -c license/nanolabo.lic -l lmgrd.log
+ 手動でライセンスサーバーを操作することも可能です。
 
-ライセンスサーバーの状態を表示するには、インストール先の :file:`exec.LINUX/flex/lmstat` を使用します。
+ ライセンスサーバーの実行ファイルはインストール先の :file:`exec.LINUX/flex/lmgrd` です。端末（ターミナル）でインストール先のディレクトリに移動したら、以下のコマンド例のように起動します。
 
-.. code-block:: console
+ .. code-block:: console
 
- $ exec.LINUX/flex/lmstat -a -c license/nanolabo.lic
+  $ exec.LINUX/flex/lmgrd -c license/nanolabo.lic -l lmgrd.log
 
-また、ライセンスサーバーを終了するには、インストール先の :file:`exec.LINUX/flex/lmdown` を使用します。
+ ライセンスサーバーの状態を表示するには、インストール先の :file:`exec.LINUX/flex/lmstat` を使用します。
 
-.. code-block:: console
+ .. code-block:: console
 
- $ exec.LINUX/flex/lmdown -c license/nanolabo.lic
+  $ exec.LINUX/flex/lmstat -a -c license/nanolabo.lic
+
+ また、ライセンスサーバーを終了するには、インストール先の :file:`exec.LINUX/flex/lmdown` を使用します。
+
+ .. code-block:: console
+
+  $ exec.LINUX/flex/lmdown -c license/nanolabo.lic
 
 .. _launchl:
 
