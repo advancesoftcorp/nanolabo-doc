@@ -46,6 +46,15 @@
 
 .. image:: /img/movie.png
 
+.. _phononmode:
+
+フォノンモード
+=================
+
+:guilabel:`Phonon.mode` をクリックすると、各振動モードを矢印で可視化することができます。
+
+.. image:: /img/phonon.png
+
 .. _text:
 
 テキスト
