@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-25 12:49+0900\n"
+"POT-Creation-Date: 2020-04-23 17:27+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../usage.rst:5
 msgid "各画面の説明"
@@ -319,97 +319,97 @@ msgstr "Shortcut keys list"
 msgid ":kbd:`Ctrl` + :kbd:`A`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:145
 msgid ":kbd:`Esc`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:147
 msgid ":kbd:`Backspace`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:148
+#: ../../usage/atomsviewer.rst:149
 msgid "削除"
 msgstr "Delete"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:149
 msgid ":kbd:`Ctrl` + :kbd:`D`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:151
 msgid ":kbd:`Delete`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:151
+#: ../../usage/atomsviewer.rst:153
 msgid "変更"
 msgstr "Change"
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:153
 msgid ":kbd:`Ctrl` + :kbd:`R`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst
+#: ../../usage/atomsviewer.rst:155
 msgid ":kbd:`F2`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:154
+#: ../../usage/atomsviewer.rst:157
 msgid "切り取り"
 msgstr "Cut"
 
-#: ../../usage/atomsviewer.rst:154
+#: ../../usage/atomsviewer.rst:157
 msgid ":kbd:`Ctrl` + :kbd:`X`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:156
+#: ../../usage/atomsviewer.rst:159
 msgid "コピー"
 msgstr "Copy"
 
-#: ../../usage/atomsviewer.rst:156
+#: ../../usage/atomsviewer.rst:159
 msgid ":kbd:`Ctrl` + :kbd:`C`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:158
+#: ../../usage/atomsviewer.rst:161
 msgid "貼り付け\\ `*`:sup:"
 msgstr "Paste\\ `*`:sup:"
 
-#: ../../usage/atomsviewer.rst:158
+#: ../../usage/atomsviewer.rst:161
 msgid ":kbd:`Ctrl` + :kbd:`V`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:160
+#: ../../usage/atomsviewer.rst:163
 msgid "アンドゥ（直前の操作の取り消し）"
 msgstr "Undo"
 
-#: ../../usage/atomsviewer.rst:160
+#: ../../usage/atomsviewer.rst:163
 msgid ":kbd:`Ctrl` + :kbd:`Z`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:162
+#: ../../usage/atomsviewer.rst:165
 msgid "リドゥ（取り消した操作のやり直し）"
 msgstr "Redo"
 
-#: ../../usage/atomsviewer.rst:162
+#: ../../usage/atomsviewer.rst:165
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`Z`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:165
+#: ../../usage/atomsviewer.rst:168
 msgid "`*`:sup: マウスカーソルのある位置に貼り付けられます。"
 msgstr "`*`:sup: pasted at where the mouse cursor is located."
 
-#: ../../usage/atomsviewer.rst:168
+#: ../../usage/atomsviewer.rst:171
 msgid "空間群の判定"
 msgstr "Detect space group"
 
-#: ../../usage/atomsviewer.rst:170
+#: ../../usage/atomsviewer.rst:173
 msgid "右クリックメニューの :guilabel:`Detect space group` をクリックすると、モデルの原子構造の属する空間群を表示します。"
 msgstr ""
 "In the right click menu, click :guilabel:`Detect space group` to display "
 "the space group to which the atomic structure of the model belongs."
 
-#: ../../usage/atomsviewer.rst:173
+#: ../../usage/atomsviewer.rst:176
 msgid "原子構造のエクスポート"
 msgstr "Export atomic configuration"
 
-#: ../../usage/atomsviewer.rst:175
+#: ../../usage/atomsviewer.rst:178
 msgid ""
 "右クリックメニューの :guilabel:`Export atomic configuration` "
 "をクリックすると、モデルの原子構造をCIFファイル・XYZファイルとしてエクスポートできます。"
@@ -960,13 +960,21 @@ msgstr ""
 msgid "分子作成"
 msgstr "Create molecule"
 
-#: ../../usage/initial.rst:94 ../../usage/modeler.rst:108
+#: ../../usage/initial.rst:94 ../../usage/modeler.rst:177
 msgid ""
 "分子エディタ―\\ `JSME <http://peter-ertl.com/jsme/>`_\\ "
 "を使用し、作図した構造をそのままモデルとして使用できます。"
 msgstr ""
 "Draw a molecule structure using the molecular editor `JSME <http://peter-"
 "ertl.com/jsme/>`_\\ , and use it as the model."
+
+#: ../../usage/inputeditor.rst:30
+msgid "Quantum ESPRESSO"
+msgstr ""
+
+#: ../../usage/inputeditor.rst:30
+msgid "LAMMPS"
+msgstr ""
 
 #: ../../usage/inputeditor.rst:5
 msgid "入力ファイルエディター"
@@ -1010,10 +1018,15 @@ msgstr ""
 "click the input field for undo etc."
 
 #: ../../usage/inputeditor.rst:24
-msgid "スライダーは、マウス操作で値を設定するほか、右クリックメニューの :guilabel:`Input directly` で値を直接入力できます。"
+msgid ""
+"スライダーは、マウス操作で値を設定するほか、右クリックメニューの :guilabel:`Input directly` "
+"で値を直接入力できます。また、一部のスライダーは右クリックメニューの :guilabel:`Extend the domain` "
+"で値の範囲を増やすことができます。"
 msgstr ""
-"Besides the mouse manipulation, you can directly set value to a slider "
-"from its right click menu."
+"Besides the manipulation by mouse, you can directly set value to a slider"
+" from :guilabel:`Input directly` menu in the right click menu. Some "
+"sliders also have :guilabel:`Extend the domain` item in the menu, to "
+"extend the range of value."
 
 #: ../../usage/inputeditor.rst:28
 msgid "いくつかの設定画面については補足説明がありますので、以下のリンクよりご覧ください。"
@@ -1165,8 +1178,8 @@ msgstr ""
 
 #: ../../usage/inputeditorlammps.rst:31
 msgid ""
-":guilabel:`Resolve Force Field` の :guilabel:`Apply` ボタンをクリックすると、OPLS-AA"
-"パラメーターセットに基づき、電荷およびLennard-"
+":guilabel:`Resolve Force Field` の :guilabel:`Apply` ボタンをクリックすると、OPLS-"
+"AAパラメーターセットに基づき、電荷およびLennard-"
 "Jonesポテンシャルのパラメーターを設定します。その後、全電荷が0になるように一定の値を差し引きます。"
 msgstr ""
 "When you click :guilabel:`Apply` in :guilabel:`Resolve Force Field` , "
@@ -1243,11 +1256,17 @@ msgstr ""
 ":guilabel:`Pseudopotential` column to choose the pseudopotential file for"
 " the element. Suggested cutoff energy will be shown below the table."
 
-#: ../../usage/inputeditorqe.rst:35
+#: ../../usage/inputeditorqe.rst:32
+msgid ""
+"擬ポテンシャル変更後、 :guilabel:`SCF` の設定で :guilabel:`Cutoff` 入力欄のデフォルト値設定ボタン "
+"|default| をクリックすると、更新されたカットオフエネルギーの推奨値が入力されます。"
+msgstr ""
+
+#: ../../usage/inputeditorqe.rst:39
 msgid "バンド計算の経路"
 msgstr "Path of the band calculation"
 
-#: ../../usage/inputeditorqe.rst:37
+#: ../../usage/inputeditorqe.rst:41
 msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`Band` または :guilabel:`Ph. "
 "Dispersion` を選ぶと、設定項目の中に :guilabel:`Path through B.Z.` "
@@ -1258,7 +1277,7 @@ msgstr ""
 "through B.Z.` among the setting items. Setting method of that item is "
 "described."
 
-#: ../../usage/inputeditorqe.rst:39
+#: ../../usage/inputeditorqe.rst:43
 msgid ""
 ":guilabel:`Symbol` では、経由する点を指定します。リストボックス中に無い任意の点を指定したい場合は、 "
 ":guilabel:`Symbol` を空白にし、座標を :guilabel:`kx, ky, kz` （または :guilabel:`qx, "
@@ -1268,13 +1287,13 @@ msgstr ""
 "not in the list box, leave :guilabel:`Symbol` empty and enter the "
 "coordinate in :guilabel:`kx, ky, kz` (or :guilabel:`qx, qy, qz` )."
 
-#: ../../usage/inputeditorqe.rst:41
+#: ../../usage/inputeditorqe.rst:45
 msgid "点の追加、削除、入れ替えは行の右クリックメニューから行います。追加の際は、クリックした行の次に新しい行が挿入されます。"
 msgstr ""
 "Add, delete or reorder the point from the right click menu of the row. "
 "When you add a point, a new row is inserted next to the clicked row."
 
-#: ../../usage/inputeditorqe.rst:43
+#: ../../usage/inputeditorqe.rst:47
 msgid ""
 ":guilabel:`nk` （または :guilabel:`nq` "
 "）には、その行と次の行で指定した点の間で計算する点の数を指定します。例えば画像の1行目では :guilabel:`nk` "
@@ -1287,7 +1306,7 @@ msgstr ""
 "|gamma| point specified in that row and Y point specified in the next "
 "row."
 
-#: ../../usage/inputeditorqe.rst:45
+#: ../../usage/inputeditorqe.rst:49
 msgid ""
 "また :guilabel:`nk` "
 "に0を入力すると、その行と次の行で指定した点の間では計算を行いません。バンド図上では、その行と次の行の点が重なって表示されます。"
@@ -1296,11 +1315,11 @@ msgstr ""
 "points specified in that row and the next row. On the band diagram, the "
 "points of that row and the next row are displayed merged."
 
-#: ../../usage/inputeditorqe.rst:56
+#: ../../usage/inputeditorqe.rst:60
 msgid "ESM法の設定"
 msgstr "ESM method"
 
-#: ../../usage/inputeditorqe.rst:58
+#: ../../usage/inputeditorqe.rst:62
 msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`SCF` を選ぶと、設定項目の中にIsolated "
 "Systemがあります。Isolated Systemの中にあるIsolation MethodからEffective Screening "
@@ -1310,17 +1329,17 @@ msgstr ""
 " Then select Effective Screening Medium from the menu Isolation Method in"
 " Isolated System. "
 
-#: ../../usage/inputeditorqe.rst:60
+#: ../../usage/inputeditorqe.rst:64
 msgid "ESM法を有効にすると、計算の都合上、原子構造がスラブ面の法線方向にシフトすることがあります。"
 msgstr ""
 "Selection of ESM method causes the atomic positions to move vertically to"
 " the surface. "
 
-#: ../../usage/inputeditorqe.rst:67
+#: ../../usage/inputeditorqe.rst:71
 msgid "NEB法の設定"
 msgstr "NEB method"
 
-#: ../../usage/inputeditorqe.rst:69
+#: ../../usage/inputeditorqe.rst:73
 msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`NEB` "
 "を選ぶと、設定項目の中にImagesがあります。ImagesではNEB法の計算に用いる初期イメージの編集を行います。この設定方法を説明します。"
@@ -1329,7 +1348,7 @@ msgstr ""
 "you will find Images among the setting items. You can configure initial "
 "images for NEB calculation. Setting method of that item is described. "
 
-#: ../../usage/inputeditorqe.rst:71
+#: ../../usage/inputeditorqe.rst:75
 msgid ""
 "はじめは現在のプロジェクトの構造のみがイメージ（First）に追加されています。この状態で |add| "
 "をクリックするとプロジェクトの選択画面が出るので、他端のイメージ（Last）を指定します。このとき中間イメージ（Intermediate）が自動で生成されます。"
@@ -1338,29 +1357,29 @@ msgstr ""
 "project. Then click |add| and select a project to add the last image. "
 "Concurrently intermediate images will be added automatically. "
 
-#: ../../usage/inputeditorqe.rst:75
+#: ../../usage/inputeditorqe.rst:79
 msgid "個別のイメージに対する操作は各行のボタンから行います。"
 msgstr "The buttons on each row allow the following operations: "
 
-#: ../../usage/inputeditorqe.rst:77
+#: ../../usage/inputeditorqe.rst:81
 msgid "イメージを追加するには |add| をクリックします。選択中のイメージの後に新規イメージが挿入されます。"
 msgstr ""
 "Click |add| to insert an image. A new image is inserted after the "
 "selected one."
 
-#: ../../usage/inputeditorqe.rst:78
+#: ../../usage/inputeditorqe.rst:82
 msgid "イメージを削除するには |remove| をクリックします。"
 msgstr "Click |remove| to remove an image."
 
-#: ../../usage/inputeditorqe.rst:79
+#: ../../usage/inputeditorqe.rst:83
 msgid "イメージを別の構造に置き換えるには、 |import| をクリックして、置き換えたい構造を含むプロジェクトを選びます。"
 msgstr "Click |import| and select a project to replace an image with another."
 
-#: ../../usage/inputeditorqe.rst:80
+#: ../../usage/inputeditorqe.rst:84
 msgid "イメージの構造を確認するには、 |view| をクリックします。選択中のイメージ以外は残像で表示されます。"
 msgstr "Click |view| to highlight an image. "
 
-#: ../../usage/inputeditorqe.rst:82
+#: ../../usage/inputeditorqe.rst:86
 msgid "イメージ全体をスムーズ化するには、 |to_be_smooth| をクリックします。"
 msgstr "Also you can click |to_be_smooth| to smoothen a series of images."
 
@@ -1405,12 +1424,12 @@ msgstr "Translation"
 
 #: ../../usage/modeler.rst:22
 msgid ""
-":guilabel:`Translation of Cell` "
+":guilabel:`Cell` タブの :guilabel:`Translation of Cell` "
 "で、すべての原子を同じ方向・距離に移動させます。各単位格子ベクトルのスライダーを動かすと、リアルタイムでビューワーに反映されます。"
 msgstr ""
-"Use :guilabel:`Translation of Cell` to move all atoms to the same "
-"direction and distance. Changes made to the vector sliders are reflected "
-"in the viewer in real time."
+"Use :guilabel:`Translation of Cell` in :guilabel:`Cell` tab to move all "
+"atoms to the same direction and distance. Changes made to the vector "
+"sliders are reflected in the viewer in real time."
 
 #: ../../usage/modeler.rst:27
 msgid "超格子"
@@ -1418,79 +1437,64 @@ msgstr "Super cell"
 
 #: ../../usage/modeler.rst:29
 msgid ""
-":guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 :guilabel:`Scaling` "
-"欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。"
+":guilabel:`Cell` タブの :guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 "
+":guilabel:`Scaling` 欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 "
+":guilabel:`Build` をクリックしてください。"
 msgstr ""
-"Use :guilabel:`Super Cell` to build the super cell which has repeating "
-"unit cell structure. Enter the repeat counts along a, b, c axes in the "
-"three text boxes in :guilabel:`Scaling` field, and then click "
-":guilabel:`Build` ."
+"Use :guilabel:`Super Cell` in :guilabel:`Cell` tab to build the super "
+"cell which has repeating unit cell structure. Enter the repeat counts "
+"along a, b, c axes in the three text boxes in :guilabel:`Scaling` field, "
+"and then click :guilabel:`Build` ."
 
 #: ../../usage/modeler.rst:36
-msgid "スラブモデル"
-msgstr "Slab model"
+msgid "原子位置の調整"
+msgstr "Positions of Atoms"
 
 #: ../../usage/modeler.rst:38
-msgid "表面などの非周期系を近似的に周期的境界条件で扱う、スラブ近似のためのモデルを作成します。"
+msgid ""
+"位置を調整したい原子を選択してから、 :guilabel:`Atom` タブの :guilabel:`Start Modeling` "
+"をクリックします。"
 msgstr ""
-"Build a model for slab approximation which treats aperiodic system such "
-"as surface in approximate periodic boundary condition."
+"Select atom(s) whose position you want to adjust, then click "
+":guilabel:`Start Modeling` in :guilabel:`Atom` tab."
 
 #: ../../usage/modeler.rst:40
 msgid ""
-":guilabel:`Slab Model` で、表面となる結晶面をミラー指数で指定し、 :guilabel:`Build` "
-"をクリックすると、スラブモデルの詳細設定を行う画面が表示されます。"
+"|Delta|\\ X(\\ |Delta|\\ Y, |Delta|\\ Z) / Angs. "
+"のスライダーで、各座標軸方向に移動します。スライダーの右クリックメニューの :guilabel:`Input directly` "
+"で値を直接入力できます。"
 msgstr ""
-"Specify a crystal plane to be the surface by Miller indices and click "
-":guilabel:`Build` . Detailed setting view of slab model is shown."
+"Move atoms(s) along coordinate axis by |Delta|\\ X(\\ |Delta|\\ Y, "
+"|Delta|\\ Z) / Angs. sliders. You can also input the value directly from "
+":guilabel:`Input directly` item in the right click menu."
 
 #: ../../usage/modeler.rst:42
 msgid ""
-"スラブの厚さを :guilabel:`Slab System` の :guilabel:`Width / Cell` スライダーで、真空層の厚さを"
-" :guilabel:`Vacuum of a Side` の :guilabel:`Width / Angs.` スライダーで変更します。 "
-":guilabel:`Area Scaling` のテキストボックスに繰り返し回数をそれぞれ入力し、 :guilabel:`Build` "
-"をクリックすると、スラブの層内方向に繰り返した構造を生成します。"
+":guilabel:`X(Y, Z)-Mobility` "
+"で、各座標軸方向の固定・可動を設定します。この設定は構造最適化や分子動力学計算を行う際に適用されます。"
 msgstr ""
-"Change the thickness of the slab by :guilabel:`Width / Cell` in "
-":guilabel:`Slab System` and the thickness of the vacuum layer by "
-":guilabel:`Width / Angs.` in :guilabel:`Vacuum of a Side` . Enter the "
-"repeat count in the text boxes in :guilabel:`Area Scaling` and click "
-":guilabel:`Build` to build repeated structure along in-plane direction of"
-" the slab."
+"Use :guilabel:`X(Y, Z)-Mobility` to fix / unfix atom(s) along coordinate "
+"axis. This setting is used for structural optimization or molecular "
+"dynamics calculations."
 
 #: ../../usage/modeler.rst:44
 msgid ""
-"複数の異なる表面原子構造が存在する場合、 :guilabel:`Kind of Surface` "
-"に複数の候補が表示されますので、クリックして選択してください。"
+":guilabel:`Rotation` で、選択原子の幾何中心に対して回転移動します。 :guilabel:`Rotate Atoms` "
+"をクリックすると球が表示されますので、ドラッグして回転移動を行います。 :kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr ""
-"In case there exists multiple different surface atomic structures, click "
-"one from the candidates displayed in :guilabel:`Kind of Surface` ."
+"You can rotate atoms about their geometric center by :guilabel:`Rotation`"
+" . A sphere is shown when you click :guilabel:`Rotate Atoms` , then drag "
+"it to rotate the atoms. Press :kbd:`Esc` to fix the position."
 
-#: ../../usage/modeler.rst:46
-msgid "変更はリアルタイムでビューワーに反映されます。"
-msgstr "The changes are reflected in the viewer in real time."
-
-#: ../../usage/modeler.rst:48
-msgid ":guilabel:`Initialize Model` をクリックすると、詳細設定を行う前（スラブモデル画面を開いた時点）の状態に戻ります。"
-msgstr ""
-"Click :guilabel:`Initialize Model` to return to the state before detailed"
-" setting is performed (when slab model view was opened)."
-
-#: ../../usage/modeler.rst:50 ../../usage/modeler.rst:88
-#: ../../usage/modeler.rst:101 ../../usage/modeler.rst:136
-#: ../../usage/modeler.rst:160
-msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
-msgstr "Click back button |back| on the lower left to go back to modeler view."
-
-#: ../../usage/modeler.rst:59
+#: ../../usage/modeler.rst:53
 msgid "結晶格子の変換"
 msgstr "Conversion of crystal lattice"
 
-#: ../../usage/modeler.rst:61
+#: ../../usage/modeler.rst:55
 msgid "モデルの格子ベクトルを再定義し、結晶格子を変換します。"
 msgstr "Redefine the lattice vector of the model and convert the crystal lattice."
 
-#: ../../usage/modeler.rst:63
+#: ../../usage/modeler.rst:57
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Conversion of Cell Type` の各 "
 ":guilabel:`Build` ボタンをクリックすると、変換が行われます。"
@@ -1498,39 +1502,47 @@ msgstr ""
 "In :guilabel:`Crystal` tab, click each :guilabel:`Build` button to "
 "perform the conversion."
 
-#: ../../usage/modeler.rst:65
+#: ../../usage/modeler.rst:59
 msgid "Finding a Primitive Cell"
 msgstr ""
 
-#: ../../usage/modeler.rst:69
+#: ../../usage/modeler.rst:63
 msgid "Finding a Standard Cell"
 msgstr ""
 
-#: ../../usage/modeler.rst:67
+#: ../../usage/modeler.rst:61
 msgid "基本単位胞・慣用単位胞を自動的に決定し、相互に変換します。"
 msgstr "Find primitive / standard cell automatically, and convert to it."
 
-#: ../../usage/modeler.rst:71
+#: ../../usage/modeler.rst:65
 msgid "Hexagonal -> Orthorhombic"
 msgstr ""
 
-#: ../../usage/modeler.rst:75
+#: ../../usage/modeler.rst:69
 msgid "Orthorhombic -> Hexagonal"
 msgstr ""
 
-#: ../../usage/modeler.rst:73
+#: ../../usage/modeler.rst:67
 msgid "六方晶・直方晶（斜方晶）を相互に変換します。"
 msgstr "Convert to hexagonal crystal / orthorhombic crystal."
 
-#: ../../usage/modeler.rst:80
+#: ../../usage/modeler.rst:71
+msgid ""
+"また、 :guilabel:`Cell` タブの :guilabel:`Operation for Axis` "
+"の各ボタンで、格子ベクトルの反転操作、および格子ベクトルの入れ替えができます。"
+msgstr ""
+"In addition, using the :guilabel:`Operation for Axis` buttons in "
+":guilabel:`Cell` tab, you can flip / swap the lattice vectors."
+
+#: ../../usage/modeler.rst:76
 msgid "元素置換"
 msgstr "Element substitution"
 
-#: ../../usage/modeler.rst:82
+#: ../../usage/modeler.rst:78
 msgid "モデル中の原子の一部を異なる種類に変更します。"
 msgstr "Substitute some of the atoms in the model for different atoms."
 
-#: ../../usage/modeler.rst:84
+#: ../../usage/modeler.rst:80
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Element Substitution` にある "
 ":guilabel:`Start Modeling` をクリックすると、元素置換を行う画面が表示されます。"
@@ -1538,7 +1550,7 @@ msgstr ""
 "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Element Substitution` to show element substitution view."
 
-#: ../../usage/modeler.rst:86
+#: ../../usage/modeler.rst:82
 msgid ""
 ":guilabel:`Element to be Substituted` （置換元の元素）、 :guilabel:`For What "
 "Element ?` （置換先の元素）、 :guilabel:`Super Cell` （超格子を作成する場合その繰り返し回数）、 "
@@ -1556,17 +1568,23 @@ msgstr ""
 ":guilabel:`Build` again here, different structure with the same "
 "substitution setting is shown."
 
-#: ../../usage/modeler.rst:93
+#: ../../usage/modeler.rst:84 ../../usage/modeler.rst:97
+#: ../../usage/modeler.rst:116 ../../usage/modeler.rst:141
+#: ../../usage/modeler.rst:204
+msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
+msgstr "Click back button |back| on the lower left to go back to modeler view."
+
+#: ../../usage/modeler.rst:89
 msgid "点欠陥（空孔）"
 msgstr "Point defect (vacancy)"
 
-#: ../../usage/modeler.rst:95
+#: ../../usage/modeler.rst:91
 msgid "モデル中の原子の一部を取り除き、点欠陥（空孔）を作成します。"
 msgstr ""
 "Remove some of the atoms in the model and create point defects "
 "(vacancies)."
 
-#: ../../usage/modeler.rst:97
+#: ../../usage/modeler.rst:93
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Lattice Defect` にある :guilabel:`Start "
 "Modeling` をクリックすると、点欠陥を作成する画面が表示されます。"
@@ -1574,7 +1592,7 @@ msgstr ""
 "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Lattice Defect` to show lattice defect view."
 
-#: ../../usage/modeler.rst:99
+#: ../../usage/modeler.rst:95
 msgid ""
 ":guilabel:`Element to be Removed` （取り除く元素）、 :guilabel:`Super Cell` "
 "（超格子を作成する場合その繰り返し回数）、 :guilabel:`Rate of Lattice Defect` "
@@ -1591,11 +1609,183 @@ msgstr ""
 "you click :guilabel:`Build` again here, different structure with the same"
 " defect setting is shown."
 
+#: ../../usage/modeler.rst:102
+msgid "スラブモデル"
+msgstr "Slab model"
+
+#: ../../usage/modeler.rst:104
+msgid "表面などの非周期系を近似的に周期的境界条件で扱う、スラブ近似のためのモデルを作成します。"
+msgstr ""
+"Build a model for slab approximation which treats aperiodic system such "
+"as surface in approximate periodic boundary condition."
+
 #: ../../usage/modeler.rst:106
+msgid ""
+":guilabel:`Slab` タブの :guilabel:`Slab Model` で、表面となる結晶面をミラー指数で指定し、 "
+":guilabel:`Build` をクリックすると、スラブモデルの詳細設定を行う画面が表示されます。"
+msgstr ""
+"In :guilabel:`Slab` tab, specify a crystal plane to be the surface by "
+"Miller indices and then click :guilabel:`Build` . Detailed setting view "
+"of slab model is shown."
+
+#: ../../usage/modeler.rst:108
+msgid ""
+"スラブの厚さを :guilabel:`Slab System` の :guilabel:`Width / Cell` スライダーで、真空層の厚さを"
+" :guilabel:`Vacuum of a Side` の :guilabel:`Width / Angs.` スライダーで変更します。 "
+":guilabel:`Area Scaling` のテキストボックスに繰り返し回数をそれぞれ入力し、 :guilabel:`Build` "
+"をクリックすると、スラブの層内方向に繰り返した構造を生成します。"
+msgstr ""
+"Change the thickness of the slab by :guilabel:`Width / Cell` in "
+":guilabel:`Slab System` and the thickness of the vacuum layer by "
+":guilabel:`Width / Angs.` in :guilabel:`Vacuum of a Side` . Enter the "
+"repeat count in the text boxes in :guilabel:`Area Scaling` and click "
+":guilabel:`Build` to build repeated structure along in-plane direction of"
+" the slab."
+
+#: ../../usage/modeler.rst:110
+msgid ""
+"複数の異なる表面原子構造が存在する場合、 :guilabel:`Kind of Surface` "
+"に複数の候補が表示されますので、クリックして選択してください。"
+msgstr ""
+"In case there exists multiple different surface atomic structures, click "
+"one from the candidates displayed in :guilabel:`Kind of Surface` ."
+
+#: ../../usage/modeler.rst:112
+msgid "変更はリアルタイムでビューワーに反映されます。"
+msgstr "The changes are reflected in the viewer in real time."
+
+#: ../../usage/modeler.rst:114
+msgid ":guilabel:`Initialize Model` をクリックすると、詳細設定を行う前（スラブモデル画面を開いた時点）の状態に戻ります。"
+msgstr ""
+"Click :guilabel:`Initialize Model` to return to the state before detailed"
+" setting is performed (when slab model view was opened)."
+
+#: ../../usage/modeler.rst:118
+msgid "また、スラブモデル作成後、 :guilabel:`Editing Slab Model` の各ボタンから、スラブモデルに対する追加の編集が可能です。"
+msgstr ""
+"After the slab model is built, you can perform additional operations for "
+"the model by :guilabel:`Editing Slab Model` buttons."
+
+#: ../../usage/modeler.rst:127
+msgid "分子吸着"
+msgstr "Molecules adsorption"
+
+#: ../../usage/modeler.rst:129
+msgid "スラブモデルの表面に分子を吸着します。"
+msgstr "Adsorb molecules onto the slab model."
+
+#: ../../usage/modeler.rst:131
+msgid ""
+"スラブモデルを用意し、:guilabel:`Slab` タブの :guilabel:`Molecular Adsorption onto "
+"Slab` にある :guilabel:`Start Modeling` をクリックしてください。分子吸着を行う画面が表示されます。"
+msgstr ""
+"Prepare a slab model. In :guilabel:`Slab` tab, click :guilabel:`Start "
+"Modeling` in :guilabel:`Molecular Adsorption onto Slab` to show molecules"
+" adsorption view."
+
+#: ../../usage/modeler.rst:133
+msgid ""
+":guilabel:`Adsorbate Molecule / Atom` （吸着する分子）、 :guilabel:`Adsorption "
+"Site` （吸着サイトの種類）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous`"
+" で前の項目の設定に移ります。"
+msgstr ""
+"Set :guilabel:`Adsorbate Molecule / Atom` and :guilabel:`Adsorption Site`"
+" . Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to the next"
+" (previous) item."
+
+#: ../../usage/modeler.rst:135
+msgid ""
+"吸着の方法には、:guilabel:`Adsorption to Single Site` （選択した単一サイトへの吸着）と、 "
+":guilabel:`Rate of Occupied Sites` （サイトの占有率を指定した吸着）があります。使用したい方を選択してください。"
+msgstr ""
+"Two types of adsorption method are available: :guilabel:`Adsorption to "
+"Single Site` and :guilabel:`Rate of Occupied Sites` .Choose one you'd "
+"like to use."
+
+#: ../../usage/modeler.rst:137
+msgid ""
+":guilabel:`Adsorption to Single Site` "
+"では、a軸・b軸方向の位置をスライダーで変更するか、サイトに振られた通し番号を使って、サイトを指定してください。"
+msgstr ""
+":guilabel:`Adsorption to Single Site` : use sliders to set the position "
+"along a/b axis, or specify the site using the serial number given to the "
+"sites."
+
+#: ../../usage/modeler.rst:139
+msgid ""
+":guilabel:`Rate of Occupied Sites` では、占有率を入力して :guilabel:`Build` "
+"をクリックすると、分子を吸着した構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
+"をクリックすると、同じ設定で異なる構造が表示されます。"
+msgstr ""
+":guilabel:`Rate of Occupied Sites` : enter the occupation rate and click "
+":guilabel:`Build` to show the structure with adsorbed molecules in the "
+"viewer. If you click :guilabel:`Build` again here, different structure "
+"with the same setting is shown."
+
+#: ../../usage/modeler.rst:151
+msgid "界面モデル（Pro版のみ）"
+msgstr "Interface model (Pro version only)"
+
+#: ../../usage/modeler.rst:153
+msgid "格子定数の異なる2つの結晶モデルから、界面モデルを作成します。"
+msgstr ""
+"Builds interface model from two crystal models with different lattice "
+"constants."
+
+#: ../../usage/modeler.rst:155
+msgid ""
+":guilabel:`Slab` タブの :guilabel:`Interface Model` にある :guilabel:`Start "
+"Modeling` をクリックしてください。界面モデル作成を行う画面が表示されます。"
+msgstr ""
+"In :guilabel:`Slab` tab, click :guilabel:`Start Modeling` in "
+":guilabel:`Interface Model` to show interface model view."
+
+#: ../../usage/modeler.rst:157
+msgid ""
+"まず、2つのスラブモデルを作成します。画面左のモデルに対し、表面となる結晶面を :guilabel:`Miller Index` で指定し、 "
+":guilabel:`Build` をクリックしてスラブモデルを作成します。続けて、右上に赤く表示されているimportボタン "
+"|import_red| "
+"をクリックし、もう一つのモデルを選択します。画面右にモデルが設定されたら、こちらもミラー指数を入力し、スラブモデルを作成します。"
+msgstr ""
+"First, create two slab models. Specify the crystal plane to be the "
+"surface by :guilabel:`Miller Index` for the left hand side model, and "
+"then click :guilabel:`Build` to create a slab model. Next, click import "
+"button |import_red| on the upper right to choose the other model. Once "
+"the model is set to right hand side, input the Miller indices and create "
+"a slab model in the same way."
+
+#: ../../usage/modeler.rst:159
+msgid "中央の :guilabel:`Build Interface` ボタンをクリックすると、界面を作成する画面に移ります。"
+msgstr ""
+"Click :guilabel:`Build Interface` button in the middle to go to build "
+"interface view."
+
+#: ../../usage/modeler.rst:163
+msgid ""
+":guilabel:`Acceptable Strain` （許容する格子定数の歪み）を入力し、  :guilabel:`Next` "
+"をクリックすると、界面を探索し、結果が表示されます。問題が無ければ、さらに  :guilabel:`Next` "
+"をクリックします。a軸・b軸方向の位置をスライダーで動かして調節できます。  :guilabel:`Optimize` "
+"をクリックすると、古典力場を使ってスラブ間の距離を最適化します。"
+msgstr ""
+"Input :guilabel:`Acceptable Strain` and click :guilabel:`Next` to find "
+"the interface. Check the result and if it is OK, click :guilabel:`Next` ."
+" You can adjust position along a/b-axis by the sliders. Click "
+":guilabel:`Optimize` to optimize the inter-slab distance using classical "
+"force field."
+
+#: ../../usage/modeler.rst:165
+msgid ""
+"ビューワー右上の :guilabel:`finish modeling` ボタン |finish| "
+"をクリックすると、表示されている構造が確定され、モデラー画面に戻ります。"
+msgstr ""
+"Click :guilabel:`finish modeling` button |finish| on the upper right in "
+"the viewer to fix the structure and go back to modeler view."
+
+#: ../../usage/modeler.rst:175
 msgid "分子エディタ―"
 msgstr "Drawing a molecule"
 
-#: ../../usage/modeler.rst:110
+#: ../../usage/modeler.rst:179
 msgid ""
 ":guilabel:`Molecule` タブの :guilabel:`Drawing a Molecule` にある "
 ":guilabel:`Start Modeling` "
@@ -1606,7 +1796,7 @@ msgstr ""
 "side is molecule editor and the right side is 3D model. The structure you"
 " created on the editor is displayed as 3D model in real time."
 
-#: ../../usage/modeler.rst:112
+#: ../../usage/modeler.rst:181
 msgid ""
 "エディターの使用方法については、JSMEの\\ `ヘルプ <http://peter-"
 "ertl.com/jsme/2013_03/help.html>`_\\ を参照してください。"
@@ -1614,21 +1804,21 @@ msgstr ""
 "Please refer to JSME `Help <http://peter-"
 "ertl.com/jsme/2013_03/help.html>`_ for the usage of the editor."
 
-#: ../../usage/modeler.rst:116
+#: ../../usage/modeler.rst:185
 msgid "左下の戻るボタン |back| をクリックすると、作図した構造が確定され、モデラ―画面に戻ります。このとき前のモデルは上書きされます。"
 msgstr ""
 "Click back button |back| on the lower left to go back to modeler view. "
 "Previous model is overwritten."
 
-#: ../../usage/modeler.rst:122
+#: ../../usage/modeler.rst:190
 msgid "分子充填"
 msgstr "Packing Molecules"
 
-#: ../../usage/modeler.rst:124
+#: ../../usage/modeler.rst:192
 msgid "モデルの空いている領域に、小分子を充填します。"
 msgstr "Pack small molecules into the empty space in the model."
 
-#: ../../usage/modeler.rst:126
+#: ../../usage/modeler.rst:194
 msgid ""
 "分子を充填できる空間を持ったモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Packing "
 "Molecules` にある :guilabel:`Start Modeling` をクリックしてください。分子充填を行う画面が表示されます。"
@@ -1637,7 +1827,7 @@ msgstr ""
 ":guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Lattice Defect` to show packing molecules view."
 
-#: ../../usage/modeler.rst:128
+#: ../../usage/modeler.rst:196
 msgid ""
 "右側のパネルの :guilabel:`Molecules to be Packed` "
 "で、充填する分子とその数を設定します。最初は分子のリストに水が設定されています。"
@@ -1646,7 +1836,7 @@ msgstr ""
 "packed in :guilabel:`Molecules to be Packed` . At first, water is set in "
 "the molecules list."
 
-#: ../../usage/modeler.rst:130
+#: ../../usage/modeler.rst:198
 msgid ""
 "リストに分子を追加するには、 |add| "
 "ボタンをクリックします。エクスプローラーが表示されますので、分子をダブルクリックして選択してください。この場で "
@@ -1658,11 +1848,11 @@ msgstr ""
 ":guilabel:`Materials Finder` to search the molecule. After the molecule "
 "is added to the list, enter the number of it to be packed."
 
-#: ../../usage/modeler.rst:132
+#: ../../usage/modeler.rst:200
 msgid "リストから分子を削除するには、右側の |remove| ボタンをクリックします。"
 msgstr "Click |remove| button on the right to remove the molecule from the list."
 
-#: ../../usage/modeler.rst:134
+#: ../../usage/modeler.rst:202
 msgid ""
 "充填する分子を設定し終わったら、 :guilabel:`Build` "
 "をクリックしてください。充填後の構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
@@ -1671,62 +1861,6 @@ msgstr ""
 "When finished, click :guilabel:`Build` to show the structure with packed "
 "molecules in the viewer. If you click :guilabel:`Build` again here, "
 "different structure with the same setting is shown."
-
-#: ../../usage/modeler.rst:146
-msgid "分子吸着"
-msgstr "Molecules adsorption"
-
-#: ../../usage/modeler.rst:148
-msgid "スラブモデルの表面に分子を吸着します。"
-msgstr "Adsorb molecules onto the slab model."
-
-#: ../../usage/modeler.rst:150
-msgid ""
-"スラブモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Molecular Adsorption onto "
-"Slab` にある :guilabel:`Start Modeling` をクリックしてください。分子吸着を行う画面が表示されます。"
-msgstr ""
-"Prepare a slab model. In :guilabel:`Molecule` tab, click :guilabel:`Start"
-" Modeling` in :guilabel:`Molecular Adsorption onto Slab` to show "
-"molecules adsorption view."
-
-#: ../../usage/modeler.rst:152
-msgid ""
-":guilabel:`Adsorbate Molecule / Atom` （吸着する分子）、 :guilabel:`Adsorption "
-"Site` （吸着サイトの種類）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous`"
-" で前の項目の設定に移ります。"
-msgstr ""
-"Set :guilabel:`Adsorbate Molecule / Atom` and :guilabel:`Adsorption Site`"
-" . Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to the next"
-" (previous) item."
-
-#: ../../usage/modeler.rst:154
-msgid ""
-"吸着の方法には、:guilabel:`Adsorption to Single Site` （選択した単一サイトへの吸着）と、 "
-":guilabel:`Rate of Occupied Sites` （サイトの占有率を指定した吸着）があります。使用したい方を選択してください。"
-msgstr ""
-"Two types of adsorption method are available: :guilabel:`Adsorption to "
-"Single Site` and :guilabel:`Rate of Occupied Sites` .Choose one you'd "
-"like to use."
-
-#: ../../usage/modeler.rst:156
-msgid ""
-":guilabel:`Adsorption to Single Site` "
-"では、a軸・b軸方向の位置をスライダーで変更するか、サイトに振られた通し番号を使って、サイトを指定してください。"
-msgstr ""
-":guilabel:`Adsorption to Single Site` : use sliders to set the position "
-"along a/b axis, or specify the site using the serial number given to the "
-"sites."
-
-#: ../../usage/modeler.rst:158
-msgid ""
-":guilabel:`Rate of Occupied Sites` では、占有率を入力して :guilabel:`Build` "
-"をクリックすると、分子を吸着した構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
-"をクリックすると、同じ設定で異なる構造が表示されます。"
-msgstr ""
-":guilabel:`Rate of Occupied Sites` : enter the occupation rate and click "
-":guilabel:`Build` to show the structure with adsorbed molecules in the "
-"viewer. If you click :guilabel:`Build` again here, different structure "
-"with the same setting is shown."
 
 #: ../../usage/project.rst:5
 msgid "プロジェクト"
@@ -1992,10 +2126,18 @@ msgstr ""
 "current atomic structure and start the analysis."
 
 #: ../../usage/result.rst:52
+msgid "フォノンモード"
+msgstr "Phonon modes"
+
+#: ../../usage/result.rst:54
+msgid ":guilabel:`Phonon.mode` をクリックすると、各振動モードを矢印で可視化することができます。"
+msgstr "Click :guilabel:`Phonon.mode` to visualize each vibrational mode by arrows."
+
+#: ../../usage/result.rst:61
 msgid "テキスト"
 msgstr "Text"
 
-#: ../../usage/result.rst:54
+#: ../../usage/result.rst:63
 msgid ""
 ":guilabel:`IN` （入力ファイル）、 :guilabel:`LOG` （ログファイル）、 :guilabel:`ERR` "
 "（エラーログファイル）をクリックすると、テキストファイルの内容をそのまま表示します。ファイル内検索、ハイライト表示や抽出も可能です。"
@@ -2004,15 +2146,15 @@ msgstr ""
 ":guilabel:`ERR` (error log file) to show the content of the file. You can"
 " use in-file search, highlighting and extracting."
 
-#: ../../usage/result.rst:56
+#: ../../usage/result.rst:65
 msgid ":guilabel:`Text editor` をクリックすると、外部のテキストエディターでファイルを開きます。"
 msgstr "Click :guilabel:`Text editor` to open the file with external text editor."
 
-#: ../../usage/result.rst:63
+#: ../../usage/result.rst:72
 msgid "原子構造の更新"
 msgstr "Update atomic configuration"
 
-#: ../../usage/result.rst:65
+#: ../../usage/result.rst:74
 msgid "原子構造の変化を伴う計算を行った後、更新 |updateatomconfig| をクリックすると、プロジェクトの原子構造を変化後のものに更新します。"
 msgstr ""
 "After performing a calculation involving changes in atomic configuration,"
