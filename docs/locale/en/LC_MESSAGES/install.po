@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-19 16:19+0900\n"
+"POT-Creation-Date: 2020-04-23 21:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../install.rst:5 ../../install/linux.rst:23 ../../install/mac.rst:21
 #: ../../install/windows.rst:23
@@ -178,8 +178,11 @@ msgstr ""
 
 #: ../../install/linux.rst:83
 msgid "本ソフトウェアのライセンス認証は、ライセンスサーバー（ライセンス認証用のプログラム）により行われます。本ソフトウェアの起動時に自動的にライセンスサーバーが起動されますので、通常はライセンスサーバーの操作を行っていただく必要はございません。"
-msgstr "License authentication of this software is performed by license server (separate program for license authentication). "
-"This software automatically launches the license server at the startup, so normally there is no need to operate the license server manually."
+msgstr ""
+"License authentication of this software is performed by license server "
+"(separate program for license authentication). This software "
+"automatically launches the license server at the startup, so normally "
+"there is no need to operate the license server manually."
 
 #: ../../install/linux.rst:87
 msgid "手動でライセンスサーバーを操作することも可能です。"
@@ -191,8 +194,8 @@ msgid ""
 "です。端末（ターミナル）でインストール先のディレクトリに移動したら、以下のコマンド例のように起動します。"
 msgstr ""
 "The executable of license server is located at "
-":file:`exec.LINUX/flex/lmgrd` in the install destination. After moving to the install destination in a terminal, "
-"run it as the example below."
+":file:`exec.LINUX/flex/lmgrd` in the install destination. After moving to"
+" the install destination in a terminal, run it as the example below."
 
 #: ../../install/linux.rst:91
 msgid "$ exec.LINUX/flex/lmgrd -c license/nanolabo.lic -l lmgrd.log"
@@ -718,7 +721,7 @@ msgid "CentOS 7 (64 bit)"
 msgstr ""
 
 #: ../../install/requirement.rst:11
-msgid "macOS 10.14 (64 bit)"
+msgid "macOS 10.15 (64 bit)"
 msgstr ""
 
 #: ../../install/requirement.rst:13
@@ -824,40 +827,4 @@ msgstr ""
 "location other than the install destination ( "
 ":file:`C:\\\\Users\\\\username\\\\.nanolabo` ) and are not removed during"
 " the uninstallation. Please remove them manually if you'd like to."
-
-#~ msgid ""
-#~ "`Advance/NanoLabo (ver.1.2.1) "
-#~ "<https://github.com/advancesoftcorp/nanolabo-"
-#~ "doc/releases/download/v1.2.1/install_nanolabo_linux_v1.2.1.bin>`_"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`Advance/NanoLabo Tool (ver.1.2.1) "
-#~ "<https://github.com/advancesoftcorp/nanolabo-"
-#~ "doc/releases/download/v1.2.1/install_nanolabo_tool_linux_v1.2.1.bin>`_"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`Advance/NanoLabo (ver.1.2.1) "
-#~ "<https://github.com/advancesoftcorp/nanolabo-"
-#~ "doc/releases/download/v1.2.1/install_nanolabo_mac_v1.2.1.dmg>`_"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`Advance/NanoLabo Tool (ver.1.2.1) "
-#~ "<https://github.com/advancesoftcorp/nanolabo-"
-#~ "doc/releases/download/v1.2.1/install_nanolabo_tool_mac_v1.2.1.dmg>`_"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`Advance/NanoLabo (ver.1.2.1) "
-#~ "<https://github.com/advancesoftcorp/nanolabo-"
-#~ "doc/releases/download/v1.2.1/install_nanolabo_windows_v1.2.1.exe>`_"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "`Advance/NanoLabo Tool (ver.1.2.1) "
-#~ "<https://github.com/advancesoftcorp/nanolabo-"
-#~ "doc/releases/download/v1.2.1/install_nanolabo_tool_windows_v1.2.1.exe>`_"
-#~ msgstr ""
 

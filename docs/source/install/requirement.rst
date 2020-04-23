@@ -8,7 +8,7 @@ OS
 
 * Windows 10 (64 bit)
 * CentOS 7 (64 bit)
-* macOS 10.14 (64 bit)
+* macOS 10.15 (64 bit)
 
 Java
 
