@@ -21,7 +21,7 @@
 
 .. image:: /img/textfield.png
 
-スライダーは、マウス操作で値を設定するほか、右クリックメニューの :guilabel:`Input directly` で値を直接入力できます。
+スライダーは、マウス操作で値を設定するほか、右クリックメニューの :guilabel:`Input directly` で値を直接入力できます。また、一部のスライダーは右クリックメニューの :guilabel:`Extend the domain` で値の範囲を増やすことができます。
 
 .. image:: /img/slider.png
 
