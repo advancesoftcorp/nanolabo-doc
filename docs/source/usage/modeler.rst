@@ -19,39 +19,33 @@
 並進移動
 ==========
 
-:guilabel:`Translation of Cell` で、すべての原子を同じ方向・距離に移動させます。各単位格子ベクトルのスライダーを動かすと、リアルタイムでビューワーに反映されます。
+:guilabel:`Cell` タブの :guilabel:`Translation of Cell` で、すべての原子を同じ方向・距離に移動させます。各単位格子ベクトルのスライダーを動かすと、リアルタイムでビューワーに反映されます。
 
 .. _supercell:
 
 超格子
 ================
 
-:guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 :guilabel:`Scaling` 欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。
+:guilabel:`Cell` タブの :guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 :guilabel:`Scaling` 欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。
 
 .. image:: /img/supercell.svg
 
-.. _slab:
+.. _atompositions:
 
-スラブモデル
+原子位置の調整
 ================
 
-表面などの非周期系を近似的に周期的境界条件で扱う、スラブ近似のためのモデルを作成します。
+位置を調整したい原子を選択してから、 :guilabel:`Atom` タブの :guilabel:`Start Modeling` をクリックします。
 
-:guilabel:`Slab Model` で、表面となる結晶面をミラー指数で指定し、 :guilabel:`Build` をクリックすると、スラブモデルの詳細設定を行う画面が表示されます。
+- |Delta|\ X(\ |Delta|\ Y, |Delta|\ Z) / Angs. のスライダーで、各座標軸方向に移動します。スライダーの右クリックメニューの :guilabel:`Input directly` で値を直接入力できます。
 
-スラブの厚さを :guilabel:`Slab System` の :guilabel:`Width / Cell` スライダーで、真空層の厚さを :guilabel:`Vacuum of a Side` の :guilabel:`Width / Angs.` スライダーで変更します。 :guilabel:`Area Scaling` のテキストボックスに繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックすると、スラブの層内方向に繰り返した構造を生成します。 
+- :guilabel:`X(Y, Z)-Mobility` で、各座標軸方向の固定・可動を設定します。この設定は構造最適化や分子動力学計算を行う際に適用されます。
 
-複数の異なる表面原子構造が存在する場合、 :guilabel:`Kind of Surface` に複数の候補が表示されますので、クリックして選択してください。
+- :guilabel:`Rotation` で、選択原子の幾何中心に対して回転移動します。 :guilabel:`Rotate Atoms` をクリックすると球が表示されますので、ドラッグして回転移動を行います。 :kbd:`Esc` キーを押すと、位置が確定します。
 
-変更はリアルタイムでビューワーに反映されます。
+.. |Delta| raw:: html
 
-:guilabel:`Initialize Model` をクリックすると、詳細設定を行う前（スラブモデル画面を開いた時点）の状態に戻ります。
-
-左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
-
-.. |back| image:: /img/back.png
-
-.. image:: /img/slab.png
+   &Delta;
 
 .. _conversion:
 
@@ -73,6 +67,8 @@
    六方晶・直方晶（斜方晶）を相互に変換します。
 
    .. image:: /img/hexa_ortho.svg
+
+また、 :guilabel:`Cell` タブの :guilabel:`Operation for Axis` の各ボタンで、格子ベクトルの反転操作、および格子ベクトルの入れ替えができます。
 
 .. _substitution:
 
@@ -100,6 +96,79 @@
 
 左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
 
+.. _slab:
+
+スラブモデル
+================
+
+表面などの非周期系を近似的に周期的境界条件で扱う、スラブ近似のためのモデルを作成します。
+
+:guilabel:`Slab` タブの :guilabel:`Slab Model` で、表面となる結晶面をミラー指数で指定し、 :guilabel:`Build` をクリックすると、スラブモデルの詳細設定を行う画面が表示されます。
+
+スラブの厚さを :guilabel:`Slab System` の :guilabel:`Width / Cell` スライダーで、真空層の厚さを :guilabel:`Vacuum of a Side` の :guilabel:`Width / Angs.` スライダーで変更します。 :guilabel:`Area Scaling` のテキストボックスに繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックすると、スラブの層内方向に繰り返した構造を生成します。 
+
+複数の異なる表面原子構造が存在する場合、 :guilabel:`Kind of Surface` に複数の候補が表示されますので、クリックして選択してください。
+
+変更はリアルタイムでビューワーに反映されます。
+
+:guilabel:`Initialize Model` をクリックすると、詳細設定を行う前（スラブモデル画面を開いた時点）の状態に戻ります。
+
+左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
+
+また、スラブモデル作成後、 :guilabel:`Editing Slab Model` の各ボタンから、スラブモデルに対する追加の編集が可能です。
+
+.. |back| image:: /img/back.png
+
+.. image:: /img/slab.png
+
+.. _adsorption:
+
+分子吸着
+=================
+
+スラブモデルの表面に分子を吸着します。
+
+スラブモデルを用意し、:guilabel:`Slab` タブの :guilabel:`Molecular Adsorption onto Slab` にある :guilabel:`Start Modeling` をクリックしてください。分子吸着を行う画面が表示されます。
+
+:guilabel:`Adsorbate Molecule / Atom` （吸着する分子）、 :guilabel:`Adsorption Site` （吸着サイトの種類）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。
+
+吸着の方法には、:guilabel:`Adsorption to Single Site` （選択した単一サイトへの吸着）と、 :guilabel:`Rate of Occupied Sites` （サイトの占有率を指定した吸着）があります。使用したい方を選択してください。
+
+:guilabel:`Adsorption to Single Site` では、a軸・b軸方向の位置をスライダーで変更するか、サイトに振られた通し番号を使って、サイトを指定してください。
+
+:guilabel:`Rate of Occupied Sites` では、占有率を入力して :guilabel:`Build` をクリックすると、分子を吸着した構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。
+
+左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
+
+.. |increment| image:: /img/increment.png
+.. |decrement| image:: /img/decrement.png
+
+.. image:: /img/adsorption.png
+
+.. _interface:
+
+界面モデル（Pro版のみ）
+=========================
+
+格子定数の異なる2つの結晶モデルから、界面モデルを作成します。
+
+:guilabel:`Slab` タブの :guilabel:`Interface Model` にある :guilabel:`Start Modeling` をクリックしてください。界面モデル作成を行う画面が表示されます。
+
+まず、2つのスラブモデルを作成します。画面左のモデルに対し、表面となる結晶面を :guilabel:`Miller Index` で指定し、 :guilabel:`Build` をクリックしてスラブモデルを作成します。続けて、右上に赤く表示されているimportボタン |import_red| をクリックし、もう一つのモデルを選択します。画面右にモデルが設定されたら、こちらもミラー指数を入力し、スラブモデルを作成します。
+
+中央の :guilabel:`Build Interface` ボタンをクリックすると、界面を作成する画面に移ります。
+
+.. image:: /img/interface1.png
+
+:guilabel:`Acceptable Strain` （許容する格子定数の歪み）を入力し、  :guilabel:`Next` をクリックすると、界面を探索し、結果が表示されます。問題が無ければ、さらに  :guilabel:`Next` をクリックします。a軸・b軸方向の位置をスライダーで動かして調節できます。  :guilabel:`Optimize` をクリックすると、古典力場を使ってスラブ間の距離を最適化します。
+
+ビューワー右上の :guilabel:`finish modeling` ボタン |finish| をクリックすると、表示されている構造が確定され、モデラー画面に戻ります。
+
+.. |import_red| image:: /img/import_red.png
+.. |finish| image:: /img/finish.png
+
+.. image:: /img/interface2.png
+
 .. _drawing:
 
 分子エディタ―
@@ -114,7 +183,6 @@
 .. image:: /img/drawing.png
 
 左下の戻るボタン |back| をクリックすると、作図した構造が確定され、モデラ―画面に戻ります。このとき前のモデルは上書きされます。
-
 
 .. _packing:
 
@@ -139,27 +207,3 @@
 .. |remove| image:: /img/remove.png
 
 .. image:: /img/packing.png
-
-.. _adsorption:
-
-分子吸着
-=================
-
-スラブモデルの表面に分子を吸着します。
-
-スラブモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Molecular Adsorption onto Slab` にある :guilabel:`Start Modeling` をクリックしてください。分子吸着を行う画面が表示されます。
-
-:guilabel:`Adsorbate Molecule / Atom` （吸着する分子）、 :guilabel:`Adsorption Site` （吸着サイトの種類）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。
-
-吸着の方法には、:guilabel:`Adsorption to Single Site` （選択した単一サイトへの吸着）と、 :guilabel:`Rate of Occupied Sites` （サイトの占有率を指定した吸着）があります。使用したい方を選択してください。
-
-:guilabel:`Adsorption to Single Site` では、a軸・b軸方向の位置をスライダーで変更するか、サイトに振られた通し番号を使って、サイトを指定してください。
-
-:guilabel:`Rate of Occupied Sites` では、占有率を入力して :guilabel:`Build` をクリックすると、分子を吸着した構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。
-
-左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
-
-.. |increment| image:: /img/increment.png
-.. |decrement| image:: /img/decrement.png
-
-.. image:: /img/adsorption.png
