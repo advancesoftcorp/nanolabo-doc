@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 21:11+0900\n"
+"POT-Creation-Date: 2020-04-27 11:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,15 +44,15 @@ msgstr ""
 
 #: ../../install/linux.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.1.3) <https://github.com/advancesoftcorp/nanolabo-"
-"doc/releases/download/v1.3/install_nanolabo_linux_v1.3.bin>`_"
+"`Advance/NanoLabo (ver.1.4) <https://github.com/advancesoftcorp/nanolabo-"
+"doc/releases/download/v1.4/install_nanolabo_linux_v1.4.bin>`_"
 msgstr ""
 
 #: ../../install/linux.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.1.3) <https://github.com/advancesoftcorp"
+"`Advance/NanoLabo Tool (ver.1.4) <https://github.com/advancesoftcorp"
 "/nanolabo-"
-"doc/releases/download/v1.3/install_nanolabo_tool_linux_v1.3.bin>`_"
+"doc/releases/download/v1.4/install_nanolabo_tool_linux_v1.4.bin>`_"
 msgstr ""
 
 #: ../../install/linux.rst:18
@@ -334,15 +334,15 @@ msgstr ""
 
 #: ../../install/mac.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.1.3) <https://github.com/advancesoftcorp/nanolabo-"
-"doc/releases/download/v1.3/install_nanolabo_mac_v1.3.dmg>`_"
+"`Advance/NanoLabo (ver.1.4) <https://github.com/advancesoftcorp/nanolabo-"
+"doc/releases/download/v1.4/install_nanolabo_mac_v1.4.dmg>`_"
 msgstr ""
 
 #: ../../install/mac.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.1.3) <https://github.com/advancesoftcorp"
+"`Advance/NanoLabo Tool (ver.1.4) <https://github.com/advancesoftcorp"
 "/nanolabo-"
-"doc/releases/download/v1.3/install_nanolabo_tool_mac_v1.3.dmg>`_"
+"doc/releases/download/v1.4/install_nanolabo_tool_mac_v1.4.dmg>`_"
 msgstr ""
 
 #: ../../install/mac.rst:23
@@ -738,15 +738,15 @@ msgstr "How to Install (Windows)"
 
 #: ../../install/windows.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.1.3) <https://github.com/advancesoftcorp/nanolabo-"
-"doc/releases/download/v1.3/install_nanolabo_windows_v1.3.exe>`_"
+"`Advance/NanoLabo (ver.1.4) <https://github.com/advancesoftcorp/nanolabo-"
+"doc/releases/download/v1.4/install_nanolabo_windows_v1.4.exe>`_"
 msgstr ""
 
 #: ../../install/windows.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.1.3) <https://github.com/advancesoftcorp"
+"`Advance/NanoLabo Tool (ver.1.4) <https://github.com/advancesoftcorp"
 "/nanolabo-"
-"doc/releases/download/v1.3/install_nanolabo_tool_windows_v1.3.exe>`_"
+"doc/releases/download/v1.4/install_nanolabo_tool_windows_v1.4.exe>`_"
 msgstr ""
 
 #: ../../install/windows.rst:18
