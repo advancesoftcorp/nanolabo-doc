@@ -108,7 +108,7 @@ LAMMPSで分子動力学計算
 
 .. _calculationqe:
 
-Quantum ESPRESSOの計算実行
+計算機能
 =========================================
 
 構造最適化計算
@@ -134,13 +134,13 @@ SCF計算
 .. |yt17| raw:: html
 
    <div class="youtube">
-   <iframe src="https://www.youtube.com/embed/lPijeQt04L4" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/RfwtdREkOrY" frameborder="0" allowfullscreen></iframe>
    </div>
 
 .. |yt17en| raw:: html
 
    <div class="youtube">
-   <iframe src="https://www.youtube.com/embed/lPijeQt04L4=en" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/RfwtdREkOrY" frameborder="0" allowfullscreen></iframe>
    </div>
 
 状態密度の表示
@@ -188,7 +188,7 @@ TDDFT計算
 .. |yt20en| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/v2-ImbQUsHQ=en" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/v2-ImbQUsHQ" frameborder="0" allowfullscreen></iframe>
   </div>
 
 ESM法
