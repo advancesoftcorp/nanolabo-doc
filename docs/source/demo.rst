@@ -48,13 +48,13 @@
 .. |yt03| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/JaBFc6aaYR0" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/JaBFc6aaYR0?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. |yt03en| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/JaBFc6aaYR0" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/JaBFc6aaYR0?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
 計算サーバーでの計算
@@ -64,13 +64,13 @@
 .. |yt04| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/e5oViwiJLx0" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/e5oViwiJLx0?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. |yt04en| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/e5oViwiJLx0" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/e5oViwiJLx0?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
 Qunantum ESPRESSOで分子動力学計算
@@ -134,13 +134,13 @@ SCF計算
 .. |yt17| raw:: html
 
    <div class="youtube">
-   <iframe src="https://www.youtube.com/embed/RfwtdREkOrY" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/RfwtdREkOrY?rel=0" frameborder="0" allowfullscreen></iframe>
    </div>
 
 .. |yt17en| raw:: html
 
    <div class="youtube">
-   <iframe src="https://www.youtube.com/embed/RfwtdREkOrY" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/RfwtdREkOrY?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
 状態密度の表示
@@ -182,13 +182,13 @@ TDDFT計算
 .. |yt20| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/v2-ImbQUsHQ" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/v2-ImbQUsHQ?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. |yt20en| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/v2-ImbQUsHQ" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/v2-ImbQUsHQ?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
 ESM法
@@ -198,13 +198,13 @@ ESM法
 .. |yt21| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/y2T-cDtkss0" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/y2T-cDtkss0?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. |yt21en| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/y2T-cDtkss0=en" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/y2T-cDtkss0?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
 NEB法
@@ -214,13 +214,13 @@ NEB法
 .. |yt22| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/uCuZVuLmiAc" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/uCuZVuLmiAc?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. |yt22en| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/uCuZVuLmiAc=en" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/uCuZVuLmiAc?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
 フォノン計算
@@ -251,13 +251,13 @@ NEB法
 .. |yt07| raw:: html
 
    <div class="youtube">
-   <iframe src="https://www.youtube.com/embed/4ztqRam3_ds" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/4ztqRam3_ds?rel=0" frameborder="0" allowfullscreen></iframe>
    </div>
 
 .. |yt07en| raw:: html
 
    <div class="youtube">
-   <iframe src="https://www.youtube.com/embed/4ztqRam3_ds" frameborder="0" allowfullscreen></iframe>
+   <iframe src="https://www.youtube.com/embed/4ztqRam3_ds?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
 元素置換
@@ -267,13 +267,13 @@ NEB法
 .. |yt08| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/aztcrPOk8OI" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/aztcrPOk8OI?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. |yt08en| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/aztcrPOk8OI" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/aztcrPOk8OI?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
 超格子モデルの作成
@@ -347,13 +347,13 @@ NEB法
 .. |yt13| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/zIdL7jQkLA8" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/zIdL7jQkLA8?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. |yt13en| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/zIdL7jQkLA8" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/zIdL7jQkLA8?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
 溶媒分子充填
@@ -379,13 +379,13 @@ NEB法
 .. |yt15| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/zI5Am6LwGqE" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/zI5Am6LwGqE?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. |yt15en| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/zI5Am6LwGqE" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/zI5Am6LwGqE?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. _designer:
