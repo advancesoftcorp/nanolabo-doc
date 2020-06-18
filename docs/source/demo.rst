@@ -100,7 +100,7 @@ LAMMPSで分子動力学計算
   <iframe src="https://www.youtube.com/embed/PgEZ-4PLQ7I?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
-.. |yt6en| raw:: html
+.. |yt06en| raw:: html
 
   <div class="youtube">
   <iframe src="https://www.youtube.com/embed/PgEZ-4PLQ7I?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
@@ -390,8 +390,10 @@ NEB法
 
 .. _designer:
 
-表示デザイン変更
+デザイン
 ===================
+
+分子の表示デザインの変更
 
  |yt24|
 
