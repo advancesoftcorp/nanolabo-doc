@@ -129,7 +129,7 @@ LAMMPSで分子動力学計算
 
 SCF計算
 
-|yt17|
+ |yt17|
 
 .. |yt17| raw:: html
 
@@ -177,7 +177,7 @@ SCF計算
 
 TDDFT計算
 
-|yt20|
+ |yt20|
 
 .. |yt20| raw:: html
 
@@ -193,7 +193,7 @@ TDDFT計算
 
 ESM法
 
-|yt21|
+ |yt21|
 
 .. |yt21| raw:: html
 
@@ -209,7 +209,7 @@ ESM法
 
 NEB法
 
-|yt22|
+ |yt22|
 
 .. |yt22| raw:: html
 
