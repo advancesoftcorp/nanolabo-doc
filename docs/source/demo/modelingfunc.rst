@@ -3,7 +3,7 @@
 モデリング機能
 ==================
 
-セル変換
++ セル変換
 
  |yt07|
 
@@ -19,7 +19,7 @@
    <iframe src="https://www.youtube.com/embed/4ztqRam3_ds?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-元素置換
++ 元素置換
 
  |yt08|
 
@@ -35,7 +35,7 @@
   <iframe src="https://www.youtube.com/embed/aztcrPOk8OI?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-超格子モデルの作成
++ 超格子モデルの作成
 
  |yt09|
 
@@ -51,7 +51,7 @@
    <iframe src="https://www.youtube.com/embed/hPUZC1aE2FE?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-スラブモデルの作成
++ スラブモデルの作成
 
  |yt10|
 
@@ -67,7 +67,7 @@
    <iframe src="https://www.youtube.com/embed/OZTcK_Utfqg?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-表面への小分子吸着
++ 表面への小分子吸着
 
  |yt11|
 
@@ -83,7 +83,7 @@
    <iframe src="https://www.youtube.com/embed/6S2HOSfLXkA?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-界面モデルの作成
++ 界面モデルの作成
 
  |yt12|
 
@@ -99,7 +99,7 @@
   <iframe src="https://www.youtube.com/embed/6S2HOSfLXkA?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-界面ビルダーの作成
++ 界面ビルダーの作成
 
  |yt13|
 
@@ -115,7 +115,7 @@
   <iframe src="https://www.youtube.com/embed/zIdL7jQkLA8?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-溶媒分子充填
++ 溶媒分子充填
 
  |yt14|
 
@@ -131,7 +131,7 @@
    <iframe src="https://www.youtube.com/embed/l-kEUKpZtrE?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-有機分子の作成
++ 有機分子の作成
 
  |yt15|
 

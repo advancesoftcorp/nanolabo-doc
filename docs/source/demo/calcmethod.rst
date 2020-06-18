@@ -3,7 +3,7 @@
 計算方法
 =====================================================
 
-分子構造検索
++ 分子構造検索
 
  |yt01|
 
@@ -19,7 +19,7 @@
    <iframe src="https://www.youtube.com/embed/Dbx0anIMr-g?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-インプットファイル作成
++ インプットファイル作成
 
  |yt02|
 
@@ -35,7 +35,7 @@
    <iframe src="https://www.youtube.com/embed/4m8FnGPOhP8?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-ローカルマシンでの計算
++ ローカルマシンでの計算
 
  |yt03|
 
@@ -51,7 +51,7 @@
   <iframe src="https://www.youtube.com/embed/JaBFc6aaYR0?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-計算サーバーでの計算
++ 計算サーバーでの計算
 
  |yt04|
 
@@ -67,7 +67,7 @@
   <iframe src="https://www.youtube.com/embed/e5oViwiJLx0?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-Qunantum ESPRESSOで分子動力学計算
++ Qunantum ESPRESSOで分子動力学計算
 
  |yt05|
 
@@ -84,7 +84,7 @@ Qunantum ESPRESSOで分子動力学計算
    </div>
 
 
-LAMMPSで分子動力学計算
++ LAMMPSで分子動力学計算
 
  |yt06|
 

@@ -3,7 +3,7 @@
 計算機能
 =========================================
 
-構造最適化計算
++ 構造最適化計算
 
  |yt16|
 
@@ -19,7 +19,7 @@
    <iframe src="https://www.youtube.com/embed/lPijeQt04L4?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-SCF計算
++ SCF計算
 
  |yt17|
 
@@ -35,7 +35,7 @@ SCF計算
    <iframe src="https://www.youtube.com/embed/RfwtdREkOrY?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-状態密度の表示
++ 状態密度の表示
 
  |yt18|
 
@@ -51,7 +51,7 @@ SCF計算
    <iframe src="https://www.youtube.com/embed/ja8QANYIrVU?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-バンド構造の表示
++ バンド構造の表示
 
  |yt19|
 
@@ -67,7 +67,7 @@ SCF計算
    <iframe src="https://www.youtube.com/embed/f339M581I8c?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-TDDFT計算
++ TDDFT計算
 
  |yt20|
 
@@ -83,7 +83,7 @@ TDDFT計算
   <iframe src="https://www.youtube.com/embed/v2-ImbQUsHQ?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-ESM法
++ ESM法
 
  |yt21|
 
@@ -99,7 +99,7 @@ ESM法
   <iframe src="https://www.youtube.com/embed/y2T-cDtkss0?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-NEB法
++ NEB法
 
  |yt22|
 
@@ -115,7 +115,7 @@ NEB法
   <iframe src="https://www.youtube.com/embed/uCuZVuLmiAc?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-フォノン計算
++ フォノン計算
 
  |yt23|
 
