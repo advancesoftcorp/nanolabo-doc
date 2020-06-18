@@ -46,7 +46,7 @@ Quantum ESPRESSOのインプットファイル作成
 Quantum ESPRESSOの計算実行
 =========================================
 
-構造最適化
+構造最適化計算
 
  |yt03|
 
@@ -62,7 +62,23 @@ Quantum ESPRESSOの計算実行
    <iframe src="https://www.youtube.com/embed/lPijeQt04L4?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-状態密度
+SCF計算
+
+|yt17|
+
+.. |yt17| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/lPijeQt04L4" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+.. |yt17en| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/lPijeQt04L4=en" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+状態密度の表示
 
  |yt04|
 
@@ -78,7 +94,7 @@ Quantum ESPRESSOの計算実行
    <iframe src="https://www.youtube.com/embed/ja8QANYIrVU?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-バンド構造
+バンド構造の表示
 
  |yt05|
 
@@ -94,10 +110,58 @@ Quantum ESPRESSOの計算実行
    <iframe src="https://www.youtube.com/embed/f339M581I8c?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
+TDDFT計算
+
+|yt20|
+
+.. |yt20| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/v2-ImbQUsHQ" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+.. |yt20en| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/v2-ImbQUsHQ=en" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+ESM法
+
+|yt21|
+
+.. |yt21| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/y2T-cDtkss0" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+.. |yt21en| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/y2T-cDtkss0=en" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+NEB法
+
+|yt22|
+
+.. |yt22| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/uCuZVuLmiAc" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+.. |yt22en| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/uCuZVuLmiAc=en" frameborder="0" allowfullscreen></iframe>
+  </div>
+
 分子動力学計算
 
  |yt06|
- 
+
 .. |yt06| raw:: html
 
    <div class="youtube">
@@ -113,7 +177,7 @@ Quantum ESPRESSOの計算実行
 フォノン計算
 
  |yt10|
- 
+
 .. |yt10| raw:: html
 
    <div class="youtube">
@@ -132,7 +196,7 @@ LAMMPSの計算実行
 =========================================
 
  |yt13|
- 
+
 .. |yt13| raw:: html
 
    <div class="youtube">
