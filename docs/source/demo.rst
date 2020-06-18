@@ -4,12 +4,12 @@
 デモ動画
 ==============
 
-.. _input:
+.. _calcmethod:
 
-Quantum ESPRESSOのインプットファイル作成
+計算方法
 =====================================================
 
-検索窓に化学式を入力し、 :kbd:`Enter` キーを押すと、対応する構造情報ファイルが一覧で表示されます。
+分子構造検索
 
  |yt01|
 
@@ -25,7 +25,7 @@ Quantum ESPRESSOのインプットファイル作成
    <iframe src="https://www.youtube.com/embed/Dbx0anIMr-g?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
-ファイルを選択すると新しい画面が開き、Quantum ESPRESSOのインプットファイルを作成できます。
+インプットファイル作成
 
  |yt02|
 
@@ -41,6 +41,71 @@ Quantum ESPRESSOのインプットファイル作成
    <iframe src="https://www.youtube.com/embed/4m8FnGPOhP8?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
+ローカルマシンでの計算
+
+ |yt03|
+
+.. |yt03| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/JaBFc6aaYR0" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+.. |yt03en| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/JaBFc6aaYR0" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+計算サーバーでの計算
+
+ |yt04|
+
+.. |yt04| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/e5oViwiJLx0" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+.. |yt04en| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/e5oViwiJLx0" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+Qunantum ESPRESSOで分子動力学計算
+
+ |yt05|
+
+.. |yt05| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/cKIgnmVCU9A?rel=0" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+.. |yt05en| raw:: html
+
+   <div class="youtube">
+   <iframe src="https://www.youtube.com/embed/cKIgnmVCU9A?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+
+LAMMPSで分子動力学計算
+
+ |yt06|
+
+.. |yt06| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/PgEZ-4PLQ7I?rel=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+.. |yt6en| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/PgEZ-4PLQ7I?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
+  </div>
+
 .. _calculationqe:
 
 Quantum ESPRESSOの計算実行
@@ -48,15 +113,15 @@ Quantum ESPRESSOの計算実行
 
 構造最適化計算
 
- |yt03|
+ |yt16|
 
-.. |yt03| raw:: html
+.. |yt16| raw:: html
 
    <div class="youtube">
    <iframe src="https://www.youtube.com/embed/lPijeQt04L4?rel=0" frameborder="0" allowfullscreen></iframe>
    </div>
 
-.. |yt03en| raw:: html
+.. |yt16en| raw:: html
 
    <div class="youtube">
    <iframe src="https://www.youtube.com/embed/lPijeQt04L4?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
@@ -80,15 +145,15 @@ SCF計算
 
 状態密度の表示
 
- |yt04|
+ |yt18|
 
-.. |yt04| raw:: html
+.. |yt18| raw:: html
 
    <div class="youtube">
    <iframe src="https://www.youtube.com/embed/ja8QANYIrVU?rel=0" frameborder="0" allowfullscreen></iframe>
    </div>
 
-.. |yt04en| raw:: html
+.. |yt18en| raw:: html
 
    <div class="youtube">
    <iframe src="https://www.youtube.com/embed/ja8QANYIrVU?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
@@ -96,15 +161,15 @@ SCF計算
 
 バンド構造の表示
 
- |yt05|
+ |yt19|
 
-.. |yt05| raw:: html
+.. |yt19| raw:: html
 
    <div class="youtube">
    <iframe src="https://www.youtube.com/embed/f339M581I8c?rel=0" frameborder="0" allowfullscreen></iframe>
    </div>
 
-.. |yt05en| raw:: html
+.. |yt19en| raw:: html
 
    <div class="youtube">
    <iframe src="https://www.youtube.com/embed/f339M581I8c?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
@@ -158,22 +223,6 @@ NEB法
   <iframe src="https://www.youtube.com/embed/uCuZVuLmiAc=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-分子動力学計算
-
- |yt06|
-
-.. |yt06| raw:: html
-
-   <div class="youtube">
-   <iframe src="https://www.youtube.com/embed/cKIgnmVCU9A?rel=0" frameborder="0" allowfullscreen></iframe>
-   </div>
-
-.. |yt06en| raw:: html
-
-   <div class="youtube">
-   <iframe src="https://www.youtube.com/embed/cKIgnmVCU9A?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
-   </div>
-
 フォノン計算
 
  |yt23|
@@ -188,25 +237,6 @@ NEB法
 
    <div class="youtube">
    <iframe src="https://www.youtube.com/embed/XUevJCIjCWE?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
-   </div>
-
-.. _calculationlp:
-
-LAMMPSの計算実行
-=========================================
-
- |yt6|
-
-.. |yt6| raw:: html
-
-   <div class="youtube">
-   <iframe src="https://www.youtube.com/embed/PgEZ-4PLQ7I?rel=0" frameborder="0" allowfullscreen></iframe>
-   </div>
-
-.. |yt6en| raw:: html
-
-   <div class="youtube">
-   <iframe src="https://www.youtube.com/embed/PgEZ-4PLQ7I?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
    </div>
 
 .. _modeling:
