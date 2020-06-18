@@ -9,136 +9,243 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-26 11:38+0900\n"
+"POT-Creation-Date: 2020-06-18 15:37+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../demo.rst:5
 msgid "デモ動画"
 msgstr "Demo Movies"
 
 #: ../../demo.rst:10
-msgid "Quantum ESPRESSOのインプットファイル作成"
-msgstr "Creating input files for Quantum ESPRESSO"
+msgid "計算方法"
+msgstr "Method of calculation"
 
 #: ../../demo.rst:12
-msgid "検索窓に化学式を入力し、 :kbd:`Enter` キーを押すと、対応する構造情報ファイルが一覧で表示されます。"
-msgstr ""
-"Type the chemical formula in the search box and press :kbd:`Enter` key to"
-" list the corresponding structure information files."
+msgid "分子構造検索"
+msgstr "Molecular structural search"
 
 #: ../../demo.rst:14
 msgid "|yt01|"
 msgstr "|yt01en|"
 
 #: ../../demo.rst:28
-msgid "ファイルを選択すると新しい画面が開き、Quantum ESPRESSOのインプットファイルを作成できます。"
-msgstr ""
-"When you select a file, a new view opens and you can create input files "
-"for Quantum ESPRESSO."
+msgid "インプットファイル作成"
+msgstr "Making input file"
 
 #: ../../demo.rst:30
 msgid "|yt02|"
 msgstr "|yt02en|"
 
-#: ../../demo.rst:47
-msgid "Quantum ESPRESSOの計算実行"
-msgstr "Running Quantum ESPRESSO calculation"
+#: ../../demo.rst:44
+msgid "ローカルマシンでの計算"
+msgstr "Calculation on the local machine"
 
-#: ../../demo.rst:49
-msgid "構造最適化"
-msgstr "Structure optimization"
-
-#: ../../demo.rst:51
+#: ../../demo.rst:46
 msgid "|yt03|"
 msgstr "|yt03en|"
 
-#: ../../demo.rst:65
-msgid "状態密度"
-msgstr "Density of states"
+#: ../../demo.rst:60
+msgid "計算サーバーでの計算"
+msgstr "Calculation on servers"
 
-#: ../../demo.rst:67
+#: ../../demo.rst:62
 msgid "|yt04|"
 msgstr "|yt04en|"
 
-#: ../../demo.rst:81
-msgid "バンド構造"
-msgstr "Band structure"
+#: ../../demo.rst:76
+msgid "Qunantum ESPRESSOで分子動力学計算"
+msgstr "Molecular dynamics calculation with Quantum ESPRESSO"
 
-#: ../../demo.rst:83
+#: ../../demo.rst:78
 msgid "|yt05|"
 msgstr "|yt05en|"
 
-#: ../../demo.rst:97
-msgid "分子動力学計算"
-msgstr "Molecular dynamics calculation"
+#: ../../demo.rst:93
+#, fuzzy
+msgid "LAMMPSで分子動力学計算"
+msgstr "Molecular dynamics calculation with LAMMPS"
 
-#: ../../demo.rst:99
+#: ../../demo.rst:95
 msgid "|yt06|"
 msgstr "|yt06en|"
 
-#: ../../demo.rst:113
-msgid "フォノン計算"
-msgstr "Phonon calculation"
+#: ../../demo.rst:112
+msgid "モデリング機能"
+msgstr "Modeling function"
 
-#: ../../demo.rst:115
-msgid "|yt10|"
-msgstr "|yt10en|"
+#: ../../demo.rst:114
+msgid "セル変換"
+msgstr "Cell conversion"
 
-#: ../../demo.rst:132
-msgid "LAMMPSの計算実行"
-msgstr "Running LAMMPS calculation"
-
-#: ../../demo.rst:134
-msgid "|yt13|"
-msgstr "|yt13en|"
-
-#: ../../demo.rst:151
-msgid "モデル作成"
-msgstr "Modeler"
-
-#: ../../demo.rst:153
-msgid "超格子"
-msgstr "Super cell"
-
-#: ../../demo.rst:155
+#: ../../demo.rst:116
 msgid "|yt07|"
 msgstr "|yt07en|"
 
-#: ../../demo.rst:169
-msgid "スラブモデル"
-msgstr "Slab model"
+#: ../../demo.rst:130
+msgid "元素置換"
+msgstr "Element substitution"
 
-#: ../../demo.rst:171
+#: ../../demo.rst:132
 msgid "|yt08|"
 msgstr "|yt08en|"
 
-#: ../../demo.rst:185
-msgid "表面への小分子吸着"
-msgstr "Molecular adsorption onto slab"
+#: ../../demo.rst:146
+#, fuzzy
+msgid "超格子モデルの作成"
+msgstr "Making of the superlattice model"
 
-#: ../../demo.rst:187
-msgid "|yt11|"
-msgstr "|yt11en|"
-
-#: ../../demo.rst:201
-msgid "溶媒分子充填"
-msgstr "Packing molecules"
-
-#: ../../demo.rst:203
-msgid "|yt12|"
-msgstr "|yt12en|"
-
-#: ../../demo.rst:220
-msgid "表示デザイン変更"
-msgstr "Changing display design"
-
-#: ../../demo.rst:222
+#: ../../demo.rst:148
 msgid "|yt09|"
 msgstr "|yt09en|"
 
+#: ../../demo.rst:162
+#, fuzzy
+msgid "スラブモデルの作成"
+msgstr "Making of the slab model"
+
+#: ../../demo.rst:164
+msgid "|yt10|"
+msgstr "|yt10en|"
+
+#: ../../demo.rst:178
+msgid "表面への小分子吸着"
+msgstr "Small molecule adsorption on the surface"
+
+#: ../../demo.rst:180
+msgid "|yt11|"
+msgstr "|yt11en|"
+
+#: ../../demo.rst:194
+#, fuzzy
+msgid "界面モデルの作成"
+msgstr "Making of the interface model"
+
+#: ../../demo.rst:196
+msgid "|yt12|"
+msgstr "|yt12en|"
+
+#: ../../demo.rst:210
+msgid "界面ビルダーの作成"
+msgstr "Making of the interface builder"
+
+#: ../../demo.rst:212
+msgid "|yt13|"
+msgstr "|yt13en|"
+
+#: ../../demo.rst:226
+msgid "溶媒分子充填"
+msgstr "Solvent molecule packing"
+
+#: ../../demo.rst:228
+#, fuzzy
+msgid "|yt14|"
+msgstr "|yt13en|"
+
+#: ../../demo.rst:242
+msgid "有機分子の作成"
+msgstr "Making of the organic molecule"
+
+#: ../../demo.rst:244
+#, fuzzy
+msgid "|yt15|"
+msgstr "|yt13en|"
+
+#: ../../demo.rst:261
+msgid "計算機能"
+msgstr "Calculation function"
+
+#: ../../demo.rst:263
+#, fuzzy
+msgid "構造最適化計算"
+msgstr "Structural optimization calculation"
+
+#: ../../demo.rst:265
+#, fuzzy
+msgid "|yt16|"
+msgstr "|yt13en|"
+
+#: ../../demo.rst:279
+msgid "SCF計算"
+msgstr "SCF calculation"
+
+#: ../../demo.rst:281
+#, fuzzy
+msgid "|yt17|"
+msgstr "|yt13en|"
+
+#: ../../demo.rst:295
+#, fuzzy
+msgid "状態密度の表示"
+msgstr "Display of density of states"
+
+#: ../../demo.rst:297
+#, fuzzy
+msgid "|yt18|"
+msgstr "|yt13en|"
+
+#: ../../demo.rst:311
+#, fuzzy
+msgid "バンド構造の表示"
+msgstr "Display of band structure"
+
+#: ../../demo.rst:313
+#, fuzzy
+msgid "|yt19|"
+msgstr "|yt13en|"
+
+#: ../../demo.rst:327
+msgid "TDDFT計算"
+msgstr "TDDFT calculation"
+
+#: ../../demo.rst:329
+#, fuzzy
+msgid "|yt20|"
+msgstr "|yt12en|"
+
+#: ../../demo.rst:343
+msgid "ESM法"
+msgstr "ESM method"
+
+#: ../../demo.rst:345
+#, fuzzy
+msgid "|yt21|"
+msgstr "|yt13en|"
+
+#: ../../demo.rst:359
+msgid "NEB法"
+msgstr "NEB method"
+
+#: ../../demo.rst:361
+#, fuzzy
+msgid "|yt22|"
+msgstr "|yt12en|"
+
+#: ../../demo.rst:375
+msgid "フォノン計算"
+msgstr "Phonon calculation"
+
+#: ../../demo.rst:377
+#, fuzzy
+msgid "|yt23|"
+msgstr "|yt13en|"
+
+#: ../../demo.rst:394
+#, fuzzy
+msgid "デザイン"
+msgstr "Changing display design"
+
+#: ../../demo.rst:396
+#, fuzzy
+msgid "分子の表示デザインの変更"
+msgstr "Change the displayed molecular design"
+
+#: ../../demo.rst:398
+#, fuzzy
+msgid "|yt24|"
+msgstr "|yt24en|"
