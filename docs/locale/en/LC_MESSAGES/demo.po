@@ -139,7 +139,6 @@ msgid "溶媒分子充填"
 msgstr "Solvent molecule packing"
 
 #: ../../demo.rst:228
-#, fuzzy
 msgid "|yt14|"
 msgstr "|yt14en|"
 
@@ -148,7 +147,6 @@ msgid "有機分子の作成"
 msgstr "Making of the organic molecule"
 
 #: ../../demo.rst:244
-#, fuzzy
 msgid "|yt15|"
 msgstr "|yt15en|"
 
@@ -161,7 +159,6 @@ msgid "構造最適化計算"
 msgstr "Structural optimization calculation"
 
 #: ../../demo.rst:265
-#, fuzzy
 msgid "|yt16|"
 msgstr "|yt16en|"
 
@@ -170,7 +167,6 @@ msgid "SCF計算"
 msgstr "SCF calculation"
 
 #: ../../demo.rst:281
-#, fuzzy
 msgid "|yt17|"
 msgstr "|yt17en|"
 
@@ -179,7 +175,6 @@ msgid "状態密度の表示"
 msgstr "Display of density of states"
 
 #: ../../demo.rst:297
-#, fuzzy
 msgid "|yt18|"
 msgstr "|yt18en|"
 
@@ -188,7 +183,6 @@ msgid "バンド構造の表示"
 msgstr "Display of band structure"
 
 #: ../../demo.rst:313
-#, fuzzy
 msgid "|yt19|"
 msgstr "|yt19en|"
 
@@ -197,7 +191,6 @@ msgid "TDDFT計算"
 msgstr "TDDFT calculation"
 
 #: ../../demo.rst:329
-#, fuzzy
 msgid "|yt20|"
 msgstr "|yt20en|"
 
@@ -206,7 +199,6 @@ msgid "ESM法"
 msgstr "ESM method"
 
 #: ../../demo.rst:345
-#, fuzzy
 msgid "|yt21|"
 msgstr "|yt21en|"
 
@@ -215,7 +207,6 @@ msgid "NEB法"
 msgstr "NEB method"
 
 #: ../../demo.rst:361
-#, fuzzy
 msgid "|yt22|"
 msgstr "|yt22en|"
 
@@ -224,7 +215,6 @@ msgid "フォノン計算"
 msgstr "Phonon calculation"
 
 #: ../../demo.rst:377
-#, fuzzy
 msgid "|yt23|"
 msgstr "|yt23en|"
 
@@ -237,6 +227,5 @@ msgid "分子の表示デザインの変更"
 msgstr "Change the displayed molecular design"
 
 #: ../../demo.rst:398
-#, fuzzy
 msgid "|yt24|"
 msgstr "|yt24en|"
