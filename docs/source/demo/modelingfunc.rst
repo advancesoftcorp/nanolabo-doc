@@ -105,14 +105,14 @@
 
 .. |yt13| raw:: html
 
-  <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/zIdL7jQkLA8?rel=0" frameborder="0" allowfullscreen></iframe>
+  <div>
+  <iframe src="https://www.youtube.com/embed/6eCZ2vW0tus?rel=0" width="500" height="300" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. |yt13en| raw:: html
 
-  <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/zIdL7jQkLA8?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
+  <div>
+  <iframe src="https://www.youtube.com/embed/6eCZ2vW0tus?rel=0&hl=en" width="500" height="300" frameborder="0" allowfullscreen></iframe>
   </div>
 
 + 溶媒分子充填
