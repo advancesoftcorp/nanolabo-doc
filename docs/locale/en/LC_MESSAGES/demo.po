@@ -67,7 +67,6 @@ msgid "|yt05|"
 msgstr "|yt05en|"
 
 #: ../../demo.rst:93
-#, fuzzy
 msgid "LAMMPSで分子動力学計算"
 msgstr "Molecular dynamics calculation with LAMMPS"
 
@@ -96,7 +95,6 @@ msgid "|yt08|"
 msgstr "|yt08en|"
 
 #: ../../demo.rst:146
-#, fuzzy
 msgid "超格子モデルの作成"
 msgstr "Making of the superlattice model"
 
@@ -105,7 +103,6 @@ msgid "|yt09|"
 msgstr "|yt09en|"
 
 #: ../../demo.rst:162
-#, fuzzy
 msgid "スラブモデルの作成"
 msgstr "Making of the slab model"
 
@@ -122,7 +119,6 @@ msgid "|yt11|"
 msgstr "|yt11en|"
 
 #: ../../demo.rst:194
-#, fuzzy
 msgid "界面モデルの作成"
 msgstr "Making of the interface model"
 
@@ -161,7 +157,6 @@ msgid "計算機能"
 msgstr "Calculation function"
 
 #: ../../demo.rst:263
-#, fuzzy
 msgid "構造最適化計算"
 msgstr "Structural optimization calculation"
 
@@ -180,7 +175,6 @@ msgid "|yt17|"
 msgstr "|yt13en|"
 
 #: ../../demo.rst:295
-#, fuzzy
 msgid "状態密度の表示"
 msgstr "Display of density of states"
 
@@ -190,7 +184,6 @@ msgid "|yt18|"
 msgstr "|yt13en|"
 
 #: ../../demo.rst:311
-#, fuzzy
 msgid "バンド構造の表示"
 msgstr "Display of band structure"
 
@@ -236,12 +229,10 @@ msgid "|yt23|"
 msgstr "|yt13en|"
 
 #: ../../demo.rst:394
-#, fuzzy
 msgid "デザイン"
 msgstr "Changing display design"
 
 #: ../../demo.rst:396
-#, fuzzy
 msgid "分子の表示デザインの変更"
 msgstr "Change the displayed molecular design"
 
