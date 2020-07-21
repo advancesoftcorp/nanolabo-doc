@@ -14,6 +14,8 @@
 
 .. image:: /img/result.png
 
+リモートのサーバーで計算を実行している場合、結果表示画面が出ている間はリアルタイムでアクセスを行い、結果を取得しています。右側のパネルにある :guilabel:`Disconnect from Server` アイコンをクリックすると、アクセスを一時停止します。自動的にダウンロードされるのは可視化に必要なファイルのみですが、 :guilabel:`Download All Files from Server` アイコンをクリックするとそのプロジェクトの全てのファイルをダウンロードします。また、サーバーのファイル容量が問題になる場合には、ダウンロード後に :guilabel:`Delete All Files on Server` を使って削除できます。
+
 .. _plot:
 
 2Dプロット
