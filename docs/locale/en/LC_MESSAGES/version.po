@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-27 15:43+0900\n"
+"POT-Creation-Date: 2020-07-22 12:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,178 +22,195 @@ msgstr ""
 msgid "バージョン情報"
 msgstr "Version Information"
 
-#: ../../version.rst:21
-msgid "2020/04/27 バージョン1.4"
-msgstr "2020/04/27 Version 1.4"
+#: ../../version.rst:14
+msgid "2020/--/-- バージョン1.5"
+msgstr "2020/--/-- Version 1.5"
 
-#: ../../version.rst:8 ../../version.rst:33 ../../version.rst:42
-#: ../../version.rst:55
+#: ../../version.rst:8 ../../version.rst:17 ../../version.rst:42
+#: ../../version.rst:51 ../../version.rst:64
 msgid "機能追加"
 msgstr "New features"
 
 #: ../../version.rst:10
+msgid "QE: 交換相関汎関数設定（ハイブリッド汎関数・ファンデルワールス相互作用）"
+msgstr "QE: setting of exchange-correlation functional (hybrid functional / van der Waals interaction)"
+
+#: ../../version.rst:11
+msgid "QE: PDOS電卓"
+msgstr "QE: PDOS Calculator"
+
+#: ../../version.rst:12
+msgid "リモート実行時のアクセス一時停止、サーバー上のファイルダウンロード・削除"
+msgstr "Suspend the access during remote execution / download files from server / delete files on server"
+
+#: ../../version.rst:14 ../../version.rst:30 ../../version.rst:35
+#: ../../version.rst:57
+msgid "その他、動作改善・バグ修正等"
+msgstr "Tune-ups, bug fixes, etc."
+
+#: ../../version.rst:30
+msgid "2020/04/27 バージョン1.4"
+msgstr "2020/04/27 Version 1.4"
+
+#: ../../version.rst:19
 msgid "LAMMPS: 熱伝導率、粘性係数、拡散係数、動径分布関数の計算・可視化"
 msgstr ""
 "LAMMPS: Calculate and visualize thermal conductivity, viscosity "
 "coefficient, diffusion coefficient and radial distribution function"
 
-#: ../../version.rst:11
+#: ../../version.rst:20
 msgid "LAMMPS: Tersoff力場対応"
 msgstr "LAMMPS: Support Tersoff force field"
 
-#: ../../version.rst:12
+#: ../../version.rst:21
 msgid "QE: SCFのDiagonalizationにrmmを追加（デフォルト）"
 msgstr "QE: Add rmm to Diagonalization in SCF (default)"
 
-#: ../../version.rst:13
+#: ../../version.rst:22
 msgid "QE: TD-DFTのAlgorithm追加"
 msgstr "QE: Add Algorithm to TD-DFT"
 
-#: ../../version.rst:14
+#: ../../version.rst:23
 msgid "格子ベクトルの反転・入れ替え"
 msgstr "Flip / swap lattice vectors"
 
-#: ../../version.rst:15
+#: ../../version.rst:24
 msgid "座標軸に沿った原子移動"
 msgstr "Move atoms along coordinate axis"
 
-#: ../../version.rst:16
+#: ../../version.rst:25
 msgid "スラブモデルに対する追加の編集機能"
 msgstr "Additional operations for slab model"
 
-#: ../../version.rst:17
+#: ../../version.rst:26
 msgid "Result画面ファイルツリーのコンテキストメニュー・ドラッグ操作"
 msgstr "Context menu / drag operation on file tree in Result view"
 
-#: ../../version.rst:18
+#: ../../version.rst:27
 msgid "ウィンドウサイズ保存"
 msgstr "Preserve window size"
 
-#: ../../version.rst:20
+#: ../../version.rst:29
 msgid "（Linux版）長時間使用時に正常に動作しなくなる不具合を修正"
 msgstr ""
 "(Linux) Fixed problem of not working properly when used for a long time "
 "period"
 
-#: ../../version.rst:21 ../../version.rst:26 ../../version.rst:48
-msgid "その他、動作改善・バグ修正等"
-msgstr "Tune-ups, bug fixes, etc."
-
-#: ../../version.rst:26
+#: ../../version.rst:35
 msgid "2019/09/30 バージョン1.3"
 msgstr "2019/09/30 Version 1.3"
 
-#: ../../version.rst:24
+#: ../../version.rst:33
 msgid "機能を強化した「Pro版」をリリース"
 msgstr "released \"Pro version\" with additional functions"
 
-#: ../../version.rst:25
+#: ../../version.rst:34
 msgid "[Pro] 界面ビルダー"
 msgstr "[Pro] Interface builder"
 
-#: ../../version.rst:30
+#: ../../version.rst:39
 msgid "2019/08/05 バージョン1.2.1"
 msgstr "2019/08/05 Version 1.2.1"
 
-#: ../../version.rst:29
+#: ../../version.rst:38
 msgid "（macOS版）環境により計算エンジンが動作しない問題を解消"
 msgstr ""
 "(macOS) Solved environment-dependent problem that prevented execution of "
 "calculation engine"
 
-#: ../../version.rst:30 ../../version.rst:66
+#: ../../version.rst:39 ../../version.rst:75
 msgid "その他、バグ修正等"
 msgstr "Bug fixes, etc."
 
-#: ../../version.rst:39
+#: ../../version.rst:48
 msgid "2019/06/28 バージョン1.2"
 msgstr "2019/06/28 Version 1.2"
 
-#: ../../version.rst:35
+#: ../../version.rst:44
 msgid "Nudged Elastic Band（NEB）法"
 msgstr "Nudged Elastic Band (NEB) method"
 
-#: ../../version.rst:36
+#: ../../version.rst:45
 msgid "Effective Screening Medium（ESM）法"
 msgstr "Effective Screening Medium (ESM) method"
 
-#: ../../version.rst:37
+#: ../../version.rst:46
 msgid "Python連携"
 msgstr "Cooperation with Python"
 
-#: ../../version.rst:39
+#: ../../version.rst:48
 msgid "原子構造ビューアーの機能改善"
 msgstr "Tune-up of atomic viewer"
 
-#: ../../version.rst:48
+#: ../../version.rst:57
 msgid "2019/05/09 バージョン1.1.2"
 msgstr "2019/05/09 Version 1.1.2"
 
-#: ../../version.rst:44
+#: ../../version.rst:53
 msgid "起動時アップデートチェック"
 msgstr "Update check at startup"
 
-#: ../../version.rst:45
+#: ../../version.rst:54
 msgid "ラムダシステム"
 msgstr "Lambda System"
 
-#: ../../version.rst:47
+#: ../../version.rst:56
 msgid "LAMMPSでReaxFF使用時にreal単位系を使うよう修正"
 msgstr "Fixed to use real unit system when using ReaxFF in LAMMPS"
 
-#: ../../version.rst:51
+#: ../../version.rst:60
 msgid "2019/01/18 バージョン1.1.1"
 msgstr "2019/01/18 Version 1.1.1"
 
-#: ../../version.rst:51
+#: ../../version.rst:60
 msgid "バグ修正（プロキシ使用時の通信不具合）"
 msgstr "Bug fix (connection problem when using proxy)"
 
-#: ../../version.rst:66
+#: ../../version.rst:75
 msgid "2018/12/21 バージョン1.1"
 msgstr "2018/12/21 Version 1.1"
 
-#: ../../version.rst:54
+#: ../../version.rst:63
 msgid "macOS対応"
 msgstr "macOS support"
 
-#: ../../version.rst:57
+#: ../../version.rst:66
 msgid "計算サーバーへのジョブ投入（SSH接続）"
 msgstr "Post jobs to calculation server (SSH connection)"
 
-#: ../../version.rst:58
+#: ../../version.rst:67
 msgid "有機分子の描画"
 msgstr "Drawing a molecule"
 
-#: ../../version.rst:59
+#: ../../version.rst:68
 msgid "表面への小分子吸着"
 msgstr "Molecular adsorption onto slab"
 
-#: ../../version.rst:60
+#: ../../version.rst:69
 msgid "溶媒分子充填"
 msgstr "Packing molecules"
 
-#: ../../version.rst:61
+#: ../../version.rst:70
 msgid "Primitive Cell、Standard Cellの自動決定"
 msgstr "Automatically find Primitive Cell / Standard Cell"
 
-#: ../../version.rst:62
+#: ../../version.rst:71
 msgid "空間群の判定"
 msgstr "Detect space group"
 
-#: ../../version.rst:63
+#: ../../version.rst:72
 msgid "外部テキストエディターでのファイル表示"
 msgstr "Open files with external text editor"
 
-#: ../../version.rst:64
+#: ../../version.rst:73
 msgid "エクスプローラーの機能強化"
 msgstr "Enhancement of explorer functions"
 
-#: ../../version.rst:68
+#: ../../version.rst:77
 msgid "2018/08/01 バージョン1.0"
 msgstr "2018/08/01 Version 1.0"
 
-#: ../../version.rst:69
+#: ../../version.rst:78
 msgid "初回リリース"
 msgstr "Initial release"
 

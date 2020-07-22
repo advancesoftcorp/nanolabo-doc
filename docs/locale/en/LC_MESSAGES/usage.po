@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 17:27+0900\n"
+"POT-Creation-Date: 2020-07-22 12:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2044,6 +2044,10 @@ msgstr ""
 "calculation in an unsaved project or if you try to close a tab with "
 "unsaved changes."
 
+#: ../../usage/result.rst:28 ../../usage/resultpdos.rst:5
+msgid "PDOS電卓"
+msgstr "PDOS Calculator"
+
 #: ../../usage/result.rst:5
 msgid "結果表示"
 msgstr "Result"
@@ -2064,11 +2068,24 @@ msgstr ""
 "Click an item you'd like to see to open the result view. Click back "
 "button |back| on the lower left to go back to the list."
 
-#: ../../usage/result.rst:20
+#: ../../usage/result.rst:17
+msgid ""
+"リモートのサーバーで計算を実行している場合、結果表示画面が出ている間はリアルタイムでアクセスを行い、結果を取得しています。右側のパネルにある "
+":guilabel:`Disconnect from Server` "
+"アイコンをクリックすると、アクセスを一時停止します。自動的にダウンロードされるのは可視化に必要なファイルのみですが、 "
+":guilabel:`Download All Files from Server` "
+"アイコンをクリックするとそのプロジェクトの全てのファイルをダウンロードします。また、サーバーのファイル容量が問題になる場合には、ダウンロード後に "
+":guilabel:`Delete All Files on Server` を使って削除できます。"
+msgstr "In case the calculation is running on the remote server, the result is continuously obtained during the result view is shown. "
+"Click :guilabel:`Disconnect from Server` icon on the right side panel to suspend the access. Automatic downloads are performed only for the files "
+"required for the visualization. Click :guilabel:`Download All Files from Server` icon to manually download all the files in the project. "
+"If the file capacity matters on the server, you can use :guilabel:`Delete All Files on Server` ."
+
+#: ../../usage/result.rst:22
 msgid "2Dプロット"
 msgstr "2D plot"
 
-#: ../../usage/result.rst:22
+#: ../../usage/result.rst:24
 msgid ""
 "時系列データや状態密度・バンド構造は2Dプロットで表示します。画面右側のパネルでプロットの体裁を調整します。 :guilabel:`Data "
 "Series` でデータ系列ごとに表示・非表示の設定、体裁の調整が可能です。"
@@ -2078,13 +2095,17 @@ msgstr ""
 ":guilabel:`Data Series` , you can choose whether to show each data "
 "series, and tweak the appearance."
 
-#: ../../usage/result.rst:24
+#: ../../usage/result.rst:26
+msgid "状態密度のプロットはPDOS電卓を使った詳細な設定が可能です。"
+msgstr "You can customize the density of states plot using PDOS Calculator."
+
+#: ../../usage/result.rst:33
 msgid "計算実行中の場合、 :guilabel:`Reload` をクリックすると出力ファイルを読み込んで表示を更新します。"
 msgstr ""
 "In case the calculation is running, click :guilabel:`Reload` to read the "
 "output file and update the display."
 
-#: ../../usage/result.rst:26
+#: ../../usage/result.rst:35
 msgid ""
 ":guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。また、 :guilabel:`Export as"
 " CSV file` をクリックすると表示しているデータをCSVファイルとして保存します。"
@@ -2092,11 +2113,11 @@ msgstr ""
 "Click :guilabel:`Screen-shot` to save the plot as an image file. Click "
 ":guilabel:`Export as CSV file` to save the displayed data as a CSV file."
 
-#: ../../usage/result.rst:37
+#: ../../usage/result.rst:46
 msgid "動画"
 msgstr "Movie"
 
-#: ../../usage/result.rst:39
+#: ../../usage/result.rst:48
 msgid ""
 ":guilabel:`.movie` をクリックすると、原子構造の変化を動画として表示します。計算実行中の場合、 "
 ":guilabel:`Reload` をクリックすると出力ファイルを読み込み、増えたフレーム（コマ）を追加します。"
@@ -2105,13 +2126,13 @@ msgstr ""
 "animation. In case the calculation is running, click :guilabel:`Reload` "
 "to read the output file and add updated frames."
 
-#: ../../usage/result.rst:41
+#: ../../usage/result.rst:50
 msgid "視点の操作は原子構造ビューワーと同様に行うことができます。再生中でも視点を変えられます。"
 msgstr ""
 "You can change the viewpoint in the same way as atomic structure viewer. "
 "You can change the viewpoint even during the playback."
 
-#: ../../usage/result.rst:43
+#: ../../usage/result.rst:52
 msgid ""
 ":guilabel:`Screen-shot` をクリックして表示中のフレーム（コマ）を画像ファイルに保存します。 :guilabel:`Save"
 " Movie` をクリックしてすべてのフレーム（コマ）を動画ファイルに保存します。"
@@ -2119,25 +2140,27 @@ msgstr ""
 "Click :guilabel:`Screen-shot` to save current frame as an image file. "
 "Click :guilabel:`Save Movie` to save the entire frames as a movie file."
 
-#: ../../usage/result.rst:45
+#: ../../usage/result.rst:54
 msgid ":guilabel:`New Project` をクリックすると、表示中の原子構造を使って新しく別のプロジェクトを作成し、解析を行うことができます。"
 msgstr ""
 "Click :guilabel:`New Project` to newly create another project using "
 "current atomic structure and start the analysis."
 
-#: ../../usage/result.rst:52
+#: ../../usage/result.rst:61
 msgid "フォノンモード"
 msgstr "Phonon modes"
 
-#: ../../usage/result.rst:54
+#: ../../usage/result.rst:63
 msgid ":guilabel:`Phonon.mode` をクリックすると、各振動モードを矢印で可視化することができます。"
-msgstr "Click :guilabel:`Phonon.mode` to visualize each vibrational mode by arrows."
+msgstr ""
+"Click :guilabel:`Phonon.mode` to visualize each vibrational mode by "
+"arrows."
 
-#: ../../usage/result.rst:61
+#: ../../usage/result.rst:70
 msgid "テキスト"
 msgstr "Text"
 
-#: ../../usage/result.rst:63
+#: ../../usage/result.rst:72
 msgid ""
 ":guilabel:`IN` （入力ファイル）、 :guilabel:`LOG` （ログファイル）、 :guilabel:`ERR` "
 "（エラーログファイル）をクリックすると、テキストファイルの内容をそのまま表示します。ファイル内検索、ハイライト表示や抽出も可能です。"
@@ -2146,20 +2169,78 @@ msgstr ""
 ":guilabel:`ERR` (error log file) to show the content of the file. You can"
 " use in-file search, highlighting and extracting."
 
-#: ../../usage/result.rst:65
+#: ../../usage/result.rst:74
 msgid ":guilabel:`Text editor` をクリックすると、外部のテキストエディターでファイルを開きます。"
 msgstr "Click :guilabel:`Text editor` to open the file with external text editor."
 
-#: ../../usage/result.rst:72
+#: ../../usage/result.rst:81
 msgid "原子構造の更新"
 msgstr "Update atomic configuration"
 
-#: ../../usage/result.rst:74
+#: ../../usage/result.rst:83
 msgid "原子構造の変化を伴う計算を行った後、更新 |updateatomconfig| をクリックすると、プロジェクトの原子構造を変化後のものに更新します。"
 msgstr ""
 "After performing a calculation involving changes in atomic configuration,"
 " click Update |updateatomconfig| to update the project's atomic "
 "configuration to the changed one."
+
+#: ../../usage/resultpdos.rst:7
+msgid "結果表示の状態密度(DOS)プロットには、デフォルトでは全状態密度と各元素ごとに集計された部分状態密度が表示されます。PDOS電卓を使うことで、系の中の任意の原子の組み合わせについて部分状態密度を描画することができます。軌道・スピンの指定も可能です。"
+msgstr "In the density of states (DOS) plot, total DOS and partial DOS summed up for each atom are shown by default. Using PDOS Calculator, you can draw partial DOS's for any combination of atoms in the system. Orbital / spin can also be specified."
+
+#: ../../usage/resultpdos.rst:9
+msgid ""
+"結果表示画面で :guilabel:`DOS` をクリックし、右側パネルの :guilabel:`Edit Definition of "
+"DOS's` をクリックすると、PDOS電卓が表示されます。"
+msgstr "In the result view, click :guilabel:`DOS` and then click :guilabel:`Edit Definition of "
+"DOS's` in the right side panel to show PDOS Calculator."
+
+#: ../../usage/resultpdos.rst:11
+msgid ""
+"右側の :guilabel:`Formulas of DOS's` が現在描画されているDOSのリストです。既にあるDOSの編集ボタン "
+"|edit| をクリックするか、新しいDOSの追加 |add| ボタンをクリックすると、PDOS電卓での入力が可能になります。"
+msgstr "Currently shown DOS's are listed on the right. Click edit button |edit| on existing DOS, or click "
+"add new DOS button |add| to enable the PDOS Calculator."
+
+#: ../../usage/resultpdos.rst:15
+msgid ""
+"まず、左上の :guilabel:`All Atoms` 、 :guilabel:`Some Atoms` 、 :guilabel:`An "
+"Element` のいずれかをクリックし、対象の原子を選択します。 :guilabel:`Some Atoms` "
+"ではモデルが表示されますので、個々の原子をダブルクリックして選択するか、 :kbd:`Ctrl` + ドラッグで範囲選択します。選択後、 "
+":guilabel:`End Selecting Atoms` をクリックします。"
+msgstr "First, click either :guilabel:`All Atoms` , :guilabel:`Some Atoms` or :guilabel:`An "
+"Element` on upper left to select the target atoms. For :guilabel:`Some Atoms` the model is shown, so double click on each atom to select, "
+"or area-select by :kbd:`Ctrl` + drag. Then, click :guilabel:`End Selecting Atoms` ."
+
+#: ../../usage/resultpdos.rst:19
+msgid "次に、軌道・スピンを指定する場合は、左下の各ボタンをクリックします。同じボタンをもう一度クリックすると指定が解除されます。"
+msgstr "Next, in case you want to specify orbital / spin, click corresponding button(s) on lower left. "
+"Click same button again to deselect."
+
+#: ../../usage/resultpdos.rst:21
+msgid ""
+"さらに、指定したDOSに対して、右側の各ボタンを使って四則演算を加えることができます。例えば複数の原子を選択した状態で1原子当たりの値に直したいときは、"
+" |divine| をクリックした後、原子数を入力します。"
+msgstr "In addition, you can apply arithmetic operations for the DOS using the buttons on the right. "
+"For example, to convert DOS of multiple atoms into DOS per atom, click |divine| and then enter the number of atoms."
+
+#: ../../usage/resultpdos.rst:23
+msgid ":guilabel:`#` ボタンを使うと、モデル中の全原子数・各元素の原子数を入力できます。"
+msgstr "You can use :guilabel:`#` to enter the total number of atoms in the model or the number of atoms of each element."
+
+#: ../../usage/resultpdos.rst:25
+msgid "指定が終わったら、 :guilabel:`OK` をクリックするとリストに反映されます。"
+msgstr "After the setting finished, click :guilabel:`OK` to apply it to the list."
+
+#: ../../usage/resultpdos.rst:27
+msgid "リスト中のDOSを右クリックすると、名前の変更、コピー・貼り付け、順番の入れ替えが可能です。"
+msgstr "Right click the DOS in the list to rename, copy / paste or swap the order."
+
+#: ../../usage/resultpdos.rst:29
+msgid "全てのDOSの設定が終わったら、画面左下の戻るボタン |back| をクリックして、元のDOSプロット画面に戻ります。"
+msgstr ""
+"When editing is finished, click back button |back| on the lower left to "
+"go back to the DOS plot view."
 
 #: ../../usage/sshserver.rst:5
 msgid "SSHサーバーの設定"
@@ -2313,8 +2394,10 @@ msgstr ""
 "simultaneous accesses."
 
 #: ../../usage/sshserver.rst:75
-msgid "通常は変更する必要はありません。"
-msgstr "Normally, you do not have to change them."
+msgid ""
+"通常は変更する必要はありません。サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` "
+"側に動かすことで頻度を下げることができます。"
+msgstr ""
 
 #: ../../usage/sshserver.rst:78
 msgid "サーバーの編集・削除"
@@ -2377,4 +2460,7 @@ msgid "ウェブブラウザーでダウンロードしたファイルは、エ�
 msgstr ""
 "The files downloaded in web browser are listed in :guilabel:`Downloads` "
 "in explorer."
+
+#~ msgid "通常は変更する必要はありません。"
+#~ msgstr "Normally, you do not have to change them."
 
