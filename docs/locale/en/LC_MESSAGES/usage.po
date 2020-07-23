@@ -2397,7 +2397,8 @@ msgstr ""
 msgid ""
 "通常は変更する必要はありません。サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` "
 "側に動かすことで頻度を下げることができます。"
-msgstr ""
+msgstr "Normally, you do not have to change them. If frequent access is undesirable, move the sliders to :guilabel:`Slow` side "
+"to lower the frequency."
 
 #: ../../usage/sshserver.rst:78
 msgid "サーバーの編集・削除"
@@ -2460,7 +2461,4 @@ msgid "ウェブブラウザーでダウンロードしたファイルは、エ�
 msgstr ""
 "The files downloaded in web browser are listed in :guilabel:`Downloads` "
 "in explorer."
-
-#~ msgid "通常は変更する必要はありません。"
-#~ msgstr "Normally, you do not have to change them."
 
