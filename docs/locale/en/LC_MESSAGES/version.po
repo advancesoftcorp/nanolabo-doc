@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-22 12:28+0900\n"
+"POT-Creation-Date: 2020-07-29 12:45+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "バージョン情報"
 msgstr "Version Information"
 
 #: ../../version.rst:14
-msgid "2020/--/-- バージョン1.5"
-msgstr "2020/--/-- Version 1.5"
+msgid "2020/07/29 バージョン1.5"
+msgstr "2020/07/29 Version 1.5"
 
 #: ../../version.rst:8 ../../version.rst:17 ../../version.rst:42
 #: ../../version.rst:51 ../../version.rst:64
@@ -33,7 +33,9 @@ msgstr "New features"
 
 #: ../../version.rst:10
 msgid "QE: 交換相関汎関数設定（ハイブリッド汎関数・ファンデルワールス相互作用）"
-msgstr "QE: setting of exchange-correlation functional (hybrid functional / van der Waals interaction)"
+msgstr ""
+"QE: setting of exchange-correlation functional (hybrid functional / van "
+"der Waals interaction)"
 
 #: ../../version.rst:11
 msgid "QE: PDOS電卓"
@@ -41,7 +43,9 @@ msgstr "QE: PDOS Calculator"
 
 #: ../../version.rst:12
 msgid "リモート実行時のアクセス一時停止、サーバー上のファイルダウンロード・削除"
-msgstr "Suspend the access during remote execution / download files from server / delete files on server"
+msgstr ""
+"Suspend the access during remote execution / download files from server /"
+" delete files on server"
 
 #: ../../version.rst:14 ../../version.rst:30 ../../version.rst:35
 #: ../../version.rst:57
