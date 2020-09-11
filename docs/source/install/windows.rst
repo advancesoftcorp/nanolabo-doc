@@ -13,7 +13,7 @@
 
  `Advance/NanoLabo (ver.1.5) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.5/install_nanolabo_windows_v1.5.exe>`_
 
- `Advance/NanoLabo Tool (ver.1.5) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.5/install_nanolabo_tool_windows_v1.5.exe>`_
+ `Advance/NanoLabo Tool (ver.1.5.1) <https://github.com/advancesoftcorp/nanolabo-doc/releases/download/v1.5.1-tool/install_nanolabo_tool_windows_v1.5.1.exe>`_
 
 インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先フォルダにコピーされます。
 
