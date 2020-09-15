@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Advance/NanoLabo'
-copyright = u'2019, AdvanceSoft Corporation'
+copyright = u'2020, AdvanceSoft Corporation'
 author = u'AdvanceSoft Corporation'
 
 # The short X.Y version
