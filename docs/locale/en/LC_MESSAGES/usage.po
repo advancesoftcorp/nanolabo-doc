@@ -1729,7 +1729,7 @@ msgstr "Interface model (Pro version only)"
 #: ../../usage/modeler.rst:153
 msgid "格子定数の異なる2つの結晶モデルから、界面モデルを作成します。"
 msgstr ""
-"Builds interface model from two crystal models with different lattice "
+"Build interface model from two crystal models with different lattice "
 "constants."
 
 #: ../../usage/modeler.rst:155
@@ -1812,7 +1812,7 @@ msgstr ""
 
 #: ../../usage/modeler.rst:190
 msgid "分子充填"
-msgstr "Packing Molecules"
+msgstr "Packing molecules"
 
 #: ../../usage/modeler.rst:192
 msgid "モデルの空いている領域に、小分子を充填します。"
