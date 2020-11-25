@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-22 12:28+0900\n"
+"POT-Creation-Date: 2020-11-25 15:15+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1570,7 +1570,7 @@ msgstr ""
 
 #: ../../usage/modeler.rst:84 ../../usage/modeler.rst:97
 #: ../../usage/modeler.rst:116 ../../usage/modeler.rst:141
-#: ../../usage/modeler.rst:204
+#: ../../usage/modeler.rst:204 ../../usage/modeler.rst:230
 msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
 msgstr "Click back button |back| on the lower left to go back to modeler view."
 
@@ -1862,6 +1862,64 @@ msgstr ""
 "molecules in the viewer. If you click :guilabel:`Build` again here, "
 "different structure with the same setting is shown."
 
+#: ../../usage/modeler.rst:214
+msgid "高分子モデラー（Pro版のみ）"
+msgstr "Polymer modeler (Pro version only)"
+
+#: ../../usage/modeler.rst:216
+msgid "単量体（モノマー）のモデルから、高分子（ポリマー）のモデルを作成し、空間に充填します。"
+msgstr "Generate polymer model from monomer model, and pack it into a space."
+
+#: ../../usage/modeler.rst:218
+msgid ""
+"モノマーのモデルを用意し、 :guilabel:`Molecule` タブの :guilabel:`Polymer Model` にある "
+":guilabel:`Start Modeling` をクリックしてください。高分子モデル作成を行う画面が表示されます。"
+msgstr ""
+"Prepare a monomer model. In :guilabel:`Molecule` tab, click :guilabel:`Start Modeling` in "
+":guilabel:`Polymer Model` to show polymer modeler view."
+
+#: ../../usage/modeler.rst:220
+msgid ""
+"まず、 :guilabel:`Define box` "
+"ダイアログで高分子を充填する空間の大きさを指定します。次に、モノマーのモデルが表示されますので、始端となる原子をダブルクリックして選択し、 "
+":guilabel:`OK` をクリックします。続けて終端となる原子も同様に選択します。"
+msgstr ""
+"First, specify the dimension of the space into which polymers are packed. Next, on the shown monomer model, select the head side atom for polymerization by double click, "
+"and then click :guilabel:`OK` . Likewise, select the tail side atom for polymerization as well."
+
+#: ../../usage/modeler.rst:222
+msgid ""
+"選択後、画面下側の :guilabel:`Sequence of Polymer` に行が追加されます。 :guilabel:`oneself` "
+"の右下にある欄に重合度、 :guilabel:`#Chains` に充填する高分子の数を入力します。"
+msgstr ""
+"After the selection, the row is added to :guilabel:`Sequence of Polymer` on the lower side. Enter the degree of polymerization "
+"in the field on the lower right of :guilabel:`oneself` , and the number of polymer chains in :guilabel:`#Chains` ."
+
+#: ../../usage/modeler.rst:224
+msgid ""
+"複数の高分子を同時に充填することもできます。別の高分子を追加するには :guilabel:`Add Polymer` "
+"をクリックし、モノマーを選択してから設定を行います。高分子を削除するには、 :guilabel:`#Chains` の右にある |remove| "
+"ボタンをクリックします。"
+msgstr "You can also pack multiple kinds of polymers at the same time. To add another polymer, click :guilabel:`Add Polymer` , "
+"select a monomer, and then do the settings. To remove a polymer, click |remove| button on the right of :guilabel:`#Chains` ."
+
+#: ../../usage/modeler.rst:226
+msgid ""
+"また、モノマー枠の左側（右側）にある |add| ボタンをクリックすることで、始端（終端）に別の高分子を繋ぐことができます。 |remove| "
+"ボタンをクリックすると、その枠の高分子を削除します。また、矢印ボタンを使って高分子を繋げる順番を入れ替えられます。"
+msgstr "Additionally, you can connect another polymer to the head (tail) by clicking the |add| button on the left (right) side of "
+"the monomer box. Click |remove| button to remove the polymer of the box. Also, you can swap the order of the polymers by arrow buttons."
+
+#: ../../usage/modeler.rst:228
+msgid ""
+"高分子の設定が終わったら、 :guilabel:`Build` "
+"をクリックしてください。充填後の構造が画面上側のビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
+"をクリックすると、同じ設定で異なる構造が表示されます。"
+msgstr ""
+"When finished with the settings of polymer, click :guilabel:`Build` to show the structure with packed "
+"molecules in the viewer. If you click :guilabel:`Build` again here, "
+"a different structure with the same setting is shown."
+
 #: ../../usage/project.rst:5
 msgid "プロジェクト"
 msgstr "Project"
@@ -2076,10 +2134,15 @@ msgid ""
 ":guilabel:`Download All Files from Server` "
 "アイコンをクリックするとそのプロジェクトの全てのファイルをダウンロードします。また、サーバーのファイル容量が問題になる場合には、ダウンロード後に "
 ":guilabel:`Delete All Files on Server` を使って削除できます。"
-msgstr "In case the calculation is running on the remote server, the result is continuously obtained during the result view is shown. "
-"Click :guilabel:`Disconnect from Server` icon on the right side panel to suspend the access. Automatic downloads are performed only for the files "
-"required for the visualization. Click :guilabel:`Download All Files from Server` icon to manually download all the files in the project. "
-"If the file capacity matters on the server, you can use :guilabel:`Delete All Files on Server` ."
+msgstr ""
+"In case the calculation is running on the remote server, the result is "
+"continuously obtained during the result view is shown. Click "
+":guilabel:`Disconnect from Server` icon on the right side panel to "
+"suspend the access. Automatic downloads are performed only for the files "
+"required for the visualization. Click :guilabel:`Download All Files from "
+"Server` icon to manually download all the files in the project. If the "
+"file capacity matters on the server, you can use :guilabel:`Delete All "
+"Files on Server` ."
 
 #: ../../usage/result.rst:22
 msgid "2Dプロット"
@@ -2186,21 +2249,28 @@ msgstr ""
 
 #: ../../usage/resultpdos.rst:7
 msgid "結果表示の状態密度(DOS)プロットには、デフォルトでは全状態密度と各元素ごとに集計された部分状態密度が表示されます。PDOS電卓を使うことで、系の中の任意の原子の組み合わせについて部分状態密度を描画することができます。軌道・スピンの指定も可能です。"
-msgstr "In the density of states (DOS) plot, total DOS and partial DOS summed up for each atom are shown by default. Using PDOS Calculator, you can draw partial DOS's for any combination of atoms in the system. Orbital / spin can also be specified."
+msgstr ""
+"In the density of states (DOS) plot, total DOS and partial DOS summed up "
+"for each atom are shown by default. Using PDOS Calculator, you can draw "
+"partial DOS's for any combination of atoms in the system. Orbital / spin "
+"can also be specified."
 
 #: ../../usage/resultpdos.rst:9
 msgid ""
 "結果表示画面で :guilabel:`DOS` をクリックし、右側パネルの :guilabel:`Edit Definition of "
 "DOS's` をクリックすると、PDOS電卓が表示されます。"
-msgstr "In the result view, click :guilabel:`DOS` and then click :guilabel:`Edit Definition of "
-"DOS's` in the right side panel to show PDOS Calculator."
+msgstr ""
+"In the result view, click :guilabel:`DOS` and then click :guilabel:`Edit "
+"Definition of DOS's` in the right side panel to show PDOS Calculator."
 
 #: ../../usage/resultpdos.rst:11
 msgid ""
 "右側の :guilabel:`Formulas of DOS's` が現在描画されているDOSのリストです。既にあるDOSの編集ボタン "
 "|edit| をクリックするか、新しいDOSの追加 |add| ボタンをクリックすると、PDOS電卓での入力が可能になります。"
-msgstr "Currently shown DOS's are listed on the right. Click edit button |edit| on existing DOS, or click "
-"add new DOS button |add| to enable the PDOS Calculator."
+msgstr ""
+"Currently shown DOS's are listed on the right. Click edit button |edit| "
+"on existing DOS, or click add new DOS button |add| to enable the PDOS "
+"Calculator."
 
 #: ../../usage/resultpdos.rst:15
 msgid ""
@@ -2208,25 +2278,33 @@ msgid ""
 "Element` のいずれかをクリックし、対象の原子を選択します。 :guilabel:`Some Atoms` "
 "ではモデルが表示されますので、個々の原子をダブルクリックして選択するか、 :kbd:`Ctrl` + ドラッグで範囲選択します。選択後、 "
 ":guilabel:`End Selecting Atoms` をクリックします。"
-msgstr "First, click either :guilabel:`All Atoms` , :guilabel:`Some Atoms` or :guilabel:`An "
-"Element` on upper left to select the target atoms. For :guilabel:`Some Atoms` the model is shown, so double click on each atom to select, "
-"or area-select by :kbd:`Ctrl` + drag. Then, click :guilabel:`End Selecting Atoms` ."
+msgstr ""
+"First, click either :guilabel:`All Atoms` , :guilabel:`Some Atoms` or "
+":guilabel:`An Element` on upper left to select the target atoms. For "
+":guilabel:`Some Atoms` the model is shown, so double click on each atom "
+"to select, or area-select by :kbd:`Ctrl` + drag. Then, click "
+":guilabel:`End Selecting Atoms` ."
 
 #: ../../usage/resultpdos.rst:19
 msgid "次に、軌道・スピンを指定する場合は、左下の各ボタンをクリックします。同じボタンをもう一度クリックすると指定が解除されます。"
-msgstr "Next, in case you want to specify orbital / spin, click corresponding button(s) on lower left. "
-"Click same button again to deselect."
+msgstr ""
+"Next, in case you want to specify orbital / spin, click corresponding "
+"button(s) on lower left. Click same button again to deselect."
 
 #: ../../usage/resultpdos.rst:21
 msgid ""
 "さらに、指定したDOSに対して、右側の各ボタンを使って四則演算を加えることができます。例えば複数の原子を選択した状態で1原子当たりの値に直したいときは、"
 " |divine| をクリックした後、原子数を入力します。"
-msgstr "In addition, you can apply arithmetic operations for the DOS using the buttons on the right. "
-"For example, to convert DOS of multiple atoms into DOS per atom, click |divine| and then enter the number of atoms."
+msgstr ""
+"In addition, you can apply arithmetic operations for the DOS using the "
+"buttons on the right. For example, to convert DOS of multiple atoms into "
+"DOS per atom, click |divine| and then enter the number of atoms."
 
 #: ../../usage/resultpdos.rst:23
 msgid ":guilabel:`#` ボタンを使うと、モデル中の全原子数・各元素の原子数を入力できます。"
-msgstr "You can use :guilabel:`#` to enter the total number of atoms in the model or the number of atoms of each element."
+msgstr ""
+"You can use :guilabel:`#` to enter the total number of atoms in the model"
+" or the number of atoms of each element."
 
 #: ../../usage/resultpdos.rst:25
 msgid "指定が終わったら、 :guilabel:`OK` をクリックするとリストに反映されます。"
@@ -2397,8 +2475,10 @@ msgstr ""
 msgid ""
 "通常は変更する必要はありません。サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` "
 "側に動かすことで頻度を下げることができます。"
-msgstr "Normally, you do not have to change them. If frequent access is undesirable, move the sliders to :guilabel:`Slow` side "
-"to lower the frequency."
+msgstr ""
+"Normally, you do not have to change them. If frequent access is "
+"undesirable, move the sliders to :guilabel:`Slow` side to lower the "
+"frequency."
 
 #: ../../usage/sshserver.rst:78
 msgid "サーバーの編集・削除"
