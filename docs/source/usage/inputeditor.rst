@@ -60,8 +60,8 @@
 
 構造最適化や分子動力学計算を行う際に、指定した原子の座標を固定して計算を行うための設定を行います。
 
-画面左側のビューワーで、固定したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ :kbd:`Ctrl` + 右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Let selected atoms be FIXED` をクリックします。固定された原子を可動に戻したい場合は、同様にメニューから :guilabel:`Let selected atoms be MOBILE` をクリックします。
+画面左側のビューワーで、固定したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ :kbd:`Ctrl` + 右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから :guilabel:`Let selected atoms be FIXED` をクリックします。固定された原子は市松模様で表示されます。固定された原子を可動に戻したい場合は、同様にメニューから :guilabel:`Let selected atoms be MOBILE` をクリックします。
 
-固定・可動の設定を確認するには、右下のメニュー |editormenuicon| から :guilabel:`Geometry` を開き、 :guilabel:`Atoms` 内の :guilabel:`Atomic Configuration` を見てください。固定された原子の座標は青文字で表示されます。また、原子の行の右クリックメニューから、XYZの各方向ごとに固定・可動を設定できます。
+各方向ごとの固定・可動の設定を確認・変更するには、右下のメニュー |editormenuicon| から :guilabel:`Geometry` を開き、 :guilabel:`Atoms` 内の :guilabel:`Atomic Configuration` を見てください。固定された原子の座標は青文字で表示されます。また、原子の行の右クリックメニューから、XYZの各方向ごとに固定・可動を設定できます。
 
 .. image:: /img/mobile.png
