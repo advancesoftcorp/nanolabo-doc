@@ -1261,6 +1261,8 @@ msgid ""
 "擬ポテンシャル変更後、 :guilabel:`SCF` の設定で :guilabel:`Cutoff` 入力欄のデフォルト値設定ボタン "
 "|default| をクリックすると、更新されたカットオフエネルギーの推奨値が入力されます。"
 msgstr ""
+"After changing the pseudopotentials, go to :guilabel:`SCF` setting and click the default value button |default| "
+"of :guilabel:`Cutoff` field to enter the updated suggested value of cutoff energy."
 
 #: ../../usage/inputeditorqe.rst:39
 msgid "バンド計算の経路"
