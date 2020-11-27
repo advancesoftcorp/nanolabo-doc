@@ -90,13 +90,13 @@
 .. |yt12| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/6S2HOSfLXkA?rel=0" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/paxe1Z33U0I?rel=0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 .. |yt12en| raw:: html
 
   <div class="youtube">
-  <iframe src="https://www.youtube.com/embed/6S2HOSfLXkA?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/paxe1Z33U0I?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
 + 界面ビルダーの作成
