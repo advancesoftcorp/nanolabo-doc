@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-18 15:37+0900\n"
+"POT-Creation-Date: 2020-11-27 18:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,210 +22,219 @@ msgstr ""
 msgid "デモ動画"
 msgstr "Demo Movies"
 
-#: ../../demo.rst:10
-msgid "計算方法"
-msgstr "Method of calculation"
-
-#: ../../demo.rst:12
-msgid "分子構造検索"
-msgstr "Molecular structural search"
-
-#: ../../demo.rst:14
-msgid "|yt01|"
-msgstr "|yt01en|"
-
-#: ../../demo.rst:28
-msgid "インプットファイル作成"
-msgstr "Making input file"
-
-#: ../../demo.rst:30
-msgid "|yt02|"
-msgstr "|yt02en|"
-
-#: ../../demo.rst:44
-msgid "ローカルマシンでの計算"
-msgstr "Calculation on the local machine"
-
-#: ../../demo.rst:46
-msgid "|yt03|"
-msgstr "|yt03en|"
-
-#: ../../demo.rst:60
-msgid "計算サーバーでの計算"
-msgstr "Calculation on servers"
-
-#: ../../demo.rst:62
-msgid "|yt04|"
-msgstr "|yt04en|"
-
-#: ../../demo.rst:76
-msgid "Qunantum ESPRESSOで分子動力学計算"
-msgstr "Molecular dynamics calculation with Quantum ESPRESSO"
-
-#: ../../demo.rst:78
-msgid "|yt05|"
-msgstr "|yt05en|"
-
-#: ../../demo.rst:93
-msgid "LAMMPSで分子動力学計算"
-msgstr "Molecular dynamics calculation with LAMMPS"
-
-#: ../../demo.rst:95
-msgid "|yt06|"
-msgstr "|yt06en|"
-
-#: ../../demo.rst:112
-msgid "モデリング機能"
-msgstr "Modeling function"
-
-#: ../../demo.rst:114
-msgid "セル変換"
-msgstr "Cell conversion"
-
-#: ../../demo.rst:116
-msgid "|yt07|"
-msgstr "|yt07en|"
-
-#: ../../demo.rst:130
-msgid "元素置換"
-msgstr "Element substitution"
-
-#: ../../demo.rst:132
-msgid "|yt08|"
-msgstr "|yt08en|"
-
-#: ../../demo.rst:146
-msgid "超格子モデルの作成"
-msgstr "Making of the superlattice model"
-
-#: ../../demo.rst:148
-msgid "|yt09|"
-msgstr "|yt09en|"
-
-#: ../../demo.rst:162
-msgid "スラブモデルの作成"
-msgstr "Making of the slab model"
-
-#: ../../demo.rst:164
-msgid "|yt10|"
-msgstr "|yt10en|"
-
-#: ../../demo.rst:178
-msgid "表面への小分子吸着"
-msgstr "Small molecule adsorption on the surface"
-
-#: ../../demo.rst:180
-msgid "|yt11|"
-msgstr "|yt11en|"
-
-#: ../../demo.rst:194
-msgid "界面モデルの作成"
-msgstr "Making of the interface model"
-
-#: ../../demo.rst:196
-msgid "|yt12|"
-msgstr "|yt12en|"
-
-#: ../../demo.rst:210
-msgid "界面ビルダーの作成"
-msgstr "Making of the interface builder"
-
-#: ../../demo.rst:212
-msgid "|yt13|"
-msgstr "|yt13en|"
-
-#: ../../demo.rst:226
-msgid "溶媒分子充填"
-msgstr "Solvent molecule packing"
-
-#: ../../demo.rst:228
-msgid "|yt14|"
-msgstr "|yt14en|"
-
-#: ../../demo.rst:242
-msgid "有機分子の作成"
-msgstr "Making of the organic molecule"
-
-#: ../../demo.rst:244
-msgid "|yt15|"
-msgstr "|yt15en|"
-
-#: ../../demo.rst:261
+#: ../../demo/calcfunc.rst:4
 msgid "計算機能"
 msgstr "Calculation function"
 
-#: ../../demo.rst:263
+#: ../../demo/calcfunc.rst:6
 msgid "構造最適化計算"
 msgstr "Structural optimization calculation"
 
-#: ../../demo.rst:265
+#: ../../demo/calcfunc.rst:8
 msgid "|yt16|"
 msgstr "|yt16en|"
 
-#: ../../demo.rst:279
+#: ../../demo/calcfunc.rst:22
 msgid "SCF計算"
 msgstr "SCF calculation"
 
-#: ../../demo.rst:281
+#: ../../demo/calcfunc.rst:24
 msgid "|yt17|"
 msgstr "|yt17en|"
 
-#: ../../demo.rst:295
+#: ../../demo/calcfunc.rst:38
 msgid "状態密度の表示"
 msgstr "Display of density of states"
 
-#: ../../demo.rst:297
+#: ../../demo/calcfunc.rst:40
 msgid "|yt18|"
 msgstr "|yt18en|"
 
-#: ../../demo.rst:311
+#: ../../demo/calcfunc.rst:54
 msgid "バンド構造の表示"
 msgstr "Display of band structure"
 
-#: ../../demo.rst:313
+#: ../../demo/calcfunc.rst:56
 msgid "|yt19|"
 msgstr "|yt19en|"
 
-#: ../../demo.rst:327
+#: ../../demo/calcfunc.rst:70
 msgid "TDDFT計算"
 msgstr "TDDFT calculation"
 
-#: ../../demo.rst:329
+#: ../../demo/calcfunc.rst:72
 msgid "|yt20|"
 msgstr "|yt20en|"
 
-#: ../../demo.rst:343
+#: ../../demo/calcfunc.rst:86
 msgid "ESM法"
 msgstr "ESM method"
 
-#: ../../demo.rst:345
+#: ../../demo/calcfunc.rst:88
 msgid "|yt21|"
 msgstr "|yt21en|"
 
-#: ../../demo.rst:359
+#: ../../demo/calcfunc.rst:102
 msgid "NEB法"
 msgstr "NEB method"
 
-#: ../../demo.rst:361
+#: ../../demo/calcfunc.rst:104
 msgid "|yt22|"
 msgstr "|yt22en|"
 
-#: ../../demo.rst:375
+#: ../../demo/calcfunc.rst:118
 msgid "フォノン計算"
 msgstr "Phonon calculation"
 
-#: ../../demo.rst:377
+#: ../../demo/calcfunc.rst:120
 msgid "|yt23|"
 msgstr "|yt23en|"
 
-#: ../../demo.rst:394
+#: ../../demo/calcmethod.rst:4
+msgid "計算方法"
+msgstr "Method of calculation"
+
+#: ../../demo/calcmethod.rst:6
+msgid "分子構造検索"
+msgstr "Molecular structural search"
+
+#: ../../demo/calcmethod.rst:8
+msgid "|yt01|"
+msgstr "|yt01en|"
+
+#: ../../demo/calcmethod.rst:22
+msgid "インプットファイル作成"
+msgstr "Making input file"
+
+#: ../../demo/calcmethod.rst:24
+msgid "|yt02|"
+msgstr "|yt02en|"
+
+#: ../../demo/calcmethod.rst:38
+msgid "ローカルマシンでの計算"
+msgstr "Calculation on the local machine"
+
+#: ../../demo/calcmethod.rst:40
+msgid "|yt03|"
+msgstr "|yt03en|"
+
+#: ../../demo/calcmethod.rst:54
+msgid "計算サーバーでの計算"
+msgstr "Calculation on servers"
+
+#: ../../demo/calcmethod.rst:56
+msgid "|yt04|"
+msgstr "|yt04en|"
+
+#: ../../demo/calcmethod.rst:70
+msgid "Qunantum ESPRESSOで分子動力学計算"
+msgstr "Molecular dynamics calculation with Quantum ESPRESSO"
+
+#: ../../demo/calcmethod.rst:72
+msgid "|yt05|"
+msgstr "|yt05en|"
+
+#: ../../demo/calcmethod.rst:87
+msgid "LAMMPSで分子動力学計算"
+msgstr "Molecular dynamics calculation with LAMMPS"
+
+#: ../../demo/calcmethod.rst:89
+msgid "|yt06|"
+msgstr "|yt06en|"
+
+#: ../../demo/design.rst:4
 msgid "デザイン"
 msgstr "Changing display design"
 
-#: ../../demo.rst:396
+#: ../../demo/design.rst:6
 msgid "分子の表示デザインの変更"
 msgstr "Change the displayed molecular design"
 
-#: ../../demo.rst:398
+#: ../../demo/design.rst:8
 msgid "|yt24|"
 msgstr "|yt24en|"
+
+#: ../../demo/modelingfunc.rst:4
+msgid "モデリング機能"
+msgstr "Modeling function"
+
+#: ../../demo/modelingfunc.rst:6
+msgid "セル変換"
+msgstr "Cell conversion"
+
+#: ../../demo/modelingfunc.rst:8
+msgid "|yt07|"
+msgstr "|yt07en|"
+
+#: ../../demo/modelingfunc.rst:22
+msgid "元素置換"
+msgstr "Element substitution"
+
+#: ../../demo/modelingfunc.rst:24
+msgid "|yt08|"
+msgstr "|yt08en|"
+
+#: ../../demo/modelingfunc.rst:38
+msgid "超格子モデルの作成"
+msgstr "Making of the superlattice model"
+
+#: ../../demo/modelingfunc.rst:40
+msgid "|yt09|"
+msgstr "|yt09en|"
+
+#: ../../demo/modelingfunc.rst:54
+msgid "スラブモデルの作成"
+msgstr "Making of the slab model"
+
+#: ../../demo/modelingfunc.rst:56
+msgid "|yt10|"
+msgstr "|yt10en|"
+
+#: ../../demo/modelingfunc.rst:70
+msgid "表面への小分子吸着"
+msgstr "Small molecule adsorption on the surface"
+
+#: ../../demo/modelingfunc.rst:72
+msgid "|yt11|"
+msgstr "|yt11en|"
+
+#: ../../demo/modelingfunc.rst:86
+msgid "界面モデルの作成"
+msgstr "Making of the interface model"
+
+#: ../../demo/modelingfunc.rst:88
+msgid "|yt12|"
+msgstr "|yt12en|"
+
+#: ../../demo/modelingfunc.rst:102
+msgid "界面ビルダーの作成"
+msgstr "Making of the interface builder"
+
+#: ../../demo/modelingfunc.rst:104
+msgid "|yt13|"
+msgstr "|yt13en|"
+
+#: ../../demo/modelingfunc.rst:118
+msgid "溶媒分子充填"
+msgstr "Solvent molecule packing"
+
+#: ../../demo/modelingfunc.rst:120
+msgid "|yt14|"
+msgstr "|yt14en|"
+
+#: ../../demo/modelingfunc.rst:134
+msgid "有機分子の作成"
+msgstr "Making of the organic molecule"
+
+#: ../../demo/modelingfunc.rst:136
+msgid "|yt15|"
+msgstr "|yt15en|"
+
+#: ../../demo/modelingfunc.rst:150
+msgid "高分子モデラー"
+msgstr "Polymer modeler"
+
+#: ../../demo/modelingfunc.rst:152
+msgid "|yt25|"
+msgstr "|yt25en|"
+

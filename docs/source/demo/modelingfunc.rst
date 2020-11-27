@@ -146,3 +146,19 @@
   <div class="youtube">
   <iframe src="https://www.youtube.com/embed/zI5Am6LwGqE?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
+
++ 高分子モデラー
+
+ |yt25|
+
+.. |yt25| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/IwtFAhGYLTw?rel=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+.. |yt25en| raw:: html
+
+  <div class="youtube">
+  <iframe src="https://www.youtube.com/embed/IwtFAhGYLTw?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
+  </div>
