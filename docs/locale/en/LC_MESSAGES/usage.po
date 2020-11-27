@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-26 11:54+0900\n"
+"POT-Creation-Date: 2020-11-27 18:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -718,7 +718,7 @@ msgid "XYZ chemical file format"
 msgstr ""
 
 #: ../../usage/explorer.rst:83
-msgid ".xsf"
+msgid ".xsf, .axsf"
 msgstr ""
 
 #: ../../usage/explorer.rst:83
@@ -726,15 +726,19 @@ msgid "`XCrySDen file format`_"
 msgstr ""
 
 #: ../../usage/explorer.rst:85
-msgid ".POSCAR"
+msgid "POSCAR, CONTCAR"
 msgstr ""
 
 #: ../../usage/explorer.rst:85
 msgid "`VASP input file`_"
 msgstr ""
 
+#: ../../usage/explorer.rst:85
+msgid "元素名の行が含まれている必要があります。"
+msgstr "element names line must be included."
+
 #: ../../usage/explorer.rst:87
-msgid ".in"
+msgid ".in, .qe, .qein, .pw, .pwin, input"
 msgstr ""
 
 #: ../../usage/explorer.rst:87
@@ -758,12 +762,50 @@ msgid "`Gaussian cube file`_"
 msgstr ""
 
 #: ../../usage/explorer.rst:93
-msgid ".lmp"
+msgid ".lmp, .lammps"
 msgstr ""
 
 #: ../../usage/explorer.rst:93
 msgid "`LAMMPS data file`_"
 msgstr ""
+
+#: ../../usage/explorer.rst:93
+msgid "read_dataで指定されたdataファイルから構造を読み込みます。"
+msgstr "read structure from data file specified by read_data."
+
+#: ../../usage/explorer.rst:95
+msgid ".lammpstrj, .dump"
+msgstr ""
+
+#: ../../usage/explorer.rst:95
+msgid "`LAMMPS dump file`_"
+msgstr ""
+
+#: ../../usage/explorer.rst:95
+msgid "element列が出力されている必要があります。"
+msgstr "element column must be output."
+
+#: ../../usage/explorer.rst:107
+msgid "以下の各方法でファイルを開くことができます。"
+msgstr "You can open the files by any of the following ways:"
+
+#: ../../usage/explorer.rst:109
+msgid "エクスプローラーでファイルのあるフォルダに移動し、ファイルをダブルクリックする"
+msgstr ""
+"in explorer, navigate to the folder with the file and double click the "
+"file"
+
+#: ../../usage/explorer.rst:110
+msgid "NanoLaboの画面上にファイルをドラッグ＆ドロップする"
+msgstr "drag & drop the file onto the NanoLabo window"
+
+#: ../../usage/explorer.rst:111
+msgid "NanoLaboの起動アイコンにファイルをドラッグ＆ドロップする"
+msgstr "drag & drop the file onto the NanoLabo launch icon"
+
+#: ../../usage/explorer.rst:112
+msgid "NanoLaboの実行ファイルに引数として渡し、実行する"
+msgstr "pass the file to NanoLabo executable as an argument"
 
 #: ../../usage/initial.rst:5
 msgid "画面の構成"
@@ -1261,8 +1303,9 @@ msgid ""
 "擬ポテンシャル変更後、 :guilabel:`SCF` の設定で :guilabel:`Cutoff` 入力欄のデフォルト値設定ボタン "
 "|default| をクリックすると、更新されたカットオフエネルギーの推奨値が入力されます。"
 msgstr ""
-"After changing the pseudopotentials, go to :guilabel:`SCF` setting and click the default value button |default| "
-"of :guilabel:`Cutoff` field to enter the updated suggested value of cutoff energy."
+"After changing the pseudopotentials, go to :guilabel:`SCF` setting and "
+"click the default value button |default| of :guilabel:`Cutoff` field to "
+"enter the updated suggested value of cutoff energy."
 
 #: ../../usage/inputeditorqe.rst:39
 msgid "バンド計算の経路"
@@ -1402,16 +1445,22 @@ msgid ""
 ":guilabel:`Super Cell` "
 "は、励起される原子どうしの距離を十分にとるための設定です。セルが小さい場合、周期境界条件により隣り合うセル中の励起原子からの影響を受けてしまいますが、自動的にスーパーセルを作ることでこれを防ぎます。スーパーセルの繰り返し回数はセルサイズに基づいて適切な値が自動的に入ります。"
 msgstr ""
-":guilabel:`Super Cell` is used to keep enough distance between neighboring excited atoms. In case the cell is small, the excited atom would be affected by the excited atom in the neighboring cell due to the periodic boundary condition; "
-"the cell is automatically converted to a super cell to avoid this. Appropriate numbers based on the cell size are automatically entered."
+":guilabel:`Super Cell` is used to keep enough distance between "
+"neighboring excited atoms. In case the cell is small, the excited atom "
+"would be affected by the excited atom in the neighboring cell due to the "
+"periodic boundary condition; the cell is automatically converted to a "
+"super cell to avoid this. Appropriate numbers based on the cell size are "
+"automatically entered."
 
 #: ../../usage/inputeditorqe.rst:99
 msgid ""
 ":guilabel:`Target Atom` で励起される原子を選択します。 :guilabel:`Select Atom` "
 "ボタンをクリックし、原子をダブルクリックして選択します。 :guilabel:`End Selecting Atom` "
 "をクリックすると、選択した原子がボタンに表示されます。"
-msgstr "Select the atom to be excited by :guilabel:`Target Atom` . Click :guilabel:`Select Atom` and select an atom by double click. When you click :guilabel:`End Selecting Atom` , "
-"the atom is shown on the button."
+msgstr ""
+"Select the atom to be excited by :guilabel:`Target Atom` . Click "
+":guilabel:`Select Atom` and select an atom by double click. When you "
+"click :guilabel:`End Selecting Atom` , the atom is shown on the button."
 
 #: ../../usage/inputeditorqe.rst:101
 msgid ""
@@ -1420,9 +1469,14 @@ msgid ""
 " Toolにはコアホール擬ポテンシャルは同梱されていませんので、必要に応じ :guilabel:`Download` "
 "ボタンからダウンロードしてください。通常、ファイル名に「star + "
 "軌道名」（例えばstar1s）のようにホールの位置（＝励起元の軌道）が入っています。"
-msgstr "Next, click the button of :guilabel:`Core-hole P.P.` to select the pseudopotential for the excited atom. Here, you have to select a pseudopotential with a hole in the core orbital "
-"(Core-hole pseudopotential). Core-hole pseudopotential is not included in NanoLabo Tool, so download it by :guilabel:`Download` button if needed. The file is usually named as \"star + orbital name\""
-"(star1s, for example) to show where the hole is (= from which orbital it is excited)."
+msgstr ""
+"Next, click the button of :guilabel:`Core-hole P.P.` to select the "
+"pseudopotential for the excited atom. Here, you have to select a "
+"pseudopotential with a hole in the core orbital (Core-hole "
+"pseudopotential). Core-hole pseudopotential is not included in NanoLabo "
+"Tool, so download it by :guilabel:`Download` button if needed. The file "
+"is usually named as \"star + orbital name\"(star1s, for example) to show "
+"where the hole is (= from which orbital it is excited)."
 
 #: ../../usage/inputeditorqe.rst:103
 msgid ""
@@ -1430,9 +1484,12 @@ msgid ""
 "|editormenuicon| から :menuselection:`Geometry --> Elements` "
 "を開き、励起される原子の元素にGIPAW擬ポテンシャルを設定してください。通常、ファイル名に「gipaw」が入っています。"
 msgstr ""
-"Also, as XAFS calculation uses the information of the core orbital wave function, GIPAW pseudopotential, which has that information, must be used. "
-"From the menu |editormenuicon| on the lower right, open :menuselection:`Geometry --> Elements` and set GIPAW pseudopotential for the element of the excited atom. "
-"The file name usually has \"gipaw\" in it."
+"Also, as XAFS calculation uses the information of the core orbital wave "
+"function, GIPAW pseudopotential, which has that information, must be "
+"used. From the menu |editormenuicon| on the lower right, open "
+":menuselection:`Geometry --> Elements` and set GIPAW pseudopotential for "
+"the element of the excited atom. The file name usually has \"gipaw\" in "
+"it."
 
 #: ../../usage/modeler.rst:5
 msgid "モデラ―"
