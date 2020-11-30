@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-27 18:02+0900\n"
+"POT-Creation-Date: 2020-11-30 10:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgid "視点の操作"
 msgstr "Viewpoint manipulation"
 
 #: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:109
-#: ../../usage/atomsviewer.rst:141
+#: ../../usage/atomsviewer.rst:141 ../../usage/project.rst:86
 msgid "操作"
 msgstr "Operation"
 
@@ -311,7 +311,7 @@ msgstr "A sphere is shown. Drag it to perform rotation."
 msgid ":kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr "Press :kbd:`Esc` key to fix the position."
 
-#: ../../usage/atomsviewer.rst:135
+#: ../../usage/atomsviewer.rst:135 ../../usage/project.rst:80
 msgid "ショートカットキー一覧"
 msgstr "Shortcut keys list"
 
@@ -395,21 +395,21 @@ msgstr ""
 msgid "`*`:sup: マウスカーソルのある位置に貼り付けられます。"
 msgstr "`*`:sup: pasted at where the mouse cursor is located."
 
-#: ../../usage/atomsviewer.rst:171
+#: ../../usage/atomsviewer.rst:173
 msgid "空間群の判定"
 msgstr "Detect space group"
 
-#: ../../usage/atomsviewer.rst:173
+#: ../../usage/atomsviewer.rst:175
 msgid "右クリックメニューの :guilabel:`Detect space group` をクリックすると、モデルの原子構造の属する空間群を表示します。"
 msgstr ""
 "In the right click menu, click :guilabel:`Detect space group` to display "
 "the space group to which the atomic structure of the model belongs."
 
-#: ../../usage/atomsviewer.rst:176
+#: ../../usage/atomsviewer.rst:180
 msgid "原子構造のエクスポート"
 msgstr "Export atomic configuration"
 
-#: ../../usage/atomsviewer.rst:178
+#: ../../usage/atomsviewer.rst:182
 msgid ""
 "右クリックメニューの :guilabel:`Export atomic configuration` "
 "をクリックすると、モデルの原子構造をCIFファイル・XYZファイルとしてエクスポートできます。"
@@ -2231,6 +2231,30 @@ msgstr ""
 "You will be prompted to save the project if you try to run the "
 "calculation in an unsaved project or if you try to close a tab with "
 "unsaved changes."
+
+#: ../../usage/project.rst:88
+msgid "プロジェクト保存"
+msgstr "Save project"
+
+#: ../../usage/project.rst:88
+msgid ":kbd:`Ctrl` + :kbd:`S`"
+msgstr ""
+
+#: ../../usage/project.rst:90
+msgid "戻る（左下の矢印ボタン）"
+msgstr "Go back (arrow button on lower left)"
+
+#: ../../usage/project.rst:90
+msgid ":kbd:`Ctrl` + |larr|"
+msgstr ""
+
+#: ../../usage/project.rst:92
+msgid "スクリーンショット（画像保存）"
+msgstr "Screenshot (save as image)"
+
+#: ../../usage/project.rst:92
+msgid ":kbd:`PrintScreen`"
+msgstr ""
 
 #: ../../usage/result.rst:28 ../../usage/resultpdos.rst:5
 msgid "PDOS電卓"
