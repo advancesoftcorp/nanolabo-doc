@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-30 10:12+0900\n"
+"POT-Creation-Date: 2020-11-30 10:20+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgid "視点の操作"
 msgstr "Viewpoint manipulation"
 
 #: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:109
-#: ../../usage/atomsviewer.rst:141 ../../usage/project.rst:86
+#: ../../usage/atomsviewer.rst:141 ../../usage/project.rst:88
 msgid "操作"
 msgstr "Operation"
 
@@ -311,7 +311,7 @@ msgstr "A sphere is shown. Drag it to perform rotation."
 msgid ":kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr "Press :kbd:`Esc` key to fix the position."
 
-#: ../../usage/atomsviewer.rst:135 ../../usage/project.rst:80
+#: ../../usage/atomsviewer.rst:135 ../../usage/project.rst:82
 msgid "ショートカットキー一覧"
 msgstr "Shortcut keys list"
 
@@ -2106,11 +2106,11 @@ msgstr "(PHASE-Viewer is launched to open the project.)"
 msgid "`Quantum ESPRESSO`_"
 msgstr ""
 
-#: ../../usage/project.rst:35 ../../usage/project.rst:55
+#: ../../usage/project.rst:35 ../../usage/project.rst:57
 msgid ":guilabel:`Geometry`"
 msgstr ""
 
-#: ../../usage/project.rst:35 ../../usage/project.rst:55
+#: ../../usage/project.rst:35 ../../usage/project.rst:57
 msgid "原子構造・結晶構造の設定"
 msgstr "atomic / crystal structure settings"
 
@@ -2163,60 +2163,68 @@ msgid "時間依存密度汎関数法"
 msgstr "time dependent density functional theory"
 
 #: ../../usage/project.rst:49
-msgid ":guilabel:`Phonon`"
+msgid ":guilabel:`XAFS`"
 msgstr ""
 
 #: ../../usage/project.rst:49
+msgid "X線吸収微細構造計算"
+msgstr "X-ray absorption fine structure calculation"
+
+#: ../../usage/project.rst:51
+msgid ":guilabel:`Phonon`"
+msgstr ""
+
+#: ../../usage/project.rst:51
 msgid "フォノン計算"
 msgstr "phonon calculation"
 
-#: ../../usage/project.rst:51
+#: ../../usage/project.rst:53
 msgid ":guilabel:`Ph. Dispersion`"
 msgstr ""
 
-#: ../../usage/project.rst:51
+#: ../../usage/project.rst:53
 msgid "フォノン状態密度・バンド計算"
 msgstr "phonon density of states / band calculation"
 
-#: ../../usage/project.rst:53
+#: ../../usage/project.rst:55
 msgid ":guilabel:`NEB`"
 msgstr ""
 
-#: ../../usage/project.rst:53
+#: ../../usage/project.rst:55
 msgid "Nudged Elastic Band法"
 msgstr "Nudged Elastic Band method"
 
-#: ../../usage/project.rst:55
+#: ../../usage/project.rst:57
 msgid "`LAMMPS`_"
 msgstr ""
 
-#: ../../usage/project.rst:57
+#: ../../usage/project.rst:59
 msgid ":guilabel:`Force-Field`"
 msgstr ""
 
-#: ../../usage/project.rst:57
+#: ../../usage/project.rst:59
 msgid "力場の設定"
 msgstr "force field settings"
 
-#: ../../usage/project.rst:59
+#: ../../usage/project.rst:61
 msgid ":guilabel:`Scheme`"
 msgstr ""
 
-#: ../../usage/project.rst:59
+#: ../../usage/project.rst:61
 msgid "計算過程の設定"
 msgstr "calculation scheme settings"
 
-#: ../../usage/project.rst:66
+#: ../../usage/project.rst:68
 msgid "使用する計算エンジンとエディターのモードを選ぶと、それに応じた設定項目が画面右側のエディターパネルに表示されます。"
 msgstr ""
 "When you select the calculation engine and the editor mode, corresponding"
 " setting items are displayed in editor panel on the right side."
 
-#: ../../usage/project.rst:71
+#: ../../usage/project.rst:73
 msgid "プロジェクトの保存"
 msgstr "Saving project"
 
-#: ../../usage/project.rst:73
+#: ../../usage/project.rst:75
 msgid ""
 "新しいプロジェクトを開いた場合、そのままではまだ保存されていません。左下のメニュー |projectmenuicon| から "
 ":guilabel:`Save` をクリックし、保存場所とプロジェクト名を設定して保存してください。タブにプロジェクト名が表示されます。"
@@ -2225,34 +2233,34 @@ msgstr ""
 " from the menu |projectmenuicon| on the lower left and specify the name "
 "and the location to save it. The project name is displayed on the tab."
 
-#: ../../usage/project.rst:75
+#: ../../usage/project.rst:77
 msgid "保存していないプロジェクトで計算を実行しようとしたり、エディターで変更を加えたまま保存せずにタブを閉じようとしたりすると、保存するよう促されます。"
 msgstr ""
 "You will be prompted to save the project if you try to run the "
 "calculation in an unsaved project or if you try to close a tab with "
 "unsaved changes."
 
-#: ../../usage/project.rst:88
+#: ../../usage/project.rst:90
 msgid "プロジェクト保存"
 msgstr "Save project"
 
-#: ../../usage/project.rst:88
+#: ../../usage/project.rst:90
 msgid ":kbd:`Ctrl` + :kbd:`S`"
 msgstr ""
 
-#: ../../usage/project.rst:90
+#: ../../usage/project.rst:92
 msgid "戻る（左下の矢印ボタン）"
 msgstr "Go back (arrow button on lower left)"
 
-#: ../../usage/project.rst:90
+#: ../../usage/project.rst:92
 msgid ":kbd:`Ctrl` + |larr|"
 msgstr ""
 
-#: ../../usage/project.rst:92
+#: ../../usage/project.rst:94
 msgid "スクリーンショット（画像保存）"
 msgstr "Screenshot (save as image)"
 
-#: ../../usage/project.rst:92
+#: ../../usage/project.rst:94
 msgid ":kbd:`PrintScreen`"
 msgstr ""
 
