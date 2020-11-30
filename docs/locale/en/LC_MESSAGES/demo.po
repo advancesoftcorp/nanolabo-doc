@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-27 18:19+0900\n"
+"POT-Creation-Date: 2020-11-30 12:05+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,7 +127,7 @@ msgid "|yt04|"
 msgstr "|yt04en|"
 
 #: ../../demo/calcmethod.rst:70
-msgid "Qunantum ESPRESSOで分子動力学計算"
+msgid "Quantum ESPRESSOで分子動力学計算"
 msgstr "Molecular dynamics calculation with Quantum ESPRESSO"
 
 #: ../../demo/calcmethod.rst:72

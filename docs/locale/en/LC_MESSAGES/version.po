@@ -41,7 +41,7 @@ msgstr "QE: XAFS calculation"
 
 #: ../../version.rst:12
 msgid "LAMMPS dumpファイル読み込み対応"
-msgstr "support opening LAMMS dump file"
+msgstr "support opening LAMMPS dump file"
 
 #: ../../version.rst:14 ../../version.rst:23 ../../version.rst:39
 #: ../../version.rst:44 ../../version.rst:66

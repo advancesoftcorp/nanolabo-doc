@@ -67,7 +67,7 @@
   <iframe src="https://www.youtube.com/embed/e5oViwiJLx0?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-+ Qunantum ESPRESSOで分子動力学計算
++ Quantum ESPRESSOで分子動力学計算
 
  |yt05|
 
