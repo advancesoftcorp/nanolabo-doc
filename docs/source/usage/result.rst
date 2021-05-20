@@ -4,7 +4,7 @@
 結果表示
 =================
 
-計算を実行したプロジェクトのタブを開くと、表示可能な計算結果がタイル状に一覧表示されます。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー |projectmenuicon| から :guilabel:`Result` をクリックしてください。）
+計算を実行したプロジェクトのタブを開くと、表示可能な計算結果がタイル状に一覧表示されます。（結果画面が表示されていない場合は、まず左下のメニュー |projectmenuicon| から :guilabel:`Result` をクリックしてください。）
 
 .. |projectmenuicon| image:: /img/projectmenuicon.png
 
@@ -14,7 +14,18 @@
 
 .. image:: /img/result.png
 
-リモートのサーバーで計算を実行している場合、結果表示画面が出ている間はリアルタイムでアクセスを行い、結果を取得しています。右側のパネルにある :guilabel:`Disconnect from Server` アイコンをクリックすると、アクセスを一時停止します。自動的にダウンロードされるのは可視化に必要なファイルのみですが、 :guilabel:`Download All Files from Server` アイコンをクリックするとそのプロジェクトの全てのファイルをダウンロードします。また、サーバーのファイル容量が問題になる場合には、ダウンロード後に :guilabel:`Delete All Files on Server` を使って削除できます。
+リモートのサーバーで計算を実行している場合、結果表示画面が出ている間はリアルタイムでアクセスを行い、結果を取得しています。
+
+右側のパネルにある |disconnect| :guilabel:`Disconnect from Server` アイコンをクリックすると、アクセスを一時停止します。自動的にダウンロードされるのは可視化に必要なファイルのみですが、 |download| :guilabel:`Download All Files from Server` アイコンをクリックするとそのプロジェクトの全てのファイルをダウンロードします。また、サーバーのファイル容量が問題になる場合には、ダウンロード後に |delete| :guilabel:`Delete All Files on Server` を使って削除できます。
+
+.. |disconnect| image:: /img/disconnect.png
+.. |download| image:: /img/download.png
+.. |delete| image:: /img/delete.png
+
+:doc:`SSHサーバーの設定<sshserver>`\ で常時オフラインモードに設定している場合、結果画面を開いた時点でアクセスを一時停止した状態になっています。この状態でも、 :guilabel:`Download Time` を設定していれば、その間隔でファイルの取得が行われます。取得中は、ダウンロード中を表すアイコン |download_loading| |delete_loading| に変化します。
+
+.. |download_loading| image:: /img/download_loading.png
+.. |delete_loading| image:: /img/delete_loading.png
 
 .. _plot:
 
@@ -39,6 +50,24 @@
 .. image:: /img/dos.png
 
 .. image:: /img/band.png
+
+.. _3d:
+
+3D表示
+=======================
+
+:guilabel:`3D` の各ボタンをクリックすると、SCF計算結果の電荷密度・ポテンシャル・（スピンを有効にしている場合）スピン偏極の空間分布が3D表示できます。
+
+.. image:: /img/3dviewer.png
+
+等値面(Isosurface)、点の集合(Cloud)での可視化が可能です。右側パネルには可視化オブジェクトの一覧が表示され、 |eye| で表示／非表示の切り替え、 |edit| で表示の詳細設定を行います。 |add| と |remove| でオブジェクトの追加と削除を行います。
+
+.. |eye| image:: /img/eye.png
+.. |edit| image:: /img/edit.png
+.. |add| image:: /img/add.png
+.. |remove| image:: /img/remove.png
+
+:guilabel:`Referential Data` のボタンをクリックし、あらかじめ計算したデータ（プロジェクト／cubeファイル）を選択することで、差分の表示が可能です。データのメッシュ分割数は一致している必要があります。データを2つ設定すると、2つとも差し引いた値（元データ - #1 - #2）を表示します。
 
 .. _movie:
 
