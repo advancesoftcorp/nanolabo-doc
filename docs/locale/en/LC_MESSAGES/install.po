@@ -539,7 +539,7 @@ msgstr "Pricing"
 
 #: ../../install/purchase.rst:51
 msgid "年間ライセンス\\ `*`:sup:\\ （万円／年、税抜）"
-msgstr "Annual license\\ `*`:sup:\\ (ten thousand JPY/yr. without tax)"
+msgstr "Annual license\\ `*`:sup:\\ (unit: ten thousand JPY/yr. without tax)"
 
 #: ../../install/purchase.rst:51 ../../install/purchase.rst:65
 #: ../../install/purchase.rst:79
@@ -585,7 +585,7 @@ msgstr ""
 
 #: ../../install/purchase.rst:65
 msgid "買取ライセンス\\ `**`:sup:\\ （万円、税抜）"
-msgstr "Permanent license\\ `**`:sup:\\ (ten thousand JPY without tax)"
+msgstr "Permanent license\\ `**`:sup:\\ (unit: ten thousand JPY without tax)"
 
 #: ../../install/purchase.rst:67
 msgid "150"
@@ -612,7 +612,7 @@ msgstr ""
 
 #: ../../install/purchase.rst:79
 msgid "技術サポート（万円／年、税抜）"
-msgstr "Technical support (ten thousand JPY/yr. without tax)"
+msgstr "Technical support (unit: ten thousand JPY/yr. without tax)"
 
 #: ../../install/purchase.rst:81
 msgid "オプションQEサポート\\ |sspade|"
