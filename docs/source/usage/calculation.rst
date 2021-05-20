@@ -46,7 +46,7 @@
 
 .. image:: /img/job.svg
 
-実行中・実行待機中の計算ジョブを中止するには、アイコンを右クリックして :guilabel:`Delete jobs` をクリックするか、プロジェクト画面を開き、画面右側のパネルの :guilabel:`Stop Calculation` をクリックしてください。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー |projectmenuicon| から :guilabel:`Result` をクリックしてください。）
+実行中・実行待機中の計算ジョブを中止するには、アイコンを右クリックして :guilabel:`Delete jobs` をクリックするか、プロジェクト画面を開き、画面右側のパネルの :guilabel:`Stop Calculation` をクリックしてください。（結果画面が表示されていない場合は、まず左下のメニュー |projectmenuicon| から :guilabel:`Result` をクリックしてください。）
 
 .. |cloud| image:: /img/cloud.png
 
@@ -55,4 +55,4 @@
 計算がうまくいかない場合
 ==============================
 
-計算が正常に実行できなかった場合、 :guilabel:`Error` ウィンドウが表示されます。エラーの内容を確認するには、プロジェクト画面を開き、 :guilabel:`CRASH` をクリックして、エラーログを表示してください。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー |projectmenuicon| から :guilabel:`Result` をクリックしてください。）
+計算が正常に実行できなかった場合、 :guilabel:`Error` ウィンドウが表示されます。エラーの内容を確認するには、プロジェクト画面を開き、 :guilabel:`CRASH` や :guilabel:`ERR` をクリックして、エラーログを表示してください。（結果画面が表示されていない場合は、まず左下のメニュー |projectmenuicon| から :guilabel:`Result` をクリックしてください。）
