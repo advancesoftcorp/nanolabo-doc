@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-03 14:57+0900\n"
+"POT-Creation-Date: 2021-05-21 20:48+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,8 +194,9 @@ msgstr ""
 msgid "緑色の平面と、黒色の法線が表示されます。ドラッグ（または矢印キー）で平面を回転させます。選択した原子をドラッグすると、平面に沿って移動させることができます。原子を複数選択している場合は、右クリックした原子（平面の中央）をドラッグしてください。"
 msgstr ""
 "Green plane and black normal line are shown. Use dragging (or arrow keys)"
-" to rotate the plane. You can then drag selected atom(s) along the plane. "
-"In case multiple atoms are selected, drug the atom you right-clicked (center of the plane)."
+" to rotate the plane. You can then drag selected atom(s) along the plane."
+" In case multiple atoms are selected, drug the atom you right-clicked "
+"(center of the plane)."
 
 #: ../../usage/atomsviewer.rst:80
 msgid "ドロップ（マウスのボタンを離す）すると、位置が確定します。"
@@ -534,13 +535,12 @@ msgstr ""
 msgid ""
 "実行中・実行待機中の計算ジョブを中止するには、アイコンを右クリックして :guilabel:`Delete jobs` "
 "をクリックするか、プロジェクト画面を開き、画面右側のパネルの :guilabel:`Stop Calculation` "
-"をクリックしてください。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー |projectmenuicon| "
-"から :guilabel:`Result` をクリックしてください。）"
+"をクリックしてください。（結果画面が表示されていない場合は、まず左下のメニュー |projectmenuicon| から "
+":guilabel:`Result` をクリックしてください。）"
 msgstr ""
 "To abort running/waiting job, right click the icon and click "
 ":guilabel:`Delete jobs`, or open the project view and click "
-":guilabel:`Stop Calculation` on the right side panel. (In case input file"
-" editor is shown in project view, first click :guilabel:`Result` from the"
+":guilabel:`Stop Calculation` on the right side panel. (In case result view is not shown, first click :guilabel:`Result` from the"
 " menu |projectmenuicon| on the lower left.)"
 
 #: ../../usage/calculation.rst:56
@@ -550,13 +550,13 @@ msgstr "Troubleshooting"
 #: ../../usage/calculation.rst:58
 msgid ""
 "計算が正常に実行できなかった場合、 :guilabel:`Error` "
-"ウィンドウが表示されます。エラーの内容を確認するには、プロジェクト画面を開き、 :guilabel:`CRASH` "
-"をクリックして、エラーログを表示してください。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー "
+"ウィンドウが表示されます。エラーの内容を確認するには、プロジェクト画面を開き、 :guilabel:`CRASH` や "
+":guilabel:`ERR` をクリックして、エラーログを表示してください。（結果画面が表示されていない場合は、まず左下のメニュー "
 "|projectmenuicon| から :guilabel:`Result` をクリックしてください。）"
 msgstr ""
 "When a calculation failed, :guilabel:`Error` window is shown. To look "
-"into the error, open project view and click :guilabel:`CRASH` to display "
-"the error log. (In case input file editor is shown in project view, first"
+"into the error, open project view and click :guilabel:`CRASH` or :guilabel:`ERR` to display "
+"the error log. (In case result view is not shown, first"
 " click :guilabel:`Result` from the menu |projectmenuicon| on the lower "
 "left.)"
 
@@ -1679,7 +1679,7 @@ msgstr ""
 
 #: ../../usage/modeler.rst:84 ../../usage/modeler.rst:97
 #: ../../usage/modeler.rst:116 ../../usage/modeler.rst:141
-#: ../../usage/modeler.rst:204 ../../usage/modeler.rst:230
+#: ../../usage/modeler.rst:204 ../../usage/modeler.rst:232
 msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
 msgstr "Click back button |back| on the lower left to go back to modeler view."
 
@@ -2032,6 +2032,13 @@ msgstr ""
 
 #: ../../usage/modeler.rst:228
 msgid ""
+"充填する空間の大きさを編集するには、 |box| ボタンをクリックします。XYZ方向の大きさを |angs| 単位で入力し、 |box| "
+"アイコンをクリックすると設定されます。"
+msgstr "To change the dimension of the space, click |box| button. Enter the size along XYZ direction in |angs| unit. "
+"Click the |box| icon to apply."
+
+#: ../../usage/modeler.rst:230
+msgid ""
 "高分子の設定が終わったら、 :guilabel:`Build` "
 "をクリックしてください。充填後の構造が画面上側のビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
 "をクリックすると、同じ設定で異なる構造が表示されます。"
@@ -2041,7 +2048,7 @@ msgstr ""
 ":guilabel:`Build` again here, a different structure with the same setting"
 " is shown."
 
-#: ../../usage/modeler.rst:234
+#: ../../usage/modeler.rst:236
 msgid ""
 "また、スラブモデルの真空層等に高分子を充填することも可能です。分子を充填できる空間を持ったモデルを用意し、そのプロジェクトで高分子モデラーを開きます。"
 " :guilabel:`Add Polymer` で高分子を追加すると、生成した分子をモデルの空いている部分に充填します。"
@@ -2265,7 +2272,7 @@ msgstr "Screenshot (save as image)"
 msgid ":kbd:`PrintScreen`"
 msgstr ""
 
-#: ../../usage/result.rst:28 ../../usage/resultpdos.rst:5
+#: ../../usage/result.rst:39 ../../usage/resultpdos.rst:5
 msgid "PDOS電卓"
 msgstr "PDOS Calculator"
 
@@ -2275,12 +2282,12 @@ msgstr "Result"
 
 #: ../../usage/result.rst:7
 msgid ""
-"計算を実行したプロジェクトのタブを開くと、表示可能な計算結果がタイル状に一覧表示されます。（プロジェクト画面で入力ファイルエディターが表示されている場合は、まず左下のメニュー"
-" |projectmenuicon| から :guilabel:`Result` をクリックしてください。）"
+"計算を実行したプロジェクトのタブを開くと、表示可能な計算結果がタイル状に一覧表示されます。（結果画面が表示されていない場合は、まず左下のメニュー "
+"|projectmenuicon| から :guilabel:`Result` をクリックしてください。）"
 msgstr ""
 "Once the calculation is launched, you can check the results in the "
 "project tab, where the results ready for visualization are listed as "
-"tiles. (In case input file editor is shown in project view, first click "
+"tiles. (In case result view is not shown, first click "
 ":guilabel:`Result` from the menu |projectmenuicon| on the lower left.)"
 
 #: ../../usage/result.rst:11
@@ -2290,28 +2297,40 @@ msgstr ""
 "button |back| on the lower left to go back to the list."
 
 #: ../../usage/result.rst:17
+msgid "リモートのサーバーで計算を実行している場合、結果表示画面が出ている間はリアルタイムでアクセスを行い、結果を取得しています。"
+msgstr "In case the calculation is running on the remote server, the result is "
+"continuously fetched during the result view is shown."
+
+#: ../../usage/result.rst:19
 msgid ""
-"リモートのサーバーで計算を実行している場合、結果表示画面が出ている間はリアルタイムでアクセスを行い、結果を取得しています。右側のパネルにある "
-":guilabel:`Disconnect from Server` "
-"アイコンをクリックすると、アクセスを一時停止します。自動的にダウンロードされるのは可視化に必要なファイルのみですが、 "
+"右側のパネルにある |disconnect| :guilabel:`Disconnect from Server` "
+"アイコンをクリックすると、アクセスを一時停止します。自動的にダウンロードされるのは可視化に必要なファイルのみですが、 |download| "
 ":guilabel:`Download All Files from Server` "
 "アイコンをクリックするとそのプロジェクトの全てのファイルをダウンロードします。また、サーバーのファイル容量が問題になる場合には、ダウンロード後に "
-":guilabel:`Delete All Files on Server` を使って削除できます。"
+"|delete| :guilabel:`Delete All Files on Server` を使って削除できます。"
 msgstr ""
-"In case the calculation is running on the remote server, the result is "
-"continuously obtained during the result view is shown. Click "
-":guilabel:`Disconnect from Server` icon on the right side panel to "
+"Click |disconnect| :guilabel:`Disconnect from Server` icon on the right side panel to "
 "suspend the access. Automatic downloads are performed only for the files "
-"required for the visualization. Click :guilabel:`Download All Files from "
+"required for the visualization. Click |download| :guilabel:`Download All Files from "
 "Server` icon to manually download all the files in the project. If the "
-"file capacity matters on the server, you can use :guilabel:`Delete All "
+"file capacity matters on the server, you can use |delete| :guilabel:`Delete All "
 "Files on Server` ."
 
-#: ../../usage/result.rst:22
+#: ../../usage/result.rst:25
+msgid ""
+":doc:`SSHサーバーの設定<sshserver>`\\ "
+"で常時オフラインモードに設定している場合、結果画面を開いた時点でアクセスを一時停止した状態になっています。この状態でも、 "
+":guilabel:`Download Time` を設定していれば、その間隔でファイルの取得が行われます。取得中は、ダウンロード中を表すアイコン"
+" |download_loading| |delete_loading| に変化します。"
+msgstr "If always offline mode is set in :doc:`SSH server setting<sshserver>`\\ , the access is suspended when you open the result view. "
+"Even in this status, as long as :guilabel:`Download Time` is set, the files are fetched in that interval. During fetching, "
+"the icons turn to |download_loading| |delete_loading| ."
+
+#: ../../usage/result.rst:33
 msgid "2Dプロット"
 msgstr "2D plot"
 
-#: ../../usage/result.rst:24
+#: ../../usage/result.rst:35
 msgid ""
 "時系列データや状態密度・バンド構造は2Dプロットで表示します。画面右側のパネルでプロットの体裁を調整します。 :guilabel:`Data "
 "Series` でデータ系列ごとに表示・非表示の設定、体裁の調整が可能です。"
@@ -2321,17 +2340,17 @@ msgstr ""
 ":guilabel:`Data Series` , you can choose whether to show each data "
 "series, and tweak the appearance."
 
-#: ../../usage/result.rst:26
+#: ../../usage/result.rst:37
 msgid "状態密度のプロットはPDOS電卓を使った詳細な設定が可能です。"
 msgstr "You can customize the density of states plot using PDOS Calculator."
 
-#: ../../usage/result.rst:33
+#: ../../usage/result.rst:44
 msgid "計算実行中の場合、 :guilabel:`Reload` をクリックすると出力ファイルを読み込んで表示を更新します。"
 msgstr ""
 "In case the calculation is running, click :guilabel:`Reload` to read the "
 "output file and update the display."
 
-#: ../../usage/result.rst:35
+#: ../../usage/result.rst:46
 msgid ""
 ":guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。また、 :guilabel:`Export as"
 " CSV file` をクリックすると表示しているデータをCSVファイルとして保存します。"
@@ -2339,11 +2358,38 @@ msgstr ""
 "Click :guilabel:`Screen-shot` to save the plot as an image file. Click "
 ":guilabel:`Export as CSV file` to save the displayed data as a CSV file."
 
-#: ../../usage/result.rst:46
+#: ../../usage/result.rst:57
+msgid "3D表示"
+msgstr "3D display"
+
+#: ../../usage/result.rst:59
+msgid ""
+":guilabel:`3D` "
+"の各ボタンをクリックすると、SCF計算結果の電荷密度・ポテンシャル・（スピンを有効にしている場合）スピン偏極の空間分布が3D表示できます。"
+msgstr "Click the :guilabel:`3D` buttons to display the spacial distribution of charge density / potential / spin polarization "
+"(if spin is enabled) obtained by SCF calculation in 3D."
+
+#: ../../usage/result.rst:63
+msgid ""
+"等値面(Isosurface)、点の集合(Cloud)での可視化が可能です。右側パネルには可視化オブジェクトの一覧が表示され、 |eye| "
+"で表示／非表示の切り替え、 |edit| で表示の詳細設定を行います。 |add| と |remove| でオブジェクトの追加と削除を行います。"
+msgstr "They can by visualized using Isosurface or Cloud. The list of rendered objects is shown on the right side panel. "
+"The objects can be shown / hidden by |eye| , and you can tune the display setting by |edit| . You can add or remove "
+"the object by |add| or |remove| ."
+
+#: ../../usage/result.rst:70
+msgid ""
+":guilabel:`Referential Data` "
+"のボタンをクリックし、あらかじめ計算したデータ（プロジェクト／cubeファイル）を選択することで、差分の表示が可能です。データのメッシュ分割数は一致している必要があります。データを2つ設定すると、2つとも差し引いた値（元データ"
+" - #1 - #2）を表示します。"
+msgstr "Click the button in :guilabel:`Referential Data` and choose the data (project / cube file) calculated in advance to display the difference. "
+"The division number of mesh must be the same. If you set two sets of data, both values are subtracted (current - #1 - #2) and shown."
+
+#: ../../usage/result.rst:75
 msgid "動画"
 msgstr "Movie"
 
-#: ../../usage/result.rst:48
+#: ../../usage/result.rst:77
 msgid ""
 ":guilabel:`.movie` をクリックすると、原子構造の変化を動画として表示します。計算実行中の場合、 "
 ":guilabel:`Reload` をクリックすると出力ファイルを読み込み、増えたフレーム（コマ）を追加します。"
@@ -2352,13 +2398,13 @@ msgstr ""
 "animation. In case the calculation is running, click :guilabel:`Reload` "
 "to read the output file and add updated frames."
 
-#: ../../usage/result.rst:50
+#: ../../usage/result.rst:79
 msgid "視点の操作は原子構造ビューワーと同様に行うことができます。再生中でも視点を変えられます。"
 msgstr ""
 "You can change the viewpoint in the same way as atomic structure viewer. "
 "You can change the viewpoint even during the playback."
 
-#: ../../usage/result.rst:52
+#: ../../usage/result.rst:81
 msgid ""
 ":guilabel:`Screen-shot` をクリックして表示中のフレーム（コマ）を画像ファイルに保存します。 :guilabel:`Save"
 " Movie` をクリックしてすべてのフレーム（コマ）を動画ファイルに保存します。"
@@ -2366,27 +2412,27 @@ msgstr ""
 "Click :guilabel:`Screen-shot` to save current frame as an image file. "
 "Click :guilabel:`Save Movie` to save the entire frames as a movie file."
 
-#: ../../usage/result.rst:54
+#: ../../usage/result.rst:83
 msgid ":guilabel:`New Project` をクリックすると、表示中の原子構造を使って新しく別のプロジェクトを作成し、解析を行うことができます。"
 msgstr ""
 "Click :guilabel:`New Project` to newly create another project using "
 "current atomic structure and start the analysis."
 
-#: ../../usage/result.rst:61
+#: ../../usage/result.rst:90
 msgid "フォノンモード"
 msgstr "Phonon modes"
 
-#: ../../usage/result.rst:63
+#: ../../usage/result.rst:92
 msgid ":guilabel:`Phonon.mode` をクリックすると、各振動モードを矢印で可視化することができます。"
 msgstr ""
 "Click :guilabel:`Phonon.mode` to visualize each vibrational mode by "
 "arrows."
 
-#: ../../usage/result.rst:70
+#: ../../usage/result.rst:99
 msgid "テキスト"
 msgstr "Text"
 
-#: ../../usage/result.rst:72
+#: ../../usage/result.rst:101
 msgid ""
 ":guilabel:`IN` （入力ファイル）、 :guilabel:`LOG` （ログファイル）、 :guilabel:`ERR` "
 "（エラーログファイル）をクリックすると、テキストファイルの内容をそのまま表示します。ファイル内検索、ハイライト表示や抽出も可能です。"
@@ -2395,15 +2441,15 @@ msgstr ""
 ":guilabel:`ERR` (error log file) to show the content of the file. You can"
 " use in-file search, highlighting and extracting."
 
-#: ../../usage/result.rst:74
+#: ../../usage/result.rst:103
 msgid ":guilabel:`Text editor` をクリックすると、外部のテキストエディターでファイルを開きます。"
 msgstr "Click :guilabel:`Text editor` to open the file with external text editor."
 
-#: ../../usage/result.rst:81
+#: ../../usage/result.rst:110
 msgid "原子構造の更新"
 msgstr "Update atomic configuration"
 
-#: ../../usage/result.rst:83
+#: ../../usage/result.rst:112
 msgid "原子構造の変化を伴う計算を行った後、更新 |updateatomconfig| をクリックすると、プロジェクトの原子構造を変化後のものに更新します。"
 msgstr ""
 "After performing a calculation involving changes in atomic configuration,"
@@ -2606,7 +2652,7 @@ msgstr ""
 msgid "Job Posting Command"
 msgstr ""
 
-#: ../../usage/sshserver.rst:68
+#: ../../usage/sshserver.rst:66
 msgid "Job Script"
 msgstr ""
 
@@ -2623,37 +2669,63 @@ msgstr ""
 "The actual content of the script to be executed is shown when you post a "
 "job."
 
-#: ../../usage/sshserver.rst:71
+#: ../../usage/sshserver.rst:69
 msgid "Speedタブの設定"
 msgstr "Speed settings"
 
-#: ../../usage/sshserver.rst:73
+#: ../../usage/sshserver.rst:71
 msgid ":guilabel:`Speed` タブでは、サーバーからの情報取得・ファイルダウンロードの間隔、同時接続数を設定できます。"
 msgstr ""
 "In :guilabel:`Speed` tab, you can configure the intervals of retrieving "
 "informations / downloading files from the server, and the number of "
 "simultaneous accesses."
 
-#: ../../usage/sshserver.rst:75
-msgid ""
-"通常は変更する必要はありません。サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` "
-"側に動かすことで頻度を下げることができます。"
+#: ../../usage/sshserver.rst:73
+msgid "サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` 側に動かすことで頻度を下げることができます。"
 msgstr ""
-"Normally, you do not have to change them. If frequent access is "
+"If frequent access is "
 "undesirable, move the sliders to :guilabel:`Slow` side to lower the "
 "frequency."
 
+#: ../../usage/sshserver.rst:75
+msgid ":guilabel:`Connection Style` で、低速ネットワーク用の設定ができます。"
+msgstr ":guilabel:`Connection Style` is settings for the low bandwidth network."
+
 #: ../../usage/sshserver.rst:78
+msgid "Online Mode"
+msgstr ""
+
+#: ../../usage/sshserver.rst:78
+msgid "常時オフラインモードに設定すると、リアルタイムでの結果取得を行いません。"
+msgstr "if set to always offline mode, realtime result fetching is disabled."
+
+#: ../../usage/sshserver.rst:81
+msgid "Download Mode"
+msgstr ""
+
+#: ../../usage/sshserver.rst:81
+msgid "容量の大きいバイナリファイルを除外し、テキストファイルのみダウンロードするよう設定できます。"
+msgstr "can be set to download only text files, excluding large binary files."
+
+#: ../../usage/sshserver.rst:84
+msgid "Download Time"
+msgstr ""
+
+#: ../../usage/sshserver.rst:84
+msgid "常時オフラインモードの際に、ファイルを一括ダウンロードする頻度（分単位）を設定します。"
+msgstr "interval (minute) of batch download while in always offline mode."
+
+#: ../../usage/sshserver.rst:87
 msgid "サーバーの編集・削除"
 msgstr "Edit / remove server"
 
-#: ../../usage/sshserver.rst:80
+#: ../../usage/sshserver.rst:89
 msgid "各タブで設定した内容は、サーバーごとに保存されます。リストから既に保存されているサーバーを選択すると、その設定内容を編集できます。"
 msgstr ""
 "Settings in the tabs are saved server by server. Select previously saved "
 "server from the list to edit the settings of it."
 
-#: ../../usage/sshserver.rst:82
+#: ../../usage/sshserver.rst:91
 msgid "サーバーを削除するには、:guilabel:`SSH Configuration` の右側の |remove| ボタンをクリックしてください。"
 msgstr ""
 "To remove a server, click |remove| button on the right of :guilabel:`SSH "
