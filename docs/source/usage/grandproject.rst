@@ -97,7 +97,7 @@ Generating Geometries
  - Randomly Atomic Shift: 元構造からランダムに原子を動かした構造を生成します。
  - Trajectory of MD (LAMMPS): 元構造からLAMMPSで分子動力学計算を実行し、そのトラジェクトリーから構造を抽出します。 :guilabel:`Calculate MD` のボタンをクリックするとLAMMPSの画面が開きますので、設定を行い、計算を実行してください。
  
- 座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。
+ .. note:: 座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。
 
  :guilabel:`Generate Geometries` をクリックすると、指定した設定でランダム構造を生成（抽出）します。
 
@@ -115,7 +115,6 @@ Calculation of Q.E.
 結果の集計・出力
 ------------------------------------------
 
-Training Neural Network Potential / Training Neural Network Potential
- :guilabel:`Export Data` をクリックすると、グランドプロジェクト内で計算が終了しているものを集計し、教師データ・テストデータをファイル出力します。
+画面右側の :guilabel:`Training Neural Network Potential` 、 :guilabel:`Training Neural Network Potential` にある :guilabel:`Export Data` をクリックすると、グランドプロジェクト内で計算が終了しているものを集計し、教師データ・テストデータをファイル出力します。
  
- - 計算サーバーで計算を実行している場合は、自動的に結果を取得し、集計します。
+- 計算サーバーで計算を実行している場合は、自動的に結果を取得し、集計します。
