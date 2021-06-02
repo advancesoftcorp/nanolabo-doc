@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-21 20:48+0900\n"
+"POT-Creation-Date: 2021-06-02 14:34+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -540,8 +540,9 @@ msgid ""
 msgstr ""
 "To abort running/waiting job, right click the icon and click "
 ":guilabel:`Delete jobs`, or open the project view and click "
-":guilabel:`Stop Calculation` on the right side panel. (In case result view is not shown, first click :guilabel:`Result` from the"
-" menu |projectmenuicon| on the lower left.)"
+":guilabel:`Stop Calculation` on the right side panel. (In case result "
+"view is not shown, first click :guilabel:`Result` from the menu "
+"|projectmenuicon| on the lower left.)"
 
 #: ../../usage/calculation.rst:56
 msgid "計算がうまくいかない場合"
@@ -555,10 +556,10 @@ msgid ""
 "|projectmenuicon| から :guilabel:`Result` をクリックしてください。）"
 msgstr ""
 "When a calculation failed, :guilabel:`Error` window is shown. To look "
-"into the error, open project view and click :guilabel:`CRASH` or :guilabel:`ERR` to display "
-"the error log. (In case result view is not shown, first"
-" click :guilabel:`Result` from the menu |projectmenuicon| on the lower "
-"left.)"
+"into the error, open project view and click :guilabel:`CRASH` or "
+":guilabel:`ERR` to display the error log. (In case result view is not "
+"shown, first click :guilabel:`Result` from the menu |projectmenuicon| on "
+"the lower left.)"
 
 #: ../../usage/explorer.rst:5
 msgid "エクスプローラー"
@@ -807,6 +808,278 @@ msgstr "drag & drop the file onto the NanoLabo launch icon"
 #: ../../usage/explorer.rst:112
 msgid "NanoLaboの実行ファイルに引数として渡し、実行する"
 msgstr "pass the file to NanoLabo executable as an argument"
+
+#: ../../usage/grandproject.rst:5
+msgid "グランドプロジェクト"
+msgstr "Grand-project"
+
+#: ../../usage/grandproject.rst:7
+msgid "通常のプロジェクトでは1つの原子構造モデルだけを扱いますが、グランドプロジェクトを使うと多数の構造に対する計算結果をまとめて扱うことができます。"
+msgstr ""
+"While a project handles just one atomic structure model, a grand-project "
+"can handle calculation results from many geometries."
+
+#: ../../usage/grandproject.rst:12
+msgid "グランドプロジェクトの作り方"
+msgstr "Creating grand-project"
+
+#: ../../usage/grandproject.rst:14
+msgid ""
+"元となる構造のプロジェクトで、左下のメニュー |projectmenuicon| から :guilabel:`Grand-project` "
+"をクリックします。"
+msgstr ""
+"In the project of original structure, click :guilabel:`Grand-project` "
+"from the lower left menu |projectmenuicon| ."
+
+#: ../../usage/grandproject.rst:16
+msgid ""
+"ダイアログが表示されますので、 :guilabel:`Type of Grand-Project` "
+"で作成するグランドプロジェクトの種類を選択します。"
+msgstr ""
+"A dialog is shown, in which you can choose the :guilabel:`Type of Grand-"
+"Project` to be created."
+
+#: ../../usage/grandproject.rst:18
+msgid "NeuralMD"
+msgstr ""
+
+#: ../../usage/grandproject.rst:20
+msgid "Advance/NeuralMDで使用する教師データを作成します。元となる構造から多数の構造を生成し、それぞれについて全エネルギーを計算して、1つの教師データファイルに出力する、という一連の手順をグランドプロジェクト内で実行することができます。"
+msgstr ""
+"Generate the training data for Advance/NeuralMD. Within a grand-project, "
+"you can perform the procedure of generating many geometries from original"
+" one, calculate total energy for them and export to one training data "
+"file."
+
+#: ../../usage/grandproject.rst:22
+msgid ""
+":guilabel:`Path of Grand-Project` "
+"のボタンをクリックし、名前を指定して保存すると、グランドプロジェクトの画面が開きます。"
+msgstr ""
+"Click the button on :guilabel:`Path of Grand-Project` and save it with "
+"any name. The grand-project view is shown."
+
+#: ../../usage/grandproject.rst:24
+msgid "作成したグランドプロジェクトは、エクスプローラーで他のプロジェクトやモデルに並んでアイコン |grandicon| で表示されます。"
+msgstr ""
+"The grand-project is shown as icon |grandicon| in explorer, along with "
+"other projects and models."
+
+#: ../../usage/grandproject.rst:32
+msgid "NeuralMD用教師データ"
+msgstr "Training data for NeuralMD"
+
+#: ../../usage/grandproject.rst:37
+msgid "画面構成"
+msgstr "User Interface Overview"
+
+#: ../../usage/grandproject.rst:44
+msgid "簡単な使用例"
+msgstr "Brief usage example"
+
+#: ../../usage/grandproject.rst:46
+msgid "カラム上部に元となる構造が表示されているのを確認します。"
+msgstr "Make sure the original geometry is shown at the top of the column."
+
+#: ../../usage/grandproject.rst:47
+msgid ""
+":guilabel:`Random Geometries #1` の :guilabel:`Use for Training NNP` "
+"にチェックを入れます。"
+msgstr ""
+"Check :guilabel:`Use for Training NNP` in :guilabel:`Random Geometries "
+"#1` ."
+
+#: ../../usage/grandproject.rst:48
+msgid ":guilabel:`Generate Geometries` をクリックします。ランダム構造が生成されます。"
+msgstr "Click :guilabel:`Generate Geometries` . Random geometries are generated."
+
+#: ../../usage/grandproject.rst:49
+msgid ":guilabel:`Run` をクリックして、SCF計算を実行します。"
+msgstr "Click :guilabel:`Run` to run the SCF calculations."
+
+#: ../../usage/grandproject.rst:50
+msgid ""
+"計算が終わったらグランドプロジェクトの画面に戻り、画面右側の :guilabel:`Training Neural Network "
+"Potential` のボタンをクリックして、教師データを保存します。"
+msgstr ""
+"After the calculations are finished, click the button on "
+":guilabel:`Training Neural Network Potential` to export the training "
+"data."
+
+#: ../../usage/grandproject.rst:55
+msgid "構造の追加・削除"
+msgstr "Add / remove geometries"
+
+#: ../../usage/grandproject.rst:57
+msgid ""
+"グランドプロジェクトを作成した時には、元となる構造が1つだけ設定された状態です。画面右側の :guilabel:`Add Sample "
+"Geometry` をクリックして、プロジェクトまたは原子構造ファイルをダブルクリックすると、その構造を追加することができます。"
+msgstr ""
+"There is only one original geometry when a grand-project is created. "
+"Click :guilabel:`Add Sample Geometry` and double click the project or "
+"atomic structure file you want to add."
+
+#: ../../usage/grandproject.rst:59
+msgid "グランドプロジェクトの画面内に原子構造ファイルをドラッグ＆ドロップすることでも追加できます。"
+msgstr ""
+"You can also drag & drop the atomic structure file in the grand-project "
+"view."
+
+#: ../../usage/grandproject.rst:61
+msgid "1つの元構造につき、1つのカラムが表示されます。"
+msgstr "One column per one original geometry is shown."
+
+#: ../../usage/grandproject.rst:63
+msgid "カラムの右クリックメニューから、コピー・ペースト・削除ができます。"
+msgstr "You can copy / paste / delete the column from its right click menu."
+
+#: ../../usage/grandproject.rst:64
+msgid "カラム上部の |remove| でも削除ができます。"
+msgstr "The column can also be removed by |remove| at the top."
+
+#: ../../usage/grandproject.rst:65
+msgid ":kbd:`Ctrl` + :kbd:`C` 、 :kbd:`Ctrl` + :kbd:`V` のショートカットキーが使用可能です。"
+msgstr "Shortcut keys available: :kbd:`Ctrl` + :kbd:`C` , :kbd:`Ctrl` + :kbd:`V` ."
+
+#: ../../usage/grandproject.rst:67
+msgid "1つのグランドプロジェクト内にバルクモデルとスラブモデルなど異なる構造を設定し、まとめて教師データにする、という使い方ができます。"
+msgstr ""
+"For example, you can include several geometries such as bulk model and "
+"slab model in one grand-project, and export the combined training data."
+
+#: ../../usage/grandproject.rst:69
+msgid ""
+"また、1つの元構造から、異なる複数の設定でランダム構造を生成することもできます。最初は構造生成の設定が1つだけ(Random Geometries"
+" #1)ある状態です。カラム内の :guilabel:`Add Random Geometries` "
+"で設定の追加、:guilabel:`Remove Random Geometries` で設定の削除ができます。"
+msgstr ""
+"Also, it is possible to generate random geometries using multiple "
+"configurations from one original geometry. At first, there is only one "
+"configuration (Random Geometries #1). Add / remove the configuration by "
+":guilabel:`Add Random Geometries` / :guilabel:`Remove Random Geometries` "
+"in the column."
+
+#: ../../usage/grandproject.rst:71
+msgid "元となる構造から2通りの設定でランダム構造を生成し、片方は教師データ、もう片方はテストデータにする、という使い方ができます。"
+msgstr ""
+"For example, you can generate random geometries from one original "
+"geometry using two configurations, and use one as training data, while "
+"the other as testing data."
+
+#: ../../usage/grandproject.rst:78
+msgid "元構造・ランダム構造生成の設定項目"
+msgstr "Configuration on original geometry / random geometries generation"
+
+#: ../../usage/grandproject.rst:81
+msgid "Edit Input File of Q.E."
+msgstr ""
+
+#: ../../usage/grandproject.rst:81
+msgid "SCF計算の設定をします。この設定がカラム内のランダム構造の計算に適用されます。"
+msgstr ""
+"Configure the SCF calculation. This configuration is applied to the "
+"calculations of random geometries in the column."
+
+#: ../../usage/grandproject.rst:84
+msgid "Edit Geometry by Modeler"
+msgstr ""
+
+#: ../../usage/grandproject.rst:84
+msgid "元構造をモデラーを使って編集します。"
+msgstr "Edit the original geometry using the modeler."
+
+#: ../../usage/grandproject.rst:87
+msgid "Add Random Geometries / Remove Random Geometries"
+msgstr ""
+
+#: ../../usage/grandproject.rst:87
+msgid "元構造からランダム構造を生成するための設定を追加・削除します。"
+msgstr ""
+"Add / remove configuration for generating random geometries from the "
+"original one."
+
+#: ../../usage/grandproject.rst:94
+msgid "Use for Training NNP / Use for Testing NNP"
+msgstr ""
+
+#: ../../usage/grandproject.rst:90
+msgid "ランダム構造を教師データ・テストデータに使うかの設定です。最終的にデータを出力する時、ここでの設定に基づいて集計・出力の対象が決まります。"
+msgstr ""
+"Whether the random geometries are used for training / testing data. When "
+"exporting the data, the subjects of aggregation are determined based on "
+"the configuration here."
+
+#: ../../usage/grandproject.rst:92
+msgid "チェック状況はタイトルの左に色で表示されます。設定画面を折り畳んでいても、一目で確認することができます。"
+msgstr ""
+"The state of checkboxes are displayed next to the title with colors. You can "
+"see them at a glance even the configuration view is collapsed."
+
+#: ../../usage/grandproject.rst:102
+msgid "Generating Geometries"
+msgstr ""
+
+#: ../../usage/grandproject.rst:97
+msgid "Randomly Atomic Shift: 元構造からランダムに原子を動かした構造を生成します。"
+msgstr ""
+"Randomly Atomic Shift: generate geometries by randomly shifting atoms "
+"from the original one."
+
+#: ../../usage/grandproject.rst:98
+msgid ""
+"Trajectory of MD (LAMMPS): 元構造からLAMMPSで分子動力学計算を実行し、そのトラジェクトリーから構造を抽出します。 "
+":guilabel:`Calculate MD` のボタンをクリックするとLAMMPSの画面が開きますので、設定を行い、計算を実行してください。"
+msgstr ""
+"Trajectory of MD (LAMMPS): perform molecular dynamics calculation "
+"starting from original geometry, and extract geometries from the "
+"trajectory. Click the button on :guilabel:`Calculate MD` and on the "
+"LAMMPS view, configure the settings, and run the calculation."
+
+#: ../../usage/grandproject.rst:100
+msgid "座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。"
+msgstr "If there is fixed atom(s), the coordinates stay fixed when generating random geometries."
+
+#: ../../usage/grandproject.rst:102
+msgid ":guilabel:`Generate Geometries` をクリックすると、指定した設定でランダム構造を生成（抽出）します。"
+msgstr "Click :guilabel:`Generate Geometries` to generate (extract) random geometries using specified setting."
+
+#: ../../usage/grandproject.rst:111
+msgid "Calculation of Q.E."
+msgstr ""
+
+#: ../../usage/grandproject.rst:105
+msgid "生成したランダム構造に対し、SCF計算を実行します。"
+msgstr "Run SCF calculations for the generated random geometries."
+
+#: ../../usage/grandproject.rst:107
+msgid "同一のグランドプロジェクト内であっても、設定ごとに別の計算サーバーで計算を実行することもできます。"
+msgstr "The calculation for different configurations can be performed on different servers, even they are in the same grand-project."
+
+#: ../../usage/grandproject.rst:109
+msgid ""
+"Result画面では、計算の状況を確認できます。 :guilabel:`Energy` 、 :guilabel:`Force` "
+"から終了した計算の結果をまとめて確認できます。"
+msgstr ""
+"In the result view, you can check the status of calculations. The results of finished calculations are "
+"summarized in :guilabel:`Energy` and :guilabel:`Force` ."
+
+#: ../../usage/grandproject.rst:116
+msgid "結果の集計・出力"
+msgstr "Summarize / export results"
+
+#: ../../usage/grandproject.rst:118
+msgid ""
+"画面右側の :guilabel:`Training Neural Network Potential` 、 :guilabel:`Training"
+" Neural Network Potential` にある :guilabel:`Export Data` "
+"をクリックすると、グランドプロジェクト内で計算が終了しているものを集計し、教師データ・テストデータをファイル出力します。"
+msgstr ""
+"Click :guilabel:`Export Data` on :guilabel:`Training Neural Network Potential` or :guilabel:`Training"
+" Neural Network Potential` on the right side to summarize finished calculations in the grand-project, "
+"and export the training / testing data."
+
+#: ../../usage/grandproject.rst:120
+msgid "計算サーバーで計算を実行している場合は、自動的に結果を取得し、集計します。"
+msgstr "If calculations are performed on the server, the results are automatically fetched and summarized."
 
 #: ../../usage/initial.rst:5
 msgid "画面の構成"
@@ -2034,8 +2307,9 @@ msgstr ""
 msgid ""
 "充填する空間の大きさを編集するには、 |box| ボタンをクリックします。XYZ方向の大きさを |angs| 単位で入力し、 |box| "
 "アイコンをクリックすると設定されます。"
-msgstr "To change the dimension of the space, click |box| button. Enter the size along XYZ direction in |angs| unit. "
-"Click the |box| icon to apply."
+msgstr ""
+"To change the dimension of the space, click |box| button. Enter the size "
+"along XYZ direction in |angs| unit. Click the |box| icon to apply."
 
 #: ../../usage/modeler.rst:230
 msgid ""
@@ -2287,8 +2561,8 @@ msgid ""
 msgstr ""
 "Once the calculation is launched, you can check the results in the "
 "project tab, where the results ready for visualization are listed as "
-"tiles. (In case result view is not shown, first click "
-":guilabel:`Result` from the menu |projectmenuicon| on the lower left.)"
+"tiles. (In case result view is not shown, first click :guilabel:`Result` "
+"from the menu |projectmenuicon| on the lower left.)"
 
 #: ../../usage/result.rst:11
 msgid "表示したいものを選んでクリックすると、可視化された計算結果の画面を表示します。左下の戻るボタン |back| をクリックすると一覧表示に戻ります。"
@@ -2298,7 +2572,8 @@ msgstr ""
 
 #: ../../usage/result.rst:17
 msgid "リモートのサーバーで計算を実行している場合、結果表示画面が出ている間はリアルタイムでアクセスを行い、結果を取得しています。"
-msgstr "In case the calculation is running on the remote server, the result is "
+msgstr ""
+"In case the calculation is running on the remote server, the result is "
 "continuously fetched during the result view is shown."
 
 #: ../../usage/result.rst:19
@@ -2309,12 +2584,12 @@ msgid ""
 "アイコンをクリックするとそのプロジェクトの全てのファイルをダウンロードします。また、サーバーのファイル容量が問題になる場合には、ダウンロード後に "
 "|delete| :guilabel:`Delete All Files on Server` を使って削除できます。"
 msgstr ""
-"Click |disconnect| :guilabel:`Disconnect from Server` icon on the right side panel to "
-"suspend the access. Automatic downloads are performed only for the files "
-"required for the visualization. Click |download| :guilabel:`Download All Files from "
-"Server` icon to manually download all the files in the project. If the "
-"file capacity matters on the server, you can use |delete| :guilabel:`Delete All "
-"Files on Server` ."
+"Click |disconnect| :guilabel:`Disconnect from Server` icon on the right "
+"side panel to suspend the access. Automatic downloads are performed only "
+"for the files required for the visualization. Click |download| "
+":guilabel:`Download All Files from Server` icon to manually download all "
+"the files in the project. If the file capacity matters on the server, you"
+" can use |delete| :guilabel:`Delete All Files on Server` ."
 
 #: ../../usage/result.rst:25
 msgid ""
@@ -2322,9 +2597,12 @@ msgid ""
 "で常時オフラインモードに設定している場合、結果画面を開いた時点でアクセスを一時停止した状態になっています。この状態でも、 "
 ":guilabel:`Download Time` を設定していれば、その間隔でファイルの取得が行われます。取得中は、ダウンロード中を表すアイコン"
 " |download_loading| |delete_loading| に変化します。"
-msgstr "If always offline mode is set in :doc:`SSH server setting<sshserver>`\\ , the access is suspended when you open the result view. "
-"Even in this status, as long as :guilabel:`Download Time` is set, the files are fetched in that interval. During fetching, "
-"the icons turn to |download_loading| |delete_loading| ."
+msgstr ""
+"If always offline mode is set in :doc:`SSH server setting<sshserver>`\\ ,"
+" the access is suspended when you open the result view. Even in this "
+"status, as long as :guilabel:`Download Time` is set, the files are "
+"fetched in that interval. During fetching, the icons turn to "
+"|download_loading| |delete_loading| ."
 
 #: ../../usage/result.rst:33
 msgid "2Dプロット"
@@ -2366,24 +2644,31 @@ msgstr "3D display"
 msgid ""
 ":guilabel:`3D` "
 "の各ボタンをクリックすると、SCF計算結果の電荷密度・ポテンシャル・（スピンを有効にしている場合）スピン偏極の空間分布が3D表示できます。"
-msgstr "Click the :guilabel:`3D` buttons to display the spacial distribution of charge density / potential / spin polarization "
-"(if spin is enabled) obtained by SCF calculation in 3D."
+msgstr ""
+"Click the :guilabel:`3D` buttons to display the spacial distribution of "
+"charge density / potential / spin polarization (if spin is enabled) "
+"obtained by SCF calculation in 3D."
 
 #: ../../usage/result.rst:63
 msgid ""
 "等値面(Isosurface)、点の集合(Cloud)での可視化が可能です。右側パネルには可視化オブジェクトの一覧が表示され、 |eye| "
 "で表示／非表示の切り替え、 |edit| で表示の詳細設定を行います。 |add| と |remove| でオブジェクトの追加と削除を行います。"
-msgstr "They can by visualized using Isosurface or Cloud. The list of rendered objects is shown on the right side panel. "
-"The objects can be shown / hidden by |eye| , and you can tune the display setting by |edit| . You can add or remove "
-"the object by |add| or |remove| ."
+msgstr ""
+"They can by visualized using Isosurface or Cloud. The list of rendered "
+"objects is shown on the right side panel. The objects can be shown / "
+"hidden by |eye| , and you can tune the display setting by |edit| . You "
+"can add or remove the object by |add| or |remove| ."
 
 #: ../../usage/result.rst:70
 msgid ""
 ":guilabel:`Referential Data` "
 "のボタンをクリックし、あらかじめ計算したデータ（プロジェクト／cubeファイル）を選択することで、差分の表示が可能です。データのメッシュ分割数は一致している必要があります。データを2つ設定すると、2つとも差し引いた値（元データ"
 " - #1 - #2）を表示します。"
-msgstr "Click the button in :guilabel:`Referential Data` and choose the data (project / cube file) calculated in advance to display the difference. "
-"The division number of mesh must be the same. If you set two sets of data, both values are subtracted (current - #1 - #2) and shown."
+msgstr ""
+"Click the button in :guilabel:`Referential Data` and choose the data "
+"(project / cube file) calculated in advance to display the difference. "
+"The division number of mesh must be the same. If you set two sets of "
+"data, both values are subtracted (current - #1 - #2) and shown."
 
 #: ../../usage/result.rst:75
 msgid "動画"
@@ -2683,9 +2968,8 @@ msgstr ""
 #: ../../usage/sshserver.rst:73
 msgid "サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` 側に動かすことで頻度を下げることができます。"
 msgstr ""
-"If frequent access is "
-"undesirable, move the sliders to :guilabel:`Slow` side to lower the "
-"frequency."
+"If frequent access is undesirable, move the sliders to :guilabel:`Slow` "
+"side to lower the frequency."
 
 #: ../../usage/sshserver.rst:75
 msgid ":guilabel:`Connection Style` で、低速ネットワーク用の設定ができます。"
