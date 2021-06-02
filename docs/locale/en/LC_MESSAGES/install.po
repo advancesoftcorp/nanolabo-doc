@@ -539,7 +539,7 @@ msgstr "Pricing"
 
 #: ../../install/purchase.rst:51
 msgid "年間ライセンス\\ `*`:sup:\\ （万円／年、税抜）"
-msgstr "Annual license\\ `*`:sup:\\ (unit: ten thousand JPY/yr. without tax)"
+msgstr "Annual license\\ `*`:sup:\\ (without tax)"
 
 #: ../../install/purchase.rst:51 ../../install/purchase.rst:65
 #: ../../install/purchase.rst:79
@@ -558,12 +558,12 @@ msgstr ""
 #: ../../install/purchase.rst:53 ../../install/purchase.rst:81
 #: ../../install/purchase.rst:83
 msgid "50"
-msgstr ""
+msgstr "500,000 JPY"
 
 #: ../../install/purchase.rst:53 ../../install/purchase.rst:81
 #: ../../install/purchase.rst:83
 msgid "25"
-msgstr ""
+msgstr "250,000 JPY"
 
 #: ../../install/purchase.rst:55 ../../install/purchase.rst:69
 msgid "Advance/NanoLabo Pro"
@@ -571,11 +571,11 @@ msgstr ""
 
 #: ../../install/purchase.rst:55
 msgid "90"
-msgstr ""
+msgstr "900,000 JPY"
 
 #: ../../install/purchase.rst:55
 msgid "45"
-msgstr ""
+msgstr "450,000 JPY"
 
 #: ../../install/purchase.rst:58
 msgid "`*`:sup: 年間ライセンス料金には保守サポートサービスが含まれます。"
@@ -585,23 +585,23 @@ msgstr ""
 
 #: ../../install/purchase.rst:65
 msgid "買取ライセンス\\ `**`:sup:\\ （万円、税抜）"
-msgstr "Permanent license\\ `**`:sup:\\ (unit: ten thousand JPY without tax)"
+msgstr "Permanent license\\ `**`:sup:\\ (without tax)"
 
 #: ../../install/purchase.rst:67
 msgid "150"
-msgstr ""
+msgstr "1,500,000 JPY"
 
 #: ../../install/purchase.rst:67
 msgid "75"
-msgstr ""
+msgstr "750,000 JPY"
 
 #: ../../install/purchase.rst:69
 msgid "270"
-msgstr ""
+msgstr "2,700,000 JPY"
 
 #: ../../install/purchase.rst:69
 msgid "135"
-msgstr ""
+msgstr "1,350,000 JPY"
 
 #: ../../install/purchase.rst:72
 msgid "`**`:sup: 買取ライセンス料金には初年度のみ保守サポートサービスが含まれます。２年目以降は別途保守料金が必要です。"
@@ -612,7 +612,7 @@ msgstr ""
 
 #: ../../install/purchase.rst:79
 msgid "技術サポート（万円／年、税抜）"
-msgstr "Technical support (unit: ten thousand JPY/yr. without tax)"
+msgstr "Technical support (/yr. without tax)"
 
 #: ../../install/purchase.rst:81
 msgid "オプションQEサポート\\ |sspade|"
