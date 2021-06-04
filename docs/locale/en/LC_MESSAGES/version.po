@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-01 18:29+0900\n"
+"POT-Creation-Date: 2021-06-04 16:51+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "バージョン情報"
 msgstr "Version Information"
 
 #: ../../version.rst:23
-msgid "2021/05/-- バージョン2.1"
-msgstr "2021/05/-- Version 2.1"
+msgid "2021/06/04 バージョン2.1"
+msgstr "2021/06/04 Version 2.1"
 
 #: ../../version.rst:8 ../../version.rst:26 ../../version.rst:35
 #: ../../version.rst:44 ../../version.rst:69 ../../version.rst:78

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-23 23:41+0900\n"
+"POT-Creation-Date: 2021-06-04 17:00+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,15 +44,15 @@ msgstr ""
 
 #: ../../install/linux.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.0) <https://github.com/advancesoftcorp/nanolabo-"
-"doc/releases/download/v2.0/install_nanolabo_linux_v2.0.bin>`_"
+"`Advance/NanoLabo (ver.2.1) <https://github.com/advancesoftcorp/nanolabo-"
+"doc/releases/download/v2.1/install_nanolabo_linux_v2.1.bin>`_"
 msgstr ""
 
 #: ../../install/linux.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.0.1) <https://github.com/advancesoftcorp"
+"`Advance/NanoLabo Tool (ver.2.1) <https://github.com/advancesoftcorp"
 "/nanolabo-"
-"doc/releases/download/v2.0.1-tool/install_nanolabo_tool_linux_v2.0.1.bin>`_"
+"doc/releases/download/v2.1/install_nanolabo_tool_linux_v2.1.bin>`_"
 msgstr ""
 
 #: ../../install/linux.rst:18
@@ -266,15 +266,18 @@ msgstr "When updating to newer version, overwrite installation is possible."
 msgid ""
 "NanoLaboと同時にNanoLabo Toolが更新されている場合は、そちらもアップデートしてください。最新版のNanoLabo "
 "Toolに同梱されている計算エンジンでの使用を想定しています。"
-msgstr "In case newer version of NanoLabo Tool is available along with NanoLabo, update it as well. "
-"NanoLabo is supposed to be used with the calculation engines included in the latest version of NanoLabo Tool."
+msgstr ""
+"In case newer version of NanoLabo Tool is available along with NanoLabo, "
+"update it as well. NanoLabo is supposed to be used with the calculation "
+"engines included in the latest version of NanoLabo Tool."
 
 #: ../../install/linux.rst:131 ../../install/mac.rst:90
 #: ../../install/windows.rst:76
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
-"Software configurations and created projects are stored separately from the install destination. "
-"You can use the software as it was before even after the update."
+"Software configurations and created projects are stored separately from "
+"the install destination. You can use the software as it was before even "
+"after the update."
 
 #: ../../install/linux.rst:136 ../../install/mac.rst:95
 #: ../../install/windows.rst:81
@@ -338,15 +341,15 @@ msgstr ""
 
 #: ../../install/mac.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.0) <https://github.com/advancesoftcorp/nanolabo-"
-"doc/releases/download/v2.0/install_nanolabo_mac_v2.0.dmg>`_"
+"`Advance/NanoLabo (ver.2.1) <https://github.com/advancesoftcorp/nanolabo-"
+"doc/releases/download/v2.1/install_nanolabo_mac_v2.1.dmg>`_"
 msgstr ""
 
 #: ../../install/mac.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.0) <https://github.com/advancesoftcorp"
+"`Advance/NanoLabo Tool (ver.2.1) <https://github.com/advancesoftcorp"
 "/nanolabo-"
-"doc/releases/download/v2.0/install_nanolabo_tool_mac_v2.0.dmg>`_"
+"doc/releases/download/v2.1/install_nanolabo_tool_mac_v2.1.dmg>`_"
 msgstr ""
 
 #: ../../install/mac.rst:23
@@ -742,15 +745,15 @@ msgstr "How to Install (Windows)"
 
 #: ../../install/windows.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.0) <https://github.com/advancesoftcorp/nanolabo-"
-"doc/releases/download/v2.0/install_nanolabo_windows_v2.0.exe>`_"
+"`Advance/NanoLabo (ver.2.1) <https://github.com/advancesoftcorp/nanolabo-"
+"doc/releases/download/v2.1/install_nanolabo_windows_v2.1.exe>`_"
 msgstr ""
 
 #: ../../install/windows.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.0.1) <https://github.com/advancesoftcorp"
+"`Advance/NanoLabo Tool (ver.2.1) <https://github.com/advancesoftcorp"
 "/nanolabo-"
-"doc/releases/download/v2.0.1-tool/install_nanolabo_tool_windows_v2.0.1.exe>`_"
+"doc/releases/download/v2.1/install_nanolabo_tool_windows_v2.1.exe>`_"
 msgstr ""
 
 #: ../../install/windows.rst:18
