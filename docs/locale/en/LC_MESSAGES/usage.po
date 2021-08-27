@@ -1012,8 +1012,8 @@ msgstr ""
 #: ../../usage/grandproject.rst:92
 msgid "チェック状況はタイトルの左に色で表示されます。設定画面を折り畳んでいても、一目で確認することができます。"
 msgstr ""
-"The state of checkboxes are displayed next to the title with colors. You can "
-"see them at a glance even the configuration view is collapsed."
+"The state of checkboxes are displayed next to the title with colors. You "
+"can see them at a glance even the configuration view is collapsed."
 
 #: ../../usage/grandproject.rst:102
 msgid "Generating Geometries"
@@ -1037,11 +1037,15 @@ msgstr ""
 
 #: ../../usage/grandproject.rst:100
 msgid "座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。"
-msgstr "If there is fixed atom(s), the coordinates stay fixed when generating random geometries."
+msgstr ""
+"If there is fixed atom(s), the coordinates stay fixed when generating "
+"random geometries."
 
 #: ../../usage/grandproject.rst:102
 msgid ":guilabel:`Generate Geometries` をクリックすると、指定した設定でランダム構造を生成（抽出）します。"
-msgstr "Click :guilabel:`Generate Geometries` to generate (extract) random geometries using specified setting."
+msgstr ""
+"Click :guilabel:`Generate Geometries` to generate (extract) random "
+"geometries using specified setting."
 
 #: ../../usage/grandproject.rst:111
 msgid "Calculation of Q.E."
@@ -1053,7 +1057,9 @@ msgstr "Run SCF calculations for the generated random geometries."
 
 #: ../../usage/grandproject.rst:107
 msgid "同一のグランドプロジェクト内であっても、設定ごとに別の計算サーバーで計算を実行することもできます。"
-msgstr "The calculation for different configurations can be performed on different servers, even they are in the same grand-project."
+msgstr ""
+"The calculation for different configurations can be performed on "
+"different servers, even they are in the same grand-project."
 
 #: ../../usage/grandproject.rst:109
 msgid ""
@@ -1073,13 +1079,16 @@ msgid ""
 " Neural Network Potential` にある :guilabel:`Export Data` "
 "をクリックすると、グランドプロジェクト内で計算が終了しているものを集計し、教師データ・テストデータをファイル出力します。"
 msgstr ""
-"Click :guilabel:`Export Data` on :guilabel:`Training Neural Network Potential` or :guilabel:`Training"
-" Neural Network Potential` on the right side to summarize finished calculations in the grand-project, "
-"and export the training / testing data."
+"Click :guilabel:`Export Data` on :guilabel:`Training Neural Network "
+"Potential` or :guilabel:`Training Neural Network Potential` on the right "
+"side to summarize finished calculations in the grand-project, and export "
+"the training / testing data."
 
-#: ../../usage/grandproject.rst:120
+#: ../../usage/grandproject.rst:122
 msgid "計算サーバーで計算を実行している場合は、自動的に結果を取得し、集計します。"
-msgstr "If calculations are performed on the server, the results are automatically fetched and summarized."
+msgstr ""
+"If calculations are performed on the server, the results are "
+"automatically fetched and summarized."
 
 #: ../../usage/initial.rst:5
 msgid "画面の構成"
