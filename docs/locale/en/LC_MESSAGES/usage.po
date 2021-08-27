@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 14:34+0900\n"
+"POT-Creation-Date: 2021-08-27 16:32+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1063,17 +1063,20 @@ msgstr ""
 
 #: ../../usage/grandproject.rst:109
 msgid ""
-"Result画面では、計算の状況を確認できます。 :guilabel:`Energy` 、 :guilabel:`Force` "
-"から終了した計算の結果をまとめて確認できます。"
+"Result画面では、計算の状況を確認できます。ダウンロードボタン |granddownload| "
+"をクリックすると計算サーバーから結果一式をダウンロードし、進捗を更新します（負荷を抑えるため、自動的には更新されません）。 "
+":guilabel:`Energy` 、 :guilabel:`Force` から終了した計算の結果をまとめて確認できます。"
 msgstr ""
-"In the result view, you can check the status of calculations. The results of finished calculations are "
-"summarized in :guilabel:`Energy` and :guilabel:`Force` ."
+"In the result view, you can check the status of calculations. Click download button |granddownload| to download the set "
+"of results and update the progress (To avoid the excessive load, it is not updated automatically). The results"
+" of finished calculations are summarized in :guilabel:`Energy` and "
+":guilabel:`Force` ."
 
-#: ../../usage/grandproject.rst:116
+#: ../../usage/grandproject.rst:118
 msgid "結果の集計・出力"
 msgstr "Summarize / export results"
 
-#: ../../usage/grandproject.rst:118
+#: ../../usage/grandproject.rst:120
 msgid ""
 "画面右側の :guilabel:`Training Neural Network Potential` 、 :guilabel:`Training"
 " Neural Network Potential` にある :guilabel:`Export Data` "

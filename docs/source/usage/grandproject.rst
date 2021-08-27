@@ -106,9 +106,11 @@ Calculation of Q.E.
 
  - 同一のグランドプロジェクト内であっても、設定ごとに別の計算サーバーで計算を実行することもできます。
 
- Result画面では、計算の状況を確認できます。 :guilabel:`Energy` 、 :guilabel:`Force` から終了した計算の結果をまとめて確認できます。
+ Result画面では、計算の状況を確認できます。ダウンロードボタン |granddownload| をクリックすると計算サーバーから結果一式をダウンロードし、進捗を更新します（負荷を抑えるため、自動的には更新されません）。 :guilabel:`Energy` 、 :guilabel:`Force` から終了した計算の結果をまとめて確認できます。
 
  .. image:: /img/grandresult.png
+
+.. |granddownload| image:: /img/granddownload.png
 
 .. _grand_neumd_export:
 
