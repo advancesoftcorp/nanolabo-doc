@@ -9,7 +9,7 @@
 
    - [Pro] QE: GIPAW法によるNMRスペクトル計算機能
    - QE: Car-Parrinello法分子動力学(CPMD)計算機能
-   - MDL Molfile(.mol)読み込み対応
+   - MDL Molfile(.mol, .sdf)読み込み対応
 
  - 変更・修正
 
