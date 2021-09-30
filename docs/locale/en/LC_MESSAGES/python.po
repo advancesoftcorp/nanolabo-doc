@@ -100,6 +100,10 @@ msgstr "Project operation"
 msgid "プロジェクトを開きます。"
 msgstr "Open a project."
 
+#: ../../python.rst
+msgid "パラメータ"
+msgstr "Parameter"
+
 #: ../../python.rst:49 ../../python.rst:62 ../../python.rst:75
 #: ../../python.rst:89 ../../python.rst:101 ../../python.rst:132
 #: ../../python.rst:143 ../../python.rst:168 ../../python.rst:182
