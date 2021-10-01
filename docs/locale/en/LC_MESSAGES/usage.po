@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-27 16:32+0900\n"
+"POT-Creation-Date: 2021-09-30 10:32+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -787,25 +787,33 @@ msgstr ""
 msgid "element列が出力されている必要があります。"
 msgstr "element column must be output."
 
-#: ../../usage/explorer.rst:107
+#: ../../usage/explorer.rst:97
+msgid ".mol, .sdf"
+msgstr ""
+
+#: ../../usage/explorer.rst:97
+msgid "MDL Molfile"
+msgstr ""
+
+#: ../../usage/explorer.rst:109
 msgid "以下の各方法でファイルを開くことができます。"
 msgstr "You can open the files by any of the following ways:"
 
-#: ../../usage/explorer.rst:109
+#: ../../usage/explorer.rst:111
 msgid "エクスプローラーでファイルのあるフォルダに移動し、ファイルをダブルクリックする"
 msgstr ""
 "in explorer, navigate to the folder with the file and double click the "
 "file"
 
-#: ../../usage/explorer.rst:110
+#: ../../usage/explorer.rst:112
 msgid "NanoLaboの画面上にファイルをドラッグ＆ドロップする"
 msgstr "drag & drop the file onto the NanoLabo window"
 
-#: ../../usage/explorer.rst:111
+#: ../../usage/explorer.rst:113
 msgid "NanoLaboの起動アイコンにファイルをドラッグ＆ドロップする"
 msgstr "drag & drop the file onto the NanoLabo launch icon"
 
-#: ../../usage/explorer.rst:112
+#: ../../usage/explorer.rst:114
 msgid "NanoLaboの実行ファイルに引数として渡し、実行する"
 msgstr "pass the file to NanoLabo executable as an argument"
 
@@ -1067,10 +1075,11 @@ msgid ""
 "をクリックすると計算サーバーから結果一式をダウンロードし、進捗を更新します（負荷を抑えるため、自動的には更新されません）。 "
 ":guilabel:`Energy` 、 :guilabel:`Force` から終了した計算の結果をまとめて確認できます。"
 msgstr ""
-"In the result view, you can check the status of calculations. Click download button |granddownload| to download the set "
-"of results and update the progress (To avoid the excessive load, it is not updated automatically). The results"
-" of finished calculations are summarized in :guilabel:`Energy` and "
-":guilabel:`Force` ."
+"In the result view, you can check the status of calculations. Click "
+"download button |granddownload| to download the set of results and update"
+" the progress (To avoid the excessive load, it is not updated "
+"automatically). The results of finished calculations are summarized in "
+":guilabel:`Energy` and :guilabel:`Force` ."
 
 #: ../../usage/grandproject.rst:118
 msgid "結果の集計・出力"
@@ -1675,7 +1684,7 @@ msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`NEB` "
 "を選ぶと、設定項目の中にImagesがあります。ImagesではNEB法の計算に用いる初期イメージの編集を行います。この設定方法を説明します。"
 msgstr ""
-"When you choose NEB from the menu |editormenuicon| on the lower right, "
+"When you choose :guilabel:`NEB` from the menu |editormenuicon| on the lower right, "
 "you will find Images among the setting items. You can configure initial "
 "images for NEB calculation. Setting method of that item is described. "
 
@@ -1723,7 +1732,7 @@ msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`XAFS` "
 "を選ぶと、XAFSの設定画面が表示されます。ここではXAFS特有の設定について説明します。"
 msgstr ""
-"When you choose XAFS from the menu |editormenuicon| on the lower right, "
+"When you choose :guilabel:`XAFS` from the menu |editormenuicon| on the lower right, "
 "XAFS setting items are shown. Here, XAFS-specific settings are described."
 
 #: ../../usage/inputeditorqe.rst:97
@@ -1776,6 +1785,61 @@ msgstr ""
 ":menuselection:`Geometry --> Elements` and set GIPAW pseudopotential for "
 "the element of the excited atom. The file name usually has \"gipaw\" in "
 "it."
+
+#: ../../usage/inputeditorqe.rst:108
+msgid "CPMDの設定"
+msgstr "CPMD"
+
+#: ../../usage/inputeditorqe.rst:110
+msgid ""
+"画面右下のメニュー |editormenuicon| から :guilabel:`MD` を選び、 :guilabel:`CPMD` タブの "
+":guilabel:`Car-Parrinello` をyesに設定することで、Car-Parrinello法を使った分子動力学計算を行います。"
+msgstr "Choose :guilabel:`MD` from the menu |editormenuicon| on the lower right, open "
+":guilabel:`CPMD` tab and set :guilabel:`Car-Parrinello` to yes to perform Car-Parrinello molecular dynamics "
+"calculation."
+
+#: ../../usage/inputeditorqe.rst:112
+msgid ""
+"最初に電子状態のSCF計算を行い、そこから電子状態と原子構造を時間発展させます。最初のSCF計算の手法は :guilabel:`Initial "
+"SCF` で設定します。その他、電子状態計算のパラメーターは :guilabel:`SCF` "
+"画面での設定内容を参照して決められますが、CPMDの制約に合わせて変更されることがあります。"
+msgstr "SCF calculation of the electronic state is performed first, and from there the electronic state and the atomic structure "
+"are time-evolved. You can choose the method of the initial SCF calculation by :guilabel:`Initial SCF` . "
+"Other parameters of electronic state calculations are set by referencing the settings in the :guilabel:`SCF` screen, "
+"with some possible modifications due to the limitations of CPMD."
+
+#: ../../usage/inputeditorqe.rst:114
+msgid "また、擬ポテンシャルについて以下の制約があります。"
+msgstr "Also, there are limitations about pseudopotential:"
+
+#: ../../usage/inputeditorqe.rst:116
+msgid "ウルトラソフト擬ポテンシャルを使う場合は、box gridを設定する必要があります。"
+msgstr "When using ultrasoft pseudopotential, box grid must be set."
+
+#: ../../usage/inputeditorqe.rst:117
+msgid "PAW擬ポテンシャルは使えません。"
+msgstr "PAW pseudopotential cannot be used."
+
+#: ../../usage/inputeditorqe.rst:122
+msgid "NMRスペクトルの設定"
+msgstr "NMR spectrum"
+
+#: ../../usage/inputeditorqe.rst:124
+msgid "画面右下のメニュー |editormenuicon| から :guilabel:`GIPAW` を選ぶと、NMRスペクトルの設定画面が表示されます。"
+msgstr "When you choose :guilabel:`GIPAW` from the menu |editormenuicon| on the lower right, "
+"NMR spectrum setting items are shown."
+
+#: ../../usage/inputeditorqe.rst:126
+msgid ""
+":guilabel:`Macroscopic Shape` をyesにすると、試料のマクロな形状を考慮した補正を行います。 "
+":guilabel:`Shape Tensor` で形状に応じた各軸方向の補正を指定します。"
+msgstr "Set :guilabel:`Macroscopic Shape` to yes to apply the correction regarding the macroscopic "
+"shape of the sample. Specify the correction along each axis by :guilabel:`Shape Tensor` ."
+
+#: ../../usage/inputeditorqe.rst:128
+msgid "参照物質の遮蔽テンソル :math:`\\sigma_\\mathrm{ref}` は、結果プロット画面で設定できます。"
+msgstr "You can specify the shielding tensor of the reference compound :math:`\\sigma_\\mathrm{ref}` "
+"in the result plotting screen."
 
 #: ../../usage/modeler.rst:5
 msgid "モデラ―"
