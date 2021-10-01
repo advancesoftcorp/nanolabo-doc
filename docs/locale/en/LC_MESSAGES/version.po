@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 16:51+0900\n"
+"POT-Creation-Date: 2021-10-01 09:55+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,262 +22,286 @@ msgstr ""
 msgid "バージョン情報"
 msgstr "Version Information"
 
-#: ../../version.rst:23
-msgid "2021/06/04 バージョン2.1"
-msgstr "2021/06/04 Version 2.1"
+#: ../../version.rst:19
+msgid "2021/10/01 バージョン2.2"
+msgstr "2021/10/01 Version 2.2"
 
-#: ../../version.rst:8 ../../version.rst:26 ../../version.rst:35
-#: ../../version.rst:44 ../../version.rst:69 ../../version.rst:78
-#: ../../version.rst:91
+#: ../../version.rst:8 ../../version.rst:22 ../../version.rst:40
+#: ../../version.rst:49 ../../version.rst:58 ../../version.rst:83
+#: ../../version.rst:92 ../../version.rst:105
 msgid "機能追加"
 msgstr "New features"
 
 #: ../../version.rst:10
+msgid "[Pro] QE: GIPAW法によるNMRスペクトル計算機能"
+msgstr "[Pro] QE: NMR spectruc calculation by GIPAW method"
+
+#: ../../version.rst:11
+msgid "QE: Car-Parrinello法分子動力学(CPMD)計算機能"
+msgstr "QE: Car-Parrinello Molecular Dynamics (CPMD) calculation"
+
+#: ../../version.rst:12
+msgid "MDL Molfile(.mol, .sdf)読み込み対応"
+msgstr "support opening MDL Molfile (.mol, .sdf)"
+
+#: ../../version.rst:14 ../../version.rst:30
+msgid "変更・修正"
+msgstr "change / fix"
+
+#: ../../version.rst:16
+msgid "QE: NEB初期設定時の補間イメージの順序を修正"
+msgstr "QE: fix ordering of intermediate images of NEB at initial setting"
+
+#: ../../version.rst:18
+msgid "Quantum ESPRESSOのバージョンを6.7へ更新"
+msgstr "update Quantum ESPRESSO to version 6.7"
+
+#: ../../version.rst:19 ../../version.rst:37 ../../version.rst:46
+#: ../../version.rst:55 ../../version.rst:71 ../../version.rst:76
+#: ../../version.rst:98
+msgid "その他、動作改善・バグ修正等"
+msgstr "Tune-ups, bug fixes, etc."
+
+#: ../../version.rst:37
+msgid "2021/06/04 バージョン2.1"
+msgstr "2021/06/04 Version 2.1"
+
+#: ../../version.rst:24
 msgid "低速ネットワーク用設定"
 msgstr "Settings for low bandwidth network"
 
-#: ../../version.rst:11
+#: ../../version.rst:25
 msgid "NeuralMD用教師データ作成機能（グランドプロジェクト）"
 msgstr "Generate training data for NeuralMD (Grand-project)"
 
-#: ../../version.rst:12
+#: ../../version.rst:26
 msgid "QE: SCF計算結果の3D表示（電荷密度、ポテンシャル、スピン偏極）"
 msgstr ""
 "QE: 3D display of SCF calculation results (charge density, potential and "
 "spin polarization)"
 
-#: ../../version.rst:13
+#: ../../version.rst:27
 msgid "QE: フォノン計算の収束閾値設定"
 msgstr "QE: setting of convergence threshold for phonon calculation"
 
-#: ../../version.rst:14
+#: ../../version.rst:28
 msgid "LAMMPS: 原子速度設定画面"
 msgstr "LAMMPS: panel for setting atom velocities"
 
-#: ../../version.rst:16
-msgid "変更・修正"
-msgstr "change / fix"
-
-#: ../../version.rst:18
+#: ../../version.rst:32
 msgid "リモートジョブ実行時のSSHセッション数を抑制"
 msgstr "suppress the SSH session number while running remote job"
 
-#: ../../version.rst:19
+#: ../../version.rst:33
 msgid "QE: スピン有効時、設定によりDOSが表示されない不具合を修正"
 msgstr "QE: fixed bug that DOS is sometimes not shown if spin is enabled"
 
-#: ../../version.rst:20
+#: ../../version.rst:34
 msgid "QE: スラブモデル使用時、BAND計算のデフォルトk点パスを変更"
 msgstr "QE: changed default kpoint path for BAND calculation "
 
-#: ../../version.rst:21
+#: ../../version.rst:35
 msgid "lsf2pbs/qsub変更（bsub呼び出し方法）"
 msgstr "edited lsf2pbs/qsub (changed the way bsub is invoked)"
 
-#: ../../version.rst:23 ../../version.rst:32 ../../version.rst:41
-#: ../../version.rst:57 ../../version.rst:62 ../../version.rst:84
-msgid "その他、動作改善・バグ修正等"
-msgstr "Tune-ups, bug fixes, etc."
-
-#: ../../version.rst:32
+#: ../../version.rst:46
 msgid "2020/11/30 バージョン2.0"
 msgstr "2020/11/30 Version 2.0"
 
-#: ../../version.rst:28
+#: ../../version.rst:42
 msgid "[Pro] 高分子モデラー"
 msgstr "[Pro] Polymer Modeler"
 
-#: ../../version.rst:29
+#: ../../version.rst:43
 msgid "QE: XAFS計算"
 msgstr "QE: XAFS calculation"
 
-#: ../../version.rst:30
+#: ../../version.rst:44
 msgid "LAMMPS dumpファイル読み込み対応"
 msgstr "support opening LAMMPS dump file"
 
-#: ../../version.rst:41
+#: ../../version.rst:55
 msgid "2020/07/29 バージョン1.5"
 msgstr "2020/07/29 Version 1.5"
 
-#: ../../version.rst:37
+#: ../../version.rst:51
 msgid "QE: 交換相関汎関数設定（ハイブリッド汎関数・ファンデルワールス相互作用）"
 msgstr ""
 "QE: setting of exchange-correlation functional (hybrid functional / van "
 "der Waals interaction)"
 
-#: ../../version.rst:38
+#: ../../version.rst:52
 msgid "QE: PDOS電卓"
 msgstr "QE: PDOS Calculator"
 
-#: ../../version.rst:39
+#: ../../version.rst:53
 msgid "リモート実行時のアクセス一時停止、サーバー上のファイルダウンロード・削除"
 msgstr ""
 "Suspend the access during remote execution / download files from server /"
 " delete files on server"
 
-#: ../../version.rst:57
+#: ../../version.rst:71
 msgid "2020/04/27 バージョン1.4"
 msgstr "2020/04/27 Version 1.4"
 
-#: ../../version.rst:46
+#: ../../version.rst:60
 msgid "LAMMPS: 熱伝導率、粘性係数、拡散係数、動径分布関数の計算・可視化"
 msgstr ""
 "LAMMPS: Calculate and visualize thermal conductivity, viscosity "
 "coefficient, diffusion coefficient and radial distribution function"
 
-#: ../../version.rst:47
+#: ../../version.rst:61
 msgid "LAMMPS: Tersoff力場対応"
 msgstr "LAMMPS: Support Tersoff force field"
 
-#: ../../version.rst:48
+#: ../../version.rst:62
 msgid "QE: SCFのDiagonalizationにrmmを追加（デフォルト）"
 msgstr "QE: Add rmm to Diagonalization in SCF (default)"
 
-#: ../../version.rst:49
+#: ../../version.rst:63
 msgid "QE: TD-DFTのAlgorithm追加"
 msgstr "QE: Add Algorithm to TD-DFT"
 
-#: ../../version.rst:50
+#: ../../version.rst:64
 msgid "格子ベクトルの反転・入れ替え"
 msgstr "Flip / swap lattice vectors"
 
-#: ../../version.rst:51
+#: ../../version.rst:65
 msgid "座標軸に沿った原子移動"
 msgstr "Move atoms along coordinate axis"
 
-#: ../../version.rst:52
+#: ../../version.rst:66
 msgid "スラブモデルに対する追加の編集機能"
 msgstr "Additional operations for slab model"
 
-#: ../../version.rst:53
+#: ../../version.rst:67
 msgid "Result画面ファイルツリーのコンテキストメニュー・ドラッグ操作"
 msgstr "Context menu / drag operation on file tree in Result view"
 
-#: ../../version.rst:54
+#: ../../version.rst:68
 msgid "ウィンドウサイズ保存"
 msgstr "Preserve window size"
 
-#: ../../version.rst:56
+#: ../../version.rst:70
 msgid "（Linux版）長時間使用時に正常に動作しなくなる不具合を修正"
 msgstr ""
 "(Linux) Fixed problem of not working properly when used for a long time "
 "period"
 
-#: ../../version.rst:62
+#: ../../version.rst:76
 msgid "2019/09/30 バージョン1.3"
 msgstr "2019/09/30 Version 1.3"
 
-#: ../../version.rst:60
+#: ../../version.rst:74
 msgid "機能を強化した「Pro版」をリリース"
 msgstr "released \"Pro version\" with additional functions"
 
-#: ../../version.rst:61
+#: ../../version.rst:75
 msgid "[Pro] 界面ビルダー"
 msgstr "[Pro] Interface builder"
 
-#: ../../version.rst:66
+#: ../../version.rst:80
 msgid "2019/08/05 バージョン1.2.1"
 msgstr "2019/08/05 Version 1.2.1"
 
-#: ../../version.rst:65
+#: ../../version.rst:79
 msgid "（macOS版）環境により計算エンジンが動作しない問題を解消"
 msgstr ""
 "(macOS) Solved environment-dependent problem that prevented execution of "
 "calculation engine"
 
-#: ../../version.rst:66 ../../version.rst:102
+#: ../../version.rst:80 ../../version.rst:116
 msgid "その他、バグ修正等"
 msgstr "Bug fixes, etc."
 
-#: ../../version.rst:75
+#: ../../version.rst:89
 msgid "2019/06/28 バージョン1.2"
 msgstr "2019/06/28 Version 1.2"
 
-#: ../../version.rst:71
+#: ../../version.rst:85
 msgid "Nudged Elastic Band（NEB）法"
 msgstr "Nudged Elastic Band (NEB) method"
 
-#: ../../version.rst:72
+#: ../../version.rst:86
 msgid "Effective Screening Medium（ESM）法"
 msgstr "Effective Screening Medium (ESM) method"
 
-#: ../../version.rst:73
+#: ../../version.rst:87
 msgid "Python連携"
 msgstr "Cooperation with Python"
 
-#: ../../version.rst:75
+#: ../../version.rst:89
 msgid "原子構造ビューアーの機能改善"
 msgstr "Tune-up of atomic viewer"
 
-#: ../../version.rst:84
+#: ../../version.rst:98
 msgid "2019/05/09 バージョン1.1.2"
 msgstr "2019/05/09 Version 1.1.2"
 
-#: ../../version.rst:80
+#: ../../version.rst:94
 msgid "起動時アップデートチェック"
 msgstr "Update check at startup"
 
-#: ../../version.rst:81
+#: ../../version.rst:95
 msgid "ラムダシステム"
 msgstr "Lambda System"
 
-#: ../../version.rst:83
+#: ../../version.rst:97
 msgid "LAMMPSでReaxFF使用時にreal単位系を使うよう修正"
 msgstr "Fixed to use real unit system when using ReaxFF in LAMMPS"
 
-#: ../../version.rst:87
+#: ../../version.rst:101
 msgid "2019/01/18 バージョン1.1.1"
 msgstr "2019/01/18 Version 1.1.1"
 
-#: ../../version.rst:87
+#: ../../version.rst:101
 msgid "バグ修正（プロキシ使用時の通信不具合）"
 msgstr "Bug fix (connection problem when using proxy)"
 
-#: ../../version.rst:102
+#: ../../version.rst:116
 msgid "2018/12/21 バージョン1.1"
 msgstr "2018/12/21 Version 1.1"
 
-#: ../../version.rst:90
+#: ../../version.rst:104
 msgid "macOS対応"
 msgstr "macOS support"
 
-#: ../../version.rst:93
+#: ../../version.rst:107
 msgid "計算サーバーへのジョブ投入（SSH接続）"
 msgstr "Post jobs to calculation server (SSH connection)"
 
-#: ../../version.rst:94
+#: ../../version.rst:108
 msgid "有機分子の描画"
 msgstr "Drawing a molecule"
 
-#: ../../version.rst:95
+#: ../../version.rst:109
 msgid "表面への小分子吸着"
 msgstr "Molecular adsorption onto slab"
 
-#: ../../version.rst:96
+#: ../../version.rst:110
 msgid "溶媒分子充填"
 msgstr "Packing molecules"
 
-#: ../../version.rst:97
+#: ../../version.rst:111
 msgid "Primitive Cell、Standard Cellの自動決定"
 msgstr "Automatically find Primitive Cell / Standard Cell"
 
-#: ../../version.rst:98
+#: ../../version.rst:112
 msgid "空間群の判定"
 msgstr "Detect space group"
 
-#: ../../version.rst:99
+#: ../../version.rst:113
 msgid "外部テキストエディターでのファイル表示"
 msgstr "Open files with external text editor"
 
-#: ../../version.rst:100
+#: ../../version.rst:114
 msgid "エクスプローラーの機能強化"
 msgstr "Enhancement of explorer functions"
 
-#: ../../version.rst:104
+#: ../../version.rst:118
 msgid "2018/08/01 バージョン1.0"
 msgstr "2018/08/01 Version 1.0"
 
-#: ../../version.rst:105
+#: ../../version.rst:119
 msgid "初回リリース"
 msgstr "Initial release"
-
