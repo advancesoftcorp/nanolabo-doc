@@ -1684,9 +1684,10 @@ msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`NEB` "
 "を選ぶと、設定項目の中にImagesがあります。ImagesではNEB法の計算に用いる初期イメージの編集を行います。この設定方法を説明します。"
 msgstr ""
-"When you choose :guilabel:`NEB` from the menu |editormenuicon| on the lower right, "
-"you will find Images among the setting items. You can configure initial "
-"images for NEB calculation. Setting method of that item is described. "
+"When you choose :guilabel:`NEB` from the menu |editormenuicon| on the "
+"lower right, you will find Images among the setting items. You can "
+"configure initial images for NEB calculation. Setting method of that item"
+" is described. "
 
 #: ../../usage/inputeditorqe.rst:75
 msgid ""
@@ -1732,8 +1733,9 @@ msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`XAFS` "
 "を選ぶと、XAFSの設定画面が表示されます。ここではXAFS特有の設定について説明します。"
 msgstr ""
-"When you choose :guilabel:`XAFS` from the menu |editormenuicon| on the lower right, "
-"XAFS setting items are shown. Here, XAFS-specific settings are described."
+"When you choose :guilabel:`XAFS` from the menu |editormenuicon| on the "
+"lower right, XAFS setting items are shown. Here, XAFS-specific settings "
+"are described."
 
 #: ../../usage/inputeditorqe.rst:97
 msgid ""
@@ -1794,19 +1796,23 @@ msgstr "CPMD"
 msgid ""
 "画面右下のメニュー |editormenuicon| から :guilabel:`MD` を選び、 :guilabel:`CPMD` タブの "
 ":guilabel:`Car-Parrinello` をyesに設定することで、Car-Parrinello法を使った分子動力学計算を行います。"
-msgstr "Choose :guilabel:`MD` from the menu |editormenuicon| on the lower right, open "
-":guilabel:`CPMD` tab and set :guilabel:`Car-Parrinello` to yes to perform Car-Parrinello molecular dynamics "
-"calculation."
+msgstr ""
+"Choose :guilabel:`MD` from the menu |editormenuicon| on the lower right, "
+"open :guilabel:`CPMD` tab and set :guilabel:`Car-Parrinello` to yes to "
+"perform Car-Parrinello molecular dynamics calculation."
 
 #: ../../usage/inputeditorqe.rst:112
 msgid ""
 "最初に電子状態のSCF計算を行い、そこから電子状態と原子構造を時間発展させます。最初のSCF計算の手法は :guilabel:`Initial "
 "SCF` で設定します。その他、電子状態計算のパラメーターは :guilabel:`SCF` "
 "画面での設定内容を参照して決められますが、CPMDの制約に合わせて変更されることがあります。"
-msgstr "SCF calculation of the electronic state is performed first, and from there the electronic state and the atomic structure "
-"are time-evolved. You can choose the method of the initial SCF calculation by :guilabel:`Initial SCF` . "
-"Other parameters of electronic state calculations are set by referencing the settings in the :guilabel:`SCF` screen, "
-"with some possible modifications due to the limitations of CPMD."
+msgstr ""
+"SCF calculation of the electronic state is performed first, and from "
+"there the electronic state and the atomic structure are time-evolved. You"
+" can choose the method of the initial SCF calculation by "
+":guilabel:`Initial SCF` . Other parameters of electronic state "
+"calculations are set by referencing the settings in the :guilabel:`SCF` "
+"screen, with some possible modifications due to the limitations of CPMD."
 
 #: ../../usage/inputeditorqe.rst:114
 msgid "また、擬ポテンシャルについて以下の制約があります。"
@@ -1826,20 +1832,24 @@ msgstr "NMR spectrum"
 
 #: ../../usage/inputeditorqe.rst:124
 msgid "画面右下のメニュー |editormenuicon| から :guilabel:`GIPAW` を選ぶと、NMRスペクトルの設定画面が表示されます。"
-msgstr "When you choose :guilabel:`GIPAW` from the menu |editormenuicon| on the lower right, "
-"NMR spectrum setting items are shown."
+msgstr ""
+"When you choose :guilabel:`GIPAW` from the menu |editormenuicon| on the "
+"lower right, NMR spectrum setting items are shown."
 
 #: ../../usage/inputeditorqe.rst:126
 msgid ""
 ":guilabel:`Macroscopic Shape` をyesにすると、試料のマクロな形状を考慮した補正を行います。 "
 ":guilabel:`Shape Tensor` で形状に応じた各軸方向の補正を指定します。"
-msgstr "Set :guilabel:`Macroscopic Shape` to yes to apply the correction regarding the macroscopic "
-"shape of the sample. Specify the correction along each axis by :guilabel:`Shape Tensor` ."
+msgstr ""
+"Set :guilabel:`Macroscopic Shape` to yes to apply the correction "
+"regarding the macroscopic shape of the sample. Specify the correction "
+"along each axis by :guilabel:`Shape Tensor` ."
 
 #: ../../usage/inputeditorqe.rst:128
 msgid "参照物質の遮蔽テンソル :math:`\\sigma_\\mathrm{ref}` は、結果プロット画面で設定できます。"
-msgstr "You can specify the shielding tensor of the reference compound :math:`\\sigma_\\mathrm{ref}` "
-"in the result plotting screen."
+msgstr ""
+"You can specify the shielding tensor of the reference compound "
+":math:`\\sigma_\\mathrm{ref}` in the result plotting screen."
 
 #: ../../usage/modeler.rst:5
 msgid "モデラ―"
@@ -3073,7 +3083,7 @@ msgstr ""
 
 #: ../../usage/sshserver.rst:84
 msgid "常時オフラインモードの際に、ファイルを一括ダウンロードする頻度（分単位）を設定します。"
-msgstr "interval (minute) of batch download while in always offline mode."
+msgstr "interval (minute) of batch download while in Always OFFLINE mode."
 
 #: ../../usage/sshserver.rst:87
 msgid "サーバーの編集・削除"
