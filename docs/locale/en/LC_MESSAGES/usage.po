@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 10:32+0900\n"
+"POT-Creation-Date: 2021-10-12 10:11+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3066,16 +3066,16 @@ msgid "Online Mode"
 msgstr ""
 
 #: ../../usage/sshserver.rst:78
-msgid "常時オフラインモードに設定すると、リアルタイムでの結果取得を行いません。"
-msgstr "if set to always offline mode, realtime result fetching is disabled."
+msgid "常時オフラインモードに設定すると、リアルタイムでの結果取得（ファイルのダウンロード）を行いません。"
+msgstr "if set to Always OFFLINE mode, the result is not fetched (files are not downloaded) in real time."
 
 #: ../../usage/sshserver.rst:81
 msgid "Download Mode"
 msgstr ""
 
 #: ../../usage/sshserver.rst:81
-msgid "容量の大きいバイナリファイルを除外し、テキストファイルのみダウンロードするよう設定できます。"
-msgstr "can be set to download only text files, excluding large binary files."
+msgid "容量の大きいバイナリファイルなどを除外し、テキストファイルのみダウンロードするよう設定できます。"
+msgstr "can be set to download Only Text Files, excluding large binary files etc."
 
 #: ../../usage/sshserver.rst:84
 msgid "Download Time"
