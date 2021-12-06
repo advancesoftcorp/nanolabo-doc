@@ -35,7 +35,7 @@
   <iframe src="https://www.youtube.com/embed/aztcrPOk8OI?rel=0&hl=en" frameborder="0" allowfullscreen></iframe>
   </div>
 
-+ 超格子モデルの作成
++ スーパーセルモデルの作成
 
  |yt09|
 
