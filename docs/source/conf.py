@@ -164,7 +164,7 @@ locale_dirs = ["../locale"]
 imgmath_image_format = 'svg'
 
 def setup(app):
-    app.add_stylesheet('css/custom.css')
-    app.add_javascript('js/movies.js')
+    app.add_css_file('css/custom.css')
+    app.add_js_file('js/movies.js')
 
 gettext_additional_targets = ['literal-block']
