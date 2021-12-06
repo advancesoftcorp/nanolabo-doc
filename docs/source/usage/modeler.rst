@@ -23,12 +23,40 @@
 
 .. _supercell:
 
-超格子
+スーパーセル
 ================
 
-:guilabel:`Cell` タブの :guilabel:`Super Cell` で、単位格子を繰り返した構造の超格子を作成します。 :guilabel:`Scaling` 欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。
+:guilabel:`Cell` タブの :guilabel:`Super Cell` で、単位格子を繰り返した構造のスーパーセルを作成します。 :guilabel:`Scaling` 欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 :guilabel:`Build` をクリックしてください。
 
 .. image:: /img/supercell.svg
+
+.. _nondiagsupercell:
+
+より一般的なスーパーセル
+=========================
+
+:guilabel:`Lattice` タブの :guilabel:`Super Cell` では、各軸方向の繰り返しにとどまらず、格子ベクトルの方向の取り直しを伴うようなより一般的なスーパーセルが生成できます。
+
+- :guilabel:`As Miller Index` では、各格子ベクトルの変換先をミラー指数で指定（つまり、格子ベクトルに対する変換行列を入力）します。
+
+- :guilabel:`As Dual Vector` では、入力値の逆数の比に対し、それと等しくなるような最小の整数比を計算して、ミラー指数とします。
+
+変換行列の各成分が整数であることにより、変換後の格子もまた単位格子となります。
+
+.. image:: /img/nondiagsupercell.svg
+
+.. _latticevector:
+
+格子ベクトルの編集
+====================
+
+:guilabel:`Lattice` タブの :guilabel:`Lattice Vectors` で、格子ベクトルの編集をします。
+
+- :guilabel:`Affine Positions` の場合、格子と同時に原子座標も変換します。
+
+- :guilabel:`Leave Positions` の場合、原子座標は変換しません。
+
+:guilabel:`Refine` をクリックすると、Quantum ESPRESSOのブラベー格子表現に適した格子ベクトルへの変換を行います。
 
 .. _atompositions:
 
@@ -79,7 +107,7 @@
 
 :guilabel:`Crystal` タブの :guilabel:`Element Substitution` にある :guilabel:`Start Modeling` をクリックすると、元素置換を行う画面が表示されます。
 
-:guilabel:`Element to be Substituted` （置換元の元素）、 :guilabel:`For What Element ?` （置換先の元素）、 :guilabel:`Super Cell` （超格子を作成する場合その繰り返し回数）、 :guilabel:`Rate of Substitution` （置換する割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、置換後の構造がビューワー内に表示されます。また、置換後の構造の対称性がビューワー内に表示されます。 そのまま再度 :guilabel:`Build` をクリックすると、同じ置換設定で異なる構造が表示されます。
+:guilabel:`Element to be Substituted` （置換元の元素）、 :guilabel:`For What Element ?` （置換先の元素）、 :guilabel:`Super Cell` （スーパーセルを作成する場合その繰り返し回数）、 :guilabel:`Rate of Substitution` （置換する割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、置換後の構造がビューワー内に表示されます。また、置換後の構造の対称性がビューワー内に表示されます。 そのまま再度 :guilabel:`Build` をクリックすると、同じ置換設定で異なる構造が表示されます。
 
 左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
 
@@ -92,7 +120,7 @@
 
 :guilabel:`Crystal` タブの :guilabel:`Lattice Defect` にある :guilabel:`Start Modeling` をクリックすると、点欠陥を作成する画面が表示されます。
 
-:guilabel:`Element to be Removed` （取り除く元素）、 :guilabel:`Super Cell` （超格子を作成する場合その繰り返し回数）、 :guilabel:`Rate of Lattice Defect` （取り除く割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、欠陥を入れた構造がビューワーに表示されます。 また、欠陥を入れた構造の対称性がビューワー内に表示されます。そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。
+:guilabel:`Element to be Removed` （取り除く元素）、 :guilabel:`Super Cell` （スーパーセルを作成する場合その繰り返し回数）、 :guilabel:`Rate of Lattice Defect` （取り除く割合）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。設定が終わったら、 :guilabel:`Build` をクリックすると、欠陥を入れた構造がビューワーに表示されます。 また、欠陥を入れた構造の対称性がビューワー内に表示されます。そのまま再度 :guilabel:`Build` をクリックすると、同じ設定で異なる構造が表示されます。
 
 左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
 
@@ -218,6 +246,8 @@
 モノマーのモデルを用意し、 :guilabel:`Molecule` タブの :guilabel:`Polymer Model` にある :guilabel:`Start Modeling` をクリックしてください。高分子モデル作成を行う画面が表示されます。
 
 まず、 :guilabel:`Define box` ダイアログで高分子を充填する空間の大きさを指定します。次に、モノマーのモデルが表示されますので、始端となる原子をダブルクリックして選択し、 :guilabel:`OK` をクリックします。続けて終端となる原子も同様に選択します。
+
+.. image:: /img/monomer.png
 
 選択後、画面下側の :guilabel:`Sequence of Polymer` に行が追加されます。 :guilabel:`oneself` の右下にある欄に重合度、 :guilabel:`#Chains` に充填する高分子の数を入力します。
 
