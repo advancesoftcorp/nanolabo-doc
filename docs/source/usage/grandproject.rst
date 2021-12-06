@@ -1,8 +1,8 @@
 .. _grandproject:
 
-======================
-グランドプロジェクト
-======================
+====================================
+グランドプロジェクト（NeuralMD連携）
+====================================
 
 通常のプロジェクトでは1つの原子構造モデルだけを扱いますが、グランドプロジェクトを使うと多数の構造に対する計算結果をまとめて扱うことができます。
 
@@ -16,8 +16,9 @@
 ダイアログが表示されますので、 :guilabel:`Type of Grand-Project` で作成するグランドプロジェクトの種類を選択します。
 
 - NeuralMD
-
-   Advance/NeuralMDで使用する教師データを作成します。元となる構造から多数の構造を生成し、それぞれについて全エネルギーを計算して、1つの教師データファイルに出力する、という一連の手順をグランドプロジェクト内で実行することができます。
+   Advance/NeuralMDで使用する教師データの作成と、ニューラルネットワークの学習ができます。
+   
+   元となる構造から多数の構造を生成し、それぞれについて全エネルギーを計算して、1つの教師データファイルに出力するという手順、およびNeuralMDを実行してニューラルネットワークの学習を行うという手順を、グランドプロジェクト内で実行することができます。
 
 :guilabel:`Path of Grand-Project` のボタンをクリックし、名前を指定して保存すると、グランドプロジェクトの画面が開きます。
 
@@ -28,8 +29,18 @@
 
 .. _grand_neumd:
 
-NeuralMD用教師データ
+NeuralMD
 ==========================================
+
+.. note::
+
+ NeuralMD連携機能（ニューラルネットワークの学習・メトロポリス法による構造生成）を使う場合は、別途NeuralMDのインストールが必要です。
+ 
+ - ローカル（NanoLaboを使っているマシン）にインストールした場合は、 :menuselection:`左上メニュー --> Properties --> Advance/NeuralMD` でインストールした場所を設定してください。
+
+ - リモート（計算サーバー等）にインストールした場合は、 :guilabel:`Job Script` の設定画面で必要な環境変数等を追加してください。
+
+ - macOSでNanoLaboをご使用の場合、リモート実行でNeuralMD連携機能をお使いいただけます（現在NeuralMD macOS版がリリースされていないため、ローカル実行はできません）。
 
 .. _grand_neumd_display:
 
@@ -47,7 +58,10 @@ NeuralMD用教師データ
 #. :guilabel:`Random Geometries #1` の :guilabel:`Use for Training NNP` にチェックを入れます。
 #. :guilabel:`Generate Geometries` をクリックします。ランダム構造が生成されます。
 #. :guilabel:`Run` をクリックして、SCF計算を実行します。
-#. 計算が終わったらグランドプロジェクトの画面に戻り、画面右側の :guilabel:`Training Neural Network Potential` のボタンをクリックして、教師データを保存します。
+#. 計算が終わったらグランドプロジェクトの画面に戻り、画面右側の :guilabel:`Training Neural Network Potential` の :guilabel:`Start Training NNP` ボタンをクリックします。
+#. NNP設定画面が開きます。 :menuselection:`左下メニュー --> Run` でニューラルネットワークの学習を実行します。
+#. 計算が終わったらNNPのタブに戻り、結果画面の :guilabel:`force-field` をクリックして力場ファイルを保存します。
+#. 作成した力場ファイルを使って分子動力学計算を行うには、新たにLAMMPSのプロジェクトを作成し、 :guilabel:`Force-Field` の設定画面で :guilabel:`Type of Force Field` をNeuralMDに設定して、 :guilabel:`Potential File` で作成した力場ファイルを選択します。
 
 .. _grand_neumd_addremove:
 
@@ -62,7 +76,22 @@ NeuralMD用教師データ
 
 - カラムの右クリックメニューから、コピー・ペースト・削除ができます。
 - カラム上部の |remove| でも削除ができます。
-- :kbd:`Ctrl` + :kbd:`C` 、 :kbd:`Ctrl` + :kbd:`V` のショートカットキーが使用可能です。
+- ショートカットキーによるカラム操作が可能です。
+
+   .. table::
+      :widths: auto
+
+      +---------------------------------------+------------------------------------------------------------------------------------+
+      | 操作                                  |                                                                                    |
+      +=======================================+====================================================================================+
+      | コピー                                | :kbd:`Ctrl` + :kbd:`C`                                                             |
+      +---------------------------------------+------------------------------------------------------------------------------------+
+      | 貼り付け                              | :kbd:`Ctrl` + :kbd:`V`                                                             |
+      +---------------------------------------+------------------------------------------------------------------------------------+
+      | 削除                                  | :kbd:`Ctrl` + :kbd:`D`                                                             |
+      +---------------------------------------+------------------------------------------------------------------------------------+
+      | リネーム                              | :kbd:`F2`                                                                          |
+      +---------------------------------------+------------------------------------------------------------------------------------+
 
 .. hint:: 1つのグランドプロジェクト内にバルクモデルとスラブモデルなど異なる構造を設定し、まとめて教師データにする、という使い方ができます。
 
@@ -94,9 +123,18 @@ Use for Training NNP / Use for Testing NNP
  .. image:: /img/grand_control.svg
 
 Generating Geometries
- - Randomly Atomic Shift: 元構造からランダムに原子を動かした構造を生成します。
- - Trajectory of MD (LAMMPS): 元構造からLAMMPSで分子動力学計算を実行し、そのトラジェクトリーから構造を抽出します。 :guilabel:`Calculate MD` のボタンをクリックするとLAMMPSの画面が開きますので、設定を行い、計算を実行してください。
- 
+ - Randomly Atomic Shift
+    元構造からランダムに原子を動かした構造を生成します。
+ - Trajectory of MD (LAMMPS)
+    元構造からLAMMPSで分子動力学計算を実行し、そのトラジェクトリーから構造を抽出します。 :guilabel:`Calculate MD` のボタンをクリックするとLAMMPSの画面が開きますので、設定を行い、左下メニューの :guilabel:`Run` から計算を実行してください。
+ - Monte-Carlo (Metropolis)
+    NeuralMDを使い、元構造からメトロポリス法によるモンテカルロ計算で構造を生成します。予めニューラルネットワークの学習を行っておく必要があります。 :guilabel:`Calculate MD` のボタンをクリックするとメトロポリス法の設定画面が開きますので、設定を行い、左下メニューの :guilabel:`Run` から計算を実行してください。
+
+   .. toctree::
+      :maxdepth: 1
+
+      メトロポリス法の使い方 <metro>
+
  .. note:: 座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。
 
  :guilabel:`Generate Geometries` をクリックすると、指定した設定でランダム構造を生成（抽出）します。
@@ -114,9 +152,29 @@ Calculation of Q.E.
 
 .. _grand_neumd_export:
 
-結果の集計・出力
+ニューラルネットワークの学習・テスト
 ------------------------------------------
 
-画面右側の :guilabel:`Training Neural Network Potential` 、 :guilabel:`Training Neural Network Potential` にある :guilabel:`Export Data` をクリックすると、グランドプロジェクト内で計算が終了しているものを集計し、教師データ・テストデータをファイル出力します。
+画面右側の :guilabel:`Training Neural Network Potential` にある :guilabel:`Start Training NNP` をクリックすると、グランドプロジェクト内で計算が終了しているものを集計し、教師データとして、ニューラルネットワークの学習を行う画面が開きます。
  
-- 計算サーバーで計算を実行している場合は、自動的に結果を取得し、集計します。
+- 計算サーバーで計算を実行した場合は、自動的に結果を取得し、集計します。
+
+設定項目の詳細については、NeuralMDのドキュメントにある設定ファイルの説明 `sannp.prop <https://neuralmd-doc.readthedocs.io/ja/latest/usage/prop.html>`_ , `sannp.behler <https://neuralmd-doc.readthedocs.io/ja/latest/usage/behler.html>`_ の対応する項目を参照してください。
+
+.. image:: /img/nnp_setting.png
+
+設定後、左下メニューの :guilabel:`Run` から学習（最適化）を実行します。
+
+実行後、タブに戻るとResult画面が表示され、計算の状況を確認できます。 :guilabel:`RMSE` ボタンで収束の様子が確認できます。 :guilabel:`Classical Potential` （|Delta|-NNP法）を有効にした場合、 :guilabel:`LJ-like.pot` で古典力場の形状を確認できます。
+
+:guilabel:`force-field` をクリックすると、学習したニューラルネットワークをLAMMPSの力場ファイルとして保存できます。
+
+.. hint:: 作成した力場ファイルを使って分子動力学計算を行うには、LAMMPSのプロジェクトの :guilabel:`Force-Field` 設定画面で :guilabel:`Type of Force Field` をNeuralMDまたはNeuralMD with Chargeに設定して、 :guilabel:`Potential File` で作成した力場ファイルを選択します。
+
+.. image:: /img/nnpresult.png
+
+また、既にニューラルネットワークの学習を行ったグランドプロジェクトで :guilabel:`Testing Neural Network Potential` にある :guilabel:`Start Testing NNP` をクリックすると、ニューラルネットワーク力場のテスト（エネルギー・力・電荷の教師データとの比較）を実行します。Result画面の :guilabel:`Tested` ボタンで結果を確認できます。
+
+.. |Delta| raw:: html
+
+ &Delta;
