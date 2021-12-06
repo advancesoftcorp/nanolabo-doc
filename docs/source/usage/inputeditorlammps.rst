@@ -43,7 +43,7 @@ Scheme（計算過程）
 
 .. |editormenuicon| image:: /img/editormenuicon.png
 
-画面右側のパネルで計算の設定を行い、 :guilabel:`Add Scheme` の :guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| :guilabel:`Apply` を繰り返して過程を追加していきます。
+画面右側の :guilabel:`Set Scheme` で計算の設定を行い、 :guilabel:`Add Scheme` の :guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| :guilabel:`Apply` を繰り返して過程を追加していきます。
 
 .. |rarr| raw:: html
 
@@ -56,5 +56,7 @@ Scheme（計算過程）
 .. |lpdel| image:: /img/lpdel.png
 
 追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` ウィンドウが表示され、設定を編集できます。
+
+また、 :guilabel:`Statistical Properties` の各項目を :guilabel:`yes` に設定することで、統計量（熱伝導率、粘性係数、拡散係数、動径分布関数(RDF)）が計算され、結果画面に表示されます。
 
 .. image:: /img/scheme.png
