@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-30 12:05+0900\n"
+"POT-Creation-Date: 2021-12-06 17:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,8 +175,8 @@ msgid "|yt08|"
 msgstr "|yt08en|"
 
 #: ../../demo/modelingfunc.rst:38
-msgid "超格子モデルの作成"
-msgstr "Making of the superlattice model"
+msgid "スーパーセルモデルの作成"
+msgstr "Making of the super cell model"
 
 #: ../../demo/modelingfunc.rst:40
 msgid "|yt09|"
