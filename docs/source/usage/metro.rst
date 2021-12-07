@@ -32,6 +32,6 @@
 
 実行後、タブに戻るとResult画面が表示されます。
 
-:guilabel:`Movie` でモンテカルロ計算の過程を動画として確認できます。
+:guilabel:`Movie` でメトロポリス法の過程を動画として確認できます。
 
 .. image:: /img/metroresult.png

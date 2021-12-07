@@ -37,9 +37,9 @@
 
 :guilabel:`Lattice` タブの :guilabel:`Super Cell` では、各軸方向の繰り返しにとどまらず、格子ベクトルの方向の取り直しを伴うようなより一般的なスーパーセルが生成できます。
 
-- :guilabel:`As Miller Index` では、各格子ベクトルの変換先をミラー指数で指定（つまり、格子ベクトルに対する変換行列を入力）します。
+- :guilabel:`As Miller Index` : 各格子ベクトルの変換先をミラー指数で指定（つまり、格子ベクトルに対する変換行列を入力）します。
 
-- :guilabel:`As Dual Vector` では、入力値の逆数の比に対し、それと等しくなるような最小の整数比を計算して、ミラー指数とします。
+- :guilabel:`As Dual Vector` : 入力値の逆数の比に対し、それと等しくなるような最小の整数比を計算して、ミラー指数とします。
 
 変換行列の各成分が整数であることにより、変換後の格子もまた単位格子となります。
 
@@ -52,9 +52,9 @@
 
 :guilabel:`Lattice` タブの :guilabel:`Lattice Vectors` で、格子ベクトルの編集をします。
 
-- :guilabel:`Affine Positions` の場合、格子と同時に原子座標も変換します。
+- :guilabel:`Affine Positions` : 格子と同時に原子座標も変換します。
 
-- :guilabel:`Leave Positions` の場合、原子座標は変換しません。
+- :guilabel:`Leave Positions` : 原子座標は変換しません。
 
 :guilabel:`Refine` をクリックすると、Quantum ESPRESSOのブラベー格子表現に適した格子ベクトルへの変換を行います。
 

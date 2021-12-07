@@ -34,7 +34,7 @@ NeuralMD
 
 .. note::
 
- NeuralMD連携機能（ニューラルネットワークの学習・メトロポリス法による構造生成）を使う場合は、別途NeuralMDのインストールが必要です。
+ NeuralMD連携機能（ニューラルネットワークの学習・テスト・メトロポリス法による構造生成）を使う場合は、別途NeuralMDのインストールが必要です。
  
  - ローカル（NanoLaboを使っているマシン）にインストールした場合は、 :menuselection:`左上メニュー --> Properties --> Advance/NeuralMD` でインストールした場所を設定してください。
 
@@ -128,7 +128,7 @@ Generating Geometries
  - Trajectory of MD (LAMMPS)
     元構造からLAMMPSで分子動力学計算を実行し、そのトラジェクトリーから構造を抽出します。 :guilabel:`Calculate MD` のボタンをクリックするとLAMMPSの画面が開きますので、設定を行い、左下メニューの :guilabel:`Run` から計算を実行してください。
  - Monte-Carlo (Metropolis)
-    NeuralMDを使い、元構造からメトロポリス法によるモンテカルロ計算で構造を生成します。予めニューラルネットワークの学習を行っておく必要があります。 :guilabel:`Calculate MD` のボタンをクリックするとメトロポリス法の設定画面が開きますので、設定を行い、左下メニューの :guilabel:`Run` から計算を実行してください。
+    NeuralMDを使い、元構造からメトロポリス法によるモンテカルロ計算で構造を生成します。予めニューラルネットワークの学習を行っておく必要があります。 :guilabel:`Calculate MC` のボタンをクリックするとメトロポリス法の設定画面が開きますので、設定を行い、左下メニューの :guilabel:`Run` から計算を実行してください。
 
    .. toctree::
       :maxdepth: 1
