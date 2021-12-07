@@ -401,7 +401,7 @@ msgstr ""
 msgid "実行の許可を確認するダイアログが表示されますので、「開く」をクリックしてください。"
 msgstr ""
 "A dialog to confirm the permission of opening is displayed. Click "
-":guilabel:`Open` ."
+":guilabel:`Open`\\ ."
 
 #: ../../install/mac.rst:73
 msgid "ソフトウェアを起動すると、ライセンス登録を案内する画面が表示されます。"
@@ -699,7 +699,7 @@ msgstr ""
 
 #: ../../install/purchase.rst:123
 msgid ":guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。"
-msgstr "A window titled :guilabel:`Error` appears. Click :guilabel:`OK` ."
+msgstr "A window titled :guilabel:`Error` appears. Click :guilabel:`OK`\\ ."
 
 #: ../../install/purchase.rst:124
 msgid ""
@@ -803,7 +803,7 @@ msgid ""
 "スタートボタンを右クリックし、「アプリと機能」を開きます。リストの中にあるAdvance/NanoLabo "
 "Toolをクリックし、アンインストールボタンをクリックします。"
 msgstr ""
-"Right click Start button and open \"Apps and Features\" . Click "
+"Right click Start button and open \"Apps and Features\"\\ . Click "
 "Advance/NanoLabo Tool in the list and then click Uninstall button."
 
 #: ../../install/windows.rst:86
@@ -812,7 +812,7 @@ msgid ""
 "パネル」を開きます。「プログラムのアンインストール」（アイコン表示の場合は「プログラムと機能」）を開き、リストの中にあるAdvance/NanoLabo"
 " Toolをダブルクリックします。"
 msgstr ""
-"From Start menu, open \"Control Panel\" in \"Windows System\" . Open "
+"From Start menu, open \"Control Panel\" in \"Windows System\"\\ . Open "
 "\"Uninstall a program\" (or \"Programs and Features\" in case of icons "
 "view) and double click Advance/NanoLabo Tool in the list."
 
