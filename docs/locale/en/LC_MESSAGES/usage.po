@@ -559,11 +559,11 @@ msgid "設定後、 :guilabel:`OK` をクリックすると、計算が実行さ
 msgstr "After configuration is finished, click :guilabel:`OK` to run the calculation."
 
 #: ../../usage/calculation.rst:36
-msgid "リモート実行時には、計算エンジンの実行ファイルをサーバーに転送して実行します。事前にサーバーに計算エンジンをインストールしておく必要はありません。"
+msgid "リモート実行時には、自動的に計算エンジンの実行ファイルをサーバーに転送して実行します。事前にサーバーに計算エンジンをインストールしておく必要はありません。"
 msgstr ""
 "When you use remote execution, executable files of the calculation engine"
-" are transferred to the server in advance. There is no need to install "
-"the calculation engine on the server."
+" are automatically transferred to the server in advance. There is no need"
+" to install the calculation engine on the server."
 
 #: ../../usage/calculation.rst:41
 msgid "計算ジョブ管理"
