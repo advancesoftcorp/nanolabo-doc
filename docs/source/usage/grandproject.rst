@@ -34,11 +34,19 @@ NeuralMD
 
 .. note::
 
- NeuralMD連携機能（ニューラルネットワークの学習・テスト・メトロポリス法による構造生成）を使う場合は、別途NeuralMDのインストールが必要です。
- 
- - ローカル（NanoLaboを使っているマシン）にインストールした場合は、 :menuselection:`左上メニュー --> Properties --> Advance/NeuralMD` でインストールした場所を設定してください。
+ ニューラルネットワークの学習を行う場合は、別途NeuralMDのライセンスが必要です。
 
- - リモート（計算サーバー等）にインストールした場合は、 :guilabel:`Job Script` の設定画面で必要な環境変数等を追加してください。
+ NeuralMDの実行ファイルはNanoLabo Toolに含まれているため、インストールを別途行う必要はありません。リモート実行時にも、他の計算エンジン（QE・LAMMPS）と同様、自動的に実行ファイルをサーバーに転送して実行します。
+ 
+ - ローカル（NanoLaboを使っているマシン）で実行する場合は、 :menuselection:`左上メニュー --> Properties --> Advance/NeuralMD` でライセンスファイルの場所を設定してください。
+
+ - リモート（計算サーバー等）で実行する場合は、ライセンスサーバーの設定が必要です。
+
+  - NeuralMDのインストーラーにライセンスサーバーの実行ファイルが含まれていますので、ライセンスサーバーとして使うマシンにインストールを行い、\ `ドキュメント <https://neuralmd-doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\ に従ってライセンスサーバーを起動してください。
+
+  - NanoLaboの方では、必要に応じ、:guilabel:`Job Script` の設定画面で環境変数 :envvar:`ADVANCED_LICENSE_FILE` を追加してください。
+
+  - メトロポリス法による構造生成・ニューラルネットワークのテストについては、ライセンスは必要ありません。
 
  - macOSでNanoLaboをご使用の場合、リモート実行でNeuralMD連携機能をお使いいただけます（現在NeuralMD macOS版がリリースされていないため、ローカル実行はできません）。
 

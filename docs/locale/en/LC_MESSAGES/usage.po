@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-07 14:25+0900\n"
+"POT-Creation-Date: 2021-12-08 16:01+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgstr "Viewpoint manipulation"
 #: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:87
 #: ../../usage/atomsviewer.rst:128 ../../usage/atomsviewer.rst:154
 #: ../../usage/atomsviewer.rst:176 ../../usage/explorer.rst:135
-#: ../../usage/grandproject.rst:85 ../../usage/initial.rst:105
+#: ../../usage/grandproject.rst:93 ../../usage/initial.rst:105
 #: ../../usage/project.rst:92
 msgid "操作"
 msgstr "Operation"
@@ -362,12 +362,12 @@ msgid ":kbd:`Esc`"
 msgstr ""
 
 #: ../../usage/atomsviewer.rst:184 ../../usage/explorer.rst:143
-#: ../../usage/grandproject.rst:91
+#: ../../usage/grandproject.rst:99
 msgid "削除"
 msgstr "Delete"
 
 #: ../../usage/atomsviewer.rst:184 ../../usage/explorer.rst:143
-#: ../../usage/grandproject.rst:91
+#: ../../usage/grandproject.rst:99
 msgid ":kbd:`Ctrl` + :kbd:`D`"
 msgstr ""
 
@@ -384,7 +384,7 @@ msgid ":kbd:`Ctrl` + :kbd:`R`"
 msgstr ""
 
 #: ../../usage/atomsviewer.rst:190 ../../usage/explorer.rst:145
-#: ../../usage/grandproject.rst:93
+#: ../../usage/grandproject.rst:101
 msgid ":kbd:`F2`"
 msgstr ""
 
@@ -397,12 +397,12 @@ msgid ":kbd:`Ctrl` + :kbd:`X`"
 msgstr ""
 
 #: ../../usage/atomsviewer.rst:194 ../../usage/explorer.rst:149
-#: ../../usage/grandproject.rst:87
+#: ../../usage/grandproject.rst:95
 msgid "コピー"
 msgstr "Copy"
 
 #: ../../usage/atomsviewer.rst:194 ../../usage/explorer.rst:149
-#: ../../usage/grandproject.rst:87
+#: ../../usage/grandproject.rst:95
 msgid ":kbd:`Ctrl` + :kbd:`C`"
 msgstr ""
 
@@ -411,7 +411,7 @@ msgid "貼り付け\\ `*`:sup:"
 msgstr "Paste\\ `*`:sup:"
 
 #: ../../usage/atomsviewer.rst:196 ../../usage/explorer.rst:151
-#: ../../usage/grandproject.rst:89
+#: ../../usage/grandproject.rst:97
 msgid ":kbd:`Ctrl` + :kbd:`V`"
 msgstr ""
 
@@ -556,7 +556,9 @@ msgstr ""
 
 #: ../../usage/calculation.rst:34
 msgid "設定後、 :guilabel:`OK` をクリックすると、計算が実行されます。"
-msgstr "After configuration is finished, click :guilabel:`OK` to run the calculation."
+msgstr ""
+"After configuration is finished, click :guilabel:`OK` to run the "
+"calculation."
 
 #: ../../usage/calculation.rst:36
 msgid "リモート実行時には、自動的に計算エンジンの実行ファイルをサーバーに転送して実行します。事前にサーバーに計算エンジンをインストールしておく必要はありません。"
@@ -922,11 +924,11 @@ msgstr "Open"
 msgid ":kbd:`Enter`"
 msgstr ""
 
-#: ../../usage/explorer.rst:145 ../../usage/grandproject.rst:93
+#: ../../usage/explorer.rst:145 ../../usage/grandproject.rst:101
 msgid "リネーム"
 msgstr "Rename"
 
-#: ../../usage/explorer.rst:151 ../../usage/grandproject.rst:89
+#: ../../usage/explorer.rst:151 ../../usage/grandproject.rst:97
 msgid "貼り付け"
 msgstr "Paste"
 
@@ -938,7 +940,7 @@ msgstr "Search by initial letter"
 msgid "頭文字のキー"
 msgstr "initial letter key"
 
-#: ../../usage/grandproject.rst:133
+#: ../../usage/grandproject.rst:141
 msgid "メトロポリス法の使い方"
 msgstr "How to use Metropolis method"
 
@@ -1007,29 +1009,54 @@ msgid "grandicon"
 msgstr ""
 
 #: ../../usage/grandproject.rst:37
-msgid "NeuralMD連携機能（ニューラルネットワークの学習・テスト・メトロポリス法による構造生成）を使う場合は、別途NeuralMDのインストールが必要です。"
-msgstr ""
-"To use the cooperation functions with NeuralMD (training / testing neural network /"
-" generating structures by Metropolis method), NeuralMD must be installed "
-"separately."
+msgid "ニューラルネットワークの学習を行う場合は、別途NeuralMDのライセンスが必要です。"
+msgstr "To perform training of the neural network, separate NeuralMD license is required."
 
 #: ../../usage/grandproject.rst:39
 msgid ""
-"ローカル（NanoLaboを使っているマシン）にインストールした場合は、 :menuselection:`左上メニュー --> "
-"Properties --> Advance/NeuralMD` でインストールした場所を設定してください。"
+"NeuralMDの実行ファイルはNanoLabo "
+"Toolに含まれているため、インストールを別途行う必要はありません。リモート実行時にも、他の計算エンジン（QE・LAMMPS）と同様、自動的に実行ファイルをサーバーに転送して実行します。"
 msgstr ""
-"In case installed locally (in the same machine with NanoLabo), set the "
-"installed location in :menuselection:`main menu on the upper left --> "
-"Properties --> Advance/NeuralMD`\\ ."
+"Since NeuralMD executable files are included in NanoLabo Tool, there is no need to install it separately. "
+"When you use remote execution, executable files are automatically transferred to the server, just as other calculation engines "
+"(QE/LAMMPS)."
 
 #: ../../usage/grandproject.rst:41
-msgid "リモート（計算サーバー等）にインストールした場合は、 :guilabel:`Job Script` の設定画面で必要な環境変数等を追加してください。"
+msgid ""
+"ローカル（NanoLaboを使っているマシン）で実行する場合は、 :menuselection:`左上メニュー --> Properties "
+"--> Advance/NeuralMD` でライセンスファイルの場所を設定してください。"
 msgstr ""
-"In case installed on remote machine (calculation server etc.), add "
-"necessary settings such as environment variables in the :guilabel:`Job "
-"Script` setting screen."
+"To execute it locally (on the same machine with NanoLabo), set the "
+"location of license file in :menuselection:`main menu on the upper left --> "
+"Properties --> Advance/NeuralMD`\\ ."
 
 #: ../../usage/grandproject.rst:43
+msgid "リモート（計算サーバー等）で実行する場合は、ライセンスサーバーの設定が必要です。"
+msgstr "To execute it remotely (on calculation server etc.), a license server must be configured."
+
+#: ../../usage/grandproject.rst:45
+msgid ""
+"NeuralMDのインストーラーにライセンスサーバーの実行ファイルが含まれていますので、ライセンスサーバーとして使うマシンにインストールを行い、\\"
+" `ドキュメント <https://neuralmd-"
+"doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\\ "
+"に従ってライセンスサーバーを起動してください。"
+msgstr ""
+"The executable files of license server are included in NeuralMD installer. Install it on the machine you use for the license server, and "
+"launch the license server following the `document <https://neuralmd-doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\\ ."
+
+#: ../../usage/grandproject.rst:47
+msgid ""
+"NanoLaboの方では、必要に応じ、:guilabel:`Job Script` の設定画面で環境変数 "
+":envvar:`ADVANCED_LICENSE_FILE` を追加してください。"
+msgstr ""
+"On NanoLabo side, if necessary, add environment variable :envvar:`ADVANCED_LICENSE_FILE` on the "
+":guilabel:`Job Script` setting screen."
+
+#: ../../usage/grandproject.rst:49
+msgid "メトロポリス法による構造生成・ニューラルネットワークのテストについては、ライセンスは必要ありません。"
+msgstr "To perform the structure generation by Metropolis method / testing of neural network, no license is required."
+
+#: ../../usage/grandproject.rst:51
 msgid ""
 "macOSでNanoLaboをご使用の場合、リモート実行でNeuralMD連携機能をお使いいただけます（現在NeuralMD "
 "macOS版がリリースされていないため、ローカル実行はできません）。"
@@ -1038,19 +1065,19 @@ msgstr ""
 "NeuralMD by remote execution (local execution cannot be used as macOS "
 "version of NeuralMD is currently not released)."
 
-#: ../../usage/grandproject.rst:48
+#: ../../usage/grandproject.rst:56
 msgid "画面構成"
 msgstr "User Interface Overview"
 
-#: ../../usage/grandproject.rst:55
+#: ../../usage/grandproject.rst:63
 msgid "簡単な使用例"
 msgstr "Brief usage example"
 
-#: ../../usage/grandproject.rst:57
+#: ../../usage/grandproject.rst:65
 msgid "カラム上部に元となる構造が表示されているのを確認します。"
 msgstr "Make sure the original geometry is shown at the top of the column."
 
-#: ../../usage/grandproject.rst:58
+#: ../../usage/grandproject.rst:66
 msgid ""
 ":guilabel:`Random Geometries #1` の :guilabel:`Use for Training NNP` "
 "にチェックを入れます。"
@@ -1058,15 +1085,15 @@ msgstr ""
 "Check :guilabel:`Use for Training NNP` in :guilabel:`Random Geometries "
 "#1`\\ ."
 
-#: ../../usage/grandproject.rst:59
+#: ../../usage/grandproject.rst:67
 msgid ":guilabel:`Generate Geometries` をクリックします。ランダム構造が生成されます。"
 msgstr "Click :guilabel:`Generate Geometries`\\ . Random geometries are generated."
 
-#: ../../usage/grandproject.rst:60
+#: ../../usage/grandproject.rst:68
 msgid ":guilabel:`Run` をクリックして、SCF計算を実行します。"
 msgstr "Click :guilabel:`Run` to run the SCF calculations."
 
-#: ../../usage/grandproject.rst:61
+#: ../../usage/grandproject.rst:69
 msgid ""
 "計算が終わったらグランドプロジェクトの画面に戻り、画面右側の :guilabel:`Training Neural Network "
 "Potential` の :guilabel:`Start Training NNP` ボタンをクリックします。"
@@ -1075,19 +1102,19 @@ msgstr ""
 " button on :guilabel:`Training Neural Network Potential` on the right "
 "side of the screen."
 
-#: ../../usage/grandproject.rst:62
+#: ../../usage/grandproject.rst:70
 msgid "NNP設定画面が開きます。 :menuselection:`左下メニュー --> Run` でニューラルネットワークの学習を実行します。"
 msgstr ""
 "Proceed to NNP setting screen. Start training neural network from "
 ":menuselection:`lower left menu --> Run`\\ ."
 
-#: ../../usage/grandproject.rst:63
+#: ../../usage/grandproject.rst:71
 msgid "計算が終わったらNNPのタブに戻り、結果画面の :guilabel:`force-field` をクリックして力場ファイルを保存します。"
 msgstr ""
 "When finished, go back to NNP tab, and click :guilabel:`force-field` in "
 "the result view to save the force field file."
 
-#: ../../usage/grandproject.rst:64
+#: ../../usage/grandproject.rst:72
 msgid ""
 "作成した力場ファイルを使って分子動力学計算を行うには、新たにLAMMPSのプロジェクトを作成し、 :guilabel:`Force-Field` "
 "の設定画面で :guilabel:`Type of Force Field` をNeuralMDに設定して、 "
@@ -1098,11 +1125,11 @@ msgstr ""
 "NeuralMD in the :guilabel:`Force-Field` setting screen, and choose the "
 "created force field file in :guilabel:`Potential File`\\ ."
 
-#: ../../usage/grandproject.rst:69
+#: ../../usage/grandproject.rst:77
 msgid "構造の追加・削除"
 msgstr "Add / remove geometries"
 
-#: ../../usage/grandproject.rst:71
+#: ../../usage/grandproject.rst:79
 msgid ""
 "グランドプロジェクトを作成した時には、元となる構造が1つだけ設定された状態です。画面右側の :guilabel:`Add Sample "
 "Geometry` をクリックして、プロジェクトまたは原子構造ファイルをダブルクリックすると、その構造を追加することができます。"
@@ -1111,41 +1138,41 @@ msgstr ""
 "Click :guilabel:`Add Sample Geometry` and double click the project or "
 "atomic structure file you want to add."
 
-#: ../../usage/grandproject.rst:73
+#: ../../usage/grandproject.rst:81
 msgid "グランドプロジェクトの画面内に原子構造ファイルをドラッグ＆ドロップすることでも追加できます。"
 msgstr ""
 "You can also drag & drop the atomic structure file in the grand-project "
 "view."
 
-#: ../../usage/grandproject.rst:75
+#: ../../usage/grandproject.rst:83
 msgid "1つの元構造につき、1つのカラムが表示されます。"
 msgstr "One column per one original geometry is shown."
 
-#: ../../usage/grandproject.rst:77
+#: ../../usage/grandproject.rst:85
 msgid "カラムの右クリックメニューから、コピー・ペースト・削除ができます。"
 msgstr "You can copy / paste / delete the column from its right click menu."
 
-#: ../../usage/grandproject.rst:78
+#: ../../usage/grandproject.rst:86
 msgid "カラム上部の |remove| でも削除ができます。"
 msgstr "The column can also be removed by |remove| at the top."
 
-#: ../../usage/grandproject.rst:102 ../../usage/inputeditorqe.rst:9
+#: ../../usage/grandproject.rst:110 ../../usage/inputeditorqe.rst:9
 #: ../../usage/modeler.rst:235 ../../usage/result.rst:68
 #: ../../usage/sshserver.rst:58
 msgid "remove"
 msgstr ""
 
-#: ../../usage/grandproject.rst:79
+#: ../../usage/grandproject.rst:87
 msgid "ショートカットキーによるカラム操作が可能です。"
 msgstr "Shortcut keys can be used to manipulate the column."
 
-#: ../../usage/grandproject.rst:96
+#: ../../usage/grandproject.rst:104
 msgid "1つのグランドプロジェクト内にバルクモデルとスラブモデルなど異なる構造を設定し、まとめて教師データにする、という使い方ができます。"
 msgstr ""
 "For example, you can include several geometries such as bulk model and "
 "slab model in one grand-project, and export the combined training data."
 
-#: ../../usage/grandproject.rst:98
+#: ../../usage/grandproject.rst:106
 msgid ""
 "また、1つの元構造から、異なる複数の設定でランダム構造を生成することもできます。最初は構造生成の設定が1つだけ(Random Geometries"
 " #1)ある状態です。カラム内の :guilabel:`Add Random Geometries` "
@@ -1157,93 +1184,94 @@ msgstr ""
 ":guilabel:`Add Random Geometries` / :guilabel:`Remove Random Geometries` "
 "in the column."
 
-#: ../../usage/grandproject.rst:100
+#: ../../usage/grandproject.rst:108
 msgid "元となる構造から2通りの設定でランダム構造を生成し、片方は教師データ、もう片方はテストデータにする、という使い方ができます。"
 msgstr ""
 "For example, you can generate random geometries from one original "
 "geometry using two configurations, and use one as training data, while "
 "the other as testing data."
 
-#: ../../usage/grandproject.rst:107
+#: ../../usage/grandproject.rst:115
 msgid "元構造・ランダム構造生成の設定項目"
 msgstr "Configuration on original geometry / random geometries generation"
 
-#: ../../usage/grandproject.rst:110
+#: ../../usage/grandproject.rst:118
 msgid "Edit Input File of Q.E."
 msgstr ""
 
-#: ../../usage/grandproject.rst:110
+#: ../../usage/grandproject.rst:118
 msgid "SCF計算の設定をします。この設定がカラム内のランダム構造の計算に適用されます。"
 msgstr ""
 "Configure the SCF calculation. This configuration is applied to the "
 "calculations of random geometries in the column."
 
-#: ../../usage/grandproject.rst:113
+#: ../../usage/grandproject.rst:121
 msgid "Edit Geometry by Modeler"
 msgstr ""
 
-#: ../../usage/grandproject.rst:113
+#: ../../usage/grandproject.rst:121
 msgid "元構造をモデラーを使って編集します。"
 msgstr "Edit the original geometry using the modeler."
 
-#: ../../usage/grandproject.rst:116
+#: ../../usage/grandproject.rst:124
 msgid "Add Random Geometries / Remove Random Geometries"
 msgstr ""
 
-#: ../../usage/grandproject.rst:116
+#: ../../usage/grandproject.rst:124
 msgid "元構造からランダム構造を生成するための設定を追加・削除します。"
 msgstr ""
 "Add / remove configuration for generating random geometries from the "
 "original one."
 
-#: ../../usage/grandproject.rst:123
+#: ../../usage/grandproject.rst:131
 msgid "Use for Training NNP / Use for Testing NNP"
 msgstr ""
 
-#: ../../usage/grandproject.rst:119
+#: ../../usage/grandproject.rst:127
 msgid "ランダム構造を教師データ・テストデータに使うかの設定です。最終的にデータを出力する時、ここでの設定に基づいて集計・出力の対象が決まります。"
 msgstr ""
 "Whether the random geometries are used for training / testing data. When "
 "exporting the data, the subjects of aggregation are determined based on "
 "the configuration here."
 
-#: ../../usage/grandproject.rst:121
+#: ../../usage/grandproject.rst:129
 msgid "チェック状況はタイトルの左に色で表示されます。設定画面を折り畳んでいても、一目で確認することができます。"
 msgstr ""
 "The state of checkboxes are displayed next to the title with colors. You "
 "can see them at a glance even the configuration view is collapsed."
 
-#: ../../usage/grandproject.rst:140
+#: ../../usage/grandproject.rst:148
 msgid "Generating Geometries"
 msgstr ""
 
-#: ../../usage/grandproject.rst:126
+#: ../../usage/grandproject.rst:134
 msgid "Randomly Atomic Shift"
 msgstr ""
 
-#: ../../usage/grandproject.rst:127
+#: ../../usage/grandproject.rst:135
 msgid "元構造からランダムに原子を動かした構造を生成します。"
 msgstr "generate geometries by randomly shifting atoms from the original one."
 
-#: ../../usage/grandproject.rst:128
+#: ../../usage/grandproject.rst:136
 msgid "Trajectory of MD (LAMMPS)"
 msgstr ""
 
-#: ../../usage/grandproject.rst:129
+#: ../../usage/grandproject.rst:137
 msgid ""
 "元構造からLAMMPSで分子動力学計算を実行し、そのトラジェクトリーから構造を抽出します。 :guilabel:`Calculate MD` "
 "のボタンをクリックするとLAMMPSの画面が開きますので、設定を行い、左下メニューの :guilabel:`Run` から計算を実行してください。"
 msgstr ""
 "perform molecular dynamics calculation starting from original geometry, "
 "and extract geometries from the trajectory. Click the button on "
-":guilabel:`Calculate MD` and the LAMMPS view is shown. In the view, configure the settings, "
-"and run the calculation by :guilabel:`Run` from the lower left menu."
+":guilabel:`Calculate MD` and the LAMMPS view is shown. In the view, "
+"configure the settings, and run the calculation by :guilabel:`Run` from "
+"the lower left menu."
 
-#: ../../usage/grandproject.rst:131
+#: ../../usage/grandproject.rst:139
 msgid "Monte-Carlo (Metropolis)"
 msgstr ""
 
-#: ../../usage/grandproject.rst:131
+#: ../../usage/grandproject.rst:139
 msgid ""
 "NeuralMDを使い、元構造からメトロポリス法によるモンテカルロ計算で構造を生成します。予めニューラルネットワークの学習を行っておく必要があります。"
 " :guilabel:`Calculate MC` のボタンをクリックするとメトロポリス法の設定画面が開きますので、設定を行い、左下メニューの "
@@ -1251,37 +1279,37 @@ msgid ""
 msgstr ""
 "using NeuralMD, generate structures by Monte-Carlo calculation by "
 "Metropolis method from the original structure. The neural network must be"
-" trained in advance. Click the button on :guilabel:`Calculate MC` and "
-"the Metropolis setting view is shown. In the view, configure the settings, and run the "
-"calculation by :guilabel:`Run` from the lower left menu."
+" trained in advance. Click the button on :guilabel:`Calculate MC` and the"
+" Metropolis setting view is shown. In the view, configure the settings, "
+"and run the calculation by :guilabel:`Run` from the lower left menu."
 
-#: ../../usage/grandproject.rst:138
+#: ../../usage/grandproject.rst:146
 msgid "座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。"
 msgstr ""
 "If there is fixed atom(s), the coordinates stay fixed when generating "
 "random geometries."
 
-#: ../../usage/grandproject.rst:140
+#: ../../usage/grandproject.rst:148
 msgid ":guilabel:`Generate Geometries` をクリックすると、指定した設定でランダム構造を生成（抽出）します。"
 msgstr ""
 "Click :guilabel:`Generate Geometries` to generate (extract) random "
 "geometries using specified setting."
 
-#: ../../usage/grandproject.rst:149
+#: ../../usage/grandproject.rst:157
 msgid "Calculation of Q.E."
 msgstr ""
 
-#: ../../usage/grandproject.rst:143
+#: ../../usage/grandproject.rst:151
 msgid "生成したランダム構造に対し、SCF計算を実行します。"
 msgstr "Run SCF calculations for the generated random geometries."
 
-#: ../../usage/grandproject.rst:145
+#: ../../usage/grandproject.rst:153
 msgid "同一のグランドプロジェクト内であっても、設定ごとに別の計算サーバーで計算を実行することもできます。"
 msgstr ""
 "The calculation for different configurations can be performed on "
 "different servers, even they are in the same grand-project."
 
-#: ../../usage/grandproject.rst:147
+#: ../../usage/grandproject.rst:155
 msgid ""
 "Result画面では、計算の状況を確認できます。ダウンロードボタン |granddownload| "
 "をクリックすると計算サーバーから結果一式をダウンロードし、進捗を更新します（負荷を抑えるため、自動的には更新されません）。 "
@@ -1293,15 +1321,15 @@ msgstr ""
 "automatically). The results of finished calculations are summarized in "
 ":guilabel:`Energy` and :guilabel:`Force`\\ ."
 
-#: ../../usage/grandproject.rst:151
+#: ../../usage/grandproject.rst:159
 msgid "granddownload"
 msgstr ""
 
-#: ../../usage/grandproject.rst:156
+#: ../../usage/grandproject.rst:164
 msgid "ニューラルネットワークの学習・テスト"
 msgstr "Training / testing neural network"
 
-#: ../../usage/grandproject.rst:158
+#: ../../usage/grandproject.rst:166
 msgid ""
 "画面右側の :guilabel:`Training Neural Network Potential` にある :guilabel:`Start "
 "Training NNP` "
@@ -1312,13 +1340,13 @@ msgstr ""
 "in the grand-project, and using it as the training data, you can train "
 "the neural network in the following screen."
 
-#: ../../usage/grandproject.rst:160
+#: ../../usage/grandproject.rst:168
 msgid "計算サーバーで計算を実行した場合は、自動的に結果を取得し、集計します。"
 msgstr ""
 "If calculations are performed on the server, the results are "
 "automatically fetched and summarized."
 
-#: ../../usage/grandproject.rst:162
+#: ../../usage/grandproject.rst:170
 msgid ""
 "設定項目の詳細については、NeuralMDのドキュメントにある設定ファイルの説明 `sannp.prop <https://neuralmd-"
 "doc.readthedocs.io/ja/latest/usage/prop.html>`_ , `sannp.behler <https"
@@ -1331,13 +1359,13 @@ msgstr ""
 "://neuralmd-doc.readthedocs.io/ja/latest/usage/behler.html>`_ in the "
 "NeuralMD document."
 
-#: ../../usage/grandproject.rst:166
+#: ../../usage/grandproject.rst:174
 msgid "設定後、左下メニューの :guilabel:`Run` から学習（最適化）を実行します。"
 msgstr ""
 "Once setting is finished, run the training (optimization) by "
 ":guilabel:`Run` in the lower left menu."
 
-#: ../../usage/grandproject.rst:168
+#: ../../usage/grandproject.rst:176
 msgid ""
 "実行後、タブに戻るとResult画面が表示され、計算の状況を確認できます。 :guilabel:`RMSE` ボタンで収束の様子が確認できます。 "
 ":guilabel:`Classical Potential` （|Delta|-NNP法）を有効にした場合、 :guilabel:`LJ-"
@@ -1349,13 +1377,13 @@ msgstr ""
 "Potential` (|Delta|-NNP method) is enabled, you can check the form of the"
 " classical potential by :guilabel:`LJ-like.pot`\\ ."
 
-#: ../../usage/grandproject.rst:170
+#: ../../usage/grandproject.rst:178
 msgid ":guilabel:`force-field` をクリックすると、学習したニューラルネットワークをLAMMPSの力場ファイルとして保存できます。"
 msgstr ""
 "Click :guilabel:`force-field` to save trained neural network as a force "
 "field file for LAMMPS."
 
-#: ../../usage/grandproject.rst:172
+#: ../../usage/grandproject.rst:180
 msgid ""
 "作成した力場ファイルを使って分子動力学計算を行うには、LAMMPSのプロジェクトの :guilabel:`Force-Field` 設定画面で "
 ":guilabel:`Type of Force Field` をNeuralMDまたはNeuralMD with Chargeに設定して、 "
@@ -1367,7 +1395,7 @@ msgstr ""
 " screen, and choose the created force field file in :guilabel:`Potential "
 "File`\\ ."
 
-#: ../../usage/grandproject.rst:176
+#: ../../usage/grandproject.rst:184
 msgid ""
 "また、既にニューラルネットワークの学習を行ったグランドプロジェクトで :guilabel:`Testing Neural Network "
 "Potential` にある :guilabel:`Start Testing NNP` "
@@ -1762,9 +1790,10 @@ msgid ""
 msgstr ""
 "To check or set the fixed / mobile settings along each direction,  open "
 ":guilabel:`Geometry` from the lower right menu |editormenuicon|, and see "
-":guilabel:`Atomic Configuration` in :guilabel:`Atoms`\\ . Fixed coordinates"
-" of atoms are shown in blue letters. Here you can set fixed / mobile "
-"along X/Y/Z direction from the right click menu of the rows of atoms."
+":guilabel:`Atomic Configuration` in :guilabel:`Atoms`\\ . Fixed "
+"coordinates of atoms are shown in blue letters. Here you can set fixed / "
+"mobile along X/Y/Z direction from the right click menu of the rows of "
+"atoms."
 
 #: ../../usage/inputeditorlammps.rst:5
 msgid "入力ファイルエディター（LAMMPS固有の設定）"
@@ -1909,9 +1938,9 @@ msgid ""
 "に設定することで、統計量（熱伝導率、粘性係数、拡散係数、動径分布関数(RDF)）が計算され、結果画面に表示されます。"
 msgstr ""
 "Also, by setting the items in :guilabel:`Statistical Properties` to "
-":guilabel:`yes`\\ , statistical quantities (thermal conductivity, viscosity"
-" coefficient, diffusion constant and radial distribution function (RDF)) "
-"are calculated and displayed in the result screen."
+":guilabel:`yes`\\ , statistical quantities (thermal conductivity, "
+"viscosity coefficient, diffusion constant and radial distribution "
+"function (RDF)) are calculated and displayed in the result screen."
 
 #: ../../usage/inputeditorqe.rst:12
 msgid "import"
@@ -1976,8 +2005,8 @@ msgid ""
 ":guilabel:`Symbol` を空白にし、座標を :guilabel:`kx, ky, kz` （または :guilabel:`qx, "
 "qy, qz` ）に入力します。"
 msgstr ""
-"In :guilabel:`Symbol`\\ , specify points to go through. To specify a point "
-"not in the list box, leave :guilabel:`Symbol` empty and enter the "
+"In :guilabel:`Symbol`\\ , specify points to go through. To specify a "
+"point not in the list box, leave :guilabel:`Symbol` empty and enter the "
 "coordinate in :guilabel:`kx, ky, kz` (or :guilabel:`qx, qy, qz` )."
 
 #: ../../usage/inputeditorqe.rst:45
@@ -2211,8 +2240,8 @@ msgstr "Metropolis method"
 #: ../../usage/metro.rst:7
 msgid "元構造から、学習を行ったニューラルネットワークを使って、メトロポリス法による構造生成を行います。この構造を元に教師データを作り、ニューラルネットワークを再度学習させる（強化学習）ことで、より広いエネルギーの構造をカバーするニューラルネットワーク力場を作ることができます。"
 msgstr ""
-"Generate structures from the original structure by Metropolis method using the trained neural network. "
-"By making the training data from the "
+"Generate structures from the original structure by Metropolis method "
+"using the trained neural network. By making the training data from the "
 "generated structures and re-train the neural network (reinforcement "
 "learning), you can make the neural network potential covering structures "
 "with broader energy range."
@@ -2264,8 +2293,8 @@ msgstr ""
 #: ../../usage/metro.rst:24
 msgid "設定後、左下メニューの :guilabel:`Run` から計算を実行してください。"
 msgstr ""
-"After configuration is finished, run the calculaltion by :guilabel:`Run` in "
-"the lower left menu."
+"After configuration is finished, run the calculaltion by :guilabel:`Run` "
+"in the lower left menu."
 
 #: ../../usage/metro.rst:31
 msgid "結果画面"
@@ -2306,9 +2335,9 @@ msgid ""
 ":guilabel:`Initialize Model` をクリックすると、編集を行う前（モデラー画面を開いた時点）の状態に戻ります。"
 msgstr ""
 "Changes made in modeler are reflected in the project by clicking "
-":guilabel:`Reflect on Input-file`\\ . Click :guilabel:`Initialize Model` to"
-" return to the state before editing is performed (when modeler view was "
-"opened)."
+":guilabel:`Reflect on Input-file`\\ . Click :guilabel:`Initialize Model` "
+"to return to the state before editing is performed (when modeler view was"
+" opened)."
 
 #: ../../usage/modeler.rst:13
 msgid "編集が終わりましたら、左下の戻るボタン |back| をクリックしてプロジェクト画面に戻ります。"
@@ -2441,9 +2470,10 @@ msgid ""
 ":guilabel:`Rotation` で、選択原子の幾何中心に対して回転移動します。 :guilabel:`Rotate Atoms` "
 "をクリックすると球が表示されますので、ドラッグして回転移動を行います。 :kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr ""
-"You can rotate atoms about their geometric center by :guilabel:`Rotation`"
-"\\ . A sphere is shown when you click :guilabel:`Rotate Atoms`\\ , then drag "
-"it to rotate the atoms. Press :kbd:`Esc` to fix the position."
+"You can rotate atoms about their geometric center by "
+":guilabel:`Rotation`\\ . A sphere is shown when you click "
+":guilabel:`Rotate Atoms`\\ , then drag it to rotate the atoms. Press "
+":kbd:`Esc` to fix the position."
 
 #: ../../usage/modeler.rst:81
 msgid "結晶格子の変換"
@@ -2518,10 +2548,10 @@ msgid ""
 "をクリックすると、置換後の構造がビューワー内に表示されます。また、置換後の構造の対称性がビューワー内に表示されます。 そのまま再度 "
 ":guilabel:`Build` をクリックすると、同じ置換設定で異なる構造が表示されます。"
 msgstr ""
-"Set :guilabel:`Element to be Substituted`\\ , :guilabel:`For What Element "
-"?`\\ , :guilabel:`Super Cell` (repeating number if you make super cell) and"
-" :guilabel:`Rate of Substitution` one by one. Click :guilabel:`Next` ( "
-":guilabel:`Previous` ) to move on to the next (previous) item. When "
+"Set :guilabel:`Element to be Substituted`\\ , :guilabel:`For What Element"
+" ?`\\ , :guilabel:`Super Cell` (repeating number if you make super cell) "
+"and :guilabel:`Rate of Substitution` one by one. Click :guilabel:`Next` ("
+" :guilabel:`Previous` ) to move on to the next (previous) item. When "
 "finished, click :guilabel:`Build` to show the structure after the "
 "substitution in the viewer. The symmetry of the structure after the "
 "substitution is also shown. If you click :guilabel:`Build` again here, "
@@ -2560,13 +2590,14 @@ msgid ""
 " また、欠陥を入れた構造の対称性がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
 "をクリックすると、同じ設定で異なる構造が表示されます。"
 msgstr ""
-"Set :guilabel:`Element to be Removed`\\ , :guilabel:`Super Cell` (repeating"
-" number if you make super cell), :guilabel:`Rate of Lattice Defect` one "
-"by one. Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to the"
-" next (previous) item. When finished, click :guilabel:`Build` to show the"
-" structure with defects in the viewer. The symmetry of the structure with"
-" defects is also shown. If you click :guilabel:`Build` again here, "
-"different structure with the same defect setting is shown."
+"Set :guilabel:`Element to be Removed`\\ , :guilabel:`Super Cell` "
+"(repeating number if you make super cell), :guilabel:`Rate of Lattice "
+"Defect` one by one. Click :guilabel:`Next` ( :guilabel:`Previous` ) to "
+"move on to the next (previous) item. When finished, click "
+":guilabel:`Build` to show the structure with defects in the viewer. The "
+"symmetry of the structure with defects is also shown. If you click "
+":guilabel:`Build` again here, different structure with the same defect "
+"setting is shown."
 
 #: ../../usage/modeler.rst:130
 msgid "スラブモデル"
@@ -2584,8 +2615,8 @@ msgid ""
 ":guilabel:`Build` をクリックすると、スラブモデルの詳細設定を行う画面が表示されます。"
 msgstr ""
 "In :guilabel:`Slab` tab, specify a crystal plane to be the surface by "
-"Miller indices and then click :guilabel:`Build`\\ . Detailed setting view "
-"of slab model is shown."
+"Miller indices and then click :guilabel:`Build`\\ . Detailed setting view"
+" of slab model is shown."
 
 #: ../../usage/modeler.rst:136
 msgid ""
@@ -2648,9 +2679,9 @@ msgid ""
 "Site` （吸着サイトの種類）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous`"
 " で前の項目の設定に移ります。"
 msgstr ""
-"Set :guilabel:`Adsorbate Molecule / Atom` and :guilabel:`Adsorption Site`"
-"\\ . Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to the next"
-" (previous) item."
+"Set :guilabel:`Adsorbate Molecule / Atom` and :guilabel:`Adsorption "
+"Site`\\ . Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to "
+"the next (previous) item."
 
 #: ../../usage/modeler.rst:163
 msgid ""
@@ -2739,8 +2770,8 @@ msgid ""
 "をクリックすると、古典力場を使ってスラブ間の距離を最適化します。"
 msgstr ""
 "Input :guilabel:`Acceptable Strain` and click :guilabel:`Next` to find "
-"the interface. Check the result and if it is OK, click :guilabel:`Next`\\ ."
-" You can adjust position along a/b-axis by the sliders. Click "
+"the interface. Check the result and if it is OK, click :guilabel:`Next`\\"
+" . You can adjust position along a/b-axis by the sliders. Click "
 ":guilabel:`Optimize` to optimize the inter-slab distance using classical "
 "force field."
 
@@ -2808,8 +2839,8 @@ msgid ""
 "で、充填する分子とその数を設定します。最初は分子のリストに水が設定されています。"
 msgstr ""
 "On the right side panel, set up the molecules and number of them to be "
-"packed in :guilabel:`Molecules to be Packed`\\ . At first, water is set in "
-"the molecules list."
+"packed in :guilabel:`Molecules to be Packed`\\ . At first, water is set "
+"in the molecules list."
 
 #: ../../usage/modeler.rst:226
 msgid ""
@@ -2862,8 +2893,8 @@ msgid ""
 msgstr ""
 "First, specify the dimension of the space into which polymers are packed."
 " Next, on the shown monomer model, select the head side atom for "
-"polymerization by double click, and then click :guilabel:`OK`\\ . Likewise,"
-" select the tail side atom for polymerization as well."
+"polymerization by double click, and then click :guilabel:`OK`\\ . "
+"Likewise, select the tail side atom for polymerization as well."
 
 #: ../../usage/modeler.rst:252
 msgid ""
@@ -2872,8 +2903,8 @@ msgid ""
 msgstr ""
 "After the selection, the row is added to :guilabel:`Sequence of Polymer` "
 "on the lower side. Enter the degree of polymerization in the field on the"
-" lower right of :guilabel:`oneself`\\ , and the number of polymer chains in"
-" :guilabel:`#Chains`\\ ."
+" lower right of :guilabel:`oneself`\\ , and the number of polymer chains "
+"in :guilabel:`#Chains`\\ ."
 
 #: ../../usage/modeler.rst:254
 msgid ""
@@ -3441,7 +3472,9 @@ msgstr ""
 
 #: ../../usage/resultpdos.rst:25
 msgid "指定が終わったら、 :guilabel:`OK` をクリックするとリストに反映されます。"
-msgstr "After the setting is finished, click :guilabel:`OK` to apply it to the list."
+msgstr ""
+"After the setting is finished, click :guilabel:`OK` to apply it to the "
+"list."
 
 #: ../../usage/resultpdos.rst:27
 msgid "リスト中のDOSを右クリックすると、名前の変更、コピー・貼り付け、順番の入れ替えが可能です。"
@@ -3474,9 +3507,9 @@ msgid ""
 "をクリックします。リストに名前が表示されますので、以降このサーバーの設定をしていきます。設定内容は自動的に保存されます。"
 msgstr ""
 "To add a server, click |add| button on the right of :guilabel:`SSH "
-"Configuration`\\ , enter identifiable name and click :guilabel:`OK`\\ . The "
-"name appears in the list, and hereafter, you can set up this server. The "
-"settings are saved automatically."
+"Configuration`\\ , enter identifiable name and click :guilabel:`OK`\\ . "
+"The name appears in the list, and hereafter, you can set up this server. "
+"The settings are saved automatically."
 
 #: ../../usage/sshserver.rst:23
 msgid ""
