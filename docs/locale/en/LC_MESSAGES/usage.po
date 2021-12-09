@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-08 16:01+0900\n"
+"POT-Creation-Date: 2021-12-09 17:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1010,16 +1010,19 @@ msgstr ""
 
 #: ../../usage/grandproject.rst:37
 msgid "ニューラルネットワークの学習を行う場合は、別途NeuralMDのライセンスが必要です。"
-msgstr "To perform training of the neural network, separate NeuralMD license is required."
+msgstr ""
+"To perform training of the neural network, separate NeuralMD license is "
+"required."
 
 #: ../../usage/grandproject.rst:39
 msgid ""
 "NeuralMDの実行ファイルはNanoLabo "
 "Toolに含まれているため、インストールを別途行う必要はありません。リモート実行時にも、他の計算エンジン（QE・LAMMPS）と同様、自動的に実行ファイルをサーバーに転送して実行します。"
 msgstr ""
-"Since NeuralMD executable files are included in NanoLabo Tool, there is no need to install it separately. "
-"When you use remote execution, executable files are automatically transferred to the server, just as other calculation engines "
-"(QE/LAMMPS)."
+"Since NeuralMD executable files are included in NanoLabo Tool, there is "
+"no need to install it separately. When you use remote execution, "
+"executable files are automatically transferred to the server, just as "
+"other calculation engines (QE/LAMMPS)."
 
 #: ../../usage/grandproject.rst:41
 msgid ""
@@ -1027,12 +1030,14 @@ msgid ""
 "--> Advance/NeuralMD` でライセンスファイルの場所を設定してください。"
 msgstr ""
 "To execute it locally (on the same machine with NanoLabo), set the "
-"location of license file in :menuselection:`main menu on the upper left --> "
-"Properties --> Advance/NeuralMD`\\ ."
+"location of license file in :menuselection:`main menu on the upper left "
+"--> Properties --> Advance/NeuralMD`\\ ."
 
 #: ../../usage/grandproject.rst:43
 msgid "リモート（計算サーバー等）で実行する場合は、ライセンスサーバーの設定が必要です。"
-msgstr "To execute it remotely (on calculation server etc.), a license server must be configured."
+msgstr ""
+"To execute it remotely (on calculation server etc.), a license server "
+"must be configured."
 
 #: ../../usage/grandproject.rst:45
 msgid ""
@@ -1041,20 +1046,25 @@ msgid ""
 "doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\\ "
 "に従ってライセンスサーバーを起動してください。"
 msgstr ""
-"The executable files of license server are included in NeuralMD installer. Install it on the machine you use for the license server, and "
-"launch the license server following the `document <https://neuralmd-doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\\ ."
+"The executable files of license server are included in NeuralMD "
+"installer. Install it on the machine you use for the license server, and "
+"launch the license server following the `document <https://neuralmd-"
+"doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\\ ."
 
 #: ../../usage/grandproject.rst:47
 msgid ""
 "NanoLaboの方では、必要に応じ、:guilabel:`Job Script` の設定画面で環境変数 "
 ":envvar:`ADVANCED_LICENSE_FILE` を追加してください。"
 msgstr ""
-"On NanoLabo side, if necessary, add environment variable :envvar:`ADVANCED_LICENSE_FILE` on the "
-":guilabel:`Job Script` setting screen."
+"On NanoLabo side, if necessary, add environment variable "
+":envvar:`ADVANCED_LICENSE_FILE` on the :guilabel:`Job Script` setting "
+"screen."
 
 #: ../../usage/grandproject.rst:49
 msgid "メトロポリス法による構造生成・ニューラルネットワークのテストについては、ライセンスは必要ありません。"
-msgstr "To perform the structure generation by Metropolis method / testing of neural network, no license is required."
+msgstr ""
+"To perform the structure generation by Metropolis method / testing of "
+"neural network, no license is required."
 
 #: ../../usage/grandproject.rst:51
 msgid ""
@@ -2247,11 +2257,11 @@ msgstr ""
 "with broader energy range."
 
 #: ../../usage/metro.rst:9
-msgid "元構造だけの状態ではメトロポリス法は使用できないので、最初はランダム構造を生成して教師データを作成してください。"
+msgid "元構造だけの状態ではメトロポリス法は使用できないので、最初はランダム構造を生成して教師データを作成し、初期力場を作成してください。"
 msgstr ""
 "You cannot use Metropolis method when there is only the original "
 "structure. At the first time, use generating random structures to make "
-"the training data."
+"the training data, and make initial force field."
 
 #: ../../usage/metro.rst:14
 msgid "設定画面"
