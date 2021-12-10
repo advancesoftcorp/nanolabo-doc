@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-10 17:07+0900\n"
+"POT-Creation-Date: 2021-12-10 17:49+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../index.rst:20
+#: ../../index.rst:24
 msgid "目次:"
 msgstr "Index:"
 
@@ -47,7 +47,7 @@ msgstr ""
 #: ../../index.rst:12
 msgid "本サイトはオンラインマニュアルです。製品ホームページは |nanolabologo|_ へどうぞ。"
 msgstr ""
-"This site is the online manual. Please navigate to |nanolabologo|_ for "
+"This site is the online manual. Please navigate to |nanolabologoen|_ for "
 "the product home page."
 
 #: ../../index.rst:14
@@ -55,6 +55,10 @@ msgid "nanolabologo"
 msgstr ""
 
 #: ../../index.rst:18
+msgid "nanolabologoen"
+msgstr ""
+
+#: ../../index.rst:22
 msgid ""
 "初めて使用される場合は、\\ :doc:`インストール<install>`\\ を行った後、\\ :doc:`使用の流れ<flow>`\\ "
 "をご確認ください。"

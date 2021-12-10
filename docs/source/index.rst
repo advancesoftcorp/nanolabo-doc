@@ -15,6 +15,10 @@
     :height: 2em
 .. _nanolabologo: https://www.nanolabo.advancesoft.jp/
 
+.. |nanolabologoen| image:: /img/nanolabo.png
+    :height: 2em
+.. _nanolabologoen: https://www.nanolabo.advancesoft.jp/en/
+
 初めて使用される場合は、\ :doc:`インストール<install>`\ を行った後、\ :doc:`使用の流れ<flow>`\ をご確認ください。
 
 .. toctree::
