@@ -297,7 +297,7 @@ Quantum ESPRESSO関連操作
 
 .. py:function:: qe_get_kpoints(path)
 
- SCF計算のk点の数を取得します。詳細は\ `Quantum ESPRESSOのマニュアル <http://www.quantum-espresso.org/Doc/INPUT_PW.html>`_\ (K_POINTS automatic)を参照してください。
+ SCF計算のk点の数を取得します。詳細は\ `Quantum ESPRESSOのマニュアル <https://www.quantum-espresso.org/Doc/INPUT_PW.html>`_\ (K_POINTS automatic)を参照してください。
 
  :param str path: プロジェクトをフォルダの絶対パスで指定します。デフォルトの保存先にあるプロジェクトは、プロジェクト名だけで指定できます。
  :return: 各方向のk点数と、オフセットを適用する(1)かしない(0)かの設定
@@ -311,7 +311,7 @@ Quantum ESPRESSO関連操作
 
 .. py:function:: qe_set_kpoints(path, nk1, nk2, nk3, sk1, sk2, sk3)
 
- SCF計算のk点の数を設定します。詳細は\ `Quantum ESPRESSOのマニュアル <http://www.quantum-espresso.org/Doc/INPUT_PW.html>`_\ (K_POINTS automatic)を参照してください。
+ SCF計算のk点の数を設定します。詳細は\ `Quantum ESPRESSOのマニュアル <https://www.quantum-espresso.org/Doc/INPUT_PW.html>`_\ (K_POINTS automatic)を参照してください。
 
  :param str path: プロジェクトをフォルダの絶対パスで指定します。デフォルトの保存先にあるプロジェクトは、プロジェクト名だけで指定できます。
  :param int nk1, nk2, nk3: k点分割数

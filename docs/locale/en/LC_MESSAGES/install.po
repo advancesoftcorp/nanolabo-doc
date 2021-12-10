@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-09 17:32+0900\n"
+"POT-Creation-Date: 2021-12-10 17:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -627,17 +627,17 @@ msgstr "LP Support Option\\ |sheart|"
 
 #: ../../install/purchase.rst:86
 msgid ""
-"|sspade| `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_\\ "
+"|sspade| `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_\\ "
 "の技術サポートです。"
 msgstr ""
-"|sspade| Technical support on using `Quantum ESPRESSO <http://www"
+"|sspade| Technical support on using `Quantum ESPRESSO <https://www"
 ".quantum-espresso.org/>`_\\ ."
 
 #: ../../install/purchase.rst:88
-msgid "|sheart| `LAMMPS <http://lammps.sandia.gov/>`_\\ の技術サポートです。"
+msgid "|sheart| `LAMMPS <https://www.lammps.org/>`_\\ の技術サポートです。"
 msgstr ""
 "|sheart| Technical support on using `LAMMPS "
-"<http://lammps.sandia.gov/>`_\\ ."
+"<https://www.lammps.org/>`_\\ ."
 
 #: ../../install/purchase.rst:101
 msgid "お申し込み手順"

@@ -202,11 +202,11 @@
 分子エディタ―
 ================
 
-分子エディタ―\ `JSME <http://peter-ertl.com/jsme/>`_\ を使用し、作図した構造をそのままモデルとして使用できます。
+分子エディタ―\ `JSME <https://jsme-editor.github.io/>`_\ を使用し、作図した構造をそのままモデルとして使用できます。
 
 :guilabel:`Molecule` タブの :guilabel:`Drawing a Molecule` にある :guilabel:`Start Modeling` をクリックすると、左側に分子エディタ―、右側に3Dモデルが表示されます。エディター上で作図した構造がリアルタイムで3Dモデルとして表示されます。
 
-エディターの使用方法については、JSMEの\ `ヘルプ <http://peter-ertl.com/jsme/2013_03/help.html>`_\ を参照してください。
+エディターの使用方法については、JSMEの\ `ヘルプ <https://jsme-editor.github.io/help.html>`_\ を参照してください。
 
 .. image:: /img/drawing.png
 

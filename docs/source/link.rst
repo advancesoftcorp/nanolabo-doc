@@ -4,62 +4,97 @@
 リンク
 ======
 
+アドバンスソフト株式会社
+ https://www.advancesoft.jp/
+
+Advance/NanoLabo
+================
+
+Advance/NanoLaboホームページ
+ https://www.nanolabo.advancesoft.jp/
+
+解析事例
+ http://case.advancesoft.jp/NanoLabo/
+
+Advance/NeuralMD
+================
+
+Advance/NeuralMDホームページ
+ https://www.advancesoft.jp/product/advance_neuralmd/
+
+マニュアル
+ https://neuralmd-doc.readthedocs.io/ja/latest/
+
+解析事例
+ http://case.advancesoft.jp/NeuralMD/
+
 Advance/PHASE
 ================
 
 Advance/PHASEホームページ
- http://www.advancesoft.jp/product/advance_phase/
-
-アドバンスソフト株式会社
- http://www.advancesoft.jp/
+ https://www.advancesoft.jp/product/advance_phase/
 
 Quantum ESPRESSO
 ====================
 
 Quantum ESPRESSO ホームページ
- http://www.quantum-espresso.org/
+ https://www.quantum-espresso.org/
 
 擬ポテンシャル
- http://www.quantum-espresso.org/pseudopotentials/original-qe-pp-library
+ https://www.quantum-espresso.org/pseudopotentials/
+
+ https://www.quantum-espresso.org/pseudopotentials/original-qe-pp-library
 
 |lsquo|\ pw.x\ |rsquo| マニュアル
- http://www.quantum-espresso.org/Doc/INPUT_PW.html
+ https://www.quantum-espresso.org/Doc/INPUT_PW.html
+
+|lsquo|\ pp.x\ |rsquo| マニュアル
+ https://www.quantum-espresso.org/Doc/INPUT_PP.html
 
 |lsquo|\ dos.x\ |rsquo| マニュアル
- http://www.quantum-espresso.org/Doc/INPUT_DOS.html
+ https://www.quantum-espresso.org/Doc/INPUT_DOS.html
 
 |lsquo|\ projwfc.x\ |rsquo| マニュアル
- http://www.quantum-espresso.org/Doc/INPUT_PROJWFC.html
+ https://www.quantum-espresso.org/Doc/INPUT_PROJWFC.html
 
 |lsquo|\ band.x\ |rsquo| マニュアル
- http://www.quantum-espresso.org/Doc/INPUT_BANDS.html
+ https://www.quantum-espresso.org/Doc/INPUT_BANDS.html
+
+|lsquo|\ cp.x\ |rsquo| マニュアル
+ https://www.quantum-espresso.org/Doc/INPUT_CP.html
 
 |lsquo|\ turbo_lanczos.x\ |rsquo| マニュアル
- http://www.quantum-espresso.org/Doc/INPUT_Lanczos.html
+ https://www.quantum-espresso.org/Doc/INPUT_Lanczos.html
 
 |lsquo|\ turbo_eels.x\ |rsquo| マニュアル
- http://www.quantum-espresso.org/Doc/INPUT_EELS.html
+ https://www.quantum-espresso.org/Doc/INPUT_EELS.html
 
 |lsquo|\ turbo_spectrum.x\ |rsquo| マニュアル
- http://www.quantum-espresso.org/Doc/INPUT_Spectrum.html
+ https://www.quantum-espresso.org/Doc/INPUT_Spectrum.html
 
 |lsquo|\ ph.x\ |rsquo| マニュアル
- http://www.quantum-espresso.org/Doc/INPUT_PH.html
+ https://www.quantum-espresso.org/Doc/INPUT_PH.html
 
 |lsquo|\ dynmat.x\ |rsquo| マニュアル
- http://www.quantum-espresso.org/Doc/INPUT_DYNMAT.html
+ https://www.quantum-espresso.org/Doc/INPUT_DYNMAT.html
 
 |lsquo|\ neb.x\ |rsquo| マニュアル
  https://www.quantum-espresso.org/Doc/INPUT_NEB.html
+
+アドバンスソフト改修版Quantum ESPRESSOソースコード
+ https://github.com/advancesoftcorp/espresso
 
 LAMMPS
 =============
 
 LAMMPSホームページ
- http://lammps.sandia.gov/
+ https://www.lammps.org/
 
 マニュアル
- http://lammps.sandia.gov/doc/Manual.html
+ https://docs.lammps.org/Manual.html
+
+アドバンスソフト改修版LAMMPSソースコード
+ https://github.com/advancesoftcorp/lammps
 
 .. _materialsdb:
 

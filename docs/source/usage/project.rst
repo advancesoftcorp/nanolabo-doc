@@ -64,9 +64,9 @@
    +--------------------------------+-------------------------------------------------------------------------------------------+
 
 
-.. _`Advance/PHASE`: http://www.advancesoft.jp/product/advance_phase/
-.. _`Quantum ESPRESSO`: http://www.quantum-espresso.org/
-.. _`LAMMPS`: http://lammps.sandia.gov/
+.. _`Advance/PHASE`: https://www.advancesoft.jp/product/advance_phase/
+.. _`Quantum ESPRESSO`: https://www.quantum-espresso.org/
+.. _`LAMMPS`: https://www.lammps.org/
 .. _`Advance/NeuralMD`: https://www.advancesoft.jp/product/advance_neuralmd/
 
 使用する計算エンジンとエディターのモードを選ぶと、それに応じた設定項目が画面右側のエディターパネルに表示されます。

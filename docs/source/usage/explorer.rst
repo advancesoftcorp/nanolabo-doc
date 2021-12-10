@@ -101,12 +101,12 @@
 
 .. _`Crystallographic Information Framework`: https://www.iucr.org/resources/cif
 .. _`XCrySDen file format`: http://www.xcrysden.org/doc/XSF.html
-.. _`VASP input file`: http://cms.mpi.univie.ac.at/vasp/vasp/POSCAR_file.html
+.. _`VASP input file`: https://www.vasp.at/wiki/index.php/POSCAR
 .. _`Quantum ESPRESSO input file`: https://www.quantum-espresso.org/Doc/INPUT_PW.html
-.. _`Advance/PHASE`: http://www.advancesoft.jp/product/advance_phase/
-.. _`Gaussian cube file`: http://gaussian.com/cubegen/
-.. _`LAMMPS data file`: http://lammps.sandia.gov/doc/read_data.html
-.. _`LAMMPS dump file`: https://lammps.sandia.gov/doc/dump.html
+.. _`Advance/PHASE`: https://www.advancesoft.jp/product/advance_phase/
+.. _`Gaussian cube file`: https://gaussian.com/cubegen/
+.. _`LAMMPS data file`: https://docs.lammps.org/read_data.html
+.. _`LAMMPS dump file`: https://docs.lammps.org/dump.html
 .. _`Advance/NeuralMD メトロポリス法設定ファイル`: https://neuralmd-doc.readthedocs.io/ja/latest/usage/metro.html
 
 以下の各方法でファイルを開くことができます。

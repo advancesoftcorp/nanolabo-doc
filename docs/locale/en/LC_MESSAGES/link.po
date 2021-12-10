@@ -9,176 +9,252 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-10 16:21+0900\n"
+"POT-Creation-Date: 2021-12-10 17:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: ../../link.rst:5
 msgid "リンク"
 msgstr "Link"
 
 #: ../../link.rst:8
-msgid "Advance/PHASE"
-msgstr ""
-
-#: ../../link.rst:11
-msgid "Advance/PHASEホームページ"
-msgstr "Advance/PHASE home page"
-
-#: ../../link.rst:11
-msgid "http://www.advancesoft.jp/product/advance_phase/"
-msgstr ""
-
-#: ../../link.rst:14
 msgid "アドバンスソフト株式会社"
 msgstr "AdvanceSoft Corporation"
 
-#: ../../link.rst:14
-msgid "http://www.advancesoft.jp/"
+#: ../../link.rst:8
+msgid "https://www.advancesoft.jp/"
 msgstr ""
+
+#: ../../link.rst:11
+msgid "Advance/NanoLabo"
+msgstr ""
+
+#: ../../link.rst:14
+msgid "Advance/NanoLaboホームページ"
+msgstr "Advance/NanoLabo home page"
+
+#: ../../link.rst:14
+msgid "https://www.nanolabo.advancesoft.jp/"
+msgstr "https://www.nanolabo.advancesoft.jp/en/"
+
+#: ../../link.rst:17 ../../link.rst:29
+msgid "解析事例"
+msgstr "Analysis cases"
 
 #: ../../link.rst:17
-msgid "Quantum ESPRESSO"
+msgid "http://case.advancesoft.jp/NanoLabo/"
 msgstr ""
 
 #: ../../link.rst:20
-msgid "Quantum ESPRESSO ホームページ"
-msgstr "Quantum ESPRESSO home page"
-
-#: ../../link.rst:20
-msgid "http://www.quantum-espresso.org/"
+msgid "Advance/NeuralMD"
 msgstr ""
 
 #: ../../link.rst:23
-msgid "擬ポテンシャル"
-msgstr "Pseudo potential"
+msgid "Advance/NeuralMDホームページ"
+msgstr "Advance/NeuralMD home page"
 
 #: ../../link.rst:23
-msgid "http://www.quantum-espresso.org/pseudopotentials/original-qe-pp-library"
+msgid "https://www.advancesoft.jp/product/advance_neuralmd/"
 msgstr ""
 
-#: ../../link.rst:26
-msgid "|lsquo|\\ pw.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ pw.x\\ |rsquo| manual"
-
-#: ../../link.rst:26
-msgid "http://www.quantum-espresso.org/Doc/INPUT_PW.html"
-msgstr ""
-
-#: ../../link.rst:29
-msgid "|lsquo|\\ dos.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ dos.x\\ |rsquo| manual"
-
-#: ../../link.rst:29
-msgid "http://www.quantum-espresso.org/Doc/INPUT_DOS.html"
-msgstr ""
-
-#: ../../link.rst:32
-msgid "|lsquo|\\ projwfc.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ projwfc.x\\ |rsquo| manual"
-
-#: ../../link.rst:32
-msgid "http://www.quantum-espresso.org/Doc/INPUT_PROJWFC.html"
-msgstr ""
-
-#: ../../link.rst:35
-msgid "|lsquo|\\ band.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ band.x\\ |rsquo| manual"
-
-#: ../../link.rst:35
-msgid "http://www.quantum-espresso.org/Doc/INPUT_BANDS.html"
-msgstr ""
-
-#: ../../link.rst:38
-msgid "|lsquo|\\ turbo_lanczos.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ turbo_lanczos.x\\ |rsquo| manual"
-
-#: ../../link.rst:38
-msgid "http://www.quantum-espresso.org/Doc/INPUT_Lanczos.html"
-msgstr ""
-
-#: ../../link.rst:41
-msgid "|lsquo|\\ turbo_eels.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ turbo_eels.x\\ |rsquo| manual"
-
-#: ../../link.rst:41
-msgid "http://www.quantum-espresso.org/Doc/INPUT_EELS.html"
-msgstr ""
-
-#: ../../link.rst:44
-msgid "|lsquo|\\ turbo_spectrum.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ turbo_spectrum.x\\ |rsquo| manual"
-
-#: ../../link.rst:44
-msgid "http://www.quantum-espresso.org/Doc/INPUT_Spectrum.html"
-msgstr ""
-
-#: ../../link.rst:47
-msgid "|lsquo|\\ ph.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ ph.x\\ |rsquo| manual"
-
-#: ../../link.rst:47
-msgid "http://www.quantum-espresso.org/Doc/INPUT_PH.html"
-msgstr ""
-
-#: ../../link.rst:50
-msgid "|lsquo|\\ dynmat.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ dynmat.x\\ |rsquo| manual"
-
-#: ../../link.rst:50
-msgid "http://www.quantum-espresso.org/Doc/INPUT_DYNMAT.html"
-msgstr ""
-
-#: ../../link.rst:53
-msgid "|lsquo|\\ neb.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ neb.x\\ |rsquo| manual"
-
-#: ../../link.rst:53
-msgid "https://www.quantum-espresso.org/Doc/INPUT_NEB.html"
-msgstr ""
-
-#: ../../link.rst:56
-msgid "LAMMPS"
-msgstr ""
-
-#: ../../link.rst:59
-msgid "LAMMPSホームページ"
-msgstr "LAMMPS home page"
-
-#: ../../link.rst:59
-msgid "http://lammps.sandia.gov/"
-msgstr ""
-
-#: ../../link.rst:62
+#: ../../link.rst:26 ../../link.rst:94
 msgid "マニュアル"
 msgstr "Manual"
 
-#: ../../link.rst:62
-msgid "http://lammps.sandia.gov/doc/Manual.html"
+#: ../../link.rst:26
+msgid "https://neuralmd-doc.readthedocs.io/ja/latest/"
+msgstr ""
+
+#: ../../link.rst:29
+msgid "http://case.advancesoft.jp/NeuralMD/"
+msgstr ""
+
+#: ../../link.rst:32
+msgid "Advance/PHASE"
+msgstr ""
+
+#: ../../link.rst:35
+msgid "Advance/PHASEホームページ"
+msgstr "Advance/PHASE home page"
+
+#: ../../link.rst:35
+msgid "https://www.advancesoft.jp/product/advance_phase/"
+msgstr ""
+
+#: ../../link.rst:38
+msgid "Quantum ESPRESSO"
+msgstr ""
+
+#: ../../link.rst:41
+msgid "Quantum ESPRESSO ホームページ"
+msgstr "Quantum ESPRESSO home page"
+
+#: ../../link.rst:41
+msgid "https://www.quantum-espresso.org/"
+msgstr ""
+
+#: ../../link.rst:46
+msgid "擬ポテンシャル"
+msgstr "Pseudo potential"
+
+#: ../../link.rst:44
+msgid "https://www.quantum-espresso.org/pseudopotentials/"
+msgstr ""
+
+#: ../../link.rst:46
+msgid "https://www.quantum-espresso.org/pseudopotentials/original-qe-pp-library"
+msgstr ""
+
+#: ../../link.rst:49
+msgid "|lsquo|\\ pw.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ pw.x\\ |rsquo| manual"
+
+#: ../../link.rst:49
+msgid "https://www.quantum-espresso.org/Doc/INPUT_PW.html"
+msgstr ""
+
+#: ../../link.rst:52
+msgid "|lsquo|\\ pp.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ pp.x\\ |rsquo| manual"
+
+#: ../../link.rst:52
+msgid "https://www.quantum-espresso.org/Doc/INPUT_PP.html"
+msgstr ""
+
+#: ../../link.rst:55
+msgid "|lsquo|\\ dos.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ dos.x\\ |rsquo| manual"
+
+#: ../../link.rst:55
+msgid "https://www.quantum-espresso.org/Doc/INPUT_DOS.html"
+msgstr ""
+
+#: ../../link.rst:58
+msgid "|lsquo|\\ projwfc.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ projwfc.x\\ |rsquo| manual"
+
+#: ../../link.rst:58
+msgid "https://www.quantum-espresso.org/Doc/INPUT_PROJWFC.html"
+msgstr ""
+
+#: ../../link.rst:61
+msgid "|lsquo|\\ band.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ band.x\\ |rsquo| manual"
+
+#: ../../link.rst:61
+msgid "https://www.quantum-espresso.org/Doc/INPUT_BANDS.html"
+msgstr ""
+
+#: ../../link.rst:64
+msgid "|lsquo|\\ cp.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ cp.x\\ |rsquo| manual"
+
+#: ../../link.rst:64
+msgid "https://www.quantum-espresso.org/Doc/INPUT_CP.html"
 msgstr ""
 
 #: ../../link.rst:67
+msgid "|lsquo|\\ turbo_lanczos.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ turbo_lanczos.x\\ |rsquo| manual"
+
+#: ../../link.rst:67
+msgid "https://www.quantum-espresso.org/Doc/INPUT_Lanczos.html"
+msgstr ""
+
+#: ../../link.rst:70
+msgid "|lsquo|\\ turbo_eels.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ turbo_eels.x\\ |rsquo| manual"
+
+#: ../../link.rst:70
+msgid "https://www.quantum-espresso.org/Doc/INPUT_EELS.html"
+msgstr ""
+
+#: ../../link.rst:73
+msgid "|lsquo|\\ turbo_spectrum.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ turbo_spectrum.x\\ |rsquo| manual"
+
+#: ../../link.rst:73
+msgid "https://www.quantum-espresso.org/Doc/INPUT_Spectrum.html"
+msgstr ""
+
+#: ../../link.rst:76
+msgid "|lsquo|\\ ph.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ ph.x\\ |rsquo| manual"
+
+#: ../../link.rst:76
+msgid "https://www.quantum-espresso.org/Doc/INPUT_PH.html"
+msgstr ""
+
+#: ../../link.rst:79
+msgid "|lsquo|\\ dynmat.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ dynmat.x\\ |rsquo| manual"
+
+#: ../../link.rst:79
+msgid "https://www.quantum-espresso.org/Doc/INPUT_DYNMAT.html"
+msgstr ""
+
+#: ../../link.rst:82
+msgid "|lsquo|\\ neb.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ neb.x\\ |rsquo| manual"
+
+#: ../../link.rst:82
+msgid "https://www.quantum-espresso.org/Doc/INPUT_NEB.html"
+msgstr ""
+
+#: ../../link.rst:85
+msgid "アドバンスソフト改修版Quantum ESPRESSOソースコード"
+msgstr "Source code of Quantum ESPRESSO modified by AdvanceSoft"
+
+#: ../../link.rst:85
+msgid "https://github.com/advancesoftcorp/espresso"
+msgstr ""
+
+#: ../../link.rst:88
+msgid "LAMMPS"
+msgstr ""
+
+#: ../../link.rst:91
+msgid "LAMMPSホームページ"
+msgstr "LAMMPS home page"
+
+#: ../../link.rst:91
+msgid "https://www.lammps.org/"
+msgstr ""
+
+#: ../../link.rst:94
+msgid "https://docs.lammps.org/Manual.html"
+msgstr ""
+
+#: ../../link.rst:97
+msgid "アドバンスソフト改修版LAMMPSソースコード"
+msgstr "Source code of LAMMPS modified by AdvanceSoft"
+
+#: ../../link.rst:97
+msgid "https://github.com/advancesoftcorp/lammps"
+msgstr ""
+
+#: ../../link.rst:102
 msgid "材料データベース"
 msgstr "Materials database"
 
-#: ../../link.rst:70
+#: ../../link.rst:105
 msgid "Materials Project"
 msgstr ""
 
-#: ../../link.rst:70
+#: ../../link.rst:105
 msgid "https://materialsproject.org/"
 msgstr ""
 
-#: ../../link.rst:73
+#: ../../link.rst:108
 msgid "PubChem"
 msgstr ""
 
-#: ../../link.rst:73
+#: ../../link.rst:108
 msgid "https://pubchem.ncbi.nlm.nih.gov/"
 msgstr ""
 

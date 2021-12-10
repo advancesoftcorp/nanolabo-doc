@@ -83,9 +83,9 @@
    | オプションLPサポート\ |sheart|         |          50                    |   25                          |
    +----------------------------------------+--------------------------------+-------------------------------+
 
-|sspade| `Quantum ESPRESSO <http://www.quantum-espresso.org/>`_\ の技術サポートです。
+|sspade| `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_\ の技術サポートです。
 
-|sheart| `LAMMPS <http://lammps.sandia.gov/>`_\ の技術サポートです。
+|sheart| `LAMMPS <https://www.lammps.org/>`_\ の技術サポートです。
 
 .. |sspade| raw:: html
 

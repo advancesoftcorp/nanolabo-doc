@@ -82,7 +82,7 @@
    | 物質名（英語）                 | methyl isocyanate                             |
    +--------------------------------+-----------------------------------------------+
 
-.. _SMILES: http://www.daylight.com/smiles/index.html
+.. _SMILES: https://www.daylight.com/smiles/index.html
 
 :guilabel:`Materials Finder` と書かれた部分をクリックすることで、説明が表示されます。Materials Projectのアカウントをお持ちの場合、ここで\ `APIキー <https://materialsproject.org/open>`_\ を設定することで、基本単位胞／慣用単位胞のどちらを取得するか選択できるようになります。
 
@@ -91,7 +91,7 @@
 分子作成
 -----------------------
 
-分子エディタ―\ `JSME <http://peter-ertl.com/jsme/>`_\ を使用し、作図した構造をそのままモデルとして使用できます。
+分子エディタ―\ `JSME <https://jsme-editor.github.io/>`_\ を使用し、作図した構造をそのままモデルとして使用できます。
 
 .. _shortcutkeys_initial:
 
