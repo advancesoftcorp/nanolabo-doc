@@ -186,3 +186,10 @@ Calculation of Q.E.
 .. |Delta| raw:: html
 
  &Delta;
+
+.. _grand_neumd_import:
+
+教師データ・テストデータのインポート
+------------------------------------------
+
+既に計算済みの教師データ( :file:`sannp.train` )・テストデータ( :file:`sannp.test` )をグランドプロジェクトにインポートするには、画面右側の :guilabel:`Open Project of NNP` をクリックしてNNPの設定画面を開き、左下メニューの :guilabel:`Import TRAIN-data` または :guilabel:`Import TEST-data` からインポートするファイルを選択してください。グランドプロジェクトに含まれるデータを入れ替えるか、データを残して追加するかをダイアログで選択します。

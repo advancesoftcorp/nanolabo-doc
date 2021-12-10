@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-09 17:26+0900\n"
+"POT-Creation-Date: 2021-12-10 14:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1417,6 +1417,23 @@ msgstr ""
 "clicking :guilabel:`Start Testing NNP` on :guilabel:`Testing Neural "
 "Network Potential`\\ . The result can be checked by :guilabel:`Tested` "
 "button in the Result screen."
+
+#: ../../usage/grandproject.rst:193
+msgid "教師データ・テストデータのインポート"
+msgstr "Importing training data / testing data"
+
+#: ../../usage/grandproject.rst:195
+msgid ""
+"既に計算済みの教師データ( :file:`sannp.train` )・テストデータ( :file:`sannp.test` "
+")をグランドプロジェクトにインポートするには、画面右側の :guilabel:`Open Project of NNP` "
+"をクリックしてNNPの設定画面を開き、左下メニューの :guilabel:`Import TRAIN-data` または "
+":guilabel:`Import TEST-data` "
+"からインポートするファイルを選択してください。グランドプロジェクトに含まれるデータを入れ替えるか、データを残して追加するかをダイアログで選択します。"
+msgstr ""
+"To import existing training data ( :file:`sannp.train` ) / testing data ( :file:`sannp.test` ) to the grand-project, "
+"open the NNP setting screen by clicking :guilabel:`Open Project of NNP` and choose the file to import by "
+":guilabel:`Import TRAIN-data` or :guilabel:`Import TEST-data` in the lower left menu. "
+"You can choose on a dialog whether to replace the data in the grand-project, or leave the data and append to it."
 
 #: ../../usage/initial.rst:5
 msgid "画面の構成"
