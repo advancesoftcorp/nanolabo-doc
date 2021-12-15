@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-10 17:07+0900\n"
+"POT-Creation-Date: 2021-12-15 16:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -502,8 +502,8 @@ msgid ""
 "（\\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_\\ "
 "のみ）計算エンジンでどの計算を行うか選択します。"
 msgstr ""
-"(\\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_ only) Choose a"
-" calculation type to be run by the calculation engine."
+"(\\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_ only) Choose "
+"a calculation type to be run by the calculation engine."
 
 #: ../../usage/calculation.rst:17 ../../usage/sshserver.rst:30
 msgid "Host Name"
@@ -933,12 +933,12 @@ msgid "貼り付け"
 msgstr "Paste"
 
 #: ../../usage/explorer.rst:153
-msgid "頭文字で検索"
-msgstr "Search by initial letter"
+msgid "インクリメンタル検索"
+msgstr "Incremental search"
 
 #: ../../usage/explorer.rst:153
-msgid "頭文字のキー"
-msgstr "initial letter key"
+msgid "検索文字列"
+msgstr "search string"
 
 #: ../../usage/grandproject.rst:141
 msgid "メトロポリス法の使い方"
@@ -1641,7 +1641,8 @@ msgid ""
 "分子エディタ―\\ `JSME <https://jsme-editor.github.io/>`_\\ "
 "を使用し、作図した構造をそのままモデルとして使用できます。"
 msgstr ""
-"Draw a molecule structure using the molecular editor `JSME <https://jsme-editor.github.io/>`_\\ , and use it as the model."
+"Draw a molecule structure using the molecular editor `JSME <https://jsme-"
+"editor.github.io/>`_\\ , and use it as the model."
 
 #: ../../usage/initial.rst:107
 msgid "タブを閉じる"
@@ -2835,8 +2836,8 @@ msgid ""
 "エディターの使用方法については、JSMEの\\ `ヘルプ <https://jsme-"
 "editor.github.io/help.html>`_\\ を参照してください。"
 msgstr ""
-"Please refer to JSME `Help <https://jsme-"
-"editor.github.io/help.html>`_ for the usage of the editor."
+"Please refer to JSME `Help <https://jsme-editor.github.io/help.html>`_ "
+"for the usage of the editor."
 
 #: ../../usage/modeler.rst:213
 msgid "左下の戻るボタン |back| をクリックすると、作図した構造が確定され、モデラ―画面に戻ります。このとき前のモデルは上書きされます。"
