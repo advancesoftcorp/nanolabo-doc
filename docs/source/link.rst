@@ -96,6 +96,15 @@ LAMMPSホームページ
 アドバンスソフト改修版LAMMPSソースコード
  https://github.com/advancesoftcorp/lammps
 
+Open Catalyst Project
+========================
+
+Open Catalyst Projectホームページ
+ https://opencatalystproject.org/
+
+Gitリポジトリ
+ https://github.com/Open-Catalyst-Project/ocp
+
 .. _materialsdb:
 
 材料データベース
