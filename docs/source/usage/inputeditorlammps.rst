@@ -34,6 +34,23 @@ OPLS-AA
 
 .. image:: /img/opls.png
 
+NeuralMD
+-----------
+
+:guilabel:`Atomic Energy` を :guilabel:`without bias` に設定することで、LAMMPS実行時に最終層のバイアス項を0にし、原子エネルギーの平準化を図る機能が有効になります。
+
+Open Catalyst 2020
+---------------------
+
+`Open Catalyst Project <https://opencatalystproject.org>`_ で公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。
+
+LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要です。
+
+.. toctree::
+   :maxdepth: 1
+
+   Python環境の設定方法<ocp>
+
 .. _scheme:
 
 Scheme（計算過程）
@@ -58,5 +75,7 @@ Scheme（計算過程）
 追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` ウィンドウが表示され、設定を編集できます。
 
 また、 :guilabel:`Statistical Properties` の各項目を :guilabel:`yes` に設定することで、統計量（熱伝導率、粘性係数、拡散係数、動径分布関数(RDF)）が計算され、結果画面に表示されます。
+
+各熱力学量や原子構造は毎ステップではなく、間を空けて出力されます。 :guilabel:`Interval to Print Logs` で出力の間隔をステップ数で設定できます。
 
 .. image:: /img/scheme.png
