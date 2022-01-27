@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-10 17:07+0900\n"
+"POT-Creation-Date: 2022-01-27 16:47+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,23 +238,43 @@ msgstr "Source code of LAMMPS modified by AdvanceSoft"
 msgid "https://github.com/advancesoftcorp/lammps"
 msgstr ""
 
-#: ../../link.rst:102
+#: ../../link.rst:100
+msgid "Open Catalyst Project"
+msgstr ""
+
+#: ../../link.rst:103
+msgid "Open Catalyst Projectホームページ"
+msgstr "Open Catalyst Project home page"
+
+#: ../../link.rst:103
+msgid "https://opencatalystproject.org/"
+msgstr ""
+
+#: ../../link.rst:106
+msgid "Gitリポジトリ"
+msgstr "Git repository"
+
+#: ../../link.rst:106
+msgid "https://github.com/Open-Catalyst-Project/ocp"
+msgstr ""
+
+#: ../../link.rst:111
 msgid "材料データベース"
 msgstr "Materials database"
 
-#: ../../link.rst:105
+#: ../../link.rst:114
 msgid "Materials Project"
 msgstr ""
 
-#: ../../link.rst:105
+#: ../../link.rst:114
 msgid "https://materialsproject.org/"
 msgstr ""
 
-#: ../../link.rst:108
+#: ../../link.rst:117
 msgid "PubChem"
 msgstr ""
 
-#: ../../link.rst:108
+#: ../../link.rst:117
 msgid "https://pubchem.ncbi.nlm.nih.gov/"
 msgstr ""
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-15 16:03+0900\n"
+"POT-Creation-Date: 2022-01-27 16:47+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,8 @@ msgid "視点の操作"
 msgstr "Viewpoint manipulation"
 
 #: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:87
-#: ../../usage/atomsviewer.rst:128 ../../usage/atomsviewer.rst:154
-#: ../../usage/atomsviewer.rst:176 ../../usage/explorer.rst:135
+#: ../../usage/atomsviewer.rst:128 ../../usage/atomsviewer.rst:152
+#: ../../usage/atomsviewer.rst:174 ../../usage/explorer.rst:135
 #: ../../usage/grandproject.rst:93 ../../usage/initial.rst:105
 #: ../../usage/project.rst:92
 msgid "操作"
@@ -56,7 +56,7 @@ msgid "キーボード"
 msgstr "Keyboard"
 
 #: ../../usage/atomsviewer.rst:20 ../../usage/atomsviewer.rst:89
-#: ../../usage/atomsviewer.rst:156
+#: ../../usage/atomsviewer.rst:154
 msgid "回転"
 msgstr "Rotation"
 
@@ -65,12 +65,12 @@ msgid "ドラッグ"
 msgstr "Drag"
 
 #: ../../usage/atomsviewer.rst:20 ../../usage/atomsviewer.rst:89
-#: ../../usage/atomsviewer.rst:156
+#: ../../usage/atomsviewer.rst:154
 msgid "矢印キー"
 msgstr "Arrow key"
 
 #: ../../usage/atomsviewer.rst:22 ../../usage/atomsviewer.rst:91
-#: ../../usage/atomsviewer.rst:158
+#: ../../usage/atomsviewer.rst:156
 msgid "（:kbd:`Ctrl` + 矢印キーで微調整）"
 msgstr "(:kbd:`Ctrl` + Arrow key to fine-tune)"
 
@@ -115,21 +115,21 @@ msgid "（:kbd:`Ctrl` + :kbd:`Shift` + 矢印キーで微調整）"
 msgstr "(:kbd:`Ctrl` + :kbd:`Shift` + Arrow key to fine-tune)"
 
 #: ../../usage/atomsviewer.rst:32 ../../usage/atomsviewer.rst:93
-#: ../../usage/atomsviewer.rst:160
+#: ../../usage/atomsviewer.rst:158
 msgid "リセット"
 msgstr "Reset"
 
 #: ../../usage/atomsviewer.rst:32 ../../usage/atomsviewer.rst:93
-#: ../../usage/atomsviewer.rst:160
+#: ../../usage/atomsviewer.rst:158
 msgid ":kbd:`0`"
 msgstr ""
 
 #: ../../usage/atomsviewer.rst:34 ../../usage/atomsviewer.rst:95
-#: ../../usage/atomsviewer.rst:162
+#: ../../usage/atomsviewer.rst:160
 msgid ":kbd:`1`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:36 ../../usage/atomsviewer.rst:182
+#: ../../usage/atomsviewer.rst:36 ../../usage/atomsviewer.rst:180
 msgid ":kbd:`Backspace`"
 msgstr ""
 
@@ -166,7 +166,7 @@ msgstr ""
 
 #: ../../usage/atomsviewer.rst:49 ../../usage/explorer.rst:52
 #: ../../usage/modeler.rst:148 ../../usage/result.rst:13
-#: ../../usage/resultpdos.rst:37 ../../usage/webbrowser.rst:11
+#: ../../usage/resultpdos.rst:37 ../../usage/webbrowser.rst:13
 msgid "back"
 msgstr ""
 
@@ -288,48 +288,40 @@ msgid ":kbd:`Ctrl` + ドラッグ"
 msgstr ":kbd:`Ctrl` + drag"
 
 #: ../../usage/atomsviewer.rst:132
-msgid "矩形選択解除"
-msgstr "Rectangle deselect"
-
-#: ../../usage/atomsviewer.rst:132
-msgid ":kbd:`Ctrl` + 右ドラッグ"
-msgstr ":kbd:`Ctrl` + right drag"
-
-#: ../../usage/atomsviewer.rst:134
 msgid "個々の原子を選択・選択解除"
 msgstr "Individual select / deselect"
 
-#: ../../usage/atomsviewer.rst:134
+#: ../../usage/atomsviewer.rst:132
 msgid "ダブルクリック"
 msgstr "double click"
 
-#: ../../usage/atomsviewer.rst:136 ../../usage/atomsviewer.rst:178
+#: ../../usage/atomsviewer.rst:134 ../../usage/atomsviewer.rst:176
 #: ../../usage/explorer.rst:139
 msgid "全選択"
 msgstr "Select all"
 
-#: ../../usage/atomsviewer.rst:136
+#: ../../usage/atomsviewer.rst:134
 msgid ":menuselection:`右クリックメニュー --> Select all atoms`"
 msgstr ":menuselection:`right click menu --> Not select any atoms`"
 
-#: ../../usage/atomsviewer.rst:138 ../../usage/atomsviewer.rst:180
+#: ../../usage/atomsviewer.rst:136 ../../usage/atomsviewer.rst:178
 #: ../../usage/explorer.rst:141
 msgid "全選択解除"
 msgstr "Deselect all"
 
-#: ../../usage/atomsviewer.rst:138
+#: ../../usage/atomsviewer.rst:136
 msgid ":menuselection:`右クリックメニュー --> Not select any atoms`"
 msgstr ":menuselection:`right click menu --> Not select any atoms`"
 
-#: ../../usage/atomsviewer.rst:144
+#: ../../usage/atomsviewer.rst:142
 msgid "原子の回転移動"
 msgstr "Rotating atom"
 
-#: ../../usage/atomsviewer.rst:146
+#: ../../usage/atomsviewer.rst:144
 msgid "回転移動したい原子を選択します。"
 msgstr "Select the atom(s) you'd like to rotate."
 
-#: ../../usage/atomsviewer.rst:147
+#: ../../usage/atomsviewer.rst:145
 msgid ""
 "回転の中心となる原子を右クリックし、メニューから :guilabel:`Rotate selected atoms` "
 "をクリックします。回転の中心は1.で選択した中の原子でも、他の原子でも構いません。"
@@ -338,118 +330,118 @@ msgstr ""
 ":guilabel:`Rotate selected atoms` from the menu. You can choose the "
 "center atom either from atoms selected at 1. or from other atoms."
 
-#: ../../usage/atomsviewer.rst:148
+#: ../../usage/atomsviewer.rst:146
 msgid "球が表示されますので、ドラッグして回転移動を行います。キーボードによる操作もできます。"
 msgstr ""
 "A sphere is shown. Drag it to perform rotation. You can also use the "
 "keyboard."
 
-#: ../../usage/atomsviewer.rst:165
+#: ../../usage/atomsviewer.rst:163
 msgid ":kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr "Press :kbd:`Esc` key to fix the position."
 
-#: ../../usage/atomsviewer.rst:170 ../../usage/explorer.rst:129
+#: ../../usage/atomsviewer.rst:168 ../../usage/explorer.rst:129
 #: ../../usage/initial.rst:99 ../../usage/project.rst:86
 msgid "ショートカットキー一覧"
 msgstr "Shortcut keys list"
 
-#: ../../usage/atomsviewer.rst:178 ../../usage/explorer.rst:139
+#: ../../usage/atomsviewer.rst:176 ../../usage/explorer.rst:139
 msgid ":kbd:`Ctrl` + :kbd:`A`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:180 ../../usage/explorer.rst:141
+#: ../../usage/atomsviewer.rst:178 ../../usage/explorer.rst:141
 msgid ":kbd:`Esc`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:184 ../../usage/explorer.rst:143
+#: ../../usage/atomsviewer.rst:182 ../../usage/explorer.rst:143
 #: ../../usage/grandproject.rst:99
 msgid "削除"
 msgstr "Delete"
 
-#: ../../usage/atomsviewer.rst:184 ../../usage/explorer.rst:143
+#: ../../usage/atomsviewer.rst:182 ../../usage/explorer.rst:143
 #: ../../usage/grandproject.rst:99
 msgid ":kbd:`Ctrl` + :kbd:`D`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:186
+#: ../../usage/atomsviewer.rst:184
 msgid ":kbd:`Delete`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:188
+#: ../../usage/atomsviewer.rst:186
 msgid "変更"
 msgstr "Change"
 
-#: ../../usage/atomsviewer.rst:188
+#: ../../usage/atomsviewer.rst:186
 msgid ":kbd:`Ctrl` + :kbd:`R`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:190 ../../usage/explorer.rst:145
+#: ../../usage/atomsviewer.rst:188 ../../usage/explorer.rst:145
 #: ../../usage/grandproject.rst:101
 msgid ":kbd:`F2`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:192 ../../usage/explorer.rst:147
+#: ../../usage/atomsviewer.rst:190 ../../usage/explorer.rst:147
 msgid "切り取り"
 msgstr "Cut"
 
-#: ../../usage/atomsviewer.rst:192 ../../usage/explorer.rst:147
+#: ../../usage/atomsviewer.rst:190 ../../usage/explorer.rst:147
 msgid ":kbd:`Ctrl` + :kbd:`X`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:194 ../../usage/explorer.rst:149
+#: ../../usage/atomsviewer.rst:192 ../../usage/explorer.rst:149
 #: ../../usage/grandproject.rst:95
 msgid "コピー"
 msgstr "Copy"
 
-#: ../../usage/atomsviewer.rst:194 ../../usage/explorer.rst:149
+#: ../../usage/atomsviewer.rst:192 ../../usage/explorer.rst:149
 #: ../../usage/grandproject.rst:95
 msgid ":kbd:`Ctrl` + :kbd:`C`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:196
+#: ../../usage/atomsviewer.rst:194
 msgid "貼り付け\\ `*`:sup:"
 msgstr "Paste\\ `*`:sup:"
 
-#: ../../usage/atomsviewer.rst:196 ../../usage/explorer.rst:151
+#: ../../usage/atomsviewer.rst:194 ../../usage/explorer.rst:151
 #: ../../usage/grandproject.rst:97
 msgid ":kbd:`Ctrl` + :kbd:`V`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:198
+#: ../../usage/atomsviewer.rst:196
 msgid "アンドゥ（直前の操作の取り消し）"
 msgstr "Undo"
 
-#: ../../usage/atomsviewer.rst:198
+#: ../../usage/atomsviewer.rst:196
 msgid ":kbd:`Ctrl` + :kbd:`Z`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:200
+#: ../../usage/atomsviewer.rst:198
 msgid "リドゥ（取り消した操作のやり直し）"
 msgstr "Redo"
 
-#: ../../usage/atomsviewer.rst:200
+#: ../../usage/atomsviewer.rst:198
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`Z`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:203
+#: ../../usage/atomsviewer.rst:201
 msgid "`*`:sup: マウスカーソルのある位置に貼り付けられます。"
 msgstr "`*`:sup: pasted at where the mouse cursor is located."
 
-#: ../../usage/atomsviewer.rst:208
+#: ../../usage/atomsviewer.rst:206
 msgid "空間群の判定"
 msgstr "Detect space group"
 
-#: ../../usage/atomsviewer.rst:210
+#: ../../usage/atomsviewer.rst:208
 msgid "右クリックメニューの :guilabel:`Detect space group` をクリックすると、モデルの原子構造の属する空間群を表示します。"
 msgstr ""
 "In the right click menu, click :guilabel:`Detect space group` to display "
 "the space group to which the atomic structure of the model belongs."
 
-#: ../../usage/atomsviewer.rst:215
+#: ../../usage/atomsviewer.rst:213
 msgid "幾何学的情報の表示"
 msgstr "Display geometric information"
 
-#: ../../usage/atomsviewer.rst:217
+#: ../../usage/atomsviewer.rst:215
 msgid ""
 "選択した原子の結合長・結合角・二面角を測定する機能です。右クリックメニューの :guilabel:`Geometric Information` "
 "をクリックすると、小さいウィンドウが表示されます。"
@@ -458,7 +450,7 @@ msgstr ""
 "selected atoms. In the right click menu, click :guilabel:`Geometric "
 "Information` and a small window appears."
 
-#: ../../usage/atomsviewer.rst:219
+#: ../../usage/atomsviewer.rst:217
 msgid ""
 "原子をダブルクリックで選択していくと、 :guilabel:`Selected Atoms` "
 "のa、b、c、dに順に設定されます。同時に、対応する結合長（a-b間、b-c間、c-d間）、結合角（∠abc、∠bcd）、二面角（a・b・cを含む平面とb・c・dを含む平面がなす角）が下に表示されます。"
@@ -468,17 +460,17 @@ msgstr ""
 "c-d), bond angle (∠abc and ∠bcd) and dihedral angle (between the plane "
 "containing a, b, c and the plane containing b, c, d) are displayed below."
 
-#: ../../usage/atomsviewer.rst:226
+#: ../../usage/atomsviewer.rst:224
 msgid "原子構造のエクスポート"
 msgstr "Export atomic configuration"
 
-#: ../../usage/atomsviewer.rst:228
+#: ../../usage/atomsviewer.rst:226
 msgid ""
 "右クリックメニューの :guilabel:`Export atomic configuration` "
-"をクリックすると、モデルの原子構造をCIFファイル・XYZファイルとしてエクスポートできます。"
+"をクリックすると、モデルの原子構造をCIFファイル・XYZファイル・POSCARファイル（VASP形式）としてエクスポートできます。"
 msgstr ""
 "In the right click menu, click :guilabel:`Export atomic configuration` to"
-" export the atomic configuration of the model as CIF or XYZ file."
+" export the atomic configuration of the model as CIF, XYZ or POSCAR(VASP format) file."
 
 #: ../../usage/calculation.rst:5
 msgid "計算実行"
@@ -748,7 +740,7 @@ msgstr ""
 "displayed locations. Click up button |up| to go to the parent folder "
 "(directory)."
 
-#: ../../usage/explorer.rst:53 ../../usage/webbrowser.rst:12
+#: ../../usage/explorer.rst:53 ../../usage/webbrowser.rst:14
 msgid "fwd"
 msgstr ""
 
@@ -975,6 +967,7 @@ msgstr ""
 "Project` to be created."
 
 #: ../../usage/grandproject.rst:21 ../../usage/grandproject.rst:33
+#: ../../usage/inputeditorlammps.rst:38
 msgid "NeuralMD"
 msgstr ""
 
@@ -1437,6 +1430,22 @@ msgstr ""
 "lower left menu. You can choose on a dialog whether to replace the data "
 "in the grand-project, or leave the data and append to it."
 
+#: ../../usage/grandproject.rst:200
+msgid "教師データの分割"
+msgstr "Splitting training data"
+
+#: ../../usage/grandproject.rst:202
+msgid ""
+"グランドプロジェクトにある教師データを分割し、一部をテストデータにすることができます。NNPの設定画面で左下メニューの "
+":guilabel:`Split TRAIN-data` "
+"をクリックすると、テストデータとして分割する割合を指定するダイアログが表示されます。グランドプロジェクトに既にテストデータがある場合は、上書きするかどうかの確認が表示されます。"
+msgstr ""
+"You can split training data in the grand-project and turn part of them "
+"into test data. On the NNP setting screen, click :guilabel:`Split TRAIN-"
+"data` in the lower left menu, and a dialog to specify the ratio to be "
+"split as test data is shown. If there is already test data in the grand-"
+"project, a confirmation whether to overwrite it will be shown."
+
 #: ../../usage/initial.rst:5
 msgid "画面の構成"
 msgstr "User Interface Overview"
@@ -1528,8 +1537,10 @@ msgid ":guilabel:`Properties`"
 msgstr ""
 
 #: ../../usage/initial.rst:50
-msgid "テキストエディターや各計算エンジンのパスを設定します。"
-msgstr "Set the path of text editor / calculation engines."
+msgid "本体(Java VM)のメモリ使用量や、テキストエディター・各計算エンジンのパス等を設定します。"
+msgstr ""
+"Set memory usage (Java VM), the path of text editor / calculation engines"
+" etc."
 
 #: ../../usage/initial.rst:52
 msgid ":guilabel:`Job Manager`"
@@ -1683,7 +1694,7 @@ msgstr ""
 "Then, set the appropriate values referring to the calculation engine "
 "manual."
 
-#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:44
+#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:61
 #: ../../usage/inputeditorqe.rst:3 ../../usage/project.rst:24
 msgid "editormenuicon"
 msgstr ""
@@ -1824,6 +1835,10 @@ msgstr ""
 "mobile along X/Y/Z direction from the right click menu of the rows of "
 "atoms."
 
+#: ../../usage/inputeditorlammps.rst:49
+msgid "Python環境の設定方法"
+msgstr "Setting Python environment"
+
 #: ../../usage/inputeditorlammps.rst:5
 msgid "入力ファイルエディター（LAMMPS固有の設定）"
 msgstr "Input File Editor (LAMMPS specific settings)"
@@ -1908,10 +1923,30 @@ msgstr ""
 "check the detail of the assignment."
 
 #: ../../usage/inputeditorlammps.rst:40
+msgid ""
+":guilabel:`Atomic Energy` を :guilabel:`without bias` "
+"に設定することで、LAMMPS実行時に最終層のバイアス項を0にし、原子エネルギーの平準化を図る機能が有効になります。"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:43
+msgid "Open Catalyst 2020"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:45
+msgid ""
+"`Open Catalyst Project <https://opencatalystproject.org>`_ "
+"で公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。"
+msgstr "Use pretrained versatile force field based on graph neural network, published in `Open Catalyst Project <https://opencatalystproject.org>`_\\ ."
+
+#: ../../usage/inputeditorlammps.rst:47
+msgid "LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要です。"
+msgstr "As it is executed by calling Python from LAMMPS, Python environment must be set up beforehand."
+
+#: ../../usage/inputeditorlammps.rst:57
 msgid "Scheme（計算過程）"
 msgstr "Scheme"
 
-#: ../../usage/inputeditorlammps.rst:42
+#: ../../usage/inputeditorlammps.rst:59
 msgid ""
 "入力ファイルエディターの :guilabel:`Scheme` で計算過程の設定を行います。画面右下のメニュー |editormenuicon| "
 "から :guilabel:`Scheme` をクリックしてください。"
@@ -1920,7 +1955,7 @@ msgstr ""
 " editor. Click :guilabel:`Scheme` from the menu |editormenuicon| on the "
 "lower right."
 
-#: ../../usage/inputeditorlammps.rst:46
+#: ../../usage/inputeditorlammps.rst:63
 msgid ""
 "画面右側の :guilabel:`Set Scheme` で計算の設定を行い、 :guilabel:`Add Scheme` の "
 ":guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| "
@@ -1931,7 +1966,7 @@ msgstr ""
 "the setting on the left side of the window as a tile. Repeat configuring "
 "|rarr| :guilabel:`Apply` to add processes as many times as necessary."
 
-#: ../../usage/inputeditorlammps.rst:52
+#: ../../usage/inputeditorlammps.rst:69
 msgid ""
 "タイルの左上の数字が過程の実行される順番です。前へボタン |lpback| 、後へボタン |lpfwd| で順番を入れ替えます。削除ボタン "
 "|lpdel| で削除します。"
@@ -1940,19 +1975,19 @@ msgstr ""
 " process is executed. Use back button |lpback| and forward button |lpfwd|"
 " to change the order. Delete it by delete button |lpdel| ."
 
-#: ../../usage/inputeditorlammps.rst:54
+#: ../../usage/inputeditorlammps.rst:71
 msgid "lpback"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:55
+#: ../../usage/inputeditorlammps.rst:72
 msgid "lpfwd"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:56
+#: ../../usage/inputeditorlammps.rst:73
 msgid "lpdel"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:58
+#: ../../usage/inputeditorlammps.rst:75
 msgid ""
 "追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` "
 "ウィンドウが表示され、設定を編集できます。"
@@ -1961,7 +1996,7 @@ msgstr ""
 ":guilabel:`Set the scheme` window is displayed and you can edit the "
 "settings."
 
-#: ../../usage/inputeditorlammps.rst:60
+#: ../../usage/inputeditorlammps.rst:77
 msgid ""
 "また、 :guilabel:`Statistical Properties` の各項目を :guilabel:`yes` "
 "に設定することで、統計量（熱伝導率、粘性係数、拡散係数、動径分布関数(RDF)）が計算され、結果画面に表示されます。"
@@ -1970,6 +2005,13 @@ msgstr ""
 ":guilabel:`yes`\\ , statistical quantities (thermal conductivity, "
 "viscosity coefficient, diffusion constant and radial distribution "
 "function (RDF)) are calculated and displayed in the result screen."
+
+#: ../../usage/inputeditorlammps.rst:79
+msgid ""
+"各熱力学量や原子構造は毎ステップではなく、間を空けて出力されます。 :guilabel:`Interval to Print Logs` "
+"で出力の間隔をステップ数で設定できます。"
+msgstr "Thermodynamic quantities and atomic structures are output not at every step but at some interval. "
+"You can set the output interval by :guilabel:`Interval to Print Logs` by step numbers."
 
 #: ../../usage/inputeditorqe.rst:12
 msgid "import"
@@ -2989,6 +3031,224 @@ msgstr ""
 "polymer modeler in that project. The polymers added by :guilabel:`Add "
 "Polymer` are packed into the empty space in the model."
 
+#: ../../usage/ocp.rst:5
+msgid "Open Catalyst Project汎用力場のためのPython設定"
+msgstr "Python setup for Open Catalyst Project versatile force field"
+
+#: ../../usage/ocp.rst:7
+msgid ""
+"Open Catalyst Projectで公開されている\\ `インストール手順 <https://github.com/Open-"
+"Catalyst-Project/ocp/tree/master#installation>`_\\ "
+"に沿って、LAMMPSから汎用力場を使うために必要な設定手順を説明します。"
+msgstr "Setup procedure required for using the versatile force field from LAMMPS is described here, "
+"based on the `installation procedure <https://github.com/Open-Catalyst-Project/ocp/tree/master#installation>`_ "
+"published by the Open Catalyst Project."
+
+#: ../../usage/ocp.rst:9
+msgid "実際に計算を行うマシン（計算サーバーにジョブ投入する場合には、その計算サーバー上）でインストールを行ってください。"
+msgstr "Perform the installation on the actual machine used for the calculation (e.g. if you will submit the job "
+"to the calculation server, install on the server)."
+
+#: ../../usage/ocp.rst:11
+msgid "（任意）CUDAの用意"
+msgstr "(Optional) Preparing CUDA"
+
+#: ../../usage/ocp.rst:13
+msgid "GPUを使って計算を行うには、CUDA Toolkitがインストールされている必要があります。"
+msgstr "To use GPU for the calculation, CUDA Tookit must be installed."
+
+#: ../../usage/ocp.rst:15
+msgid ""
+"NVIDIAの\\ `ダウンロードページ <https://developer.nvidia.com/cuda-toolkit-"
+"archive>`_\\ からCUDA Toolkit 10.2をダウンロードし、インストールしてください。"
+msgstr "Download CUDA Toolkit 10.2 from NVIDIA `download page <https://developer.nvidia.com/cuda-toolkit-archive>`_ "
+"and install it."
+
+#: ../../usage/ocp.rst:17
+msgid "NVIDIAドライバがインストールされていない場合は、そちらもインストールしてください。"
+msgstr "If NVIDIA driver is not installed, install it as well."
+
+#: ../../usage/ocp.rst:19
+msgid "conda環境の用意"
+msgstr "Preparing conda environment"
+
+#: ../../usage/ocp.rst:21
+msgid "Python環境としてcondaを使用します。現在condaをお使いでない場合は、必要最小限の構成であるMinicondaを推奨します。"
+msgstr "Conda is used as the Python environment. If you are not currently using conda, Miniconda, which has the minimum "
+"required configuration, is recommended."
+
+#: ../../usage/ocp.rst:23
+msgid ""
+"`Minicondaのページ <https://docs.conda.io/en/latest/miniconda.html>`_\\ "
+"からインストーラーをダウンロードし、インストールしてください。"
+msgstr "Download the installer form the `Miniconda page <https://docs.conda.io/en/latest/miniconda.html>`_ "
+"and install it."
+
+#: ../../usage/ocp.rst:25
+msgid ""
+"Windowsで環境変数 :envvar:`PATH` を変更しない設定でインストールした場合、以降の作業はスタートメニューからAnaconda "
+"Promptを起動して行ってください。"
+msgstr "On Windows, in case you install it without changing the :envvar:`PATH`\\ , launch Anaconda Prompt from the "
+"Start menu and use it for the following procedure."
+
+#: ../../usage/ocp.rst:27
+msgid "ocp-modelsリポジトリの用意"
+msgstr "Preparing ocp-models repository"
+
+#: ../../usage/ocp.rst:29
+msgid "gitコマンドが使える場合は"
+msgstr "If git command is available, run"
+
+#: ../../usage/ocp.rst:31
+msgid "git clone https://github.com/Open-Catalyst-Project/ocp.git"
+msgstr ""
+
+#: ../../usage/ocp.rst:35
+msgid ""
+"または https://github.com/Open-Catalyst-"
+"Project/ocp/archive/refs/heads/master.zip をダウンロード・解凍します。"
+msgstr "otherwise, download and extract https://github.com/Open-Catalyst-"
+"Project/ocp/archive/refs/heads/master.zip ."
+
+#: ../../usage/ocp.rst:37
+msgid "インストール"
+msgstr "Installation"
+
+#: ../../usage/ocp.rst:39
+msgid "リポジトリのフォルダに移動し、"
+msgstr "Go to the repository folder and run"
+
+#: ../../usage/ocp.rst:41
+msgid "pip install conda-merge"
+msgstr ""
+
+#: ../../usage/ocp.rst:45
+msgid "を実行します。次に、ocp-models仮想環境を作成します。"
+msgstr "Then create the ocp-models virtual environment:"
+
+#: ../../usage/ocp.rst:47
+msgid "CPUで計算を行う（GPUを使わない）場合"
+msgstr "Use CPU for calculation (do not use GPU)"
+
+#: ../../usage/ocp.rst:47
+msgid ""
+" conda-merge env.common.yml env.cpu.yml > env.yml\n"
+" conda env create -f env.yml\n"
+" conda activate ocp-models"
+msgstr ""
+
+#: ../../usage/ocp.rst:54
+msgid "GPUで計算を行う場合"
+msgstr "Use GPU for calculation"
+
+#: ../../usage/ocp.rst:54
+msgid ""
+" conda-merge env.common.yml env.gpu.yml > env.yml\n"
+" conda env create -f env.yml\n"
+" conda activate ocp-models"
+msgstr ""
+
+#: ../../usage/ocp.rst:61
+msgid "macOSで、かつCPUで計算を行う場合"
+msgstr "On macOS and use CPU for calculation"
+
+#: ../../usage/ocp.rst:61
+msgid ""
+" conda env create -f env.common.yml\n"
+" conda activate ocp-models\n"
+" MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ pip install torch-"
+"cluster torch-scatter torch-sparse torch-spline-conv -f https://pytorch-"
+"geometric.com/whl/torch-1.8.0+cpu.html"
+msgstr ""
+
+#: ../../usage/ocp.rst:68
+msgid "最後に"
+msgstr "Finally, run"
+
+#: ../../usage/ocp.rst:70
+msgid "pip install -e ."
+msgstr ""
+
+#: ../../usage/ocp.rst:74
+msgid "を実行してリポジトリの内容をパッケージとしてインストールします。"
+msgstr "to install the content of the repository as package."
+
+#: ../../usage/ocp.rst:78
+msgid "ここで作成したocp-models仮想環境を削除するには、"
+msgstr "To remove the ocp-models virtual environment created here, run"
+
+#: ../../usage/ocp.rst:80
+msgid ""
+"conda deactivate\n"
+"conda remove -n ocp-models --all"
+msgstr ""
+
+#: ../../usage/ocp.rst:85
+msgid "を実行します。"
+msgstr "\\ "
+
+#: ../../usage/ocp.rst:87
+msgid "学習済みのモデル（ptファイル）はNanoLabo Toolに同梱されているため、ダウンロードの手順を行う必要はありません。"
+msgstr "There is no need to do download procedure, as pretrained models (pt files) are included in the NanoLabo Tool."
+
+#: ../../usage/ocp.rst:89
+msgid "NanoLaboへの設定"
+msgstr "Configuring NanoLabo"
+
+#: ../../usage/ocp.rst:91
+msgid "ローカル（NanoLaboを使っているマシン）で実行する場合"
+msgstr "To run locally (on the machine running NanoLabo)"
+
+#: ../../usage/ocp.rst:93
+msgid ""
+":menuselection:`左上メニュー --> Properties --> Python` （またはForce Field設定画面の "
+":guilabel:`Setting Python` ボタン）でpython実行ファイルのパスを設定します。 "
+":file:`condaのインストール先/envs/ocp-models/python` にあります。"
+msgstr "Set the python executable path from :menuselection:`upper left menu --> Properties --> Python` "
+"(or :guilabel:`Setting Python` button in the Force Field setting screen). "
+"It is located at :file:`conda installation destination/envs/ocp-models/python`\\ ."
+
+#: ../../usage/ocp.rst:95
+msgid "リモート（計算サーバー等）で実行する場合"
+msgstr ""
+"To run remotely (on calculation server etc.)"
+
+#: ../../usage/ocp.rst:97
+msgid ""
+":menuselection:`左上メニュー --> Network --> SSH server` から、ジョブスクリプトにocp-"
+"models仮想環境を使うための設定を追加します。"
+msgstr ""
+"Add settings to use ocp-models virtual environment to the job script from "
+":menuselection:`upper left menu --> Network --> SSH server`\\ ."
+
+#: ../../usage/ocp.rst:99
+msgid ""
+". (condaのインストール先)/etc/profile.d/conda.sh\n"
+"conda activate ocp-models"
+msgstr ""
+". (conda installation destination)/etc/profile.d/conda.sh\n"
+"conda activate ocp-models"
+
+#: ../../usage/ocp.rst:104
+msgid ""
+"condaのインストール先が :file:`~/anaconda3` または :file:`~/miniconda3` "
+"の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、上記の設定のみで大丈夫です。"
+msgstr ""
+"In case conda is installed in :file:`~/anaconda3` or :file:`~/miniconda3`\\ , it works with autmatically added "
+":envvar:`LD_LIBRARY_PATH`\\ , therefore the above settings are sufficient."
+
+#: ../../usage/ocp.rst:106
+msgid "他の場所にインストールした場合は、加えて以下のように :envvar:`LD_LIBRARY_PATH` を追加してください。"
+msgstr "If installed in other location, in addition to above, add :envvar:`LD_LIBRARY_PATH` as below."
+
+#: ../../usage/ocp.rst:108
+msgid ""
+"export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-"
+"models/lib:$LD_LIBRARY_PATH"
+msgstr ""
+"export LD_LIBRARY_PATH=(conda installation destination)/envs/ocp-"
+"models/lib:$LD_LIBRARY_PATH"
+
 #: ../../usage/project.rst:5
 msgid "プロジェクト"
 msgstr "Project"
@@ -3745,19 +4005,23 @@ msgstr ""
 "URL of the webpage. The saved web pages are listed in :guilabel:`Web` in "
 "explorer."
 
-#: ../../usage/webbrowser.rst:13
+#: ../../usage/webbrowser.rst:15
 msgid "reload"
 msgstr ""
 
-#: ../../usage/webbrowser.rst:14
+#: ../../usage/webbrowser.rst:16
 msgid "favorite"
 msgstr ""
 
-#: ../../usage/webbrowser.rst:19
+#: ../../usage/webbrowser.rst:11
+msgid "タブをドラッグしてタブバーの外にドロップすると、外部ブラウザーでウェブページを開きます。"
+msgstr "When a tab is drag & dropped outside of the tab bar, the webpage is opened by external browser."
+
+#: ../../usage/webbrowser.rst:21
 msgid "構造情報ファイル・擬ポテンシャルファイルのダウンロード"
 msgstr "Downloading structure information file or pseudopotential file"
 
-#: ../../usage/webbrowser.rst:21
+#: ../../usage/webbrowser.rst:23
 msgid "構造情報ファイルや擬ポテンシャルファイルのダウンロードリンクをクリックすると、ダウンロードすると同時にポップアップウィンドウが開き、ファイルの情報を確認することができます。構造情報ファイルは3Dモデルが表示され、ダブルクリックするとそのまま解析を行うプロジェクト画面に移行できます。"
 msgstr ""
 "When you click a download link of the structure information file or the "
@@ -3766,7 +4030,7 @@ msgstr ""
 "file, the 3D model is displayed. Double click the model to open a new "
 "project view and start the analysis."
 
-#: ../../usage/webbrowser.rst:25
+#: ../../usage/webbrowser.rst:27
 msgid "ウェブブラウザーでダウンロードしたファイルは、エクスプローラーの :guilabel:`Downloads` で一覧表示できます。"
 msgstr ""
 "The files downloaded in web browser are listed in :guilabel:`Downloads` "
