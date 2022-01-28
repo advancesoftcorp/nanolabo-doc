@@ -44,7 +44,7 @@ Open Catalyst 2020
 
 `Open Catalyst Project <https://opencatalystproject.org>`_ で公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。
 
-LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要です。
+LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要です。また、MPI並列には非対応です。
 
 .. toctree::
    :maxdepth: 1
