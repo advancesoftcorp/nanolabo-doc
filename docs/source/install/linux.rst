@@ -117,6 +117,17 @@
 
  $ ./nanolabo.sh
 
+.. _fix3ddisplay:
+
+3Dモデルが表示されない場合
+--------------------------------
+
+Java VMの引数を追加することで表示が改善します。
+
+画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Java VM` を開き、 :guilabel:`Arguments for Java VM` に ``-Dprism.forceGPU=true`` を追加します。その後 :guilabel:`OK` をクリックしてNanoLaboを再起動してください。
+
+.. |mainmenuicon| image:: /img/mainmenuicon.png
+
 .. _upgradel:
 
 更新・アップグレード
