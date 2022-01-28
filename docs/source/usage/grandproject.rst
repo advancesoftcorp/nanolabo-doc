@@ -38,7 +38,7 @@ NeuralMD
 
  NeuralMDの実行ファイルはNanoLabo Toolに含まれているため、インストールを別途行う必要はありません。リモート実行時にも、他の計算エンジン（QE・LAMMPS）と同様、自動的に実行ファイルをサーバーに転送して実行します。
  
- - ローカル（NanoLaboを使っているマシン）で実行する場合は、 :menuselection:`左上メニュー --> Properties --> Advance/NeuralMD` でライセンスファイルの場所を設定してください。
+ - ローカル（NanoLaboを使っているマシン）で実行する場合は、 画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Advance/NeuralMD` でライセンスファイルの場所を設定してください。
 
  - リモート（計算サーバー等）で実行する場合は、ライセンスサーバーの設定が必要です。
 
@@ -49,6 +49,8 @@ NeuralMD
   - メトロポリス法による構造生成・ニューラルネットワークのテストについては、ライセンスは必要ありません。
 
  - macOSでNanoLaboをご使用の場合、リモート実行でNeuralMD連携機能をお使いいただけます（現在NeuralMD macOS版がリリースされていないため、ローカル実行はできません）。
+
+.. |mainmenuicon| image:: /img/mainmenuicon.png
 
 .. _grand_neumd_display:
 
