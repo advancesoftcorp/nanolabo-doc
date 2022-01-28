@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-27 16:47+0900\n"
+"POT-Creation-Date: 2022-01-28 22:40+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgstr "Viewpoint manipulation"
 #: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:87
 #: ../../usage/atomsviewer.rst:128 ../../usage/atomsviewer.rst:152
 #: ../../usage/atomsviewer.rst:174 ../../usage/explorer.rst:135
-#: ../../usage/grandproject.rst:93 ../../usage/initial.rst:105
+#: ../../usage/grandproject.rst:95 ../../usage/initial.rst:105
 #: ../../usage/project.rst:92
 msgid "操作"
 msgstr "Operation"
@@ -354,12 +354,12 @@ msgid ":kbd:`Esc`"
 msgstr ""
 
 #: ../../usage/atomsviewer.rst:182 ../../usage/explorer.rst:143
-#: ../../usage/grandproject.rst:99
+#: ../../usage/grandproject.rst:101
 msgid "削除"
 msgstr "Delete"
 
 #: ../../usage/atomsviewer.rst:182 ../../usage/explorer.rst:143
-#: ../../usage/grandproject.rst:99
+#: ../../usage/grandproject.rst:101
 msgid ":kbd:`Ctrl` + :kbd:`D`"
 msgstr ""
 
@@ -376,7 +376,7 @@ msgid ":kbd:`Ctrl` + :kbd:`R`"
 msgstr ""
 
 #: ../../usage/atomsviewer.rst:188 ../../usage/explorer.rst:145
-#: ../../usage/grandproject.rst:101
+#: ../../usage/grandproject.rst:103
 msgid ":kbd:`F2`"
 msgstr ""
 
@@ -389,12 +389,12 @@ msgid ":kbd:`Ctrl` + :kbd:`X`"
 msgstr ""
 
 #: ../../usage/atomsviewer.rst:192 ../../usage/explorer.rst:149
-#: ../../usage/grandproject.rst:95
+#: ../../usage/grandproject.rst:97
 msgid "コピー"
 msgstr "Copy"
 
 #: ../../usage/atomsviewer.rst:192 ../../usage/explorer.rst:149
-#: ../../usage/grandproject.rst:95
+#: ../../usage/grandproject.rst:97
 msgid ":kbd:`Ctrl` + :kbd:`C`"
 msgstr ""
 
@@ -403,7 +403,7 @@ msgid "貼り付け\\ `*`:sup:"
 msgstr "Paste\\ `*`:sup:"
 
 #: ../../usage/atomsviewer.rst:194 ../../usage/explorer.rst:151
-#: ../../usage/grandproject.rst:97
+#: ../../usage/grandproject.rst:99
 msgid ":kbd:`Ctrl` + :kbd:`V`"
 msgstr ""
 
@@ -470,7 +470,8 @@ msgid ""
 "をクリックすると、モデルの原子構造をCIFファイル・XYZファイル・POSCARファイル（VASP形式）としてエクスポートできます。"
 msgstr ""
 "In the right click menu, click :guilabel:`Export atomic configuration` to"
-" export the atomic configuration of the model as CIF, XYZ or POSCAR(VASP format) file."
+" export the atomic configuration of the model as CIF, XYZ or POSCAR(VASP "
+"format) file."
 
 #: ../../usage/calculation.rst:5
 msgid "計算実行"
@@ -916,11 +917,11 @@ msgstr "Open"
 msgid ":kbd:`Enter`"
 msgstr ""
 
-#: ../../usage/explorer.rst:145 ../../usage/grandproject.rst:101
+#: ../../usage/explorer.rst:145 ../../usage/grandproject.rst:103
 msgid "リネーム"
 msgstr "Rename"
 
-#: ../../usage/explorer.rst:151 ../../usage/grandproject.rst:97
+#: ../../usage/explorer.rst:151 ../../usage/grandproject.rst:99
 msgid "貼り付け"
 msgstr "Paste"
 
@@ -932,7 +933,7 @@ msgstr "Incremental search"
 msgid "検索文字列"
 msgstr "search string"
 
-#: ../../usage/grandproject.rst:141
+#: ../../usage/grandproject.rst:143
 msgid "メトロポリス法の使い方"
 msgstr "How to use Metropolis method"
 
@@ -1019,12 +1020,17 @@ msgstr ""
 
 #: ../../usage/grandproject.rst:41
 msgid ""
-"ローカル（NanoLaboを使っているマシン）で実行する場合は、 :menuselection:`左上メニュー --> Properties "
-"--> Advance/NeuralMD` でライセンスファイルの場所を設定してください。"
+"ローカル（NanoLaboを使っているマシン）で実行する場合は、 画面左上のアイコン |mainmenuicon| から "
+":menuselection:`Properties --> Advance/NeuralMD` でライセンスファイルの場所を設定してください。"
 msgstr ""
 "To execute it locally (on the same machine with NanoLabo), set the "
-"location of license file in :menuselection:`main menu on the upper left "
-"--> Properties --> Advance/NeuralMD`\\ ."
+"location of license file in :menuselection:`Properties --> Advance/NeuralMD` "
+"from the main menu |mainmenuicon| on the upper left."
+
+#: ../../usage/grandproject.rst:53 ../../usage/initial.rst:61
+#: ../../usage/ocp.rst:113 ../../usage/sshserver.rst:9
+msgid "mainmenuicon"
+msgstr ""
 
 #: ../../usage/grandproject.rst:43
 msgid "リモート（計算サーバー等）で実行する場合は、ライセンスサーバーの設定が必要です。"
@@ -1068,19 +1074,19 @@ msgstr ""
 "NeuralMD by remote execution (local execution cannot be used as macOS "
 "version of NeuralMD is currently not released)."
 
-#: ../../usage/grandproject.rst:56
+#: ../../usage/grandproject.rst:58
 msgid "画面構成"
 msgstr "User Interface Overview"
 
-#: ../../usage/grandproject.rst:63
+#: ../../usage/grandproject.rst:65
 msgid "簡単な使用例"
 msgstr "Brief usage example"
 
-#: ../../usage/grandproject.rst:65
+#: ../../usage/grandproject.rst:67
 msgid "カラム上部に元となる構造が表示されているのを確認します。"
 msgstr "Make sure the original geometry is shown at the top of the column."
 
-#: ../../usage/grandproject.rst:66
+#: ../../usage/grandproject.rst:68
 msgid ""
 ":guilabel:`Random Geometries #1` の :guilabel:`Use for Training NNP` "
 "にチェックを入れます。"
@@ -1088,15 +1094,15 @@ msgstr ""
 "Check :guilabel:`Use for Training NNP` in :guilabel:`Random Geometries "
 "#1`\\ ."
 
-#: ../../usage/grandproject.rst:67
+#: ../../usage/grandproject.rst:69
 msgid ":guilabel:`Generate Geometries` をクリックします。ランダム構造が生成されます。"
 msgstr "Click :guilabel:`Generate Geometries`\\ . Random geometries are generated."
 
-#: ../../usage/grandproject.rst:68
+#: ../../usage/grandproject.rst:70
 msgid ":guilabel:`Run` をクリックして、SCF計算を実行します。"
 msgstr "Click :guilabel:`Run` to run the SCF calculations."
 
-#: ../../usage/grandproject.rst:69
+#: ../../usage/grandproject.rst:71
 msgid ""
 "計算が終わったらグランドプロジェクトの画面に戻り、画面右側の :guilabel:`Training Neural Network "
 "Potential` の :guilabel:`Start Training NNP` ボタンをクリックします。"
@@ -1105,19 +1111,19 @@ msgstr ""
 " button on :guilabel:`Training Neural Network Potential` on the right "
 "side of the screen."
 
-#: ../../usage/grandproject.rst:70
+#: ../../usage/grandproject.rst:72
 msgid "NNP設定画面が開きます。 :menuselection:`左下メニュー --> Run` でニューラルネットワークの学習を実行します。"
 msgstr ""
 "Proceed to NNP setting screen. Start training neural network from "
 ":menuselection:`lower left menu --> Run`\\ ."
 
-#: ../../usage/grandproject.rst:71
+#: ../../usage/grandproject.rst:73
 msgid "計算が終わったらNNPのタブに戻り、結果画面の :guilabel:`force-field` をクリックして力場ファイルを保存します。"
 msgstr ""
 "When finished, go back to NNP tab, and click :guilabel:`force-field` in "
 "the result view to save the force field file."
 
-#: ../../usage/grandproject.rst:72
+#: ../../usage/grandproject.rst:74
 msgid ""
 "作成した力場ファイルを使って分子動力学計算を行うには、新たにLAMMPSのプロジェクトを作成し、 :guilabel:`Force-Field` "
 "の設定画面で :guilabel:`Type of Force Field` をNeuralMDに設定して、 "
@@ -1128,11 +1134,11 @@ msgstr ""
 "NeuralMD in the :guilabel:`Force-Field` setting screen, and choose the "
 "created force field file in :guilabel:`Potential File`\\ ."
 
-#: ../../usage/grandproject.rst:77
+#: ../../usage/grandproject.rst:79
 msgid "構造の追加・削除"
 msgstr "Add / remove geometries"
 
-#: ../../usage/grandproject.rst:79
+#: ../../usage/grandproject.rst:81
 msgid ""
 "グランドプロジェクトを作成した時には、元となる構造が1つだけ設定された状態です。画面右側の :guilabel:`Add Sample "
 "Geometry` をクリックして、プロジェクトまたは原子構造ファイルをダブルクリックすると、その構造を追加することができます。"
@@ -1141,41 +1147,41 @@ msgstr ""
 "Click :guilabel:`Add Sample Geometry` and double click the project or "
 "atomic structure file you want to add."
 
-#: ../../usage/grandproject.rst:81
+#: ../../usage/grandproject.rst:83
 msgid "グランドプロジェクトの画面内に原子構造ファイルをドラッグ＆ドロップすることでも追加できます。"
 msgstr ""
 "You can also drag & drop the atomic structure file in the grand-project "
 "view."
 
-#: ../../usage/grandproject.rst:83
+#: ../../usage/grandproject.rst:85
 msgid "1つの元構造につき、1つのカラムが表示されます。"
 msgstr "One column per one original geometry is shown."
 
-#: ../../usage/grandproject.rst:85
+#: ../../usage/grandproject.rst:87
 msgid "カラムの右クリックメニューから、コピー・ペースト・削除ができます。"
 msgstr "You can copy / paste / delete the column from its right click menu."
 
-#: ../../usage/grandproject.rst:86
+#: ../../usage/grandproject.rst:88
 msgid "カラム上部の |remove| でも削除ができます。"
 msgstr "The column can also be removed by |remove| at the top."
 
-#: ../../usage/grandproject.rst:110 ../../usage/inputeditorqe.rst:9
+#: ../../usage/grandproject.rst:112 ../../usage/inputeditorqe.rst:9
 #: ../../usage/modeler.rst:235 ../../usage/result.rst:68
 #: ../../usage/sshserver.rst:58
 msgid "remove"
 msgstr ""
 
-#: ../../usage/grandproject.rst:87
+#: ../../usage/grandproject.rst:89
 msgid "ショートカットキーによるカラム操作が可能です。"
 msgstr "Shortcut keys can be used to manipulate the column."
 
-#: ../../usage/grandproject.rst:104
+#: ../../usage/grandproject.rst:106
 msgid "1つのグランドプロジェクト内にバルクモデルとスラブモデルなど異なる構造を設定し、まとめて教師データにする、という使い方ができます。"
 msgstr ""
 "For example, you can include several geometries such as bulk model and "
 "slab model in one grand-project, and export the combined training data."
 
-#: ../../usage/grandproject.rst:106
+#: ../../usage/grandproject.rst:108
 msgid ""
 "また、1つの元構造から、異なる複数の設定でランダム構造を生成することもできます。最初は構造生成の設定が1つだけ(Random Geometries"
 " #1)ある状態です。カラム内の :guilabel:`Add Random Geometries` "
@@ -1187,79 +1193,79 @@ msgstr ""
 ":guilabel:`Add Random Geometries` / :guilabel:`Remove Random Geometries` "
 "in the column."
 
-#: ../../usage/grandproject.rst:108
+#: ../../usage/grandproject.rst:110
 msgid "元となる構造から2通りの設定でランダム構造を生成し、片方は教師データ、もう片方はテストデータにする、という使い方ができます。"
 msgstr ""
 "For example, you can generate random geometries from one original "
 "geometry using two configurations, and use one as training data, while "
 "the other as testing data."
 
-#: ../../usage/grandproject.rst:115
+#: ../../usage/grandproject.rst:117
 msgid "元構造・ランダム構造生成の設定項目"
 msgstr "Configuration on original geometry / random geometries generation"
 
-#: ../../usage/grandproject.rst:118
+#: ../../usage/grandproject.rst:120
 msgid "Edit Input File of Q.E."
 msgstr ""
 
-#: ../../usage/grandproject.rst:118
+#: ../../usage/grandproject.rst:120
 msgid "SCF計算の設定をします。この設定がカラム内のランダム構造の計算に適用されます。"
 msgstr ""
 "Configure the SCF calculation. This configuration is applied to the "
 "calculations of random geometries in the column."
 
-#: ../../usage/grandproject.rst:121
+#: ../../usage/grandproject.rst:123
 msgid "Edit Geometry by Modeler"
 msgstr ""
 
-#: ../../usage/grandproject.rst:121
+#: ../../usage/grandproject.rst:123
 msgid "元構造をモデラーを使って編集します。"
 msgstr "Edit the original geometry using the modeler."
 
-#: ../../usage/grandproject.rst:124
+#: ../../usage/grandproject.rst:126
 msgid "Add Random Geometries / Remove Random Geometries"
 msgstr ""
 
-#: ../../usage/grandproject.rst:124
+#: ../../usage/grandproject.rst:126
 msgid "元構造からランダム構造を生成するための設定を追加・削除します。"
 msgstr ""
 "Add / remove configuration for generating random geometries from the "
 "original one."
 
-#: ../../usage/grandproject.rst:131
+#: ../../usage/grandproject.rst:133
 msgid "Use for Training NNP / Use for Testing NNP"
 msgstr ""
 
-#: ../../usage/grandproject.rst:127
+#: ../../usage/grandproject.rst:129
 msgid "ランダム構造を教師データ・テストデータに使うかの設定です。最終的にデータを出力する時、ここでの設定に基づいて集計・出力の対象が決まります。"
 msgstr ""
 "Whether the random geometries are used for training / testing data. When "
 "exporting the data, the subjects of aggregation are determined based on "
 "the configuration here."
 
-#: ../../usage/grandproject.rst:129
+#: ../../usage/grandproject.rst:131
 msgid "チェック状況はタイトルの左に色で表示されます。設定画面を折り畳んでいても、一目で確認することができます。"
 msgstr ""
 "The state of checkboxes are displayed next to the title with colors. You "
 "can see them at a glance even the configuration view is collapsed."
 
-#: ../../usage/grandproject.rst:148
+#: ../../usage/grandproject.rst:150
 msgid "Generating Geometries"
 msgstr ""
 
-#: ../../usage/grandproject.rst:134
+#: ../../usage/grandproject.rst:136
 msgid "Randomly Atomic Shift"
 msgstr ""
 
-#: ../../usage/grandproject.rst:135
+#: ../../usage/grandproject.rst:137
 msgid "元構造からランダムに原子を動かした構造を生成します。"
 msgstr "generate geometries by randomly shifting atoms from the original one."
 
-#: ../../usage/grandproject.rst:136
+#: ../../usage/grandproject.rst:138
 msgid "Trajectory of MD (LAMMPS)"
 msgstr ""
 
-#: ../../usage/grandproject.rst:137
+#: ../../usage/grandproject.rst:139
 msgid ""
 "元構造からLAMMPSで分子動力学計算を実行し、そのトラジェクトリーから構造を抽出します。 :guilabel:`Calculate MD` "
 "のボタンをクリックするとLAMMPSの画面が開きますので、設定を行い、左下メニューの :guilabel:`Run` から計算を実行してください。"
@@ -1270,11 +1276,11 @@ msgstr ""
 "configure the settings, and run the calculation by :guilabel:`Run` from "
 "the lower left menu."
 
-#: ../../usage/grandproject.rst:139
+#: ../../usage/grandproject.rst:141
 msgid "Monte-Carlo (Metropolis)"
 msgstr ""
 
-#: ../../usage/grandproject.rst:139
+#: ../../usage/grandproject.rst:141
 msgid ""
 "NeuralMDを使い、元構造からメトロポリス法によるモンテカルロ計算で構造を生成します。予めニューラルネットワークの学習を行っておく必要があります。"
 " :guilabel:`Calculate MC` のボタンをクリックするとメトロポリス法の設定画面が開きますので、設定を行い、左下メニューの "
@@ -1286,33 +1292,33 @@ msgstr ""
 " Metropolis setting view is shown. In the view, configure the settings, "
 "and run the calculation by :guilabel:`Run` from the lower left menu."
 
-#: ../../usage/grandproject.rst:146
+#: ../../usage/grandproject.rst:148
 msgid "座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。"
 msgstr ""
 "If there is fixed atom(s), the coordinates stay fixed when generating "
 "random geometries."
 
-#: ../../usage/grandproject.rst:148
+#: ../../usage/grandproject.rst:150
 msgid ":guilabel:`Generate Geometries` をクリックすると、指定した設定でランダム構造を生成（抽出）します。"
 msgstr ""
 "Click :guilabel:`Generate Geometries` to generate (extract) random "
 "geometries using specified setting."
 
-#: ../../usage/grandproject.rst:157
+#: ../../usage/grandproject.rst:159
 msgid "Calculation of Q.E."
 msgstr ""
 
-#: ../../usage/grandproject.rst:151
+#: ../../usage/grandproject.rst:153
 msgid "生成したランダム構造に対し、SCF計算を実行します。"
 msgstr "Run SCF calculations for the generated random geometries."
 
-#: ../../usage/grandproject.rst:153
+#: ../../usage/grandproject.rst:155
 msgid "同一のグランドプロジェクト内であっても、設定ごとに別の計算サーバーで計算を実行することもできます。"
 msgstr ""
 "The calculation for different configurations can be performed on "
 "different servers, even they are in the same grand-project."
 
-#: ../../usage/grandproject.rst:155
+#: ../../usage/grandproject.rst:157
 msgid ""
 "Result画面では、計算の状況を確認できます。ダウンロードボタン |granddownload| "
 "をクリックすると計算サーバーから結果一式をダウンロードし、進捗を更新します（負荷を抑えるため、自動的には更新されません）。 "
@@ -1324,15 +1330,15 @@ msgstr ""
 "automatically). The results of finished calculations are summarized in "
 ":guilabel:`Energy` and :guilabel:`Force`\\ ."
 
-#: ../../usage/grandproject.rst:159
+#: ../../usage/grandproject.rst:161
 msgid "granddownload"
 msgstr ""
 
-#: ../../usage/grandproject.rst:164
+#: ../../usage/grandproject.rst:166
 msgid "ニューラルネットワークの学習・テスト"
 msgstr "Training / testing neural network"
 
-#: ../../usage/grandproject.rst:166
+#: ../../usage/grandproject.rst:168
 msgid ""
 "画面右側の :guilabel:`Training Neural Network Potential` にある :guilabel:`Start "
 "Training NNP` "
@@ -1343,13 +1349,13 @@ msgstr ""
 "in the grand-project, and using it as the training data, you can train "
 "the neural network in the following screen."
 
-#: ../../usage/grandproject.rst:168
+#: ../../usage/grandproject.rst:170
 msgid "計算サーバーで計算を実行した場合は、自動的に結果を取得し、集計します。"
 msgstr ""
 "If calculations are performed on the server, the results are "
 "automatically fetched and summarized."
 
-#: ../../usage/grandproject.rst:170
+#: ../../usage/grandproject.rst:172
 msgid ""
 "設定項目の詳細については、NeuralMDのドキュメントにある設定ファイルの説明 `sannp.prop <https://neuralmd-"
 "doc.readthedocs.io/ja/latest/usage/prop.html>`_ , `sannp.behler <https"
@@ -1362,13 +1368,13 @@ msgstr ""
 "://neuralmd-doc.readthedocs.io/ja/latest/usage/behler.html>`_ in the "
 "NeuralMD document."
 
-#: ../../usage/grandproject.rst:174
+#: ../../usage/grandproject.rst:176
 msgid "設定後、左下メニューの :guilabel:`Run` から学習（最適化）を実行します。"
 msgstr ""
 "Once setting is finished, run the training (optimization) by "
 ":guilabel:`Run` in the lower left menu."
 
-#: ../../usage/grandproject.rst:176
+#: ../../usage/grandproject.rst:178
 msgid ""
 "実行後、タブに戻るとResult画面が表示され、計算の状況を確認できます。 :guilabel:`RMSE` ボタンで収束の様子が確認できます。 "
 ":guilabel:`Classical Potential` （|Delta|-NNP法）を有効にした場合、 :guilabel:`LJ-"
@@ -1380,13 +1386,13 @@ msgstr ""
 "Potential` (|Delta|-NNP method) is enabled, you can check the form of the"
 " classical potential by :guilabel:`LJ-like.pot`\\ ."
 
-#: ../../usage/grandproject.rst:178
+#: ../../usage/grandproject.rst:180
 msgid ":guilabel:`force-field` をクリックすると、学習したニューラルネットワークをLAMMPSの力場ファイルとして保存できます。"
 msgstr ""
 "Click :guilabel:`force-field` to save trained neural network as a force "
 "field file for LAMMPS."
 
-#: ../../usage/grandproject.rst:180
+#: ../../usage/grandproject.rst:182
 msgid ""
 "作成した力場ファイルを使って分子動力学計算を行うには、LAMMPSのプロジェクトの :guilabel:`Force-Field` 設定画面で "
 ":guilabel:`Type of Force Field` をNeuralMDまたはNeuralMD with Chargeに設定して、 "
@@ -1398,7 +1404,7 @@ msgstr ""
 " screen, and choose the created force field file in :guilabel:`Potential "
 "File`\\ ."
 
-#: ../../usage/grandproject.rst:184
+#: ../../usage/grandproject.rst:186
 msgid ""
 "また、既にニューラルネットワークの学習を行ったグランドプロジェクトで :guilabel:`Testing Neural Network "
 "Potential` にある :guilabel:`Start Testing NNP` "
@@ -1411,11 +1417,11 @@ msgstr ""
 "Network Potential`\\ . The result can be checked by :guilabel:`Tested` "
 "button in the Result screen."
 
-#: ../../usage/grandproject.rst:193
+#: ../../usage/grandproject.rst:195
 msgid "教師データ・テストデータのインポート"
 msgstr "Importing training data / testing data"
 
-#: ../../usage/grandproject.rst:195
+#: ../../usage/grandproject.rst:197
 msgid ""
 "既に計算済みの教師データ( :file:`sannp.train` )・テストデータ( :file:`sannp.test` "
 ")をグランドプロジェクトにインポートするには、画面右側の :guilabel:`Open Project of NNP` "
@@ -1430,11 +1436,11 @@ msgstr ""
 "lower left menu. You can choose on a dialog whether to replace the data "
 "in the grand-project, or leave the data and append to it."
 
-#: ../../usage/grandproject.rst:200
+#: ../../usage/grandproject.rst:202
 msgid "教師データの分割"
 msgstr "Splitting training data"
 
-#: ../../usage/grandproject.rst:202
+#: ../../usage/grandproject.rst:204
 msgid ""
 "グランドプロジェクトにある教師データを分割し、一部をテストデータにすることができます。NNPの設定画面で左下メニューの "
 ":guilabel:`Split TRAIN-data` "
@@ -1492,10 +1498,6 @@ msgstr ""
 "Click the icon |mainmenuicon| on the upper left to open main menu. Here "
 "you can configure general settings etc."
 
-#: ../../usage/initial.rst:61 ../../usage/sshserver.rst:9
-msgid "mainmenuicon"
-msgstr ""
-
 #: ../../usage/initial.rst:40
 msgid "メインメニューの項目"
 msgstr "Items in main menu"
@@ -1539,8 +1541,9 @@ msgstr ""
 #: ../../usage/initial.rst:50
 msgid "本体(Java VM)のメモリ使用量や、テキストエディター・各計算エンジンのパス等を設定します。"
 msgstr ""
-"Set memory usage (Java VM), the path of text editor / calculation engines"
-" etc."
+"Set memory usage (Java VM), the "
+"path of text editor / calculation "
+"engines etc."
 
 #: ../../usage/initial.rst:52
 msgid ":guilabel:`Job Manager`"
@@ -1557,8 +1560,8 @@ msgstr ""
 #: ../../usage/initial.rst:54
 msgid "プロキシの設定、リモート実行用の\\ :doc:`SSHサーバーの設定<sshserver>`\\ を行います。"
 msgstr ""
-"Proxy settings, :doc:`SSH server settings<sshserver>` for remote "
-"execution."
+"Proxy settings, :doc:`SSH server "
+"settings<sshserver>` for remote execution."
 
 #: ../../usage/initial.rst:56
 msgid ":guilabel:`Full screen`"
@@ -1782,8 +1785,8 @@ msgid ""
 "をクリックすることで画面右側のパネルに反映されます。"
 msgstr ""
 "You can also directly edit the text of the input file with the text "
-"editor. Click up arrow button |up| to reflect the modified items in right "
-"side panel."
+"editor. Click up arrow button |up| to reflect the modified items in right"
+" side panel."
 
 #: ../../usage/inputeditor.rst:52
 msgid ""
@@ -1792,10 +1795,10 @@ msgid ""
 "上矢印ボタンをクリックしなかった場合、保存をしても実際の入力ファイルには反映されません。"
 msgstr ""
 "The text editor does not open the actual input file; it just displays "
-"temporary text generated from the setting items. You need to click up arrow"
-" button then save the project to reflect the text in the actual input "
-"file. If you do not click the up arrow button, the text will not be "
-"reflected in the actual input file even if you save the project."
+"temporary text generated from the setting items. You need to click up "
+"arrow button then save the project to reflect the text in the actual "
+"input file. If you do not click the up arrow button, the text will not be"
+" reflected in the actual input file even if you save the project."
 
 #: ../../usage/inputeditor.rst:59
 msgid "原子の固定・可動設定"
@@ -1927,6 +1930,8 @@ msgid ""
 ":guilabel:`Atomic Energy` を :guilabel:`without bias` "
 "に設定することで、LAMMPS実行時に最終層のバイアス項を0にし、原子エネルギーの平準化を図る機能が有効になります。"
 msgstr ""
+"Set :guilabel:`Atomic Energy` to :guilabel:`without bias` to enable the function to set the bias terms of the last layer to 0, "
+"thus equalizing the energy of the atoms."
 
 #: ../../usage/inputeditorlammps.rst:43
 msgid "Open Catalyst 2020"
@@ -1936,11 +1941,16 @@ msgstr ""
 msgid ""
 "`Open Catalyst Project <https://opencatalystproject.org>`_ "
 "で公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。"
-msgstr "Use pretrained versatile force field based on graph neural network, published in `Open Catalyst Project <https://opencatalystproject.org>`_\\ ."
+msgstr ""
+"Use pretrained versatile force field based on graph neural network, "
+"published in `Open Catalyst Project <https://opencatalystproject.org>`_\\"
+" ."
 
 #: ../../usage/inputeditorlammps.rst:47
-msgid "LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要です。"
-msgstr "As it is executed by calling Python from LAMMPS, Python environment must be set up beforehand."
+msgid "LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要です。また、MPI並列には非対応です。"
+msgstr ""
+"As it is executed by calling Python from LAMMPS, Python environment must "
+"be set up beforehand. MPI parallel execution is not supported."
 
 #: ../../usage/inputeditorlammps.rst:57
 msgid "Scheme（計算過程）"
@@ -2010,8 +2020,10 @@ msgstr ""
 msgid ""
 "各熱力学量や原子構造は毎ステップではなく、間を空けて出力されます。 :guilabel:`Interval to Print Logs` "
 "で出力の間隔をステップ数で設定できます。"
-msgstr "Thermodynamic quantities and atomic structures are output not at every step but at some interval. "
-"You can set the output interval by :guilabel:`Interval to Print Logs` by step numbers."
+msgstr ""
+"Thermodynamic quantities and atomic structures are output not at every "
+"step but at some interval. You can set the output interval by "
+":guilabel:`Interval to Print Logs` by step numbers."
 
 #: ../../usage/inputeditorqe.rst:12
 msgid "import"
@@ -3032,127 +3044,142 @@ msgstr ""
 "Polymer` are packed into the empty space in the model."
 
 #: ../../usage/ocp.rst:5
-msgid "Open Catalyst Project汎用力場のためのPython設定"
-msgstr "Python setup for Open Catalyst Project versatile force field"
+msgid "Open Catalyst Project汎用力場を使うための設定"
+msgstr "Setup for Open Catalyst Project versatile force field"
 
-#: ../../usage/ocp.rst:7
+#: ../../usage/ocp.rst:10
+msgid "Pythonの設定"
+msgstr "Setting Python"
+
+#: ../../usage/ocp.rst:12
 msgid ""
 "Open Catalyst Projectで公開されている\\ `インストール手順 <https://github.com/Open-"
 "Catalyst-Project/ocp/tree/master#installation>`_\\ "
 "に沿って、LAMMPSから汎用力場を使うために必要な設定手順を説明します。"
-msgstr "Setup procedure required for using the versatile force field from LAMMPS is described here, "
-"based on the `installation procedure <https://github.com/Open-Catalyst-Project/ocp/tree/master#installation>`_ "
-"published by the Open Catalyst Project."
+msgstr ""
+"Setup procedure required for using the versatile force field from LAMMPS "
+"is described here, based on the `installation procedure "
+"<https://github.com/Open-Catalyst-Project/ocp/tree/master#installation>`_"
+" published by the Open Catalyst Project."
 
-#: ../../usage/ocp.rst:9
+#: ../../usage/ocp.rst:14
 msgid "実際に計算を行うマシン（計算サーバーにジョブ投入する場合には、その計算サーバー上）でインストールを行ってください。"
-msgstr "Perform the installation on the actual machine used for the calculation (e.g. if you will submit the job "
-"to the calculation server, install on the server)."
+msgstr ""
+"Perform the installation on the actual machine used for the calculation "
+"(e.g. if you will submit the job to the calculation server, install on "
+"the server)."
 
-#: ../../usage/ocp.rst:11
+#: ../../usage/ocp.rst:16
 msgid "（任意）CUDAの用意"
 msgstr "(Optional) Preparing CUDA"
 
-#: ../../usage/ocp.rst:13
+#: ../../usage/ocp.rst:18
 msgid "GPUを使って計算を行うには、CUDA Toolkitがインストールされている必要があります。"
 msgstr "To use GPU for the calculation, CUDA Tookit must be installed."
 
-#: ../../usage/ocp.rst:15
+#: ../../usage/ocp.rst:20
 msgid ""
 "NVIDIAの\\ `ダウンロードページ <https://developer.nvidia.com/cuda-toolkit-"
 "archive>`_\\ からCUDA Toolkit 10.2をダウンロードし、インストールしてください。"
-msgstr "Download CUDA Toolkit 10.2 from NVIDIA `download page <https://developer.nvidia.com/cuda-toolkit-archive>`_ "
-"and install it."
+msgstr ""
+"Download CUDA Toolkit 10.2 from NVIDIA `download page "
+"<https://developer.nvidia.com/cuda-toolkit-archive>`_ and install it."
 
-#: ../../usage/ocp.rst:17
+#: ../../usage/ocp.rst:22
 msgid "NVIDIAドライバがインストールされていない場合は、そちらもインストールしてください。"
 msgstr "If NVIDIA driver is not installed, install it as well."
 
-#: ../../usage/ocp.rst:19
+#: ../../usage/ocp.rst:24
 msgid "conda環境の用意"
 msgstr "Preparing conda environment"
 
-#: ../../usage/ocp.rst:21
+#: ../../usage/ocp.rst:26
 msgid "Python環境としてcondaを使用します。現在condaをお使いでない場合は、必要最小限の構成であるMinicondaを推奨します。"
-msgstr "Conda is used as the Python environment. If you are not currently using conda, Miniconda, which has the minimum "
-"required configuration, is recommended."
+msgstr ""
+"Conda is used as the Python environment. If you are not currently using "
+"conda, Miniconda, which has the minimum required configuration, is "
+"recommended."
 
-#: ../../usage/ocp.rst:23
+#: ../../usage/ocp.rst:28
 msgid ""
 "`Minicondaのページ <https://docs.conda.io/en/latest/miniconda.html>`_\\ "
 "からインストーラーをダウンロードし、インストールしてください。"
-msgstr "Download the installer form the `Miniconda page <https://docs.conda.io/en/latest/miniconda.html>`_ "
-"and install it."
+msgstr ""
+"Download the installer form the `Miniconda page "
+"<https://docs.conda.io/en/latest/miniconda.html>`_ and install it."
 
-#: ../../usage/ocp.rst:25
+#: ../../usage/ocp.rst:30
 msgid ""
 "Windowsで環境変数 :envvar:`PATH` を変更しない設定でインストールした場合、以降の作業はスタートメニューからAnaconda "
 "Promptを起動して行ってください。"
-msgstr "On Windows, in case you install it without changing the :envvar:`PATH`\\ , launch Anaconda Prompt from the "
-"Start menu and use it for the following procedure."
+msgstr ""
+"On Windows, in case you install it without changing the :envvar:`PATH`\\ "
+", launch Anaconda Prompt from the Start menu and use it for the following"
+" procedure."
 
-#: ../../usage/ocp.rst:27
+#: ../../usage/ocp.rst:32
 msgid "ocp-modelsリポジトリの用意"
 msgstr "Preparing ocp-models repository"
 
-#: ../../usage/ocp.rst:29
+#: ../../usage/ocp.rst:34
 msgid "gitコマンドが使える場合は"
 msgstr "If git command is available, run"
 
-#: ../../usage/ocp.rst:31
+#: ../../usage/ocp.rst:36
 msgid "git clone https://github.com/Open-Catalyst-Project/ocp.git"
 msgstr ""
 
-#: ../../usage/ocp.rst:35
+#: ../../usage/ocp.rst:40
 msgid ""
 "または https://github.com/Open-Catalyst-"
 "Project/ocp/archive/refs/heads/master.zip をダウンロード・解凍します。"
-msgstr "otherwise, download and extract https://github.com/Open-Catalyst-"
+msgstr ""
+"otherwise, download and extract https://github.com/Open-Catalyst-"
 "Project/ocp/archive/refs/heads/master.zip ."
 
-#: ../../usage/ocp.rst:37
+#: ../../usage/ocp.rst:42
 msgid "インストール"
 msgstr "Installation"
 
-#: ../../usage/ocp.rst:39
+#: ../../usage/ocp.rst:44
 msgid "リポジトリのフォルダに移動し、"
 msgstr "Go to the repository folder and run"
 
-#: ../../usage/ocp.rst:41
+#: ../../usage/ocp.rst:46
 msgid "pip install conda-merge"
 msgstr ""
 
-#: ../../usage/ocp.rst:45
+#: ../../usage/ocp.rst:50
 msgid "を実行します。次に、ocp-models仮想環境を作成します。"
 msgstr "Then create the ocp-models virtual environment:"
 
-#: ../../usage/ocp.rst:47
+#: ../../usage/ocp.rst:52 ../../usage/ocp.rst:131
 msgid "CPUで計算を行う（GPUを使わない）場合"
 msgstr "Use CPU for calculation (do not use GPU)"
 
-#: ../../usage/ocp.rst:47
+#: ../../usage/ocp.rst:52
 msgid ""
 " conda-merge env.common.yml env.cpu.yml > env.yml\n"
 " conda env create -f env.yml\n"
 " conda activate ocp-models"
 msgstr ""
 
-#: ../../usage/ocp.rst:54
+#: ../../usage/ocp.rst:59 ../../usage/ocp.rst:137
 msgid "GPUで計算を行う場合"
 msgstr "Use GPU for calculation"
 
-#: ../../usage/ocp.rst:54
+#: ../../usage/ocp.rst:59
 msgid ""
 " conda-merge env.common.yml env.gpu.yml > env.yml\n"
 " conda env create -f env.yml\n"
 " conda activate ocp-models"
 msgstr ""
 
-#: ../../usage/ocp.rst:61
+#: ../../usage/ocp.rst:66
 msgid "macOSで、かつCPUで計算を行う場合"
 msgstr "On macOS and use CPU for calculation"
 
-#: ../../usage/ocp.rst:61
+#: ../../usage/ocp.rst:66
 msgid ""
 " conda env create -f env.common.yml\n"
 " conda activate ocp-models\n"
@@ -3161,93 +3188,155 @@ msgid ""
 "geometric.com/whl/torch-1.8.0+cpu.html"
 msgstr ""
 
-#: ../../usage/ocp.rst:68
+#: ../../usage/ocp.rst:73
 msgid "最後に"
 msgstr "Finally, run"
 
-#: ../../usage/ocp.rst:70
+#: ../../usage/ocp.rst:75
 msgid "pip install -e ."
 msgstr ""
 
-#: ../../usage/ocp.rst:74
+#: ../../usage/ocp.rst:79
 msgid "を実行してリポジトリの内容をパッケージとしてインストールします。"
 msgstr "to install the content of the repository as package."
 
-#: ../../usage/ocp.rst:78
+#: ../../usage/ocp.rst:83
 msgid "ここで作成したocp-models仮想環境を削除するには、"
 msgstr "To remove the ocp-models virtual environment created here, run"
 
-#: ../../usage/ocp.rst:80
+#: ../../usage/ocp.rst:85
 msgid ""
 "conda deactivate\n"
 "conda remove -n ocp-models --all"
 msgstr ""
 
-#: ../../usage/ocp.rst:85
+#: ../../usage/ocp.rst:90
 msgid "を実行します。"
 msgstr "\\ "
 
-#: ../../usage/ocp.rst:87
+#: ../../usage/ocp.rst:92
 msgid "学習済みのモデル（ptファイル）はNanoLabo Toolに同梱されているため、ダウンロードの手順を行う必要はありません。"
-msgstr "There is no need to do download procedure, as pretrained models (pt files) are included in the NanoLabo Tool."
+msgstr ""
+"There is no need to do download procedure, as pretrained models (pt "
+"files) are included in the NanoLabo Tool."
 
-#: ../../usage/ocp.rst:89
+#: ../../usage/ocp.rst:97
 msgid "NanoLaboへの設定"
 msgstr "Configuring NanoLabo"
 
-#: ../../usage/ocp.rst:91
+#: ../../usage/ocp.rst:99
 msgid "ローカル（NanoLaboを使っているマシン）で実行する場合"
 msgstr "To run locally (on the machine running NanoLabo)"
 
-#: ../../usage/ocp.rst:93
+#: ../../usage/ocp.rst:101
 msgid ""
-":menuselection:`左上メニュー --> Properties --> Python` （またはForce Field設定画面の "
-":guilabel:`Setting Python` ボタン）でpython実行ファイルのパスを設定します。 "
-":file:`condaのインストール先/envs/ocp-models/python` にあります。"
-msgstr "Set the python executable path from :menuselection:`upper left menu --> Properties --> Python` "
-"(or :guilabel:`Setting Python` button in the Force Field setting screen). "
-"It is located at :file:`conda installation destination/envs/ocp-models/python`\\ ."
+"画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` "
+"（またはForce Field設定画面の :guilabel:`Setting Python` "
+"ボタン）でpython実行ファイルのパスを設定します。 :file:`condaのインストール先/envs/ocp-models/python` "
+"にあります。"
+msgstr ""
+"Set the python executable path in :menuselection:`"
+"Properties --> Python` from the upper left menu |mainmenuicon| (or :guilabel:`Setting Python` button in the Force"
+" Field setting screen). It is located at :file:`conda installation "
+"destination/envs/ocp-models/python`\\ ."
 
-#: ../../usage/ocp.rst:95
+#: ../../usage/ocp.rst:103
 msgid "リモート（計算サーバー等）で実行する場合"
-msgstr ""
-"To run remotely (on calculation server etc.)"
+msgstr "To run remotely (on calculation server etc.)"
 
-#: ../../usage/ocp.rst:97
-msgid ""
-":menuselection:`左上メニュー --> Network --> SSH server` から、ジョブスクリプトにocp-"
-"models仮想環境を使うための設定を追加します。"
-msgstr ""
-"Add settings to use ocp-models virtual environment to the job script from "
-":menuselection:`upper left menu --> Network --> SSH server`\\ ."
-
-#: ../../usage/ocp.rst:99
-msgid ""
-". (condaのインストール先)/etc/profile.d/conda.sh\n"
-"conda activate ocp-models"
-msgstr ""
-". (conda installation destination)/etc/profile.d/conda.sh\n"
-"conda activate ocp-models"
-
-#: ../../usage/ocp.rst:104
+#: ../../usage/ocp.rst:105
 msgid ""
 "condaのインストール先が :file:`~/anaconda3` または :file:`~/miniconda3` "
-"の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、上記の設定のみで大丈夫です。"
+"の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、設定は必要ありません。"
 msgstr ""
-"In case conda is installed in :file:`~/anaconda3` or :file:`~/miniconda3`\\ , it works with autmatically added "
-":envvar:`LD_LIBRARY_PATH`\\ , therefore the above settings are sufficient."
+"In case conda is installed in :file:`~/anaconda3` or "
+":file:`~/miniconda3`\\ , it works with autmatically added "
+":envvar:`LD_LIBRARY_PATH`\\ , therefore no configuration is needed."
 
-#: ../../usage/ocp.rst:106
-msgid "他の場所にインストールした場合は、加えて以下のように :envvar:`LD_LIBRARY_PATH` を追加してください。"
-msgstr "If installed in other location, in addition to above, add :envvar:`LD_LIBRARY_PATH` as below."
+#: ../../usage/ocp.rst:107
+msgid ""
+"他の場所にインストールした場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> "
+"SSH server` を開き、ジョブスクリプトに :envvar:`LD_LIBRARY_PATH` を追加してください。"
+msgstr ""
+"If installed in the other location, click the icon |mainmenuicon| on the upper left, open "
+":menuselection:`Network --> SSH server`\\ , and then add :envvar:`LD_LIBRARY_PATH` to the job script."
 
-#: ../../usage/ocp.rst:108
+#: ../../usage/ocp.rst:109
 msgid ""
 "export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
 msgstr ""
 "export LD_LIBRARY_PATH=(conda installation destination)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
+
+#: ../../usage/ocp.rst:118
+msgid "LAMMPSを直接実行する場合"
+msgstr "Using LAMMPS directly"
+
+#: ../../usage/ocp.rst:120
+msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列には非対応です。"
+msgstr "Use the executable file :file:`lammps_oc20` included in NanoLabo Tool. MPI parallel execution is not supported."
+
+#: ../../usage/ocp.rst:122
+msgid ""
+"LAMMPSから :file:`oc20_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の "
+":file:`oc20driver` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 "
+":envvar:`PYTHONPATH` に追加します。"
+msgstr "Since LAMMPS calls :file:`oc20_driver.py` when it works, add :file:`oc20driver` folder in "
+"NanoLabo Tool installation destination to the module search path of Python. Add it to environment variable "
+":envvar:`PYTHONPATH`\\ , for example."
+
+#: ../../usage/ocp.rst:124
+msgid "Linuxの例"
+msgstr "Linux exapmple"
+
+#: ../../usage/ocp.rst:124
+msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/oc20driver:$PYTHONPATH"
+msgstr "$ export PYTHONPATH=(NanoLabo Tool installation destination)/oc20driver:$PYTHONPATH"
+
+#: ../../usage/ocp.rst:129
+msgid "LAMMPSの入力ファイル中で、以下のように\\ ``pair_style``\\ を設定します。"
+msgstr "Set ``pair_style`` as below in the LAMMPS input file."
+
+#: ../../usage/ocp.rst:131
+msgid ""
+"pair_style oc20\n"
+"pair_coeff * * <model> <元素名1 元素名2 ...>"
+msgstr ""
+"pair_style oc20\n"
+"pair_coeff * * <model> <element1 element2 ...>"
+
+#: ../../usage/ocp.rst:137
+msgid ""
+"pair_style oc20/gpu\n"
+"pair_coeff * * <model> <元素名1 元素名2 ...>"
+msgstr ""
+"pair_style oc20/gpu\n"
+"pair_coeff * * <model> <element1 element2 ...>"
+
+#: ../../usage/ocp.rst:143
+msgid "パラメータ"
+msgstr "Parameter"
+
+#: ../../usage/ocp.rst:149
+msgid "model"
+msgstr ""
+
+#: ../../usage/ocp.rst
+msgid "使用するグラフニューラルネットワークのモデル"
+msgstr "graph neural network model to be used"
+
+#: ../../usage/ocp.rst
+msgid "DimeNet++, GemNet-dT, CGCNN, SchNet, SpinConv のいずれかを指定"
+msgstr "specify one of DimeNet++, GemNet-dT, CGCNN, SchNet, SpinConv"
+
+#: ../../usage/ocp.rst:152
+msgid "元素名"
+msgstr "element"
+
+#: ../../usage/ocp.rst:152
+msgid "LAMMPSのatom type毎に、対応する元素名を列挙"
+msgstr "list element names in the same order as atom types of LAMMPS"
 
 #: ../../usage/project.rst:5
 msgid "プロジェクト"
@@ -4015,7 +4104,9 @@ msgstr ""
 
 #: ../../usage/webbrowser.rst:11
 msgid "タブをドラッグしてタブバーの外にドロップすると、外部ブラウザーでウェブページを開きます。"
-msgstr "When a tab is drag & dropped outside of the tab bar, the webpage is opened by external browser."
+msgstr ""
+"When a tab is drag & dropped outside of the tab bar, the webpage is "
+"opened by external browser."
 
 #: ../../usage/webbrowser.rst:21
 msgid "構造情報ファイル・擬ポテンシャルファイルのダウンロード"
