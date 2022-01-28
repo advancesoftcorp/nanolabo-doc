@@ -1778,23 +1778,23 @@ msgstr ""
 
 #: ../../usage/inputeditor.rst:45
 msgid ""
-"また、テキストエディタ―で入力ファイルの内容を直接変更することもできます。変更した内容は、アップロードボタン |up| "
+"また、テキストエディタ―で入力ファイルの内容を直接変更することもできます。変更した内容は、上矢印ボタン |up| "
 "をクリックすることで画面右側のパネルに反映されます。"
 msgstr ""
 "You can also directly edit the text of the input file with the text "
-"editor. Click upload button |up| to reflect the modified items in right "
+"editor. Click up arrow button |up| to reflect the modified items in right "
 "side panel."
 
 #: ../../usage/inputeditor.rst:52
 msgid ""
 "テキストエディターの内容は、実際の入力ファイルを開いているわけではなく、設定項目から生成された一時的なものです。 "
-"アップロードボタンをクリックしてから保存をすることで、実際の入力ファイルに反映されます。 "
-"アップロードボタンをクリックしなかった場合、保存をしても実際の入力ファイルには反映されません。"
+"上矢印ボタンをクリックしてから保存をすることで、実際の入力ファイルに反映されます。 "
+"上矢印ボタンをクリックしなかった場合、保存をしても実際の入力ファイルには反映されません。"
 msgstr ""
 "The text editor does not open the actual input file; it just displays "
-"temporary text generated from the setting items. You need to click upload"
+"temporary text generated from the setting items. You need to click up arrow"
 " button then save the project to reflect the text in the actual input "
-"file. If you do not click the upload button, the text will not be "
+"file. If you do not click the up arrow button, the text will not be "
 "reflected in the actual input file even if you save the project."
 
 #: ../../usage/inputeditor.rst:59
