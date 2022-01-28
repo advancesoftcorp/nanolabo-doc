@@ -1,8 +1,13 @@
 .. _ocp:
 
 ===========================================================
-Open Catalyst Project汎用力場のためのPython設定
+Open Catalyst Project汎用力場を使うための設定
 ===========================================================
+
+.. _ocppython:
+
+Pythonの設定
+===============
 
 Open Catalyst Projectで公開されている\ `インストール手順 <https://github.com/Open-Catalyst-Project/ocp/tree/master#installation>`_\ に沿って、LAMMPSから汎用力場を使うために必要な設定手順を説明します。
 
@@ -86,25 +91,63 @@ Open Catalyst Projectで公開されている\ `インストール手順 <https:
 
      学習済みのモデル（ptファイル）はNanoLabo Toolに同梱されているため、ダウンロードの手順を行う必要はありません。
 
-#. NanoLaboへの設定
+.. _ocpnanolabo:
 
-     ローカル（NanoLaboを使っているマシン）で実行する場合
+NanoLaboへの設定
+====================
 
-         :menuselection:`左上メニュー --> Properties --> Python` （またはForce Field設定画面の :guilabel:`Setting Python` ボタン）でpython実行ファイルのパスを設定します。 :file:`condaのインストール先/envs/ocp-models/python` にあります。
+- ローカル（NanoLaboを使っているマシン）で実行する場合
 
-     リモート（計算サーバー等）で実行する場合
+      画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` （またはForce Field設定画面の :guilabel:`Setting Python` ボタン）でpython実行ファイルのパスを設定します。 :file:`condaのインストール先/envs/ocp-models/python` にあります。
 
-         :menuselection:`左上メニュー --> Network --> SSH server` から、ジョブスクリプトにocp-models仮想環境を使うための設定を追加します。
+- リモート（計算サーバー等）で実行する場合
 
-         .. code-block:: console
+     condaのインストール先が :file:`~/anaconda3` または :file:`~/miniconda3` の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、設定は必要ありません。
 
-             . (condaのインストール先)/etc/profile.d/conda.sh
-             conda activate ocp-models
+     他の場所にインストールした場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> SSH server` を開き、ジョブスクリプトに :envvar:`LD_LIBRARY_PATH` を追加してください。
 
-         condaのインストール先が :file:`~/anaconda3` または :file:`~/miniconda3` の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、上記の設定のみで大丈夫です。
+     .. code-block:: console
 
-         他の場所にインストールした場合は、加えて以下のように :envvar:`LD_LIBRARY_PATH` を追加してください。
+         export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-models/lib:$LD_LIBRARY_PATH
 
-         .. code-block:: console
+.. |mainmenuicon| image:: /img/mainmenuicon.png
 
-             export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-models/lib:$LD_LIBRARY_PATH
+.. _ocplammps:
+
+LAMMPSを直接実行する場合
+===========================
+
+NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列には非対応です。
+
+LAMMPSから :file:`oc20_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の :file:`oc20driver` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 :envvar:`PYTHONPATH` に追加します。
+
+.. code-block:: console
+ :caption: Linuxの例
+
+ $ export PYTHONPATH=(NanoLabo Toolのインストール先)/oc20driver:$PYTHONPATH
+
+LAMMPSの入力ファイル中で、以下のように\ ``pair_style``\ を設定します。
+
+.. code-block:: none
+ :caption: CPUで計算を行う（GPUを使わない）場合
+
+ pair_style oc20
+ pair_coeff * * <model> <元素名1 元素名2 ...>
+
+.. code-block:: none
+ :caption: GPUで計算を行う場合
+
+ pair_style oc20/gpu
+ pair_coeff * * <model> <元素名1 元素名2 ...>
+
+パラメータ
+
+ .. table::
+  :widths: auto
+
+  +--------------------+-------------------------------------------------------------------------------------------------+
+  | model              || 使用するグラフニューラルネットワークのモデル                                                   |
+  |                    || DimeNet++, GemNet-dT, CGCNN, SchNet, SpinConv のいずれかを指定                                 |
+  +--------------------+-------------------------------------------------------------------------------------------------+
+  | 元素名             | LAMMPSのatom type毎に、対応する元素名を列挙                                                     |
+  +--------------------+-------------------------------------------------------------------------------------------------+
