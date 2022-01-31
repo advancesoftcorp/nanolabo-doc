@@ -21,7 +21,7 @@
 
  - 変更・修正
 
-   - （Linux版）QEおよびLAMMPSのMPIライブラリ/コンパイラをOpenMPI/oneAPIに変更（以前はIntel MPI/Intel Compiler）
+   - （Linux版）QEおよびLAMMPSのMPIライブラリ/コンパイラをOpen MPI/oneAPIに変更（以前はIntel MPI/Intel Compiler）
    - 計算サーバーへのジョブ投入時、ユーザー名が長いとジョブ状態の取得に失敗することがある不具合の修正
 
  - サポート対象OSにAlmaLinux 8を追加

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 22:39+0900\n"
+"POT-Creation-Date: 2022-01-31 18:33+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,10 +80,10 @@ msgstr "Change / fix"
 
 #: ../../version.rst:24
 msgid ""
-"（Linux版）QEおよびLAMMPSのMPIライブラリ/コンパイラをOpenMPI/oneAPIに変更（以前はIntel MPI/Intel "
+"（Linux版）QEおよびLAMMPSのMPIライブラリ/コンパイラをOpen MPI/oneAPIに変更（以前はIntel MPI/Intel "
 "Compiler）"
 msgstr ""
-"(Linux) change MPI library/compiler to OpenMPI/oneAPI (from Intel "
+"(Linux) change MPI library/compiler to Open MPI/oneAPI (from Intel "
 "MPI/Intel Compiler)"
 
 #: ../../version.rst:25
