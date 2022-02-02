@@ -128,6 +128,13 @@ Java VMの引数を追加することで表示が改善します。
 
 .. |mainmenuicon| image:: /img/mainmenuicon.png
 
+.. _ocpl:
+
+（任意）Open Catalyst Project汎用力場の設定
+=================================================
+
+LAMMPSの計算でOpen Catalyst Projectの汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\ :doc:`こちら </usage/ocp>`\ を参照してください。
+
 .. _upgradel:
 
 更新・アップグレード

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-01 17:54+0900\n"
+"POT-Creation-Date: 2022-02-02 11:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -162,7 +162,7 @@ msgstr ""
 "At the last window, click Done to complete the Advance/NanoLabo Tool "
 "installation."
 
-#: ../../install/linux.rst:79 ../../install/mac.rst:77
+#: ../../install/linux.rst:79 ../../install/mac.rst:84
 #: ../../install/windows.rst:52
 msgid "ライセンスの設定"
 msgstr "Setting license"
@@ -268,24 +268,38 @@ msgstr ""
 msgid "mainmenuicon"
 msgstr ""
 
-#: ../../install/linux.rst:134 ../../install/mac.rst:88
+#: ../../install/linux.rst:134 ../../install/mac.rst:77
 #: ../../install/windows.rst:68
+msgid "（任意）Open Catalyst Project汎用力場の設定"
+msgstr "(Optional)Setting for Open Catalyst Project versatile force field"
+
+#: ../../install/linux.rst:136 ../../install/mac.rst:79
+#: ../../install/windows.rst:70
+msgid ""
+"LAMMPSの計算でOpen Catalyst Projectの汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\\ "
+":doc:`こちら </usage/ocp>`\\ を参照してください。"
+msgstr "Additional configurations on the Python environment are required to use Open Catalyst Project "
+"versatile force field in LAMMPS calculations. Please refer to :doc:`here </usage/ocp>` for "
+"the procedure."
+
+#: ../../install/linux.rst:141 ../../install/mac.rst:95
+#: ../../install/windows.rst:75
 msgid "更新・アップグレード"
 msgstr "Update/Upgrade"
 
-#: ../../install/linux.rst:136 ../../install/mac.rst:90
-#: ../../install/windows.rst:70
+#: ../../install/linux.rst:143 ../../install/mac.rst:97
+#: ../../install/windows.rst:77
 msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
 msgstr ""
 "When upgrading from trial version to production version, there is no need"
 " of additional installation. Just replace the license file."
 
-#: ../../install/linux.rst:138 ../../install/windows.rst:72
+#: ../../install/linux.rst:145 ../../install/windows.rst:79
 msgid "新しいバージョンにアップデートされる場合、上書きインストールが可能です。"
 msgstr "When updating to newer version, overwrite installation is possible."
 
-#: ../../install/linux.rst:140 ../../install/mac.rst:94
-#: ../../install/windows.rst:74
+#: ../../install/linux.rst:147 ../../install/mac.rst:101
+#: ../../install/windows.rst:81
 msgid ""
 "NanoLaboと同時にNanoLabo Toolが更新されている場合は、そちらもアップデートしてください。最新版のNanoLabo "
 "Toolに同梱されている計算エンジンでの使用を想定しています。"
@@ -294,20 +308,20 @@ msgstr ""
 "update it as well. NanoLabo is supposed to be used with the calculation "
 "engines included in the latest version of NanoLabo Tool."
 
-#: ../../install/linux.rst:142 ../../install/mac.rst:96
-#: ../../install/windows.rst:76
+#: ../../install/linux.rst:149 ../../install/mac.rst:103
+#: ../../install/windows.rst:83
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
 "Software configurations and created projects are stored separately from "
 "the install destination. You can use the software as it was before even "
 "after the update."
 
-#: ../../install/linux.rst:147 ../../install/mac.rst:101
-#: ../../install/windows.rst:81
+#: ../../install/linux.rst:154 ../../install/mac.rst:108
+#: ../../install/windows.rst:88
 msgid "アンインストール"
 msgstr "Uninstallation"
 
-#: ../../install/linux.rst:149
+#: ../../install/linux.rst:156
 msgid ""
 "端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
 ":file:`Change NanoLabo Tool Installation` を起動します。"
@@ -315,30 +329,30 @@ msgstr ""
 "On a terminal, run :file:`Change NanoLabo Tool Installation` located at "
 ":file:`_NanoLabo_Tool_installation` directory in the install destination."
 
-#: ../../install/linux.rst:151
+#: ../../install/linux.rst:158
 msgid ""
 "$ AdvanceSoft/NanoLabo/_NanoLabo_Tool_installation/Change\\ NanoLabo\\ "
 "Tool\\ Installation"
 msgstr ""
 
-#: ../../install/linux.rst:155 ../../install/windows.rst:89
+#: ../../install/linux.rst:162 ../../install/windows.rst:96
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow displayed instructions to uninstall."
 
-#: ../../install/linux.rst:157 ../../install/windows.rst:91
+#: ../../install/linux.rst:164 ../../install/windows.rst:98
 msgid "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。"
 msgstr ""
 "Once the uninstallation of Advance/NanoLabo Tool is finished, uninstall "
 "Advance/NanoLabo as well."
 
-#: ../../install/linux.rst:161 ../../install/windows.rst:95
+#: ../../install/linux.rst:168 ../../install/windows.rst:102
 msgid "アンインストールの際に、インストール先のライセンスファイルは削除されずに残ります。また、インストールログファイルが残る場合があります。その際はお手数ですが手動で削除してください。"
 msgstr ""
 "License file in the install destination is not removed during the "
 "uninstallation. Also, installation log file may remain. In that case "
 "please remove them manually."
 
-#: ../../install/linux.rst:165
+#: ../../install/linux.rst:172
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` "
 "）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"
@@ -432,17 +446,20 @@ msgid ""
 ":guilabel:`Command` 欄に表示されたコマンドをrootで実行するか、またはrootパスワードを "
 ":guilabel:`Password of Root` 欄に入力し、その後 :guilabel:`OK` "
 "をクリックしてください。rootパスワードはこの場でのコマンド実行のみに使われ、保存されることはありません。"
-msgstr "When :guilabel:`Activate Advance/NanoLabo` dialog displayed, open the terminal and run the commands "
-"shown in :guilabel:`Command` box, or enter the root password in :guilabel:`Password of Root` box, and then "
-"click :guilabel:`OK`\\ . This root password is used only for executing the commands in place and never be saved."
+msgstr ""
+"When :guilabel:`Activate Advance/NanoLabo` dialog is displayed, open the "
+"terminal and execute the commands shown in :guilabel:`Command` box as "
+"root, or enter the root password in :guilabel:`Password of Root` box, and"
+" then click :guilabel:`OK`\\ . This root password is used only for "
+"executing the commands in place and never be saved."
 
-#: ../../install/mac.rst:79
+#: ../../install/mac.rst:86
 msgid "ソフトウェアを起動すると、ライセンス登録を案内する画面が表示されます。"
 msgstr ""
 "A window to guide the license registration appears when you launch the "
 "software."
 
-#: ../../install/mac.rst:81
+#: ../../install/mac.rst:88
 msgid ""
 "ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。 "
 ":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
@@ -453,7 +470,7 @@ msgstr ""
 ":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
 "directory."
 
-#: ../../install/mac.rst:83
+#: ../../install/mac.rst:90
 msgid ""
 "Finderのメニューバーから :menuselection:`移動 --> フォルダへ移動...` "
 "をクリックし、上記パスを入力していただくと簡単です。"
@@ -461,7 +478,7 @@ msgstr ""
 "The easy way is to click :menuselection:`Go --> Go to Folder...` in "
 "Finder's menu bar and enter the path above."
 
-#: ../../install/mac.rst:92
+#: ../../install/mac.rst:99
 msgid ""
 "新しいバージョンにアップデートされる場合は、インストール時と同じ操作を行い、確認が表示されたら「置き換える」を選択してください。アップデート後、ライセンスファイルを再度"
 " :file:`license` ディレクトリにコピーしてください。"
@@ -470,11 +487,11 @@ msgstr ""
 "and choose :guilabel:`Replace` when confirmation is displayed. After "
 "that, copy the license file to :file:`license` directory again."
 
-#: ../../install/mac.rst:103
+#: ../../install/mac.rst:110
 msgid "アプリケーションディレクトリのNanoLaboを削除してください。"
 msgstr "Remove NanoLabo in the Application directory."
 
-#: ../../install/mac.rst:107
+#: ../../install/mac.rst:114
 msgid ""
 "計算エンジンの実行ファイル等は :file:`/Library/Application Support/AdvanceSoft` "
 "以下に保存されていますので、必要に応じて削除してください。"
@@ -483,7 +500,7 @@ msgstr ""
 ":file:`/Library/Application Support/AdvanceSoft` . Please remove them if "
 "you'd like to."
 
-#: ../../install/mac.rst:111
+#: ../../install/mac.rst:118
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは :file:`ホームディレクトリ/.nanolabo` "
 "に保存されていますので、必要に応じて削除してください。"
@@ -831,11 +848,11 @@ msgstr ""
 "To directly launch the software, move to the :file:`bin` folder in the "
 "install destination, and then run :file:`NanoLabo.exe` ."
 
-#: ../../install/windows.rst:83
+#: ../../install/windows.rst:90
 msgid "次のいずれかの方法でアンインストーラーを起動してください。"
 msgstr "Use one of the following procedures to run the uninstaller."
 
-#: ../../install/windows.rst:85
+#: ../../install/windows.rst:92
 msgid ""
 "スタートボタンを右クリックし、「アプリと機能」を開きます。リストの中にあるAdvance/NanoLabo "
 "Toolをクリックし、アンインストールボタンをクリックします。"
@@ -843,7 +860,7 @@ msgstr ""
 "Right click Start button and open \"Apps and Features\"\\ . Click "
 "Advance/NanoLabo Tool in the list and then click Uninstall button."
 
-#: ../../install/windows.rst:86
+#: ../../install/windows.rst:93
 msgid ""
 "スタートメニューから「Windows システム ツール」内の「コントロール "
 "パネル」を開きます。「プログラムのアンインストール」（アイコン表示の場合は「プログラムと機能」）を開き、リストの中にあるAdvance/NanoLabo"
@@ -853,7 +870,7 @@ msgstr ""
 "\"Uninstall a program\" (or \"Programs and Features\" in case of icons "
 "view) and double click Advance/NanoLabo Tool in the list."
 
-#: ../../install/windows.rst:87
+#: ../../install/windows.rst:94
 msgid ""
 "インストール先の :file:`_NanoLabo_Tool_installation` フォルダーにある :file:`Change "
 "NanoLabo Tool Installation.exe` を起動します。"
@@ -861,7 +878,7 @@ msgstr ""
 "Run :file:`Change NanoLabo Tool Installation.exe` in "
 ":file:`_NanoLabo_Tool_installation` in the install destination."
 
-#: ../../install/windows.rst:99
+#: ../../install/windows.rst:106
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\.nanolabo` "
