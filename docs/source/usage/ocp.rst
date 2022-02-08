@@ -98,7 +98,9 @@ NanoLaboへの設定
 
 - ローカル（NanoLaboを使っているマシン）で実行する場合
 
-      画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` （またはForce Field設定画面の :guilabel:`Setting Python` ボタン）でpython実行ファイルのパスを設定します。 :file:`condaのインストール先/envs/ocp-models/python` にあります。
+      画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` （またはForce Field設定画面の :guilabel:`Setting Python` ボタン）でpython実行ファイルのパスを設定します。
+
+      Windowsでは :file:`condaのインストール先\\envs\\ocp-models\\python.exe` 、Linux・macOSでは :file:`condaのインストール先/envs/ocp-models/bin/python` にあります。
 
 - リモート（計算サーバー等）で実行する場合
 
@@ -118,6 +120,19 @@ LAMMPSを直接実行する場合
 ===========================
 
 NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列には非対応です。
+
+Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` を設定してください。
+
+.. code-block:: console
+
+ $ export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-models/lib:$LD_LIBRARY_PATH
+
+また、Linuxでは環境変数 :envvar:`OPAL_PREFIX` を設定してください。
+
+.. code-block:: console
+ :caption: デフォルトの場所にインストールした場合の例
+
+ $ export OPAL_PREFIX=/opt/AdvanceSoft/NanoLabo/exec.LINUX/mpi
 
 LAMMPSから :file:`oc20_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の :file:`oc20driver` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 :envvar:`PYTHONPATH` に追加します。
 

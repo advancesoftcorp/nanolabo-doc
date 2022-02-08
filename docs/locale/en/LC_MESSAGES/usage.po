@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-28 22:40+0900\n"
+"POT-Creation-Date: 2022-02-08 16:44+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1024,11 +1024,11 @@ msgid ""
 ":menuselection:`Properties --> Advance/NeuralMD` でライセンスファイルの場所を設定してください。"
 msgstr ""
 "To execute it locally (on the same machine with NanoLabo), set the "
-"location of license file in :menuselection:`Properties --> Advance/NeuralMD` "
-"from the main menu |mainmenuicon| on the upper left."
+"location of license file in :menuselection:`Properties --> "
+"Advance/NeuralMD` from the main menu |mainmenuicon| on the upper left."
 
 #: ../../usage/grandproject.rst:53 ../../usage/initial.rst:61
-#: ../../usage/ocp.rst:113 ../../usage/sshserver.rst:9
+#: ../../usage/ocp.rst:115 ../../usage/sshserver.rst:9
 msgid "mainmenuicon"
 msgstr ""
 
@@ -1541,9 +1541,8 @@ msgstr ""
 #: ../../usage/initial.rst:50
 msgid "本体(Java VM)のメモリ使用量や、テキストエディター・各計算エンジンのパス等を設定します。"
 msgstr ""
-"Set memory usage (Java VM), the "
-"path of text editor / calculation "
-"engines etc."
+"Set memory usage (Java VM), the path of text editor / calculation engines"
+" etc."
 
 #: ../../usage/initial.rst:52
 msgid ":guilabel:`Job Manager`"
@@ -1560,8 +1559,8 @@ msgstr ""
 #: ../../usage/initial.rst:54
 msgid "プロキシの設定、リモート実行用の\\ :doc:`SSHサーバーの設定<sshserver>`\\ を行います。"
 msgstr ""
-"Proxy settings, :doc:`SSH server "
-"settings<sshserver>` for remote execution."
+"Proxy settings, :doc:`SSH server settings<sshserver>` for remote "
+"execution."
 
 #: ../../usage/initial.rst:56
 msgid ":guilabel:`Full screen`"
@@ -1930,8 +1929,9 @@ msgid ""
 ":guilabel:`Atomic Energy` を :guilabel:`without bias` "
 "に設定することで、LAMMPS実行時に最終層のバイアス項を0にし、原子エネルギーの平準化を図る機能が有効になります。"
 msgstr ""
-"Set :guilabel:`Atomic Energy` to :guilabel:`without bias` to enable the function to set the bias terms of the last layer to 0, "
-"thus equalizing the energy of the atoms."
+"Set :guilabel:`Atomic Energy` to :guilabel:`without bias` to enable the "
+"function to set the bias terms of the last layer to 0, thus equalizing "
+"the energy of the atoms."
 
 #: ../../usage/inputeditorlammps.rst:43
 msgid "Open Catalyst 2020"
@@ -3153,7 +3153,7 @@ msgstr ""
 msgid "を実行します。次に、ocp-models仮想環境を作成します。"
 msgstr "Then create the ocp-models virtual environment:"
 
-#: ../../usage/ocp.rst:52 ../../usage/ocp.rst:131
+#: ../../usage/ocp.rst:52 ../../usage/ocp.rst:146
 msgid "CPUで計算を行う（GPUを使わない）場合"
 msgstr "Use CPU for calculation (do not use GPU)"
 
@@ -3164,7 +3164,7 @@ msgid ""
 " conda activate ocp-models"
 msgstr ""
 
-#: ../../usage/ocp.rst:59 ../../usage/ocp.rst:137
+#: ../../usage/ocp.rst:59 ../../usage/ocp.rst:152
 msgid "GPUで計算を行う場合"
 msgstr "Use GPU for calculation"
 
@@ -3232,19 +3232,25 @@ msgstr "To run locally (on the machine running NanoLabo)"
 msgid ""
 "画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` "
 "（またはForce Field設定画面の :guilabel:`Setting Python` "
-"ボタン）でpython実行ファイルのパスを設定します。 :file:`condaのインストール先/envs/ocp-models/python` "
-"にあります。"
+"ボタン）でpython実行ファイルのパスを設定します。"
 msgstr ""
-"Set the python executable path in :menuselection:`"
-"Properties --> Python` from the upper left menu |mainmenuicon| (or :guilabel:`Setting Python` button in the Force"
-" Field setting screen). It is located at :file:`conda installation "
-"destination/envs/ocp-models/python`\\ ."
+"Set the python executable path in :menuselection:`Properties --> Python` "
+"from the upper left menu |mainmenuicon| (or :guilabel:`Setting Python` "
+"button in the Force Field setting screen)."
 
 #: ../../usage/ocp.rst:103
+msgid ""
+"Windowsでは :file:`condaのインストール先\\\\envs\\\\ocp-models\\\\python.exe` "
+"、Linux・macOSでは :file:`condaのインストール先/envs/ocp-models/bin/python` にあります。"
+msgstr ""
+"It is located at :file:`conda installation destination\\\\envs\\\\ocp-models\\\\python.exe` on Windows, "
+"and :file:`conda installation destination/envs/ocp-models/bin/python` on Linux/macOS."
+
+#: ../../usage/ocp.rst:105
 msgid "リモート（計算サーバー等）で実行する場合"
 msgstr "To run remotely (on calculation server etc.)"
 
-#: ../../usage/ocp.rst:105
+#: ../../usage/ocp.rst:107
 msgid ""
 "condaのインストール先が :file:`~/anaconda3` または :file:`~/miniconda3` "
 "の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、設定は必要ありません。"
@@ -3253,15 +3259,16 @@ msgstr ""
 ":file:`~/miniconda3`\\ , it works with autmatically added "
 ":envvar:`LD_LIBRARY_PATH`\\ , therefore no configuration is needed."
 
-#: ../../usage/ocp.rst:107
+#: ../../usage/ocp.rst:109
 msgid ""
 "他の場所にインストールした場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> "
 "SSH server` を開き、ジョブスクリプトに :envvar:`LD_LIBRARY_PATH` を追加してください。"
 msgstr ""
-"If installed in the other location, click the icon |mainmenuicon| on the upper left, open "
-":menuselection:`Network --> SSH server`\\ , and then add :envvar:`LD_LIBRARY_PATH` to the job script."
+"If installed in the other location, click the icon |mainmenuicon| on the "
+"upper left, open :menuselection:`Network --> SSH server`\\ , and then add"
+" :envvar:`LD_LIBRARY_PATH` to the job script."
 
-#: ../../usage/ocp.rst:109
+#: ../../usage/ocp.rst:111
 msgid ""
 "export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
@@ -3269,36 +3276,69 @@ msgstr ""
 "export LD_LIBRARY_PATH=(conda installation destination)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/ocp.rst:118
+#: ../../usage/ocp.rst:120
 msgid "LAMMPSを直接実行する場合"
 msgstr "Using LAMMPS directly"
 
-#: ../../usage/ocp.rst:120
-msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列には非対応です。"
-msgstr "Use the executable file :file:`lammps_oc20` included in NanoLabo Tool. MPI parallel execution is not supported."
-
 #: ../../usage/ocp.rst:122
+msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列には非対応です。"
+msgstr ""
+"Use the executable file :file:`lammps_oc20` included in NanoLabo Tool. "
+"MPI parallel execution is not supported."
+
+#: ../../usage/ocp.rst:124
+msgid ""
+"Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` "
+"を設定してください。"
+msgstr "On Linux/macOS, set the environment variable :envvar:`LD_LIBRARY_PATH` , so the program can use "
+"Python dynamic library when executed."
+
+#: ../../usage/ocp.rst:126
+msgid ""
+"$ export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-"
+"models/lib:$LD_LIBRARY_PATH"
+msgstr ""
+"$ export LD_LIBRARY_PATH=(conda installation destination)/envs/ocp-"
+"models/lib:$LD_LIBRARY_PATH"
+
+#: ../../usage/ocp.rst:130
+msgid "また、Linuxでは環境変数 :envvar:`OPAL_PREFIX` を設定してください。"
+msgstr "Also, on Linux, set the environment variable :envvar:`OPAL_PREFIX` ."
+
+#: ../../usage/ocp.rst:132
+msgid "デフォルトの場所にインストールした場合の例"
+msgstr "in case installed in default location"
+
+#: ../../usage/ocp.rst:132
+msgid "$ export OPAL_PREFIX=/opt/AdvanceSoft/NanoLabo/exec.LINUX/mpi"
+msgstr ""
+
+#: ../../usage/ocp.rst:137
 msgid ""
 "LAMMPSから :file:`oc20_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の "
 ":file:`oc20driver` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 "
 ":envvar:`PYTHONPATH` に追加します。"
-msgstr "Since LAMMPS calls :file:`oc20_driver.py` when it works, add :file:`oc20driver` folder in "
-"NanoLabo Tool installation destination to the module search path of Python. Add it to environment variable "
+msgstr ""
+"Since LAMMPS calls :file:`oc20_driver.py` when it works, add "
+":file:`oc20driver` folder in NanoLabo Tool installation destination to "
+"the module search path of Python. Add it to environment variable "
 ":envvar:`PYTHONPATH`\\ , for example."
 
-#: ../../usage/ocp.rst:124
+#: ../../usage/ocp.rst:139
 msgid "Linuxの例"
 msgstr "Linux exapmple"
 
-#: ../../usage/ocp.rst:124
+#: ../../usage/ocp.rst:139
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/oc20driver:$PYTHONPATH"
-msgstr "$ export PYTHONPATH=(NanoLabo Tool installation destination)/oc20driver:$PYTHONPATH"
+msgstr ""
+"$ export PYTHONPATH=(NanoLabo Tool installation "
+"destination)/oc20driver:$PYTHONPATH"
 
-#: ../../usage/ocp.rst:129
+#: ../../usage/ocp.rst:144
 msgid "LAMMPSの入力ファイル中で、以下のように\\ ``pair_style``\\ を設定します。"
 msgstr "Set ``pair_style`` as below in the LAMMPS input file."
 
-#: ../../usage/ocp.rst:131
+#: ../../usage/ocp.rst:146
 msgid ""
 "pair_style oc20\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -3306,7 +3346,7 @@ msgstr ""
 "pair_style oc20\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/ocp.rst:137
+#: ../../usage/ocp.rst:152
 msgid ""
 "pair_style oc20/gpu\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -3314,11 +3354,11 @@ msgstr ""
 "pair_style oc20/gpu\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/ocp.rst:143
+#: ../../usage/ocp.rst:158
 msgid "パラメータ"
 msgstr "Parameter"
 
-#: ../../usage/ocp.rst:149
+#: ../../usage/ocp.rst:164
 msgid "model"
 msgstr ""
 
@@ -3330,11 +3370,11 @@ msgstr "graph neural network model to be used"
 msgid "DimeNet++, GemNet-dT, CGCNN, SchNet, SpinConv のいずれかを指定"
 msgstr "specify one of DimeNet++, GemNet-dT, CGCNN, SchNet, SpinConv"
 
-#: ../../usage/ocp.rst:152
+#: ../../usage/ocp.rst:167
 msgid "元素名"
 msgstr "element"
 
-#: ../../usage/ocp.rst:152
+#: ../../usage/ocp.rst:167
 msgid "LAMMPSのatom type毎に、対応する元素名を列挙"
 msgstr "list element names in the same order as atom types of LAMMPS"
 
