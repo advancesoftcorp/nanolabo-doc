@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-08 16:44+0900\n"
+"POT-Creation-Date: 2022-04-14 17:38+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -499,6 +499,7 @@ msgstr ""
 "a calculation type to be run by the calculation engine."
 
 #: ../../usage/calculation.rst:17 ../../usage/sshserver.rst:30
+#: ../../usage/sshserver.rst:78
 msgid "Host Name"
 msgstr ""
 
@@ -1167,7 +1168,7 @@ msgstr "The column can also be removed by |remove| at the top."
 
 #: ../../usage/grandproject.rst:112 ../../usage/inputeditorqe.rst:9
 #: ../../usage/modeler.rst:235 ../../usage/result.rst:68
-#: ../../usage/sshserver.rst:58
+#: ../../usage/sshserver.rst:92
 msgid "remove"
 msgstr ""
 
@@ -3243,8 +3244,9 @@ msgid ""
 "Windowsでは :file:`condaのインストール先\\\\envs\\\\ocp-models\\\\python.exe` "
 "、Linux・macOSでは :file:`condaのインストール先/envs/ocp-models/bin/python` にあります。"
 msgstr ""
-"It is located at :file:`conda installation destination\\\\envs\\\\ocp-models\\\\python.exe` on Windows, "
-"and :file:`conda installation destination/envs/ocp-models/bin/python` on Linux/macOS."
+"It is located at :file:`conda installation destination\\\\envs\\\\ocp-"
+"models\\\\python.exe` on Windows, and :file:`conda installation "
+"destination/envs/ocp-models/bin/python` on Linux/macOS."
 
 #: ../../usage/ocp.rst:105
 msgid "リモート（計算サーバー等）で実行する場合"
@@ -3290,8 +3292,9 @@ msgstr ""
 msgid ""
 "Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` "
 "を設定してください。"
-msgstr "On Linux/macOS, set the environment variable :envvar:`LD_LIBRARY_PATH` , so the program can use "
-"Python dynamic library when executed."
+msgstr ""
+"On Linux/macOS, set the environment variable :envvar:`LD_LIBRARY_PATH` , "
+"so the program can use Python dynamic library when executed."
 
 #: ../../usage/ocp.rst:126
 msgid ""
@@ -3949,7 +3952,7 @@ msgstr ""
 "In :guilabel:`Server` tab, configure settings related to the connection "
 "to the server."
 
-#: ../../usage/sshserver.rst:32
+#: ../../usage/sshserver.rst:32 ../../usage/sshserver.rst:80
 msgid "Port"
 msgstr ""
 
@@ -4001,21 +4004,81 @@ msgstr ""
 "If settings are OK, the tab turns white. In case something is wrong, the "
 "item is displayed in red, so please check it."
 
-#: ../../usage/sshserver.rst:50
+#: ../../usage/sshserver.rst:51
+msgid ""
+":menuselection:`Network --> Proxy server` "
+"の設定は、SSH接続には適用されません。プロキシサーバーを経由して接続する必要がある場合は、NanoLabo上では設定ができないため、SSH接続のために使っているソフトウェアで別途ポートフォワーディング（トンネリング）を行ってください。"
+msgstr ""
+":menuselection:`Network --> Proxy server` setting is not applied to the "
+"SSH connection. If you need to connect via a proxy server, please perform"
+" port forwarding (tunneling) separately in the software you are using for"
+" SSH connections, since it cannot be configured in NanoLabo."
+
+#: ../../usage/sshserver.rst:53
+msgid "``ssh`` コマンドを使っている場合は、 ``-L`` オプションを追加します。"
+msgstr "In case using ``ssh`` command, add ``-L`` option."
+
+#: ../../usage/sshserver.rst:55
+msgid "ssh -L 10022:localhost:22 -o \"ProxyCommand (プロキシの設定)\" user@host"
+msgstr "ssh -L 10022:localhost:22 -o \"ProxyCommand (proxy settings)\" user@host"
+
+#: ../../usage/sshserver.rst:59
+msgid "その他のソフトウェアをお使いの場合は、マニュアルで「ポート転送」等の機能を参照し、次のように設定してください。"
+msgstr ""
+"In case using other software, refer to the manual for features such as "
+"\"Port forwarding\" and configure it as follows."
+
+#: ../../usage/sshserver.rst:65
+msgid "「ローカルのポート」「受け側ポート」等"
+msgstr "\"Source port\" \"local port\" etc."
+
+#: ../../usage/sshserver.rst:65
+msgid "10022（または、他の空いているポート番号）"
+msgstr "10022 (or other unused port)"
+
+#: ../../usage/sshserver.rst:67
+msgid "「送り先」等（ホストとポートを一緒に設定する場合）"
+msgstr "\"Destination\" etc. (set host and port together)"
+
+#: ../../usage/sshserver.rst:67
+msgid "localhost:22"
+msgstr ""
+
+#: ../../usage/sshserver.rst:69
+msgid "「リモート側ホスト」「ポート」等（別々に設定する場合）"
+msgstr "\"remote machine\" \"port\" etc. (set separately)"
+
+#: ../../usage/sshserver.rst:69
+msgid "「localhost」「22」"
+msgstr "\"localhost\" \"22\""
+
+#: ../../usage/sshserver.rst:72
+msgid "NanoLabo側では次のように設定してください。"
+msgstr "On NanoLabo side, configure it as follows."
+
+#: ../../usage/sshserver.rst:78
+msgid "localhost"
+msgstr ""
+
+#: ../../usage/sshserver.rst:80
+msgid "10022（または、上で設定したポート番号）"
+msgstr "10022 (or the port you set above)"
+
+#: ../../usage/sshserver.rst:84
 msgid "Jobタブの設定"
 msgstr "Job settings"
 
-#: ../../usage/sshserver.rst:52
+#: ../../usage/sshserver.rst:86
 msgid "次に、 :guilabel:`Job` タブでサーバーへのジョブ投入に関する設定を行います。"
 msgstr ""
 "Next, in :guilabel:`Job` tab, configure settings related to job posting "
 "to the server."
 
-#: ../../usage/sshserver.rst:56
+#: ../../usage/sshserver.rst:90
 msgid "Job Queue"
 msgstr ""
 
-#: ../../usage/sshserver.rst:55
+#: ../../usage/sshserver.rst:89
 msgid ""
 "キューの名前のリストです。 |add| ボタンで追加、 |remove| ボタンで削除します。 "
 "ジョブ管理システムを使わずに実行する場合でも、適当な名前のキューを作成してください。"
@@ -4023,85 +4086,85 @@ msgstr ""
 "List of the names of the queues. Click |add| ( |remove| ) to add (remove)"
 " item. Even if you do not use job manager, add a queue with some name."
 
-#: ../../usage/sshserver.rst:60
+#: ../../usage/sshserver.rst:94
 msgid "Job Posting Command"
 msgstr ""
 
-#: ../../usage/sshserver.rst:66
+#: ../../usage/sshserver.rst:100
 msgid "Job Script"
 msgstr ""
 
-#: ../../usage/sshserver.rst:62
+#: ../../usage/sshserver.rst:96
 msgid "キューごとに、ジョブ投入用のコマンドとジョブスクリプトを設定します。ジョブ管理システムに応じたデフォルトの内容がキュー追加時に設定されます。必要に応じて編集してください。"
 msgstr ""
 "Set the command to post a job and the job script for each queue. Default "
 "values tailored for the job manager are set when you add a queue. Edit "
 "them if you need."
 
-#: ../../usage/sshserver.rst:66
+#: ../../usage/sshserver.rst:100
 msgid "実際に実行されるスクリプトの内容は、ジョブ投入時に表示されるウィンドウでご確認ください。"
 msgstr ""
 "The actual content of the script to be executed is shown when you post a "
 "job."
 
-#: ../../usage/sshserver.rst:69
+#: ../../usage/sshserver.rst:103
 msgid "Speedタブの設定"
 msgstr "Speed settings"
 
-#: ../../usage/sshserver.rst:71
+#: ../../usage/sshserver.rst:105
 msgid ":guilabel:`Speed` タブでは、サーバーからの情報取得・ファイルダウンロードの間隔、同時接続数を設定できます。"
 msgstr ""
 "In :guilabel:`Speed` tab, you can configure the intervals of retrieving "
 "informations / downloading files from the server, and the number of "
 "simultaneous accesses."
 
-#: ../../usage/sshserver.rst:73
+#: ../../usage/sshserver.rst:107
 msgid "サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` 側に動かすことで頻度を下げることができます。"
 msgstr ""
 "If frequent access is undesirable, move the sliders to :guilabel:`Slow` "
 "side to lower the frequency."
 
-#: ../../usage/sshserver.rst:75
+#: ../../usage/sshserver.rst:109
 msgid ":guilabel:`Connection Style` で、低速ネットワーク用の設定ができます。"
 msgstr ":guilabel:`Connection Style` is settings for the low bandwidth network."
 
-#: ../../usage/sshserver.rst:78
+#: ../../usage/sshserver.rst:112
 msgid "Online Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:78
+#: ../../usage/sshserver.rst:112
 msgid "常時オフラインモードに設定すると、リアルタイムでの結果取得（ファイルのダウンロード）を行いません。"
 msgstr ""
 "if set to Always OFFLINE mode, the result is not fetched (files are not "
 "downloaded) in real time."
 
-#: ../../usage/sshserver.rst:81
+#: ../../usage/sshserver.rst:115
 msgid "Download Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:81
+#: ../../usage/sshserver.rst:115
 msgid "容量の大きいバイナリファイルなどを除外し、テキストファイルのみダウンロードするよう設定できます。"
 msgstr "can be set to download Only Text Files, excluding large binary files etc."
 
-#: ../../usage/sshserver.rst:84
+#: ../../usage/sshserver.rst:118
 msgid "Download Time"
 msgstr ""
 
-#: ../../usage/sshserver.rst:84
-msgid "常時オフラインモードの際に、ファイルを一括ダウンロードする頻度（分単位）を設定します。"
+#: ../../usage/sshserver.rst:118
+msgid "常時オフラインモードの際に、ファイルを一括ダウンロードする間隔（分単位）を設定します。"
 msgstr "interval (minute) of batch download while in Always OFFLINE mode."
 
-#: ../../usage/sshserver.rst:87
+#: ../../usage/sshserver.rst:121
 msgid "サーバーの編集・削除"
 msgstr "Edit / remove server"
 
-#: ../../usage/sshserver.rst:89
+#: ../../usage/sshserver.rst:123
 msgid "各タブで設定した内容は、サーバーごとに保存されます。リストから既に保存されているサーバーを選択すると、その設定内容を編集できます。"
 msgstr ""
 "Settings in the tabs are saved server by server. Select previously saved "
 "server from the list to edit the settings of it."
 
-#: ../../usage/sshserver.rst:91
+#: ../../usage/sshserver.rst:125
 msgid "サーバーを削除するには、:guilabel:`SSH Configuration` の右側の |remove| ボタンをクリックしてください。"
 msgstr ""
 "To remove a server, click |remove| button on the right of :guilabel:`SSH "
