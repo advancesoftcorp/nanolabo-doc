@@ -17,3 +17,4 @@
    usage/calculation
    usage/result
    usage/grandproject
+   usage/slhmc
