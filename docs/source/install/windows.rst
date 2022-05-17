@@ -13,7 +13,11 @@
 
  `Advance/NanoLabo (ver.2.4) <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/02/install_nanolabo_windows_v2.4.exe>`_
 
- `Advance/NanoLabo Tool (ver.2.4) <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/02/install_nanolabo_tool_windows_v2.4.exe>`_
+ `Advance/NanoLabo Tool (ver.2.4) AlmaLinux8版 <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/02/install_nanolabo_tool_windows_v2.4.exe>`_
+
+ `Advance/NanoLabo Tool (ver.2.4) CentOS6/7版 <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/02/install_nanolabo_tool_windows_v2.4-centos6.exe>`_
+
+Advance/NanoLabo Toolのインストーラーは、計算をリモート（計算サーバー等）で実行する場合、リモートマシンのOSに合わせたものをお選びください。計算をローカル（NanoLaboをインストールするWindowsマシン）で実行する場合は、どちらのインストーラーでも大丈夫です。
 
 インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先フォルダにコピーされます。
 
