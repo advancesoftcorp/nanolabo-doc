@@ -69,7 +69,9 @@ Advance/NanoLabo Toolのインストーラーは、計算をリモート（計�
        :width: 300 px
        :align: center
 
-#. :guilabel:`Activate Advance/NanoLabo` ダイアログが表示されたら、 ターミナルを開いて :guilabel:`Command` 欄に表示されたコマンドを管理者ユーザーで実行するか、またはrootユーザーのパスワードを :guilabel:`Password of Root` 欄に入力し、その後 :guilabel:`OK` をクリックしてください。パスワードはこの場でのコマンド実行のみに使われ、保存されることはありません。
+#. :guilabel:`Activate Advance/NanoLabo` ダイアログが表示されたら、rootユーザーのパスワードを :guilabel:`Password of Root` 欄に入力し、 :guilabel:`OK` をクリックしてください。パスワードはこの場でのコマンド実行のみに使われ、保存されることはありません。
+
+   または、手動でターミナルを開いて :guilabel:`Command` 欄に表示されたコマンドを管理者ユーザーで実行する方法もあります。この場合、:guilabel:`OK` をクリックした後にエラーと表示されますが、成功していれば次回以降の起動ではダイアログが表示されなくなります。
 
     .. image:: /img/mac_activate.png
        :width: 300 px
