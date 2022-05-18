@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-17 15:53+0900\n"
+"POT-Creation-Date: 2022-05-18 22:32+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1028,7 +1028,7 @@ msgstr ""
 "Advance/NeuralMD` from the main menu |mainmenuicon| on the upper left."
 
 #: ../../usage/grandproject.rst:53 ../../usage/initial.rst:61
-#: ../../usage/ocp.rst:115 ../../usage/sshserver.rst:9
+#: ../../usage/ocp.rst:129 ../../usage/sshserver.rst:9
 msgid "mainmenuicon"
 msgstr ""
 
@@ -1951,8 +1951,9 @@ msgid ""
 "LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| "
 "をクリックすると説明が表示されます。"
 msgstr ""
-"Since this feature is realized by calling Python from LAMMPS, Python environment have to be prepared in advance. "
-"Also, there are some limitations. Click |info| to show the description."
+"Since this feature is realized by calling Python from LAMMPS, Python "
+"environment have to be prepared in advance. Also, there are some "
+"limitations. Click |info| to show the description."
 
 #: ../../usage/inputeditorlammps.rst:58
 msgid "info"
@@ -1960,7 +1961,9 @@ msgstr ""
 
 #: ../../usage/inputeditorlammps.rst:49
 msgid "MPI並列には非対応です（OpenMP並列、またはGPUを使った計算が可能です）。"
-msgstr "MPI parallel execution is not supported (OpenMP parallel execution or GPU calculation can be used)."
+msgstr ""
+"MPI parallel execution is not supported (OpenMP parallel execution or GPU"
+" calculation can be used)."
 
 #: ../../usage/inputeditorlammps.rst:50
 msgid "Z軸方向には周期境界条件が適用されません。"
@@ -1968,7 +1971,9 @@ msgstr "Periodic boundary condition is not applied along Z axis."
 
 #: ../../usage/inputeditorlammps.rst:51
 msgid "ビリアル応力が計算できないため、NPTアンサンブルでの計算、およびセルの最適化には非対応です。"
-msgstr "Since virial stress is not calculated, neither NPT ensemble calculation nor cell optimization is supported."
+msgstr ""
+"Since virial stress is not calculated, neither NPT ensemble calculation "
+"nor cell optimization is supported."
 
 #: ../../usage/inputeditorlammps.rst:63
 msgid "Scheme（計算過程）"
@@ -3098,9 +3103,10 @@ msgstr "To use GPU for the calculation, CUDA Tookit must be installed."
 #: ../../usage/ocp.rst:20
 msgid ""
 "NVIDIAの\\ `ダウンロードページ <https://developer.nvidia.com/cuda-toolkit-"
-"archive>`_\\ からCUDA Toolkit 10.2をダウンロードし、インストールしてください。"
+"archive>`_\\ からCUDA Toolkit "
+"10.2（Ampere世代GPUの場合は11.1）をダウンロードし、インストールしてください。"
 msgstr ""
-"Download CUDA Toolkit 10.2 from NVIDIA `download page "
+"Download CUDA Toolkit 10.2 (for Ampere GPU, 11.1) from NVIDIA `download page "
 "<https://developer.nvidia.com/cuda-toolkit-archive>`_ and install it."
 
 #: ../../usage/ocp.rst:22
@@ -3156,48 +3162,72 @@ msgstr ""
 "Project/ocp/archive/refs/heads/master.zip ."
 
 #: ../../usage/ocp.rst:42
-msgid "インストール"
-msgstr "Installation"
+msgid "Ampere世代GPUを使う場合は :file:`env.gpu.yml` を開き、次の2行を変更してください。"
+msgstr "If you use Ampere GPU, open :file:`env.gpu.yml` and modify the following 2 lines."
 
 #: ../../usage/ocp.rst:44
-msgid "リポジトリのフォルダに移動し、"
-msgstr "Go to the repository folder and run"
+msgid "変更前"
+msgstr "Before"
 
-#: ../../usage/ocp.rst:46
-msgid "pip install conda-merge"
+#: ../../usage/ocp.rst:44
+msgid ""
+"- cudatoolkit=10.2\n"
+"- -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html"
 msgstr ""
 
 #: ../../usage/ocp.rst:50
+msgid "変更後"
+msgstr "After"
+
+#: ../../usage/ocp.rst:50
+msgid ""
+"- cudatoolkit=11.1\n"
+"- -f https://pytorch-geometric.com/whl/torch-1.9.0+cu111.html"
+msgstr ""
+
+#: ../../usage/ocp.rst:56
+msgid "インストール"
+msgstr "Installation"
+
+#: ../../usage/ocp.rst:58
+msgid "リポジトリのフォルダに移動し、"
+msgstr "Go to the repository folder and run"
+
+#: ../../usage/ocp.rst:60
+msgid "pip install conda-merge"
+msgstr ""
+
+#: ../../usage/ocp.rst:64
 msgid "を実行します。次に、ocp-models仮想環境を作成します。"
 msgstr "Then create the ocp-models virtual environment:"
 
-#: ../../usage/ocp.rst:52 ../../usage/ocp.rst:146
+#: ../../usage/ocp.rst:66 ../../usage/ocp.rst:160
 msgid "CPUで計算を行う（GPUを使わない）場合"
 msgstr "Use CPU for calculation (do not use GPU)"
 
-#: ../../usage/ocp.rst:52
+#: ../../usage/ocp.rst:66
 msgid ""
 " conda-merge env.common.yml env.cpu.yml > env.yml\n"
 " conda env create -f env.yml\n"
 " conda activate ocp-models"
 msgstr ""
 
-#: ../../usage/ocp.rst:59 ../../usage/ocp.rst:152
+#: ../../usage/ocp.rst:73 ../../usage/ocp.rst:166
 msgid "GPUで計算を行う場合"
 msgstr "Use GPU for calculation"
 
-#: ../../usage/ocp.rst:59
+#: ../../usage/ocp.rst:73
 msgid ""
 " conda-merge env.common.yml env.gpu.yml > env.yml\n"
 " conda env create -f env.yml\n"
 " conda activate ocp-models"
 msgstr ""
 
-#: ../../usage/ocp.rst:66
+#: ../../usage/ocp.rst:80
 msgid "macOSで、かつCPUで計算を行う場合"
 msgstr "On macOS and use CPU for calculation"
 
-#: ../../usage/ocp.rst:66
+#: ../../usage/ocp.rst:80
 msgid ""
 " conda env create -f env.common.yml\n"
 " conda activate ocp-models\n"
@@ -3206,47 +3236,47 @@ msgid ""
 "geometric.com/whl/torch-1.8.0+cpu.html"
 msgstr ""
 
-#: ../../usage/ocp.rst:73
+#: ../../usage/ocp.rst:87
 msgid "最後に"
 msgstr "Finally, run"
 
-#: ../../usage/ocp.rst:75
+#: ../../usage/ocp.rst:89
 msgid "pip install -e ."
 msgstr ""
 
-#: ../../usage/ocp.rst:79
+#: ../../usage/ocp.rst:93
 msgid "を実行してリポジトリの内容をパッケージとしてインストールします。"
 msgstr "to install the content of the repository as package."
 
-#: ../../usage/ocp.rst:83
+#: ../../usage/ocp.rst:97
 msgid "ここで作成したocp-models仮想環境を削除するには、"
 msgstr "To remove the ocp-models virtual environment created here, run"
 
-#: ../../usage/ocp.rst:85
+#: ../../usage/ocp.rst:99
 msgid ""
 "conda deactivate\n"
 "conda remove -n ocp-models --all"
 msgstr ""
 
-#: ../../usage/ocp.rst:90
+#: ../../usage/ocp.rst:104
 msgid "を実行します。"
 msgstr "\\ "
 
-#: ../../usage/ocp.rst:92
+#: ../../usage/ocp.rst:106
 msgid "学習済みのモデル（ptファイル）はNanoLabo Toolに同梱されているため、ダウンロードの手順を行う必要はありません。"
 msgstr ""
 "There is no need to do download procedure, as pretrained models (pt "
 "files) are included in the NanoLabo Tool."
 
-#: ../../usage/ocp.rst:97
+#: ../../usage/ocp.rst:111
 msgid "NanoLaboへの設定"
 msgstr "Configuring NanoLabo"
 
-#: ../../usage/ocp.rst:99
+#: ../../usage/ocp.rst:113
 msgid "ローカル（NanoLaboを使っているマシン）で実行する場合"
 msgstr "To run locally (on the machine running NanoLabo)"
 
-#: ../../usage/ocp.rst:101
+#: ../../usage/ocp.rst:115
 msgid ""
 "画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` "
 "（またはForce Field設定画面の :guilabel:`Setting Python` "
@@ -3256,7 +3286,7 @@ msgstr ""
 "from the upper left menu |mainmenuicon| (or :guilabel:`Setting Python` "
 "button in the Force Field setting screen)."
 
-#: ../../usage/ocp.rst:103
+#: ../../usage/ocp.rst:117
 msgid ""
 "Windowsでは :file:`condaのインストール先\\\\envs\\\\ocp-models\\\\python.exe` "
 "、Linux・macOSでは :file:`condaのインストール先/envs/ocp-models/bin/python` にあります。"
@@ -3265,11 +3295,11 @@ msgstr ""
 "models\\\\python.exe` on Windows, and :file:`conda installation "
 "destination/envs/ocp-models/bin/python` on Linux/macOS."
 
-#: ../../usage/ocp.rst:105
+#: ../../usage/ocp.rst:119
 msgid "リモート（計算サーバー等）で実行する場合"
 msgstr "To run remotely (on calculation server etc.)"
 
-#: ../../usage/ocp.rst:107
+#: ../../usage/ocp.rst:121
 msgid ""
 "condaのインストール先が :file:`~/anaconda3` または :file:`~/miniconda3` "
 "の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、設定は必要ありません。"
@@ -3278,7 +3308,7 @@ msgstr ""
 ":file:`~/miniconda3`\\ , it works with autmatically added "
 ":envvar:`LD_LIBRARY_PATH`\\ , therefore no configuration is needed."
 
-#: ../../usage/ocp.rst:109
+#: ../../usage/ocp.rst:123
 msgid ""
 "他の場所にインストールした場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> "
 "SSH server` を開き、ジョブスクリプトに :envvar:`LD_LIBRARY_PATH` を追加してください。"
@@ -3287,7 +3317,7 @@ msgstr ""
 "upper left, open :menuselection:`Network --> SSH server`\\ , and then add"
 " :envvar:`LD_LIBRARY_PATH` to the job script."
 
-#: ../../usage/ocp.rst:111
+#: ../../usage/ocp.rst:125
 msgid ""
 "export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
@@ -3295,17 +3325,19 @@ msgstr ""
 "export LD_LIBRARY_PATH=(conda installation destination)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/ocp.rst:120
+#: ../../usage/ocp.rst:134
 msgid "LAMMPSを直接実行する場合"
 msgstr "Using LAMMPS directly"
 
-#: ../../usage/ocp.rst:122
-msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列には非対応です。"
+#: ../../usage/ocp.rst:136
+msgid ""
+"NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` "
+"を使用します。MPI並列計算、ビリアル応力の計算（NPTアンサンブル、セル最適化）には非対応です。"
 msgstr ""
 "Use the executable file :file:`lammps_oc20` included in NanoLabo Tool. "
-"MPI parallel execution is not supported."
+"MPI parallel execution and virial stress calculation (NPT ensemble, cell optimization) are not supported."
 
-#: ../../usage/ocp.rst:124
+#: ../../usage/ocp.rst:138
 msgid ""
 "Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` "
 "を設定してください。"
@@ -3313,7 +3345,7 @@ msgstr ""
 "On Linux/macOS, set the environment variable :envvar:`LD_LIBRARY_PATH` , "
 "so the program can use Python dynamic library when executed."
 
-#: ../../usage/ocp.rst:126
+#: ../../usage/ocp.rst:140
 msgid ""
 "$ export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
@@ -3321,19 +3353,19 @@ msgstr ""
 "$ export LD_LIBRARY_PATH=(conda installation destination)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/ocp.rst:130
+#: ../../usage/ocp.rst:144
 msgid "また、Linuxでは環境変数 :envvar:`OPAL_PREFIX` を設定してください。"
 msgstr "Also, on Linux, set the environment variable :envvar:`OPAL_PREFIX` ."
 
-#: ../../usage/ocp.rst:132
+#: ../../usage/ocp.rst:146
 msgid "デフォルトの場所にインストールした場合の例"
 msgstr "in case installed in default location"
 
-#: ../../usage/ocp.rst:132
+#: ../../usage/ocp.rst:146
 msgid "$ export OPAL_PREFIX=/opt/AdvanceSoft/NanoLabo/exec.LINUX/mpi"
 msgstr ""
 
-#: ../../usage/ocp.rst:137
+#: ../../usage/ocp.rst:151
 msgid ""
 "LAMMPSから :file:`oc20_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の "
 ":file:`oc20driver` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 "
@@ -3344,21 +3376,21 @@ msgstr ""
 "the module search path of Python. Add it to environment variable "
 ":envvar:`PYTHONPATH`\\ , for example."
 
-#: ../../usage/ocp.rst:139
+#: ../../usage/ocp.rst:153
 msgid "Linuxの例"
 msgstr "Linux exapmple"
 
-#: ../../usage/ocp.rst:139
+#: ../../usage/ocp.rst:153
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/oc20driver:$PYTHONPATH"
 msgstr ""
 "$ export PYTHONPATH=(NanoLabo Tool installation "
 "destination)/oc20driver:$PYTHONPATH"
 
-#: ../../usage/ocp.rst:144
+#: ../../usage/ocp.rst:158
 msgid "LAMMPSの入力ファイル中で、以下のように\\ ``pair_style``\\ を設定します。"
 msgstr "Set ``pair_style`` as below in the LAMMPS input file."
 
-#: ../../usage/ocp.rst:146
+#: ../../usage/ocp.rst:160
 msgid ""
 "pair_style oc20\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -3366,7 +3398,7 @@ msgstr ""
 "pair_style oc20\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/ocp.rst:152
+#: ../../usage/ocp.rst:166
 msgid ""
 "pair_style oc20/gpu\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -3374,11 +3406,11 @@ msgstr ""
 "pair_style oc20/gpu\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/ocp.rst:158
+#: ../../usage/ocp.rst:172
 msgid "パラメーター"
 msgstr "Parameter"
 
-#: ../../usage/ocp.rst:164
+#: ../../usage/ocp.rst:178
 msgid "model"
 msgstr ""
 
@@ -3390,11 +3422,11 @@ msgstr "graph neural network model to be used"
 msgid "DimeNet++, GemNet-dT, CGCNN, SchNet, SpinConv のいずれかを指定"
 msgstr "specify one of DimeNet++, GemNet-dT, CGCNN, SchNet, SpinConv"
 
-#: ../../usage/ocp.rst:167
+#: ../../usage/ocp.rst:181
 msgid "元素名"
 msgstr "element"
 
-#: ../../usage/ocp.rst:167
+#: ../../usage/ocp.rst:181
 msgid "LAMMPSのatom type毎に、対応する元素名を列挙"
 msgstr "list element names in the same order as atom types of LAMMPS"
 
@@ -3569,8 +3601,8 @@ msgstr ""
 #: ../../usage/project.rst:63
 msgid "メトロポリス法による構造生成（\\ `Advance/NeuralMD`_\\ 連携機能）"
 msgstr ""
-"generate structures by Metropolis method (cooperation function "
-"with `Advance/NeuralMD`_ )"
+"generate structures by Metropolis method (cooperation function with "
+"`Advance/NeuralMD`_ )"
 
 #: ../../usage/project.rst:65
 msgid "SLHMC"
@@ -3579,8 +3611,8 @@ msgstr ""
 #: ../../usage/project.rst:65
 msgid "自己学習ハイブリッドモンテカルロ法による力場作成（\\ `Advance/NeuralMD`_\\ 連携機能）"
 msgstr ""
-"make force field by self-learning hybrid Monte Carlo method (cooperation function "
-"with `Advance/NeuralMD`_ )"
+"make force field by self-learning hybrid Monte Carlo method (cooperation "
+"function with `Advance/NeuralMD`_ )"
 
 #: ../../usage/project.rst:74
 msgid "使用する計算エンジンとエディターのモードを選ぶと、それに応じた設定項目が画面右側のエディターパネルに表示されます。"
@@ -3936,20 +3968,25 @@ msgstr ""
 
 #: ../../usage/slhmc.rst:5
 msgid "自己学習ハイブリッドモンテカルロ法による力場自動生成（NeuralMD連携）"
-msgstr "Automatic force field generation by self-learning hybrid Monte Carlo method (cooperation with NeuralMD)"
+msgstr ""
+"Automatic force field generation by self-learning hybrid Monte Carlo "
+"method (cooperation with NeuralMD)"
 
 #: ../../usage/slhmc.rst:7
 msgid "1つの初期構造から自動的にNeuralMDの力場を作る機能です。グランドプロジェクトを使った場合にはユーザーが教師データの生成を行いますが、本機能では1つの初期構造を用意するだけで、教師データの準備を行う必要はありません。"
-msgstr "With this function, force field for NeuralMD is automatically generated from one initial structure. "
-"In constant to the grand-project where the user generate the training data, this function does not need the preparation of the training data, but just one initial structure."
+msgstr ""
+"With this function, force field for NeuralMD is automatically generated "
+"from one initial structure. In constant to the grand-project where the "
+"user generate the training data, this function does not need the "
+"preparation of the training data, but just one initial structure."
 
 #: ../../usage/slhmc.rst:9
 msgid ""
 "本機能を使う場合は、別途NeuralMDのライセンスが必要です。設定が済んでいない場合は\\ :ref:`こちらの説明 "
 "<grand_neumd>`\\ を参照して設定を行ってください。"
 msgstr ""
-"To use this function, separate NeuralMD license is required. Please refer to :ref:`this description <grand_neumd>` "
-"if the setting is not yet done."
+"To use this function, separate NeuralMD license is required. Please refer"
+" to :ref:`this description <grand_neumd>` if the setting is not yet done."
 
 #: ../../usage/slhmc.rst:14
 msgid "使用手順"
@@ -3961,8 +3998,11 @@ msgstr "1. Prepare initial structure"
 
 #: ../../usage/slhmc.rst:21
 msgid "初期構造として使うプロジェクトを開きます。必要に応じ、計算エンジンがQ.E.に設定されている状態で、SCFの設定を行ってください。ここでの設定内容が自己学習ハイブリッドモンテカルロ法の第一原理計算で使われます。"
-msgstr "Open the project to be used as the initial structure. Make sure the calculation engine is set to Q.E. and change the SCF setting if needed. "
-"Settings here are applied for the first principle calculations within the self-learning hybrid Monte Carlo method."
+msgstr ""
+"Open the project to be used as the initial structure. Make sure the "
+"calculation engine is set to Q.E. and change the SCF setting if needed. "
+"Settings here are applied for the first principle calculations within the"
+" self-learning hybrid Monte Carlo method."
 
 #: ../../usage/slhmc.rst:26
 msgid "2. SLHMCの設定"
@@ -3976,11 +4016,11 @@ msgid ""
 " `slhmc.prop <https://neuralmd-"
 "doc.readthedocs.io/ja/latest/slhmc/prop.html>`_ の対応する項目を参照してください。"
 msgstr ""
-"Click :guilabel:`SLHMC` from the lower left menu |projectmenuicon| . The setting screen for self-learning hybrid Monte Carlo method is displayed. "
+"Click :guilabel:`SLHMC` from the lower left menu |projectmenuicon| . The "
+"setting screen for self-learning hybrid Monte Carlo method is displayed. "
 "For details of the setting items, refer to the corresponding items on the"
 " configuration file description `slhmc.prop <https://neuralmd-"
-"doc.readthedocs.io/ja/latest/slhmc/prop.html>`_ in the "
-"NeuralMD document."
+"doc.readthedocs.io/ja/latest/slhmc/prop.html>`_ in the NeuralMD document."
 
 #: ../../usage/slhmc.rst:30
 msgid ""
@@ -3989,9 +4029,11 @@ msgid ""
 ":guilabel:`Import File of NNP` をクリックし、\\ :file:`ffield.sannp`\\ "
 "ファイルを選択してください。"
 msgstr ""
-"To use existing neural network force field as the initial force field instead of making it from first princible "
-"molecular dynamics calculation, set :guilabel:`Initial FPMD` to 0 and then click :guilabel:`Import File of NNP` "
-"at :guilabel:`Initial NNP` to choose the :file:`ffield.sannp` file."
+"To use existing neural network force field as the initial force field "
+"instead of making it from first princible molecular dynamics calculation,"
+" set :guilabel:`Initial FPMD` to 0 and then click :guilabel:`Import File "
+"of NNP` at :guilabel:`Initial NNP` to choose the :file:`ffield.sannp` "
+"file."
 
 #: ../../usage/slhmc.rst:37
 msgid "3. NNPの設定"
@@ -4004,19 +4046,20 @@ msgid ""
 " `sannp.prop <https://neuralmd-"
 "doc.readthedocs.io/ja/latest/usage/prop.html>`_ の対応する項目を参照してください。"
 msgstr ""
-"Click :guilabel:`Details of NNP` at :guilabel:`Start Setting NNP` to show the setting screen for the neural network potential. "
-"For details of the setting items, refer to the corresponding items on the"
-" configuration file description `sannp.prop <https://neuralmd-"
-"doc.readthedocs.io/ja/latest/usage/prop.html>`_ in the "
-"NeuralMD document."
+"Click :guilabel:`Details of NNP` at :guilabel:`Start Setting NNP` to show"
+" the setting screen for the neural network potential. For details of the "
+"setting items, refer to the corresponding items on the configuration file"
+" description `sannp.prop <https://neuralmd-"
+"doc.readthedocs.io/ja/latest/usage/prop.html>`_ in the NeuralMD document."
 
 #: ../../usage/slhmc.rst:41
 msgid ""
 "設定が終わったら、画面左下の |projectmenuicon| から :guilabel:`Return to SLHMC` "
 "をクリックし、元のプロジェクト画面に戻ります。"
 msgstr ""
-"When setting is finished, click :guilabel:`Return to SLHMC` "
-"from the lower left menu |projectmenuicon| to go back to the original project screen."
+"When setting is finished, click :guilabel:`Return to SLHMC` from the "
+"lower left menu |projectmenuicon| to go back to the original project "
+"screen."
 
 #: ../../usage/slhmc.rst:48
 msgid "4. 実行"
@@ -4029,9 +4072,10 @@ msgid ""
 "ESPRESSO、LAMMPS、NeuralMDを呼び出す際に実行されるスクリプトの編集画面も表示されますので、内容を確認し、必要に応じて変更してから"
 " :guilabel:`OK` をクリックしてください。"
 msgstr ""
-"Click :guilabel:`Run` from the lower left menu |projectmenuicon| to run. In case of remote execution, edit screen of the scripts for "
-"calling Quantum ESPRESSO, LAMMPS and NeuralMD is shown, so you can check and edit the content of them if needed, "
-"and then click :guilabel:`OK` ."
+"Click :guilabel:`Run` from the lower left menu |projectmenuicon| to run. "
+"In case of remote execution, edit screen of the scripts for calling "
+"Quantum ESPRESSO, LAMMPS and NeuralMD is shown, so you can check and edit"
+" the content of them if needed, and then click :guilabel:`OK` ."
 
 #: ../../usage/slhmc.rst:52
 msgid ""
@@ -4040,9 +4084,13 @@ msgid ""
 "に対する割合）が表示されます。ニューラルネットワーク力場は随時更新され、Accepted "
 "Rate（モンテカルロ法の採択率）が1に近く、エネルギーの平均絶対誤差(MAE)が小さいほど、性能の良い力場であると判断できます。"
 msgstr ""
-"When you go back to the tab, result screen is shown, where you can check the status of first principle molecular dynamics calculation (FPMD) to make the initial neural network force field, "
-"and the hybrid Monte Carle calculation (HMC). The neural network force field is updated in real time, and you can decide the quality is better if the "
-"Accepted Rate (that of Monte Carlo method) is closer to 1 and the mean absolute error (MAE) of energy is smaller."
+"When you go back to the tab, result screen is shown, where you can check "
+"the status of first principle molecular dynamics calculation (FPMD) to "
+"make the initial neural network force field, and the hybrid Monte Carle "
+"calculation (HMC). The neural network force field is updated in real "
+"time, and you can decide the quality is better if the Accepted Rate (that"
+" of Monte Carlo method) is closer to 1 and the mean absolute error (MAE) "
+"of energy is smaller."
 
 #: ../../usage/slhmc.rst:54
 msgid ""
@@ -4051,7 +4099,8 @@ msgid ""
 "をクリックすると、生成された教師データを保存できます。"
 msgstr ""
 "Click :guilabel:`force-field` to save trained neural network as a force "
-"field file for LAMMPS. Click :guilabel:`train-data` to save generated training data."
+"field file for LAMMPS. Click :guilabel:`train-data` to save generated "
+"training data."
 
 #: ../../usage/sshserver.rst:5
 msgid "SSHサーバーの設定"
@@ -4144,8 +4193,11 @@ msgid ""
 "server` "
 "で設定したプロキシが使われます。インターネットへの接続にプロキシが必要な環境で、外部のクラウド仮想マシン等に計算ジョブを投入する際にお使いいただけます。"
 msgstr ""
-"Use proxy for the connection to the server (SSH over HTTP). The proxy setting in :menuselection:`Network --> Proxy server` is used. "
-"This is useful when submitting calculation job to an external cloud virtual machine etc. from the environment where you have to use proxy for the internet connection."
+"Use proxy for the connection to the server (SSH over HTTP). The proxy "
+"setting in :menuselection:`Network --> Proxy server` is used. This is "
+"useful when submitting calculation job to an external cloud virtual "
+"machine etc. from the environment where you have to use proxy for the "
+"internet connection."
 
 #: ../../usage/sshserver.rst:48
 msgid "Account"

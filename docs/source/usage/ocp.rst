@@ -17,7 +17,7 @@ Open Catalyst Projectで公開されている\ `インストール手順 <https:
 
      GPUを使って計算を行うには、CUDA Toolkitがインストールされている必要があります。
 
-     NVIDIAの\ `ダウンロードページ <https://developer.nvidia.com/cuda-toolkit-archive>`_\ からCUDA Toolkit 10.2をダウンロードし、インストールしてください。
+     NVIDIAの\ `ダウンロードページ <https://developer.nvidia.com/cuda-toolkit-archive>`_\ からCUDA Toolkit 10.2（Ampere世代GPUの場合は11.1）をダウンロードし、インストールしてください。
 
      NVIDIAドライバがインストールされていない場合は、そちらもインストールしてください。
 
@@ -38,6 +38,20 @@ Open Catalyst Projectで公開されている\ `インストール手順 <https:
          git clone https://github.com/Open-Catalyst-Project/ocp.git
 
      または https://github.com/Open-Catalyst-Project/ocp/archive/refs/heads/master.zip をダウンロード・解凍します。
+
+     Ampere世代GPUを使う場合は :file:`env.gpu.yml` を開き、次の2行を変更してください。
+
+     .. code-block:: none
+         :caption: 変更前
+
+         - cudatoolkit=10.2
+         - -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
+
+     .. code-block:: none
+         :caption: 変更後
+
+         - cudatoolkit=11.1
+         - -f https://pytorch-geometric.com/whl/torch-1.9.0+cu111.html
 
 #. インストール
 
@@ -119,7 +133,7 @@ NanoLaboへの設定
 LAMMPSを直接実行する場合
 ===========================
 
-NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列には非対応です。
+NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列計算、ビリアル応力の計算（NPTアンサンブル、セル最適化）には非対応です。
 
 Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` を設定してください。
 
