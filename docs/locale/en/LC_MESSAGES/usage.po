@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-14 17:38+0900\n"
+"POT-Creation-Date: 2022-05-17 15:53+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr "Viewpoint manipulation"
 #: ../../usage/atomsviewer.rst:128 ../../usage/atomsviewer.rst:152
 #: ../../usage/atomsviewer.rst:174 ../../usage/explorer.rst:135
 #: ../../usage/grandproject.rst:95 ../../usage/initial.rst:105
-#: ../../usage/project.rst:92
+#: ../../usage/project.rst:94
 msgid "操作"
 msgstr "Operation"
 
@@ -160,7 +160,7 @@ msgstr ""
 #: ../../usage/atomsviewer.rst:48 ../../usage/calculation.rst:9
 #: ../../usage/grandproject.rst:27 ../../usage/inputeditor.rst:47
 #: ../../usage/modeler.rst:15 ../../usage/project.rst:20
-#: ../../usage/result.rst:9
+#: ../../usage/result.rst:9 ../../usage/slhmc.rst:60
 msgid "projectmenuicon"
 msgstr ""
 
@@ -341,7 +341,7 @@ msgid ":kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr "Press :kbd:`Esc` key to fix the position."
 
 #: ../../usage/atomsviewer.rst:168 ../../usage/explorer.rst:129
-#: ../../usage/initial.rst:99 ../../usage/project.rst:86
+#: ../../usage/initial.rst:99 ../../usage/project.rst:88
 msgid "ショートカットキー一覧"
 msgstr "Shortcut keys list"
 
@@ -499,7 +499,6 @@ msgstr ""
 "a calculation type to be run by the calculation engine."
 
 #: ../../usage/calculation.rst:17 ../../usage/sshserver.rst:30
-#: ../../usage/sshserver.rst:78
 msgid "Host Name"
 msgstr ""
 
@@ -1168,7 +1167,7 @@ msgstr "The column can also be removed by |remove| at the top."
 
 #: ../../usage/grandproject.rst:112 ../../usage/inputeditorqe.rst:9
 #: ../../usage/modeler.rst:235 ../../usage/result.rst:68
-#: ../../usage/sshserver.rst:92
+#: ../../usage/sshserver.rst:61
 msgid "remove"
 msgstr ""
 
@@ -1393,7 +1392,7 @@ msgstr ""
 "Click :guilabel:`force-field` to save trained neural network as a force "
 "field file for LAMMPS."
 
-#: ../../usage/grandproject.rst:182
+#: ../../usage/grandproject.rst:182 ../../usage/slhmc.rst:56
 msgid ""
 "作成した力場ファイルを使って分子動力学計算を行うには、LAMMPSのプロジェクトの :guilabel:`Force-Field` 設定画面で "
 ":guilabel:`Type of Force Field` をNeuralMDまたはNeuralMD with Chargeに設定して、 "
@@ -1697,7 +1696,7 @@ msgstr ""
 "Then, set the appropriate values referring to the calculation engine "
 "manual."
 
-#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:61
+#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:67
 #: ../../usage/inputeditorqe.rst:3 ../../usage/project.rst:24
 msgid "editormenuicon"
 msgstr ""
@@ -1838,7 +1837,7 @@ msgstr ""
 "mobile along X/Y/Z direction from the right click menu of the rows of "
 "atoms."
 
-#: ../../usage/inputeditorlammps.rst:49
+#: ../../usage/inputeditorlammps.rst:53
 msgid "Python環境の設定方法"
 msgstr "Setting Python environment"
 
@@ -1948,16 +1947,34 @@ msgstr ""
 " ."
 
 #: ../../usage/inputeditorlammps.rst:47
-msgid "LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要です。また、MPI並列には非対応です。"
+msgid ""
+"LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| "
+"をクリックすると説明が表示されます。"
 msgstr ""
-"As it is executed by calling Python from LAMMPS, Python environment must "
-"be set up beforehand. MPI parallel execution is not supported."
+"Since this feature is realized by calling Python from LAMMPS, Python environment have to be prepared in advance. "
+"Also, there are some limitations. Click |info| to show the description."
 
-#: ../../usage/inputeditorlammps.rst:57
+#: ../../usage/inputeditorlammps.rst:58
+msgid "info"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:49
+msgid "MPI並列には非対応です（OpenMP並列、またはGPUを使った計算が可能です）。"
+msgstr "MPI parallel execution is not supported (OpenMP parallel execution or GPU calculation can be used)."
+
+#: ../../usage/inputeditorlammps.rst:50
+msgid "Z軸方向には周期境界条件が適用されません。"
+msgstr "Periodic boundary condition is not applied along Z axis."
+
+#: ../../usage/inputeditorlammps.rst:51
+msgid "ビリアル応力が計算できないため、NPTアンサンブルでの計算、およびセルの最適化には非対応です。"
+msgstr "Since virial stress is not calculated, neither NPT ensemble calculation nor cell optimization is supported."
+
+#: ../../usage/inputeditorlammps.rst:63
 msgid "Scheme（計算過程）"
 msgstr "Scheme"
 
-#: ../../usage/inputeditorlammps.rst:59
+#: ../../usage/inputeditorlammps.rst:65
 msgid ""
 "入力ファイルエディターの :guilabel:`Scheme` で計算過程の設定を行います。画面右下のメニュー |editormenuicon| "
 "から :guilabel:`Scheme` をクリックしてください。"
@@ -1966,7 +1983,7 @@ msgstr ""
 " editor. Click :guilabel:`Scheme` from the menu |editormenuicon| on the "
 "lower right."
 
-#: ../../usage/inputeditorlammps.rst:63
+#: ../../usage/inputeditorlammps.rst:69
 msgid ""
 "画面右側の :guilabel:`Set Scheme` で計算の設定を行い、 :guilabel:`Add Scheme` の "
 ":guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| "
@@ -1977,7 +1994,7 @@ msgstr ""
 "the setting on the left side of the window as a tile. Repeat configuring "
 "|rarr| :guilabel:`Apply` to add processes as many times as necessary."
 
-#: ../../usage/inputeditorlammps.rst:69
+#: ../../usage/inputeditorlammps.rst:75
 msgid ""
 "タイルの左上の数字が過程の実行される順番です。前へボタン |lpback| 、後へボタン |lpfwd| で順番を入れ替えます。削除ボタン "
 "|lpdel| で削除します。"
@@ -1986,19 +2003,19 @@ msgstr ""
 " process is executed. Use back button |lpback| and forward button |lpfwd|"
 " to change the order. Delete it by delete button |lpdel| ."
 
-#: ../../usage/inputeditorlammps.rst:71
+#: ../../usage/inputeditorlammps.rst:77
 msgid "lpback"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:72
+#: ../../usage/inputeditorlammps.rst:78
 msgid "lpfwd"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:73
+#: ../../usage/inputeditorlammps.rst:79
 msgid "lpdel"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:75
+#: ../../usage/inputeditorlammps.rst:81
 msgid ""
 "追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` "
 "ウィンドウが表示され、設定を編集できます。"
@@ -2007,7 +2024,7 @@ msgstr ""
 ":guilabel:`Set the scheme` window is displayed and you can edit the "
 "settings."
 
-#: ../../usage/inputeditorlammps.rst:77
+#: ../../usage/inputeditorlammps.rst:83
 msgid ""
 "また、 :guilabel:`Statistical Properties` の各項目を :guilabel:`yes` "
 "に設定することで、統計量（熱伝導率、粘性係数、拡散係数、動径分布関数(RDF)）が計算され、結果画面に表示されます。"
@@ -2017,7 +2034,7 @@ msgstr ""
 "viscosity coefficient, diffusion constant and radial distribution "
 "function (RDF)) are calculated and displayed in the result screen."
 
-#: ../../usage/inputeditorlammps.rst:79
+#: ../../usage/inputeditorlammps.rst:85
 msgid ""
 "各熱力学量や原子構造は毎ステップではなく、間を空けて出力されます。 :guilabel:`Interval to Print Logs` "
 "で出力の間隔をステップ数で設定できます。"
@@ -3358,7 +3375,7 @@ msgstr ""
 "pair_coeff * * <model> <element1 element2 ...>"
 
 #: ../../usage/ocp.rst:158
-msgid "パラメータ"
+msgid "パラメーター"
 msgstr "Parameter"
 
 #: ../../usage/ocp.rst:164
@@ -3550,22 +3567,32 @@ msgid "Metropolis w/ NNP"
 msgstr ""
 
 #: ../../usage/project.rst:63
-msgid "メトロポリス法による構造生成（\\ `Advance/NeuralMD`_\\ 連携機能の1つ）"
+msgid "メトロポリス法による構造生成（\\ `Advance/NeuralMD`_\\ 連携機能）"
 msgstr ""
-"generate structures by Metropolis method (one of cooperation function "
+"generate structures by Metropolis method (cooperation function "
 "with `Advance/NeuralMD`_ )"
 
-#: ../../usage/project.rst:72
+#: ../../usage/project.rst:65
+msgid "SLHMC"
+msgstr ""
+
+#: ../../usage/project.rst:65
+msgid "自己学習ハイブリッドモンテカルロ法による力場作成（\\ `Advance/NeuralMD`_\\ 連携機能）"
+msgstr ""
+"make force field by self-learning hybrid Monte Carlo method (cooperation function "
+"with `Advance/NeuralMD`_ )"
+
+#: ../../usage/project.rst:74
 msgid "使用する計算エンジンとエディターのモードを選ぶと、それに応じた設定項目が画面右側のエディターパネルに表示されます。"
 msgstr ""
 "When you select the calculation engine and the editor mode, corresponding"
 " setting items are displayed in editor panel on the right side."
 
-#: ../../usage/project.rst:77
+#: ../../usage/project.rst:79
 msgid "プロジェクトの保存"
 msgstr "Saving project"
 
-#: ../../usage/project.rst:79
+#: ../../usage/project.rst:81
 msgid ""
 "新しいプロジェクトを開いた場合、そのままではまだ保存されていません。左下のメニュー |projectmenuicon| から "
 ":guilabel:`Save` をクリックし、保存場所とプロジェクト名を設定して保存してください。タブにプロジェクト名が表示されます。"
@@ -3574,34 +3601,34 @@ msgstr ""
 " from the menu |projectmenuicon| on the lower left and specify the name "
 "and the location to save it. The project name is displayed on the tab."
 
-#: ../../usage/project.rst:81
+#: ../../usage/project.rst:83
 msgid "保存していないプロジェクトで計算を実行しようとしたり、エディターで変更を加えたまま保存せずにタブを閉じようとしたりすると、保存するよう促されます。"
 msgstr ""
 "You will be prompted to save the project if you try to run the "
 "calculation in an unsaved project or if you try to close a tab with "
 "unsaved changes."
 
-#: ../../usage/project.rst:94
+#: ../../usage/project.rst:96
 msgid "プロジェクト保存"
 msgstr "Save project"
 
-#: ../../usage/project.rst:94
+#: ../../usage/project.rst:96
 msgid ":kbd:`Ctrl` + :kbd:`S`"
 msgstr ""
 
-#: ../../usage/project.rst:96
+#: ../../usage/project.rst:98
 msgid "戻る（左下の矢印ボタン）"
 msgstr "Go back (arrow button on lower left)"
 
-#: ../../usage/project.rst:96
+#: ../../usage/project.rst:98
 msgid ":kbd:`Ctrl` + |larr|"
 msgstr ""
 
-#: ../../usage/project.rst:98
+#: ../../usage/project.rst:100
 msgid "スクリーンショット（画像保存）"
 msgstr "Screenshot (save as image)"
 
-#: ../../usage/project.rst:98
+#: ../../usage/project.rst:100
 msgid ":kbd:`PrintScreen`"
 msgstr ""
 
@@ -3907,6 +3934,125 @@ msgstr ""
 "When editing is finished, click back button |back| on the lower left to "
 "go back to the DOS plot view."
 
+#: ../../usage/slhmc.rst:5
+msgid "自己学習ハイブリッドモンテカルロ法による力場自動生成（NeuralMD連携）"
+msgstr "Automatic force field generation by self-learning hybrid Monte Carlo method (cooperation with NeuralMD)"
+
+#: ../../usage/slhmc.rst:7
+msgid "1つの初期構造から自動的にNeuralMDの力場を作る機能です。グランドプロジェクトを使った場合にはユーザーが教師データの生成を行いますが、本機能では1つの初期構造を用意するだけで、教師データの準備を行う必要はありません。"
+msgstr "With this function, force field for NeuralMD is automatically generated from one initial structure. "
+"In constant to the grand-project where the user generate the training data, this function does not need the preparation of the training data, but just one initial structure."
+
+#: ../../usage/slhmc.rst:9
+msgid ""
+"本機能を使う場合は、別途NeuralMDのライセンスが必要です。設定が済んでいない場合は\\ :ref:`こちらの説明 "
+"<grand_neumd>`\\ を参照して設定を行ってください。"
+msgstr ""
+"To use this function, separate NeuralMD license is required. Please refer to :ref:`this description <grand_neumd>` "
+"if the setting is not yet done."
+
+#: ../../usage/slhmc.rst:14
+msgid "使用手順"
+msgstr "Usage"
+
+#: ../../usage/slhmc.rst:19
+msgid "1. 初期構造の用意"
+msgstr "1. Prepare initial structure"
+
+#: ../../usage/slhmc.rst:21
+msgid "初期構造として使うプロジェクトを開きます。必要に応じ、計算エンジンがQ.E.に設定されている状態で、SCFの設定を行ってください。ここでの設定内容が自己学習ハイブリッドモンテカルロ法の第一原理計算で使われます。"
+msgstr "Open the project to be used as the initial structure. Make sure the calculation engine is set to Q.E. and change the SCF setting if needed. "
+"Settings here are applied for the first principle calculations within the self-learning hybrid Monte Carlo method."
+
+#: ../../usage/slhmc.rst:26
+msgid "2. SLHMCの設定"
+msgstr "2. SLHMC setting"
+
+#: ../../usage/slhmc.rst:28
+msgid ""
+"画面左下のメニュー |projectmenuicon| から :guilabel:`Change calculator` をクリックし、 "
+":guilabel:`SLHMC` "
+"を選んでください。自己学習ハイブリッドモンテカルロ法の設定画面が表示されます。設定項目の詳細については、NeuralMDのドキュメントにある設定ファイルの説明"
+" `slhmc.prop <https://neuralmd-"
+"doc.readthedocs.io/ja/latest/slhmc/prop.html>`_ の対応する項目を参照してください。"
+msgstr ""
+"Click :guilabel:`SLHMC` from the lower left menu |projectmenuicon| . The setting screen for self-learning hybrid Monte Carlo method is displayed. "
+"For details of the setting items, refer to the corresponding items on the"
+" configuration file description `slhmc.prop <https://neuralmd-"
+"doc.readthedocs.io/ja/latest/slhmc/prop.html>`_ in the "
+"NeuralMD document."
+
+#: ../../usage/slhmc.rst:30
+msgid ""
+"初期ニューラルネットワーク力場を第一原理分子動力学計算から作らず、既に作成している力場を使いたいという場合は、 "
+":guilabel:`Initial FPMD` を0に設定してから、 :guilabel:`Initial NNP` の "
+":guilabel:`Import File of NNP` をクリックし、\\ :file:`ffield.sannp`\\ "
+"ファイルを選択してください。"
+msgstr ""
+"To use existing neural network force field as the initial force field instead of making it from first princible "
+"molecular dynamics calculation, set :guilabel:`Initial FPMD` to 0 and then click :guilabel:`Import File of NNP` "
+"at :guilabel:`Initial NNP` to choose the :file:`ffield.sannp` file."
+
+#: ../../usage/slhmc.rst:37
+msgid "3. NNPの設定"
+msgstr "3. NNP setting"
+
+#: ../../usage/slhmc.rst:39
+msgid ""
+":guilabel:`Details of NNP` の :guilabel:`Start Setting NNP` "
+"をクリックすると、ニューラルネットワーク力場の設定画面が表示されます。設定項目の詳細については、NeuralMDのドキュメントにある設定ファイルの説明"
+" `sannp.prop <https://neuralmd-"
+"doc.readthedocs.io/ja/latest/usage/prop.html>`_ の対応する項目を参照してください。"
+msgstr ""
+"Click :guilabel:`Details of NNP` at :guilabel:`Start Setting NNP` to show the setting screen for the neural network potential. "
+"For details of the setting items, refer to the corresponding items on the"
+" configuration file description `sannp.prop <https://neuralmd-"
+"doc.readthedocs.io/ja/latest/usage/prop.html>`_ in the "
+"NeuralMD document."
+
+#: ../../usage/slhmc.rst:41
+msgid ""
+"設定が終わったら、画面左下の |projectmenuicon| から :guilabel:`Return to SLHMC` "
+"をクリックし、元のプロジェクト画面に戻ります。"
+msgstr ""
+"When setting is finished, click :guilabel:`Return to SLHMC` "
+"from the lower left menu |projectmenuicon| to go back to the original project screen."
+
+#: ../../usage/slhmc.rst:48
+msgid "4. 実行"
+msgstr "4. Run"
+
+#: ../../usage/slhmc.rst:50
+msgid ""
+"画面左下のメニュー |projectmenuicon| から :guilabel:`Run` "
+"をクリックし、実行します。リモートで実行する場合は、ジョブスクリプト\\ :file:`nanolabo.sh`\\ に加えて、Quantum "
+"ESPRESSO、LAMMPS、NeuralMDを呼び出す際に実行されるスクリプトの編集画面も表示されますので、内容を確認し、必要に応じて変更してから"
+" :guilabel:`OK` をクリックしてください。"
+msgstr ""
+"Click :guilabel:`Run` from the lower left menu |projectmenuicon| to run. In case of remote execution, edit screen of the scripts for "
+"calling Quantum ESPRESSO, LAMMPS and NeuralMD is shown, so you can check and edit the content of them if needed, "
+"and then click :guilabel:`OK` ."
+
+#: ../../usage/slhmc.rst:52
+msgid ""
+"実行後、タブに戻るとResult画面が表示され、初期ニューラルネットワーク力場作成用の第一原理分子動力学計算(FPMD)、ハイブリッドモンテカルロ計算(HMC)の状況を確認できます。計算中は進捗（"
+" :guilabel:`#Steps of Training` "
+"に対する割合）が表示されます。ニューラルネットワーク力場は随時更新され、Accepted "
+"Rate（モンテカルロ法の採択率）が1に近く、エネルギーの平均絶対誤差(MAE)が小さいほど、性能の良い力場であると判断できます。"
+msgstr ""
+"When you go back to the tab, result screen is shown, where you can check the status of first principle molecular dynamics calculation (FPMD) to make the initial neural network force field, "
+"and the hybrid Monte Carle calculation (HMC). The neural network force field is updated in real time, and you can decide the quality is better if the "
+"Accepted Rate (that of Monte Carlo method) is closer to 1 and the mean absolute error (MAE) of energy is smaller."
+
+#: ../../usage/slhmc.rst:54
+msgid ""
+":guilabel:`force-field` "
+"をクリックすると、学習したニューラルネットワークをLAMMPSの力場ファイルとして保存できます。:guilabel:`train-data` "
+"をクリックすると、生成された教師データを保存できます。"
+msgstr ""
+"Click :guilabel:`force-field` to save trained neural network as a force "
+"field file for LAMMPS. Click :guilabel:`train-data` to save generated training data."
+
 #: ../../usage/sshserver.rst:5
 msgid "SSHサーバーの設定"
 msgstr "SSH server settings"
@@ -3952,7 +4098,7 @@ msgstr ""
 "In :guilabel:`Server` tab, configure settings related to the connection "
 "to the server."
 
-#: ../../usage/sshserver.rst:32 ../../usage/sshserver.rst:80
+#: ../../usage/sshserver.rst:32
 msgid "Port"
 msgstr ""
 
@@ -3989,96 +4135,49 @@ msgstr ""
 "permission. Normally, user home directory is suitable."
 
 #: ../../usage/sshserver.rst:45
-msgid "Account"
+msgid "HTTP Proxy"
 msgstr ""
 
 #: ../../usage/sshserver.rst:45
+msgid ""
+"サーバーへの接続にプロキシを使用します(SSH over HTTP)。 :menuselection:`Network --> Proxy "
+"server` "
+"で設定したプロキシが使われます。インターネットへの接続にプロキシが必要な環境で、外部のクラウド仮想マシン等に計算ジョブを投入する際にお使いいただけます。"
+msgstr ""
+"Use proxy for the connection to the server (SSH over HTTP). The proxy setting in :menuselection:`Network --> Proxy server` is used. "
+"This is useful when submitting calculation job to an external cloud virtual machine etc. from the environment where you have to use proxy for the internet connection."
+
+#: ../../usage/sshserver.rst:48
+msgid "Account"
+msgstr ""
+
+#: ../../usage/sshserver.rst:48
 msgid "サーバーにSSH接続する際のアカウント情報を入力します。認証の方式により、秘密鍵ファイルまたはパスワードを設定してください。"
 msgstr ""
 "Enter informations used for ssh connection. Specify private key file or "
 "password, depending on the authentication method."
 
-#: ../../usage/sshserver.rst:47
+#: ../../usage/sshserver.rst:50
 msgid "設定内容に問題がなければ、タブが白色になります。問題がある場合はその項目が赤色で表示されますので、確認してください。"
 msgstr ""
 "If settings are OK, the tab turns white. In case something is wrong, the "
 "item is displayed in red, so please check it."
 
-#: ../../usage/sshserver.rst:51
-msgid ""
-":menuselection:`Network --> Proxy server` "
-"の設定は、SSH接続には適用されません。プロキシサーバーを経由して接続する必要がある場合は、NanoLabo上では設定ができないため、SSH接続のために使っているソフトウェアで別途ポートフォワーディング（トンネリング）を行ってください。"
-msgstr ""
-":menuselection:`Network --> Proxy server` setting is not applied to the "
-"SSH connection. If you need to connect via a proxy server, please perform"
-" port forwarding (tunneling) separately in the software you are using for"
-" SSH connections, since it cannot be configured in NanoLabo."
-
 #: ../../usage/sshserver.rst:53
-msgid "``ssh`` コマンドを使っている場合は、 ``-L`` オプションを追加します。"
-msgstr "In case using ``ssh`` command, add ``-L`` option."
-
-#: ../../usage/sshserver.rst:55
-msgid "ssh -L 10022:localhost:22 -o \"ProxyCommand (プロキシの設定)\" user@host"
-msgstr "ssh -L 10022:localhost:22 -o \"ProxyCommand (proxy settings)\" user@host"
-
-#: ../../usage/sshserver.rst:59
-msgid "その他のソフトウェアをお使いの場合は、マニュアルで「ポート転送」等の機能を参照し、次のように設定してください。"
-msgstr ""
-"In case using other software, refer to the manual for features such as "
-"\"Port forwarding\" and configure it as follows."
-
-#: ../../usage/sshserver.rst:65
-msgid "「ローカルのポート」「受け側ポート」等"
-msgstr "\"Source port\" \"local port\" etc."
-
-#: ../../usage/sshserver.rst:65
-msgid "10022（または、他の空いているポート番号）"
-msgstr "10022 (or other unused port)"
-
-#: ../../usage/sshserver.rst:67
-msgid "「送り先」等（ホストとポートを一緒に設定する場合）"
-msgstr "\"Destination\" etc. (set host and port together)"
-
-#: ../../usage/sshserver.rst:67
-msgid "localhost:22"
-msgstr ""
-
-#: ../../usage/sshserver.rst:69
-msgid "「リモート側ホスト」「ポート」等（別々に設定する場合）"
-msgstr "\"remote machine\" \"port\" etc. (set separately)"
-
-#: ../../usage/sshserver.rst:69
-msgid "「localhost」「22」"
-msgstr "\"localhost\" \"22\""
-
-#: ../../usage/sshserver.rst:72
-msgid "NanoLabo側では次のように設定してください。"
-msgstr "On NanoLabo side, configure it as follows."
-
-#: ../../usage/sshserver.rst:78
-msgid "localhost"
-msgstr ""
-
-#: ../../usage/sshserver.rst:80
-msgid "10022（または、上で設定したポート番号）"
-msgstr "10022 (or the port you set above)"
-
-#: ../../usage/sshserver.rst:84
 msgid "Jobタブの設定"
 msgstr "Job settings"
 
-#: ../../usage/sshserver.rst:86
+#: ../../usage/sshserver.rst:55
 msgid "次に、 :guilabel:`Job` タブでサーバーへのジョブ投入に関する設定を行います。"
 msgstr ""
 "Next, in :guilabel:`Job` tab, configure settings related to job posting "
 "to the server."
 
-#: ../../usage/sshserver.rst:90
+#: ../../usage/sshserver.rst:59
 msgid "Job Queue"
 msgstr ""
 
-#: ../../usage/sshserver.rst:89
+#: ../../usage/sshserver.rst:58
 msgid ""
 "キューの名前のリストです。 |add| ボタンで追加、 |remove| ボタンで削除します。 "
 "ジョブ管理システムを使わずに実行する場合でも、適当な名前のキューを作成してください。"
@@ -4086,85 +4185,85 @@ msgstr ""
 "List of the names of the queues. Click |add| ( |remove| ) to add (remove)"
 " item. Even if you do not use job manager, add a queue with some name."
 
-#: ../../usage/sshserver.rst:94
+#: ../../usage/sshserver.rst:63
 msgid "Job Posting Command"
 msgstr ""
 
-#: ../../usage/sshserver.rst:100
+#: ../../usage/sshserver.rst:69
 msgid "Job Script"
 msgstr ""
 
-#: ../../usage/sshserver.rst:96
+#: ../../usage/sshserver.rst:65
 msgid "キューごとに、ジョブ投入用のコマンドとジョブスクリプトを設定します。ジョブ管理システムに応じたデフォルトの内容がキュー追加時に設定されます。必要に応じて編集してください。"
 msgstr ""
 "Set the command to post a job and the job script for each queue. Default "
 "values tailored for the job manager are set when you add a queue. Edit "
 "them if you need."
 
-#: ../../usage/sshserver.rst:100
+#: ../../usage/sshserver.rst:69
 msgid "実際に実行されるスクリプトの内容は、ジョブ投入時に表示されるウィンドウでご確認ください。"
 msgstr ""
 "The actual content of the script to be executed is shown when you post a "
 "job."
 
-#: ../../usage/sshserver.rst:103
+#: ../../usage/sshserver.rst:72
 msgid "Speedタブの設定"
 msgstr "Speed settings"
 
-#: ../../usage/sshserver.rst:105
+#: ../../usage/sshserver.rst:74
 msgid ":guilabel:`Speed` タブでは、サーバーからの情報取得・ファイルダウンロードの間隔、同時接続数を設定できます。"
 msgstr ""
 "In :guilabel:`Speed` tab, you can configure the intervals of retrieving "
 "informations / downloading files from the server, and the number of "
 "simultaneous accesses."
 
-#: ../../usage/sshserver.rst:107
+#: ../../usage/sshserver.rst:76
 msgid "サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` 側に動かすことで頻度を下げることができます。"
 msgstr ""
 "If frequent access is undesirable, move the sliders to :guilabel:`Slow` "
 "side to lower the frequency."
 
-#: ../../usage/sshserver.rst:109
+#: ../../usage/sshserver.rst:78
 msgid ":guilabel:`Connection Style` で、低速ネットワーク用の設定ができます。"
 msgstr ":guilabel:`Connection Style` is settings for the low bandwidth network."
 
-#: ../../usage/sshserver.rst:112
+#: ../../usage/sshserver.rst:81
 msgid "Online Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:112
+#: ../../usage/sshserver.rst:81
 msgid "常時オフラインモードに設定すると、リアルタイムでの結果取得（ファイルのダウンロード）を行いません。"
 msgstr ""
 "if set to Always OFFLINE mode, the result is not fetched (files are not "
 "downloaded) in real time."
 
-#: ../../usage/sshserver.rst:115
+#: ../../usage/sshserver.rst:84
 msgid "Download Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:115
+#: ../../usage/sshserver.rst:84
 msgid "容量の大きいバイナリファイルなどを除外し、テキストファイルのみダウンロードするよう設定できます。"
 msgstr "can be set to download Only Text Files, excluding large binary files etc."
 
-#: ../../usage/sshserver.rst:118
+#: ../../usage/sshserver.rst:87
 msgid "Download Time"
 msgstr ""
 
-#: ../../usage/sshserver.rst:118
+#: ../../usage/sshserver.rst:87
 msgid "常時オフラインモードの際に、ファイルを一括ダウンロードする間隔（分単位）を設定します。"
 msgstr "interval (minute) of batch download while in Always OFFLINE mode."
 
-#: ../../usage/sshserver.rst:121
+#: ../../usage/sshserver.rst:90
 msgid "サーバーの編集・削除"
 msgstr "Edit / remove server"
 
-#: ../../usage/sshserver.rst:123
+#: ../../usage/sshserver.rst:92
 msgid "各タブで設定した内容は、サーバーごとに保存されます。リストから既に保存されているサーバーを選択すると、その設定内容を編集できます。"
 msgstr ""
 "Settings in the tabs are saved server by server. Select previously saved "
 "server from the list to edit the settings of it."
 
-#: ../../usage/sshserver.rst:125
+#: ../../usage/sshserver.rst:94
 msgid "サーバーを削除するには、:guilabel:`SSH Configuration` の右側の |remove| ボタンをクリックしてください。"
 msgstr ""
 "To remove a server, click |remove| button on the right of :guilabel:`SSH "

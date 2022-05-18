@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-04 11:24+0900\n"
+"POT-Creation-Date: 2022-05-17 15:53+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../install.rst:5 ../../install/linux.rst:23 ../../install/mac.rst:21
-#: ../../install/windows.rst:23
+#: ../../install.rst:5 ../../install/linux.rst:27 ../../install/mac.rst:25
+#: ../../install/windows.rst:27
 msgid "インストール"
 msgstr "Installation"
 
@@ -50,39 +50,62 @@ msgstr ""
 
 #: ../../install/linux.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.4) <https://www.nanolabo.advancesoft.jp/wp-"
+"`Advance/NanoLabo Tool (ver.2.4) AlmaLinux8版 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
 "content/uploads/2022/02/install_nanolabo_tool_linux_v2.4.bin>`_"
 msgstr ""
+"`Advance/NanoLabo Tool (ver.2.4) for AlmaLinux8 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
+"content/uploads/2022/02/install_nanolabo_tool_linux_v2.4.bin>`_"
 
 #: ../../install/linux.rst:18
+msgid ""
+"`Advance/NanoLabo Tool (ver.2.4) CentOS6/7版 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
+"content/uploads/2022/02/install_nanolabo_tool_linux_v2.4-centos6.bin>`_"
+msgstr ""
+"`Advance/NanoLabo Tool (ver.2.4) for CentOS6/7 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
+"content/uploads/2022/02/install_nanolabo_tool_linux_v2.4-centos6.bin>`_"
+
+#: ../../install/linux.rst:20
+msgid ""
+"Advance/NanoLabo "
+"Toolのインストーラーは、実際に計算を実行するマシンのOSに合わせてお選びください。計算をローカル（NanoLaboをインストールするマシン）で実行する場合はローカルマシンのOS、リモート（計算サーバー）で実行する場合はリモートマシンのOSをご確認ください。"
+msgstr ""
+"Choose the right version of Advance/NanoLabo Tool installer for the OS of the machine on which you are planning to execute the calculation. "
+"If you are planning to execute the calculation on the local machine on which NanoLabo is to be installed, check the OS of the local machine. "
+"If planning to execute on a remote machine (calculation server), check the OS of the remote machine."
+
+#: ../../install/linux.rst:22
 msgid "インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先ディレクトリにコピーされます。"
 msgstr ""
 "Java Runtime Environment is included in the installer. It will be copied "
 "to the install destination directory while installing."
 
-#: ../../install/linux.rst:25
+#: ../../install/linux.rst:29
 msgid "端末（ターミナル）で、インストーラーのあるディレクトリに移動します。実行権限を付与したら、まずAdvance/NanoLaboのインストーラーを実行します。"
 msgstr ""
 "On a terminal, move to the directory where the installers are located. "
 "After granting execute permission, first run Advance/NanoLabo installer."
 
-#: ../../install/linux.rst:27
+#: ../../install/linux.rst:31
 msgid ""
 "$ chmod +x install_nanolabo_linux.bin install_nanolabo_tool_linux.bin\n"
 "$ ./install_nanolabo_linux.bin"
 msgstr ""
 
-#: ../../install/linux.rst:32
+#: ../../install/linux.rst:36
 msgid "言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
 msgstr ""
 "If you see language selection window, choose a language during the "
 "installation (it is not the language used in the software itself)."
 
-#: ../../install/linux.rst:34
+#: ../../install/linux.rst:38
 msgid "画面の指示に従い、インストールの設定を行ってください。"
 msgstr "Follow displayed instructions and configure the installation."
 
-#: ../../install/linux.rst:38
+#: ../../install/linux.rst:42
 msgid ""
 "書き込み権限のない場所にはインストールできません。インストール先として書き込み権限のある場所（ "
 ":file:`/home/ユーザー名/AdvanceSoft/NanoLabo` "
@@ -93,7 +116,7 @@ msgstr ""
 ":file:`/home/username/AdvanceSoft/NanoLabo` ) as the install destination,"
 " or run the installer as the user with write permission."
 
-#: ../../install/linux.rst:40
+#: ../../install/linux.rst:44
 msgid ""
 "設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo "
 "Toolのインストール、およびライセンスの設定の際に必要になりますので、控えておいていただくようお願いします。"
@@ -102,7 +125,7 @@ msgstr ""
 "the Install Folder will be necessary when you install Advance/NanoLabo "
 "Tool and when you set license; please note down the install folder."
 
-#: ../../install/linux.rst:44 ../../install/windows.rst:31
+#: ../../install/linux.rst:48 ../../install/windows.rst:35
 msgid "インストールが終わると、ライセンス登録案内が表示されます。ライセンス登録がお済みでない場合は、必要な項目をご記入ください。次へをクリックすると、ライセンス登録メールの内容が表示されますので、弊社宛に送信してください。"
 msgstr ""
 "When the installation is finished, license registration guide is shown. "
@@ -110,7 +133,7 @@ msgstr ""
 " When you click next, the contents of the license registration mail will "
 "be displayed, so please send it to us."
 
-#: ../../install/linux.rst:50
+#: ../../install/linux.rst:54
 msgid ""
 "メール本文の「ホストＩＤ」が空欄になっている場合、Host ID取得時に必要なredhat-"
 "lsbライブラリがインストールされていない可能性があります。その場合、次のコマンドをroot権限で実行してインストールしてください。"
@@ -119,54 +142,54 @@ msgstr ""
 "which is necessary to get Host ID may be missing. In that case, please "
 "execute following command with root privilege to install it."
 
-#: ../../install/linux.rst:52
+#: ../../install/linux.rst:56
 msgid "# yum -y install redhat-lsb-core"
 msgstr ""
 
-#: ../../install/linux.rst:56
+#: ../../install/linux.rst:60
 msgid "インストーラーで一旦「戻る」をクリックし、再度「次へ」をクリックしていただくことで、Host IDの取得を再試行します。"
 msgstr ""
 "Click Previous once and click Next again in the installer to retry "
 "getting Host ID."
 
-#: ../../install/linux.rst:60 ../../install/windows.rst:37
+#: ../../install/linux.rst:64 ../../install/windows.rst:41
 msgid "ここでライセンス登録を行わない場合でも、ソフトウェア起動時に表示される案内画面から登録していただくことができます。"
 msgstr ""
 "Even if you do not register the license here, you can register from the "
 "guide window shown at the software startup."
 
-#: ../../install/linux.rst:62 ../../install/windows.rst:39
+#: ../../install/linux.rst:66 ../../install/windows.rst:43
 msgid "最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。"
 msgstr ""
 "At the last window, click Done to complete the Advance/NanoLabo "
 "installation."
 
-#: ../../install/linux.rst:64 ../../install/windows.rst:41
+#: ../../install/linux.rst:68 ../../install/windows.rst:45
 msgid "続けて、Advance/NanoLabo Toolのインストーラーを実行します。"
 msgstr "Then, proceed to run Advance/NanoLabo Tool installer."
 
-#: ../../install/linux.rst:66
+#: ../../install/linux.rst:70
 msgid "$ ./install_nanolabo_tool_linux.bin"
 msgstr ""
 
-#: ../../install/linux.rst:70 ../../install/windows.rst:43
+#: ../../install/linux.rst:74 ../../install/windows.rst:47
 msgid "画面の指示に従い、インストールの設定を行ってください。インストール先として、Advance/NanoLaboと同じ場所を選択してください。"
 msgstr ""
 "Follow displayed instructions and configure the installation. Choose the "
 "same location as Advance/NanoLabo as the install destination."
 
-#: ../../install/linux.rst:74 ../../install/windows.rst:47
+#: ../../install/linux.rst:78 ../../install/windows.rst:51
 msgid "インストール後、最後の画面で完了をクリックすると、Advance/NanoLabo Toolのインストールが終了します。"
 msgstr ""
 "At the last window, click Done to complete the Advance/NanoLabo Tool "
 "installation."
 
-#: ../../install/linux.rst:79 ../../install/mac.rst:84
-#: ../../install/windows.rst:52
+#: ../../install/linux.rst:83 ../../install/mac.rst:88
+#: ../../install/windows.rst:56
 msgid "ライセンスの設定"
 msgstr "Setting license"
 
-#: ../../install/linux.rst:81
+#: ../../install/linux.rst:85
 msgid ""
 "ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。インストール先の "
 ":file:`license` ディレクトリにコピーしてください。"
@@ -175,7 +198,7 @@ msgstr ""
 ":file:`nanolabo.lic` ), basically within 5 business days. Copy it to "
 ":file:`license` directory in the install destination."
 
-#: ../../install/linux.rst:83
+#: ../../install/linux.rst:87
 msgid "本ソフトウェアのライセンス認証は、ライセンスサーバー（ライセンス認証用のプログラム）により行われます。本ソフトウェアの起動時に自動的にライセンスサーバーが起動されますので、通常はライセンスサーバーの操作を行っていただく必要はございません。"
 msgstr ""
 "License authentication of this software is performed by license server "
@@ -183,11 +206,11 @@ msgstr ""
 "automatically launches the license server at the startup, so normally "
 "there is no need to operate the license server manually."
 
-#: ../../install/linux.rst:87
+#: ../../install/linux.rst:91
 msgid "手動でライセンスサーバーを操作することも可能です。"
 msgstr "If needed, you can operate license server manually."
 
-#: ../../install/linux.rst:89
+#: ../../install/linux.rst:93
 msgid ""
 "ライセンスサーバーの実行ファイルはインストール先の :file:`exec.LINUX/flex/lmgrd` "
 "です。端末（ターミナル）でインストール先のディレクトリに移動したら、以下のコマンド例のように起動します。"
@@ -196,42 +219,42 @@ msgstr ""
 ":file:`exec.LINUX/flex/lmgrd` in the install destination. After moving to"
 " the install destination in a terminal, run it as the example below."
 
-#: ../../install/linux.rst:91
+#: ../../install/linux.rst:95
 msgid "$ exec.LINUX/flex/lmgrd -c license/nanolabo.lic -l lmgrd.log"
 msgstr ""
 
-#: ../../install/linux.rst:95
+#: ../../install/linux.rst:99
 msgid "ライセンスサーバーの状態を表示するには、インストール先の :file:`exec.LINUX/flex/lmstat` を使用します。"
 msgstr ""
 "To check the status of license server, use :file:`exec.LINUX/flex/lmstat`"
 " in the install destination."
 
-#: ../../install/linux.rst:97
+#: ../../install/linux.rst:101
 msgid "$ exec.LINUX/flex/lmstat -a -c license/nanolabo.lic"
 msgstr ""
 
-#: ../../install/linux.rst:101
+#: ../../install/linux.rst:105
 msgid "また、ライセンスサーバーを終了するには、インストール先の :file:`exec.LINUX/flex/lmdown` を使用します。"
 msgstr ""
 "To stop license server, use :file:`exec.LINUX/flex/lmdown` in the install"
 " destination."
 
-#: ../../install/linux.rst:103
+#: ../../install/linux.rst:107
 msgid "$ exec.LINUX/flex/lmdown -c license/nanolabo.lic"
 msgstr ""
 
-#: ../../install/linux.rst:110 ../../install/mac.rst:44
-#: ../../install/windows.rst:59
+#: ../../install/linux.rst:114 ../../install/mac.rst:48
+#: ../../install/windows.rst:63
 msgid "起動"
 msgstr "Launching"
 
-#: ../../install/linux.rst:112 ../../install/windows.rst:61
+#: ../../install/linux.rst:116 ../../install/windows.rst:65
 msgid "インストール時にショートカットを作成した場合は、ショートカットから起動してください。"
 msgstr ""
 "In case you made a shortcut during the installation, launch the software "
 "from the shortcut."
 
-#: ../../install/linux.rst:114
+#: ../../install/linux.rst:118
 msgid ""
 "直接起動する場合は、端末（ターミナル）でインストール先の :file:`bin` ディレクトリに移動し、 :file:`nanolabo.sh` "
 "を起動してください。"
@@ -240,19 +263,19 @@ msgstr ""
 ":file:`bin` directory in the install destination, and then run "
 ":file:`nanolabo.sh` ."
 
-#: ../../install/linux.rst:116
+#: ../../install/linux.rst:120
 msgid "$ ./nanolabo.sh"
 msgstr ""
 
-#: ../../install/linux.rst:123
+#: ../../install/linux.rst:127
 msgid "3Dモデルが表示されない場合"
 msgstr "In case 3D models not displayed"
 
-#: ../../install/linux.rst:125
+#: ../../install/linux.rst:129
 msgid "Java VMの引数を追加することで表示が改善します。"
 msgstr "Add Java VM argument to resolve the display issue."
 
-#: ../../install/linux.rst:127
+#: ../../install/linux.rst:131
 msgid ""
 "画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Java VM` を開き、 "
 ":guilabel:`Arguments for Java VM` に ``-Dprism.forceGPU=true`` を追加します。その後 "
@@ -263,17 +286,17 @@ msgstr ""
 "``-Dprism.forceGPU=true`` to :guilabel:`Arguments for Java VM`\\ . Then, "
 "click :guilabel:`OK` and relaunch NanoLabo."
 
-#: ../../install/linux.rst:129
+#: ../../install/linux.rst:133
 msgid "mainmenuicon"
 msgstr ""
 
-#: ../../install/linux.rst:134 ../../install/mac.rst:77
-#: ../../install/windows.rst:68
+#: ../../install/linux.rst:138 ../../install/mac.rst:81
+#: ../../install/windows.rst:72
 msgid "（任意）Open Catalyst Project汎用力場の設定"
 msgstr "(Optional)Setting for Open Catalyst Project versatile force field"
 
-#: ../../install/linux.rst:136 ../../install/mac.rst:79
-#: ../../install/windows.rst:70
+#: ../../install/linux.rst:140 ../../install/mac.rst:83
+#: ../../install/windows.rst:74
 msgid ""
 "LAMMPSの計算でOpen Catalyst Projectの汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\\ "
 ":doc:`こちら </usage/ocp>`\\ を参照してください。"
@@ -282,24 +305,24 @@ msgstr ""
 "Open Catalyst Project versatile force field in LAMMPS calculations. "
 "Please refer to :doc:`here </usage/ocp>` for the procedure."
 
-#: ../../install/linux.rst:141 ../../install/mac.rst:95
-#: ../../install/windows.rst:75
+#: ../../install/linux.rst:145 ../../install/mac.rst:99
+#: ../../install/windows.rst:79
 msgid "更新・アップグレード"
 msgstr "Update/Upgrade"
 
-#: ../../install/linux.rst:143 ../../install/mac.rst:97
-#: ../../install/windows.rst:77
+#: ../../install/linux.rst:147 ../../install/mac.rst:101
+#: ../../install/windows.rst:81
 msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
 msgstr ""
 "When upgrading from trial version to production version, there is no need"
 " of additional installation. Just replace the license file."
 
-#: ../../install/linux.rst:145 ../../install/windows.rst:79
+#: ../../install/linux.rst:149 ../../install/windows.rst:83
 msgid "新しいバージョンにアップデートされる場合、上書きインストールが可能です。"
 msgstr "When updating to newer version, overwrite installation is possible."
 
-#: ../../install/linux.rst:147 ../../install/mac.rst:101
-#: ../../install/windows.rst:81
+#: ../../install/linux.rst:151 ../../install/mac.rst:105
+#: ../../install/windows.rst:85
 msgid ""
 "NanoLaboと同時にNanoLabo Toolが更新されている場合は、そちらもアップデートしてください。最新版のNanoLabo "
 "Toolに同梱されている計算エンジンでの使用を想定しています。"
@@ -308,20 +331,20 @@ msgstr ""
 "update it as well. NanoLabo is supposed to be used with the calculation "
 "engines included in the latest version of NanoLabo Tool."
 
-#: ../../install/linux.rst:149 ../../install/mac.rst:103
-#: ../../install/windows.rst:83
+#: ../../install/linux.rst:153 ../../install/mac.rst:107
+#: ../../install/windows.rst:87
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
 "Software configurations and created projects are stored separately from "
 "the install destination. You can use the software as it was before even "
 "after the update."
 
-#: ../../install/linux.rst:154 ../../install/mac.rst:108
-#: ../../install/windows.rst:88
+#: ../../install/linux.rst:158 ../../install/mac.rst:112
+#: ../../install/windows.rst:92
 msgid "アンインストール"
 msgstr "Uninstallation"
 
-#: ../../install/linux.rst:156
+#: ../../install/linux.rst:160
 msgid ""
 "端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
 ":file:`Change NanoLabo Tool Installation` を起動します。"
@@ -329,30 +352,30 @@ msgstr ""
 "On a terminal, run :file:`Change NanoLabo Tool Installation` located at "
 ":file:`_NanoLabo_Tool_installation` directory in the install destination."
 
-#: ../../install/linux.rst:158
+#: ../../install/linux.rst:162
 msgid ""
 "$ AdvanceSoft/NanoLabo/_NanoLabo_Tool_installation/Change\\ NanoLabo\\ "
 "Tool\\ Installation"
 msgstr ""
 
-#: ../../install/linux.rst:162 ../../install/windows.rst:96
+#: ../../install/linux.rst:166 ../../install/windows.rst:100
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow displayed instructions to uninstall."
 
-#: ../../install/linux.rst:164 ../../install/windows.rst:98
+#: ../../install/linux.rst:168 ../../install/windows.rst:102
 msgid "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。"
 msgstr ""
 "Once the uninstallation of Advance/NanoLabo Tool is finished, uninstall "
 "Advance/NanoLabo as well."
 
-#: ../../install/linux.rst:168 ../../install/windows.rst:102
+#: ../../install/linux.rst:172 ../../install/windows.rst:106
 msgid "アンインストールの際に、インストール先のライセンスファイルは削除されずに残ります。また、インストールログファイルが残る場合があります。その際はお手数ですが手動で削除してください。"
 msgstr ""
 "License file in the install destination is not removed during the "
 "uninstallation. Also, installation log file may remain. In that case "
 "please remove them manually."
 
-#: ../../install/linux.rst:172
+#: ../../install/linux.rst:176
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` "
 "）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"
@@ -384,18 +407,39 @@ msgstr ""
 
 #: ../../install/mac.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.4) <https://www.nanolabo.advancesoft.jp/wp-"
+"`Advance/NanoLabo Tool (ver.2.4) AlmaLinux8版 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
 "content/uploads/2022/02/install_nanolabo_tool_mac_v2.4.dmg>`_"
 msgstr ""
+"`Advance/NanoLabo Tool (ver.2.4) for AlmaLinux8 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
+"content/uploads/2022/02/install_nanolabo_tool_mac_v2.4.dmg>`_"
 
-#: ../../install/mac.rst:23
+#: ../../install/mac.rst:18
+msgid ""
+"`Advance/NanoLabo Tool (ver.2.4) CentOS6/7版 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
+"content/uploads/2022/02/install_nanolabo_tool_mac_v2.4-centos6.dmg>`_"
+msgstr ""
+"`Advance/NanoLabo Tool (ver.2.4) for CentOS6/7 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
+"content/uploads/2022/02/install_nanolabo_tool_mac_v2.4-centos6.dmg>`_"
+
+#: ../../install/mac.rst:20
+msgid ""
+"Advance/NanoLabo "
+"Toolのインストーラーは、計算をリモート（計算サーバー等）で実行する場合、リモートマシンのOSに合わせたものをお選びください。計算をローカル（NanoLaboをインストールするMacマシン）で実行する場合は、どちらのインストーラーでも大丈夫です。"
+msgstr ""
+"If you are planning to execute the calculation on a remote machine (calculation server etc.), choose the right installer for the OS of the remote machine. If planning to execute on the local machine (Mac machine on which NanoLabo is to be installed), either one works."
+
+#: ../../install/mac.rst:27
 msgid "まず、Advance/NanoLaboのdmgファイルを開きます。マウントが終わるとディスクイメージの内容が表示されますので、NanoLaboアイコンをアプリケーションディレクトリへドラッグ＆ドロップしてください。"
 msgstr ""
 "First, open the Advance/NanoLabo dmg file. When mounted, the content of "
 "the disk image is shown. Drag & drop the NanoLabo icon to the Application"
 " directory."
 
-#: ../../install/mac.rst:29
+#: ../../install/mac.rst:33
 msgid ""
 "次に、Advance/NanoLabo Toolのdmgファイルを開き、同じようにAdvanceSoftディレクトリをApplication "
 "Supportへドラッグ＆ドロップします。"
@@ -403,23 +447,23 @@ msgstr ""
 "Next, open the Advance/NanoLabo Tool dmg file, and drag & drop the "
 "AdvanceSoft directory to the Application Support."
 
-#: ../../install/mac.rst:35
+#: ../../install/mac.rst:39
 msgid "このとき、認証を求めるダイアログが表示されますので、「認証」をクリックして名前とパスワードを入力してください。"
 msgstr ""
 "A dialog requesting authentication is displayed. Click "
 ":guilabel:`Authenticate` and enter the name and password."
 
-#: ../../install/mac.rst:46
+#: ../../install/mac.rst:50
 msgid "アプリケーションディレクトリのNanoLaboアイコンから起動してください。"
 msgstr "Launch the software from NanoLabo icon in the Application directory."
 
-#: ../../install/mac.rst:48
+#: ../../install/mac.rst:52
 msgid "初回のみ、起動の際に許可が必要となります。以下の手順で起動してください。"
 msgstr ""
 "For the first time only, permission is required at startup. Please launch"
 " it by the following procedure."
 
-#: ../../install/mac.rst:50
+#: ../../install/mac.rst:54
 msgid ""
 ":kbd:`control` キーを押しながらNanoLaboを開きます（開くをクリックするまで :kbd:`control` "
 "キーを離さないでください）。"
@@ -427,38 +471,38 @@ msgstr ""
 "Hold down :kbd:`control` key and open NanoLabo (do not release "
 ":kbd:`control` key until you click :guilabel:`Open` )."
 
-#: ../../install/mac.rst:56
+#: ../../install/mac.rst:60
 msgid "「検証中」のプログレスバーが表示されます。時間がかかる場合がありますので、少しお待ちください。"
 msgstr ""
 "\"Verifying\" progress bar is displayed. This may take a while, so please"
 " be patient."
 
-#: ../../install/mac.rst:62
+#: ../../install/mac.rst:66
 msgid "実行の許可を確認するダイアログが表示されますので、「開く」をクリックしてください。"
 msgstr ""
 "A dialog to confirm the permission of opening is displayed. Click "
 ":guilabel:`Open`\\ ."
 
-#: ../../install/mac.rst:68
+#: ../../install/mac.rst:72
 msgid ""
 ":guilabel:`Activate Advance/NanoLabo` ダイアログが表示されたら、 ターミナルを開いて "
-":guilabel:`Command` 欄に表示されたコマンドをrootで実行するか、またはrootパスワードを "
+":guilabel:`Command` 欄に表示されたコマンドを管理者ユーザーで実行するか、またはrootユーザーのパスワードを "
 ":guilabel:`Password of Root` 欄に入力し、その後 :guilabel:`OK` "
-"をクリックしてください。rootパスワードはこの場でのコマンド実行のみに使われ、保存されることはありません。"
+"をクリックしてください。パスワードはこの場でのコマンド実行のみに使われ、保存されることはありません。"
 msgstr ""
 "When :guilabel:`Activate Advance/NanoLabo` dialog is displayed, open the "
 "terminal and execute the commands shown in :guilabel:`Command` box as "
-"root, or enter the root password in :guilabel:`Password of Root` box, and"
-" then click :guilabel:`OK`\\ . This root password is used only for "
+"administrator, or enter the root user password in :guilabel:`Password of Root` box, and"
+" then click :guilabel:`OK`\\ . This password is used only for "
 "executing the commands in place and never be saved."
 
-#: ../../install/mac.rst:86
+#: ../../install/mac.rst:90
 msgid "ソフトウェアを起動すると、ライセンス登録を案内する画面が表示されます。"
 msgstr ""
 "A window to guide the license registration appears when you launch the "
 "software."
 
-#: ../../install/mac.rst:88
+#: ../../install/mac.rst:92
 msgid ""
 "ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。 "
 ":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
@@ -469,7 +513,7 @@ msgstr ""
 ":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
 "directory."
 
-#: ../../install/mac.rst:90
+#: ../../install/mac.rst:94
 msgid ""
 "Finderのメニューバーから :menuselection:`移動 --> フォルダへ移動...` "
 "をクリックし、上記パスを入力していただくと簡単です。"
@@ -477,7 +521,7 @@ msgstr ""
 "The easy way is to click :menuselection:`Go --> Go to Folder...` in "
 "Finder's menu bar and enter the path above."
 
-#: ../../install/mac.rst:99
+#: ../../install/mac.rst:103
 msgid ""
 "新しいバージョンにアップデートされる場合は、インストール時と同じ操作を行い、確認が表示されたら「置き換える」を選択してください。アップデート後、ライセンスファイルを再度"
 " :file:`license` ディレクトリにコピーしてください。"
@@ -486,11 +530,11 @@ msgstr ""
 "and choose :guilabel:`Replace` when confirmation is displayed. After "
 "that, copy the license file to :file:`license` directory again."
 
-#: ../../install/mac.rst:110
+#: ../../install/mac.rst:114
 msgid "アプリケーションディレクトリのNanoLaboを削除してください。"
 msgstr "Remove NanoLabo in the Application directory."
 
-#: ../../install/mac.rst:114
+#: ../../install/mac.rst:118
 msgid ""
 "計算エンジンの実行ファイル等は :file:`/Library/Application Support/AdvanceSoft` "
 "以下に保存されていますので、必要に応じて削除してください。"
@@ -499,7 +543,7 @@ msgstr ""
 ":file:`/Library/Application Support/AdvanceSoft` . Please remove them if "
 "you'd like to."
 
-#: ../../install/mac.rst:118
+#: ../../install/mac.rst:122
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは :file:`ホームディレクトリ/.nanolabo` "
 "に保存されていますので、必要に応じて削除してください。"
@@ -804,24 +848,45 @@ msgstr ""
 
 #: ../../install/windows.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.4) <https://www.nanolabo.advancesoft.jp/wp-"
+"`Advance/NanoLabo Tool (ver.2.4) AlmaLinux8版 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
 "content/uploads/2022/02/install_nanolabo_tool_windows_v2.4.exe>`_"
 msgstr ""
+"`Advance/NanoLabo Tool (ver.2.4) for AlmaLinux8 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
+"content/uploads/2022/02/install_nanolabo_tool_windows_v2.4.exe>`_"
 
 #: ../../install/windows.rst:18
+msgid ""
+"`Advance/NanoLabo Tool (ver.2.4) CentOS6/7版 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
+"content/uploads/2022/02/install_nanolabo_tool_windows_v2.4-centos6.exe>`_"
+msgstr ""
+"`Advance/NanoLabo Tool (ver.2.4) for CentOS6/7 "
+"<https://www.nanolabo.advancesoft.jp/wp-"
+"content/uploads/2022/02/install_nanolabo_tool_windows_v2.4-centos6.exe>`_"
+
+#: ../../install/windows.rst:20
+msgid ""
+"Advance/NanoLabo "
+"Toolのインストーラーは、計算をリモート（計算サーバー等）で実行する場合、リモートマシンのOSに合わせたものをお選びください。計算をローカル（NanoLaboをインストールするWindowsマシン）で実行する場合は、どちらのインストーラーでも大丈夫です。"
+msgstr ""
+"If you are planning to execute the calculation on a remote machine (calculation server etc.), choose the right installer for the OS of the remote machine. If planning to execute on the local machine (Windows machine on which NanoLabo is to be installed), either one works."
+
+#: ../../install/windows.rst:22
 msgid "インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先フォルダにコピーされます。"
 msgstr ""
 "Java Runtime Environment is included in the installer. It will be copied "
 "to the install destination folder while installing."
 
-#: ../../install/windows.rst:25
+#: ../../install/windows.rst:29
 msgid "まず、Advance/NanoLaboのインストーラーを実行します。言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
 msgstr ""
 "First, run Advance/NanoLabo installer. If you see language selection "
 "window, choose a language during the installation (it is not the language"
 " used in the software itself)."
 
-#: ../../install/windows.rst:27
+#: ../../install/windows.rst:31
 msgid ""
 "画面の指示に従い、インストールの設定を行ってください。設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo"
 " Toolのインストール、およびライセンスの設定の際に必要になりますので、控えておいていただくようお願いします。"
@@ -831,7 +896,7 @@ msgstr ""
 " Folder will be necessary when you install Advance/NanoLabo Tool and when"
 " you set license; please note down the install folder."
 
-#: ../../install/windows.rst:54
+#: ../../install/windows.rst:58
 msgid ""
 "ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。インストール先の "
 ":file:`license` フォルダーにコピーしてください。"
@@ -840,17 +905,17 @@ msgstr ""
 ":file:`nanolabo.lic` ), basically within 5 business days. Copy it to "
 ":file:`license` folder in the install destination."
 
-#: ../../install/windows.rst:63
+#: ../../install/windows.rst:67
 msgid "直接起動する場合は、インストール先の :file:`bin` フォルダーにある :file:`NanoLabo.exe` を起動してください。"
 msgstr ""
 "To directly launch the software, move to the :file:`bin` folder in the "
 "install destination, and then run :file:`NanoLabo.exe` ."
 
-#: ../../install/windows.rst:90
+#: ../../install/windows.rst:94
 msgid "次のいずれかの方法でアンインストーラーを起動してください。"
 msgstr "Use one of the following procedures to run the uninstaller."
 
-#: ../../install/windows.rst:92
+#: ../../install/windows.rst:96
 msgid ""
 "スタートボタンを右クリックし、「アプリと機能」を開きます。リストの中にあるAdvance/NanoLabo "
 "Toolをクリックし、アンインストールボタンをクリックします。"
@@ -858,7 +923,7 @@ msgstr ""
 "Right click Start button and open \"Apps and Features\"\\ . Click "
 "Advance/NanoLabo Tool in the list and then click Uninstall button."
 
-#: ../../install/windows.rst:93
+#: ../../install/windows.rst:97
 msgid ""
 "スタートメニューから「Windows システム ツール」内の「コントロール "
 "パネル」を開きます。「プログラムのアンインストール」（アイコン表示の場合は「プログラムと機能」）を開き、リストの中にあるAdvance/NanoLabo"
@@ -868,7 +933,7 @@ msgstr ""
 "\"Uninstall a program\" (or \"Programs and Features\" in case of icons "
 "view) and double click Advance/NanoLabo Tool in the list."
 
-#: ../../install/windows.rst:94
+#: ../../install/windows.rst:98
 msgid ""
 "インストール先の :file:`_NanoLabo_Tool_installation` フォルダーにある :file:`Change "
 "NanoLabo Tool Installation.exe` を起動します。"
@@ -876,7 +941,7 @@ msgstr ""
 "Run :file:`Change NanoLabo Tool Installation.exe` in "
 ":file:`_NanoLabo_Tool_installation` in the install destination."
 
-#: ../../install/windows.rst:106
+#: ../../install/windows.rst:110
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\.nanolabo` "
@@ -886,4 +951,12 @@ msgstr ""
 "location other than the install destination ( "
 ":file:`C:\\\\Users\\\\username\\\\.nanolabo` ) and are not removed during"
 " the uninstallation. Please remove them manually if you'd like to."
+
+#: ../../install/windows.rst:112
+msgid ""
+"また、Java VMの設定は "
+":file:`C:\\\\Users\\\\ユーザ名\\\\AppData\\\\Local\\\\VirtualStore` "
+"内に保存される場合があります。"
+msgstr ""
+"In some case, Java VM setting is stored in :file:`C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\VirtualStore` ."
 
