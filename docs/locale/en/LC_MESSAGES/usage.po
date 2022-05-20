@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 22:32+0900\n"
+"POT-Creation-Date: 2022-05-20 11:47+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1962,8 +1962,6 @@ msgstr ""
 #: ../../usage/inputeditorlammps.rst:49
 msgid "MPI並列には非対応です（OpenMP並列、またはGPUを使った計算が可能です）。"
 msgstr ""
-"MPI parallel execution is not supported (OpenMP parallel execution or GPU"
-" calculation can be used)."
 
 #: ../../usage/inputeditorlammps.rst:50
 msgid "Z軸方向には周期境界条件が適用されません。"
@@ -3106,8 +3104,9 @@ msgid ""
 "archive>`_\\ からCUDA Toolkit "
 "10.2（Ampere世代GPUの場合は11.1）をダウンロードし、インストールしてください。"
 msgstr ""
-"Download CUDA Toolkit 10.2 (for Ampere GPU, 11.1) from NVIDIA `download page "
-"<https://developer.nvidia.com/cuda-toolkit-archive>`_ and install it."
+"Download CUDA Toolkit 10.2 (for Ampere GPU, 11.1) from NVIDIA `download "
+"page <https://developer.nvidia.com/cuda-toolkit-archive>`_ and install "
+"it."
 
 #: ../../usage/ocp.rst:22
 msgid "NVIDIAドライバがインストールされていない場合は、そちらもインストールしてください。"
@@ -3163,7 +3162,9 @@ msgstr ""
 
 #: ../../usage/ocp.rst:42
 msgid "Ampere世代GPUを使う場合は :file:`env.gpu.yml` を開き、次の2行を変更してください。"
-msgstr "If you use Ampere GPU, open :file:`env.gpu.yml` and modify the following 2 lines."
+msgstr ""
+"If you use Ampere GPU, open :file:`env.gpu.yml` and modify the following "
+"2 lines."
 
 #: ../../usage/ocp.rst:44
 msgid "変更前"
@@ -3335,7 +3336,8 @@ msgid ""
 "を使用します。MPI並列計算、ビリアル応力の計算（NPTアンサンブル、セル最適化）には非対応です。"
 msgstr ""
 "Use the executable file :file:`lammps_oc20` included in NanoLabo Tool. "
-"MPI parallel execution and virial stress calculation (NPT ensemble, cell optimization) are not supported."
+"MPI parallel execution and virial stress calculation (NPT ensemble, cell "
+"optimization) are not supported."
 
 #: ../../usage/ocp.rst:138
 msgid ""

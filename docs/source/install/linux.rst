@@ -11,11 +11,11 @@
 
 本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。
 
- `Advance/NanoLabo (ver.2.4) <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/02/install_nanolabo_linux_v2.4.bin>`_
+ `Advance/NanoLabo (ver.2.5) <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/05/install_nanolabo_linux_v2.5.bin>`_
 
- `Advance/NanoLabo Tool (ver.2.4) AlmaLinux8版 <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/02/install_nanolabo_tool_linux_v2.4.bin>`_
+ `Advance/NanoLabo Tool (ver.2.5) AlmaLinux8版 <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/05/install_nanolabo_tool_linux_v2.5.bin>`_
 
- `Advance/NanoLabo Tool (ver.2.4) CentOS6/7版 <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/02/install_nanolabo_tool_linux_v2.4-centos6.bin>`_
+ `Advance/NanoLabo Tool (ver.2.5) CentOS6/7版 <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/05/install_nanolabo_tool_linux_v2.5-centos6.bin>`_
 
 Advance/NanoLabo Toolのインストーラーは、実際に計算を実行するマシンのOSに合わせてお選びください。計算をローカル（NanoLaboをインストールするマシン）で実行する場合はローカルマシンのOS、リモート（計算サーバー）で実行する場合はリモートマシンのOSをご確認ください。
 
