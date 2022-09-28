@@ -650,7 +650,7 @@ msgstr "Pricing"
 
 #: ../../install/purchase.rst:51
 msgid "年間ライセンス\\ `*`:sup:\\ （万円／年、税抜）"
-msgstr "Annual license\\ `*`:sup:\\ (without tax)"
+msgstr "Annual license\\ `*`:sup:\\ (/yr. without tax)"
 
 #: ../../install/purchase.rst:51 ../../install/purchase.rst:65
 #: ../../install/purchase.rst:79
