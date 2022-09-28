@@ -27,6 +27,10 @@
 .. |download_loading| image:: /img/download_loading.png
 .. |delete_loading| image:: /img/delete_loading.png
 
+:guilabel:`Files in This Project` の右にあるアイコン |folder| をクリックすると、プロジェクトのフォルダーを外部ファイラーで開きます（リモートで実行した場合でもローカルのフォルダーが開きます）。
+
+.. |folder| image:: /img/folder.png
+
 .. _plot:
 
 2Dプロット
@@ -45,11 +49,15 @@
 
 :guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。また、 :guilabel:`Export as CSV file` をクリックすると表示しているデータをCSVファイルとして保存します。
 
+.. hint:: LAMMPSの時系列プロットは、データ数が多い場合には表示速度向上のため一部のデータ点を省略して表示します。この設定は画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> LAMMPS` を開き、 :guilabel:`Data to Plot Graphs` で変更できます。
+
 .. image:: /img/2dplot.png
 
 .. image:: /img/dos.png
 
 .. image:: /img/band.png
+
+.. |mainmenuicon| image:: /img/mainmenuicon.png
 
 .. _viewer3d:
 

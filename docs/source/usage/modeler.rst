@@ -90,6 +90,11 @@
 
    .. image:: /img/primitive_standard.svg
 
+- More Symmetric Cell
+   ある程度の原子位置のずれを許容し、より対称性の高い結晶構造を探索します。 |settingicon| ボタンから対称性判定の閾値を設定できます。
+
+.. |settingicon| image:: /img/setting.png
+
 - Hexagonal -> Orthorhombic
 - Orthorhombic -> Hexagonal
    六方晶・直方晶（斜方晶）を相互に変換します。

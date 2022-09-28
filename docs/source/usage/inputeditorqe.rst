@@ -126,3 +126,14 @@ NMRスペクトルの設定
 :guilabel:`Macroscopic Shape` をyesにすると、試料のマクロな形状を考慮した補正を行います。 :guilabel:`Shape Tensor` で形状に応じた各軸方向の補正を指定します。
 
 参照物質の遮蔽テンソル :math:`\sigma_\mathrm{ref}` は、結果プロット画面で設定できます。
+
+.. _phdisp:
+
+フォノン分散の設定
+==================================
+
+画面右下のメニュー |editormenuicon| から :guilabel:`Ph. Dispersion` を選ぶと、フォノン分散の設定画面が表示されます。
+
+:guilabel:`DOS` タブの :guilabel:`Calc. DOS` 、 :guilabel:`BAND` タブの :guilabel:`Calc. Band` をそれぞれyesに設定することで、フォノン状態密度、フォノンバンドの計算を行います。
+
+:guilabel:`Non-Analytic Term` をyesに設定すると、LO-TO分裂を考慮した計算を行います。補正を有効にするために、あらかじめ :guilabel:`Phonon` で\ |gamma|\ 点 (qx, qy, qz) = (0, 0, 0) 、:guilabel:`Dielectric Constant` ・ :guilabel:`Effective Charge` をyesに設定して計算を行い、ボルン有効電荷を得ておく必要があります。ボルン有効電荷が計算されていない場合、 :guilabel:`Non-Analytic Term` がyesでも補正なしの計算になります。

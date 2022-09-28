@@ -39,6 +39,18 @@ NeuralMD
 
 :guilabel:`Atomic Energy` を :guilabel:`without bias` に設定することで、LAMMPS実行時に最終層のバイアス項を0にし、原子エネルギーの平準化を図る機能が有効になります。
 
+.. hint::
+
+ ニューラルネットワーク力場は、GPUを使って計算を高速化することができます。
+
+ - （Linuxのみ）ローカルで実行する場合、 :menuselection:`メインメニュー --> Properties --> Advance/NeuralMD` の :guilabel:`Number of GPU` に使用するGPUの数を設定します。複数のGPUを使用する設定の場合、MPI並列のプロセスを各GPUに均等に割り当てて実行されます。0を設定するとGPUを使用しません。
+ - リモートで実行する場合、\ :doc:`SSHサーバーの設定<sshserver>`\ で使用するキューのGPU設定を有効にしてください。
+
+.. note::
+
+ - GPUドライバを事前にインストールしておく必要があります。CUDA 11.4.4を使用しており、これに対応するドライババージョン470.82.01以上が必要です。
+ - 元素数が5以上の場合は、力場作成時に重み付き対称関数を使っている必要があります。
+
 Open Catalyst 2020
 ---------------------
 
@@ -85,3 +97,71 @@ Scheme（計算過程）
 各熱力学量や原子構造は毎ステップではなく、間を空けて出力されます。 :guilabel:`Interval to Print Logs` で出力の間隔をステップ数で設定できます。
 
 .. image:: /img/scheme.png
+
+.. _option:
+
+Option（追加操作）
+==============================
+
+入力ファイルエディターの :guilabel:`Option` で外場・外力等の設定を行います。
+
+- E-Field
+   静電場を印加します。
+
+- Ext. Forces
+   外力を印加します。
+
+- Move Atoms
+   原子を一定の速度で（原子に働く力に依らず）動かします。
+
+- Deform Cell
+   セルを一定の速度で変形させます。対象とする原子はセルの変形に追随します。
+
+各タブの :guilabel:`Target Group` で対象とする原子グループを選び、パラメータを入力します。
+
+これらの設定は、 :guilabel:`Scheme` の過程ごとに独立しており、 :guilabel:`Target Scheme` で選択されている過程にのみ適用されます。
+
+.. hint:: 初速度を与えて原子を動かすにはこの画面ではなく、 :guilabel:`Geometry` の :guilabel:`Velocities` で設定します。
+
+また、 :guilabel:`Target Group` として最初はall（全ての原子）のみが選択できますが、:guilabel:`Groups` で原子グループを定義することができます。 |add| をクリックして行を追加し、 :guilabel:`Element` で元素を選択して一括で指定するか、 :guilabel:`Atoms` のボタンをクリックして原子を選択して指定します。原子グループを削除するには行の右クリックメニューから :guilabel:`Delete` をクリックします。
+
+.. note:: LAMMPSの仕様により、原子グループ数の上限は32個（allを除いて、31個まで追加可能）となります。
+
+.. |add| image:: /img/add.png
+
+.. image:: /img/group.png
+
+.. _users:
+
+User's（ユーザー定義）
+==============================
+
+入力ファイルエディターの :guilabel:`User's` で任意コマンド追加、任意変数出力・グラフ化の設定を行います。
+
+- User's Additional Settings into Input-file
+   テキストボックスに任意のLAMMPSコマンドを追加すると、入力ファイルに挿入されます。
+
+- User's Variables to Output and Plot
+   変数を追加すると、結果画面にボタンが追加され、時系列プロットとして表示することができます。また、CSVファイルにもカラムが追加されます。
+
+   変数としてはあらかじめ定義されているもの（\ `LAMMPSマニュアル参照 <https://docs.lammps.org/thermo_style.html>`_\ ）や、LAMMPSコマンドで追加したものを使えます。
+
+例として、bond・angleが定義されている計算（OPLS-AA力場）で、各時刻の結合距離・結合角の平均をプロットし、ヒストグラムをファイル出力する設定を示します。
+
+- User's Additional Settings into Input-file
+
+ .. code-block:: none
+
+     compute 1 all bond/local dist
+     compute 2 all angle/local theta
+     compute 3 all reduce ave c_1 c_2
+     fix 1 all ave/histo 10 10 100 0.8 1.1 20 c_1 mode vector file dist.histo
+     fix 2 all ave/histo 10 10 100 80 120 20 c_2 mode vector file theta.histo
+
+- User's Variables to Output and Plot
+
+ .. code-block:: none
+
+     c_3[*]
+ 
+LAMMPSコマンドの使い方については\ `LAMMPSのマニュアル <https://docs.lammps.org/Commands_category.html>`_\ を参照してください。
