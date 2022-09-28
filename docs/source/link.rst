@@ -41,9 +41,9 @@ Quantum ESPRESSO ホームページ
  https://www.quantum-espresso.org/
 
 擬ポテンシャル
- https://www.quantum-espresso.org/pseudopotentials/
+ http://pseudopotentials.quantum-espresso.org/
 
- https://www.quantum-espresso.org/pseudopotentials/original-qe-pp-library
+ http://pseudopotentials.quantum-espresso.org/legacy_tables/
 
 |lsquo|\ pw.x\ |rsquo| マニュアル
  https://www.quantum-espresso.org/Doc/INPUT_PW.html
@@ -75,8 +75,14 @@ Quantum ESPRESSO ホームページ
 |lsquo|\ ph.x\ |rsquo| マニュアル
  https://www.quantum-espresso.org/Doc/INPUT_PH.html
 
+|lsquo|\ q2r.x\ |rsquo| 
+ https://www.quantum-espresso.org/Doc/INPUT_Q2R.html
+
 |lsquo|\ dynmat.x\ |rsquo| マニュアル
  https://www.quantum-espresso.org/Doc/INPUT_DYNMAT.html
+
+|lsquo|\ matdyn.x\ |rsquo| マニュアル
+ https://www.quantum-espresso.org/Doc/INPUT_MATDYN.html
 
 |lsquo|\ neb.x\ |rsquo| マニュアル
  https://www.quantum-espresso.org/Doc/INPUT_NEB.html
