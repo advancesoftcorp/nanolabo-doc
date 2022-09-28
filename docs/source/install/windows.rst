@@ -13,11 +13,11 @@
 
  `Advance/NanoLabo (ver.2.5) <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/05/install_nanolabo_windows_v2.5.exe>`_
 
- `Advance/NanoLabo Tool (ver.2.5) AlmaLinux8版 <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/05/install_nanolabo_tool_windows_v2.5.exe>`_
+ `Advance/NanoLabo Tool (ver.2.5) <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/05/install_nanolabo_tool_windows_v2.5.exe>`_
 
- `Advance/NanoLabo Tool (ver.2.5) CentOS6/7版 <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/05/install_nanolabo_tool_windows_v2.5-centos6.exe>`_
+.. note::
 
-Advance/NanoLabo Toolのインストーラーは、計算をリモート（計算サーバー等）で実行する場合、リモートマシンのOSに合わせたものをお選びください。計算をローカル（NanoLaboをインストールするWindowsマシン）で実行する場合は、どちらのインストーラーでも大丈夫です。
+   計算をリモートで実行する場合でも、NanoLabo本体と同じマシンにNanoLabo Toolをインストールしてください。
 
 インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先フォルダにコピーされます。
 
@@ -72,6 +72,13 @@ Advance/NanoLabo Toolのインストーラーは、計算をリモート（計�
 =================================================
 
 LAMMPSの計算でOpen Catalyst Projectの汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\ :doc:`こちら </usage/ocp>`\ を参照してください。
+
+.. _sshw:
+
+（任意）リモート計算の設定
+=================================================
+
+NanoLaboからリモートのマシンに計算ジョブを投入する場合、SSH接続の設定が必要です。設定方法は\ :doc:`こちら </usage/sshserver>`\ を参照してください。
 
 .. _upgradew:
 
