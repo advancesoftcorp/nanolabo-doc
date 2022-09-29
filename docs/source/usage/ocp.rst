@@ -82,7 +82,7 @@ Open Catalyst Projectで公開されている\ `インストール手順 <https:
 
          conda env create -f env.common.yml
          conda activate ocp-models
-         MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ pip install torch-cluster torch-scatter torch-sparse torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.8.0+cpu.html
+         MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ pip install torch-cluster torch-scatter torch-sparse torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.9.0+cpu.html
 
      最後に
 
