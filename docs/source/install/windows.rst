@@ -11,9 +11,9 @@
 
 本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。
 
- `Advance/NanoLabo (ver.2.5) <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/05/install_nanolabo_windows_v2.5.exe>`_
+ `Advance/NanoLabo (ver.2.6) <https://www.nanolabo.advancesoft.jp/?wpdmdl=973>`_
 
- `Advance/NanoLabo Tool (ver.2.5) <https://www.nanolabo.advancesoft.jp/wp-content/uploads/2022/05/install_nanolabo_tool_windows_v2.5.exe>`_
+ `Advance/NanoLabo Tool (ver.2.6) <https://www.nanolabo.advancesoft.jp/?wpdmdl=968>`_
 
 .. note::
 
