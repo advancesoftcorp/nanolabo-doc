@@ -75,7 +75,7 @@ Quantum ESPRESSO ホームページ
 |lsquo|\ ph.x\ |rsquo| マニュアル
  https://www.quantum-espresso.org/Doc/INPUT_PH.html
 
-|lsquo|\ q2r.x\ |rsquo| 
+|lsquo|\ q2r.x\ |rsquo| マニュアル
  https://www.quantum-espresso.org/Doc/INPUT_Q2R.html
 
 |lsquo|\ dynmat.x\ |rsquo| マニュアル
