@@ -82,6 +82,26 @@
 
 保存していないプロジェクトで計算を実行しようとしたり、エディターで変更を加えたまま保存せずにタブを閉じようとしたりすると、保存するよう促されます。
 
+.. note::
+
+ - Windowsで、Quantum ESPRESSOの計算をローカルで行う場合、プロジェクトの保存先はCドライブ内にする必要があります（Quantum ESPRESSOの仕様による）。
+
+ - 計算をリモートで行う場合、プロジェクトの保存先は.nanolaboフォルダ内にする必要があります（ローカルとリモートのフォルダ構造を対応させる都合による）。
+
+ これらの制限は、シンボリックリンク（Windowsではジャンクション）を使うことで回避できます。下記の例のようにコマンドを実行して設定することで、NanoLabo上でextフォルダに保存したデータが、実体としてはnanolaboDataフォルダに保存されます。
+
+ .. code-block:: console
+     :caption: Windows
+
+     mkdir D:\nanolaboData
+     mklink /J C:\Users\ユーザー名\.nanolabo\ext D:\nanolaboData
+
+ .. code-block:: console
+     :caption: Linux
+
+     mkdir /home/ユーザー名/nanolaboData
+     ln -s /home/ユーザー名/nanolaboData /home/ユーザー名/.nanolabo/ext
+
 .. _shortcut:
 
 ショートカットキー一覧
