@@ -185,13 +185,13 @@ Calculation of Q.E.
 
  Advance/NeuralMD Pro版をお使いの場合、GPUを使って計算を高速化することができます。
 
- - （Linuxのみ）ローカルで実行する場合、 :menuselection:`メインメニュー --> Properties --> Advance/NeuralMD` の :guilabel:`Number of GPU` に使用するGPUの数を設定します。複数のGPUを使用する設定の場合、MPI並列のプロセスを各GPUに均等に割り当てて実行されます。
+ - （Linuxのみ）ローカルで実行する場合、 :menuselection:`メインメニュー --> Properties --> Advance/NeuralMD` の :guilabel:`Number of GPU` に使用するGPUの数を設定します。複数のGPUを使用する設定の場合、MPI並列のプロセスを各GPUに均等に割り当てて実行されます。0を設定するとGPUを使用しません。
  - リモートで実行する場合、\ :doc:`SSHサーバーの設定<sshserver>`\ で使用するキューのGPU設定を有効にしてください。
 
  .. note::
 
   - GPUドライバを事前にインストールしておく必要があります。CUDA 11.4.4を使用しており、これに対応するドライババージョン470.82.01以上が必要です。
-  - 元素数が5以上の場合は、重み付き対称関数を使う（\ :file:`Element Weight`\ をyesに設定する）必要があります。
+  - 元素数が5以上の場合は、重み付き対称関数を使う（\ :guilabel:`Element Weight`\ をyesに設定する）必要があります。
 
 実行後、タブに戻るとResult画面が表示され、計算の状況を確認できます。 :guilabel:`RMSE` ボタンで収束の様子が確認できます。 :guilabel:`Classical Potential` （|Delta|-NNP法）を有効にした場合、 :guilabel:`LJ-like.pot` で古典力場の形状を確認できます。
 
