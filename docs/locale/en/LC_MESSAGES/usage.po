@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-20 11:47+0900\n"
+"POT-Creation-Date: 2022-10-05 15:36+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,11 +39,11 @@ msgstr ""
 msgid "視点の操作"
 msgstr "Viewpoint manipulation"
 
-#: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:87
-#: ../../usage/atomsviewer.rst:128 ../../usage/atomsviewer.rst:152
-#: ../../usage/atomsviewer.rst:174 ../../usage/explorer.rst:135
+#: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:93
+#: ../../usage/atomsviewer.rst:136 ../../usage/atomsviewer.rst:162
+#: ../../usage/atomsviewer.rst:186 ../../usage/explorer.rst:139
 #: ../../usage/grandproject.rst:95 ../../usage/initial.rst:105
-#: ../../usage/project.rst:94
+#: ../../usage/project.rst:114
 msgid "操作"
 msgstr "Operation"
 
@@ -55,8 +55,8 @@ msgstr "Mouse"
 msgid "キーボード"
 msgstr "Keyboard"
 
-#: ../../usage/atomsviewer.rst:20 ../../usage/atomsviewer.rst:89
-#: ../../usage/atomsviewer.rst:154
+#: ../../usage/atomsviewer.rst:20 ../../usage/atomsviewer.rst:95
+#: ../../usage/atomsviewer.rst:164
 msgid "回転"
 msgstr "Rotation"
 
@@ -64,13 +64,13 @@ msgstr "Rotation"
 msgid "ドラッグ"
 msgstr "Drag"
 
-#: ../../usage/atomsviewer.rst:20 ../../usage/atomsviewer.rst:89
-#: ../../usage/atomsviewer.rst:154
+#: ../../usage/atomsviewer.rst:20 ../../usage/atomsviewer.rst:95
+#: ../../usage/atomsviewer.rst:164
 msgid "矢印キー"
 msgstr "Arrow key"
 
-#: ../../usage/atomsviewer.rst:22 ../../usage/atomsviewer.rst:91
-#: ../../usage/atomsviewer.rst:156
+#: ../../usage/atomsviewer.rst:22 ../../usage/atomsviewer.rst:97
+#: ../../usage/atomsviewer.rst:166
 msgid "（:kbd:`Ctrl` + 矢印キーで微調整）"
 msgstr "(:kbd:`Ctrl` + Arrow key to fine-tune)"
 
@@ -114,26 +114,34 @@ msgstr ":kbd:`Shift` + Arrow key"
 msgid "（:kbd:`Ctrl` + :kbd:`Shift` + 矢印キーで微調整）"
 msgstr "(:kbd:`Ctrl` + :kbd:`Shift` + Arrow key to fine-tune)"
 
-#: ../../usage/atomsviewer.rst:32 ../../usage/atomsviewer.rst:93
-#: ../../usage/atomsviewer.rst:158
+#: ../../usage/atomsviewer.rst:32 ../../usage/atomsviewer.rst:99
+#: ../../usage/atomsviewer.rst:168
 msgid "リセット"
 msgstr "Reset"
 
-#: ../../usage/atomsviewer.rst:32 ../../usage/atomsviewer.rst:93
-#: ../../usage/atomsviewer.rst:158
+#: ../../usage/atomsviewer.rst:32 ../../usage/atomsviewer.rst:99
+#: ../../usage/atomsviewer.rst:168
 msgid ":kbd:`0`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:34 ../../usage/atomsviewer.rst:95
-#: ../../usage/atomsviewer.rst:160
+#: ../../usage/atomsviewer.rst:34 ../../usage/atomsviewer.rst:101
+#: ../../usage/atomsviewer.rst:170
 msgid ":kbd:`1`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:36 ../../usage/atomsviewer.rst:180
+#: ../../usage/atomsviewer.rst:36 ../../usage/atomsviewer.rst:192
 msgid ":kbd:`Backspace`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:39
+#: ../../usage/atomsviewer.rst:39 ../../usage/explorer.rst:160
+msgid ""
+"`*`:sup: macOSでは :kbd:`Ctrl` |rarr| :kbd:`command` 、 :kbd:`Alt` |rarr| "
+":kbd:`option` と読み替えてください。"
+msgstr ""
+"`*`:sup: For macOS, replace :kbd:`Ctrl` |rarr| :kbd:`command` , "
+":kbd:`Alt` |rarr| :kbd:`option` ."
+
+#: ../../usage/atomsviewer.rst:41
 msgid ""
 "右クリックメニューの :guilabel:`Operations for Atoms` "
 "をクリックすると、視点を微調整するためのウィンドウが表示されます。"
@@ -141,11 +149,11 @@ msgstr ""
 "In the right click menu, click :guilabel:`Operations for Atoms` to show "
 "the window for fine-tuning the viewpoint."
 
-#: ../../usage/atomsviewer.rst:44
+#: ../../usage/atomsviewer.rst:50
 msgid "表示デザインの変更"
 msgstr "Changing display design"
 
-#: ../../usage/atomsviewer.rst:46
+#: ../../usage/atomsviewer.rst:52
 msgid ""
 "画面左下のメニュー |projectmenuicon| から :guilabel:`Designer` "
 "をクリックして、デザイン変更画面を開いてください。画面右側のパネルで、3Dモデルの表示方法を詳細に設定できます。設定が終わりましたら、左下の戻るボタン"
@@ -157,101 +165,107 @@ msgstr ""
 "done, click back button |back| on the lower left to go back to previous "
 "view."
 
-#: ../../usage/atomsviewer.rst:48 ../../usage/calculation.rst:9
+#: ../../usage/atomsviewer.rst:54 ../../usage/calculation.rst:9
 #: ../../usage/grandproject.rst:27 ../../usage/inputeditor.rst:47
 #: ../../usage/modeler.rst:15 ../../usage/project.rst:20
 #: ../../usage/result.rst:9 ../../usage/slhmc.rst:60
 msgid "projectmenuicon"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:49 ../../usage/explorer.rst:52
-#: ../../usage/modeler.rst:148 ../../usage/result.rst:13
+#: ../../usage/atomsviewer.rst:55 ../../usage/explorer.rst:52
+#: ../../usage/modeler.rst:153 ../../usage/result.rst:13
 #: ../../usage/resultpdos.rst:37 ../../usage/webbrowser.rst:13
 msgid "back"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:56
+#: ../../usage/atomsviewer.rst:62
 msgid "原子構造の簡単な編集"
 msgstr "Simple edits of atomic structure"
 
-#: ../../usage/atomsviewer.rst:61
+#: ../../usage/atomsviewer.rst:67
 msgid "原子の変更"
 msgstr "Changing atom"
 
-#: ../../usage/atomsviewer.rst:63
+#: ../../usage/atomsviewer.rst:69
 msgid "変更したい原子を右クリックし、メニューから :guilabel:`Rename selected atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to change, and then click "
 ":guilabel:`Rename selected atoms` from the menu."
 
-#: ../../usage/atomsviewer.rst:64
+#: ../../usage/atomsviewer.rst:70
 msgid "周期律表が表示されますので、元素を選択してください。"
 msgstr "Choose an element from the periodic table."
 
-#: ../../usage/atomsviewer.rst:65
+#: ../../usage/atomsviewer.rst:71
 msgid "原子が選択した元素に変更されます。"
 msgstr "The atom(s) is changed to the selected element."
 
-#: ../../usage/atomsviewer.rst:70
+#: ../../usage/atomsviewer.rst:76
 msgid "原子の削除"
 msgstr "Deleting atom"
 
-#: ../../usage/atomsviewer.rst:72
+#: ../../usage/atomsviewer.rst:78
 msgid "削除したい原子を右クリックし、メニューから :guilabel:`Delete selected atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to delete, and then click "
 ":guilabel:`Delete selected atoms` from the menu."
 
-#: ../../usage/atomsviewer.rst:73
+#: ../../usage/atomsviewer.rst:79
 msgid "確認が表示されますので、 :guilabel:`OK` をクリックすると、原子が削除されます。"
 msgstr "Confirmation window appears. Click :guilabel:`OK` to delete the atom(s)."
 
-#: ../../usage/atomsviewer.rst:78
+#: ../../usage/atomsviewer.rst:84
 msgid "原子の移動"
 msgstr "Moving atom"
 
-#: ../../usage/atomsviewer.rst:80
+#: ../../usage/atomsviewer.rst:86
 msgid "移動したい原子を右クリックし、メニューから :guilabel:`Move selected atoms` をクリックします。"
 msgstr ""
 "Right click the atom you'd like to move, and then click :guilabel:`Move "
 "selected atoms` from the menu."
 
-#: ../../usage/atomsviewer.rst:81
+#: ../../usage/atomsviewer.rst:87
 msgid "緑色の平面と、黒色の法線が表示されます。まずはドラッグで平面を回転させます。キーボードによる操作もできます。"
 msgstr ""
 "Green plane and black normal line are shown. Use dragging to rotate the "
 "plane. You can also use the keyboard."
 
-#: ../../usage/atomsviewer.rst:98
+#: ../../usage/atomsviewer.rst:104 ../../usage/atomsviewer.rst:147
+#: ../../usage/atomsviewer.rst:173 ../../usage/grandproject.rst:106
+#: ../../usage/initial.rst:112 ../../usage/project.rst:123
+msgid "`*`:sup: macOSでは :kbd:`Ctrl` |rarr| :kbd:`command` と読み替えてください。"
+msgstr "`*`:sup: For macOS, replace :kbd:`Ctrl` |rarr| :kbd:`command` ."
+
+#: ../../usage/atomsviewer.rst:106
 msgid "続けて選択した原子をドラッグすると、平面に沿って移動させることができます。原子を複数選択している場合は、右クリックした原子（平面の中央）をドラッグしてください。"
 msgstr ""
 "You can then drag selected atom(s) along the plane. In case multiple "
 "atoms are selected, drug the atom you right-clicked (center of the "
 "plane)."
 
-#: ../../usage/atomsviewer.rst:99
+#: ../../usage/atomsviewer.rst:107
 msgid "ドロップ（マウスのボタンを離す）すると、位置が確定します。"
 msgstr "Drop (release mouse button) to fix the position."
 
-#: ../../usage/atomsviewer.rst:104
+#: ../../usage/atomsviewer.rst:112
 msgid "原子の追加"
 msgstr "Putting atom"
 
-#: ../../usage/atomsviewer.rst:106
+#: ../../usage/atomsviewer.rst:114
 msgid "原子を追加したい位置を右クリックし、メニューから :guilabel:`Put an atom` をクリックします。"
 msgstr ""
 "Right click where you want to put an atom. Click :guilabel:`Put an atom` "
 "from the menu."
 
-#: ../../usage/atomsviewer.rst:107
+#: ../../usage/atomsviewer.rst:115
 msgid "周期律表が表示されますので、元素を選択すると、原子が追加されます。"
 msgstr "Choose an element from the periodic table to put the atom."
 
-#: ../../usage/atomsviewer.rst:112
+#: ../../usage/atomsviewer.rst:120
 msgid "原子の切り取り・コピー・貼り付け"
 msgstr "Cut / copy / paste atom"
 
-#: ../../usage/atomsviewer.rst:114
+#: ../../usage/atomsviewer.rst:122
 msgid ""
 "切り取りまたはコピーしたい原子を右クリックし、メニューから :guilabel:`Cut selected atoms` または "
 ":guilabel:`Copy selected atoms` をクリックします。"
@@ -260,7 +274,7 @@ msgstr ""
 ":guilabel:`Cut selected atoms` or :guilabel:`Copy selected atoms` from "
 "the menu."
 
-#: ../../usage/atomsviewer.rst:115
+#: ../../usage/atomsviewer.rst:123
 msgid ""
 "貼り付けたい位置を右クリックし、 :guilabel:`Paste copied atoms` "
 "をクリックします。元とは別のプロジェクトに貼り付けることもできます。"
@@ -269,59 +283,59 @@ msgstr ""
 ":guilabel:`Paste copied atoms` from the menu. You can paste it to a "
 "different project from the original."
 
-#: ../../usage/atomsviewer.rst:120
+#: ../../usage/atomsviewer.rst:128
 msgid "複数原子の選択・選択解除"
 msgstr "Select / deselect multiple atoms"
 
-#: ../../usage/atomsviewer.rst:122
+#: ../../usage/atomsviewer.rst:130
 msgid "複数の原子を選択して、変更・削除・移動操作を行えます。選択中の原子はワイヤーフレーム表示になります。"
 msgstr ""
 "You can select multiple atoms and change / remove / move them all at "
 "once. Selected atoms are displayed in wire frame."
 
-#: ../../usage/atomsviewer.rst:130
+#: ../../usage/atomsviewer.rst:138
 msgid "矩形選択"
 msgstr "Rectangle select"
 
-#: ../../usage/atomsviewer.rst:130
+#: ../../usage/atomsviewer.rst:138
 msgid ":kbd:`Ctrl` + ドラッグ"
 msgstr ":kbd:`Ctrl` + drag"
 
-#: ../../usage/atomsviewer.rst:132
+#: ../../usage/atomsviewer.rst:140
 msgid "個々の原子を選択・選択解除"
 msgstr "Individual select / deselect"
 
-#: ../../usage/atomsviewer.rst:132
+#: ../../usage/atomsviewer.rst:140
 msgid "ダブルクリック"
 msgstr "double click"
 
-#: ../../usage/atomsviewer.rst:134 ../../usage/atomsviewer.rst:176
-#: ../../usage/explorer.rst:139
+#: ../../usage/atomsviewer.rst:142 ../../usage/atomsviewer.rst:188
+#: ../../usage/explorer.rst:143
 msgid "全選択"
 msgstr "Select all"
 
-#: ../../usage/atomsviewer.rst:134
+#: ../../usage/atomsviewer.rst:142
 msgid ":menuselection:`右クリックメニュー --> Select all atoms`"
 msgstr ":menuselection:`right click menu --> Not select any atoms`"
 
-#: ../../usage/atomsviewer.rst:136 ../../usage/atomsviewer.rst:178
-#: ../../usage/explorer.rst:141
+#: ../../usage/atomsviewer.rst:144 ../../usage/atomsviewer.rst:190
+#: ../../usage/explorer.rst:145
 msgid "全選択解除"
 msgstr "Deselect all"
 
-#: ../../usage/atomsviewer.rst:136
+#: ../../usage/atomsviewer.rst:144
 msgid ":menuselection:`右クリックメニュー --> Not select any atoms`"
 msgstr ":menuselection:`right click menu --> Not select any atoms`"
 
-#: ../../usage/atomsviewer.rst:142
+#: ../../usage/atomsviewer.rst:152
 msgid "原子の回転移動"
 msgstr "Rotating atom"
 
-#: ../../usage/atomsviewer.rst:144
+#: ../../usage/atomsviewer.rst:154
 msgid "回転移動したい原子を選択します。"
 msgstr "Select the atom(s) you'd like to rotate."
 
-#: ../../usage/atomsviewer.rst:145
+#: ../../usage/atomsviewer.rst:155
 msgid ""
 "回転の中心となる原子を右クリックし、メニューから :guilabel:`Rotate selected atoms` "
 "をクリックします。回転の中心は1.で選択した中の原子でも、他の原子でも構いません。"
@@ -330,118 +344,122 @@ msgstr ""
 ":guilabel:`Rotate selected atoms` from the menu. You can choose the "
 "center atom either from atoms selected at 1. or from other atoms."
 
-#: ../../usage/atomsviewer.rst:146
+#: ../../usage/atomsviewer.rst:156
 msgid "球が表示されますので、ドラッグして回転移動を行います。キーボードによる操作もできます。"
 msgstr ""
 "A sphere is shown. Drag it to perform rotation. You can also use the "
 "keyboard."
 
-#: ../../usage/atomsviewer.rst:163
+#: ../../usage/atomsviewer.rst:175
 msgid ":kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr "Press :kbd:`Esc` key to fix the position."
 
-#: ../../usage/atomsviewer.rst:168 ../../usage/explorer.rst:129
-#: ../../usage/initial.rst:99 ../../usage/project.rst:88
+#: ../../usage/atomsviewer.rst:180 ../../usage/explorer.rst:133
+#: ../../usage/initial.rst:99 ../../usage/project.rst:108
 msgid "ショートカットキー一覧"
 msgstr "Shortcut keys list"
 
-#: ../../usage/atomsviewer.rst:176 ../../usage/explorer.rst:139
+#: ../../usage/atomsviewer.rst:188 ../../usage/explorer.rst:143
 msgid ":kbd:`Ctrl` + :kbd:`A`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:178 ../../usage/explorer.rst:141
+#: ../../usage/atomsviewer.rst:190 ../../usage/explorer.rst:145
 msgid ":kbd:`Esc`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:182 ../../usage/explorer.rst:143
+#: ../../usage/atomsviewer.rst:194 ../../usage/explorer.rst:147
 #: ../../usage/grandproject.rst:101
 msgid "削除"
 msgstr "Delete"
 
-#: ../../usage/atomsviewer.rst:182 ../../usage/explorer.rst:143
+#: ../../usage/atomsviewer.rst:194 ../../usage/explorer.rst:147
 #: ../../usage/grandproject.rst:101
 msgid ":kbd:`Ctrl` + :kbd:`D`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:184
+#: ../../usage/atomsviewer.rst:196
 msgid ":kbd:`Delete`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:186
+#: ../../usage/atomsviewer.rst:198
 msgid "変更"
 msgstr "Change"
 
-#: ../../usage/atomsviewer.rst:186
+#: ../../usage/atomsviewer.rst:198
 msgid ":kbd:`Ctrl` + :kbd:`R`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:188 ../../usage/explorer.rst:145
+#: ../../usage/atomsviewer.rst:200 ../../usage/explorer.rst:149
 #: ../../usage/grandproject.rst:103
 msgid ":kbd:`F2`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:190 ../../usage/explorer.rst:147
+#: ../../usage/atomsviewer.rst:202 ../../usage/explorer.rst:151
 msgid "切り取り"
 msgstr "Cut"
 
-#: ../../usage/atomsviewer.rst:190 ../../usage/explorer.rst:147
+#: ../../usage/atomsviewer.rst:202 ../../usage/explorer.rst:151
 msgid ":kbd:`Ctrl` + :kbd:`X`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:192 ../../usage/explorer.rst:149
+#: ../../usage/atomsviewer.rst:204 ../../usage/explorer.rst:153
 #: ../../usage/grandproject.rst:97
 msgid "コピー"
 msgstr "Copy"
 
-#: ../../usage/atomsviewer.rst:192 ../../usage/explorer.rst:149
+#: ../../usage/atomsviewer.rst:204 ../../usage/explorer.rst:153
 #: ../../usage/grandproject.rst:97
 msgid ":kbd:`Ctrl` + :kbd:`C`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:194
+#: ../../usage/atomsviewer.rst:206
 msgid "貼り付け\\ `*`:sup:"
 msgstr "Paste\\ `*`:sup:"
 
-#: ../../usage/atomsviewer.rst:194 ../../usage/explorer.rst:151
+#: ../../usage/atomsviewer.rst:206 ../../usage/explorer.rst:155
 #: ../../usage/grandproject.rst:99
 msgid ":kbd:`Ctrl` + :kbd:`V`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:196
+#: ../../usage/atomsviewer.rst:208
 msgid "アンドゥ（直前の操作の取り消し）"
 msgstr "Undo"
 
-#: ../../usage/atomsviewer.rst:196
+#: ../../usage/atomsviewer.rst:208
 msgid ":kbd:`Ctrl` + :kbd:`Z`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:198
+#: ../../usage/atomsviewer.rst:210
 msgid "リドゥ（取り消した操作のやり直し）"
 msgstr "Redo"
 
-#: ../../usage/atomsviewer.rst:198
+#: ../../usage/atomsviewer.rst:210
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`Z`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:201
+#: ../../usage/atomsviewer.rst:213
 msgid "`*`:sup: マウスカーソルのある位置に貼り付けられます。"
 msgstr "`*`:sup: pasted at where the mouse cursor is located."
 
-#: ../../usage/atomsviewer.rst:206
+#: ../../usage/atomsviewer.rst:215
+msgid "`**`:sup: macOSでは :kbd:`Ctrl` |rarr| :kbd:`command` と読み替えてください。"
+msgstr "`**`:sup: For macOS, replace :kbd:`Ctrl` |rarr| :kbd:`command` ."
+
+#: ../../usage/atomsviewer.rst:220
 msgid "空間群の判定"
 msgstr "Detect space group"
 
-#: ../../usage/atomsviewer.rst:208
+#: ../../usage/atomsviewer.rst:222
 msgid "右クリックメニューの :guilabel:`Detect space group` をクリックすると、モデルの原子構造の属する空間群を表示します。"
 msgstr ""
 "In the right click menu, click :guilabel:`Detect space group` to display "
 "the space group to which the atomic structure of the model belongs."
 
-#: ../../usage/atomsviewer.rst:213
+#: ../../usage/atomsviewer.rst:227
 msgid "幾何学的情報の表示"
 msgstr "Display geometric information"
 
-#: ../../usage/atomsviewer.rst:215
+#: ../../usage/atomsviewer.rst:229
 msgid ""
 "選択した原子の結合長・結合角・二面角を測定する機能です。右クリックメニューの :guilabel:`Geometric Information` "
 "をクリックすると、小さいウィンドウが表示されます。"
@@ -450,7 +468,7 @@ msgstr ""
 "selected atoms. In the right click menu, click :guilabel:`Geometric "
 "Information` and a small window appears."
 
-#: ../../usage/atomsviewer.rst:217
+#: ../../usage/atomsviewer.rst:231
 msgid ""
 "原子をダブルクリックで選択していくと、 :guilabel:`Selected Atoms` "
 "のa、b、c、dに順に設定されます。同時に、対応する結合長（a-b間、b-c間、c-d間）、結合角（∠abc、∠bcd）、二面角（a・b・cを含む平面とb・c・dを含む平面がなす角）が下に表示されます。"
@@ -460,11 +478,11 @@ msgstr ""
 "c-d), bond angle (∠abc and ∠bcd) and dihedral angle (between the plane "
 "containing a, b, c and the plane containing b, c, d) are displayed below."
 
-#: ../../usage/atomsviewer.rst:224
+#: ../../usage/atomsviewer.rst:238
 msgid "原子構造のエクスポート"
 msgstr "Export atomic configuration"
 
-#: ../../usage/atomsviewer.rst:226
+#: ../../usage/atomsviewer.rst:240
 msgid ""
 "右クリックメニューの :guilabel:`Export atomic configuration` "
 "をクリックすると、モデルの原子構造をCIFファイル・XYZファイル・POSCARファイル（VASP形式）としてエクスポートできます。"
@@ -548,23 +566,47 @@ msgstr ""
 "before running the calculation."
 
 #: ../../usage/calculation.rst:34
-msgid "設定後、 :guilabel:`OK` をクリックすると、計算が実行されます。"
-msgstr ""
-"After configuration is finished, click :guilabel:`OK` to run the "
-"calculation."
+msgid "設定が終わったら、 :guilabel:`OK` をクリックしてください。"
+msgstr "After the setting is finished, click :guilabel:`OK` ."
 
 #: ../../usage/calculation.rst:36
+msgid ""
+"ここで、LAMMPS実行時には入力ファイル、リモート実行時にはジョブスクリプトの内容を確認する画面がそれぞれ表示されます。必要に応じてこの場で内容を編集することもできます（変更は今回の実行に限り適用され、プロジェクトやサーバー設定には反映されません）。"
+" :guilabel:`OK` をクリックすると計算が実行されます。"
+msgstr ""
+"At here, input files for LAMMPS execution, and/or the job script for "
+"remote execution, is displayed and you can check the content. You can "
+"also edit the content on the spot (changes are applied only for this run,"
+" and not reflected to the project / server settings)."
+
+#: ../../usage/calculation.rst:38
+msgid ""
+"LAMMPSの入力ファイル確認画面は表示しない設定にできます。画面左上のアイコン |mainmenuicon| から "
+":menuselection:`Properties --> LAMMPS` を開き、 :guilabel:`Input File Editor`"
+" で設定を変更できます。"
+msgstr ""
+"You can disable the display of LAMMPS input files. Open "
+":menuselection:`Properties --> LAMMPS` from the upper left icon "
+"|mainmenuicon| and toggle the setting of :guilabel:`Input File Editor` ."
+
+#: ../../usage/calculation.rst:42 ../../usage/grandproject.rst:53
+#: ../../usage/initial.rst:61 ../../usage/ocp.rst:129 ../../usage/result.rst:60
+#: ../../usage/sshserver.rst:9
+msgid "mainmenuicon"
+msgstr ""
+
+#: ../../usage/calculation.rst:40
 msgid "リモート実行時には、自動的に計算エンジンの実行ファイルをサーバーに転送して実行します。事前にサーバーに計算エンジンをインストールしておく必要はありません。"
 msgstr ""
 "When you use remote execution, executable files of the calculation engine"
 " are automatically transferred to the server in advance. There is no need"
 " to install the calculation engine on the server."
 
-#: ../../usage/calculation.rst:41
+#: ../../usage/calculation.rst:47
 msgid "計算ジョブ管理"
 msgstr "Managing calculation job"
 
-#: ../../usage/calculation.rst:43
+#: ../../usage/calculation.rst:49
 msgid ""
 "実行中・実行待機中の計算ジョブは、エクスプローラーの :guilabel:`Calculating` "
 "に一覧表示されます。各計算ジョブは3Dモデルのアイコンで表示され、左上には計算エンジン、右下には計算の種類を示すラベルが表示されています。リモート実行ジョブには右上に雲のアイコン"
@@ -576,11 +618,11 @@ msgstr ""
 "the lower right. Remote jobs appear with cloud icon |cloud| on the upper "
 "right."
 
-#: ../../usage/calculation.rst:51
+#: ../../usage/calculation.rst:57
 msgid "cloud"
 msgstr ""
 
-#: ../../usage/calculation.rst:45
+#: ../../usage/calculation.rst:51
 msgid ""
 "ローカル実行ジョブは1つずつ順に実行されます。右下のラベルの色は計算ジョブの状態を示しており、赤色が実行中、黄色が実行待機中です。ジョブが終了すると、ラベルが緑色になり、"
 " Calculating から消えます。実行前にキャンセルされたリモート実行ジョブは、ラベルが灰色になります。"
@@ -591,7 +633,7 @@ msgstr ""
 "the icon disappears from :guilabel:`Calculating`\\ . The label on the "
 "remote job that is cancelled before execution turns gray."
 
-#: ../../usage/calculation.rst:49
+#: ../../usage/calculation.rst:55
 msgid ""
 "実行中・実行待機中の計算ジョブを中止するには、アイコンを右クリックして :guilabel:`Delete jobs` "
 "をクリックするか、プロジェクト画面を開き、画面右側のパネルの :guilabel:`Stop Calculation` "
@@ -604,11 +646,11 @@ msgstr ""
 "view is not shown, first click :guilabel:`Result` from the menu "
 "|projectmenuicon| on the lower left.)"
 
-#: ../../usage/calculation.rst:56
+#: ../../usage/calculation.rst:62
 msgid "計算がうまくいかない場合"
 msgstr "Troubleshooting"
 
-#: ../../usage/calculation.rst:58
+#: ../../usage/calculation.rst:64
 msgid ""
 "計算が正常に実行できなかった場合、 :guilabel:`Error` "
 "ウィンドウが表示されます。エラーの内容を確認するには、プロジェクト画面を開き、 :guilabel:`CRASH` や "
@@ -718,9 +760,10 @@ msgstr ""
 msgid "|add|"
 msgstr ""
 
-#: ../../usage/explorer.rst:43 ../../usage/inputeditorqe.rst:6
-#: ../../usage/modeler.rst:234 ../../usage/result.rst:67
-#: ../../usage/resultpdos.rst:35 ../../usage/sshserver.rst:19
+#: ../../usage/explorer.rst:43 ../../usage/inputeditorlammps.rst:130
+#: ../../usage/inputeditorqe.rst:6 ../../usage/modeler.rst:239
+#: ../../usage/result.rst:75 ../../usage/resultpdos.rst:35
+#: ../../usage/sshserver.rst:19
 msgid "add"
 msgstr ""
 
@@ -763,177 +806,185 @@ msgstr ""
 "On Windows, use this function if you'd like to go to a location other "
 "than C drive."
 
-#: ../../usage/explorer.rst:66
+#: ../../usage/explorer.rst:63
+msgid "|folder| アイコンをクリックすると、表示しているフォルダーを外部ファイラーで開きます。"
+msgstr "Click |folder| icon to open current folder in external filer."
+
+#: ../../usage/explorer.rst:65 ../../usage/result.rst:32
+msgid "folder"
+msgstr ""
+
+#: ../../usage/explorer.rst:70
 msgid "表示変更"
 msgstr "Change view"
 
-#: ../../usage/explorer.rst:68
+#: ../../usage/explorer.rst:72
 msgid "表示領域のアイコンの大きさを選択します。 :guilabel:`List` を選択すると、各項目の詳細情報をリスト表示します。"
 msgstr ""
 "Choose the size of the icons in the display area. Select :guilabel:`List`"
 " to list the detailed information of each item."
 
-#: ../../usage/explorer.rst:73
+#: ../../usage/explorer.rst:77
 msgid "対応する構造情報ファイル形式"
 msgstr "Supported structure information file types"
 
-#: ../../usage/explorer.rst:79
+#: ../../usage/explorer.rst:83
 msgid ".cif"
 msgstr ""
 
-#: ../../usage/explorer.rst:79
+#: ../../usage/explorer.rst:83
 msgid "`Crystallographic Information Framework`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:81
+#: ../../usage/explorer.rst:85
 msgid ".xyz"
 msgstr ""
 
-#: ../../usage/explorer.rst:81
+#: ../../usage/explorer.rst:85
 msgid "XYZ chemical file format"
 msgstr ""
 
-#: ../../usage/explorer.rst:83
+#: ../../usage/explorer.rst:87
 msgid ".xsf, .axsf"
 msgstr ""
 
-#: ../../usage/explorer.rst:83
+#: ../../usage/explorer.rst:87
 msgid "`XCrySDen file format`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:85
+#: ../../usage/explorer.rst:89
 msgid "POSCAR, CONTCAR"
 msgstr ""
 
-#: ../../usage/explorer.rst:85
+#: ../../usage/explorer.rst:89
 msgid "`VASP input file`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:85
+#: ../../usage/explorer.rst:89
 msgid "元素名の行が含まれている必要があります。"
 msgstr "element names line must be included."
 
-#: ../../usage/explorer.rst:87
+#: ../../usage/explorer.rst:91
 msgid ".in, .qe, .qein, .pw, .pwin, input"
 msgstr ""
 
-#: ../../usage/explorer.rst:87
+#: ../../usage/explorer.rst:91
 msgid "`Quantum ESPRESSO input file`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:89
+#: ../../usage/explorer.rst:93
 msgid "nfinp.data"
 msgstr ""
 
-#: ../../usage/explorer.rst:89
+#: ../../usage/explorer.rst:93
 msgid "`Advance/PHASE`_ input file"
 msgstr ""
 
-#: ../../usage/explorer.rst:91
+#: ../../usage/explorer.rst:95
 msgid ".cube, .cub"
 msgstr ""
 
-#: ../../usage/explorer.rst:91
+#: ../../usage/explorer.rst:95
 msgid "`Gaussian cube file`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:93
+#: ../../usage/explorer.rst:97
 msgid ".lmp, .lammps"
 msgstr ""
 
-#: ../../usage/explorer.rst:93
+#: ../../usage/explorer.rst:97
 msgid "`LAMMPS data file`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:93
+#: ../../usage/explorer.rst:97
 msgid "read_dataで指定されたdataファイルから構造を読み込みます。"
 msgstr "read structure from data file specified by read_data."
 
-#: ../../usage/explorer.rst:95
+#: ../../usage/explorer.rst:99
 msgid ".lammpstrj, .dump"
 msgstr ""
 
-#: ../../usage/explorer.rst:95
+#: ../../usage/explorer.rst:99
 msgid "`LAMMPS dump file`_"
 msgstr ""
 
-#: ../../usage/explorer.rst:95
+#: ../../usage/explorer.rst:99
 msgid "element列が出力されている必要があります。"
 msgstr "element column must be output."
 
-#: ../../usage/explorer.rst:97
+#: ../../usage/explorer.rst:101
 msgid ".mol, .sdf"
 msgstr ""
 
-#: ../../usage/explorer.rst:97
+#: ../../usage/explorer.rst:101
 msgid "MDL Molfile"
 msgstr ""
 
-#: ../../usage/explorer.rst:99
+#: ../../usage/explorer.rst:103
 msgid "sannp.metro"
 msgstr ""
 
-#: ../../usage/explorer.rst:99
+#: ../../usage/explorer.rst:103
 msgid "`Advance/NeuralMD メトロポリス法設定ファイル`_"
 msgstr "`Advance/NeuralMD Metropolis method configuration file`_"
 
-#: ../../usage/explorer.rst:112
+#: ../../usage/explorer.rst:116
 msgid "以下の各方法でファイルを開くことができます。"
 msgstr "You can open the files by any of the following ways:"
 
-#: ../../usage/explorer.rst:114
+#: ../../usage/explorer.rst:118
 msgid "エクスプローラーでファイルのあるフォルダに移動し、ファイルをダブルクリックする"
 msgstr ""
 "in explorer, navigate to the folder with the file and double click the "
 "file"
 
-#: ../../usage/explorer.rst:115
+#: ../../usage/explorer.rst:119
 msgid "NanoLaboの画面上にファイルをドラッグ＆ドロップする"
 msgstr "drag & drop the file onto the NanoLabo window"
 
-#: ../../usage/explorer.rst:116
+#: ../../usage/explorer.rst:120
 msgid "NanoLaboの起動アイコンにファイルをドラッグ＆ドロップする"
 msgstr "drag & drop the file onto the NanoLabo launch icon"
 
-#: ../../usage/explorer.rst:117
+#: ../../usage/explorer.rst:121
 msgid "NanoLaboの実行ファイルに引数として渡し、実行する"
 msgstr "pass the file to NanoLabo executable as an argument"
 
-#: ../../usage/explorer.rst:122
+#: ../../usage/explorer.rst:126
 msgid "項目の操作"
 msgstr "Items manipulation"
 
-#: ../../usage/explorer.rst:124
+#: ../../usage/explorer.rst:128
 msgid "表示領域のプロジェクトや構造情報ファイルは、右クリックメニューからコピー・リネーム等の操作ができます。"
 msgstr ""
 "You can manipulate (copy, rename etc.) the projects or structure "
 "configuration files in the display area from the right-click menu."
 
-#: ../../usage/explorer.rst:137
+#: ../../usage/explorer.rst:141
 msgid "開く"
 msgstr "Open"
 
-#: ../../usage/explorer.rst:137
+#: ../../usage/explorer.rst:141
 msgid ":kbd:`Enter`"
 msgstr ""
 
-#: ../../usage/explorer.rst:145 ../../usage/grandproject.rst:103
+#: ../../usage/explorer.rst:149 ../../usage/grandproject.rst:103
 msgid "リネーム"
 msgstr "Rename"
 
-#: ../../usage/explorer.rst:151 ../../usage/grandproject.rst:99
+#: ../../usage/explorer.rst:155 ../../usage/grandproject.rst:99
 msgid "貼り付け"
 msgstr "Paste"
 
-#: ../../usage/explorer.rst:153
+#: ../../usage/explorer.rst:157
 msgid "インクリメンタル検索"
 msgstr "Incremental search"
 
-#: ../../usage/explorer.rst:153
+#: ../../usage/explorer.rst:157
 msgid "検索文字列"
 msgstr "search string"
 
-#: ../../usage/grandproject.rst:143
+#: ../../usage/grandproject.rst:149
 msgid "メトロポリス法の使い方"
 msgstr "How to use Metropolis method"
 
@@ -1026,11 +1077,6 @@ msgstr ""
 "To execute it locally (on the same machine with NanoLabo), set the "
 "location of license file in :menuselection:`Properties --> "
 "Advance/NeuralMD` from the main menu |mainmenuicon| on the upper left."
-
-#: ../../usage/grandproject.rst:53 ../../usage/initial.rst:61
-#: ../../usage/ocp.rst:129 ../../usage/sshserver.rst:9
-msgid "mainmenuicon"
-msgstr ""
 
 #: ../../usage/grandproject.rst:43
 msgid "リモート（計算サーバー等）で実行する場合は、ライセンスサーバーの設定が必要です。"
@@ -1165,8 +1211,8 @@ msgstr "You can copy / paste / delete the column from its right click menu."
 msgid "カラム上部の |remove| でも削除ができます。"
 msgstr "The column can also be removed by |remove| at the top."
 
-#: ../../usage/grandproject.rst:112 ../../usage/inputeditorqe.rst:9
-#: ../../usage/modeler.rst:235 ../../usage/result.rst:68
+#: ../../usage/grandproject.rst:114 ../../usage/inputeditorqe.rst:9
+#: ../../usage/modeler.rst:240 ../../usage/result.rst:76
 #: ../../usage/sshserver.rst:61
 msgid "remove"
 msgstr ""
@@ -1175,13 +1221,13 @@ msgstr ""
 msgid "ショートカットキーによるカラム操作が可能です。"
 msgstr "Shortcut keys can be used to manipulate the column."
 
-#: ../../usage/grandproject.rst:106
+#: ../../usage/grandproject.rst:108
 msgid "1つのグランドプロジェクト内にバルクモデルとスラブモデルなど異なる構造を設定し、まとめて教師データにする、という使い方ができます。"
 msgstr ""
 "For example, you can include several geometries such as bulk model and "
 "slab model in one grand-project, and export the combined training data."
 
-#: ../../usage/grandproject.rst:108
+#: ../../usage/grandproject.rst:110
 msgid ""
 "また、1つの元構造から、異なる複数の設定でランダム構造を生成することもできます。最初は構造生成の設定が1つだけ(Random Geometries"
 " #1)ある状態です。カラム内の :guilabel:`Add Random Geometries` "
@@ -1193,79 +1239,79 @@ msgstr ""
 ":guilabel:`Add Random Geometries` / :guilabel:`Remove Random Geometries` "
 "in the column."
 
-#: ../../usage/grandproject.rst:110
+#: ../../usage/grandproject.rst:112
 msgid "元となる構造から2通りの設定でランダム構造を生成し、片方は教師データ、もう片方はテストデータにする、という使い方ができます。"
 msgstr ""
 "For example, you can generate random geometries from one original "
 "geometry using two configurations, and use one as training data, while "
 "the other as testing data."
 
-#: ../../usage/grandproject.rst:117
+#: ../../usage/grandproject.rst:123
 msgid "元構造・ランダム構造生成の設定項目"
 msgstr "Configuration on original geometry / random geometries generation"
 
-#: ../../usage/grandproject.rst:120
+#: ../../usage/grandproject.rst:126
 msgid "Edit Input File of Q.E."
 msgstr ""
 
-#: ../../usage/grandproject.rst:120
+#: ../../usage/grandproject.rst:126
 msgid "SCF計算の設定をします。この設定がカラム内のランダム構造の計算に適用されます。"
 msgstr ""
 "Configure the SCF calculation. This configuration is applied to the "
 "calculations of random geometries in the column."
 
-#: ../../usage/grandproject.rst:123
+#: ../../usage/grandproject.rst:129
 msgid "Edit Geometry by Modeler"
 msgstr ""
 
-#: ../../usage/grandproject.rst:123
+#: ../../usage/grandproject.rst:129
 msgid "元構造をモデラーを使って編集します。"
 msgstr "Edit the original geometry using the modeler."
 
-#: ../../usage/grandproject.rst:126
+#: ../../usage/grandproject.rst:132
 msgid "Add Random Geometries / Remove Random Geometries"
 msgstr ""
 
-#: ../../usage/grandproject.rst:126
+#: ../../usage/grandproject.rst:132
 msgid "元構造からランダム構造を生成するための設定を追加・削除します。"
 msgstr ""
 "Add / remove configuration for generating random geometries from the "
 "original one."
 
-#: ../../usage/grandproject.rst:133
+#: ../../usage/grandproject.rst:139
 msgid "Use for Training NNP / Use for Testing NNP"
 msgstr ""
 
-#: ../../usage/grandproject.rst:129
+#: ../../usage/grandproject.rst:135
 msgid "ランダム構造を教師データ・テストデータに使うかの設定です。最終的にデータを出力する時、ここでの設定に基づいて集計・出力の対象が決まります。"
 msgstr ""
 "Whether the random geometries are used for training / testing data. When "
 "exporting the data, the subjects of aggregation are determined based on "
 "the configuration here."
 
-#: ../../usage/grandproject.rst:131
+#: ../../usage/grandproject.rst:137
 msgid "チェック状況はタイトルの左に色で表示されます。設定画面を折り畳んでいても、一目で確認することができます。"
 msgstr ""
 "The state of checkboxes are displayed next to the title with colors. You "
 "can see them at a glance even the configuration view is collapsed."
 
-#: ../../usage/grandproject.rst:150
+#: ../../usage/grandproject.rst:156
 msgid "Generating Geometries"
 msgstr ""
 
-#: ../../usage/grandproject.rst:136
+#: ../../usage/grandproject.rst:142
 msgid "Randomly Atomic Shift"
 msgstr ""
 
-#: ../../usage/grandproject.rst:137
+#: ../../usage/grandproject.rst:143
 msgid "元構造からランダムに原子を動かした構造を生成します。"
 msgstr "generate geometries by randomly shifting atoms from the original one."
 
-#: ../../usage/grandproject.rst:138
+#: ../../usage/grandproject.rst:144
 msgid "Trajectory of MD (LAMMPS)"
 msgstr ""
 
-#: ../../usage/grandproject.rst:139
+#: ../../usage/grandproject.rst:145
 msgid ""
 "元構造からLAMMPSで分子動力学計算を実行し、そのトラジェクトリーから構造を抽出します。 :guilabel:`Calculate MD` "
 "のボタンをクリックするとLAMMPSの画面が開きますので、設定を行い、左下メニューの :guilabel:`Run` から計算を実行してください。"
@@ -1276,11 +1322,11 @@ msgstr ""
 "configure the settings, and run the calculation by :guilabel:`Run` from "
 "the lower left menu."
 
-#: ../../usage/grandproject.rst:141
+#: ../../usage/grandproject.rst:147
 msgid "Monte-Carlo (Metropolis)"
 msgstr ""
 
-#: ../../usage/grandproject.rst:141
+#: ../../usage/grandproject.rst:147
 msgid ""
 "NeuralMDを使い、元構造からメトロポリス法によるモンテカルロ計算で構造を生成します。予めニューラルネットワークの学習を行っておく必要があります。"
 " :guilabel:`Calculate MC` のボタンをクリックするとメトロポリス法の設定画面が開きますので、設定を行い、左下メニューの "
@@ -1292,33 +1338,33 @@ msgstr ""
 " Metropolis setting view is shown. In the view, configure the settings, "
 "and run the calculation by :guilabel:`Run` from the lower left menu."
 
-#: ../../usage/grandproject.rst:148
+#: ../../usage/grandproject.rst:154
 msgid "座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。"
 msgstr ""
 "If there is fixed atom(s), the coordinates stay fixed when generating "
 "random geometries."
 
-#: ../../usage/grandproject.rst:150
+#: ../../usage/grandproject.rst:156
 msgid ":guilabel:`Generate Geometries` をクリックすると、指定した設定でランダム構造を生成（抽出）します。"
 msgstr ""
 "Click :guilabel:`Generate Geometries` to generate (extract) random "
 "geometries using specified setting."
 
-#: ../../usage/grandproject.rst:159
+#: ../../usage/grandproject.rst:165
 msgid "Calculation of Q.E."
 msgstr ""
 
-#: ../../usage/grandproject.rst:153
+#: ../../usage/grandproject.rst:159
 msgid "生成したランダム構造に対し、SCF計算を実行します。"
 msgstr "Run SCF calculations for the generated random geometries."
 
-#: ../../usage/grandproject.rst:155
+#: ../../usage/grandproject.rst:161
 msgid "同一のグランドプロジェクト内であっても、設定ごとに別の計算サーバーで計算を実行することもできます。"
 msgstr ""
 "The calculation for different configurations can be performed on "
 "different servers, even they are in the same grand-project."
 
-#: ../../usage/grandproject.rst:157
+#: ../../usage/grandproject.rst:163
 msgid ""
 "Result画面では、計算の状況を確認できます。ダウンロードボタン |granddownload| "
 "をクリックすると計算サーバーから結果一式をダウンロードし、進捗を更新します（負荷を抑えるため、自動的には更新されません）。 "
@@ -1330,15 +1376,15 @@ msgstr ""
 "automatically). The results of finished calculations are summarized in "
 ":guilabel:`Energy` and :guilabel:`Force`\\ ."
 
-#: ../../usage/grandproject.rst:161
+#: ../../usage/grandproject.rst:167
 msgid "granddownload"
 msgstr ""
 
-#: ../../usage/grandproject.rst:166
+#: ../../usage/grandproject.rst:172
 msgid "ニューラルネットワークの学習・テスト"
 msgstr "Training / testing neural network"
 
-#: ../../usage/grandproject.rst:168
+#: ../../usage/grandproject.rst:174
 msgid ""
 "画面右側の :guilabel:`Training Neural Network Potential` にある :guilabel:`Start "
 "Training NNP` "
@@ -1349,13 +1395,13 @@ msgstr ""
 "in the grand-project, and using it as the training data, you can train "
 "the neural network in the following screen."
 
-#: ../../usage/grandproject.rst:170
+#: ../../usage/grandproject.rst:176
 msgid "計算サーバーで計算を実行した場合は、自動的に結果を取得し、集計します。"
 msgstr ""
 "If calculations are performed on the server, the results are "
 "automatically fetched and summarized."
 
-#: ../../usage/grandproject.rst:172
+#: ../../usage/grandproject.rst:178
 msgid ""
 "設定項目の詳細については、NeuralMDのドキュメントにある設定ファイルの説明 `sannp.prop <https://neuralmd-"
 "doc.readthedocs.io/ja/latest/usage/prop.html>`_ , `sannp.behler <https"
@@ -1368,13 +1414,51 @@ msgstr ""
 "://neuralmd-doc.readthedocs.io/ja/latest/usage/behler.html>`_ in the "
 "NeuralMD document."
 
-#: ../../usage/grandproject.rst:176
+#: ../../usage/grandproject.rst:182
 msgid "設定後、左下メニューの :guilabel:`Run` から学習（最適化）を実行します。"
 msgstr ""
 "Once setting is finished, run the training (optimization) by "
 ":guilabel:`Run` in the lower left menu."
 
-#: ../../usage/grandproject.rst:178
+#: ../../usage/grandproject.rst:186
+msgid "Advance/NeuralMD Pro版をお使いの場合、GPUを使って計算を高速化することができます。"
+msgstr ""
+"You can accelerate calculations using GPU if you are using "
+"Advance/NeuralMD Pro edition."
+
+#: ../../usage/grandproject.rst:188 ../../usage/inputeditorlammps.rst:46
+msgid ""
+"（Linuxのみ）ローカルで実行する場合、 :menuselection:`メインメニュー --> Properties --> "
+"Advance/NeuralMD` の :guilabel:`Number of GPU` "
+"に使用するGPUの数を設定します。複数のGPUを使用する設定の場合、MPI並列のプロセスを各GPUに均等に割り当てて実行されます。0を設定するとGPUを使用しません。"
+msgstr ""
+"(Linux only) To execute locally, specify the number of GPU(s) to be used "
+"in :guilabel:`Number of GPU` from :menuselection:`main menu --> "
+"Properties --> Advance/NeuralMD` . If multiple GPUs are used, MPI "
+"parallel processes are evenly distributed on the GPUs."
+
+#: ../../usage/grandproject.rst:189 ../../usage/inputeditorlammps.rst:47
+msgid "リモートで実行する場合、\\ :doc:`SSHサーバーの設定<sshserver>`\\ で使用するキューのGPU設定を有効にしてください。"
+msgstr ""
+"To execute remotely, enable the GPU setting of the queue on :doc:`ssh "
+"server setting <sshserver>`\\ ."
+
+#: ../../usage/grandproject.rst:193 ../../usage/inputeditorlammps.rst:51
+#: ../../usage/sshserver.rst:79
+msgid ""
+"GPUドライバを事前にインストールしておく必要があります。CUDA "
+"11.4.4を使用しており、これに対応するドライババージョン470.82.01以上が必要です。"
+msgstr ""
+"GPU driver is necessary to be installed beforehand. As CUDA 11.4.4 is "
+"used, driver version 470.82.01 or later is required."
+
+#: ../../usage/grandproject.rst:194
+msgid "元素数が5以上の場合は、重み付き対称関数を使う（\\ :guilabel:`Element Weight`\\ をyesに設定する）必要があります。"
+msgstr ""
+"In case 5 or more elements are in the system, weighted symmetry function "
+"must be used (set :guilabel:`Element Weight` to yes)."
+
+#: ../../usage/grandproject.rst:196
 msgid ""
 "実行後、タブに戻るとResult画面が表示され、計算の状況を確認できます。 :guilabel:`RMSE` ボタンで収束の様子が確認できます。 "
 ":guilabel:`Classical Potential` （|Delta|-NNP法）を有効にした場合、 :guilabel:`LJ-"
@@ -1386,13 +1470,13 @@ msgstr ""
 "Potential` (|Delta|-NNP method) is enabled, you can check the form of the"
 " classical potential by :guilabel:`LJ-like.pot`\\ ."
 
-#: ../../usage/grandproject.rst:180
+#: ../../usage/grandproject.rst:198
 msgid ":guilabel:`force-field` をクリックすると、学習したニューラルネットワークをLAMMPSの力場ファイルとして保存できます。"
 msgstr ""
 "Click :guilabel:`force-field` to save trained neural network as a force "
 "field file for LAMMPS."
 
-#: ../../usage/grandproject.rst:182 ../../usage/slhmc.rst:56
+#: ../../usage/grandproject.rst:200 ../../usage/slhmc.rst:56
 msgid ""
 "作成した力場ファイルを使って分子動力学計算を行うには、LAMMPSのプロジェクトの :guilabel:`Force-Field` 設定画面で "
 ":guilabel:`Type of Force Field` をNeuralMDまたはNeuralMD with Chargeに設定して、 "
@@ -1404,7 +1488,7 @@ msgstr ""
 " screen, and choose the created force field file in :guilabel:`Potential "
 "File`\\ ."
 
-#: ../../usage/grandproject.rst:186
+#: ../../usage/grandproject.rst:204
 msgid ""
 "また、既にニューラルネットワークの学習を行ったグランドプロジェクトで :guilabel:`Testing Neural Network "
 "Potential` にある :guilabel:`Start Testing NNP` "
@@ -1417,11 +1501,11 @@ msgstr ""
 "Network Potential`\\ . The result can be checked by :guilabel:`Tested` "
 "button in the Result screen."
 
-#: ../../usage/grandproject.rst:195
+#: ../../usage/grandproject.rst:213
 msgid "教師データ・テストデータのインポート"
 msgstr "Importing training data / testing data"
 
-#: ../../usage/grandproject.rst:197
+#: ../../usage/grandproject.rst:215
 msgid ""
 "既に計算済みの教師データ( :file:`sannp.train` )・テストデータ( :file:`sannp.test` "
 ")をグランドプロジェクトにインポートするには、画面右側の :guilabel:`Open Project of NNP` "
@@ -1436,11 +1520,11 @@ msgstr ""
 "lower left menu. You can choose on a dialog whether to replace the data "
 "in the grand-project, or leave the data and append to it."
 
-#: ../../usage/grandproject.rst:202
+#: ../../usage/grandproject.rst:220
 msgid "教師データの分割"
 msgstr "Splitting training data"
 
-#: ../../usage/grandproject.rst:204
+#: ../../usage/grandproject.rst:222
 msgid ""
 "グランドプロジェクトにある教師データを分割し、一部をテストデータにすることができます。NNPの設定画面で左下メニューの "
 ":guilabel:`Split TRAIN-data` "
@@ -1649,7 +1733,7 @@ msgstr ""
 msgid "分子作成"
 msgstr "Create molecule"
 
-#: ../../usage/initial.rst:94 ../../usage/modeler.rst:205
+#: ../../usage/initial.rst:94 ../../usage/modeler.rst:210
 msgid ""
 "分子エディタ―\\ `JSME <https://jsme-editor.github.io/>`_\\ "
 "を使用し、作図した構造をそのままモデルとして使用できます。"
@@ -1696,7 +1780,7 @@ msgstr ""
 "Then, set the appropriate values referring to the calculation engine "
 "manual."
 
-#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:67
+#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:79
 #: ../../usage/inputeditorqe.rst:3 ../../usage/project.rst:24
 msgid "editormenuicon"
 msgstr ""
@@ -1837,7 +1921,7 @@ msgstr ""
 "mobile along X/Y/Z direction from the right click menu of the rows of "
 "atoms."
 
-#: ../../usage/inputeditorlammps.rst:53
+#: ../../usage/inputeditorlammps.rst:65
 msgid "Python環境の設定方法"
 msgstr "Setting Python environment"
 
@@ -1933,11 +2017,21 @@ msgstr ""
 "function to set the bias terms of the last layer to 0, thus equalizing "
 "the energy of the atoms."
 
-#: ../../usage/inputeditorlammps.rst:43
+#: ../../usage/inputeditorlammps.rst:44
+msgid "ニューラルネットワーク力場は、GPUを使って計算を高速化することができます。"
+msgstr "Calculation of neural network force field can be accelerated using GPU."
+
+#: ../../usage/inputeditorlammps.rst:52
+msgid "元素数が5以上の場合は、力場作成時に重み付き対称関数を使っている必要があります。"
+msgstr ""
+"In case 5 or more elements are in the system, weighted symmetry function "
+"must be used when you generate the force field."
+
+#: ../../usage/inputeditorlammps.rst:55
 msgid "Open Catalyst 2020"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:45
+#: ../../usage/inputeditorlammps.rst:57
 msgid ""
 "`Open Catalyst Project <https://opencatalystproject.org>`_ "
 "で公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。"
@@ -1946,7 +2040,7 @@ msgstr ""
 "published in `Open Catalyst Project <https://opencatalystproject.org>`_\\"
 " ."
 
-#: ../../usage/inputeditorlammps.rst:47
+#: ../../usage/inputeditorlammps.rst:59
 msgid ""
 "LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| "
 "をクリックすると説明が表示されます。"
@@ -1955,29 +2049,31 @@ msgstr ""
 "environment have to be prepared in advance. Also, there are some "
 "limitations. Click |info| to show the description."
 
-#: ../../usage/inputeditorlammps.rst:58
+#: ../../usage/inputeditorlammps.rst:70
 msgid "info"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:49
+#: ../../usage/inputeditorlammps.rst:61
 msgid "MPI並列には非対応です（OpenMP並列、またはGPUを使った計算が可能です）。"
 msgstr ""
+"MPI parallel is not supported (calculation using OpenMPI parallel and GPU"
+" is available)."
 
-#: ../../usage/inputeditorlammps.rst:50
+#: ../../usage/inputeditorlammps.rst:62
 msgid "Z軸方向には周期境界条件が適用されません。"
 msgstr "Periodic boundary condition is not applied along Z axis."
 
-#: ../../usage/inputeditorlammps.rst:51
+#: ../../usage/inputeditorlammps.rst:63
 msgid "ビリアル応力が計算できないため、NPTアンサンブルでの計算、およびセルの最適化には非対応です。"
 msgstr ""
 "Since virial stress is not calculated, neither NPT ensemble calculation "
 "nor cell optimization is supported."
 
-#: ../../usage/inputeditorlammps.rst:63
+#: ../../usage/inputeditorlammps.rst:75
 msgid "Scheme（計算過程）"
 msgstr "Scheme"
 
-#: ../../usage/inputeditorlammps.rst:65
+#: ../../usage/inputeditorlammps.rst:77
 msgid ""
 "入力ファイルエディターの :guilabel:`Scheme` で計算過程の設定を行います。画面右下のメニュー |editormenuicon| "
 "から :guilabel:`Scheme` をクリックしてください。"
@@ -1986,7 +2082,7 @@ msgstr ""
 " editor. Click :guilabel:`Scheme` from the menu |editormenuicon| on the "
 "lower right."
 
-#: ../../usage/inputeditorlammps.rst:69
+#: ../../usage/inputeditorlammps.rst:81
 msgid ""
 "画面右側の :guilabel:`Set Scheme` で計算の設定を行い、 :guilabel:`Add Scheme` の "
 ":guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| "
@@ -1997,7 +2093,7 @@ msgstr ""
 "the setting on the left side of the window as a tile. Repeat configuring "
 "|rarr| :guilabel:`Apply` to add processes as many times as necessary."
 
-#: ../../usage/inputeditorlammps.rst:75
+#: ../../usage/inputeditorlammps.rst:87
 msgid ""
 "タイルの左上の数字が過程の実行される順番です。前へボタン |lpback| 、後へボタン |lpfwd| で順番を入れ替えます。削除ボタン "
 "|lpdel| で削除します。"
@@ -2006,19 +2102,19 @@ msgstr ""
 " process is executed. Use back button |lpback| and forward button |lpfwd|"
 " to change the order. Delete it by delete button |lpdel| ."
 
-#: ../../usage/inputeditorlammps.rst:77
+#: ../../usage/inputeditorlammps.rst:89
 msgid "lpback"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:78
+#: ../../usage/inputeditorlammps.rst:90
 msgid "lpfwd"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:79
+#: ../../usage/inputeditorlammps.rst:91
 msgid "lpdel"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:81
+#: ../../usage/inputeditorlammps.rst:93
 msgid ""
 "追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` "
 "ウィンドウが表示され、設定を編集できます。"
@@ -2027,7 +2123,7 @@ msgstr ""
 ":guilabel:`Set the scheme` window is displayed and you can edit the "
 "settings."
 
-#: ../../usage/inputeditorlammps.rst:83
+#: ../../usage/inputeditorlammps.rst:95
 msgid ""
 "また、 :guilabel:`Statistical Properties` の各項目を :guilabel:`yes` "
 "に設定することで、統計量（熱伝導率、粘性係数、拡散係数、動径分布関数(RDF)）が計算され、結果画面に表示されます。"
@@ -2037,7 +2133,7 @@ msgstr ""
 "viscosity coefficient, diffusion constant and radial distribution "
 "function (RDF)) are calculated and displayed in the result screen."
 
-#: ../../usage/inputeditorlammps.rst:85
+#: ../../usage/inputeditorlammps.rst:97
 msgid ""
 "各熱力学量や原子構造は毎ステップではなく、間を空けて出力されます。 :guilabel:`Interval to Print Logs` "
 "で出力の間隔をステップ数で設定できます。"
@@ -2045,6 +2141,163 @@ msgstr ""
 "Thermodynamic quantities and atomic structures are output not at every "
 "step but at some interval. You can set the output interval by "
 ":guilabel:`Interval to Print Logs` by step numbers."
+
+#: ../../usage/inputeditorlammps.rst:104
+msgid "Option（追加操作）"
+msgstr "Option"
+
+#: ../../usage/inputeditorlammps.rst:106
+msgid "入力ファイルエディターの :guilabel:`Option` で外場・外力等の設定を行います。"
+msgstr ""
+"Configure optional operations in :guilabel:`Option` mode of input file "
+"editor."
+
+#: ../../usage/inputeditorlammps.rst:109
+msgid "E-Field"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:109
+msgid "静電場を印加します。"
+msgstr "Apply static electric field."
+
+#: ../../usage/inputeditorlammps.rst:112
+msgid "Ext. Forces"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:112
+msgid "外力を印加します。"
+msgstr "Apply external force."
+
+#: ../../usage/inputeditorlammps.rst:115
+msgid "Move Atoms"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:115
+msgid "原子を一定の速度で（原子に働く力に依らず）動かします。"
+msgstr ""
+"Move atoms at a constant speed, not affected by forces acting on the "
+"atoms."
+
+#: ../../usage/inputeditorlammps.rst:118
+msgid "Deform Cell"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:118
+msgid "セルを一定の速度で変形させます。対象とする原子はセルの変形に追随します。"
+msgstr ""
+"Deform the cell at a constant speed. Target atoms follow the deformation "
+"of the cell."
+
+#: ../../usage/inputeditorlammps.rst:120
+msgid "各タブの :guilabel:`Target Group` で対象とする原子グループを選び、パラメータを入力します。"
+msgstr ""
+"On each tab, choose the target atom group by :guilabel:`Target Group` and"
+" then specify the parameters."
+
+#: ../../usage/inputeditorlammps.rst:122
+msgid ""
+"これらの設定は、 :guilabel:`Scheme` の過程ごとに独立しており、 :guilabel:`Target Scheme` "
+"で選択されている過程にのみ適用されます。"
+msgstr ""
+"These settings belong to each :guilabel:`Scheme` , and only applied to "
+"selected :guilabel:`Target Scheme` ."
+
+#: ../../usage/inputeditorlammps.rst:124
+msgid ""
+"初速度を与えて原子を動かすにはこの画面ではなく、 :guilabel:`Geometry` の :guilabel:`Velocities` "
+"で設定します。"
+msgstr ""
+"To move atoms by setting initial velocities, not this screen but go to "
+":guilabel:`Velocities` in :guilabel:`Geometry` ."
+
+#: ../../usage/inputeditorlammps.rst:126
+msgid ""
+"また、 :guilabel:`Target Group` "
+"として最初はall（全ての原子）のみが選択できますが、:guilabel:`Groups` で原子グループを定義することができます。 |add| "
+"をクリックして行を追加し、 :guilabel:`Element` で元素を選択して一括で指定するか、 :guilabel:`Atoms` "
+"のボタンをクリックして原子を選択して指定します。原子グループを削除するには行の右クリックメニューから :guilabel:`Delete` "
+"をクリックします。"
+msgstr ""
+"You can choose only \"all\" (all atoms) as :guilabel:`Target Group` at "
+"first, and you can define additional atom groups in :guilabel:`Groups` "
+".Click |add| to add row, and then choose :guilabel:`Element` to select "
+"them at once, or click :guilabel:`Atoms` to select atoms one by one. To "
+"delete atom group, click :guilabel:`Delete` in the right click menu of "
+"the row."
+
+#: ../../usage/inputeditorlammps.rst:128
+msgid "LAMMPSの仕様により、原子グループ数の上限は32個（allを除いて、31個まで追加可能）となります。"
+msgstr ""
+"Due to the LAMMPS specification, number of the atom groups is 32 at most "
+"(you can add up to 31, excluding \"all\")."
+
+#: ../../usage/inputeditorlammps.rst:137
+msgid "User's（ユーザー定義）"
+msgstr "User's"
+
+#: ../../usage/inputeditorlammps.rst:139
+msgid "入力ファイルエディターの :guilabel:`User's` で任意コマンド追加、任意変数出力・グラフ化の設定を行います。"
+msgstr "Configure user's additional commands / variables to output and plot."
+
+#: ../../usage/inputeditorlammps.rst:142 ../../usage/inputeditorlammps.rst:151
+msgid "User's Additional Settings into Input-file"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:142
+msgid "テキストボックスに任意のLAMMPSコマンドを追加すると、入力ファイルに挿入されます。"
+msgstr "Add any LAMMPS commands in the text box to insert it in the input file."
+
+#: ../../usage/inputeditorlammps.rst:147 ../../usage/inputeditorlammps.rst:161
+msgid "User's Variables to Output and Plot"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:145
+msgid "変数を追加すると、結果画面にボタンが追加され、時系列プロットとして表示することができます。また、CSVファイルにもカラムが追加されます。"
+msgstr ""
+"If you add a variable, corresponding button is added to the result view "
+"and can be desplayed as time series plot. Also, corresponding column is "
+"added to the CSV file."
+
+#: ../../usage/inputeditorlammps.rst:147
+msgid ""
+"変数としてはあらかじめ定義されているもの（\\ `LAMMPSマニュアル参照 "
+"<https://docs.lammps.org/thermo_style.html>`_\\ "
+"）や、LAMMPSコマンドで追加したものを使えます。"
+msgstr ""
+"You can use pre-defined variables (refer to `LAMMPS manual "
+"<https://docs.lammps.org/thermo_style.html>`_\\ ) or variables added by "
+"LAMMPS command."
+
+#: ../../usage/inputeditorlammps.rst:149
+msgid ""
+"例として、bond・angleが定義されている計算（OPLS-"
+"AA力場）で、各時刻の結合距離・結合角の平均をプロットし、ヒストグラムをファイル出力する設定を示します。"
+msgstr ""
+"As an example, below is the setting to plot average bond length / angle "
+"while output the histgram to the file at each time, for the calculation "
+"where bonds / angles are defined (OPLS-AA force field)."
+
+#: ../../usage/inputeditorlammps.rst:153
+msgid ""
+"compute 1 all bond/local dist\n"
+"compute 2 all angle/local theta\n"
+"compute 3 all reduce ave c_1 c_2\n"
+"fix 1 all ave/histo 10 10 100 0.8 1.1 20 c_1 mode vector file dist.histo\n"
+"fix 2 all ave/histo 10 10 100 80 120 20 c_2 mode vector file theta.histo"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:163
+msgid "c_3[*]"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:167
+msgid ""
+"LAMMPSコマンドの使い方については\\ `LAMMPSのマニュアル "
+"<https://docs.lammps.org/Commands_category.html>`_\\ を参照してください。"
+msgstr ""
+"Please refer to `LAMMPS manual "
+"<https://docs.lammps.org/Commands_category.html>`_ for the usage of "
+"LAMMPS commands."
 
 #: ../../usage/inputeditorqe.rst:12
 msgid "import"
@@ -2337,6 +2590,44 @@ msgstr ""
 "You can specify the shielding tensor of the reference compound "
 ":math:`\\sigma_\\mathrm{ref}` in the result plotting screen."
 
+#: ../../usage/inputeditorqe.rst:133
+msgid "フォノン分散の設定"
+msgstr "Phonon Dispersion"
+
+#: ../../usage/inputeditorqe.rst:135
+msgid ""
+"画面右下のメニュー |editormenuicon| から :guilabel:`Ph. Dispersion` "
+"を選ぶと、フォノン分散の設定画面が表示されます。"
+msgstr ""
+"When you choose :guilabel:`Ph. Dispersion` from the menu |editormenuicon|"
+" on the lower right, phonon dispersion setting items are shown."
+
+#: ../../usage/inputeditorqe.rst:137
+msgid ""
+":guilabel:`DOS` タブの :guilabel:`Calc. DOS` 、 :guilabel:`BAND` タブの "
+":guilabel:`Calc. Band` をそれぞれyesに設定することで、フォノン状態密度、フォノンバンドの計算を行います。"
+msgstr ""
+"Set :guilabel:`Calc. DOS` in :guilabel:`DOS` tab ( :guilabel:`Calc. Band`"
+" in :guilabel:`BAND` tab) to perform calculation of phonon density of "
+"states (phonon bands)."
+
+#: ../../usage/inputeditorqe.rst:139
+msgid ""
+":guilabel:`Non-Analytic Term` をyesに設定すると、LO-"
+"TO分裂を考慮した計算を行います。補正を有効にするために、あらかじめ :guilabel:`Phonon` で\\ |gamma|\\ 点 "
+"(qx, qy, qz) = (0, 0, 0) 、:guilabel:`Dielectric Constant` ・ "
+":guilabel:`Effective Charge` "
+"をyesに設定して計算を行い、ボルン有効電荷を得ておく必要があります。ボルン有効電荷が計算されていない場合、 :guilabel:`Non-"
+"Analytic Term` がyesでも補正なしの計算になります。"
+msgstr ""
+"You can take LO-TO splitting into account by setting :guilabel:`Non-"
+"Analytic Term` to yes. To enable the correction, Born effective charge "
+"must be obtained beforehand by calculating :guilabel:`Phonon` at |gamma| "
+"point (qx, qy, qz) = (0, 0, 0) and :guilabel:`Dielectric Constant` , "
+":guilabel:`Effective Charge` set to yes. In case Born effective charge is"
+" not calculated, calculation is performed without correction even "
+":guilabel:`Non-Analytic Term` is set to yes."
+
 #: ../../usage/metro.rst:5
 msgid "メトロポリス法"
 msgstr "Metropolis method"
@@ -2607,19 +2898,33 @@ msgstr ""
 msgid "基本単位胞・慣用単位胞を自動的に決定し、相互に変換します。"
 msgstr "Find primitive / standard cell automatically, and convert to it."
 
-#: ../../usage/modeler.rst:93
+#: ../../usage/modeler.rst:94
+msgid "More Symmetric Cell"
+msgstr ""
+
+#: ../../usage/modeler.rst:94
+msgid "ある程度の原子位置のずれを許容し、より対称性の高い結晶構造を探索します。 |settingicon| ボタンから対称性判定の閾値を設定できます。"
+msgstr ""
+"Find more symmetric crystal structure, allowing certain deviation of atom"
+" locations. You can specify the threshold from |settingicon| button."
+
+#: ../../usage/modeler.rst:96
+msgid "settingicon"
+msgstr ""
+
+#: ../../usage/modeler.rst:98
 msgid "Hexagonal -> Orthorhombic"
 msgstr ""
 
-#: ../../usage/modeler.rst:97
+#: ../../usage/modeler.rst:102
 msgid "Orthorhombic -> Hexagonal"
 msgstr ""
 
-#: ../../usage/modeler.rst:95
+#: ../../usage/modeler.rst:100
 msgid "六方晶・直方晶（斜方晶）を相互に変換します。"
 msgstr "Convert to hexagonal crystal / orthorhombic crystal."
 
-#: ../../usage/modeler.rst:99
+#: ../../usage/modeler.rst:104
 msgid ""
 "また、 :guilabel:`Cell` タブの :guilabel:`Operation for Axis` "
 "の各ボタンで、格子ベクトルの反転操作、および格子ベクトルの入れ替えができます。"
@@ -2627,15 +2932,15 @@ msgstr ""
 "In addition, using the :guilabel:`Operation for Axis` buttons in "
 ":guilabel:`Cell` tab, you can flip / swap the lattice vectors."
 
-#: ../../usage/modeler.rst:104
+#: ../../usage/modeler.rst:109
 msgid "元素置換"
 msgstr "Element substitution"
 
-#: ../../usage/modeler.rst:106
+#: ../../usage/modeler.rst:111
 msgid "モデル中の原子の一部を異なる種類に変更します。"
 msgstr "Substitute some of the atoms in the model for different atoms."
 
-#: ../../usage/modeler.rst:108
+#: ../../usage/modeler.rst:113
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Element Substitution` にある "
 ":guilabel:`Start Modeling` をクリックすると、元素置換を行う画面が表示されます。"
@@ -2643,7 +2948,7 @@ msgstr ""
 "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Element Substitution` to show element substitution view."
 
-#: ../../usage/modeler.rst:110
+#: ../../usage/modeler.rst:115
 msgid ""
 ":guilabel:`Element to be Substituted` （置換元の元素）、 :guilabel:`For What "
 "Element ?` （置換先の元素）、 :guilabel:`Super Cell` （スーパーセルを作成する場合その繰り返し回数）、 "
@@ -2661,23 +2966,23 @@ msgstr ""
 "substitution is also shown. If you click :guilabel:`Build` again here, "
 "different structure with the same substitution setting is shown."
 
-#: ../../usage/modeler.rst:112 ../../usage/modeler.rst:125
-#: ../../usage/modeler.rst:144 ../../usage/modeler.rst:169
-#: ../../usage/modeler.rst:232 ../../usage/modeler.rst:262
+#: ../../usage/modeler.rst:117 ../../usage/modeler.rst:130
+#: ../../usage/modeler.rst:149 ../../usage/modeler.rst:174
+#: ../../usage/modeler.rst:237 ../../usage/modeler.rst:267
 msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
 msgstr "Click back button |back| on the lower left to go back to modeler view."
 
-#: ../../usage/modeler.rst:117
+#: ../../usage/modeler.rst:122
 msgid "点欠陥（空孔）"
 msgstr "Point defect (vacancy)"
 
-#: ../../usage/modeler.rst:119
+#: ../../usage/modeler.rst:124
 msgid "モデル中の原子の一部を取り除き、点欠陥（空孔）を作成します。"
 msgstr ""
 "Remove some of the atoms in the model and create point defects "
 "(vacancies)."
 
-#: ../../usage/modeler.rst:121
+#: ../../usage/modeler.rst:126
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Lattice Defect` にある :guilabel:`Start "
 "Modeling` をクリックすると、点欠陥を作成する画面が表示されます。"
@@ -2685,7 +2990,7 @@ msgstr ""
 "In :guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Lattice Defect` to show lattice defect view."
 
-#: ../../usage/modeler.rst:123
+#: ../../usage/modeler.rst:128
 msgid ""
 ":guilabel:`Element to be Removed` （取り除く元素）、 :guilabel:`Super Cell` "
 "（スーパーセルを作成する場合その繰り返し回数）、 :guilabel:`Rate of Lattice Defect` "
@@ -2703,17 +3008,17 @@ msgstr ""
 ":guilabel:`Build` again here, different structure with the same defect "
 "setting is shown."
 
-#: ../../usage/modeler.rst:130
+#: ../../usage/modeler.rst:135
 msgid "スラブモデル"
 msgstr "Slab model"
 
-#: ../../usage/modeler.rst:132
+#: ../../usage/modeler.rst:137
 msgid "表面などの非周期系を近似的に周期的境界条件で扱う、スラブ近似のためのモデルを作成します。"
 msgstr ""
 "Build a model for slab approximation which treats aperiodic system such "
 "as surface in approximate periodic boundary condition."
 
-#: ../../usage/modeler.rst:134
+#: ../../usage/modeler.rst:139
 msgid ""
 ":guilabel:`Slab` タブの :guilabel:`Slab Model` で、表面となる結晶面をミラー指数で指定し、 "
 ":guilabel:`Build` をクリックすると、スラブモデルの詳細設定を行う画面が表示されます。"
@@ -2722,7 +3027,7 @@ msgstr ""
 "Miller indices and then click :guilabel:`Build`\\ . Detailed setting view"
 " of slab model is shown."
 
-#: ../../usage/modeler.rst:136
+#: ../../usage/modeler.rst:141
 msgid ""
 "スラブの厚さを :guilabel:`Slab System` の :guilabel:`Width / Cell` スライダーで、真空層の厚さを"
 " :guilabel:`Vacuum of a Side` の :guilabel:`Width / Angs.` スライダーで変更します。 "
@@ -2736,7 +3041,7 @@ msgstr ""
 ":guilabel:`Build` to build repeated structure along in-plane direction of"
 " the slab."
 
-#: ../../usage/modeler.rst:138
+#: ../../usage/modeler.rst:143
 msgid ""
 "複数の異なる表面原子構造が存在する場合、 :guilabel:`Kind of Surface` "
 "に複数の候補が表示されますので、クリックして選択してください。"
@@ -2744,31 +3049,31 @@ msgstr ""
 "In case there exists multiple different surface atomic structures, click "
 "one from the candidates displayed in :guilabel:`Kind of Surface`\\ ."
 
-#: ../../usage/modeler.rst:140
+#: ../../usage/modeler.rst:145
 msgid "変更はリアルタイムでビューワーに反映されます。"
 msgstr "The changes are reflected in the viewer in real time."
 
-#: ../../usage/modeler.rst:142
+#: ../../usage/modeler.rst:147
 msgid ":guilabel:`Initialize Model` をクリックすると、詳細設定を行う前（スラブモデル画面を開いた時点）の状態に戻ります。"
 msgstr ""
 "Click :guilabel:`Initialize Model` to return to the state before detailed"
 " setting is performed (when slab model view was opened)."
 
-#: ../../usage/modeler.rst:146
+#: ../../usage/modeler.rst:151
 msgid "また、スラブモデル作成後、 :guilabel:`Editing Slab Model` の各ボタンから、スラブモデルに対する追加の編集が可能です。"
 msgstr ""
 "After the slab model is built, you can perform additional operations for "
 "the model by :guilabel:`Editing Slab Model` buttons."
 
-#: ../../usage/modeler.rst:155
+#: ../../usage/modeler.rst:160
 msgid "分子吸着"
 msgstr "Molecules adsorption"
 
-#: ../../usage/modeler.rst:157
+#: ../../usage/modeler.rst:162
 msgid "スラブモデルの表面に分子を吸着します。"
 msgstr "Adsorb molecules onto the slab model."
 
-#: ../../usage/modeler.rst:159
+#: ../../usage/modeler.rst:164
 msgid ""
 "スラブモデルを用意し、:guilabel:`Slab` タブの :guilabel:`Molecular Adsorption onto "
 "Slab` にある :guilabel:`Start Modeling` をクリックしてください。分子吸着を行う画面が表示されます。"
@@ -2777,7 +3082,7 @@ msgstr ""
 "Modeling` in :guilabel:`Molecular Adsorption onto Slab` to show molecules"
 " adsorption view."
 
-#: ../../usage/modeler.rst:161
+#: ../../usage/modeler.rst:166
 msgid ""
 ":guilabel:`Adsorbate Molecule / Atom` （吸着する分子）、 :guilabel:`Adsorption "
 "Site` （吸着サイトの種類）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous`"
@@ -2787,7 +3092,7 @@ msgstr ""
 "Site`\\ . Click :guilabel:`Next` ( :guilabel:`Previous` ) to move on to "
 "the next (previous) item."
 
-#: ../../usage/modeler.rst:163
+#: ../../usage/modeler.rst:168
 msgid ""
 "吸着の方法には、:guilabel:`Adsorption to Single Site` （選択した単一サイトへの吸着）と、 "
 ":guilabel:`Rate of Occupied Sites` （サイトの占有率を指定した吸着）があります。使用したい方を選択してください。"
@@ -2796,7 +3101,7 @@ msgstr ""
 "Single Site` and :guilabel:`Rate of Occupied Sites`\\ . Choose one you'd "
 "like to use."
 
-#: ../../usage/modeler.rst:165
+#: ../../usage/modeler.rst:170
 msgid ""
 ":guilabel:`Adsorption to Single Site` "
 "では、a軸・b軸方向の位置をスライダーで変更するか、サイトに振られた通し番号を使って、サイトを指定してください。"
@@ -2805,7 +3110,7 @@ msgstr ""
 "along a/b axis, or specify the site using the serial number given to the "
 "sites."
 
-#: ../../usage/modeler.rst:167
+#: ../../usage/modeler.rst:172
 msgid ""
 ":guilabel:`Rate of Occupied Sites` では、占有率を入力して :guilabel:`Build` "
 "をクリックすると、分子を吸着した構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
@@ -2816,25 +3121,25 @@ msgstr ""
 "viewer. If you click :guilabel:`Build` again here, different structure "
 "with the same setting is shown."
 
-#: ../../usage/modeler.rst:171
+#: ../../usage/modeler.rst:176
 msgid "increment"
 msgstr ""
 
-#: ../../usage/modeler.rst:172
+#: ../../usage/modeler.rst:177
 msgid "decrement"
 msgstr ""
 
-#: ../../usage/modeler.rst:179
+#: ../../usage/modeler.rst:184
 msgid "界面モデル（Pro版のみ）"
 msgstr "Interface model (Pro version only)"
 
-#: ../../usage/modeler.rst:181
+#: ../../usage/modeler.rst:186
 msgid "格子定数の異なる2つの結晶モデルから、界面モデルを作成します。"
 msgstr ""
 "Build interface model from two crystal models with different lattice "
 "constants."
 
-#: ../../usage/modeler.rst:183
+#: ../../usage/modeler.rst:188
 msgid ""
 ":guilabel:`Slab` タブの :guilabel:`Interface Model` にある :guilabel:`Start "
 "Modeling` をクリックしてください。界面モデル作成を行う画面が表示されます。"
@@ -2842,7 +3147,7 @@ msgstr ""
 "In :guilabel:`Slab` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Interface Model` to show interface model view."
 
-#: ../../usage/modeler.rst:185
+#: ../../usage/modeler.rst:190
 msgid ""
 "まず、2つのスラブモデルを作成します。画面左のモデルに対し、表面となる結晶面を :guilabel:`Miller Index` で指定し、 "
 ":guilabel:`Build` をクリックしてスラブモデルを作成します。続けて、右上に赤く表示されているimportボタン "
@@ -2856,17 +3161,17 @@ msgstr ""
 "the model is set to right hand side, input the Miller indices and create "
 "a slab model in the same way."
 
-#: ../../usage/modeler.rst:195
+#: ../../usage/modeler.rst:200
 msgid "import_red"
 msgstr ""
 
-#: ../../usage/modeler.rst:187
+#: ../../usage/modeler.rst:192
 msgid "中央の :guilabel:`Build Interface` ボタンをクリックすると、界面を作成する画面に移ります。"
 msgstr ""
 "Click :guilabel:`Build Interface` button in the middle to go to build "
 "interface view."
 
-#: ../../usage/modeler.rst:191
+#: ../../usage/modeler.rst:196
 msgid ""
 ":guilabel:`Acceptable Strain` （許容する格子定数の歪み）を入力し、  :guilabel:`Next` "
 "をクリックすると、界面を探索し、結果が表示されます。問題が無ければ、さらに  :guilabel:`Next` "
@@ -2879,7 +3184,7 @@ msgstr ""
 ":guilabel:`Optimize` to optimize the inter-slab distance using classical "
 "force field."
 
-#: ../../usage/modeler.rst:193
+#: ../../usage/modeler.rst:198
 msgid ""
 "ビューワー右上の :guilabel:`finish modeling` ボタン |finish| "
 "をクリックすると、表示されている構造が確定され、モデラー画面に戻ります。"
@@ -2887,15 +3192,15 @@ msgstr ""
 "Click :guilabel:`finish modeling` button |finish| on the upper right in "
 "the viewer to fix the structure and go back to modeler view."
 
-#: ../../usage/modeler.rst:196
+#: ../../usage/modeler.rst:201
 msgid "finish"
 msgstr ""
 
-#: ../../usage/modeler.rst:203
+#: ../../usage/modeler.rst:208
 msgid "分子エディタ―"
 msgstr "Drawing a molecule"
 
-#: ../../usage/modeler.rst:207
+#: ../../usage/modeler.rst:212
 msgid ""
 ":guilabel:`Molecule` タブの :guilabel:`Drawing a Molecule` にある "
 ":guilabel:`Start Modeling` "
@@ -2906,7 +3211,7 @@ msgstr ""
 "side is molecule editor and the right side is 3D model. The structure you"
 " created on the editor is displayed as 3D model in real time."
 
-#: ../../usage/modeler.rst:209
+#: ../../usage/modeler.rst:214
 msgid ""
 "エディターの使用方法については、JSMEの\\ `ヘルプ <https://jsme-"
 "editor.github.io/help.html>`_\\ を参照してください。"
@@ -2914,21 +3219,21 @@ msgstr ""
 "Please refer to JSME `Help <https://jsme-editor.github.io/help.html>`_ "
 "for the usage of the editor."
 
-#: ../../usage/modeler.rst:213
+#: ../../usage/modeler.rst:218
 msgid "左下の戻るボタン |back| をクリックすると、作図した構造が確定され、モデラ―画面に戻ります。このとき前のモデルは上書きされます。"
 msgstr ""
 "Click back button |back| on the lower left to go back to modeler view. "
 "Previous model is overwritten."
 
-#: ../../usage/modeler.rst:218
+#: ../../usage/modeler.rst:223
 msgid "分子充填"
 msgstr "Packing molecules"
 
-#: ../../usage/modeler.rst:220
+#: ../../usage/modeler.rst:225
 msgid "モデルの空いている領域に、小分子を充填します。"
 msgstr "Pack small molecules into the empty space in the model."
 
-#: ../../usage/modeler.rst:222
+#: ../../usage/modeler.rst:227
 msgid ""
 "分子を充填できる空間を持ったモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Packing "
 "Molecules` にある :guilabel:`Start Modeling` をクリックしてください。分子充填を行う画面が表示されます。"
@@ -2937,7 +3242,7 @@ msgstr ""
 ":guilabel:`Crystal` tab, click :guilabel:`Start Modeling` in "
 ":guilabel:`Lattice Defect` to show packing molecules view."
 
-#: ../../usage/modeler.rst:224
+#: ../../usage/modeler.rst:229
 msgid ""
 "右側のパネルの :guilabel:`Molecules to be Packed` "
 "で、充填する分子とその数を設定します。最初は分子のリストに水が設定されています。"
@@ -2946,7 +3251,7 @@ msgstr ""
 "packed in :guilabel:`Molecules to be Packed`\\ . At first, water is set "
 "in the molecules list."
 
-#: ../../usage/modeler.rst:226
+#: ../../usage/modeler.rst:231
 msgid ""
 "リストに分子を追加するには、 |add| "
 "ボタンをクリックします。エクスプローラーが表示されますので、分子をダブルクリックして選択してください。この場で "
@@ -2958,11 +3263,11 @@ msgstr ""
 ":guilabel:`Materials Finder` to search the molecule. After the molecule "
 "is added to the list, enter the number of it to be packed."
 
-#: ../../usage/modeler.rst:228
+#: ../../usage/modeler.rst:233
 msgid "リストから分子を削除するには、右側の |remove| ボタンをクリックします。"
 msgstr "Click |remove| button on the right to remove the molecule from the list."
 
-#: ../../usage/modeler.rst:230
+#: ../../usage/modeler.rst:235
 msgid ""
 "充填する分子を設定し終わったら、 :guilabel:`Build` "
 "をクリックしてください。充填後の構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
@@ -2972,15 +3277,15 @@ msgstr ""
 "molecules in the viewer. If you click :guilabel:`Build` again here, "
 "different structure with the same setting is shown."
 
-#: ../../usage/modeler.rst:242
+#: ../../usage/modeler.rst:247
 msgid "高分子モデラー（Pro版のみ）"
 msgstr "Polymer modeler (Pro version only)"
 
-#: ../../usage/modeler.rst:244
+#: ../../usage/modeler.rst:249
 msgid "単量体（モノマー）のモデルから、高分子（ポリマー）のモデルを作成し、空間に充填します。"
 msgstr "Generate polymer model from monomer model, and pack it into a space."
 
-#: ../../usage/modeler.rst:246
+#: ../../usage/modeler.rst:251
 msgid ""
 "モノマーのモデルを用意し、 :guilabel:`Molecule` タブの :guilabel:`Polymer Model` にある "
 ":guilabel:`Start Modeling` をクリックしてください。高分子モデル作成を行う画面が表示されます。"
@@ -2989,7 +3294,7 @@ msgstr ""
 ":guilabel:`Start Modeling` in :guilabel:`Polymer Model` to show polymer "
 "modeler view."
 
-#: ../../usage/modeler.rst:248
+#: ../../usage/modeler.rst:253
 msgid ""
 "まず、 :guilabel:`Define box` "
 "ダイアログで高分子を充填する空間の大きさを指定します。次に、モノマーのモデルが表示されますので、始端となる原子をダブルクリックして選択し、 "
@@ -3000,7 +3305,7 @@ msgstr ""
 "polymerization by double click, and then click :guilabel:`OK`\\ . "
 "Likewise, select the tail side atom for polymerization as well."
 
-#: ../../usage/modeler.rst:252
+#: ../../usage/modeler.rst:257
 msgid ""
 "選択後、画面下側の :guilabel:`Sequence of Polymer` に行が追加されます。 :guilabel:`oneself` "
 "の右下にある欄に重合度、 :guilabel:`#Chains` に充填する高分子の数を入力します。"
@@ -3010,7 +3315,7 @@ msgstr ""
 " lower right of :guilabel:`oneself`\\ , and the number of polymer chains "
 "in :guilabel:`#Chains`\\ ."
 
-#: ../../usage/modeler.rst:254
+#: ../../usage/modeler.rst:259
 msgid ""
 "複数の高分子を同時に充填することもできます。別の高分子を追加するには :guilabel:`Add Polymer` "
 "をクリックし、モノマーを選択してから設定を行います。高分子を削除するには、 :guilabel:`#Chains` の右にある |remove| "
@@ -3021,7 +3326,7 @@ msgstr ""
 "then do the settings. To remove a polymer, click |remove| button on the "
 "right of :guilabel:`#Chains`\\ ."
 
-#: ../../usage/modeler.rst:256
+#: ../../usage/modeler.rst:261
 msgid ""
 "また、モノマー枠の左側（右側）にある |add| ボタンをクリックすることで、始端（終端）に別の高分子を繋ぐことができます。 |remove| "
 "ボタンをクリックすると、その枠の高分子を削除します。また、矢印ボタンを使って高分子を繋げる順番を入れ替えられます。"
@@ -3031,7 +3336,7 @@ msgstr ""
 "Click |remove| button to remove the polymer of the box. Also, you can "
 "swap the order of the polymers by arrow buttons."
 
-#: ../../usage/modeler.rst:258
+#: ../../usage/modeler.rst:263
 msgid ""
 "充填する空間の大きさを編集するには、 |box| ボタンをクリックします。XYZ方向の大きさを |angs| 単位で入力し、 |box| "
 "アイコンをクリックすると設定されます。"
@@ -3039,11 +3344,11 @@ msgstr ""
 "To change the dimension of the space, click |box| button. Enter the size "
 "along XYZ direction in |angs| unit. Click the |box| icon to apply."
 
-#: ../../usage/modeler.rst:268
+#: ../../usage/modeler.rst:273
 msgid "box"
 msgstr ""
 
-#: ../../usage/modeler.rst:260
+#: ../../usage/modeler.rst:265
 msgid ""
 "高分子の設定が終わったら、 :guilabel:`Build` "
 "をクリックしてください。充填後の構造が画面上側のビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
@@ -3054,7 +3359,7 @@ msgstr ""
 ":guilabel:`Build` again here, a different structure with the same setting"
 " is shown."
 
-#: ../../usage/modeler.rst:266
+#: ../../usage/modeler.rst:271
 msgid ""
 "また、スラブモデルの真空層等に高分子を充填することも可能です。分子を充填できる空間を持ったモデルを用意し、そのプロジェクトで高分子モデラーを開きます。"
 " :guilabel:`Add Polymer` で高分子を追加すると、生成した分子をモデルの空いている部分に充填します。"
@@ -3234,7 +3539,7 @@ msgid ""
 " conda activate ocp-models\n"
 " MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ pip install torch-"
 "cluster torch-scatter torch-sparse torch-spline-conv -f https://pytorch-"
-"geometric.com/whl/torch-1.8.0+cpu.html"
+"geometric.com/whl/torch-1.9.0+cpu.html"
 msgstr ""
 
 #: ../../usage/ocp.rst:87
@@ -3380,7 +3685,7 @@ msgstr ""
 
 #: ../../usage/ocp.rst:153
 msgid "Linuxの例"
-msgstr "Linux exapmple"
+msgstr "Linux example"
 
 #: ../../usage/ocp.rst:153
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/oc20driver:$PYTHONPATH"
@@ -3642,31 +3947,74 @@ msgstr ""
 "calculation in an unsaved project or if you try to close a tab with "
 "unsaved changes."
 
-#: ../../usage/project.rst:96
+#: ../../usage/project.rst:87
+msgid ""
+"Windowsで、Quantum "
+"ESPRESSOの計算をローカルで行う場合、プロジェクトの保存先はCドライブ内にする必要があります（Quantum "
+"ESPRESSOの仕様による）。"
+msgstr ""
+"On Windows, if you run Quantum ESPRESSO calculation locally, the project must be saved in C drive "
+"(due to specification of Quantum ESPRESSO)."
+
+#: ../../usage/project.rst:89
+msgid "計算をリモートで行う場合、プロジェクトの保存先は.nanolaboフォルダ内にする必要があります（ローカルとリモートのフォルダ構造を対応させる都合による）。"
+msgstr ""
+"If you run calculation remotely, the project must be saved in .naolabo folder (to match folder structure between local and remote)."
+
+#: ../../usage/project.rst:91
+msgid "これらの制限は、シンボリックリンク（Windowsではジャンクション）を使うことで回避できます。下記の例のようにコマンドを実行して設定することで、NanoLabo上でextフォルダに保存したデータが、実体としてはnanolaboDataフォルダに保存されます。"
+msgstr ""
+"These limitations can be avoided by using symbolic link (or junction on Windows). You can set it by executing commands as example below, and when you save data in ext folder on NanoLabo, the actual data will be stored in nanolaboData folder."
+
+#: ../../usage/project.rst:93
+msgid "Windows"
+msgstr ""
+
+#: ../../usage/project.rst:93
+msgid ""
+"mkdir D:\\nanolaboData\n"
+"mklink /J C:\\Users\\ユーザー名\\.nanolabo\\ext D:\\nanolaboData"
+msgstr ""
+"mkdir D:\\nanolaboData\n"
+"mklink /J C:\\Users\\username\\.nanolabo\\ext D:\\nanolaboData"
+
+#: ../../usage/project.rst:99
+msgid "Linux"
+msgstr ""
+
+#: ../../usage/project.rst:99
+msgid ""
+"mkdir /home/ユーザー名/nanolaboData\n"
+"ln -s /home/ユーザー名/nanolaboData /home/ユーザー名/.nanolabo/ext"
+msgstr ""
+"mkdir /home/username/nanolaboData\n"
+"ln -s /home/username/nanolaboData /home/username/.nanolabo/ext"
+
+#: ../../usage/project.rst:116
 msgid "プロジェクト保存"
 msgstr "Save project"
 
-#: ../../usage/project.rst:96
+#: ../../usage/project.rst:116
 msgid ":kbd:`Ctrl` + :kbd:`S`"
 msgstr ""
 
-#: ../../usage/project.rst:98
+#: ../../usage/project.rst:118
 msgid "戻る（左下の矢印ボタン）"
 msgstr "Go back (arrow button on lower left)"
 
-#: ../../usage/project.rst:98
+#: ../../usage/project.rst:118
 msgid ":kbd:`Ctrl` + |larr|"
 msgstr ""
 
-#: ../../usage/project.rst:100
+#: ../../usage/project.rst:120
 msgid "スクリーンショット（画像保存）"
 msgstr "Screenshot (save as image)"
 
-#: ../../usage/project.rst:100
+#: ../../usage/project.rst:120
 msgid ":kbd:`PrintScreen`"
 msgstr ""
 
-#: ../../usage/result.rst:39 ../../usage/resultpdos.rst:5
+#: ../../usage/result.rst:43 ../../usage/resultpdos.rst:5
 msgid "PDOS電卓"
 msgstr "PDOS Calculator"
 
@@ -3744,11 +4092,20 @@ msgstr ""
 msgid "delete_loading"
 msgstr ""
 
-#: ../../usage/result.rst:33
+#: ../../usage/result.rst:30
+msgid ""
+":guilabel:`Files in This Project` の右にあるアイコン |folder| "
+"をクリックすると、プロジェクトのフォルダーを外部ファイラーで開きます（リモートで実行した場合でもローカルのフォルダーが開きます）。"
+msgstr ""
+"Click |folder| icon on the right of :guilabel:`Files in This Project` to "
+"open the project folder with external filer (local folder is opened even "
+"if executed remotely)."
+
+#: ../../usage/result.rst:37
 msgid "2Dプロット"
 msgstr "2D plot"
 
-#: ../../usage/result.rst:35
+#: ../../usage/result.rst:39
 msgid ""
 "時系列データや状態密度・バンド構造は2Dプロットで表示します。画面右側のパネルでプロットの体裁を調整します。 :guilabel:`Data "
 "Series` でデータ系列ごとに表示・非表示の設定、体裁の調整が可能です。"
@@ -3758,17 +4115,17 @@ msgstr ""
 ":guilabel:`Data Series`\\ , you can choose whether to show each data "
 "series, and tweak the appearance."
 
-#: ../../usage/result.rst:37
+#: ../../usage/result.rst:41
 msgid "状態密度のプロットはPDOS電卓を使った詳細な設定が可能です。"
 msgstr "You can customize the density of states plot using PDOS Calculator."
 
-#: ../../usage/result.rst:44
+#: ../../usage/result.rst:48
 msgid "計算実行中の場合、 :guilabel:`Reload` をクリックすると出力ファイルを読み込んで表示を更新します。"
 msgstr ""
 "In case the calculation is running, click :guilabel:`Reload` to read the "
 "output file and update the display."
 
-#: ../../usage/result.rst:46
+#: ../../usage/result.rst:50
 msgid ""
 ":guilabel:`Screen-shot` をクリックしてプロットを画像ファイルに保存します。また、 :guilabel:`Export as"
 " CSV file` をクリックすると表示しているデータをCSVファイルとして保存します。"
@@ -3776,11 +4133,23 @@ msgstr ""
 "Click :guilabel:`Screen-shot` to save the plot as an image file. Click "
 ":guilabel:`Export as CSV file` to save the displayed data as a CSV file."
 
-#: ../../usage/result.rst:57
+#: ../../usage/result.rst:52
+msgid ""
+"LAMMPSの時系列プロットは、データ数が多い場合には表示速度向上のため一部のデータ点を省略して表示します。この設定は画面左上のアイコン "
+"|mainmenuicon| から :menuselection:`Properties --> LAMMPS` を開き、 "
+":guilabel:`Data to Plot Graphs` で変更できます。"
+msgstr ""
+"In time series plot of LAMMPS, a part of the data points are not shown to"
+" improve the display performance if there is too many data points. To "
+"change this setting, open :menuselection:`Properties --> LAMMPS` from the"
+" upper left icon |mainmenuicon| and toggle :guilabel:`Data to Plot "
+"Graphs` ."
+
+#: ../../usage/result.rst:65
 msgid "3D表示"
 msgstr "3D display"
 
-#: ../../usage/result.rst:59
+#: ../../usage/result.rst:67
 msgid ""
 ":guilabel:`3D` "
 "の各ボタンをクリックすると、SCF計算結果の電荷密度・ポテンシャル・（スピンを有効にしている場合）スピン偏極の空間分布が3D表示できます。"
@@ -3789,7 +4158,7 @@ msgstr ""
 "charge density / potential / spin polarization (if spin is enabled) "
 "obtained by SCF calculation in 3D."
 
-#: ../../usage/result.rst:63
+#: ../../usage/result.rst:71
 msgid ""
 "等値面(Isosurface)、点の集合(Cloud)での可視化が可能です。右側パネルには可視化オブジェクトの一覧が表示され、 |eye| "
 "で表示／非表示の切り替え、 |edit| で表示の詳細設定を行います。 |add| と |remove| でオブジェクトの追加と削除を行います。"
@@ -3799,15 +4168,15 @@ msgstr ""
 "hidden by |eye| , and you can tune the display setting by |edit| . You "
 "can add or remove the object by |add| or |remove| ."
 
-#: ../../usage/result.rst:65
+#: ../../usage/result.rst:73
 msgid "eye"
 msgstr ""
 
-#: ../../usage/result.rst:66 ../../usage/resultpdos.rst:36
+#: ../../usage/result.rst:74 ../../usage/resultpdos.rst:36
 msgid "edit"
 msgstr ""
 
-#: ../../usage/result.rst:70
+#: ../../usage/result.rst:78
 msgid ""
 ":guilabel:`Referential Data` "
 "のボタンをクリックし、あらかじめ計算したデータ（プロジェクト／cubeファイル）を選択することで、差分の表示が可能です。データのメッシュ分割数は一致している必要があります。データを2つ設定すると、2つとも差し引いた値（元データ"
@@ -3818,11 +4187,11 @@ msgstr ""
 "The division number of mesh must be the same. If you set two sets of "
 "data, both values are subtracted (current - #1 - #2) and shown."
 
-#: ../../usage/result.rst:75
+#: ../../usage/result.rst:83
 msgid "動画"
 msgstr "Movie"
 
-#: ../../usage/result.rst:77
+#: ../../usage/result.rst:85
 msgid ""
 ":guilabel:`.movie` をクリックすると、原子構造の変化を動画として表示します。計算実行中の場合、 "
 ":guilabel:`Reload` をクリックすると出力ファイルを読み込み、増えたフレーム（コマ）を追加します。"
@@ -3831,13 +4200,13 @@ msgstr ""
 "animation. In case the calculation is running, click :guilabel:`Reload` "
 "to read the output file and add updated frames."
 
-#: ../../usage/result.rst:79
+#: ../../usage/result.rst:87
 msgid "視点の操作は原子構造ビューワーと同様に行うことができます。再生中でも視点を変えられます。"
 msgstr ""
 "You can change the viewpoint in the same way as atomic structure viewer. "
 "You can change the viewpoint even during the playback."
 
-#: ../../usage/result.rst:81
+#: ../../usage/result.rst:89
 msgid ""
 ":guilabel:`Screen-shot` をクリックして表示中のフレーム（コマ）を画像ファイルに保存します。 :guilabel:`Save"
 " Movie` をクリックしてすべてのフレーム（コマ）を動画ファイルに保存します。"
@@ -3845,27 +4214,27 @@ msgstr ""
 "Click :guilabel:`Screen-shot` to save current frame as an image file. "
 "Click :guilabel:`Save Movie` to save the entire frames as a movie file."
 
-#: ../../usage/result.rst:83
+#: ../../usage/result.rst:91
 msgid ":guilabel:`New Project` をクリックすると、表示中の原子構造を使って新しく別のプロジェクトを作成し、解析を行うことができます。"
 msgstr ""
 "Click :guilabel:`New Project` to newly create another project using "
 "current atomic structure and start the analysis."
 
-#: ../../usage/result.rst:90
+#: ../../usage/result.rst:98
 msgid "フォノンモード"
 msgstr "Phonon modes"
 
-#: ../../usage/result.rst:92
+#: ../../usage/result.rst:100
 msgid ":guilabel:`Phonon.mode` をクリックすると、各振動モードを矢印で可視化することができます。"
 msgstr ""
 "Click :guilabel:`Phonon.mode` to visualize each vibrational mode by "
 "arrows."
 
-#: ../../usage/result.rst:99
+#: ../../usage/result.rst:107
 msgid "テキスト"
 msgstr "Text"
 
-#: ../../usage/result.rst:101
+#: ../../usage/result.rst:109
 msgid ""
 ":guilabel:`IN` （入力ファイル）、 :guilabel:`LOG` （ログファイル）、 :guilabel:`ERR` "
 "（エラーログファイル）をクリックすると、テキストファイルの内容をそのまま表示します。ファイル内検索、ハイライト表示や抽出も可能です。"
@@ -3874,22 +4243,22 @@ msgstr ""
 ":guilabel:`ERR` (error log file) to show the content of the file. You can"
 " use in-file search, highlighting and extracting."
 
-#: ../../usage/result.rst:103
+#: ../../usage/result.rst:111
 msgid ":guilabel:`Text editor` をクリックすると、外部のテキストエディターでファイルを開きます。"
 msgstr "Click :guilabel:`Text editor` to open the file with external text editor."
 
-#: ../../usage/result.rst:110
+#: ../../usage/result.rst:118
 msgid "原子構造の更新"
 msgstr "Update atomic configuration"
 
-#: ../../usage/result.rst:112
+#: ../../usage/result.rst:120
 msgid "原子構造の変化を伴う計算を行った後、更新 |updateatomconfig| をクリックすると、プロジェクトの原子構造を変化後のものに更新します。"
 msgstr ""
 "After performing a calculation involving changes in atomic configuration,"
 " click Update |updateatomconfig| to update the project's atomic "
 "configuration to the changed one."
 
-#: ../../usage/result.rst:114
+#: ../../usage/result.rst:122
 msgid "updateatomconfig"
 msgstr ""
 
@@ -4260,64 +4629,140 @@ msgstr ""
 "The actual content of the script to be executed is shown when you post a "
 "job."
 
-#: ../../usage/sshserver.rst:72
+#: ../../usage/sshserver.rst:71
+msgid ""
+"また、サーバーにGPUが搭載されている場合、ニューラルネットワーク力場関連の計算をGPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD"
+" Pro版のライセンスが必要）、およびLAMMPSを使ったニューラルネットワーク力場による分子動力学計算です。設定画面右側の "
+":guilabel:`GPU` タブを開き、 :guilabel:`GPU for Advance/NeuralMD` "
+"を有効にするとGPUを使うようになります。"
+msgstr ""
+"If the server has a GPU, calculations related to neural network force "
+"field can be accelerated using GPU. Supported calculations are: learning "
+"of neural network force field using Advance/NeuralMD (Advance/NeuralMD "
+"Pro edition license is required), and molecular dynamics calculation by "
+"neural network force field using LAMMPS. Open :guilabel:`GPU` tab on the "
+"right side of setting window and enable :guilabel:`GPU for "
+"Advance/NeuralMD` to use GPU."
+
+#: ../../usage/sshserver.rst:73
+msgid ""
+"複数のGPUが搭載されている場合、デフォルトではデバイスID0のGPUのみを使いますが、MPI並列と併用して各プロセスごとに使用するGPUを指定すると、より効率的にGPUを使うことができます。"
+" |add| "
+"ボタンで行を追加し、左側のMPIプロセスIDに対応するGPUデバイスIDを右側に入力してください。行を削除するには、右クリックメニューの "
+":guilabel:`Delete` をクリックします。 :guilabel:`Job Posting` "
+"タブ内で設定したMPI並列数（プロセス数）と行数が一致するように注意してください。"
+msgstr ""
+"In case the server has multiple GPUs, only device ID0 GPU is used by "
+"default. You can use the GPUs more efficiently with MPI parallel by "
+"allocating the GPU to each process. Add row by |add| button, and enter "
+"GPU device id on the right corresponds to the MPI process id on the left."
+" To delete the row, click :guilabel:`Delete` in the right click menu. Be "
+"sure to match the number of rows with the number of MPI parallel "
+"(processes) specified in :guilabel:`Job Posting` tab."
+
+#: ../../usage/sshserver.rst:75
+msgid "なお、各GPUに割り当てられたデバイスIDは、サーバー上で ``nvidia-smi -L`` を実行して確認できます。"
+msgstr ""
+"For your information, you can check the device ID assigned to each GPU by"
+" executing ``nvidia-smi -L`` on the server."
+
+#: ../../usage/sshserver.rst:81
+msgid "例えば、グラフィックカードが2つ搭載されているマシンで、MPI4並列で実行し、2プロセスをデバイスID0のGPU、2プロセスをデバイスID1のGPUに割り当てる場合は次のように設定します。"
+msgstr ""
+"For example, on a machine with 2 graphic cards, to execute with 4 MPI "
+"parallel processes, with allocating 2 processes to device ID0 GPU and 2 "
+"to device ID1 GPU, you can set it as follows."
+
+#: ../../usage/sshserver.rst:86
 msgid "Speedタブの設定"
 msgstr "Speed settings"
 
-#: ../../usage/sshserver.rst:74
+#: ../../usage/sshserver.rst:88
 msgid ":guilabel:`Speed` タブでは、サーバーからの情報取得・ファイルダウンロードの間隔、同時接続数を設定できます。"
 msgstr ""
 "In :guilabel:`Speed` tab, you can configure the intervals of retrieving "
 "informations / downloading files from the server, and the number of "
 "simultaneous accesses."
 
-#: ../../usage/sshserver.rst:76
+#: ../../usage/sshserver.rst:90
 msgid "サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` 側に動かすことで頻度を下げることができます。"
 msgstr ""
 "If frequent access is undesirable, move the sliders to :guilabel:`Slow` "
 "side to lower the frequency."
 
-#: ../../usage/sshserver.rst:78
+#: ../../usage/sshserver.rst:92
 msgid ":guilabel:`Connection Style` で、低速ネットワーク用の設定ができます。"
 msgstr ":guilabel:`Connection Style` is settings for the low bandwidth network."
 
-#: ../../usage/sshserver.rst:81
+#: ../../usage/sshserver.rst:95
 msgid "Online Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:81
+#: ../../usage/sshserver.rst:95
 msgid "常時オフラインモードに設定すると、リアルタイムでの結果取得（ファイルのダウンロード）を行いません。"
 msgstr ""
 "if set to Always OFFLINE mode, the result is not fetched (files are not "
 "downloaded) in real time."
 
-#: ../../usage/sshserver.rst:84
+#: ../../usage/sshserver.rst:98
 msgid "Download Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:84
+#: ../../usage/sshserver.rst:98
 msgid "容量の大きいバイナリファイルなどを除外し、テキストファイルのみダウンロードするよう設定できます。"
 msgstr "can be set to download Only Text Files, excluding large binary files etc."
 
-#: ../../usage/sshserver.rst:87
+#: ../../usage/sshserver.rst:101
 msgid "Download Time"
 msgstr ""
 
-#: ../../usage/sshserver.rst:87
+#: ../../usage/sshserver.rst:101
 msgid "常時オフラインモードの際に、ファイルを一括ダウンロードする間隔（分単位）を設定します。"
 msgstr "interval (minute) of batch download while in Always OFFLINE mode."
 
-#: ../../usage/sshserver.rst:90
+#: ../../usage/sshserver.rst:103
+msgid ""
+"SLHMC（力場自動生成）のデータ（slhmc_datフォルダ内の各計算エンジンの出力）のダウンロード有無は、 "
+":menuselection:`メインメニュー --> Properties --> Advance/NeuralMD` "
+"から設定できます。デフォルトではダウンロードを行いません。"
+msgstr ""
+"You can specify whether to download SLHMC (automatic force field "
+"generation) data (output of calculation engines stored in slhmc_dat "
+"folder) or not from :menuselection:`main menu --> Properties --> "
+"Advance/NeuralMD` . The download is not performed by default."
+
+#: ../../usage/sshserver.rst:106
+msgid "接続テスト"
+msgstr "Connection test"
+
+#: ../../usage/sshserver.rst:108
+msgid "設定が完了したら、 :guilabel:`Test` タブでサーバーへの接続テストを行い、設定に問題がないか確認することができます。"
+msgstr ""
+"Once settings are done, you can perform connection test to the server in "
+":guilabel:`Test` tab to check if the setting are correct."
+
+#: ../../usage/sshserver.rst:110
+msgid ""
+":guilabel:`Start to Test Connection` をクリックすると、自動的にテストを行います。 ``TEST OF "
+"CONNECTION IS SUCCEEDED`` と表示されればテストは成功です。接続に失敗した場合は ``ERROR HAS OCCURRED"
+" IN TESTING CONNECTION`` と表示されますので、設定内容を再確認してください。"
+msgstr ""
+"The test is performed automatically by clicking :guilabel:`Start to Test "
+"Connection` . The test result is shown as ``TEST OF CONNECTION IS "
+"SUCCEEDED`` or ``ERROR HAS OCCURRED IN TESTING CONNECTION`` . In latter "
+"case, please re-check the settings."
+
+#: ../../usage/sshserver.rst:113
 msgid "サーバーの編集・削除"
 msgstr "Edit / remove server"
 
-#: ../../usage/sshserver.rst:92
+#: ../../usage/sshserver.rst:115
 msgid "各タブで設定した内容は、サーバーごとに保存されます。リストから既に保存されているサーバーを選択すると、その設定内容を編集できます。"
 msgstr ""
 "Settings in the tabs are saved server by server. Select previously saved "
 "server from the list to edit the settings of it."
 
-#: ../../usage/sshserver.rst:94
+#: ../../usage/sshserver.rst:117
 msgid "サーバーを削除するには、:guilabel:`SSH Configuration` の右側の |remove| ボタンをクリックしてください。"
 msgstr ""
 "To remove a server, click |remove| button on the right of :guilabel:`SSH "

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-27 16:47+0900\n"
+"POT-Creation-Date: 2022-10-03 17:10+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +62,7 @@ msgstr "Advance/NeuralMD home page"
 msgid "https://www.advancesoft.jp/product/advance_neuralmd/"
 msgstr ""
 
-#: ../../link.rst:26 ../../link.rst:94
+#: ../../link.rst:26 ../../link.rst:100
 msgid "マニュアル"
 msgstr "Manual"
 
@@ -103,11 +103,11 @@ msgid "擬ポテンシャル"
 msgstr "Pseudo potential"
 
 #: ../../link.rst:44
-msgid "https://www.quantum-espresso.org/pseudopotentials/"
+msgid "http://pseudopotentials.quantum-espresso.org/"
 msgstr ""
 
 #: ../../link.rst:46
-msgid "https://www.quantum-espresso.org/pseudopotentials/original-qe-pp-library"
+msgid "http://pseudopotentials.quantum-espresso.org/legacy_tables/"
 msgstr ""
 
 #: ../../link.rst:49
@@ -191,90 +191,106 @@ msgid "https://www.quantum-espresso.org/Doc/INPUT_PH.html"
 msgstr ""
 
 #: ../../link.rst:79
+msgid "|lsquo|\\ q2r.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ q2r.x\\ |rsquo| manual"
+
+#: ../../link.rst:79
+msgid "https://www.quantum-espresso.org/Doc/INPUT_Q2R.html"
+msgstr ""
+
+#: ../../link.rst:82
 msgid "|lsquo|\\ dynmat.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ dynmat.x\\ |rsquo| manual"
 
-#: ../../link.rst:79
+#: ../../link.rst:82
 msgid "https://www.quantum-espresso.org/Doc/INPUT_DYNMAT.html"
 msgstr ""
 
-#: ../../link.rst:82
-msgid "|lsquo|\\ neb.x\\ |rsquo| マニュアル"
-msgstr "|lsquo|\\ neb.x\\ |rsquo| manual"
-
-#: ../../link.rst:82
-msgid "https://www.quantum-espresso.org/Doc/INPUT_NEB.html"
-msgstr ""
+#: ../../link.rst:85
+msgid "|lsquo|\\ matdyn.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ matdyn.x\\ |rsquo| manual"
 
 #: ../../link.rst:85
-msgid "アドバンスソフト改修版Quantum ESPRESSOソースコード"
-msgstr "Source code of Quantum ESPRESSO modified by AdvanceSoft"
-
-#: ../../link.rst:85
-msgid "https://github.com/advancesoftcorp/espresso"
+msgid "https://www.quantum-espresso.org/Doc/INPUT_MATDYN.html"
 msgstr ""
 
 #: ../../link.rst:88
-msgid "LAMMPS"
+msgid "|lsquo|\\ neb.x\\ |rsquo| マニュアル"
+msgstr "|lsquo|\\ neb.x\\ |rsquo| manual"
+
+#: ../../link.rst:88
+msgid "https://www.quantum-espresso.org/Doc/INPUT_NEB.html"
 msgstr ""
 
 #: ../../link.rst:91
-msgid "LAMMPSホームページ"
-msgstr "LAMMPS home page"
+msgid "アドバンスソフト改修版Quantum ESPRESSOソースコード"
+msgstr "Source code of Quantum ESPRESSO modified by AdvanceSoft"
 
 #: ../../link.rst:91
-msgid "https://www.lammps.org/"
+msgid "https://github.com/advancesoftcorp/espresso"
 msgstr ""
 
 #: ../../link.rst:94
-msgid "https://docs.lammps.org/Manual.html"
+msgid "LAMMPS"
 msgstr ""
 
 #: ../../link.rst:97
-msgid "アドバンスソフト改修版LAMMPSソースコード"
-msgstr "Source code of LAMMPS modified by AdvanceSoft"
+msgid "LAMMPSホームページ"
+msgstr "LAMMPS home page"
 
 #: ../../link.rst:97
-msgid "https://github.com/advancesoftcorp/lammps"
+msgid "https://www.lammps.org/"
 msgstr ""
 
 #: ../../link.rst:100
+msgid "https://docs.lammps.org/Manual.html"
+msgstr ""
+
+#: ../../link.rst:103
+msgid "アドバンスソフト改修版LAMMPSソースコード"
+msgstr "Source code of LAMMPS modified by AdvanceSoft"
+
+#: ../../link.rst:103
+msgid "https://github.com/advancesoftcorp/lammps"
+msgstr ""
+
+#: ../../link.rst:106
 msgid "Open Catalyst Project"
 msgstr ""
 
-#: ../../link.rst:103
+#: ../../link.rst:109
 msgid "Open Catalyst Projectホームページ"
 msgstr "Open Catalyst Project home page"
 
-#: ../../link.rst:103
+#: ../../link.rst:109
 msgid "https://opencatalystproject.org/"
 msgstr ""
 
-#: ../../link.rst:106
+#: ../../link.rst:112
 msgid "Gitリポジトリ"
 msgstr "Git repository"
 
-#: ../../link.rst:106
+#: ../../link.rst:112
 msgid "https://github.com/Open-Catalyst-Project/ocp"
 msgstr ""
 
-#: ../../link.rst:111
+#: ../../link.rst:117
 msgid "材料データベース"
 msgstr "Materials database"
 
-#: ../../link.rst:114
+#: ../../link.rst:120
 msgid "Materials Project"
 msgstr ""
 
-#: ../../link.rst:114
+#: ../../link.rst:120
 msgid "https://materialsproject.org/"
 msgstr ""
 
-#: ../../link.rst:117
+#: ../../link.rst:123
 msgid "PubChem"
 msgstr ""
 
-#: ../../link.rst:117
+#: ../../link.rst:123
 msgid "https://pubchem.ncbi.nlm.nih.gov/"
 msgstr ""
 
