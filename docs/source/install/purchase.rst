@@ -124,3 +124,16 @@
 #. :guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示された場合、 :guilabel:`OK` をクリックして閉じてください。
 #. :guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。
 #. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
+
+.. _id-remote:
+
+Windows上からLinuxマシンのHost IDを取得
+-----------------------------------------
+
+弊社ツール\ `remoteLicense <https://remotelicense-doc.readthedocs.io/ja/latest/>`_\ を使うことで、Windows上から簡単にLinuxマシンのHost IDを取得できます。
+
+手順の概要を以下に示します。詳細は\ `マニュアル <https://remotelicense-doc.readthedocs.io/ja/latest/>`_\ を参照してください。
+
+#. `remoteLicenseインストーラー <https://github.com/advancesoftcorp/remotelicense-doc/releases/download/v1.0/install_remotelicense_windows_v1.0.exe>`_\ をインストールし、起動します。
+#. :guilabel:`Host` タブでLinuxマシンへの接続情報を設定します。
+#. :guilabel:`Get Host ID` をクリックし、Host IDが取得できたら :guilabel:`Send Mail of License Request` をクリックします。
