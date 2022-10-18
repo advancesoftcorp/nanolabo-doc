@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-10 17:49+0900\n"
+"POT-Creation-Date: 2022-10-18 10:45+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../index.rst:24
+#: ../../index.rst:45
 msgid "目次:"
 msgstr "Index:"
 
@@ -65,4 +65,47 @@ msgid ""
 msgstr ""
 "For the first time users: see :doc:`Usage Outline<flow>` after the "
 ":doc:`Installation <install>`\\ ."
+
+#: ../../index.rst:26
+msgid "[材料データベースURL変更]"
+msgstr "[Materials database URL changed]"
+
+#: ../../index.rst:28
+msgid "現在、材料データベース検索で結晶のデータが取得できなくなっています。"
+msgstr "Currently, data of crystals cannot be retrieved in materials database search."
+
+#: ../../index.rst:30
+msgid "材料データベース検索で使用しているMaterials Projectが更新され、データ取得用のURLが変更されたことによります。"
+msgstr "It is due to the renewal of Materials Project, which is used in materials database search, and the data retrieval URL is changed."
+
+#: ../../index.rst:32
+msgid "暫定的に、NanoLaboの設定ファイルを編集することで取得ができるようになりますので、お手数ですが対応をお願いいたします。次回(Ver.2.7)以降のリリースではデフォルトで変更後のURLに対応します。"
+msgstr "As a temporal fixup, please edit NanoLabo configuration file to enable the retrieval. Ver.2.7 and later releases will be compatible with the new URL by default."
+
+#: ../../index.rst:34
+msgid "対応方法"
+msgstr "How to fix"
+
+#: ../../index.rst:36
+msgid ""
+"NanoLaboを終了した状態で、ホームフォルダの :file:`.nanolabo` フォルダにある :file:`.properties` "
+"ファイルをメモ帳等のテキストエディタで開き、以下の行を追記してください。"
+msgstr ""
+"Make sure NanoLabo is quit. Open :file:`.properties` file in :file:`.nanolabo` folder located in your home folder with text editor as notepad, "
+"and add the following line."
+
+#: ../../index.rst:38
+msgid ".properties"
+msgstr ""
+
+#: ../../index.rst:38
+msgid "materials_api_url=https://legacy.materialsproject.org/rest/v1/materials/"
+msgstr ""
+
+#: ../../index.rst:43
+msgid ""
+"ホームフォルダは通常、Windows： :file:`C:\\\\Users\\\\（ユーザー名）` 、Linux・macOS： "
+":file:`/home/（ユーザー名）` です。"
+msgstr ""
+"Basically, home folder is :file:`C:\\\\User\\\\(user name)` (Windows) and :file:`/home/(user name)` (Linux/macOS)."
 

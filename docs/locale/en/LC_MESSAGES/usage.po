@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-05 15:36+0900\n"
+"POT-Creation-Date: 2022-10-18 10:45+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgstr "Viewpoint manipulation"
 #: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:93
 #: ../../usage/atomsviewer.rst:136 ../../usage/atomsviewer.rst:162
 #: ../../usage/atomsviewer.rst:186 ../../usage/explorer.rst:139
-#: ../../usage/grandproject.rst:95 ../../usage/initial.rst:105
+#: ../../usage/grandproject.rst:95 ../../usage/initial.rst:126
 #: ../../usage/project.rst:114
 msgid "操作"
 msgstr "Operation"
@@ -232,7 +232,7 @@ msgstr ""
 
 #: ../../usage/atomsviewer.rst:104 ../../usage/atomsviewer.rst:147
 #: ../../usage/atomsviewer.rst:173 ../../usage/grandproject.rst:106
-#: ../../usage/initial.rst:112 ../../usage/project.rst:123
+#: ../../usage/initial.rst:133 ../../usage/project.rst:123
 msgid "`*`:sup: macOSでは :kbd:`Ctrl` |rarr| :kbd:`command` と読み替えてください。"
 msgstr "`*`:sup: For macOS, replace :kbd:`Ctrl` |rarr| :kbd:`command` ."
 
@@ -355,7 +355,7 @@ msgid ":kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr "Press :kbd:`Esc` key to fix the position."
 
 #: ../../usage/atomsviewer.rst:180 ../../usage/explorer.rst:133
-#: ../../usage/initial.rst:99 ../../usage/project.rst:108
+#: ../../usage/initial.rst:120 ../../usage/project.rst:108
 msgid "ショートカットキー一覧"
 msgstr "Shortcut keys list"
 
@@ -1729,11 +1729,54 @@ msgstr ""
 "<https://materialsproject.org/open>`_ here and you can choose either to "
 "retrieve primitive cell / standard cell."
 
-#: ../../usage/initial.rst:92
+#: ../../usage/initial.rst:91
+msgid "[材料データベースURL変更]"
+msgstr "[Materials database URL changed]"
+
+#: ../../usage/initial.rst:93
+msgid "現在、材料データベース検索で結晶のデータが取得できなくなっています。"
+msgstr "Currently, data of crystals cannot be retrieved in materials database search."
+
+#: ../../usage/initial.rst:95
+msgid "材料データベース検索で使用しているMaterials Projectが更新され、データ取得用のURLが変更されたことによります。"
+msgstr "It is due to the renewal of Materials Project, which is used in materials database search, and the data retrieval URL is changed."
+
+#: ../../usage/initial.rst:97
+msgid "暫定的に、NanoLaboの設定ファイルを編集することで取得ができるようになりますので、お手数ですが対応をお願いいたします。次回(Ver.2.7)以降のリリースではデフォルトで変更後のURLに対応します。"
+msgstr "As a temporal fixup, please edit NanoLabo configuration file to enable the retrieval. Ver.2.7 and later releases will be compatible with the new URL by default."
+
+#: ../../usage/initial.rst:99
+msgid "対応方法"
+msgstr "How to fix"
+
+#: ../../usage/initial.rst:101
+msgid ""
+"NanoLaboを終了した状態で、ホームフォルダの :file:`.nanolabo` フォルダにある :file:`.properties` "
+"ファイルをメモ帳等のテキストエディタで開き、以下の行を追記してください。"
+msgstr ""
+"Make sure NanoLabo is quit. Open :file:`.properties` file in :file:`.nanolabo` folder located in your home folder with text editor as notepad, "
+"and add the following line."
+
+#: ../../usage/initial.rst:103
+msgid ".properties"
+msgstr ""
+
+#: ../../usage/initial.rst:103
+msgid "materials_api_url=https://legacy.materialsproject.org/rest/v1/materials/"
+msgstr ""
+
+#: ../../usage/initial.rst:108
+msgid ""
+"ホームフォルダは通常、Windows： :file:`C:\\\\Users\\\\（ユーザー名）` 、Linux・macOS： "
+":file:`/home/（ユーザー名）` です。"
+msgstr ""
+"Basically, home folder is :file:`C:\\\\User\\\\(user name)` (Windows) and :file:`/home/(user name)` (Linux/macOS)."
+
+#: ../../usage/initial.rst:113
 msgid "分子作成"
 msgstr "Create molecule"
 
-#: ../../usage/initial.rst:94 ../../usage/modeler.rst:210
+#: ../../usage/initial.rst:115 ../../usage/modeler.rst:210
 msgid ""
 "分子エディタ―\\ `JSME <https://jsme-editor.github.io/>`_\\ "
 "を使用し、作図した構造をそのままモデルとして使用できます。"
@@ -1741,19 +1784,19 @@ msgstr ""
 "Draw a molecule structure using the molecular editor `JSME <https://jsme-"
 "editor.github.io/>`_\\ , and use it as the model."
 
-#: ../../usage/initial.rst:107
+#: ../../usage/initial.rst:128
 msgid "タブを閉じる"
 msgstr "Close tab"
 
-#: ../../usage/initial.rst:107
+#: ../../usage/initial.rst:128
 msgid ":kbd:`Ctrl` + :kbd:`W`"
 msgstr ""
 
-#: ../../usage/initial.rst:109
+#: ../../usage/initial.rst:130
 msgid "NanoLabo終了"
 msgstr "Close NanoLabo"
 
-#: ../../usage/initial.rst:109
+#: ../../usage/initial.rst:130
 msgid ":kbd:`Ctrl` + :kbd:`Q`"
 msgstr ""
 
@@ -3953,18 +3996,22 @@ msgid ""
 "ESPRESSOの計算をローカルで行う場合、プロジェクトの保存先はCドライブ内にする必要があります（Quantum "
 "ESPRESSOの仕様による）。"
 msgstr ""
-"On Windows, if you run Quantum ESPRESSO calculation locally, the project must be saved in C drive "
-"(due to specification of Quantum ESPRESSO)."
+"On Windows, if you run Quantum ESPRESSO calculation locally, the project "
+"must be saved in C drive (due to specification of Quantum ESPRESSO)."
 
 #: ../../usage/project.rst:89
 msgid "計算をリモートで行う場合、プロジェクトの保存先は.nanolaboフォルダ内にする必要があります（ローカルとリモートのフォルダ構造を対応させる都合による）。"
 msgstr ""
-"If you run calculation remotely, the project must be saved in .naolabo folder (to match folder structure between local and remote)."
+"If you run calculation remotely, the project must be saved in .naolabo "
+"folder (to match folder structure between local and remote)."
 
 #: ../../usage/project.rst:91
 msgid "これらの制限は、シンボリックリンク（Windowsではジャンクション）を使うことで回避できます。下記の例のようにコマンドを実行して設定することで、NanoLabo上でextフォルダに保存したデータが、実体としてはnanolaboDataフォルダに保存されます。"
 msgstr ""
-"These limitations can be avoided by using symbolic link (or junction on Windows). You can set it by executing commands as example below, and when you save data in ext folder on NanoLabo, the actual data will be stored in nanolaboData folder."
+"These limitations can be avoided by using symbolic link (or junction on "
+"Windows). You can set it by executing commands as example below, and when"
+" you save data in ext folder on NanoLabo, the actual data will be stored "
+"in nanolaboData folder."
 
 #: ../../usage/project.rst:93
 msgid "Windows"
