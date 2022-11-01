@@ -56,6 +56,25 @@
 
 .. |cloud| image:: /img/cloud.png
 
+.. _localjobmanager:
+
+ローカルジョブマネージャー
+---------------------------
+
+ローカル実行ジョブは、NanoLaboを終了すると同時に終了します（確認が表示されます）。
+
+Linuxの場合は、 :guilabel:`Job Manager` を使うことにより、ジョブをNanoLaboから切り離して実行し、NanoLaboを終了しても計算が続くようにすることができます。
+
+画面左上のアイコン |mainmenuicon| から :menuselection:`Job Manager` を開き、 :guilabel:`Job Manager` をRawに設定してください。 :guilabel:`Job Queue` の |add| ボタンからキューを追加し、 :guilabel:`Job Script` 内で並列数や、実行に必要な環境変数等があれば設定してください。
+
+また、ローカルでジョブ管理システムをお使いの場合は、 :guilabel:`Job Manager` をPBS、SLURMに設定することでローカルにジョブ投入をすることもできます。
+
+実行時には、 :guilabel:`Host Name` はlocalhostにして、 :guilabel:`Queue Type` で追加したキュー名を指定してください。
+
+:guilabel:`Job Manager` をBuild-inに戻すと、ジョブをNanoLabo上で実行する設定に戻ります。
+
+.. |add| image:: /img/add.png
+
 .. _error:
 
 計算がうまくいかない場合

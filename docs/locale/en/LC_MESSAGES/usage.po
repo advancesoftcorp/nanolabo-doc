@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-18 10:45+0900\n"
+"POT-Creation-Date: 2022-10-31 18:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -647,10 +647,64 @@ msgstr ""
 "|projectmenuicon| on the lower left.)"
 
 #: ../../usage/calculation.rst:62
+msgid "ローカルジョブマネージャー"
+msgstr "Local Job Manager"
+
+#: ../../usage/calculation.rst:64
+msgid "ローカル実行ジョブは、NanoLaboを終了すると同時に終了します（確認が表示されます）。"
+msgstr "Local jobs are terminated when NanoLabo is terminated (confirmation is shown)."
+
+#: ../../usage/calculation.rst:66
+msgid ""
+"Linuxの場合は、 :guilabel:`Job Manager` "
+"を使うことにより、ジョブをNanoLaboから切り離して実行し、NanoLaboを終了しても計算が続くようにすることができます。"
+msgstr ""
+"On Linux, you can use :guilabel:`Job Manager` to execute the jobs separately from NanoLabo and continue the calculation "
+"even after NanoLabo is terminated."
+
+#: ../../usage/calculation.rst:68
+msgid ""
+"画面左上のアイコン |mainmenuicon| から :menuselection:`Job Manager` を開き、 "
+":guilabel:`Job Manager` をRawに設定してください。 :guilabel:`Job Queue` の |add| "
+"ボタンからキューを追加し、 :guilabel:`Job Script` 内で並列数や、実行に必要な環境変数等があれば設定してください。"
+msgstr ""
+"Open :menuselection:`Job Manager` from the upper left icon |mainmenuicon| and set :guilabel:`Job Manager` to Raw. "
+"Add a queue from the |add| button on :guilabel:`Job Queue` and configure parallel numbers or environment variables "
+"required for execution (if any) in :guilabel:`Job Script` ."
+
+#: ../../usage/calculation.rst:76 ../../usage/explorer.rst:43
+#: ../../usage/inputeditorlammps.rst:130 ../../usage/inputeditorqe.rst:6
+#: ../../usage/modeler.rst:239 ../../usage/result.rst:75
+#: ../../usage/resultpdos.rst:35 ../../usage/sshserver.rst:19
+msgid "add"
+msgstr ""
+
+#: ../../usage/calculation.rst:70
+msgid ""
+"また、ローカルでジョブ管理システムをお使いの場合は、 :guilabel:`Job Manager` "
+"をPBS、SLURMに設定することでローカルにジョブ投入をすることもできます。"
+msgstr ""
+"Also, if you are using the job management system on the local machine, you can set :guilabel:`Job Manager` "
+"to PBS or SLURM to post jobs to the local machine."
+
+#: ../../usage/calculation.rst:72
+msgid ""
+"実行時には、 :guilabel:`Host Name` はlocalhostにして、 :guilabel:`Queue Type` "
+"で追加したキュー名を指定してください。"
+msgstr ""
+"When executing, set :guilabel:`Host Name` to localhost, and specify the queue name you added "
+"in :guilabel:`Queue Type` ."
+
+#: ../../usage/calculation.rst:74
+msgid ":guilabel:`Job Manager` をBuild-inに戻すと、ジョブをNanoLabo上で実行する設定に戻ります。"
+msgstr ""
+"Set :guilabel:`Job Manager` back to Build-in to revert the setting and execute jobs on NanoLabo."
+
+#: ../../usage/calculation.rst:81
 msgid "計算がうまくいかない場合"
 msgstr "Troubleshooting"
 
-#: ../../usage/calculation.rst:64
+#: ../../usage/calculation.rst:83
 msgid ""
 "計算が正常に実行できなかった場合、 :guilabel:`Error` "
 "ウィンドウが表示されます。エラーの内容を確認するには、プロジェクト画面を開き、 :guilabel:`CRASH` や "
@@ -758,13 +812,6 @@ msgstr ""
 
 #: ../../usage/explorer.rst:40
 msgid "|add|"
-msgstr ""
-
-#: ../../usage/explorer.rst:43 ../../usage/inputeditorlammps.rst:130
-#: ../../usage/inputeditorqe.rst:6 ../../usage/modeler.rst:239
-#: ../../usage/result.rst:75 ../../usage/resultpdos.rst:35
-#: ../../usage/sshserver.rst:19
-msgid "add"
 msgstr ""
 
 #: ../../usage/explorer.rst:40
@@ -1735,15 +1782,22 @@ msgstr "[Materials database URL changed]"
 
 #: ../../usage/initial.rst:93
 msgid "現在、材料データベース検索で結晶のデータが取得できなくなっています。"
-msgstr "Currently, data of crystals cannot be retrieved in materials database search."
+msgstr ""
+"Currently, data of crystals cannot be retrieved in materials database "
+"search."
 
 #: ../../usage/initial.rst:95
 msgid "材料データベース検索で使用しているMaterials Projectが更新され、データ取得用のURLが変更されたことによります。"
-msgstr "It is due to the renewal of Materials Project, which is used in materials database search, and the data retrieval URL is changed."
+msgstr ""
+"It is due to the renewal of Materials Project, which is used in materials"
+" database search, and the data retrieval URL is changed."
 
 #: ../../usage/initial.rst:97
 msgid "暫定的に、NanoLaboの設定ファイルを編集することで取得ができるようになりますので、お手数ですが対応をお願いいたします。次回(Ver.2.7)以降のリリースではデフォルトで変更後のURLに対応します。"
-msgstr "As a temporal fixup, please edit NanoLabo configuration file to enable the retrieval. Ver.2.7 and later releases will be compatible with the new URL by default."
+msgstr ""
+"As a temporal fixup, please edit NanoLabo configuration file to enable "
+"the retrieval. Ver.2.7 and later releases will be compatible with the new"
+" URL by default."
 
 #: ../../usage/initial.rst:99
 msgid "対応方法"
@@ -1754,8 +1808,9 @@ msgid ""
 "NanoLaboを終了した状態で、ホームフォルダの :file:`.nanolabo` フォルダにある :file:`.properties` "
 "ファイルをメモ帳等のテキストエディタで開き、以下の行を追記してください。"
 msgstr ""
-"Make sure NanoLabo is quit. Open :file:`.properties` file in :file:`.nanolabo` folder located in your home folder with text editor as notepad, "
-"and add the following line."
+"Make sure NanoLabo is quit. Open :file:`.properties` file in "
+":file:`.nanolabo` folder located in your home folder with text editor as "
+"notepad, and add the following line."
 
 #: ../../usage/initial.rst:103
 msgid ".properties"
@@ -1770,7 +1825,8 @@ msgid ""
 "ホームフォルダは通常、Windows： :file:`C:\\\\Users\\\\（ユーザー名）` 、Linux・macOS： "
 ":file:`/home/（ユーザー名）` です。"
 msgstr ""
-"Basically, home folder is :file:`C:\\\\User\\\\(user name)` (Windows) and :file:`/home/(user name)` (Linux/macOS)."
+"Basically, home folder is :file:`C:\\\\User\\\\(user name)` (Windows) and"
+" :file:`/home/(user name)` (Linux/macOS)."
 
 #: ../../usage/initial.rst:113
 msgid "分子作成"
