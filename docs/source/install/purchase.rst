@@ -134,6 +134,6 @@ Windows上からLinuxマシンのHost IDを取得
 
 手順の概要を以下に示します。詳細は\ `マニュアル <https://remotelicense-doc.readthedocs.io/ja/latest/>`_\ を参照してください。
 
-#. `remoteLicenseインストーラー <https://github.com/advancesoftcorp/remotelicense-doc/releases/download/v1.0/install_remotelicense_windows_v1.0.exe>`_\ をインストールし、起動します。
+#. `remoteLicenseインストーラー <https://www.nanolabo.advancesoft.jp/?wpdmdl=1012>`_\ を使ってインストールし、起動します。
 #. :guilabel:`Host` タブでLinuxマシンへの接続情報を設定します。
 #. :guilabel:`Get Host ID` をクリックし、Host IDが取得できたら :guilabel:`Send Mail of License Request` をクリックします。
