@@ -42,9 +42,9 @@ NeuralMD
 
  - リモート（計算サーバー等）で実行する場合は、ライセンスサーバーの設定が必要です。
 
-  - NeuralMDのインストーラーにライセンスサーバーの実行ファイルが含まれていますので、ライセンスサーバーとして使うマシンにインストールを行い、\ `ドキュメント <https://neuralmd-doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\ に従ってライセンスサーバーを起動してください。
+  - Windowsから操作する場合、弊社ツール\ `remoteLicense <https://remotelicense-doc.readthedocs.io/ja/latest/>`_\ を使うことで、簡単にLinuxマシン上でライセンスサーバーを起動することができます。詳細は\ `マニュアル <https://remotelicense-doc.readthedocs.io/ja/latest/>`_\ を参照してください。
 
-  - NanoLaboの方では、必要に応じ、:guilabel:`Job Script` の設定画面で環境変数 :envvar:`ADVANCED_LICENSE_FILE` を追加してください。
+  - Linux上で操作する場合、NeuralMDのインストーラーにライセンスサーバーの実行ファイルが含まれていますので、ライセンスサーバーとして使うマシンにインストールを行い、\ `ドキュメント <https://neuralmd-doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\ に従ってライセンスサーバーを起動してください。NanoLaboの方では、必要に応じ、:guilabel:`Job Script` の設定画面で環境変数 :envvar:`ADVANCED_LICENSE_FILE` を追加してください。
 
   - メトロポリス法による構造生成・ニューラルネットワークのテストについては、ライセンスは必要ありません。
 
