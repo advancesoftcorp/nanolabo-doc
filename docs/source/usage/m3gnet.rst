@@ -9,7 +9,7 @@ M3GNet汎用力場を使うための設定
 Pythonの設定
 ===============
 
-LAMMPSからM3GNet汎用力場を使うために必要な設定手順を説明します。
+LAMMPSから\ `M3GNet <https://github.com/materialsvirtuallab/m3gnet>`_\ 汎用力場＋\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\ による補正を使うために必要な設定手順を説明します。
 
 実際に計算を行うマシン（計算サーバーにジョブ投入する場合には、その計算サーバー上）でインストールを行ってください。
 

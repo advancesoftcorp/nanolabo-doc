@@ -59,6 +59,7 @@ Open Catalyst 2020
 LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| をクリックすると説明が表示されます。
 
 - MPI並列には非対応です（OpenMP並列、またはGPUを使った計算が可能です）。
+- ARM版(Apple M1)には非対応です。
 - Z軸方向には周期境界条件が適用されません。
 - ビリアル応力が計算できないため、NPT・NPHアンサンブルでの計算、およびセルの最適化には非対応です。
 
@@ -70,11 +71,12 @@ LAMMPSからPythonを呼び出して実行するため、事前にPython環境�
 M3GNet
 --------------------
 
-`M3GNet <https://github.com/materialsvirtuallab/m3gnet>`_ として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。
+`M3GNet <https://github.com/materialsvirtuallab/m3gnet>`_ として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場＋\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\ による補正を使います。
 
 LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| をクリックすると説明が表示されます。
 
 - MPI並列には非対応です（OpenMP並列は可能です）。
+- ARM版(Apple M1)には非対応です。
 
 .. toctree::
    :maxdepth: 1
