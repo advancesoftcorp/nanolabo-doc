@@ -111,6 +111,21 @@ Open Catalyst Projectホームページ
 Gitリポジトリ
  https://github.com/Open-Catalyst-Project/ocp
 
+M3GNet
+=========
+
+M3GNetドキュメント
+ https://materialsvirtuallab.github.io/m3gnet/
+
+Gitリポジトリ
+ https://github.com/materialsvirtuallab/m3gnet
+
+Simple DFT-D3ドキュメント
+ https://dftd3.readthedocs.io/en/latest/
+
+Gitリポジトリ
+ https://github.com/dftd3/simple-dftd3
+
 .. _materialsdb:
 
 材料データベース

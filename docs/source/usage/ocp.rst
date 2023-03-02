@@ -9,15 +9,17 @@ Open Catalyst Project汎用力場を使うための設定
 Pythonの設定
 ===============
 
-Open Catalyst Projectで公開されている\ `インストール手順 <https://github.com/Open-Catalyst-Project/ocp/tree/master#installation>`_\ に沿って、LAMMPSから汎用力場を使うために必要な設定手順を説明します。
+Open Catalyst Projectで公開されている\ `インストール手順 <https://github.com/Open-Catalyst-Project/ocp/tree/main#installation>`_\ に沿って、LAMMPSから汎用力場を使うために必要な設定手順を説明します。
 
 実際に計算を行うマシン（計算サーバーにジョブ投入する場合には、その計算サーバー上）でインストールを行ってください。
+
+.. hint:: Open Catalyst Projectのリポジトリは継続的に更新されており、このページで説明するインストール手順は最新でない場合があります。インストール・実行がうまくいかない場合は元のインストール手順もご参照ください。
 
 #. （任意）CUDAの用意
 
      GPUを使って計算を行うには、CUDA Toolkitがインストールされている必要があります。
 
-     NVIDIAの\ `ダウンロードページ <https://developer.nvidia.com/cuda-toolkit-archive>`_\ からCUDA Toolkit 10.2（Ampere世代GPUの場合は11.1）をダウンロードし、インストールしてください。
+     NVIDIAの\ `ダウンロードページ <https://developer.nvidia.com/cuda-toolkit-archive>`_\ からCUDA Toolkit 11.6をダウンロードし、インストールしてください。
 
      NVIDIAドライバがインストールされていない場合は、そちらもインストールしてください。
 
@@ -25,7 +27,7 @@ Open Catalyst Projectで公開されている\ `インストール手順 <https:
 
      Python環境としてcondaを使用します。現在condaをお使いでない場合は、必要最小限の構成であるMinicondaを推奨します。
 
-     `Minicondaのページ <https://docs.conda.io/en/latest/miniconda.html>`_\ からインストーラーをダウンロードし、インストールしてください。
+     `Minicondaのページ <https://docs.conda.io/en/latest/miniconda.html>`_\ からPython 3.9のインストーラーをダウンロードし、インストールしてください。
 
      Windowsで環境変数 :envvar:`PATH` を変更しない設定でインストールした場合、以降の作業はスタートメニューからAnaconda Promptを起動して行ってください。
 
@@ -37,60 +39,97 @@ Open Catalyst Projectで公開されている\ `インストール手順 <https:
 
          git clone https://github.com/Open-Catalyst-Project/ocp.git
 
-     または https://github.com/Open-Catalyst-Project/ocp/archive/refs/heads/master.zip をダウンロード・解凍します。
-
-     Ampere世代GPUを使う場合は :file:`env.gpu.yml` を開き、次の2行を変更してください。
-
-     .. code-block:: none
-         :caption: 変更前
-
-         - cudatoolkit=10.2
-         - -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
-
-     .. code-block:: none
-         :caption: 変更後
-
-         - cudatoolkit=11.1
-         - -f https://pytorch-geometric.com/whl/torch-1.9.0+cu111.html
+     または https://github.com/Open-Catalyst-Project/ocp/archive/refs/heads/main.zip をダウンロード・解凍します。
 
 #. インストール
 
-     リポジトリのフォルダに移動し、
+     リポジトリのフォルダに移動し、まずはインストールに使用するパッケージをインストールします。
 
      .. code-block:: console
 
-         pip install conda-merge
+         conda install mamba conda-merge -n base -c conda-forge
 
-     を実行します。次に、ocp-models仮想環境を作成します。
+     次に、ocp-models仮想環境の作成に必要なパッケージが書かれたファイル :file:`env.yml` を出力します。
 
      .. code-block:: console
         :caption: CPUで計算を行う（GPUを使わない）場合
 
          conda-merge env.common.yml env.cpu.yml > env.yml
-         conda env create -f env.yml
-         conda activate ocp-models
 
      .. code-block:: console
         :caption: GPUで計算を行う場合
 
          conda-merge env.common.yml env.gpu.yml > env.yml
-         conda env create -f env.yml
-         conda activate ocp-models
+
+     ここで環境により、 :file:`env.yml` を開いて修正します。
+
+     Windowsの場合は、一部のパッケージについて指定されたバージョンが存在しないため、次の2行を変更してください。
+
+     .. code-block:: none
+         :caption: 変更前
+
+         - pyg=2.2.0
+         - pytorch=1.13.1
+
+     .. code-block:: none
+         :caption: CPUで計算を行う場合
+
+         - pyg=*=*cpu*
+         - pytorch=1.12
+
+     .. code-block:: none
+         :caption: GPUで計算を行う場合
+
+         - pyg
+         - pytorch=1.12
+
+     また、CPUで計算を行う場合、関連ライブラリのCPUバージョンを明示的に指定するため、次の4行を ``dependencies:`` のリスト内に追加してください（\ ``- pytorch=``\ の行の前後に追加すると分かりやすいです）。
+
+     .. code-block:: none
+
+         - pytorch-cluster=*=*cpu*
+         - pytorch-scatter=*=*cpu*
+         - pytorch-sparse=*=*cpu*
+         - pytorch-spline-conv=*=*cpu*
+
+     その後、実際に仮想環境を作成します。
 
      .. code-block:: console
-        :caption: macOSで、かつCPUで計算を行う場合
 
-         conda env create -f env.common.yml
-         conda activate ocp-models
-         MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ pip install torch-cluster torch-scatter torch-sparse torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.9.0+cpu.html
+         mamba env create -f env.yml
 
-     最後に
+     パッケージのダウンロード・インストールが行われるため、時間がかかります。
+
+     成功したら、ocp-models仮想環境に入り、リポジトリの内容をパッケージとしてインストールします。
 
      .. code-block:: console
 
+         conda activate ocp-models
          pip install -e .
 
-     を実行してリポジトリの内容をパッケージとしてインストールします。
+     .. hint::
+
+         以下のようなエラーが出た場合、 :file:`env.yml` で指定されているパッケージのバージョンを変更することで解消する場合があります。
+
+         .. code-block:: console
+
+             Could not solve for environment specs
+             Encountered problems while solving:
+               - nothing provides requested （パッケージ名） （バージョン）
+
+         利用可能なパッケージのバージョンを検索するには、以下のコマンドを実行します。
+
+         .. code-block:: console
+
+             mamba search -c pytorch -c nvidia -c pyg -c conda-forge -c defaults （パッケージ名）
+
+         :file:`env.yml` で該当するパッケージのバージョンを変更したら、環境の作成を再試行します。
+
+         .. code-block:: console
+
+             mamba env update -f env.yml
+
+         ただし、指定されたものと異なるバージョンのパッケージで環境を作成した場合、正常に動作しない可能性がありますので、注意して動作確認を行ってください。
 
      .. hint::
 
@@ -99,7 +138,7 @@ Open Catalyst Projectで公開されている\ `インストール手順 <https:
          .. code-block:: console
 
              conda deactivate
-             conda remove -n ocp-models --all
+             mamba remove -n ocp-models --all
 
          を実行します。
 
@@ -133,7 +172,7 @@ NanoLaboへの設定
 LAMMPSを直接実行する場合
 ===========================
 
-NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列計算、ビリアル応力の計算（NPTアンサンブル、セル最適化）には非対応です。
+NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列計算、ビリアル応力の計算（NPT・NPHアンサンブル、セル最適化）には非対応です。
 
 Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` を設定してください。
 
@@ -176,7 +215,8 @@ LAMMPSの入力ファイル中で、以下のように\ ``pair_style``\ を設�
 
   +--------------------+-------------------------------------------------------------------------------------------------+
   | model              || 使用するグラフニューラルネットワークのモデル                                                   |
-  |                    || DimeNet++, GemNet-dT, CGCNN, SchNet, SpinConv のいずれかを指定                                 |
+  |                    || DimeNet++, GemNet-dT_OC20, GemNet-dT_OC22 CGCNN, SchNet, SpinConv のいずれかを指定             |
+  |                    || （GemNet-dTを指定した場合、GemNet-dT_OC20を使用します）                                        |
   +--------------------+-------------------------------------------------------------------------------------------------+
   | 元素名             | LAMMPSのatom type毎に、対応する元素名を列挙                                                     |
   +--------------------+-------------------------------------------------------------------------------------------------+

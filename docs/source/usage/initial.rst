@@ -86,27 +86,6 @@
 
 :guilabel:`Materials Finder` と書かれた部分をクリックすることで、説明が表示されます。Materials Projectのアカウントをお持ちの場合、ここで\ `APIキー <https://materialsproject.org/open>`_\ を設定することで、基本単位胞／慣用単位胞のどちらを取得するか選択できるようになります。
 
-.. important::
-
- [材料データベースURL変更]
-
-  現在、材料データベース検索で結晶のデータが取得できなくなっています。
-
-  材料データベース検索で使用しているMaterials Projectが更新され、データ取得用のURLが変更されたことによります。
-
-  暫定的に、NanoLaboの設定ファイルを編集することで取得ができるようになりますので、お手数ですが対応をお願いいたします。次回(Ver.2.7)以降のリリースではデフォルトで変更後のURLに対応します。
-
-  - 対応方法
-
-   NanoLaboを終了した状態で、ホームフォルダの :file:`.nanolabo` フォルダにある :file:`.properties` ファイルをメモ帳等のテキストエディタで開き、以下の行を追記してください。
-
-   .. code-block:: none
-    :caption: .properties
-
-    materials_api_url=https://legacy.materialsproject.org/rest/v1/materials/
-
-   ホームフォルダは通常、Windows： :file:`C:\\Users\\（ユーザー名）` 、Linux・macOS： :file:`/home/（ユーザー名）` です。
-
 .. _createmolecule:
 
 分子作成

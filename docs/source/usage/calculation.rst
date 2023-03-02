@@ -67,7 +67,7 @@ Linuxの場合は、 :guilabel:`Job Manager` を使うことにより、ジョ�
 
 画面左上のアイコン |mainmenuicon| から :menuselection:`Job Manager` を開き、 :guilabel:`Job Manager` をRawに設定してください。 :guilabel:`Job Queue` の |add| ボタンからキューを追加し、 :guilabel:`Job Script` 内で並列数や、実行に必要な環境変数等があれば設定してください。
 
-また、ローカルでジョブ管理システムをお使いの場合は、 :guilabel:`Job Manager` をPBS、SLURMに設定することでローカルにジョブ投入をすることもできます。
+また、ローカルでジョブ管理システムをお使いの場合は、 :guilabel:`Job Manager` をPBS、SLURM、PJMに設定することでローカルにジョブ投入をすることもできます。
 
 実行時には、 :guilabel:`Host Name` はlocalhostにして、 :guilabel:`Queue Type` で追加したキュー名を指定してください。
 

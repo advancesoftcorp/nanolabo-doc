@@ -60,12 +60,26 @@ LAMMPSからPythonを呼び出して実行するため、事前にPython環境�
 
 - MPI並列には非対応です（OpenMP並列、またはGPUを使った計算が可能です）。
 - Z軸方向には周期境界条件が適用されません。
-- ビリアル応力が計算できないため、NPTアンサンブルでの計算、およびセルの最適化には非対応です。
+- ビリアル応力が計算できないため、NPT・NPHアンサンブルでの計算、およびセルの最適化には非対応です。
 
 .. toctree::
    :maxdepth: 1
 
    Python環境の設定方法<ocp>
+
+M3GNet
+--------------------
+
+`M3GNet <https://github.com/materialsvirtuallab/m3gnet>`_ として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。
+
+LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| をクリックすると説明が表示されます。
+
+- MPI並列には非対応です（OpenMP並列は可能です）。
+
+.. toctree::
+   :maxdepth: 1
+
+   Python環境の設定方法<m3gnet>
 
 .. |info| image:: /img/info.png
 

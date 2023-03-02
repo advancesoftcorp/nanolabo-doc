@@ -84,11 +84,11 @@
 
 .. note::
 
- - Windowsで、Quantum ESPRESSOの計算をローカルで行う場合、プロジェクトの保存先はCドライブ内にする必要があります（Quantum ESPRESSOの仕様による）。
+ Windowsで、Quantum ESPRESSOの計算をローカルで行う場合、プロジェクトの保存先はCドライブ内にする必要があります（Quantum ESPRESSOの仕様による）。
 
- - 計算をリモートで行う場合、プロジェクトの保存先は.nanolaboフォルダ内にする必要があります（ローカルとリモートのフォルダ構造を対応させる都合による）。
+ この制限は、ジャンクションを使うことで回避できます。下記の例のようにコマンドを実行して設定することで、NanoLabo上でextフォルダに保存したデータが、実体としてはnanolaboDataフォルダに保存されます。
 
- これらの制限は、シンボリックリンク（Windowsではジャンクション）を使うことで回避できます。下記の例のようにコマンドを実行して設定することで、NanoLabo上でextフォルダに保存したデータが、実体としてはnanolaboDataフォルダに保存されます。
+ また、Linuxでもシンボリックリンクを使うことで、\ :file:`.nanolabo`\ の外にあるフォルダを\ :file:`.nanolabo`\ 内にあるように扱うことができます。
 
  .. code-block:: console
      :caption: Windows
