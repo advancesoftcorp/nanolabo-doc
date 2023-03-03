@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-01 10:59+0900\n"
+"POT-Creation-Date: 2023-03-03 15:45+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../install.rst:5 ../../install/linux.rst:27 ../../install/mac.rst:25
+#: ../../install.rst:5 ../../install/linux.rst:27 ../../install/mac.rst:33
 #: ../../install/windows.rst:27
 msgid "インストール"
 msgstr "Installation"
@@ -54,7 +54,7 @@ msgid ""
 "<https://www.nanolabo.advancesoft.jp/?wpdmdl=967>`_"
 msgstr ""
 
-#: ../../install/linux.rst:20 ../../install/mac.rst:20
+#: ../../install/linux.rst:20 ../../install/mac.rst:28
 #: ../../install/windows.rst:20
 msgid "計算をリモートで実行する場合でも、NanoLabo本体と同じマシンにNanoLabo Toolをインストールしてください。"
 msgstr ""
@@ -168,7 +168,7 @@ msgstr ""
 "At the last window, click Done to complete the Advance/NanoLabo Tool "
 "installation."
 
-#: ../../install/linux.rst:83 ../../install/mac.rst:97
+#: ../../install/linux.rst:83 ../../install/mac.rst:105
 #: ../../install/windows.rst:56
 msgid "ライセンスの設定"
 msgstr "Setting license"
@@ -248,7 +248,7 @@ msgstr ""
 msgid "$ exec.LINUX/flex/lmdown -c license/nanolabo.lic"
 msgstr ""
 
-#: ../../install/linux.rst:120 ../../install/mac.rst:48
+#: ../../install/linux.rst:120 ../../install/mac.rst:56
 #: ../../install/windows.rst:63
 msgid "起動"
 msgstr "Launching"
@@ -295,27 +295,29 @@ msgstr ""
 msgid "mainmenuicon"
 msgstr ""
 
-#: ../../install/linux.rst:144 ../../install/mac.rst:83
+#: ../../install/linux.rst:144 ../../install/mac.rst:91
 #: ../../install/windows.rst:72
-msgid "（任意）Open Catalyst Project汎用力場の設定"
-msgstr "(Optional) Setting for Open Catalyst Project versatile force field"
+msgid "（任意）グラフニューラルネットワーク汎用力場の設定"
+msgstr "(Optional) Setting for graph neural network versatile force field"
 
-#: ../../install/linux.rst:146 ../../install/mac.rst:85
+#: ../../install/linux.rst:146 ../../install/mac.rst:93
 #: ../../install/windows.rst:74
 msgid ""
-"LAMMPSの計算でOpen Catalyst Projectの汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\\ "
-":doc:`こちら </usage/ocp>`\\ を参照してください。"
+"LAMMPSの計算でグラフニューラルネットワーク汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\\ "
+":doc:`Open Catalyst Projectの設定 </usage/ocp>`\\ 、\\ :doc:`M3GNetの設定 "
+"</usage/m3gnet>`\\ をそれぞれ参照してください。"
 msgstr ""
 "Additional configurations on the Python environment are required to use "
-"Open Catalyst Project versatile force field in LAMMPS calculations. "
-"Please refer to :doc:`here </usage/ocp>` for the procedure."
+"graph neural network versatile force field in LAMMPS calculations. Please"
+" refer to :doc:`Open Catalyst Project setting </usage/ocp>` or "
+":doc:`M3GNet setting </usage/m3gnet>` for the procedure."
 
-#: ../../install/linux.rst:151 ../../install/mac.rst:90
+#: ../../install/linux.rst:151 ../../install/mac.rst:98
 #: ../../install/windows.rst:79
 msgid "（任意）リモート計算の設定"
 msgstr "(Optional) Setting for remote calculation"
 
-#: ../../install/linux.rst:153 ../../install/mac.rst:92
+#: ../../install/linux.rst:153 ../../install/mac.rst:100
 #: ../../install/windows.rst:81
 msgid ""
 "NanoLaboからリモートのマシンに計算ジョブを投入する場合、SSH接続の設定が必要です。設定方法は\\ :doc:`こちら "
@@ -325,12 +327,12 @@ msgstr ""
 "NanoLabo to the remote machine. Please refer to :doc:`here "
 "</usage/sshserver>` for how to setup."
 
-#: ../../install/linux.rst:158 ../../install/mac.rst:108
+#: ../../install/linux.rst:158 ../../install/mac.rst:116
 #: ../../install/windows.rst:86
 msgid "更新・アップグレード"
 msgstr "Update/Upgrade"
 
-#: ../../install/linux.rst:160 ../../install/mac.rst:110
+#: ../../install/linux.rst:160 ../../install/mac.rst:118
 #: ../../install/windows.rst:88
 msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
 msgstr ""
@@ -341,7 +343,7 @@ msgstr ""
 msgid "新しいバージョンにアップデートされる場合、上書きインストールが可能です。"
 msgstr "When updating to newer version, overwrite installation is possible."
 
-#: ../../install/linux.rst:164 ../../install/mac.rst:114
+#: ../../install/linux.rst:164 ../../install/mac.rst:122
 #: ../../install/windows.rst:92
 msgid ""
 "NanoLaboと同時にNanoLabo Toolが更新されている場合は、そちらもアップデートしてください。最新版のNanoLabo "
@@ -351,7 +353,7 @@ msgstr ""
 "update it as well. NanoLabo is supposed to be used with the calculation "
 "engines included in the latest version of NanoLabo Tool."
 
-#: ../../install/linux.rst:166 ../../install/mac.rst:116
+#: ../../install/linux.rst:166 ../../install/mac.rst:124
 #: ../../install/windows.rst:94
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
@@ -359,7 +361,7 @@ msgstr ""
 "the install destination. You can use the software as it was before even "
 "after the update."
 
-#: ../../install/linux.rst:171 ../../install/mac.rst:121
+#: ../../install/linux.rst:171 ../../install/mac.rst:129
 #: ../../install/windows.rst:99
 msgid "アンインストール"
 msgstr "Uninstallation"
@@ -420,25 +422,53 @@ msgstr ""
 "calculation engines etc. Download both of them from the links below."
 
 #: ../../install/mac.rst:14
-msgid ""
-"`Advance/NanoLabo (ver.2.6) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=971>`_"
-msgstr ""
+msgid "Intel版：従来のマシンではこちらの2つをダウンロードしてください。"
+msgstr "Intel ver.: for pre-existing machines, download these 2."
 
 #: ../../install/mac.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.6) "
+"`Advance/NanoLabo (ver.2.7) Intel版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=971>`_"
+msgstr ""
+"`Advance/NanoLabo (ver.2.7) Intel ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=971>`_"
+
+#: ../../install/mac.rst:18
+msgid ""
+"`Advance/NanoLabo Tool (ver.2.7) Intel版 "
 "<https://www.nanolabo.advancesoft.jp/?wpdmdl=966>`_"
 msgstr ""
+"`Advance/NanoLabo Tool (ver.2.7) Intel ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=966>`_"
 
-#: ../../install/mac.rst:27
+#: ../../install/mac.rst:20
+msgid "ARM版：Apple M1搭載マシンではこちらの2つをダウンロードしてください。"
+msgstr "ARM ver.: for machines with Apple M1, download these 2."
+
+#: ../../install/mac.rst:22
+msgid ""
+"`Advance/NanoLabo (ver.2.7) ARM版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=971>`_"
+msgstr ""
+"`Advance/NanoLabo (ver.2.7) ARM ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=971>`_"
+
+#: ../../install/mac.rst:24
+msgid ""
+"`Advance/NanoLabo Tool (ver.2.7) ARM版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=966>`_"
+msgstr ""
+"`Advance/NanoLabo Tool (ver.2.7) ARM ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=966>`_"
+
+#: ../../install/mac.rst:35
 msgid "まず、Advance/NanoLaboのdmgファイルを開きます。マウントが終わるとディスクイメージの内容が表示されますので、NanoLaboアイコンをアプリケーションディレクトリへドラッグ＆ドロップしてください。"
 msgstr ""
 "First, open the Advance/NanoLabo dmg file. When mounted, the content of "
-"the disk image is shown. Drag & drop the NanoLabo icon to the Application"
+"the disk image is shown. Drag & drop the NanoLabo icon to the Applications"
 " directory."
 
-#: ../../install/mac.rst:33
+#: ../../install/mac.rst:41
 msgid ""
 "次に、Advance/NanoLabo Toolのdmgファイルを開き、同じようにAdvanceSoftディレクトリをApplication "
 "Supportへドラッグ＆ドロップします。"
@@ -446,23 +476,23 @@ msgstr ""
 "Next, open the Advance/NanoLabo Tool dmg file, and drag & drop the "
 "AdvanceSoft directory to the Application Support."
 
-#: ../../install/mac.rst:39
+#: ../../install/mac.rst:47
 msgid "このとき、認証を求めるダイアログが表示されますので、「認証」をクリックして名前とパスワードを入力してください。"
 msgstr ""
 "A dialog requesting authentication is displayed. Click "
 ":guilabel:`Authenticate` and enter the name and password."
 
-#: ../../install/mac.rst:50
+#: ../../install/mac.rst:58
 msgid "アプリケーションディレクトリのNanoLaboアイコンから起動してください。"
-msgstr "Launch the software from NanoLabo icon in the Application directory."
+msgstr "Launch the software from NanoLabo icon in the Applications directory."
 
-#: ../../install/mac.rst:52
+#: ../../install/mac.rst:60
 msgid "初回のみ、起動の際に許可が必要となります。以下の手順で起動してください。"
 msgstr ""
 "For the first time only, permission is required at startup. Please launch"
 " it by the following procedure."
 
-#: ../../install/mac.rst:54
+#: ../../install/mac.rst:62
 msgid ""
 ":kbd:`control` キーを押しながらNanoLaboを開きます（開くをクリックするまで :kbd:`control` "
 "キーを離さないでください）。"
@@ -470,19 +500,19 @@ msgstr ""
 "Hold down :kbd:`control` key and open NanoLabo (do not release "
 ":kbd:`control` key until you click :guilabel:`Open` )."
 
-#: ../../install/mac.rst:60
+#: ../../install/mac.rst:68
 msgid "「検証中」のプログレスバーが表示されます。時間がかかる場合がありますので、少しお待ちください。"
 msgstr ""
 "\"Verifying\" progress bar is displayed. This may take a while, so please"
 " be patient."
 
-#: ../../install/mac.rst:66
+#: ../../install/mac.rst:74
 msgid "実行の許可を確認するダイアログが表示されますので、「開く」をクリックしてください。"
 msgstr ""
 "A dialog to confirm the permission of opening is displayed. Click "
 ":guilabel:`Open`\\ ."
 
-#: ../../install/mac.rst:72
+#: ../../install/mac.rst:80
 msgid ""
 ":guilabel:`Activate Advance/NanoLabo` ダイアログが表示されたら、rootユーザーのパスワードを "
 ":guilabel:`Password of Root` 欄に入力し、 :guilabel:`OK` "
@@ -493,7 +523,7 @@ msgstr ""
 ":guilabel:`OK`\\ . This password is used only for executing the commands "
 "in place and never be saved."
 
-#: ../../install/mac.rst:74
+#: ../../install/mac.rst:82
 msgid ""
 "または、手動でターミナルを開いて :guilabel:`Command` "
 "欄に表示されたコマンドを管理者ユーザーで実行する方法もあります。この場合、:guilabel:`OK` "
@@ -504,13 +534,13 @@ msgstr ""
 "is shown when you click :guilabel:`OK` , but the dialog will no longer "
 "appear from the next startup if it is successful."
 
-#: ../../install/mac.rst:99
+#: ../../install/mac.rst:107
 msgid "ソフトウェアを起動すると、ライセンス登録を案内する画面が表示されます。"
 msgstr ""
 "A window to guide the license registration appears when you launch the "
 "software."
 
-#: ../../install/mac.rst:101
+#: ../../install/mac.rst:109
 msgid ""
 "ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。 "
 ":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
@@ -521,7 +551,7 @@ msgstr ""
 ":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
 "directory."
 
-#: ../../install/mac.rst:103
+#: ../../install/mac.rst:111
 msgid ""
 "Finderのメニューバーから :menuselection:`移動 --> フォルダへ移動...` "
 "をクリックし、上記パスを入力していただくと簡単です。"
@@ -529,7 +559,7 @@ msgstr ""
 "The easy way is to click :menuselection:`Go --> Go to Folder...` in "
 "Finder's menu bar and enter the path above."
 
-#: ../../install/mac.rst:112
+#: ../../install/mac.rst:120
 msgid ""
 "新しいバージョンにアップデートされる場合は、インストール時と同じ操作を行い、確認が表示されたら「置き換える」を選択してください。アップデート後、ライセンスファイルを再度"
 " :file:`license` ディレクトリにコピーしてください。"
@@ -538,11 +568,11 @@ msgstr ""
 "and choose :guilabel:`Replace` when confirmation is displayed. After "
 "that, copy the license file to :file:`license` directory again."
 
-#: ../../install/mac.rst:123
+#: ../../install/mac.rst:131
 msgid "アプリケーションディレクトリのNanoLaboを削除してください。"
-msgstr "Remove NanoLabo in the Application directory."
+msgstr "Remove NanoLabo in the Applications directory."
 
-#: ../../install/mac.rst:127
+#: ../../install/mac.rst:135
 msgid ""
 "計算エンジンの実行ファイル等は :file:`/Library/Application Support/AdvanceSoft` "
 "以下に保存されていますので、必要に応じて削除してください。"
@@ -551,7 +581,7 @@ msgstr ""
 ":file:`/Library/Application Support/AdvanceSoft` . Please remove them if "
 "you'd like to."
 
-#: ../../install/mac.rst:131
+#: ../../install/mac.rst:139
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは :file:`ホームディレクトリ/.nanolabo` "
 "に保存されていますので、必要に応じて削除してください。"

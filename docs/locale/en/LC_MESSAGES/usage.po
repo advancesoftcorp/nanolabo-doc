@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-14 10:44+0900\n"
+"POT-Creation-Date: 2023-03-03 17:22+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,7 +42,7 @@ msgstr "Viewpoint manipulation"
 #: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:93
 #: ../../usage/atomsviewer.rst:136 ../../usage/atomsviewer.rst:162
 #: ../../usage/atomsviewer.rst:186 ../../usage/explorer.rst:139
-#: ../../usage/grandproject.rst:95 ../../usage/initial.rst:126
+#: ../../usage/grandproject.rst:95 ../../usage/initial.rst:105
 #: ../../usage/project.rst:114
 msgid "操作"
 msgstr "Operation"
@@ -232,7 +232,7 @@ msgstr ""
 
 #: ../../usage/atomsviewer.rst:104 ../../usage/atomsviewer.rst:147
 #: ../../usage/atomsviewer.rst:173 ../../usage/grandproject.rst:106
-#: ../../usage/initial.rst:133 ../../usage/project.rst:123
+#: ../../usage/initial.rst:112 ../../usage/project.rst:123
 msgid "`*`:sup: macOSでは :kbd:`Ctrl` |rarr| :kbd:`command` と読み替えてください。"
 msgstr "`*`:sup: For macOS, replace :kbd:`Ctrl` |rarr| :kbd:`command` ."
 
@@ -355,7 +355,7 @@ msgid ":kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr "Press :kbd:`Esc` key to fix the position."
 
 #: ../../usage/atomsviewer.rst:180 ../../usage/explorer.rst:133
-#: ../../usage/initial.rst:120 ../../usage/project.rst:108
+#: ../../usage/initial.rst:99 ../../usage/project.rst:108
 msgid "ショートカットキー一覧"
 msgstr "Shortcut keys list"
 
@@ -590,8 +590,8 @@ msgstr ""
 "|mainmenuicon| and toggle the setting of :guilabel:`Input File Editor` ."
 
 #: ../../usage/calculation.rst:42 ../../usage/grandproject.rst:53
-#: ../../usage/initial.rst:61 ../../usage/ocp.rst:129 ../../usage/result.rst:60
-#: ../../usage/sshserver.rst:9
+#: ../../usage/initial.rst:61 ../../usage/m3gnet.rst:54 ../../usage/ocp.rst:168
+#: ../../usage/result.rst:60 ../../usage/sshserver.rst:9
 msgid "mainmenuicon"
 msgstr ""
 
@@ -678,7 +678,7 @@ msgstr ""
 "Script` ."
 
 #: ../../usage/calculation.rst:76 ../../usage/explorer.rst:43
-#: ../../usage/inputeditorlammps.rst:130 ../../usage/inputeditorqe.rst:6
+#: ../../usage/inputeditorlammps.rst:146 ../../usage/inputeditorqe.rst:6
 #: ../../usage/modeler.rst:239 ../../usage/result.rst:75
 #: ../../usage/resultpdos.rst:35 ../../usage/sshserver.rst:19
 msgid "add"
@@ -687,11 +687,11 @@ msgstr ""
 #: ../../usage/calculation.rst:70
 msgid ""
 "また、ローカルでジョブ管理システムをお使いの場合は、 :guilabel:`Job Manager` "
-"をPBS、SLURMに設定することでローカルにジョブ投入をすることもできます。"
+"をPBS、SLURM、PJMに設定することでローカルにジョブ投入をすることもできます。"
 msgstr ""
 "Also, if you are using the job management system on the local machine, "
-"you can set :guilabel:`Job Manager` to PBS or SLURM to post jobs to the "
-"local machine."
+"you can set :guilabel:`Job Manager` to PBS, SLURM or PJM to post jobs to "
+"the local machine."
 
 #: ../../usage/calculation.rst:72
 msgid ""
@@ -1145,9 +1145,9 @@ msgid ""
 "を使うことで、簡単にLinuxマシン上でライセンスサーバーを起動することができます。詳細は\\ `マニュアル <https"
 "://remotelicense-doc.readthedocs.io/ja/latest/>`_\\ を参照してください。"
 msgstr ""
-"To operate from Windows: you can use our tool `remoteLicense <https://remotelicense-"
-"doc.readthedocs.io/en/latest/>`_ to easily launch the license server on "
-"Linux machine. Please refer to the `manual <https"
+"To operate from Windows: you can use our tool `remoteLicense <https"
+"://remotelicense-doc.readthedocs.io/en/latest/>`_ to easily launch the "
+"license server on Linux machine. Please refer to the `manual <https"
 "://remotelicense-doc.readthedocs.io/ja/latest/>`_ for detail."
 
 #: ../../usage/grandproject.rst:47
@@ -1158,13 +1158,12 @@ msgid ""
 "に従ってライセンスサーバーを起動してください。NanoLaboの方では、必要に応じ、:guilabel:`Job Script` "
 "の設定画面で環境変数 :envvar:`ADVANCED_LICENSE_FILE` を追加してください。"
 msgstr ""
-"To operate on Linux: the executable files of license server are included in NeuralMD "
-"installer. Install it on the machine you use for the license server, and "
-"launch the license server following the `document <https://neuralmd-"
-"doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\\ . "
-"On NanoLabo side, if necessary, add "
-"environment variable :envvar:`ADVANCED_LICENSE_FILE` "
-"on the :guilabel:`Job Script` setting "
+"To operate on Linux: the executable files of license server are included "
+"in NeuralMD installer. Install it on the machine you use for the license "
+"server, and launch the license server following the `document <https"
+"://neuralmd-doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\\ "
+". On NanoLabo side, if necessary, add environment variable "
+":envvar:`ADVANCED_LICENSE_FILE` on the :guilabel:`Job Script` setting "
 "screen."
 
 #: ../../usage/grandproject.rst:49
@@ -1791,63 +1790,11 @@ msgstr ""
 "<https://materialsproject.org/open>`_ here and you can choose either to "
 "retrieve primitive cell / standard cell."
 
-#: ../../usage/initial.rst:91
-msgid "[材料データベースURL変更]"
-msgstr "[Materials database URL changed]"
-
-#: ../../usage/initial.rst:93
-msgid "現在、材料データベース検索で結晶のデータが取得できなくなっています。"
-msgstr ""
-"Currently, data of crystals cannot be retrieved in materials database "
-"search."
-
-#: ../../usage/initial.rst:95
-msgid "材料データベース検索で使用しているMaterials Projectが更新され、データ取得用のURLが変更されたことによります。"
-msgstr ""
-"It is due to the renewal of Materials Project, which is used in materials"
-" database search, and the data retrieval URL is changed."
-
-#: ../../usage/initial.rst:97
-msgid "暫定的に、NanoLaboの設定ファイルを編集することで取得ができるようになりますので、お手数ですが対応をお願いいたします。次回(Ver.2.7)以降のリリースではデフォルトで変更後のURLに対応します。"
-msgstr ""
-"As a temporal fixup, please edit NanoLabo configuration file to enable "
-"the retrieval. Ver.2.7 and later releases will be compatible with the new"
-" URL by default."
-
-#: ../../usage/initial.rst:99
-msgid "対応方法"
-msgstr "How to fix"
-
-#: ../../usage/initial.rst:101
-msgid ""
-"NanoLaboを終了した状態で、ホームフォルダの :file:`.nanolabo` フォルダにある :file:`.properties` "
-"ファイルをメモ帳等のテキストエディタで開き、以下の行を追記してください。"
-msgstr ""
-"Make sure NanoLabo is quit. Open :file:`.properties` file in "
-":file:`.nanolabo` folder located in your home folder with text editor as "
-"notepad, and add the following line."
-
-#: ../../usage/initial.rst:103
-msgid ".properties"
-msgstr ""
-
-#: ../../usage/initial.rst:103
-msgid "materials_api_url=https://legacy.materialsproject.org/rest/v1/materials/"
-msgstr ""
-
-#: ../../usage/initial.rst:108
-msgid ""
-"ホームフォルダは通常、Windows： :file:`C:\\\\Users\\\\（ユーザー名）` 、Linux・macOS： "
-":file:`/home/（ユーザー名）` です。"
-msgstr ""
-"Basically, home folder is :file:`C:\\\\User\\\\(user name)` (Windows) and"
-" :file:`/home/(user name)` (Linux/macOS)."
-
-#: ../../usage/initial.rst:113
+#: ../../usage/initial.rst:92
 msgid "分子作成"
 msgstr "Create molecule"
 
-#: ../../usage/initial.rst:115 ../../usage/modeler.rst:210
+#: ../../usage/initial.rst:94 ../../usage/modeler.rst:210
 msgid ""
 "分子エディタ―\\ `JSME <https://jsme-editor.github.io/>`_\\ "
 "を使用し、作図した構造をそのままモデルとして使用できます。"
@@ -1855,19 +1802,19 @@ msgstr ""
 "Draw a molecule structure using the molecular editor `JSME <https://jsme-"
 "editor.github.io/>`_\\ , and use it as the model."
 
-#: ../../usage/initial.rst:128
+#: ../../usage/initial.rst:107
 msgid "タブを閉じる"
 msgstr "Close tab"
 
-#: ../../usage/initial.rst:128
+#: ../../usage/initial.rst:107
 msgid ":kbd:`Ctrl` + :kbd:`W`"
 msgstr ""
 
-#: ../../usage/initial.rst:130
+#: ../../usage/initial.rst:109
 msgid "NanoLabo終了"
 msgstr "Close NanoLabo"
 
-#: ../../usage/initial.rst:130
+#: ../../usage/initial.rst:109
 msgid ":kbd:`Ctrl` + :kbd:`Q`"
 msgstr ""
 
@@ -1894,7 +1841,7 @@ msgstr ""
 "Then, set the appropriate values referring to the calculation engine "
 "manual."
 
-#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:79
+#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:95
 #: ../../usage/inputeditorqe.rst:3 ../../usage/project.rst:24
 msgid "editormenuicon"
 msgstr ""
@@ -2035,7 +1982,7 @@ msgstr ""
 "mobile along X/Y/Z direction from the right click menu of the rows of "
 "atoms."
 
-#: ../../usage/inputeditorlammps.rst:65
+#: ../../usage/inputeditorlammps.rst:66 ../../usage/inputeditorlammps.rst:81
 msgid "Python環境の設定方法"
 msgstr "Setting Python environment"
 
@@ -2154,7 +2101,7 @@ msgstr ""
 "published in `Open Catalyst Project <https://opencatalystproject.org>`_\\"
 " ."
 
-#: ../../usage/inputeditorlammps.rst:59
+#: ../../usage/inputeditorlammps.rst:59 ../../usage/inputeditorlammps.rst:76
 msgid ""
 "LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| "
 "をクリックすると説明が表示されます。"
@@ -2163,31 +2110,54 @@ msgstr ""
 "environment have to be prepared in advance. Also, there are some "
 "limitations. Click |info| to show the description."
 
-#: ../../usage/inputeditorlammps.rst:70
+#: ../../usage/inputeditorlammps.rst:86
 msgid "info"
 msgstr ""
 
 #: ../../usage/inputeditorlammps.rst:61
 msgid "MPI並列には非対応です（OpenMP並列、またはGPUを使った計算が可能です）。"
 msgstr ""
-"MPI parallel is not supported (calculation using OpenMPI parallel and GPU"
-" is available)."
+"MPI parallel is not supported (calculation using OpenMP parallel and GPU "
+"is available)."
 
-#: ../../usage/inputeditorlammps.rst:62
+#: ../../usage/inputeditorlammps.rst:62 ../../usage/inputeditorlammps.rst:79
+msgid "ARM版(Apple M1)には非対応です。"
+msgstr "ARM ver. (Apple M1) is not supported."
+
+#: ../../usage/inputeditorlammps.rst:63
 msgid "Z軸方向には周期境界条件が適用されません。"
 msgstr "Periodic boundary condition is not applied along Z axis."
 
-#: ../../usage/inputeditorlammps.rst:63
-msgid "ビリアル応力が計算できないため、NPTアンサンブルでの計算、およびセルの最適化には非対応です。"
+#: ../../usage/inputeditorlammps.rst:64
+msgid "ビリアル応力が計算できないため、NPT・NPHアンサンブルでの計算、およびセルの最適化には非対応です。"
 msgstr ""
-"Since virial stress is not calculated, neither NPT ensemble calculation "
-"nor cell optimization is supported."
+"Since virial stress is not calculated, neither NPT/NPH ensemble "
+"calculation nor cell optimization is supported."
 
-#: ../../usage/inputeditorlammps.rst:75
+#: ../../usage/inputeditorlammps.rst:72 ../../usage/m3gnet.rst:85
+msgid "M3GNet"
+msgstr ""
+
+#: ../../usage/inputeditorlammps.rst:74
+msgid ""
+"`M3GNet <https://github.com/materialsvirtuallab/m3gnet>`_ "
+"として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場＋\\ `Simple DFT-D3 "
+"<https://dftd3.readthedocs.io/en/latest/>`_\\ による補正を使います。"
+msgstr ""
+"Use pretrained versatile force field based on graph neural network, "
+"published as `M3GNet <https://github.com/materialsvirtuallab/m3gnet>`_ + "
+"correction by `Simple DFT-D3 "
+"<https://dftd3.readthedocs.io/en/latest/>`_\\ ."
+
+#: ../../usage/inputeditorlammps.rst:78
+msgid "MPI並列には非対応です（OpenMP並列は可能です）。"
+msgstr "MPI parallel is not supported (calculation using OpenMP is available)."
+
+#: ../../usage/inputeditorlammps.rst:91
 msgid "Scheme（計算過程）"
 msgstr "Scheme"
 
-#: ../../usage/inputeditorlammps.rst:77
+#: ../../usage/inputeditorlammps.rst:93
 msgid ""
 "入力ファイルエディターの :guilabel:`Scheme` で計算過程の設定を行います。画面右下のメニュー |editormenuicon| "
 "から :guilabel:`Scheme` をクリックしてください。"
@@ -2196,7 +2166,7 @@ msgstr ""
 " editor. Click :guilabel:`Scheme` from the menu |editormenuicon| on the "
 "lower right."
 
-#: ../../usage/inputeditorlammps.rst:81
+#: ../../usage/inputeditorlammps.rst:97
 msgid ""
 "画面右側の :guilabel:`Set Scheme` で計算の設定を行い、 :guilabel:`Add Scheme` の "
 ":guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| "
@@ -2207,7 +2177,7 @@ msgstr ""
 "the setting on the left side of the window as a tile. Repeat configuring "
 "|rarr| :guilabel:`Apply` to add processes as many times as necessary."
 
-#: ../../usage/inputeditorlammps.rst:87
+#: ../../usage/inputeditorlammps.rst:103
 msgid ""
 "タイルの左上の数字が過程の実行される順番です。前へボタン |lpback| 、後へボタン |lpfwd| で順番を入れ替えます。削除ボタン "
 "|lpdel| で削除します。"
@@ -2216,19 +2186,19 @@ msgstr ""
 " process is executed. Use back button |lpback| and forward button |lpfwd|"
 " to change the order. Delete it by delete button |lpdel| ."
 
-#: ../../usage/inputeditorlammps.rst:89
+#: ../../usage/inputeditorlammps.rst:105
 msgid "lpback"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:90
+#: ../../usage/inputeditorlammps.rst:106
 msgid "lpfwd"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:91
+#: ../../usage/inputeditorlammps.rst:107
 msgid "lpdel"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:93
+#: ../../usage/inputeditorlammps.rst:109
 msgid ""
 "追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` "
 "ウィンドウが表示され、設定を編集できます。"
@@ -2237,7 +2207,7 @@ msgstr ""
 ":guilabel:`Set the scheme` window is displayed and you can edit the "
 "settings."
 
-#: ../../usage/inputeditorlammps.rst:95
+#: ../../usage/inputeditorlammps.rst:111
 msgid ""
 "また、 :guilabel:`Statistical Properties` の各項目を :guilabel:`yes` "
 "に設定することで、統計量（熱伝導率、粘性係数、拡散係数、動径分布関数(RDF)）が計算され、結果画面に表示されます。"
@@ -2247,7 +2217,7 @@ msgstr ""
 "viscosity coefficient, diffusion constant and radial distribution "
 "function (RDF)) are calculated and displayed in the result screen."
 
-#: ../../usage/inputeditorlammps.rst:97
+#: ../../usage/inputeditorlammps.rst:113
 msgid ""
 "各熱力学量や原子構造は毎ステップではなく、間を空けて出力されます。 :guilabel:`Interval to Print Logs` "
 "で出力の間隔をステップ数で設定できます。"
@@ -2256,59 +2226,59 @@ msgstr ""
 "step but at some interval. You can set the output interval by "
 ":guilabel:`Interval to Print Logs` by step numbers."
 
-#: ../../usage/inputeditorlammps.rst:104
+#: ../../usage/inputeditorlammps.rst:120
 msgid "Option（追加操作）"
 msgstr "Option"
 
-#: ../../usage/inputeditorlammps.rst:106
+#: ../../usage/inputeditorlammps.rst:122
 msgid "入力ファイルエディターの :guilabel:`Option` で外場・外力等の設定を行います。"
 msgstr ""
 "Configure optional operations in :guilabel:`Option` mode of input file "
 "editor."
 
-#: ../../usage/inputeditorlammps.rst:109
+#: ../../usage/inputeditorlammps.rst:125
 msgid "E-Field"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:109
+#: ../../usage/inputeditorlammps.rst:125
 msgid "静電場を印加します。"
 msgstr "Apply static electric field."
 
-#: ../../usage/inputeditorlammps.rst:112
+#: ../../usage/inputeditorlammps.rst:128
 msgid "Ext. Forces"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:112
+#: ../../usage/inputeditorlammps.rst:128
 msgid "外力を印加します。"
 msgstr "Apply external force."
 
-#: ../../usage/inputeditorlammps.rst:115
+#: ../../usage/inputeditorlammps.rst:131
 msgid "Move Atoms"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:115
+#: ../../usage/inputeditorlammps.rst:131
 msgid "原子を一定の速度で（原子に働く力に依らず）動かします。"
 msgstr ""
 "Move atoms at a constant speed, not affected by forces acting on the "
 "atoms."
 
-#: ../../usage/inputeditorlammps.rst:118
+#: ../../usage/inputeditorlammps.rst:134
 msgid "Deform Cell"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:118
+#: ../../usage/inputeditorlammps.rst:134
 msgid "セルを一定の速度で変形させます。対象とする原子はセルの変形に追随します。"
 msgstr ""
 "Deform the cell at a constant speed. Target atoms follow the deformation "
 "of the cell."
 
-#: ../../usage/inputeditorlammps.rst:120
+#: ../../usage/inputeditorlammps.rst:136
 msgid "各タブの :guilabel:`Target Group` で対象とする原子グループを選び、パラメータを入力します。"
 msgstr ""
 "On each tab, choose the target atom group by :guilabel:`Target Group` and"
 " then specify the parameters."
 
-#: ../../usage/inputeditorlammps.rst:122
+#: ../../usage/inputeditorlammps.rst:138
 msgid ""
 "これらの設定は、 :guilabel:`Scheme` の過程ごとに独立しており、 :guilabel:`Target Scheme` "
 "で選択されている過程にのみ適用されます。"
@@ -2316,7 +2286,7 @@ msgstr ""
 "These settings belong to each :guilabel:`Scheme` , and only applied to "
 "selected :guilabel:`Target Scheme` ."
 
-#: ../../usage/inputeditorlammps.rst:124
+#: ../../usage/inputeditorlammps.rst:140
 msgid ""
 "初速度を与えて原子を動かすにはこの画面ではなく、 :guilabel:`Geometry` の :guilabel:`Velocities` "
 "で設定します。"
@@ -2324,7 +2294,7 @@ msgstr ""
 "To move atoms by setting initial velocities, not this screen but go to "
 ":guilabel:`Velocities` in :guilabel:`Geometry` ."
 
-#: ../../usage/inputeditorlammps.rst:126
+#: ../../usage/inputeditorlammps.rst:142
 msgid ""
 "また、 :guilabel:`Target Group` "
 "として最初はall（全ての原子）のみが選択できますが、:guilabel:`Groups` で原子グループを定義することができます。 |add| "
@@ -2339,40 +2309,40 @@ msgstr ""
 "delete atom group, click :guilabel:`Delete` in the right click menu of "
 "the row."
 
-#: ../../usage/inputeditorlammps.rst:128
+#: ../../usage/inputeditorlammps.rst:144
 msgid "LAMMPSの仕様により、原子グループ数の上限は32個（allを除いて、31個まで追加可能）となります。"
 msgstr ""
 "Due to the LAMMPS specification, number of the atom groups is 32 at most "
 "(you can add up to 31, excluding \"all\")."
 
-#: ../../usage/inputeditorlammps.rst:137
+#: ../../usage/inputeditorlammps.rst:153
 msgid "User's（ユーザー定義）"
 msgstr "User's"
 
-#: ../../usage/inputeditorlammps.rst:139
+#: ../../usage/inputeditorlammps.rst:155
 msgid "入力ファイルエディターの :guilabel:`User's` で任意コマンド追加、任意変数出力・グラフ化の設定を行います。"
 msgstr "Configure user's additional commands / variables to output and plot."
 
-#: ../../usage/inputeditorlammps.rst:142 ../../usage/inputeditorlammps.rst:151
+#: ../../usage/inputeditorlammps.rst:158 ../../usage/inputeditorlammps.rst:167
 msgid "User's Additional Settings into Input-file"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:142
+#: ../../usage/inputeditorlammps.rst:158
 msgid "テキストボックスに任意のLAMMPSコマンドを追加すると、入力ファイルに挿入されます。"
 msgstr "Add any LAMMPS commands in the text box to insert it in the input file."
 
-#: ../../usage/inputeditorlammps.rst:147 ../../usage/inputeditorlammps.rst:161
+#: ../../usage/inputeditorlammps.rst:163 ../../usage/inputeditorlammps.rst:177
 msgid "User's Variables to Output and Plot"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:145
+#: ../../usage/inputeditorlammps.rst:161
 msgid "変数を追加すると、結果画面にボタンが追加され、時系列プロットとして表示することができます。また、CSVファイルにもカラムが追加されます。"
 msgstr ""
 "If you add a variable, corresponding button is added to the result view "
 "and can be desplayed as time series plot. Also, corresponding column is "
 "added to the CSV file."
 
-#: ../../usage/inputeditorlammps.rst:147
+#: ../../usage/inputeditorlammps.rst:163
 msgid ""
 "変数としてはあらかじめ定義されているもの（\\ `LAMMPSマニュアル参照 "
 "<https://docs.lammps.org/thermo_style.html>`_\\ "
@@ -2382,7 +2352,7 @@ msgstr ""
 "<https://docs.lammps.org/thermo_style.html>`_\\ ) or variables added by "
 "LAMMPS command."
 
-#: ../../usage/inputeditorlammps.rst:149
+#: ../../usage/inputeditorlammps.rst:165
 msgid ""
 "例として、bond・angleが定義されている計算（OPLS-"
 "AA力場）で、各時刻の結合距離・結合角の平均をプロットし、ヒストグラムをファイル出力する設定を示します。"
@@ -2391,7 +2361,7 @@ msgstr ""
 "while output the histgram to the file at each time, for the calculation "
 "where bonds / angles are defined (OPLS-AA force field)."
 
-#: ../../usage/inputeditorlammps.rst:153
+#: ../../usage/inputeditorlammps.rst:169
 msgid ""
 "compute 1 all bond/local dist\n"
 "compute 2 all angle/local theta\n"
@@ -2400,11 +2370,11 @@ msgid ""
 "fix 2 all ave/histo 10 10 100 80 120 20 c_2 mode vector file theta.histo"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:163
+#: ../../usage/inputeditorlammps.rst:179
 msgid "c_3[*]"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:167
+#: ../../usage/inputeditorlammps.rst:183
 msgid ""
 "LAMMPSコマンドの使い方については\\ `LAMMPSのマニュアル "
 "<https://docs.lammps.org/Commands_category.html>`_\\ を参照してください。"
@@ -2741,6 +2711,234 @@ msgstr ""
 ":guilabel:`Effective Charge` set to yes. In case Born effective charge is"
 " not calculated, calculation is performed without correction even "
 ":guilabel:`Non-Analytic Term` is set to yes."
+
+#: ../../usage/m3gnet.rst:5
+msgid "M3GNet汎用力場を使うための設定"
+msgstr "Setup for M3GNet versatile force field"
+
+#: ../../usage/m3gnet.rst:10 ../../usage/ocp.rst:10
+msgid "Pythonの設定"
+msgstr "Setting Python"
+
+#: ../../usage/m3gnet.rst:12
+msgid ""
+"LAMMPSから\\ `M3GNet <https://github.com/materialsvirtuallab/m3gnet>`__\\ "
+"汎用力場＋\\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\\ "
+"による補正を使うために必要な設定手順を説明します。"
+msgstr ""
+"Setup procedure required for using `M3GNet "
+"<https://github.com/materialsvirtuallab/m3gnet>`__ versatile force field "
+"+ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_ correction "
+"from LAMMPS is described here."
+
+#: ../../usage/m3gnet.rst:14 ../../usage/ocp.rst:14
+msgid "実際に計算を行うマシン（計算サーバーにジョブ投入する場合には、その計算サーバー上）でインストールを行ってください。"
+msgstr ""
+"Perform the installation on the actual machine used for the calculation "
+"(e.g. if you will submit the job to the calculation server, install on "
+"the server)."
+
+#: ../../usage/m3gnet.rst:16 ../../usage/ocp.rst:26
+msgid "conda環境の用意"
+msgstr "Preparing conda environment"
+
+#: ../../usage/m3gnet.rst:18 ../../usage/ocp.rst:28
+msgid "Python環境としてcondaを使用します。現在condaをお使いでない場合は、必要最小限の構成であるMinicondaを推奨します。"
+msgstr ""
+"Conda is used as the Python environment. If you are not currently using "
+"conda, Miniconda, which has the minimum required configuration, is "
+"recommended."
+
+#: ../../usage/m3gnet.rst:20 ../../usage/ocp.rst:30
+msgid ""
+"`Minicondaのページ <https://docs.conda.io/en/latest/miniconda.html>`_\\ "
+"からPython 3.9のインストーラーをダウンロードし、インストールしてください。"
+msgstr ""
+"Download Python 3.9 installer from the `Miniconda page "
+"<https://docs.conda.io/en/latest/miniconda.html>`_ and install it."
+
+#: ../../usage/m3gnet.rst:22 ../../usage/ocp.rst:32
+msgid ""
+"Windowsで環境変数 :envvar:`PATH` を変更しない設定でインストールした場合、以降の作業はスタートメニューからAnaconda "
+"Promptを起動して行ってください。"
+msgstr ""
+"On Windows, in case you install it without changing the :envvar:`PATH`\\ "
+", launch Anaconda Prompt from the Start menu and use it for the following"
+" procedure."
+
+#: ../../usage/m3gnet.rst:24 ../../usage/ocp.rst:44
+msgid "インストール"
+msgstr "Installation"
+
+#: ../../usage/m3gnet.rst:26
+msgid "m3gnetと、DFT-D3補正に必要なパッケージをインストールします。"
+msgstr "Install m3gnet and packages required for DFT-D3 correction."
+
+#: ../../usage/m3gnet.rst:28
+msgid ""
+"pip install m3gnet\n"
+"conda install simple-dftd3 dftd3-python -c conda-forge"
+msgstr ""
+
+#: ../../usage/m3gnet.rst:36 ../../usage/ocp.rst:150
+msgid "NanoLaboへの設定"
+msgstr "Configuring NanoLabo"
+
+#: ../../usage/m3gnet.rst:38 ../../usage/ocp.rst:152
+msgid "ローカル（NanoLaboを使っているマシン）で実行する場合"
+msgstr "To run locally (on the machine running NanoLabo)"
+
+#: ../../usage/m3gnet.rst:40 ../../usage/ocp.rst:154
+msgid ""
+"画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` "
+"（またはForce Field設定画面の :guilabel:`Setting Python` "
+"ボタン）でpython実行ファイルのパスを設定します。"
+msgstr ""
+"Set the python executable path in :menuselection:`Properties --> Python` "
+"from the upper left menu |mainmenuicon| (or :guilabel:`Setting Python` "
+"button in the Force Field setting screen)."
+
+#: ../../usage/m3gnet.rst:42
+msgid ""
+"Windowsでは :file:`condaのインストール先\\\\python.exe` 、Linux・macOSでは "
+":file:`condaのインストール先/bin/python` にあります。"
+msgstr ""
+"It is located at :file:`conda installation destination\\\\python.exe` on "
+"Windows, and :file:`conda installation destination/bin/python` on "
+"Linux/macOS."
+
+#: ../../usage/m3gnet.rst:44 ../../usage/ocp.rst:158
+msgid "リモート（計算サーバー等）で実行する場合"
+msgstr "To run remotely (on calculation server etc.)"
+
+#: ../../usage/m3gnet.rst:46 ../../usage/ocp.rst:160
+msgid ""
+"condaのインストール先が :file:`~/anaconda3` または :file:`~/miniconda3` "
+"の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、設定は必要ありません。"
+msgstr ""
+"In case conda is installed in :file:`~/anaconda3` or "
+":file:`~/miniconda3`\\ , it works with autmatically added "
+":envvar:`LD_LIBRARY_PATH`\\ , therefore no configuration is needed."
+
+#: ../../usage/m3gnet.rst:48 ../../usage/ocp.rst:162
+msgid ""
+"他の場所にインストールした場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> "
+"SSH server` を開き、ジョブスクリプトに :envvar:`LD_LIBRARY_PATH` を追加してください。"
+msgstr ""
+"If installed in the other location, click the icon |mainmenuicon| on the "
+"upper left, open :menuselection:`Network --> SSH server`\\ , and then add"
+" :envvar:`LD_LIBRARY_PATH` to the job script."
+
+#: ../../usage/m3gnet.rst:50
+msgid "export LD_LIBRARY_PATH=(condaのインストール先)/lib:$LD_LIBRARY_PATH"
+msgstr ""
+"export LD_LIBRARY_PATH=(conda installation "
+"destination)/lib:$LD_LIBRARY_PATH"
+
+#: ../../usage/m3gnet.rst:59 ../../usage/ocp.rst:173
+msgid "LAMMPSを直接実行する場合"
+msgstr "Using LAMMPS directly"
+
+#: ../../usage/m3gnet.rst:61
+msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_m3gnet` を使用します。MPI並列計算には非対応です。"
+msgstr ""
+"Use the executable file :file:`lammps_m3gnet` included in NanoLabo Tool. "
+"MPI parallel execution is not supported."
+
+#: ../../usage/m3gnet.rst:63 ../../usage/ocp.rst:177
+msgid ""
+"Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` "
+"を設定してください。"
+msgstr ""
+"On Linux/macOS, set the environment variable :envvar:`LD_LIBRARY_PATH` , "
+"so the program can use Python dynamic library when executed."
+
+#: ../../usage/m3gnet.rst:65
+msgid "$ export LD_LIBRARY_PATH=(condaのインストール先)/lib:$LD_LIBRARY_PATH"
+msgstr ""
+"$ export LD_LIBRARY_PATH=(conda installation "
+"destination)/lib:$LD_LIBRARY_PATH"
+
+#: ../../usage/m3gnet.rst:69 ../../usage/ocp.rst:183
+msgid "また、Linuxでは環境変数 :envvar:`OPAL_PREFIX` を設定してください。"
+msgstr "Also, on Linux, set the environment variable :envvar:`OPAL_PREFIX` ."
+
+#: ../../usage/m3gnet.rst:71 ../../usage/ocp.rst:185
+msgid "デフォルトの場所にインストールした場合の例"
+msgstr "in case installed in default location"
+
+#: ../../usage/m3gnet.rst:71 ../../usage/ocp.rst:185
+msgid "$ export OPAL_PREFIX=/opt/AdvanceSoft/NanoLabo/exec.LINUX/mpi"
+msgstr ""
+
+#: ../../usage/m3gnet.rst:76
+msgid ""
+"LAMMPSから :file:`m3gnet_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の "
+":file:`m3gnet` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 "
+":envvar:`PYTHONPATH` に追加します。"
+msgstr ""
+"Since LAMMPS calls :file:`m3gnet_driver.py` when it works, add "
+":file:`m3gnet` folder in NanoLabo Tool installation destination to the "
+"module search path of Python. Add it to environment variable "
+":envvar:`PYTHONPATH`\\ , for example."
+
+#: ../../usage/m3gnet.rst:78 ../../usage/ocp.rst:192
+msgid "Linuxの例"
+msgstr "Linux example"
+
+#: ../../usage/m3gnet.rst:78
+msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/m3gnet:$PYTHONPATH"
+msgstr ""
+"$ export PYTHONPATH=(NanoLabo Tool installation "
+"destination)/m3gnet:$PYTHONPATH"
+
+#: ../../usage/m3gnet.rst:83 ../../usage/ocp.rst:197
+msgid "LAMMPSの入力ファイル中で、以下のように\\ ``pair_style``\\ を設定します。"
+msgstr "Set ``pair_style`` as below in the LAMMPS input file."
+
+#: ../../usage/m3gnet.rst:85
+msgid ""
+"pair_style m3gnet\n"
+"pair_coeff * * <model> <元素名1 元素名2 ...>"
+msgstr ""
+"pair_style m3gnet\n"
+"pair_coeff * * <model> <element1 element2 ...>"
+
+#: ../../usage/m3gnet.rst:91
+msgid "M3GNet + DFT-D3による補正"
+msgstr "M3GNet + DFT-D3 correction"
+
+#: ../../usage/m3gnet.rst:91
+msgid ""
+"pair_style m3gnet/d3\n"
+"pair_coeff * * <model> <元素名1 元素名2 ...>"
+msgstr ""
+"pair_style m3gnet/d3\n"
+"pair_coeff * * <model> <element1 element2 ...>"
+
+#: ../../usage/m3gnet.rst:97 ../../usage/ocp.rst:211
+msgid "パラメーター"
+msgstr "Parameter"
+
+#: ../../usage/m3gnet.rst:103 ../../usage/ocp.rst:217
+msgid "model"
+msgstr ""
+
+#: ../../usage/m3gnet.rst ../../usage/ocp.rst
+msgid "使用するグラフニューラルネットワークのモデル"
+msgstr "graph neural network model to be used"
+
+#: ../../usage/m3gnet.rst
+msgid "MP-2021.2.8-EFSを指定（配布されている学習済みモデル）"
+msgstr "specify MP-2021.2.8-EFS (distributed pretrained model)"
+
+#: ../../usage/m3gnet.rst:106 ../../usage/ocp.rst:221
+msgid "元素名"
+msgstr "element"
+
+#: ../../usage/m3gnet.rst:106 ../../usage/ocp.rst:221
+msgid "LAMMPSのatom type毎に、対応する元素名を列挙"
+msgstr "list element names in the same order as atom types of LAMMPS"
 
 #: ../../usage/metro.rst:5
 msgid "メトロポリス法"
@@ -3487,226 +3685,242 @@ msgstr ""
 msgid "Open Catalyst Project汎用力場を使うための設定"
 msgstr "Setup for Open Catalyst Project versatile force field"
 
-#: ../../usage/ocp.rst:10
-msgid "Pythonの設定"
-msgstr "Setting Python"
-
 #: ../../usage/ocp.rst:12
 msgid ""
 "Open Catalyst Projectで公開されている\\ `インストール手順 <https://github.com/Open-"
-"Catalyst-Project/ocp/tree/master#installation>`_\\ "
+"Catalyst-Project/ocp/tree/main#installation>`_\\ "
 "に沿って、LAMMPSから汎用力場を使うために必要な設定手順を説明します。"
 msgstr ""
 "Setup procedure required for using the versatile force field from LAMMPS "
 "is described here, based on the `installation procedure "
-"<https://github.com/Open-Catalyst-Project/ocp/tree/master#installation>`_"
+"<https://github.com/Open-Catalyst-Project/ocp/tree/main#installation>`_"
 " published by the Open Catalyst Project."
 
-#: ../../usage/ocp.rst:14
-msgid "実際に計算を行うマシン（計算サーバーにジョブ投入する場合には、その計算サーバー上）でインストールを行ってください。"
-msgstr ""
-"Perform the installation on the actual machine used for the calculation "
-"(e.g. if you will submit the job to the calculation server, install on "
-"the server)."
-
 #: ../../usage/ocp.rst:16
+msgid ""
+"Open Catalyst "
+"Projectのリポジトリは継続的に更新されており、このページで説明するインストール手順は最新でない場合があります。インストール・実行がうまくいかない場合は元のインストール手順もご参照ください。"
+msgstr ""
+"The Open Catalyst Project repository is countinuously updated, therefore the installation precedure described in this page might not be up-to-date. "
+"If the installation or execution is not going well, please also refer to the original installation procedure."
+
+#: ../../usage/ocp.rst:18
 msgid "（任意）CUDAの用意"
 msgstr "(Optional) Preparing CUDA"
 
-#: ../../usage/ocp.rst:18
+#: ../../usage/ocp.rst:20
 msgid "GPUを使って計算を行うには、CUDA Toolkitがインストールされている必要があります。"
 msgstr "To use GPU for the calculation, CUDA Tookit must be installed."
 
-#: ../../usage/ocp.rst:20
+#: ../../usage/ocp.rst:22
 msgid ""
 "NVIDIAの\\ `ダウンロードページ <https://developer.nvidia.com/cuda-toolkit-"
-"archive>`_\\ からCUDA Toolkit "
-"10.2（Ampere世代GPUの場合は11.1）をダウンロードし、インストールしてください。"
+"archive>`_\\ からCUDA Toolkit 11.6をダウンロードし、インストールしてください。"
 msgstr ""
-"Download CUDA Toolkit 10.2 (for Ampere GPU, 11.1) from NVIDIA `download "
-"page <https://developer.nvidia.com/cuda-toolkit-archive>`_ and install "
-"it."
+"Download CUDA Toolkit 11.6 from NVIDIA `download page "
+"<https://developer.nvidia.com/cuda-toolkit-archive>`_ and install it."
 
-#: ../../usage/ocp.rst:22
+#: ../../usage/ocp.rst:24
 msgid "NVIDIAドライバがインストールされていない場合は、そちらもインストールしてください。"
 msgstr "If NVIDIA driver is not installed, install it as well."
 
-#: ../../usage/ocp.rst:24
-msgid "conda環境の用意"
-msgstr "Preparing conda environment"
-
-#: ../../usage/ocp.rst:26
-msgid "Python環境としてcondaを使用します。現在condaをお使いでない場合は、必要最小限の構成であるMinicondaを推奨します。"
-msgstr ""
-"Conda is used as the Python environment. If you are not currently using "
-"conda, Miniconda, which has the minimum required configuration, is "
-"recommended."
-
-#: ../../usage/ocp.rst:28
-msgid ""
-"`Minicondaのページ <https://docs.conda.io/en/latest/miniconda.html>`_\\ "
-"からインストーラーをダウンロードし、インストールしてください。"
-msgstr ""
-"Download the installer form the `Miniconda page "
-"<https://docs.conda.io/en/latest/miniconda.html>`_ and install it."
-
-#: ../../usage/ocp.rst:30
-msgid ""
-"Windowsで環境変数 :envvar:`PATH` を変更しない設定でインストールした場合、以降の作業はスタートメニューからAnaconda "
-"Promptを起動して行ってください。"
-msgstr ""
-"On Windows, in case you install it without changing the :envvar:`PATH`\\ "
-", launch Anaconda Prompt from the Start menu and use it for the following"
-" procedure."
-
-#: ../../usage/ocp.rst:32
+#: ../../usage/ocp.rst:34
 msgid "ocp-modelsリポジトリの用意"
 msgstr "Preparing ocp-models repository"
 
-#: ../../usage/ocp.rst:34
+#: ../../usage/ocp.rst:36
 msgid "gitコマンドが使える場合は"
 msgstr "If git command is available, run"
 
-#: ../../usage/ocp.rst:36
+#: ../../usage/ocp.rst:38
 msgid "git clone https://github.com/Open-Catalyst-Project/ocp.git"
 msgstr ""
 
-#: ../../usage/ocp.rst:40
+#: ../../usage/ocp.rst:42
 msgid ""
 "または https://github.com/Open-Catalyst-"
-"Project/ocp/archive/refs/heads/master.zip をダウンロード・解凍します。"
+"Project/ocp/archive/refs/heads/main.zip をダウンロード・解凍します。"
 msgstr ""
 "otherwise, download and extract https://github.com/Open-Catalyst-"
-"Project/ocp/archive/refs/heads/master.zip ."
+"Project/ocp/archive/refs/heads/main.zip ."
 
-#: ../../usage/ocp.rst:42
-msgid "Ampere世代GPUを使う場合は :file:`env.gpu.yml` を開き、次の2行を変更してください。"
+#: ../../usage/ocp.rst:46
+msgid "リポジトリのフォルダに移動し、まずはインストールに使用するパッケージをインストールします。"
 msgstr ""
-"If you use Ampere GPU, open :file:`env.gpu.yml` and modify the following "
-"2 lines."
+"Go to the repository folder, and first install the packages used for the "
+"installation."
 
-#: ../../usage/ocp.rst:44
-msgid "変更前"
-msgstr "Before"
-
-#: ../../usage/ocp.rst:44
-msgid ""
-"- cudatoolkit=10.2\n"
-"- -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html"
+#: ../../usage/ocp.rst:48
+msgid "conda install mamba conda-merge -n base -c conda-forge"
 msgstr ""
 
-#: ../../usage/ocp.rst:50
-msgid "変更後"
-msgstr "After"
-
-#: ../../usage/ocp.rst:50
-msgid ""
-"- cudatoolkit=11.1\n"
-"- -f https://pytorch-geometric.com/whl/torch-1.9.0+cu111.html"
+#: ../../usage/ocp.rst:52
+msgid "次に、ocp-models仮想環境の作成に必要なパッケージが書かれたファイル :file:`env.yml` を出力します。"
 msgstr ""
+"Next, export the package list required to create ocp-models virtual "
+"environment to the file :file:`env.yml` ."
 
-#: ../../usage/ocp.rst:56
-msgid "インストール"
-msgstr "Installation"
-
-#: ../../usage/ocp.rst:58
-msgid "リポジトリのフォルダに移動し、"
-msgstr "Go to the repository folder and run"
-
-#: ../../usage/ocp.rst:60
-msgid "pip install conda-merge"
-msgstr ""
-
-#: ../../usage/ocp.rst:64
-msgid "を実行します。次に、ocp-models仮想環境を作成します。"
-msgstr "Then create the ocp-models virtual environment:"
-
-#: ../../usage/ocp.rst:66 ../../usage/ocp.rst:160
+#: ../../usage/ocp.rst:54 ../../usage/ocp.rst:199
 msgid "CPUで計算を行う（GPUを使わない）場合"
 msgstr "Use CPU for calculation (do not use GPU)"
 
-#: ../../usage/ocp.rst:66
-msgid ""
-" conda-merge env.common.yml env.cpu.yml > env.yml\n"
-" conda env create -f env.yml\n"
-" conda activate ocp-models"
+#: ../../usage/ocp.rst:54
+msgid " conda-merge env.common.yml env.cpu.yml > env.yml"
 msgstr ""
 
-#: ../../usage/ocp.rst:73 ../../usage/ocp.rst:166
+#: ../../usage/ocp.rst:59 ../../usage/ocp.rst:80 ../../usage/ocp.rst:205
 msgid "GPUで計算を行う場合"
 msgstr "Use GPU for calculation"
 
-#: ../../usage/ocp.rst:73
+#: ../../usage/ocp.rst:59
+msgid " conda-merge env.common.yml env.gpu.yml > env.yml"
+msgstr ""
+
+#: ../../usage/ocp.rst:64
+msgid "ここで環境により、 :file:`env.yml` を開いて修正します。"
+msgstr "Depending on your environment, open and modify :file:`env.yml` ."
+
+#: ../../usage/ocp.rst:66
+msgid "Windowsの場合は、一部のパッケージについて指定されたバージョンが存在しないため、次の2行を変更してください。"
+msgstr ""
+"On Windows, edit following 2 lines as some of specified package versions "
+"are not available."
+
+#: ../../usage/ocp.rst:68
+msgid "変更前"
+msgstr "Before"
+
+#: ../../usage/ocp.rst:68
 msgid ""
-" conda-merge env.common.yml env.gpu.yml > env.yml\n"
-" conda env create -f env.yml\n"
-" conda activate ocp-models"
+"- pyg=2.2.0\n"
+"- pytorch=1.13.1"
+msgstr ""
+
+#: ../../usage/ocp.rst:74
+msgid "CPUで計算を行う場合"
+msgstr "Use CPU for calculation"
+
+#: ../../usage/ocp.rst:74
+msgid ""
+"- pyg=*=*cpu*\n"
+"- pytorch=1.12"
 msgstr ""
 
 #: ../../usage/ocp.rst:80
-msgid "macOSで、かつCPUで計算を行う場合"
-msgstr "On macOS and use CPU for calculation"
-
-#: ../../usage/ocp.rst:80
 msgid ""
-" conda env create -f env.common.yml\n"
-" conda activate ocp-models\n"
-" MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ pip install torch-"
-"cluster torch-scatter torch-sparse torch-spline-conv -f https://pytorch-"
-"geometric.com/whl/torch-1.9.0+cpu.html"
+"- pyg\n"
+"- pytorch=1.12"
 msgstr ""
 
-#: ../../usage/ocp.rst:87
-msgid "最後に"
-msgstr "Finally, run"
+#: ../../usage/ocp.rst:86
+msgid ""
+"また、CPUで計算を行う場合、関連ライブラリのCPUバージョンを明示的に指定するため、次の4行を ``dependencies:`` "
+"のリスト内に追加してください（\\ ``- pytorch=``\\ の行の前後に追加すると分かりやすいです）。"
+msgstr ""
+"Also, if you plan to use CPU for calculations, add following 4 lines in "
+"``dependencies:`` list to explicitly specify the CPU versions of related "
+"libraries (add them next to ``- pytorch=`` line to make it easily "
+"understood)."
 
-#: ../../usage/ocp.rst:89
-msgid "pip install -e ."
+#: ../../usage/ocp.rst:88
+msgid ""
+"- pytorch-cluster=*=*cpu*\n"
+"- pytorch-scatter=*=*cpu*\n"
+"- pytorch-sparse=*=*cpu*\n"
+"- pytorch-spline-conv=*=*cpu*"
 msgstr ""
 
-#: ../../usage/ocp.rst:93
-msgid "を実行してリポジトリの内容をパッケージとしてインストールします。"
-msgstr "to install the content of the repository as package."
+#: ../../usage/ocp.rst:95
+msgid "その後、実際に仮想環境を作成します。"
+msgstr "Then, actually make the virtual environment."
 
 #: ../../usage/ocp.rst:97
+msgid "mamba env create -f env.yml"
+msgstr ""
+
+#: ../../usage/ocp.rst:101
+msgid "パッケージのダウンロード・インストールが行われるため、時間がかかります。"
+msgstr ""
+"This may take some time because download and installation of packages are"
+" performed."
+
+#: ../../usage/ocp.rst:103
+msgid "成功したら、ocp-models仮想環境に入り、リポジトリの内容をパッケージとしてインストールします。"
+msgstr ""
+"When successed, enter the ocp-models virtual environment, and install the"
+" content of the repository as a package."
+
+#: ../../usage/ocp.rst:105
+msgid ""
+"conda activate ocp-models\n"
+"pip install -e ."
+msgstr ""
+
+#: ../../usage/ocp.rst:112
+msgid "以下のようなエラーが出た場合、 :file:`env.yml` で指定されているパッケージのバージョンを変更することで解消する場合があります。"
+msgstr ""
+"If there is an error as below, it may be resolved by changing the package"
+" version specified in :file:`env.yml`\\ ."
+
+#: ../../usage/ocp.rst:114
+msgid ""
+"Could not solve for environment specs\n"
+"Encountered problems while solving:\n"
+"  - nothing provides requested （パッケージ名） （バージョン）"
+msgstr ""
+"Could not solve for environment specs\n"
+"Encountered problems while solving:\n"
+"  - nothing provides requested (package name) (version)"
+
+#: ../../usage/ocp.rst:120
+msgid "利用可能なパッケージのバージョンを検索するには、以下のコマンドを実行します。"
+msgstr "Execute the following command to search available package versions."
+
+#: ../../usage/ocp.rst:122
+msgid ""
+"mamba search -c pytorch -c nvidia -c pyg -c conda-forge -c defaults "
+"（パッケージ名）"
+msgstr ""
+"mamba search -c pytorch -c nvidia -c pyg -c conda-forge -c defaults "
+"(package name)"
+
+#: ../../usage/ocp.rst:126
+msgid ":file:`env.yml` で該当するパッケージのバージョンを変更したら、環境の作成を再試行します。"
+msgstr ""
+"Once you change the corresponding package version in :file:`env.yml`\\ , "
+"retry creating the environment."
+
+#: ../../usage/ocp.rst:128
+msgid "mamba env update -f env.yml"
+msgstr ""
+
+#: ../../usage/ocp.rst:132
+msgid "ただし、指定されたものと異なるバージョンのパッケージで環境を作成した場合、正常に動作しない可能性がありますので、注意して動作確認を行ってください。"
+msgstr ""
+"Note that however, the environment created with different version of "
+"package may not work properly, so please check the operation carefully."
+
+#: ../../usage/ocp.rst:136
 msgid "ここで作成したocp-models仮想環境を削除するには、"
 msgstr "To remove the ocp-models virtual environment created here, run"
 
-#: ../../usage/ocp.rst:99
+#: ../../usage/ocp.rst:138
 msgid ""
 "conda deactivate\n"
-"conda remove -n ocp-models --all"
+"mamba remove -n ocp-models --all"
 msgstr ""
 
-#: ../../usage/ocp.rst:104
+#: ../../usage/ocp.rst:143
 msgid "を実行します。"
 msgstr "\\ "
 
-#: ../../usage/ocp.rst:106
+#: ../../usage/ocp.rst:145
 msgid "学習済みのモデル（ptファイル）はNanoLabo Toolに同梱されているため、ダウンロードの手順を行う必要はありません。"
 msgstr ""
 "There is no need to do download procedure, as pretrained models (pt "
 "files) are included in the NanoLabo Tool."
 
-#: ../../usage/ocp.rst:111
-msgid "NanoLaboへの設定"
-msgstr "Configuring NanoLabo"
-
-#: ../../usage/ocp.rst:113
-msgid "ローカル（NanoLaboを使っているマシン）で実行する場合"
-msgstr "To run locally (on the machine running NanoLabo)"
-
-#: ../../usage/ocp.rst:115
-msgid ""
-"画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` "
-"（またはForce Field設定画面の :guilabel:`Setting Python` "
-"ボタン）でpython実行ファイルのパスを設定します。"
-msgstr ""
-"Set the python executable path in :menuselection:`Properties --> Python` "
-"from the upper left menu |mainmenuicon| (or :guilabel:`Setting Python` "
-"button in the Force Field setting screen)."
-
-#: ../../usage/ocp.rst:117
+#: ../../usage/ocp.rst:156
 msgid ""
 "Windowsでは :file:`condaのインストール先\\\\envs\\\\ocp-models\\\\python.exe` "
 "、Linux・macOSでは :file:`condaのインストール先/envs/ocp-models/bin/python` にあります。"
@@ -3715,29 +3929,7 @@ msgstr ""
 "models\\\\python.exe` on Windows, and :file:`conda installation "
 "destination/envs/ocp-models/bin/python` on Linux/macOS."
 
-#: ../../usage/ocp.rst:119
-msgid "リモート（計算サーバー等）で実行する場合"
-msgstr "To run remotely (on calculation server etc.)"
-
-#: ../../usage/ocp.rst:121
-msgid ""
-"condaのインストール先が :file:`~/anaconda3` または :file:`~/miniconda3` "
-"の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、設定は必要ありません。"
-msgstr ""
-"In case conda is installed in :file:`~/anaconda3` or "
-":file:`~/miniconda3`\\ , it works with autmatically added "
-":envvar:`LD_LIBRARY_PATH`\\ , therefore no configuration is needed."
-
-#: ../../usage/ocp.rst:123
-msgid ""
-"他の場所にインストールした場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> "
-"SSH server` を開き、ジョブスクリプトに :envvar:`LD_LIBRARY_PATH` を追加してください。"
-msgstr ""
-"If installed in the other location, click the icon |mainmenuicon| on the "
-"upper left, open :menuselection:`Network --> SSH server`\\ , and then add"
-" :envvar:`LD_LIBRARY_PATH` to the job script."
-
-#: ../../usage/ocp.rst:125
+#: ../../usage/ocp.rst:164
 msgid ""
 "export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
@@ -3745,28 +3937,16 @@ msgstr ""
 "export LD_LIBRARY_PATH=(conda installation destination)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/ocp.rst:134
-msgid "LAMMPSを直接実行する場合"
-msgstr "Using LAMMPS directly"
-
-#: ../../usage/ocp.rst:136
+#: ../../usage/ocp.rst:175
 msgid ""
 "NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` "
-"を使用します。MPI並列計算、ビリアル応力の計算（NPTアンサンブル、セル最適化）には非対応です。"
+"を使用します。MPI並列計算、ビリアル応力の計算（NPT・NPHアンサンブル、セル最適化）には非対応です。"
 msgstr ""
 "Use the executable file :file:`lammps_oc20` included in NanoLabo Tool. "
-"MPI parallel execution and virial stress calculation (NPT ensemble, cell "
-"optimization) are not supported."
+"MPI parallel execution and virial stress calculation (NPT/NPH ensemble, "
+"cell optimization) are not supported."
 
-#: ../../usage/ocp.rst:138
-msgid ""
-"Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` "
-"を設定してください。"
-msgstr ""
-"On Linux/macOS, set the environment variable :envvar:`LD_LIBRARY_PATH` , "
-"so the program can use Python dynamic library when executed."
-
-#: ../../usage/ocp.rst:140
+#: ../../usage/ocp.rst:179
 msgid ""
 "$ export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
@@ -3774,19 +3954,7 @@ msgstr ""
 "$ export LD_LIBRARY_PATH=(conda installation destination)/envs/ocp-"
 "models/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/ocp.rst:144
-msgid "また、Linuxでは環境変数 :envvar:`OPAL_PREFIX` を設定してください。"
-msgstr "Also, on Linux, set the environment variable :envvar:`OPAL_PREFIX` ."
-
-#: ../../usage/ocp.rst:146
-msgid "デフォルトの場所にインストールした場合の例"
-msgstr "in case installed in default location"
-
-#: ../../usage/ocp.rst:146
-msgid "$ export OPAL_PREFIX=/opt/AdvanceSoft/NanoLabo/exec.LINUX/mpi"
-msgstr ""
-
-#: ../../usage/ocp.rst:151
+#: ../../usage/ocp.rst:190
 msgid ""
 "LAMMPSから :file:`oc20_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の "
 ":file:`oc20driver` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 "
@@ -3797,21 +3965,13 @@ msgstr ""
 "the module search path of Python. Add it to environment variable "
 ":envvar:`PYTHONPATH`\\ , for example."
 
-#: ../../usage/ocp.rst:153
-msgid "Linuxの例"
-msgstr "Linux example"
-
-#: ../../usage/ocp.rst:153
+#: ../../usage/ocp.rst:192
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/oc20driver:$PYTHONPATH"
 msgstr ""
 "$ export PYTHONPATH=(NanoLabo Tool installation "
 "destination)/oc20driver:$PYTHONPATH"
 
-#: ../../usage/ocp.rst:158
-msgid "LAMMPSの入力ファイル中で、以下のように\\ ``pair_style``\\ を設定します。"
-msgstr "Set ``pair_style`` as below in the LAMMPS input file."
-
-#: ../../usage/ocp.rst:160
+#: ../../usage/ocp.rst:199
 msgid ""
 "pair_style oc20\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -3819,7 +3979,7 @@ msgstr ""
 "pair_style oc20\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/ocp.rst:166
+#: ../../usage/ocp.rst:205
 msgid ""
 "pair_style oc20/gpu\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -3827,29 +3987,15 @@ msgstr ""
 "pair_style oc20/gpu\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/ocp.rst:172
-msgid "パラメーター"
-msgstr "Parameter"
-
-#: ../../usage/ocp.rst:178
-msgid "model"
-msgstr ""
+#: ../../usage/ocp.rst
+msgid ""
+"DimeNet++, GemNet-dT_OC20, GemNet-dT_OC22, CGCNN, SchNet, SpinConv "
+"のいずれかを指定"
+msgstr "specify one of DimeNet++, GemNet-dT_OC20, GemNet-dT_OC22, CGCNN, SchNet, SpinConv"
 
 #: ../../usage/ocp.rst
-msgid "使用するグラフニューラルネットワークのモデル"
-msgstr "graph neural network model to be used"
-
-#: ../../usage/ocp.rst
-msgid "DimeNet++, GemNet-dT, CGCNN, SchNet, SpinConv のいずれかを指定"
-msgstr "specify one of DimeNet++, GemNet-dT, CGCNN, SchNet, SpinConv"
-
-#: ../../usage/ocp.rst:181
-msgid "元素名"
-msgstr "element"
-
-#: ../../usage/ocp.rst:181
-msgid "LAMMPSのatom type毎に、対応する元素名を列挙"
-msgstr "list element names in the same order as atom types of LAMMPS"
+msgid "（GemNet-dTを指定した場合、GemNet-dT_OC20を使用します）"
+msgstr "GemNet-dT_OC20 is used if GemNet-dT is specified"
 
 #: ../../usage/project.rst:5
 msgid "プロジェクト"
@@ -4071,18 +4217,18 @@ msgstr ""
 "must be saved in C drive (due to specification of Quantum ESPRESSO)."
 
 #: ../../usage/project.rst:89
-msgid "計算をリモートで行う場合、プロジェクトの保存先は.nanolaboフォルダ内にする必要があります（ローカルとリモートのフォルダ構造を対応させる都合による）。"
+msgid "この制限は、ジャンクションを使うことで回避できます。下記の例のようにコマンドを実行して設定することで、NanoLabo上でextフォルダに保存したデータが、実体としてはnanolaboDataフォルダに保存されます。"
 msgstr ""
-"If you run calculation remotely, the project must be saved in .naolabo "
-"folder (to match folder structure between local and remote)."
-
-#: ../../usage/project.rst:91
-msgid "これらの制限は、シンボリックリンク（Windowsではジャンクション）を使うことで回避できます。下記の例のようにコマンドを実行して設定することで、NanoLabo上でextフォルダに保存したデータが、実体としてはnanolaboDataフォルダに保存されます。"
-msgstr ""
-"These limitations can be avoided by using symbolic link (or junction on "
-"Windows). You can set it by executing commands as example below, and when"
+"This limitation can be avoided by using junction. You can set it by executing commands as example below, and when"
 " you save data in ext folder on NanoLabo, the actual data will be stored "
 "in nanolaboData folder."
+
+#: ../../usage/project.rst:91
+msgid ""
+"また、Linuxでもシンボリックリンクを使うことで、\\ :file:`.nanolabo`\\ の外にあるフォルダを\\ "
+":file:`.nanolabo`\\ 内にあるように扱うことができます。"
+msgstr ""
+"Also on Linux, using simbolic link, you can handle a folder out of :file:`.nanolabo` as if it is in :file:`.nanolabo`\\ ."
 
 #: ../../usage/project.rst:93
 msgid "Windows"
@@ -4649,9 +4795,9 @@ msgid "Job Manager"
 msgstr "Job Manager settings"
 
 #: ../../usage/sshserver.rst:35
-msgid "サーバーで使われているジョブ管理システムを選択します。PBS、SLURMに対応しています。Rawを選択すると、ジョブ管理システムを使わずに直接計算を実行します。"
+msgid "サーバーで使われているジョブ管理システムを選択します。PBS、SLURM、PJMに対応しています。Rawを選択すると、ジョブ管理システムを使わずに直接計算を実行します。"
 msgstr ""
-"Select job manager used on the server. PBS and SLURM are supported. "
+"Select job manager used on the server. PBS, SLURM and PJM are supported. "
 "Select Raw to execute the calculation directly without using job manager."
 
 #: ../../usage/sshserver.rst:39

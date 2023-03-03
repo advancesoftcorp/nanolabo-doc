@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-03 16:54+0900\n"
+"POT-Creation-Date: 2023-03-02 14:51+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,270 +22,350 @@ msgstr ""
 msgid "バージョン情報"
 msgstr "Version Information"
 
-#: ../../version.rst:50
-msgid "2022/09/30 バージョン2.6"
-msgstr "2022/09/30 Version 2.6"
+#: ../../version.rst:31
+msgid "2023/03/-- バージョン2.7"
+msgstr "2023/03/-- Version 2.7"
 
-#: ../../version.rst:8 ../../version.rst:53 ../../version.rst:75
-#: ../../version.rst:98 ../../version.rst:119 ../../version.rst:133
-#: ../../version.rst:151 ../../version.rst:160 ../../version.rst:169
-#: ../../version.rst:194 ../../version.rst:203 ../../version.rst:216
+#: ../../version.rst:8 ../../version.rst:34 ../../version.rst:79
+#: ../../version.rst:101 ../../version.rst:124 ../../version.rst:145
+#: ../../version.rst:159 ../../version.rst:177 ../../version.rst:186
+#: ../../version.rst:195 ../../version.rst:220 ../../version.rst:229
+#: ../../version.rst:242
 msgid "機能追加"
 msgstr "New features"
 
 #: ../../version.rst:10
-msgid "NeuralMD: Ver.1.7に対応した機能追加"
-msgstr "NeuralMD: new features correspond to Ver.1.7"
+msgid "NeuralMD: Ver.1.8に対応した機能追加"
+msgstr "NeuralMD: new features correspond to Ver.1.8"
 
 #: ../../version.rst:12
-msgid "SLHMCのセル変形方法としてNNP-MDをNPHで行う方法を追加"
-msgstr "add cell deformation method of SLHMC which performs NNP-MD by NPH"
-
-#: ../../version.rst:13
-msgid "SLHMCのエラー終了時にCRASHログを出力"
-msgstr "output CRASH log when SLHMC is terminated with error"
+msgid "ReaxFFを用いた\\ |Delta|\\ -NNP法"
+msgstr "|Delta|\\ -NNP method using ReaxFF"
 
 #: ../../version.rst:14
-msgid "GPU使用の設定を追加（Linux・NeuralMD Pro版のみ）"
-msgstr "setting to use GPU (Linux / NeuralMD Pro edition only)"
+msgid "LAMMPS: 無機固体用のグラフニューラルネットワーク力場M3GNetに対応"
+msgstr "LAMMPS: support M3GNet, graph neural network force field for inorganic solid"
+
+#: ../../version.rst:15
+msgid "LAMMPS: Open Catalyst 2022(GemNet-dT)力場に対応"
+msgstr "LAMMPS: support Open Catalyst 2022(GemNet-dT) force field"
 
 #: ../../version.rst:16
-msgid "NeuralMD: SLHMCをリモート実行した際の、データ(slhmc_dat)のダウンロード有無の設定"
-msgstr ""
-"NeuralMD: download setting of SLHMC data (slhmc_dat) when executed remotely"
+msgid "PJMジョブ管理システムに対応"
+msgstr "support PJM job management system"
 
 #: ../../version.rst:17
-msgid "LAMMPS: 初速度を指定の温度で生成する機能"
-msgstr "LAMMPS: generate initial velocity at specified temperature"
+msgid "リモートジョブ投入後にローカルのプロジェクトフォルダを移動しても結果を取得できるよう対応"
+msgstr "after posting remote job, results can be retrieved even if local project folder is moved"
 
 #: ../../version.rst:18
-msgid "LAMMPS: 計算実行前に、入力ファイルを表示および編集する機能"
-msgstr "LAMMPS: display / edit input files before calculation"
+msgid ""
+"プロジェクトが :file:`.nanolabo` "
+"フォルダ外にある、またはプロジェクト名にLinuxで使えない文字が含まれている場合でもジョブ投入できるよう対応"
+msgstr "can post job even if project is out of :file:`.nanolabo` folder or project name has characters invalid on Linux"
 
 #: ../../version.rst:19
-msgid "LAMMPS: 計算結果の時系列プロットで、データ点を省略して表示速度を向上（設定で切り替え可能）"
-msgstr ""
-"LAMMPS: reduce data points to show to improve display performance (can be toggled in setting)"
-
-#: ../../version.rst:20
-msgid "LAMMPS: NPHアンサンブルに対応"
-msgstr ""
-"LAMMPS: support NPH ensemble"
+msgid "（Mac版）Apple M1対応版（ARM版）をリリース"
+msgstr "(Mac) Apple M1 support ver. (ARM ver.) released"
 
 #: ../../version.rst:21
-msgid "LAMMPS: 多体力場(Tersoff、EAM、ReaxFF、NeuralMD)使用時、入力ファイル中の原子の順序を自動修正"
-msgstr ""
-"LAMMPS: auto-fix order of atoms in input file when using many body force field (Tersoff, EAM, ReaxFF, NeuralMD)"
+msgid "従来版（Intel版）とは別のインストーラーとして提供しますので、ダウンロード時にお使いのマシンに合ったものを選んでください。"
+msgstr "distributed as separate installer from pre-existing ver. (Intel ver.), please choose suitable one for your machine when download."
 
-#: ../../version.rst:22
-msgid "LAMMPS: 構造最適化時のセル変形の設定"
-msgstr "LAMMPS: cell deformation setting on structure optimization"
-
-#: ../../version.rst:23
-msgid "LAMMPS: 入力ファイルに任意のコマンドを追加する機能"
-msgstr "LAMMPS: function to insert arbitrary commands to input file"
-
-#: ../../version.rst:24
-msgid "LAMMPS: ユーザー定義を含む任意の変数をCSV出力＆時系列プロットする機能"
-msgstr "LAMMPS: function to add arbitrary variable including user defined one for CSV output & time series plot"
-
-#: ../../version.rst:25
-msgid "LAMMPS: 画面上で原子グループを定義する機能"
-msgstr "LAMMPS: function to define atom group on GUI"
-
-#: ../../version.rst:26
-msgid "LAMMPS: 原子グループに電場を印加／外力を加える／指定速度で移動させる／指定速度で格子変形させる機能"
-msgstr "LAMMPS: function to apply electric field / apply external force / move at constant speed / deform cell at constant speed"
-
-#: ../../version.rst:27
-msgid "LAMMPS: ニューラルネットワーク力場の計算をGPU化（Linuxのみ）"
-msgstr "LAMMPS: use GPU for neural network force field calculation (Linux only)"
-
-#: ../../version.rst:28
-msgid "QE: Phonon計算にて、有効電荷を使用した格子誘電関数の計算機能"
-msgstr "QE: calculation of lattice dielectric function using effective charge in Phonon calculation"
-
-#: ../../version.rst:29
-msgid "QE: Phonon分散にて、Non-Analytic Termの計算に対応"
-msgstr "QE: support Non-analytic term calculation in Phonon Dispersion calculation"
-
-#: ../../version.rst:30
-msgid "QE: Car-Parrinello MDにおけるAutopilotの設定画面を追加"
-msgstr "QE: add Autopilot setting screen for Car-Parrinello MD"
-
-#: ../../version.rst:31
-msgid "QE: NanoLabo Tool に新しい擬ポテンシャルライブラリーを追加（GBRV、SSSP）"
-msgstr "QE: add new pseudo potential library (GBRV, SSSP) to NanoLabo Tool"
-
-#: ../../version.rst:32
-msgid "QE: SCF計算における初期電荷量を設定する機能"
-msgstr "QE: add function to specify initial charge in SCF calculation"
-
-#: ../../version.rst:33
-msgid "分子描画機能において、3次元構造の生成にRDkitを使用（UFFによる構造最適化）"
-msgstr "Use RDkit for 3D structure generation (structure optimization by UFF) in molecule drawing function"
-
-#: ../../version.rst:34
-msgid "より対称性の高い結晶構造を探索する機能（判定閾値を指定した対称性判定）"
-msgstr "function to search crystal structure with higher symmetry (symmetry determination with specified deviation)"
-
-#: ../../version.rst:35
-msgid "リモートサーバーへの接続をテストする機能"
-msgstr "function to test connection to remote server"
-
-#: ../../version.rst:36
-msgid "SSH接続の公開鍵認証で、OpenSSH形式の秘密鍵に対応"
-msgstr "support OpenSSH format private key for public key authentication of SSH connection"
-
-#: ../../version.rst:37
-msgid "NanoLabo Tool PATH設定用バッチファイルを同梱（Window版のみ）"
-msgstr "include batch file to set PATH for NanoLabo Tool (Windows only)"
-
-#: ../../version.rst:38
-msgid "外部ファイラーでフォルダーを開く機能"
-msgstr "function to open folder in external filer"
-
-#: ../../version.rst:40 ../../version.rst:63 ../../version.rst:89
-#: ../../version.rst:110 ../../version.rst:125 ../../version.rst:141
+#: ../../version.rst:23 ../../version.rst:66 ../../version.rst:89
+#: ../../version.rst:115 ../../version.rst:136 ../../version.rst:151
+#: ../../version.rst:167
 msgid "変更・修正"
 msgstr "Change / fix"
 
-#: ../../version.rst:42
-msgid "LAMMPS: 最新バージョン(2Jun2022)に変更"
-msgstr "LAMMPS: change to latest version (2Jun2022)"
+#: ../../version.rst:25
+msgid "PDOS電卓のDOS定義数上限を16個に増加"
+msgstr "increase max number of DOS definitions in PDOS calculator"
 
-#: ../../version.rst:43
-msgid "LAMMPS: 入力ファイルのフォーマットを変更（ユーザーが編集可能な項目を増強）"
-msgstr "LAMMPS: change input file format (user can edit more items)"
+#: ../../version.rst:26
+msgid "リモートサーバー接続時、ホスト鍵としてRSA/SHA-1(ssh-rsa)以外の形式に対応"
+msgstr "support host key type other than RSA/SHA-1(ssh-rsa) when connecting to remote server"
 
-#: ../../version.rst:44
-msgid "LAMMPS: デフォルトの擬ポテンシャルをGBRV（GBRV非対応の元素はSSSP）に変更"
-msgstr "LAMMPS: change default pseudo potential to GBRV (or SSSP if GBRV unavailable for the element)"
+#: ../../version.rst:27
+msgid "材料データベース検索で使用しているMaterials Project APIのURL変更に対応"
+msgstr "reflect URL change of Materials Project API used in materials database search"
 
-#: ../../version.rst:45
-msgid "リモートサーバーからファイルをダウンロードする際のコマンド数を削減（通信速度の向上）"
-msgstr "reduce number of commands when downloading files from remote server (improved communication speed)"
+#: ../../version.rst:29
+msgid "バージョン2.6以前で暫定的に設定ファイルの変更で対応されていた場合、2.7にアップデート後はそのまま使っていただいても、変更を戻していただいても大丈夫です。"
+msgstr "if you modified configuration file to address this on Ver.2.6 or earlier, you can either keep it as it is, or revert the change, after updating to 2.7."
 
-#: ../../version.rst:47
-msgid "サポート対象OSからCentOS 6を除外"
-msgstr "exclude CentOS 6 from supported OS"
-
-#: ../../version.rst:48
-msgid "計算エンジンのCentOS版・AlmaLinux版を共通化（NanoLabo Toolインストーラーの一本化）"
-msgstr "unify CentOS version and AlmaLinux version of calculation engines (unify NanoLabo Tool installer)"
-
-#: ../../version.rst:49
-msgid "アイコンを変更"
-msgstr "change icon"
-
-#: ../../version.rst:50 ../../version.rst:72 ../../version.rst:95
-#: ../../version.rst:116 ../../version.rst:130 ../../version.rst:148
-#: ../../version.rst:157 ../../version.rst:166 ../../version.rst:182
-#: ../../version.rst:187 ../../version.rst:209
+#: ../../version.rst:31 ../../version.rst:76 ../../version.rst:98
+#: ../../version.rst:121 ../../version.rst:142 ../../version.rst:156
+#: ../../version.rst:174 ../../version.rst:183 ../../version.rst:192
+#: ../../version.rst:208 ../../version.rst:213 ../../version.rst:235
 msgid "その他、動作改善・バグ修正等"
 msgstr "Tune-ups, bug fixes, etc."
 
-#: ../../version.rst:72
+#: ../../version.rst:76
+msgid "2022/09/30 バージョン2.6"
+msgstr "2022/09/30 Version 2.6"
+
+#: ../../version.rst:36
+msgid "NeuralMD: Ver.1.7に対応した機能追加"
+msgstr "NeuralMD: new features correspond to Ver.1.7"
+
+#: ../../version.rst:38
+msgid "SLHMCのセル変形方法としてNNP-MDをNPHで行う方法を追加"
+msgstr "add cell deformation method of SLHMC which performs NNP-MD by NPH"
+
+#: ../../version.rst:39
+msgid "SLHMCのエラー終了時にCRASHログを出力"
+msgstr "output CRASH log when SLHMC is terminated with error"
+
+#: ../../version.rst:40
+msgid "GPU使用の設定を追加（Linux・NeuralMD Pro版のみ）"
+msgstr "setting to use GPU (Linux / NeuralMD Pro edition only)"
+
+#: ../../version.rst:42
+msgid "NeuralMD: SLHMCをリモート実行した際の、データ(slhmc_dat)のダウンロード有無の設定"
+msgstr ""
+"NeuralMD: download setting of SLHMC data (slhmc_dat) when executed "
+"remotely"
+
+#: ../../version.rst:43
+msgid "LAMMPS: 初速度を指定の温度で生成する機能"
+msgstr "LAMMPS: generate initial velocity at specified temperature"
+
+#: ../../version.rst:44
+msgid "LAMMPS: 計算実行前に、入力ファイルを表示および編集する機能"
+msgstr "LAMMPS: display / edit input files before calculation"
+
+#: ../../version.rst:45
+msgid "LAMMPS: 計算結果の時系列プロットで、データ点を省略して表示速度を向上（設定で切り替え可能）"
+msgstr ""
+"LAMMPS: reduce data points to show to improve display performance (can be"
+" toggled in setting)"
+
+#: ../../version.rst:46
+msgid "LAMMPS: NPHアンサンブルに対応"
+msgstr "LAMMPS: support NPH ensemble"
+
+#: ../../version.rst:47
+msgid "LAMMPS: 多体力場(Tersoff、EAM、ReaxFF、NeuralMD)使用時、入力ファイル中の原子の順序を自動修正"
+msgstr ""
+"LAMMPS: auto-fix order of atoms in input file when using many body force "
+"field (Tersoff, EAM, ReaxFF, NeuralMD)"
+
+#: ../../version.rst:48
+msgid "LAMMPS: 構造最適化時のセル変形の設定"
+msgstr "LAMMPS: cell deformation setting on structure optimization"
+
+#: ../../version.rst:49
+msgid "LAMMPS: 入力ファイルに任意のコマンドを追加する機能"
+msgstr "LAMMPS: function to insert arbitrary commands to input file"
+
+#: ../../version.rst:50
+msgid "LAMMPS: ユーザー定義を含む任意の変数をCSV出力＆時系列プロットする機能"
+msgstr ""
+"LAMMPS: function to add arbitrary variable including user defined one for"
+" CSV output & time series plot"
+
+#: ../../version.rst:51
+msgid "LAMMPS: 画面上で原子グループを定義する機能"
+msgstr "LAMMPS: function to define atom group on GUI"
+
+#: ../../version.rst:52
+msgid "LAMMPS: 原子グループに電場を印加／外力を加える／指定速度で移動させる／指定速度で格子変形させる機能"
+msgstr ""
+"LAMMPS: function to apply electric field / apply external force / move at"
+" constant speed / deform cell at constant speed"
+
+#: ../../version.rst:53
+msgid "LAMMPS: ニューラルネットワーク力場の計算をGPU化（Linuxのみ）"
+msgstr "LAMMPS: use GPU for neural network force field calculation (Linux only)"
+
+#: ../../version.rst:54
+msgid "QE: Phonon計算にて、有効電荷を使用した格子誘電関数の計算機能"
+msgstr ""
+"QE: calculation of lattice dielectric function using effective charge in "
+"Phonon calculation"
+
+#: ../../version.rst:55
+msgid "QE: Phonon分散にて、Non-Analytic Termの計算に対応"
+msgstr "QE: support Non-analytic term calculation in Phonon Dispersion calculation"
+
+#: ../../version.rst:56
+msgid "QE: Car-Parrinello MDにおけるAutopilotの設定画面を追加"
+msgstr "QE: add Autopilot setting screen for Car-Parrinello MD"
+
+#: ../../version.rst:57
+msgid "QE: NanoLabo Tool に新しい擬ポテンシャルライブラリーを追加（GBRV、SSSP）"
+msgstr "QE: add new pseudo potential library (GBRV, SSSP) to NanoLabo Tool"
+
+#: ../../version.rst:58
+msgid "QE: SCF計算における初期電荷量を設定する機能"
+msgstr "QE: add function to specify initial charge in SCF calculation"
+
+#: ../../version.rst:59
+msgid "分子描画機能において、3次元構造の生成にRDkitを使用（UFFによる構造最適化）"
+msgstr ""
+"Use RDkit for 3D structure generation (structure optimization by UFF) in "
+"molecule drawing function"
+
+#: ../../version.rst:60
+msgid "より対称性の高い結晶構造を探索する機能（判定閾値を指定した対称性判定）"
+msgstr ""
+"function to search crystal structure with higher symmetry (symmetry "
+"determination with specified deviation)"
+
+#: ../../version.rst:61
+msgid "リモートサーバーへの接続をテストする機能"
+msgstr "function to test connection to remote server"
+
+#: ../../version.rst:62
+msgid "SSH接続の公開鍵認証で、OpenSSH形式の秘密鍵に対応"
+msgstr ""
+"support OpenSSH format private key for public key authentication of SSH "
+"connection"
+
+#: ../../version.rst:63
+msgid "NanoLabo Tool PATH設定用バッチファイルを同梱（Window版のみ）"
+msgstr "include batch file to set PATH for NanoLabo Tool (Windows only)"
+
+#: ../../version.rst:64
+msgid "外部ファイラーでフォルダーを開く機能"
+msgstr "function to open folder in external filer"
+
+#: ../../version.rst:68
+msgid "LAMMPS: 最新バージョン(2Jun2022)に変更"
+msgstr "LAMMPS: change to latest version (2Jun2022)"
+
+#: ../../version.rst:69
+msgid "LAMMPS: 入力ファイルのフォーマットを変更（ユーザーが編集可能な項目を増強）"
+msgstr "LAMMPS: change input file format (user can edit more items)"
+
+#: ../../version.rst:70
+msgid "LAMMPS: デフォルトの擬ポテンシャルをGBRV（GBRV非対応の元素はSSSP）に変更"
+msgstr ""
+"LAMMPS: change default pseudo potential to GBRV (or SSSP if GBRV "
+"unavailable for the element)"
+
+#: ../../version.rst:71
+msgid "リモートサーバーからファイルをダウンロードする際のコマンド数を削減（通信速度の向上）"
+msgstr ""
+"reduce number of commands when downloading files from remote server "
+"(improved communication speed)"
+
+#: ../../version.rst:73
+msgid "サポート対象OSからCentOS 6を除外"
+msgstr "exclude CentOS 6 from supported OS"
+
+#: ../../version.rst:74
+msgid "計算エンジンのCentOS版・AlmaLinux版を共通化（NanoLabo Toolインストーラーの一本化）"
+msgstr ""
+"unify CentOS version and AlmaLinux version of calculation engines (unify "
+"NanoLabo Tool installer)"
+
+#: ../../version.rst:75
+msgid "アイコンを変更"
+msgstr "change icon"
+
+#: ../../version.rst:98
 msgid "2022/05/20 バージョン2.5"
 msgstr "2022/05/20 Version 2.5"
 
-#: ../../version.rst:55
+#: ../../version.rst:81
 msgid "LAMMPS: NPTアンサンブルにおけるセル変形の制約条件の設定機能"
 msgstr "LAMMPS: constraints setting on cell deformation when using NPT ensemble"
 
-#: ../../version.rst:56
+#: ../../version.rst:82
 msgid "NeuralMD: Ver.1.6に対応した機能追加"
 msgstr "NeuralMD: new features correspond to Ver.1.6"
 
-#: ../../version.rst:58
+#: ../../version.rst:84
 msgid "自己学習ハイブリッドモンテカルロ法のインターフェースを追加"
 msgstr "add interface for Self-Learning Hybrid Monte Carlo method"
 
-#: ../../version.rst:60
+#: ../../version.rst:86
 msgid "NeuralMD: 学習時にエネルギーのみ最適化する（力を使わない）設定"
 msgstr "NeuralMD: setting whether optimize only energy (not force) during learning"
 
-#: ../../version.rst:61
+#: ../../version.rst:87
 msgid "SSH接続用のプロキシ設定機能"
 msgstr "proxy for SSH connection"
 
-#: ../../version.rst:65
+#: ../../version.rst:91
 msgid "QE: ESM法使用時のフォノンモード表示の不具合を修正"
 msgstr "QE: fix display problem of phonon mode when using ESM method"
 
-#: ../../version.rst:66
+#: ../../version.rst:92
 msgid "QE: BAND、DOS、NMRの結果プロットでLine Width、Line Typeが設定できない不具合を修正"
 msgstr ""
 "QE: fix bug of BAND, DOS, NMR plot where Line Width and Line Type cannot "
 "be changed"
 
-#: ../../version.rst:67
+#: ../../version.rst:93
 msgid "NeuralMD: Behler対称関数使用時、編集したG2・G3パラメーターが計算に反映されない不具合を修正"
 msgstr ""
 "NeuralMD: fix bug of Behler symmetry function where changes of G2/G3 "
 "parameters are not reflected in calculation"
 
-#: ../../version.rst:68
+#: ../../version.rst:94
 msgid "（Linux版）ローカルでJob manager使用時にグランドプロジェクトの計算実行に失敗する不具合を修正"
 msgstr ""
 "(Linux) fix bug that caused grand-project calculation to fail when using "
 "Job manager on local machine"
 
-#: ../../version.rst:69
+#: ../../version.rst:95
 msgid "（Mac版）一部ファイル選択ダイアログの拡張子フィルタを修正"
 msgstr "(Mac) fix extension filter of some of file choosing dialogs"
 
-#: ../../version.rst:70
+#: ../../version.rst:96
 msgid "nanolabo.pyのset_all_atoms()のバグ（\"error: invalid atomsFile\"が必ず発生する）を修正"
 msgstr ""
 "fix bug of set_all_atoms() in nanolabo.py (\"error: invalid atomsFile\" "
 "always occur)"
 
-#: ../../version.rst:95
+#: ../../version.rst:121
 msgid "2022/02/04 バージョン2.4"
 msgstr "2022/02/04 Version 2.4"
 
-#: ../../version.rst:77
+#: ../../version.rst:103
 msgid "LAMMPS: Open Catalyst Projectの汎用力場（グラフニューラルネットワーク）に対応"
 msgstr ""
 "LAMMPS: support Open Catalyst Project versatile force field (graph neural"
 " network)"
 
-#: ../../version.rst:78
+#: ../../version.rst:104
 msgid "メモリー使用量、Java VMの引数の設定を追加（NanoLabo本体に適用）"
 msgstr ""
 "add settings of memory usage, Java VM arguments (applied to NanoLabo "
 "itself)"
 
-#: ../../version.rst:79
+#: ../../version.rst:105
 msgid "NeuralMD: Ver.1.5に対応した機能追加"
 msgstr "NeuralMD: new features correspond to Ver.1.5"
 
-#: ../../version.rst:81
+#: ../../version.rst:107
 msgid "ライセンスエラー（実行数上限）時の待機設定"
 msgstr "queuing setting when license error (simultaneous execution limit)"
 
-#: ../../version.rst:82
+#: ../../version.rst:108
 msgid "教師データを分割してテストデータを作成する機能"
 msgstr "split training data to create testing data"
 
-#: ../../version.rst:83
+#: ../../version.rst:109
 msgid "RMSEプロットにin-situテスト結果の系列を追加"
 msgstr "add series of in-situ test result to RMSE plot"
 
-#: ../../version.rst:84
+#: ../../version.rst:110
 msgid "その他、設定項目追加"
 msgstr "add other setting items"
 
-#: ../../version.rst:86
+#: ../../version.rst:112
 msgid "LAMMPS: ログ出力タイミングの設定項目を追加"
 msgstr "LAMMPS: setting interval of log output"
 
-#: ../../version.rst:87
+#: ../../version.rst:113
 msgid "VASPのPOSCAR形式での原子座標ファイル出力"
 msgstr "export atomic configuration as VASP's POSCAR format file"
 
-#: ../../version.rst:91
+#: ../../version.rst:117
 msgid ""
 "（Linux版）QEおよびLAMMPSのMPIライブラリ/コンパイラをOpen MPI/oneAPIに変更（以前はIntel MPI/Intel "
 "Compiler）"
@@ -293,329 +373,329 @@ msgstr ""
 "(Linux) change MPI library/compiler to Open MPI/oneAPI (from Intel "
 "MPI/Intel Compiler)"
 
-#: ../../version.rst:92
+#: ../../version.rst:118
 msgid "計算サーバーへのジョブ投入時、ユーザー名が長いとジョブ状態の取得に失敗することがある不具合の修正"
 msgstr ""
 "fix the problem of failing to retrieve job status in certain environment "
 "when submitting job to calculation server if user name is long"
 
-#: ../../version.rst:94
+#: ../../version.rst:120
 msgid "サポート対象OSにAlmaLinux 8を追加"
 msgstr "add AlmaLinux 8 to supported OS"
 
-#: ../../version.rst:116
+#: ../../version.rst:142
 msgid "2021/12/10 バージョン2.3"
 msgstr "2021/12/10 Version 2.3"
 
-#: ../../version.rst:100
+#: ../../version.rst:126
 msgid "NeuralMD: ニューラルネットワーク力場の学習（最適化）およびテスト機能"
 msgstr "NeuralMD: train(optimize) / test neural network potential"
 
-#: ../../version.rst:101
+#: ../../version.rst:127
 msgid "NeuralMD: メトロポリス法による教師データ用の構造生成機能"
 msgstr ""
 "NeuralMD: generate atomic structures for training data by Metropolis "
 "method"
 
-#: ../../version.rst:103
+#: ../../version.rst:129
 msgid "設定ファイル(sannp.metro)読み込み対応"
 msgstr "support opening configuration file (sannp.metro)"
 
-#: ../../version.rst:105
+#: ../../version.rst:131
 msgid "結合長・結合角・二面角の測定機能"
 msgstr "measure bond length, bond length and dihedral angle"
 
-#: ../../version.rst:106
+#: ../../version.rst:132
 msgid "モデラー画面での格子ベクトル編集機能"
 msgstr "edit lattice vectors within modeler screen"
 
-#: ../../version.rst:107
+#: ../../version.rst:133
 msgid "格子ベクトルの方向の取り直しを伴うスーパーセルモデルの作成機能"
 msgstr "non-diagonal super cell expansion"
 
-#: ../../version.rst:108
+#: ../../version.rst:134
 msgid "QE: 交換相関汎関数にRPBEを追加"
 msgstr "QE: added RPBE to exchange-correlation functional"
 
-#: ../../version.rst:112
+#: ../../version.rst:138
 msgid "QE: NEB設定時の補間イメージの生成アルゴリズムの改良（多原子分子の反応に対応）"
 msgstr ""
 "QE: improved algorithm of generating intermediate images of NEB (support "
 "reactions of polyatomic molecule)"
 
-#: ../../version.rst:113
+#: ../../version.rst:139
 msgid "Java実行環境をLiberica JRE 8に変更"
 msgstr "changed Java runtime environment to Liberica JRE 8"
 
-#: ../../version.rst:114
+#: ../../version.rst:140
 msgid "Materials APIの仕様変更に対応"
 msgstr "support updated specification of Materials API"
 
-#: ../../version.rst:130
+#: ../../version.rst:156
 msgid "2021/10/01 バージョン2.2"
 msgstr "2021/10/01 Version 2.2"
 
-#: ../../version.rst:121
+#: ../../version.rst:147
 msgid "[Pro] QE: GIPAW法によるNMRスペクトル計算機能"
-msgstr "[Pro] QE: NMR spectruc calculation by GIPAW method"
+msgstr "[Pro] QE: NMR spectrum calculation by GIPAW method"
 
-#: ../../version.rst:122
+#: ../../version.rst:148
 msgid "QE: Car-Parrinello法分子動力学(CPMD)計算機能"
 msgstr "QE: Car-Parrinello Molecular Dynamics (CPMD) calculation"
 
-#: ../../version.rst:123
+#: ../../version.rst:149
 msgid "MDL Molfile(.mol, .sdf)読み込み対応"
 msgstr "support opening MDL Molfile (.mol, .sdf)"
 
-#: ../../version.rst:127
+#: ../../version.rst:153
 msgid "QE: NEB初期設定時の補間イメージの順序を修正"
 msgstr "QE: fix ordering of intermediate images of NEB at initial setting"
 
-#: ../../version.rst:129
+#: ../../version.rst:155
 msgid "Quantum ESPRESSOのバージョンを6.7へ更新"
 msgstr "update Quantum ESPRESSO to version 6.7"
 
-#: ../../version.rst:148
+#: ../../version.rst:174
 msgid "2021/06/04 バージョン2.1"
 msgstr "2021/06/04 Version 2.1"
 
-#: ../../version.rst:135
+#: ../../version.rst:161
 msgid "低速ネットワーク用設定"
 msgstr "Settings for low bandwidth network"
 
-#: ../../version.rst:136
+#: ../../version.rst:162
 msgid "NeuralMD用教師データ作成機能（グランドプロジェクト）"
 msgstr "Generate training data for NeuralMD (Grand-project)"
 
-#: ../../version.rst:137
+#: ../../version.rst:163
 msgid "QE: SCF計算結果の3D表示（電荷密度、ポテンシャル、スピン偏極）"
 msgstr ""
 "QE: 3D display of SCF calculation results (charge density, potential and "
 "spin polarization)"
 
-#: ../../version.rst:138
+#: ../../version.rst:164
 msgid "QE: フォノン計算の収束閾値設定"
 msgstr "QE: setting of convergence threshold for phonon calculation"
 
-#: ../../version.rst:139
+#: ../../version.rst:165
 msgid "LAMMPS: 原子速度設定画面"
 msgstr "LAMMPS: panel for setting atom velocities"
 
-#: ../../version.rst:143
+#: ../../version.rst:169
 msgid "リモートジョブ実行時のSSHセッション数を抑制"
 msgstr "suppress the SSH session number while running remote job"
 
-#: ../../version.rst:144
+#: ../../version.rst:170
 msgid "QE: スピン有効時、設定によりDOSが表示されない不具合を修正"
 msgstr "QE: fixed bug that DOS is sometimes not shown if spin is enabled"
 
-#: ../../version.rst:145
+#: ../../version.rst:171
 msgid "QE: スラブモデル使用時、BAND計算のデフォルトk点パスを変更"
 msgstr "QE: changed default kpoint path for BAND calculation "
 
-#: ../../version.rst:146
+#: ../../version.rst:172
 msgid "lsf2pbs/qsub変更（bsub呼び出し方法）"
 msgstr "edited lsf2pbs/qsub (changed the way bsub is invoked)"
 
-#: ../../version.rst:157
+#: ../../version.rst:183
 msgid "2020/11/30 バージョン2.0"
 msgstr "2020/11/30 Version 2.0"
 
-#: ../../version.rst:153
+#: ../../version.rst:179
 msgid "[Pro] 高分子モデラー"
 msgstr "[Pro] Polymer Modeler"
 
-#: ../../version.rst:154
+#: ../../version.rst:180
 msgid "QE: XAFS計算"
 msgstr "QE: XAFS calculation"
 
-#: ../../version.rst:155
+#: ../../version.rst:181
 msgid "LAMMPS dumpファイル読み込み対応"
 msgstr "support opening LAMMPS dump file"
 
-#: ../../version.rst:166
+#: ../../version.rst:192
 msgid "2020/07/29 バージョン1.5"
 msgstr "2020/07/29 Version 1.5"
 
-#: ../../version.rst:162
+#: ../../version.rst:188
 msgid "QE: 交換相関汎関数設定（ハイブリッド汎関数・ファンデルワールス相互作用）"
 msgstr ""
 "QE: setting of exchange-correlation functional (hybrid functional / van "
 "der Waals interaction)"
 
-#: ../../version.rst:163
+#: ../../version.rst:189
 msgid "QE: PDOS電卓"
 msgstr "QE: PDOS Calculator"
 
-#: ../../version.rst:164
+#: ../../version.rst:190
 msgid "リモート実行時のアクセス一時停止、サーバー上のファイルダウンロード・削除"
 msgstr ""
 "Suspend the access during remote execution / download files from server /"
 " delete files on server"
 
-#: ../../version.rst:182
+#: ../../version.rst:208
 msgid "2020/04/27 バージョン1.4"
 msgstr "2020/04/27 Version 1.4"
 
-#: ../../version.rst:171
+#: ../../version.rst:197
 msgid "LAMMPS: 熱伝導率、粘性係数、拡散係数、動径分布関数の計算・可視化"
 msgstr ""
 "LAMMPS: Calculate and visualize thermal conductivity, viscosity "
 "coefficient, diffusion coefficient and radial distribution function"
 
-#: ../../version.rst:172
+#: ../../version.rst:198
 msgid "LAMMPS: Tersoff力場対応"
 msgstr "LAMMPS: Support Tersoff force field"
 
-#: ../../version.rst:173
+#: ../../version.rst:199
 msgid "QE: SCFのDiagonalizationにrmmを追加（デフォルト）"
 msgstr "QE: Add rmm to Diagonalization in SCF (default)"
 
-#: ../../version.rst:174
+#: ../../version.rst:200
 msgid "QE: TD-DFTのAlgorithm追加"
 msgstr "QE: Add Algorithm to TD-DFT"
 
-#: ../../version.rst:175
+#: ../../version.rst:201
 msgid "格子ベクトルの反転・入れ替え"
 msgstr "Flip / swap lattice vectors"
 
-#: ../../version.rst:176
+#: ../../version.rst:202
 msgid "座標軸に沿った原子移動"
 msgstr "Move atoms along coordinate axis"
 
-#: ../../version.rst:177
+#: ../../version.rst:203
 msgid "スラブモデルに対する追加の編集機能"
 msgstr "Additional operations for slab model"
 
-#: ../../version.rst:178
+#: ../../version.rst:204
 msgid "Result画面ファイルツリーのコンテキストメニュー・ドラッグ操作"
 msgstr "Context menu / drag operation on file tree in Result view"
 
-#: ../../version.rst:179
+#: ../../version.rst:205
 msgid "ウィンドウサイズ保存"
 msgstr "Preserve window size"
 
-#: ../../version.rst:181
+#: ../../version.rst:207
 msgid "（Linux版）長時間使用時に正常に動作しなくなる不具合を修正"
 msgstr ""
 "(Linux) Fixed problem of not working properly when used for a long time "
 "period"
 
-#: ../../version.rst:187
+#: ../../version.rst:213
 msgid "2019/09/30 バージョン1.3"
 msgstr "2019/09/30 Version 1.3"
 
-#: ../../version.rst:185
+#: ../../version.rst:211
 msgid "機能を強化した「Pro版」をリリース"
 msgstr "released \"Pro version\" with additional functions"
 
-#: ../../version.rst:186
+#: ../../version.rst:212
 msgid "[Pro] 界面ビルダー"
 msgstr "[Pro] Interface builder"
 
-#: ../../version.rst:191
+#: ../../version.rst:217
 msgid "2019/08/05 バージョン1.2.1"
 msgstr "2019/08/05 Version 1.2.1"
 
-#: ../../version.rst:190
+#: ../../version.rst:216
 msgid "（macOS版）環境により計算エンジンが動作しない問題を解消"
 msgstr ""
 "(macOS) Solved environment-dependent problem that prevented execution of "
 "calculation engine"
 
-#: ../../version.rst:191 ../../version.rst:227
+#: ../../version.rst:217 ../../version.rst:253
 msgid "その他、バグ修正等"
 msgstr "Bug fixes, etc."
 
-#: ../../version.rst:200
+#: ../../version.rst:226
 msgid "2019/06/28 バージョン1.2"
 msgstr "2019/06/28 Version 1.2"
 
-#: ../../version.rst:196
+#: ../../version.rst:222
 msgid "Nudged Elastic Band（NEB）法"
 msgstr "Nudged Elastic Band (NEB) method"
 
-#: ../../version.rst:197
+#: ../../version.rst:223
 msgid "Effective Screening Medium（ESM）法"
 msgstr "Effective Screening Medium (ESM) method"
 
-#: ../../version.rst:198
+#: ../../version.rst:224
 msgid "Python連携"
 msgstr "Cooperation with Python"
 
-#: ../../version.rst:200
+#: ../../version.rst:226
 msgid "原子構造ビューアーの機能改善"
 msgstr "Tune-up of atomic viewer"
 
-#: ../../version.rst:209
+#: ../../version.rst:235
 msgid "2019/05/09 バージョン1.1.2"
 msgstr "2019/05/09 Version 1.1.2"
 
-#: ../../version.rst:205
+#: ../../version.rst:231
 msgid "起動時アップデートチェック"
 msgstr "Update check at startup"
 
-#: ../../version.rst:206
+#: ../../version.rst:232
 msgid "ラムダシステム"
 msgstr "Lambda System"
 
-#: ../../version.rst:208
+#: ../../version.rst:234
 msgid "LAMMPSでReaxFF使用時にreal単位系を使うよう修正"
 msgstr "Fixed to use real unit system when using ReaxFF in LAMMPS"
 
-#: ../../version.rst:212
+#: ../../version.rst:238
 msgid "2019/01/18 バージョン1.1.1"
 msgstr "2019/01/18 Version 1.1.1"
 
-#: ../../version.rst:212
+#: ../../version.rst:238
 msgid "バグ修正（プロキシ使用時の通信不具合）"
 msgstr "Bug fix (connection problem when using proxy)"
 
-#: ../../version.rst:227
+#: ../../version.rst:253
 msgid "2018/12/21 バージョン1.1"
 msgstr "2018/12/21 Version 1.1"
 
-#: ../../version.rst:215
+#: ../../version.rst:241
 msgid "macOS対応"
 msgstr "macOS support"
 
-#: ../../version.rst:218
+#: ../../version.rst:244
 msgid "計算サーバーへのジョブ投入（SSH接続）"
 msgstr "Post jobs to calculation server (SSH connection)"
 
-#: ../../version.rst:219
+#: ../../version.rst:245
 msgid "有機分子の描画"
 msgstr "Drawing a molecule"
 
-#: ../../version.rst:220
+#: ../../version.rst:246
 msgid "表面への小分子吸着"
 msgstr "Molecular adsorption onto slab"
 
-#: ../../version.rst:221
+#: ../../version.rst:247
 msgid "溶媒分子充填"
 msgstr "Packing molecules"
 
-#: ../../version.rst:222
+#: ../../version.rst:248
 msgid "Primitive Cell、Standard Cellの自動決定"
 msgstr "Automatically find Primitive Cell / Standard Cell"
 
-#: ../../version.rst:223
+#: ../../version.rst:249
 msgid "空間群の判定"
 msgstr "Detect space group"
 
-#: ../../version.rst:224
+#: ../../version.rst:250
 msgid "外部テキストエディターでのファイル表示"
 msgstr "Open files with external text editor"
 
-#: ../../version.rst:225
+#: ../../version.rst:251
 msgid "エクスプローラーの機能強化"
 msgstr "Enhancement of explorer functions"
 
-#: ../../version.rst:229
+#: ../../version.rst:256
 msgid "2018/08/01 バージョン1.0"
 msgstr "2018/08/01 Version 1.0"
 
-#: ../../version.rst:230
+#: ../../version.rst:256
 msgid "初回リリース"
 msgstr "Initial release"
 
