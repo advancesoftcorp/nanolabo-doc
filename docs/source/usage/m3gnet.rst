@@ -43,7 +43,7 @@ NanoLaboへの設定
 
 - リモート（計算サーバー等）で実行する場合
 
-     condaのインストール先が :file:`~/anaconda3` または :file:`~/miniconda3` であれば、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、設定は必要ありません。
+     condaのインストール先が :file:`~/anaconda3` または :file:`~/miniconda3` の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、設定は必要ありません。
 
      他の場所にインストールした場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> SSH server` を開き、ジョブスクリプトに :envvar:`LD_LIBRARY_PATH` を追加してください。
 
