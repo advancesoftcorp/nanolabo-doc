@@ -11,9 +11,17 @@
 
 本ソフトウェアのインストールには、ディスクイメージファイルを使用します。ファイルは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。
 
- `Advance/NanoLabo (ver.2.6) <https://www.nanolabo.advancesoft.jp/?wpdmdl=971>`_
+- Intel版：従来のマシンではこちらの2つをダウンロードしてください。
 
- `Advance/NanoLabo Tool (ver.2.6) <https://www.nanolabo.advancesoft.jp/?wpdmdl=966>`_
+ `Advance/NanoLabo (ver.2.7) Intel版 <https://www.nanolabo.advancesoft.jp/?wpdmdl=971>`_
+
+ `Advance/NanoLabo Tool (ver.2.7) Intel版 <https://www.nanolabo.advancesoft.jp/?wpdmdl=966>`_
+
+- ARM版：Apple M1搭載マシンではこちらの2つをダウンロードしてください。
+
+ `Advance/NanoLabo (ver.2.7) ARM版 <https://www.nanolabo.advancesoft.jp/?wpdmdl=971>`_
+
+ `Advance/NanoLabo Tool (ver.2.7) ARM版 <https://www.nanolabo.advancesoft.jp/?wpdmdl=966>`_
 
 .. note::
 
