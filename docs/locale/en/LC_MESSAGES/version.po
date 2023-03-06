@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-02 14:51+0900\n"
+"POT-Creation-Date: 2023-03-06 10:29+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "バージョン情報"
 msgstr "Version Information"
 
 #: ../../version.rst:31
-msgid "2023/03/-- バージョン2.7"
-msgstr "2023/03/-- Version 2.7"
+msgid "2023/03/06 バージョン2.7"
+msgstr "2023/03/06 Version 2.7"
 
 #: ../../version.rst:8 ../../version.rst:34 ../../version.rst:79
 #: ../../version.rst:101 ../../version.rst:124 ../../version.rst:145
@@ -44,7 +44,9 @@ msgstr "|Delta|\\ -NNP method using ReaxFF"
 
 #: ../../version.rst:14
 msgid "LAMMPS: 無機固体用のグラフニューラルネットワーク力場M3GNetに対応"
-msgstr "LAMMPS: support M3GNet, graph neural network force field for inorganic solid"
+msgstr ""
+"LAMMPS: support M3GNet, graph neural network force field for inorganic "
+"solid"
 
 #: ../../version.rst:15
 msgid "LAMMPS: Open Catalyst 2022(GemNet-dT)力場に対応"
@@ -56,13 +58,17 @@ msgstr "support PJM job management system"
 
 #: ../../version.rst:17
 msgid "リモートジョブ投入後にローカルのプロジェクトフォルダを移動しても結果を取得できるよう対応"
-msgstr "after posting remote job, results can be retrieved even if local project folder is moved"
+msgstr ""
+"after posting remote job, results can be retrieved even if local project "
+"folder is moved"
 
 #: ../../version.rst:18
 msgid ""
 "プロジェクトが :file:`.nanolabo` "
 "フォルダ外にある、またはプロジェクト名にLinuxで使えない文字が含まれている場合でもジョブ投入できるよう対応"
-msgstr "can post job even if project is out of :file:`.nanolabo` folder or project name has characters invalid on Linux"
+msgstr ""
+"can post job even if project is out of :file:`.nanolabo` folder or "
+"project name has characters invalid on Linux"
 
 #: ../../version.rst:19
 msgid "（Mac版）Apple M1対応版（ARM版）をリリース"
@@ -70,7 +76,9 @@ msgstr "(Mac) Apple M1 support ver. (ARM ver.) released"
 
 #: ../../version.rst:21
 msgid "従来版（Intel版）とは別のインストーラーとして提供しますので、ダウンロード時にお使いのマシンに合ったものを選んでください。"
-msgstr "distributed as separate installer from pre-existing ver. (Intel ver.), please choose suitable one for your machine when download."
+msgstr ""
+"distributed as separate installer from pre-existing ver. (Intel ver.), "
+"please choose suitable one for your machine when download."
 
 #: ../../version.rst:23 ../../version.rst:66 ../../version.rst:89
 #: ../../version.rst:115 ../../version.rst:136 ../../version.rst:151
@@ -84,15 +92,22 @@ msgstr "increase max number of DOS definitions in PDOS calculator"
 
 #: ../../version.rst:26
 msgid "リモートサーバー接続時、ホスト鍵としてRSA/SHA-1(ssh-rsa)以外の形式に対応"
-msgstr "support host key type other than RSA/SHA-1(ssh-rsa) when connecting to remote server"
+msgstr ""
+"support host key type other than RSA/SHA-1(ssh-rsa) when connecting to "
+"remote server"
 
 #: ../../version.rst:27
 msgid "材料データベース検索で使用しているMaterials Project APIのURL変更に対応"
-msgstr "reflect URL change of Materials Project API used in materials database search"
+msgstr ""
+"reflect URL change of Materials Project API used in materials database "
+"search"
 
 #: ../../version.rst:29
 msgid "バージョン2.6以前で暫定的に設定ファイルの変更で対応されていた場合、2.7にアップデート後はそのまま使っていただいても、変更を戻していただいても大丈夫です。"
-msgstr "if you modified configuration file to address this on Ver.2.6 or earlier, you can either keep it as it is, or revert the change, after updating to 2.7."
+msgstr ""
+"if you modified configuration file to address this on Ver.2.6 or earlier,"
+" you can either keep it as it is, or revert the change, after updating to"
+" 2.7."
 
 #: ../../version.rst:31 ../../version.rst:76 ../../version.rst:98
 #: ../../version.rst:121 ../../version.rst:142 ../../version.rst:156
