@@ -13,7 +13,7 @@
 
  `Advance/NanoLabo (ver.2.7) <https://www.nanolabo.advancesoft.jp/?wpdmdl=1040>`_
 
- `Advance/NanoLabo Tool (ver.2.7) <https://www.nanolabo.advancesoft.jp/?wpdmdl=1051>`_
+ `Advance/NanoLabo Tool (ver.2.7.1) <https://www.nanolabo.advancesoft.jp/?wpdmdl=1085>`_
 
 .. note::
 
