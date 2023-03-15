@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-08 16:16+0900\n"
+"POT-Creation-Date: 2023-03-15 15:36+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -248,18 +248,100 @@ msgstr ""
 msgid "$ exec.LINUX/flex/lmdown -c license/nanolabo.lic"
 msgstr ""
 
-#: ../../install/linux.rst:120 ../../install/mac.rst:56
+#: ../../install/linux.rst:120
+msgid "フローティングライセンス"
+msgstr "Floating license"
+
+#: ../../install/linux.rst:122
+msgid "Linuxマシンに対して発行されたライセンスはフローティングライセンスとなっており、ネットワーク接続された別のマシン上（Windows・Linux）でNanoLaboを使うことができます。"
+msgstr ""
+"The license issued for a linux machine is floating license, and you can use NeuralMD on other connected machines(Windows/Linux) via the network."
+
+#: ../../install/linux.rst:124
+msgid "ライセンスサーバーとして使うマシン側"
+msgstr "Machine to be used as license server"
+
+#: ../../install/linux.rst:126
+msgid "別のWindowsマシンからremoteLicenseを使うか、またはそのマシンにNanoLaboをインストールして、ホストIDの取得・ライセンス登録を行ってください。ライセンスファイル取得後、remoteLicenseを使うか、またはマシン上で直接ライセンスサーバーを起動してください。"
+msgstr ""
+"Obtain the HostID and request the license by using remoteLicense from another Windows machine or installing NanoLabo to the machine itself. "
+"Once you get the license file, launch the license server by using remoteLicense or directly on the machine."
+
+#: ../../install/linux.rst:128
+msgid "NanoLaboを使うクライアントマシン側"
+msgstr "Machine to be a client to use NanoLabo"
+
+#: ../../install/linux.rst:130
+msgid "NanoLaboをインストールして、同じライセンスファイルをインストール先の :file:`license` ディレクトリにコピーしてください。"
+msgstr ""
+"Install NeuralMD and copy the same license file to :file:`license` directory in the installation destination."
+
+#: ../../install/linux.rst:132
+msgid "ライセンス認証がうまくいかない場合は、以下をご確認ください。"
+msgstr "If license authentication does not work, please check following."
+
+#: ../../install/linux.rst:134
+msgid "クライアントからライセンスサーバーへの接続には、ライセンスファイル中に書かれたホスト名を使用します。ホスト名を使った接続ができない場合、ファイル中のホスト名をIPアドレスに書き換えることで接続できるようになることがあります。"
+msgstr ""
+"The hostname stored in the license file is used when connecting from the client to the license server. "
+"If hostname can not be used for the connection, replace the hostname in the file with the IP address and see if it works."
+
+#: ../../install/linux.rst:136
+msgid ""
+"ライセンスサーバー起動中はライセンスマネージャーデーモン :file:`lmgrd` とベンダーデーモン :file:`advanced` "
+"の2つのプロセスが起動し、それぞれがネットワーク通信を行います。使用するポート番号は動的に決まります（\\ :file:`lmgrd` "
+"は27000-27009番ポートを使用）が、ファイアウォールの設定等のためにポート番号を固定したい場合は、ライセンスファイル中に追記して指定することができます。"
+msgstr ""
+"While the license server is running, license manager daemon :file:`lmgrd` and vendor daemon :file:`advanced` are launched, and both of them perform network communications. "
+"While the port number is dynamically determined (\ :file:`lmgrd` uses port number 27000-27009), you can specify fixed port number by adding it in the license file, for "
+"firewall configuration etc."
+
+#: ../../install/linux.rst:138
+msgid "ライセンスファイルはテキストファイルですので通常のテキストエディタで編集できます。ホスト名の変更・ポート番号の追記でライセンスの再発行は必要ありません。サーバー側・クライアント側両方で同じように変更してください。"
+msgstr ""
+"You can modify the license file with normal text editors as it is a text file. You do not have to re-issue the license by changing the hostname or adding the port number. Modify the file in the same way both for "
+"the server side and the client side."
+
+#: ../../install/linux.rst:143
+msgid "lmgrdが30000番、advancedが30001番ポートを使うように設定する例"
+msgstr "Example where lmgrd uses 30000 and advanced uses 30001 port"
+
+#: ../../install/linux.rst
+msgid "SERVER (ホスト名) COMPOSITE=(ホストID) |portlmgrd|"
+msgstr "SERVER (hostname) COMPOSITE=(HostID) |portlmgrd|"
+
+#: ../../install/linux.rst
+msgid "VENDOR advanced |portadvanced|"
+msgstr ""
+
+#: ../../install/linux.rst
+msgid "USE_SERVER"
+msgstr ""
+
+#: ../../install/linux.rst
+msgid "FEATURE ..."
+msgstr ""
+
+#: ../../install/linux.rst:151
+msgid ""
+"クライアント側でNanoLaboを起動したときに、ライセンスサーバーが終了してしまう場合があります。ライセンスサーバーの起動時に "
+":file:`lmgrd` のオプション ``-local`` を付けることで、クライアント側から終了されないようにすることができます。"
+msgstr ""
+"The license server may be terminated when NanoLabo is launched on the client. Add the option ``-local`` to :file:`lmgrd` "
+"when launching the license server to prevent it from being terminated from the client side."
+
+#: ../../install/linux.rst:164 ../../install/mac.rst:56
 #: ../../install/windows.rst:63
 msgid "起動"
 msgstr "Launching"
 
-#: ../../install/linux.rst:122 ../../install/windows.rst:65
+#: ../../install/linux.rst:166 ../../install/windows.rst:65
 msgid "インストール時にショートカットを作成した場合は、ショートカットから起動してください。"
 msgstr ""
 "In case you made a shortcut during the installation, launch the software "
 "from the shortcut."
 
-#: ../../install/linux.rst:124
+#: ../../install/linux.rst:168
 msgid ""
 "直接起動する場合は、端末（ターミナル）でインストール先の :file:`bin` ディレクトリに移動し、 :file:`nanolabo.sh` "
 "を起動してください。"
@@ -268,19 +350,19 @@ msgstr ""
 ":file:`bin` directory in the install destination, and then run "
 ":file:`nanolabo.sh` ."
 
-#: ../../install/linux.rst:126
+#: ../../install/linux.rst:170
 msgid "$ ./nanolabo.sh"
 msgstr ""
 
-#: ../../install/linux.rst:133
+#: ../../install/linux.rst:177
 msgid "3Dモデルが表示されない場合"
 msgstr "In case 3D models not displayed"
 
-#: ../../install/linux.rst:135
+#: ../../install/linux.rst:179
 msgid "Java VMの引数を追加することで表示が改善します。"
 msgstr "Add Java VM argument to resolve the display issue."
 
-#: ../../install/linux.rst:137
+#: ../../install/linux.rst:181
 msgid ""
 "画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Java VM` を開き、 "
 ":guilabel:`Arguments for Java VM` に ``-Dprism.forceGPU=true`` を追加します。その後 "
@@ -291,16 +373,16 @@ msgstr ""
 "``-Dprism.forceGPU=true`` to :guilabel:`Arguments for Java VM`\\ . Then, "
 "click :guilabel:`OK` and relaunch NanoLabo."
 
-#: ../../install/linux.rst:139
+#: ../../install/linux.rst:183
 msgid "mainmenuicon"
 msgstr ""
 
-#: ../../install/linux.rst:144 ../../install/mac.rst:91
+#: ../../install/linux.rst:188 ../../install/mac.rst:91
 #: ../../install/windows.rst:72
 msgid "（任意）グラフニューラルネットワーク汎用力場の設定"
 msgstr "(Optional) Setting for graph neural network versatile force field"
 
-#: ../../install/linux.rst:146 ../../install/mac.rst:93
+#: ../../install/linux.rst:190 ../../install/mac.rst:93
 #: ../../install/windows.rst:74
 msgid ""
 "LAMMPSの計算でグラフニューラルネットワーク汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\\ "
@@ -312,12 +394,12 @@ msgstr ""
 " refer to :doc:`Open Catalyst Project setting </usage/ocp>` or "
 ":doc:`M3GNet setting </usage/m3gnet>` for the procedure."
 
-#: ../../install/linux.rst:151 ../../install/mac.rst:98
+#: ../../install/linux.rst:195 ../../install/mac.rst:98
 #: ../../install/windows.rst:79
 msgid "（任意）リモート計算の設定"
 msgstr "(Optional) Setting for remote calculation"
 
-#: ../../install/linux.rst:153 ../../install/mac.rst:100
+#: ../../install/linux.rst:197 ../../install/mac.rst:100
 #: ../../install/windows.rst:81
 msgid ""
 "NanoLaboからリモートのマシンに計算ジョブを投入する場合、SSH接続の設定が必要です。設定方法は\\ :doc:`こちら "
@@ -327,23 +409,23 @@ msgstr ""
 "NanoLabo to the remote machine. Please refer to :doc:`here "
 "</usage/sshserver>` for how to setup."
 
-#: ../../install/linux.rst:158 ../../install/mac.rst:116
+#: ../../install/linux.rst:202 ../../install/mac.rst:116
 #: ../../install/windows.rst:86
 msgid "更新・アップグレード"
 msgstr "Update/Upgrade"
 
-#: ../../install/linux.rst:160 ../../install/mac.rst:118
+#: ../../install/linux.rst:204 ../../install/mac.rst:118
 #: ../../install/windows.rst:88
 msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
 msgstr ""
 "When upgrading from trial version to production version, there is no need"
 " of additional installation. Just replace the license file."
 
-#: ../../install/linux.rst:162 ../../install/windows.rst:90
+#: ../../install/linux.rst:206 ../../install/windows.rst:90
 msgid "新しいバージョンにアップデートされる場合、上書きインストールが可能です。"
 msgstr "When updating to newer version, overwrite installation is possible."
 
-#: ../../install/linux.rst:164 ../../install/mac.rst:122
+#: ../../install/linux.rst:208 ../../install/mac.rst:122
 #: ../../install/windows.rst:92
 msgid ""
 "NanoLaboと同時にNanoLabo Toolが更新されている場合は、そちらもアップデートしてください。最新版のNanoLabo "
@@ -353,7 +435,7 @@ msgstr ""
 "update it as well. NanoLabo is supposed to be used with the calculation "
 "engines included in the latest version of NanoLabo Tool."
 
-#: ../../install/linux.rst:166 ../../install/mac.rst:124
+#: ../../install/linux.rst:210 ../../install/mac.rst:124
 #: ../../install/windows.rst:94
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
@@ -361,12 +443,12 @@ msgstr ""
 "the install destination. You can use the software as it was before even "
 "after the update."
 
-#: ../../install/linux.rst:171 ../../install/mac.rst:129
+#: ../../install/linux.rst:215 ../../install/mac.rst:129
 #: ../../install/windows.rst:99
 msgid "アンインストール"
 msgstr "Uninstallation"
 
-#: ../../install/linux.rst:173
+#: ../../install/linux.rst:217
 msgid ""
 "端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
 ":file:`Change NanoLabo Tool Installation` を起動します。"
@@ -374,30 +456,30 @@ msgstr ""
 "On a terminal, run :file:`Change NanoLabo Tool Installation` located at "
 ":file:`_NanoLabo_Tool_installation` directory in the install destination."
 
-#: ../../install/linux.rst:175
+#: ../../install/linux.rst:219
 msgid ""
 "$ AdvanceSoft/NanoLabo/_NanoLabo_Tool_installation/Change\\ NanoLabo\\ "
 "Tool\\ Installation"
 msgstr ""
 
-#: ../../install/linux.rst:179 ../../install/windows.rst:107
+#: ../../install/linux.rst:223 ../../install/windows.rst:107
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow displayed instructions to uninstall."
 
-#: ../../install/linux.rst:181 ../../install/windows.rst:109
+#: ../../install/linux.rst:225 ../../install/windows.rst:109
 msgid "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。"
 msgstr ""
 "Once the uninstallation of Advance/NanoLabo Tool is finished, uninstall "
 "Advance/NanoLabo as well."
 
-#: ../../install/linux.rst:185 ../../install/windows.rst:113
+#: ../../install/linux.rst:229 ../../install/windows.rst:113
 msgid "アンインストールの際に、インストール先のライセンスファイルは削除されずに残ります。また、インストールログファイルが残る場合があります。その際はお手数ですが手動で削除してください。"
 msgstr ""
 "License file in the install destination is not removed during the "
 "uninstallation. Also, installation log file may remain. In that case "
 "please remove them manually."
 
-#: ../../install/linux.rst:189
+#: ../../install/linux.rst:233
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` "
 "）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"
