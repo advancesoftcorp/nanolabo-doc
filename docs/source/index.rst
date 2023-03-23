@@ -7,7 +7,7 @@
 ナノ材料解析統合GUI Advance/NanoLabo
 ============================================
 
-`Advance/PHASE <https://www.advancesoft.jp/product/advance_phase/>`_\ （当社製品）および、\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_\ や\ `LAMMPS <https://www.lammps.org/>`_\ などオープンソースのナノ材料解析ソフトウェアに対応した統合GUIです。\ `Materials Project <https://materialsproject.org/>`_\ などの材料データベースを検索し、モデリング・計算条件設定が極めて容易に行えます。計算実行後は、結果を瞬時にグラフィック表示できます。
+`Advance/PHASE <https://www.advancesoft.jp/products/nano/advance-phase/>`_\ （当社製品）および、\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_\ や\ `LAMMPS <https://www.lammps.org/>`_\ などオープンソースのナノ材料解析ソフトウェアに対応した統合GUIです。\ `Materials Project <https://materialsproject.org/>`_\ などの材料データベースを検索し、モデリング・計算条件設定が極めて容易に行えます。計算実行後は、結果を瞬時にグラフィック表示できます。
 
 本サイトはオンラインマニュアルです。製品ホームページは |nanolabologo|_ へどうぞ。
 

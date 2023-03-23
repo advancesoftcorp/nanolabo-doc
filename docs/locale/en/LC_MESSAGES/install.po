@@ -206,9 +206,9 @@ msgid ""
 "<https://remotelicense-doc.readthedocs.io/ja/latest/>`_\\ を参照してください。"
 msgstr ""
 "You can use our tool `remoteLicense <https://remotelicense-"
-"doc.readthedocs.io/ja/latest/>`_ to easily start / stop / check the "
+"doc.readthedocs.io/en/latest/>`_ to easily start / stop / check the "
 "status of license server on Linux machine from Windows. Please refer to "
-"the `manual <https://remotelicense-doc.readthedocs.io/ja/latest/>`_ for "
+"the `manual <https://remotelicense-doc.readthedocs.io/en/latest/>`_ for "
 "detail."
 
 #: ../../install/linux.rst:97
@@ -941,7 +941,7 @@ msgid ""
 "IDを取得できます。"
 msgstr ""
 "You can use our tool `remoteLicense <https://remotelicense-"
-"doc.readthedocs.io/ja/latest/>`_ to easily acquire the Host ID of Linux "
+"doc.readthedocs.io/en/latest/>`_ to easily acquire the Host ID of Linux "
 "machine from Windows."
 
 #: ../../install/purchase.rst:135
@@ -950,7 +950,7 @@ msgid ""
 "doc.readthedocs.io/ja/latest/>`_\\ を参照してください。"
 msgstr ""
 "Below is the outline of procedure. Please refer to the `manual <https"
-"://remotelicense-doc.readthedocs.io/ja/latest/>`_ for detail."
+"://remotelicense-doc.readthedocs.io/en/latest/>`_ for detail."
 
 #: ../../install/purchase.rst:137
 msgid ""

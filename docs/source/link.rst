@@ -20,7 +20,7 @@ Advance/NeuralMD
 ================
 
 Advance/NeuralMDホームページ
- https://www.advancesoft.jp/product/advance_neuralmd/
+ https://www.nanolabo.advancesoft.jp/neuralmd/
 
 マニュアル
  https://neuralmd-doc.readthedocs.io/ja/latest/
@@ -32,7 +32,7 @@ Advance/PHASE
 ================
 
 Advance/PHASEホームページ
- https://www.advancesoft.jp/product/advance_phase/
+ https://www.advancesoft.jp/products/nano/advance-phase/
 
 Quantum ESPRESSO
 ====================

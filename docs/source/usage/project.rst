@@ -66,10 +66,10 @@
    +--------------------------------+-------------------------------------------------------------------------------------------+
 
 
-.. _`Advance/PHASE`: https://www.advancesoft.jp/product/advance_phase/
+.. _`Advance/PHASE`: https://www.advancesoft.jp/products/nano/advance-phase/
 .. _`Quantum ESPRESSO`: https://www.quantum-espresso.org/
 .. _`LAMMPS`: https://www.lammps.org/
-.. _`Advance/NeuralMD`: https://www.advancesoft.jp/product/advance_neuralmd/
+.. _`Advance/NeuralMD`: https://www.nanolabo.advancesoft.jp/neuralmd/
 
 使用する計算エンジンとエディターのモードを選ぶと、それに応じた設定項目が画面右側のエディターパネルに表示されます。
 

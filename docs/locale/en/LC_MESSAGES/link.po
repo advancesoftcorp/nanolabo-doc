@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-02 14:51+0900\n"
+"POT-Creation-Date: 2023-03-23 18:53+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,8 +59,8 @@ msgid "Advance/NeuralMDホームページ"
 msgstr "Advance/NeuralMD home page"
 
 #: ../../link.rst:23
-msgid "https://www.advancesoft.jp/product/advance_neuralmd/"
-msgstr ""
+msgid "https://www.nanolabo.advancesoft.jp/neuralmd/"
+msgstr "https://www.nanolabo.advancesoft.jp/en/neuralmd/"
 
 #: ../../link.rst:26 ../../link.rst:100
 msgid "マニュアル"
@@ -68,7 +68,7 @@ msgstr "Manual"
 
 #: ../../link.rst:26
 msgid "https://neuralmd-doc.readthedocs.io/ja/latest/"
-msgstr ""
+msgstr "https://neuralmd-doc.readthedocs.io/en/latest/"
 
 #: ../../link.rst:29
 msgid "http://case.advancesoft.jp/NeuralMD/"
@@ -83,7 +83,7 @@ msgid "Advance/PHASEホームページ"
 msgstr "Advance/PHASE home page"
 
 #: ../../link.rst:35
-msgid "https://www.advancesoft.jp/product/advance_phase/"
+msgid "https://www.advancesoft.jp/products/nano/advance-phase/"
 msgstr ""
 
 #: ../../link.rst:38
