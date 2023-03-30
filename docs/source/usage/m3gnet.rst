@@ -105,3 +105,20 @@ LAMMPSの入力ファイル中で、以下のように\ ``pair_style``\ を設�
   +--------------------+-------------------------------------------------------------------------------------------------+
   | 元素名             | LAMMPSのatom type毎に、対応する元素名を列挙                                                     |
   +--------------------+-------------------------------------------------------------------------------------------------+
+
+.. hint::
+
+ 次のようなエラーで実行できない場合があります。
+
+ .. code-block:: none
+
+  Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+  Python runtime state: core initialized
+  ModuleNotFoundError: No module named 'encodings'
+
+ この場合、環境変数 :envvar:`PYTHONHOME` が正しく設定されているかご確認ください。
+
+ .. code-block:: console
+  :caption: Windowsの例
+
+  set PYTHONHOME=(condaのインストール先)

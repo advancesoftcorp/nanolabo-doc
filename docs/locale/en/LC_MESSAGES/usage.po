@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-03 17:22+0900\n"
+"POT-Creation-Date: 2023-03-30 15:05+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2940,6 +2940,30 @@ msgstr "element"
 msgid "LAMMPSのatom type毎に、対応する元素名を列挙"
 msgstr "list element names in the same order as atom types of LAMMPS"
 
+#: ../../usage/m3gnet.rst:111
+msgid "次のようなエラーで実行できない場合があります。"
+msgstr "Following error may appear at runtime."
+
+#: ../../usage/m3gnet.rst:113
+msgid ""
+"Fatal Python error: init_fs_encoding: failed to get the Python codec of "
+"the filesystem encoding\n"
+"Python runtime state: core initialized\n"
+"ModuleNotFoundError: No module named 'encodings'"
+msgstr ""
+
+#: ../../usage/m3gnet.rst:119
+msgid "この場合、環境変数 :envvar:`PYTHONHOME` が正しく設定されているかご確認ください。"
+msgstr "In this case, make sure the environment variable :envvar:`PYTHONHOME` is set correctly."
+
+#: ../../usage/m3gnet.rst:121
+msgid "Windowsの例"
+msgstr "Windows example"
+
+#: ../../usage/m3gnet.rst:121
+msgid "set PYTHONHOME=(condaのインストール先)"
+msgstr "set PYTHONHOME=(conda installation destination)"
+
 #: ../../usage/metro.rst:5
 msgid "メトロポリス法"
 msgstr "Metropolis method"
@@ -3693,16 +3717,18 @@ msgid ""
 msgstr ""
 "Setup procedure required for using the versatile force field from LAMMPS "
 "is described here, based on the `installation procedure "
-"<https://github.com/Open-Catalyst-Project/ocp/tree/main#installation>`_"
-" published by the Open Catalyst Project."
+"<https://github.com/Open-Catalyst-Project/ocp/tree/main#installation>`_ "
+"published by the Open Catalyst Project."
 
 #: ../../usage/ocp.rst:16
 msgid ""
 "Open Catalyst "
 "Projectのリポジトリは継続的に更新されており、このページで説明するインストール手順は最新でない場合があります。インストール・実行がうまくいかない場合は元のインストール手順もご参照ください。"
 msgstr ""
-"The Open Catalyst Project repository is countinuously updated, therefore the installation precedure described in this page might not be up-to-date. "
-"If the installation or execution is not going well, please also refer to the original installation procedure."
+"The Open Catalyst Project repository is countinuously updated, therefore "
+"the installation precedure described in this page might not be up-to-"
+"date. If the installation or execution is not going well, please also "
+"refer to the original installation procedure."
 
 #: ../../usage/ocp.rst:18
 msgid "（任意）CUDAの用意"
@@ -3991,7 +4017,9 @@ msgstr ""
 msgid ""
 "DimeNet++, GemNet-dT_OC20, GemNet-dT_OC22, CGCNN, SchNet, SpinConv "
 "のいずれかを指定"
-msgstr "specify one of DimeNet++, GemNet-dT_OC20, GemNet-dT_OC22, CGCNN, SchNet, SpinConv"
+msgstr ""
+"specify one of DimeNet++, GemNet-dT_OC20, GemNet-dT_OC22, CGCNN, SchNet, "
+"SpinConv"
 
 #: ../../usage/ocp.rst
 msgid "（GemNet-dTを指定した場合、GemNet-dT_OC20を使用します）"
@@ -4219,16 +4247,17 @@ msgstr ""
 #: ../../usage/project.rst:89
 msgid "この制限は、ジャンクションを使うことで回避できます。下記の例のようにコマンドを実行して設定することで、NanoLabo上でextフォルダに保存したデータが、実体としてはnanolaboDataフォルダに保存されます。"
 msgstr ""
-"This limitation can be avoided by using junction. You can set it by executing commands as example below, and when"
-" you save data in ext folder on NanoLabo, the actual data will be stored "
-"in nanolaboData folder."
+"This limitation can be avoided by using junction. You can set it by "
+"executing commands as example below, and when you save data in ext folder"
+" on NanoLabo, the actual data will be stored in nanolaboData folder."
 
 #: ../../usage/project.rst:91
 msgid ""
 "また、Linuxでもシンボリックリンクを使うことで、\\ :file:`.nanolabo`\\ の外にあるフォルダを\\ "
 ":file:`.nanolabo`\\ 内にあるように扱うことができます。"
 msgstr ""
-"Also on Linux, using simbolic link, you can handle a folder out of :file:`.nanolabo` as if it is in :file:`.nanolabo`\\ ."
+"Also on Linux, using simbolic link, you can handle a folder out of "
+":file:`.nanolabo` as if it is in :file:`.nanolabo`\\ ."
 
 #: ../../usage/project.rst:93
 msgid "Windows"
