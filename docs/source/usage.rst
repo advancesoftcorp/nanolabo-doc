@@ -18,3 +18,4 @@
    usage/result
    usage/grandproject
    usage/slhmc
+   usage/jupyter
