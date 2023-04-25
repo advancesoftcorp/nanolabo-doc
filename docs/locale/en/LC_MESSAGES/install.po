@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-15 15:36+0900\n"
+"POT-Creation-Date: 2023-04-25 15:10+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,8 +44,8 @@ msgstr ""
 
 #: ../../install/linux.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.7) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1040>`_"
+"`Advance/NanoLabo (ver.2.8) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1115>`_"
 msgstr ""
 
 #: ../../install/linux.rst:16
@@ -255,7 +255,8 @@ msgstr "Floating license"
 #: ../../install/linux.rst:122
 msgid "Linuxマシンに対して発行されたライセンスはフローティングライセンスとなっており、ネットワーク接続された別のマシン上（Windows・Linux）でNanoLaboを使うことができます。"
 msgstr ""
-"The license issued for a linux machine is floating license, and you can use NeuralMD on other connected machines(Windows/Linux) via the network."
+"The license issued for a linux machine is floating license, and you can "
+"use NeuralMD on other connected machines(Windows/Linux) via the network."
 
 #: ../../install/linux.rst:124
 msgid "ライセンスサーバーとして使うマシン側"
@@ -264,8 +265,10 @@ msgstr "Machine to be used as license server"
 #: ../../install/linux.rst:126
 msgid "別のWindowsマシンからremoteLicenseを使うか、またはそのマシンにNanoLaboをインストールして、ホストIDの取得・ライセンス登録を行ってください。ライセンスファイル取得後、remoteLicenseを使うか、またはマシン上で直接ライセンスサーバーを起動してください。"
 msgstr ""
-"Obtain the HostID and request the license by using remoteLicense from another Windows machine or installing NanoLabo to the machine itself. "
-"Once you get the license file, launch the license server by using remoteLicense or directly on the machine."
+"Obtain the HostID and request the license by using remoteLicense from "
+"another Windows machine or installing NanoLabo to the machine itself. "
+"Once you get the license file, launch the license server by using "
+"remoteLicense or directly on the machine."
 
 #: ../../install/linux.rst:128
 msgid "NanoLaboを使うクライアントマシン側"
@@ -274,7 +277,8 @@ msgstr "Machine to be a client to use NanoLabo"
 #: ../../install/linux.rst:130
 msgid "NanoLaboをインストールして、同じライセンスファイルをインストール先の :file:`license` ディレクトリにコピーしてください。"
 msgstr ""
-"Install NeuralMD and copy the same license file to :file:`license` directory in the installation destination."
+"Install NeuralMD and copy the same license file to :file:`license` "
+"directory in the installation destination."
 
 #: ../../install/linux.rst:132
 msgid "ライセンス認証がうまくいかない場合は、以下をご確認ください。"
@@ -283,8 +287,10 @@ msgstr "If license authentication does not work, please check following."
 #: ../../install/linux.rst:134
 msgid "クライアントからライセンスサーバーへの接続には、ライセンスファイル中に書かれたホスト名を使用します。ホスト名を使った接続ができない場合、ファイル中のホスト名をIPアドレスに書き換えることで接続できるようになることがあります。"
 msgstr ""
-"The hostname stored in the license file is used when connecting from the client to the license server. "
-"If hostname can not be used for the connection, replace the hostname in the file with the IP address and see if it works."
+"The hostname stored in the license file is used when connecting from the "
+"client to the license server. If hostname can not be used for the "
+"connection, replace the hostname in the file with the IP address and see "
+"if it works."
 
 #: ../../install/linux.rst:136
 msgid ""
@@ -292,15 +298,20 @@ msgid ""
 "の2つのプロセスが起動し、それぞれがネットワーク通信を行います。使用するポート番号は動的に決まります（\\ :file:`lmgrd` "
 "は27000-27009番ポートを使用）が、ファイアウォールの設定等のためにポート番号を固定したい場合は、ライセンスファイル中に追記して指定することができます。"
 msgstr ""
-"While the license server is running, license manager daemon :file:`lmgrd` and vendor daemon :file:`advanced` are launched, and both of them perform network communications. "
-"While the port number is dynamically determined (\ :file:`lmgrd` uses port number 27000-27009), you can specify fixed port number by adding it in the license file, for "
-"firewall configuration etc."
+"While the license server is running, license manager daemon :file:`lmgrd`"
+" and vendor daemon :file:`advanced` are launched, and both of them "
+"perform network communications. While the port number is dynamically "
+"determined (\\ :file:`lmgrd` uses port number 27000-27009), you can "
+"specify fixed port number by adding it in the license file, for firewall "
+"configuration etc."
 
 #: ../../install/linux.rst:138
 msgid "ライセンスファイルはテキストファイルですので通常のテキストエディタで編集できます。ホスト名の変更・ポート番号の追記でライセンスの再発行は必要ありません。サーバー側・クライアント側両方で同じように変更してください。"
 msgstr ""
-"You can modify the license file with normal text editors as it is a text file. You do not have to re-issue the license by changing the hostname or adding the port number. Modify the file in the same way both for "
-"the server side and the client side."
+"You can modify the license file with normal text editors as it is a text "
+"file. You do not have to re-issue the license by changing the hostname or"
+" adding the port number. Modify the file in the same way both for the "
+"server side and the client side."
 
 #: ../../install/linux.rst:143
 msgid "lmgrdが30000番、advancedが30001番ポートを使うように設定する例"
@@ -327,8 +338,9 @@ msgid ""
 "クライアント側でNanoLaboを起動したときに、ライセンスサーバーが終了してしまう場合があります。ライセンスサーバーの起動時に "
 ":file:`lmgrd` のオプション ``-local`` を付けることで、クライアント側から終了されないようにすることができます。"
 msgstr ""
-"The license server may be terminated when NanoLabo is launched on the client. Add the option ``-local`` to :file:`lmgrd` "
-"when launching the license server to prevent it from being terminated from the client side."
+"The license server may be terminated when NanoLabo is launched on the "
+"client. Add the option ``-local`` to :file:`lmgrd` when launching the "
+"license server to prevent it from being terminated from the client side."
 
 #: ../../install/linux.rst:164 ../../install/mac.rst:56
 #: ../../install/windows.rst:63
@@ -509,10 +521,10 @@ msgstr "Intel ver.: for pre-existing machines, download these 2."
 
 #: ../../install/mac.rst:16
 msgid ""
-"`Advance/NanoLabo (ver.2.7) Intel版 "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1056>`_"
+"`Advance/NanoLabo (ver.2.8) Intel版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1119>`_"
 msgstr ""
-"`Advance/NanoLabo (ver.2.7) Intel ver. "
+"`Advance/NanoLabo (ver.2.8) Intel ver. "
 "<https://www.nanolabo.advancesoft.jp/?wpdmdl=1056>`_"
 
 #: ../../install/mac.rst:18
@@ -529,10 +541,10 @@ msgstr "ARM ver.: for machines with Apple M1, download these 2."
 
 #: ../../install/mac.rst:22
 msgid ""
-"`Advance/NanoLabo (ver.2.7) ARM版 "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1057>`_"
+"`Advance/NanoLabo (ver.2.8) ARM版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1117>`_"
 msgstr ""
-"`Advance/NanoLabo (ver.2.7) ARM ver. "
+"`Advance/NanoLabo (ver.2.8) ARM ver. "
 "<https://www.nanolabo.advancesoft.jp/?wpdmdl=1057>`_"
 
 #: ../../install/mac.rst:24
@@ -995,16 +1007,16 @@ msgid "AlmaLinux 8"
 msgstr ""
 
 #: ../../install/requirement.rst:12
-msgid "macOS 10.15 (64 bit)"
-msgstr ""
+msgid "macOS 10.15 (64 bit)（Intel/Apple M1対応）"
+msgstr "macOS 10.15 (64 bit)(Intel/Apple M1 supported)"
 
 #: ../../install/requirement.rst:14
 msgid "Java"
 msgstr ""
 
 #: ../../install/requirement.rst:16
-msgid "Java Runtime Environment 1.8以降"
-msgstr "Java Runtime Environment 1.8 or later"
+msgid "Java Runtime Environment 17"
+msgstr ""
 
 #: ../../install/windows.rst:5
 msgid "インストール手順 (Windows)"
@@ -1012,8 +1024,8 @@ msgstr "How to Install (Windows)"
 
 #: ../../install/windows.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.7) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1038>`_"
+"`Advance/NanoLabo (ver.2.8) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1113>`_"
 msgstr ""
 
 #: ../../install/windows.rst:16
@@ -1109,4 +1121,7 @@ msgid ""
 msgstr ""
 "In some case, Java VM setting is stored in "
 ":file:`C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\VirtualStore` ."
+
+#~ msgid "macOS 10.15 (64 bit)"
+#~ msgstr ""
 

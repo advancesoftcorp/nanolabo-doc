@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-24 14:30+0900\n"
+"POT-Creation-Date: 2023-04-25 15:05+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "バージョン情報"
 msgstr "Version Information"
 
 #: ../../version.rst:24
-msgid "2023/04/-- バージョン2.8"
-msgstr "2023/04/-- Version 2.8"
+msgid "2023/04/25 バージョン2.8"
+msgstr "2023/04/25 Version 2.8"
 
 #: ../../version.rst:8 ../../version.rst:34 ../../version.rst:60
 #: ../../version.rst:105 ../../version.rst:127 ../../version.rst:150
@@ -54,7 +54,9 @@ msgstr "Java runtime environment changed from JRE8 to JRE17"
 
 #: ../../version.rst:16
 msgid "LAMMPS: Schemeに構造最適化を含む場合の計算結果のグラフ描画の不具合を改修"
-msgstr "LAMMPS: fix problem of graph display when structure optimization is used in Scheme"
+msgstr ""
+"LAMMPS: fix problem of graph display when structure optimization is used "
+"in Scheme"
 
 #: ../../version.rst:17
 msgid "LAMMPS: MEAM力場使用時の元素の設定(pair_coeff)を修正"
@@ -66,15 +68,21 @@ msgstr "improve compatibility of CIF import/export"
 
 #: ../../version.rst:19
 msgid "（Windows版）タスクバー上のピン留め・複数ウィンドウ表示時の動作改善"
-msgstr "(Windows) improve behavior when pinned to taskbar / when multiple windows are shown"
+msgstr ""
+"(Windows) improve behavior when pinned to taskbar / when multiple windows"
+" are shown"
 
 #: ../../version.rst:20
 msgid "設定ファイル等の保存先を\\ :file:`.nanolabo/`\\ から\\ :file:`.nanolabo/.system/` に変更"
-msgstr "changed location of configuration files etc. from :file:`.nanolabo/` to :file:`.nanolabo/.system/`"
+msgstr ""
+"changed location of configuration files etc. from :file:`.nanolabo/` to "
+":file:`.nanolabo/.system/`"
 
 #: ../../version.rst:22
 msgid "以前のバージョンをお使いの場合、アップデート後の最初の起動時にファイル等が移動されます。"
-msgstr "If you have already used previous versions, the files are moved at the first launch after update."
+msgstr ""
+"If you have already used previous versions, the files are moved at the "
+"first launch after update."
 
 #: ../../version.rst:24 ../../version.rst:57 ../../version.rst:102
 #: ../../version.rst:124 ../../version.rst:147 ../../version.rst:168
