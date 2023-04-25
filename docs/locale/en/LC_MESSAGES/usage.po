@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 15:05+0900\n"
+"POT-Creation-Date: 2023-04-24 14:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -167,8 +167,8 @@ msgstr ""
 
 #: ../../usage/atomsviewer.rst:54 ../../usage/calculation.rst:9
 #: ../../usage/grandproject.rst:27 ../../usage/inputeditor.rst:47
-#: ../../usage/modeler.rst:15 ../../usage/project.rst:20
-#: ../../usage/result.rst:9 ../../usage/slhmc.rst:60
+#: ../../usage/jupyter.rst:82 ../../usage/modeler.rst:15
+#: ../../usage/project.rst:20 ../../usage/result.rst:9 ../../usage/slhmc.rst:60
 msgid "projectmenuicon"
 msgstr ""
 
@@ -590,8 +590,9 @@ msgstr ""
 "|mainmenuicon| and toggle the setting of :guilabel:`Input File Editor` ."
 
 #: ../../usage/calculation.rst:42 ../../usage/grandproject.rst:53
-#: ../../usage/initial.rst:61 ../../usage/m3gnet.rst:54 ../../usage/ocp.rst:168
-#: ../../usage/result.rst:60 ../../usage/sshserver.rst:9
+#: ../../usage/initial.rst:61 ../../usage/jupyter.rst:40
+#: ../../usage/m3gnet.rst:54 ../../usage/ocp.rst:168 ../../usage/result.rst:60
+#: ../../usage/sshserver.rst:9
 msgid "mainmenuicon"
 msgstr ""
 
@@ -919,7 +920,7 @@ msgid "元素名の行が含まれている必要があります。"
 msgstr "element names line must be included."
 
 #: ../../usage/explorer.rst:91
-msgid ".in, .qe, .qein, .pw, .pwin, input"
+msgid ".in, .qe, .qein, .pw, .pwin, .pwi, input"
 msgstr ""
 
 #: ../../usage/explorer.rst:91
@@ -2712,6 +2713,168 @@ msgstr ""
 " not calculated, calculation is performed without correction even "
 ":guilabel:`Non-Analytic Term` is set to yes."
 
+#: ../../usage/jupyter.rst:5
+msgid "Jupyter Interface for NanoLabo"
+msgstr ""
+
+#: ../../usage/jupyter.rst:7
+msgid ""
+"JupyterLabは、ブラウザベースのPython実行環境です。Jupyter Interface for "
+"NanoLaboを使うことで、Atomic Simulation "
+"Environment(ASE)とNanoLaboの間で原子構造を相互にやり取りし、JupyterLab上で原子構造を扱うことができます。"
+msgstr ""
+"JupyterLab is a browser-based Python environment. With Jupyter Interface for NanoLabo, "
+"you can exchange atomic structures between Atomic Simulation Environment(ASE) and NanoLabo, "
+"and handle atomic structures on JupyterLab."
+
+#: ../../usage/jupyter.rst:9
+msgid "本機能は2023年7月31日までは無償利用可となっております。以降はNanoLabo本体とは別にライセンスが必要です。"
+msgstr ""
+"This feature is free to use until July 31, 2023. Separate license is required after that."
+
+#: ../../usage/jupyter.rst:14
+msgid "設定"
+msgstr "Setting"
+
+#: ../../usage/jupyter.rst:16
+msgid ""
+"画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Jupyter Lab` "
+"を開き、設定を行います。"
+msgstr ""
+"Click the icon |mainmenuicon| on upper left of the screen, and open "
+":menuselection:`Properties --> Jupyter Lab`\\ ."
+
+#: ../../usage/jupyter.rst:18
+msgid "URL"
+msgstr ""
+
+#: ../../usage/jupyter.rst:24
+msgid "Token"
+msgstr ""
+
+#: ../../usage/jupyter.rst:20
+msgid "JupyterLabに接続するためのURL（例： ``http://localhost:8888/lab`` ）とtokenを設定します。"
+msgstr "Specify URL (example: ``http://localhost:8888/lab`` ) and token to connect to JupyterLab."
+
+#: ../../usage/jupyter.rst:24
+msgid "パスワードによる認証には現在対応しておりません。パスワード認証の場合、JupyterLabの画面は表示できますが、原子構造のアップロード・ダウンロードができません。"
+msgstr "Password authentication is currently not supported. In case of password authentication, while JupyterLab screen can be displayed, "
+"uploading/downloading atomic structure does not work."
+
+#: ../../usage/jupyter.rst:26
+msgid "Uploading Path"
+msgstr ""
+
+#: ../../usage/jupyter.rst:28
+msgid "NanoLaboからJupyterLabに原子構造をアップロードする際の設定です。JupyterLabのルートディレクトリに対する相対パスを指定してください。"
+msgstr "Configuration for uploading atomic structure from NanoLabo to JupyterLab. Specify relative path to the root directory of Jupyterlab."
+
+#: ../../usage/jupyter.rst:30
+msgid "Uploading File Type"
+msgstr ""
+
+#: ../../usage/jupyter.rst:32
+msgid "原子座標の固定／可動の情報を含めてアップロードしたい場合は :file:`.POSCAR` 形式を指定してください。"
+msgstr "Specify :file:`.POSCAR` format to upload including the information if atomic coordinates are fixed/mobile."
+
+#: ../../usage/jupyter.rst:34
+msgid "Using NGLView"
+msgstr ""
+
+#: ../../usage/jupyter.rst:36
+msgid "ファイルをインポートする際のコードに、NGLViewを使って原子構造を可視化するコードを追加します。"
+msgstr "Add codes to visualize atomic structure with NGLView when importing a file."
+
+#: ../../usage/jupyter.rst:38
+msgid ""
+"設定が終わったら、画面右上のPythonアイコン |pythonicon| "
+"をクリックして、JupyterLabの画面が表示されることを確認してください。"
+msgstr ""
+"When the setting is completed, click Python icon |pythonicon| on the upper right of the window "
+"to see if JupyterLab screen is shown."
+
+#: ../../usage/jupyter.rst:41
+msgid "pythonicon"
+msgstr ""
+
+#: ../../usage/jupyter.rst:46
+msgid "NanoLabo |rarr| JupyterLab"
+msgstr ""
+
+#: ../../usage/jupyter.rst:48
+msgid ""
+"プロジェクトの原子構造をJupyterLabにインポートするには、左下のメニュー |projectmenuicon| から "
+":guilabel:`Jupyter Lab` をクリックします。"
+msgstr ""
+"To import an atomic structure from a project, click :guilabel:`Jupyter Lab` "
+"from the lower left menu |projectmenuicon| ."
+
+#: ../../usage/jupyter.rst:50
+msgid "原子構造ファイルがJupyterLabにアップロードされるとともに、JupyterLabのタブが開いて、原子構造をインポートするためのPythonコードが表示されます。表示されたコードをコピーし、JupyterLab上で実行することで、ASEのAtomsオブジェクトが作成されます。"
+msgstr ""
+"The atomic sturecture file is uploaded to JupyterLab, and JupyterLab tab is opened at the same time, displaying the Python code to import the atomic structure. "
+"Copy the code and execute it on JupyterLab to create the Atoms object of ASE."
+
+#: ../../usage/jupyter.rst:56
+msgid "NGLViewは ``pip`` コマンドでインストールできます。"
+msgstr "You can install NGLView by ``pip`` command."
+
+#: ../../usage/jupyter.rst:58
+msgid "$ pip install nglview"
+msgstr ""
+
+#: ../../usage/jupyter.rst:62
+msgid "NGLViewによる可視化を実行しようとした時に"
+msgstr "If you see an error like"
+
+#: ../../usage/jupyter.rst:64
+msgid "AttributeError: 'super' object has no attribute '_ipython_display_'"
+msgstr ""
+
+#: ../../usage/jupyter.rst:68
+msgid "というエラーが表示される場合、 ``ipywidgets`` のバージョンを指定することで改善する場合があります。"
+msgstr "when executing visualization by NGLView, it may be resolved by specifying the version of ``ipywidgets`` ."
+
+#: ../../usage/jupyter.rst:70
+msgid "$ pip install 'ipywidgets>=7.6.0,<8'"
+msgstr ""
+
+#: ../../usage/jupyter.rst:74
+msgid "プロジェクトメニューから以外にも、原子構造ビューワーやプロジェクトアイコンの右クリックメニューからJupyterLabにインポートすることができます。"
+msgstr "Not only from the project menu, but you can also import from the right click menu of atomic structure viewer or project icon."
+
+#: ../../usage/jupyter.rst:80
+msgid "例えば、分子描画機能を使って分子を作成した後、原子構造ビューワーの右クリックメニューからすぐにJupyterLabにアップロードすることができます。"
+msgstr "For example, after making a molecure by Drawing Molecule feature, "
+"you can immediately upload it to JupyterLab from the right click menu of the atomic structure viewer."
+
+#: ../../usage/jupyter.rst:87
+msgid "JupyterLab |rarr| NanoLabo"
+msgstr ""
+
+#: ../../usage/jupyter.rst:89
+msgid ""
+"JupyterLab上で原子構造をファイルに出力します。ファイル形式はNanoLaboが対応しているものにしてください。 "
+":file:`.POSCAR` 形式で保存する例を示します。"
+msgstr ""
+"First, export the atomic strucure to a file on JupyterLab. Choose the file format that is supported by NanoLabo. "
+"Below is an example of exporting to :file:`.POSCAR` format."
+
+#: ../../usage/jupyter.rst:91
+msgid ""
+"from ase.io import write\n"
+"write('export.POSCAR', myAtoms)"
+msgstr ""
+
+#: ../../usage/jupyter.rst:96
+msgid ""
+"ファイルブラウザ上でファイルの右クリックメニューから :guilabel:`Download` "
+"をクリックすると、ファイルがNanoLaboにダウンロードされ、プレビューのダイアログが表示されます。 :guilabel:`Open` "
+"をクリックするとプロジェクトとして開きます。"
+msgstr ""
+"When you click :guilabel:`Download` from the right click menu of a file on the file browser, "
+"it is downloaded to NanoLabo, and a preview dialog is shown. Click :guilabel:`Open` to open it as a project."
+
 #: ../../usage/m3gnet.rst:5
 msgid "M3GNet汎用力場を使うための設定"
 msgstr "Setup for M3GNet versatile force field"
@@ -2954,7 +3117,9 @@ msgstr ""
 
 #: ../../usage/m3gnet.rst:119
 msgid "この場合、環境変数 :envvar:`PYTHONHOME` が正しく設定されているかご確認ください。"
-msgstr "In this case, make sure the environment variable :envvar:`PYTHONHOME` is set correctly."
+msgstr ""
+"In this case, make sure the environment variable :envvar:`PYTHONHOME` is "
+"set correctly."
 
 #: ../../usage/m3gnet.rst:121
 msgid "Windowsの例"

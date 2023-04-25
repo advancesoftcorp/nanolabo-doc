@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-03 15:45+0900\n"
+"POT-Creation-Date: 2023-04-24 14:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../python.rst:5
-msgid "Python連携"
-msgstr "Use with Python"
+msgid "Python API"
+msgstr ""
 
 #: ../../python.rst:7
 msgid "Advance/NanoLaboには外部のプログラムから操作するためのインターフェースが備わっています。同梱のモジュールをインポートすることで、PythonからNanoLaboを操作する関数が使えるようになります。"
@@ -61,9 +61,9 @@ msgid ""
 "を使って関数にアクセスできるようになります。"
 msgstr ""
 "Module file :file:`nanolabo.py` is stored in :file:`python` folder in "
-"NanoLabo installation destination on Windows / Linux, or in :file:`/Library/Application "
-"Support/AdvanceSoft/NanoLabo/python` folder"
-" on macOS. Please copy the file to any place you like.  By importing it, "
+"NanoLabo installation destination on Windows / Linux, or in "
+":file:`/Library/Application Support/AdvanceSoft/NanoLabo/python` folder "
+"on macOS. Please copy the file to any place you like.  By importing it, "
 "you can access the functions with module name ``nanolabo`` ."
 
 #: ../../python.rst:23
