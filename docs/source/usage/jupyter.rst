@@ -6,6 +6,8 @@ Jupyter Interface for NanoLabo
 
 JupyterLabは、ブラウザベースのPython実行環境です。Jupyter Interface for NanoLaboを使うことで、Atomic Simulation Environment(ASE)とNanoLaboの間で原子構造を相互にやり取りし、JupyterLab上で原子構造を扱うことができます。
 
+.. note:: 本機能は2023年7月31日までは無償利用可となっております。以降はNanoLabo本体とは別にライセンスが必要です。
+
 .. _jupyter_setting:
 
 設定
