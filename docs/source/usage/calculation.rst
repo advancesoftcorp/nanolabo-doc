@@ -28,6 +28,12 @@
 - #Threads
    （ローカル実行時のみ）並列計算を行う場合、並列数を設定します。
 
+   .. hint::
+      
+    :guilabel:`#Threads` は1プロセスあたりのスレッド数です。(\ :guilabel:`#Processes` :math:`\times` :guilabel:`#Threads`\ ) のスレッドが生成されて計算を実行します。
+
+    例えば12コアCPUのマシンの場合、MPI並列のみを使う場合は :guilabel:`#Processes` = 12, :guilabel:`#Threads` = 1、MPI並列とOpenMP並列を併用する場合（ハイブリッド並列）は :guilabel:`#Processes` = 6, :guilabel:`#Threads` = 2などのように設定します。最適な組み合わせはマシン環境により異なります。
+
 - Project
    プロジェクトが保存されていない場合は、 :guilabel:`Save Project` ボタンをクリックして保存してから計算を実行してください。
 

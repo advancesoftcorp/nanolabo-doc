@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-24 14:30+0900\n"
+"POT-Creation-Date: 2023-05-08 11:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -545,7 +545,7 @@ msgstr "(Remote execution only) specify the queue to use."
 msgid "#Processes"
 msgstr ""
 
-#: ../../usage/calculation.rst:29
+#: ../../usage/calculation.rst:35
 msgid "#Threads"
 msgstr ""
 
@@ -555,21 +555,43 @@ msgstr ""
 "(Local execution only) If you'd like to perform parallel calculation, set"
 " the parallel number."
 
-#: ../../usage/calculation.rst:32
+#: ../../usage/calculation.rst:33
+msgid ""
+":guilabel:`#Threads` は1プロセスあたりのスレッド数です。(\\ :guilabel:`#Processes` "
+":math:`\\times` :guilabel:`#Threads`\\ ) のスレッドが生成されて計算を実行します。"
+msgstr ""
+":guilabel:`#Threads` is number of threads per one process. (\\ :guilabel:`#Processes` "
+":math:`\\times` :guilabel:`#Threads`\\ ) threads "
+"will be generated to execute the calculation."
+
+#: ../../usage/calculation.rst:35
+msgid ""
+"例えば12コアCPUのマシンの場合、MPI並列のみを使う場合は :guilabel:`#Processes` = 12, "
+":guilabel:`#Threads` = 1、MPI並列とOpenMP並列を併用する場合（ハイブリッド並列）は "
+":guilabel:`#Processes` = 6, :guilabel:`#Threads` = "
+"2などのように設定します。最適な組み合わせはマシン環境により異なります。"
+msgstr ""
+"For example, on a 12-core CPU machine, you may set :guilabel:`#Processes`"
+" = 12, :guilabel:`#Threads` = 1 to use MPI parallel only, or "
+":guilabel:`#Processes` = 6, :guilabel:`#Threads` = 2 to use both MPI "
+"parallel and OpenMP parallel (hybrid parallel). Optimal combination "
+"varies depending on the machine environment."
+
+#: ../../usage/calculation.rst:38
 msgid "Project"
 msgstr "Project"
 
-#: ../../usage/calculation.rst:32
+#: ../../usage/calculation.rst:38
 msgid "プロジェクトが保存されていない場合は、 :guilabel:`Save Project` ボタンをクリックして保存してから計算を実行してください。"
 msgstr ""
 "If the project is not saved, click :guilabel:`Save Project` button here "
 "before running the calculation."
 
-#: ../../usage/calculation.rst:34
+#: ../../usage/calculation.rst:40
 msgid "設定が終わったら、 :guilabel:`OK` をクリックしてください。"
 msgstr "After the setting is finished, click :guilabel:`OK` ."
 
-#: ../../usage/calculation.rst:36
+#: ../../usage/calculation.rst:42
 msgid ""
 "ここで、LAMMPS実行時には入力ファイル、リモート実行時にはジョブスクリプトの内容を確認する画面がそれぞれ表示されます。必要に応じてこの場で内容を編集することもできます（変更は今回の実行に限り適用され、プロジェクトやサーバー設定には反映されません）。"
 " :guilabel:`OK` をクリックすると計算が実行されます。"
@@ -579,7 +601,7 @@ msgstr ""
 "also edit the content on the spot (changes are applied only for this run,"
 " and not reflected to the project / server settings)."
 
-#: ../../usage/calculation.rst:38
+#: ../../usage/calculation.rst:44
 msgid ""
 "LAMMPSの入力ファイル確認画面は表示しない設定にできます。画面左上のアイコン |mainmenuicon| から "
 ":menuselection:`Properties --> LAMMPS` を開き、 :guilabel:`Input File Editor`"
@@ -589,25 +611,25 @@ msgstr ""
 ":menuselection:`Properties --> LAMMPS` from the upper left icon "
 "|mainmenuicon| and toggle the setting of :guilabel:`Input File Editor` ."
 
-#: ../../usage/calculation.rst:42 ../../usage/grandproject.rst:53
+#: ../../usage/calculation.rst:48 ../../usage/grandproject.rst:53
 #: ../../usage/initial.rst:61 ../../usage/jupyter.rst:40
 #: ../../usage/m3gnet.rst:54 ../../usage/ocp.rst:168 ../../usage/result.rst:60
 #: ../../usage/sshserver.rst:9
 msgid "mainmenuicon"
 msgstr ""
 
-#: ../../usage/calculation.rst:40
+#: ../../usage/calculation.rst:46
 msgid "リモート実行時には、自動的に計算エンジンの実行ファイルをサーバーに転送して実行します。事前にサーバーに計算エンジンをインストールしておく必要はありません。"
 msgstr ""
 "When you use remote execution, executable files of the calculation engine"
 " are automatically transferred to the server in advance. There is no need"
 " to install the calculation engine on the server."
 
-#: ../../usage/calculation.rst:47
+#: ../../usage/calculation.rst:53
 msgid "計算ジョブ管理"
 msgstr "Managing calculation job"
 
-#: ../../usage/calculation.rst:49
+#: ../../usage/calculation.rst:55
 msgid ""
 "実行中・実行待機中の計算ジョブは、エクスプローラーの :guilabel:`Calculating` "
 "に一覧表示されます。各計算ジョブは3Dモデルのアイコンで表示され、左上には計算エンジン、右下には計算の種類を示すラベルが表示されています。リモート実行ジョブには右上に雲のアイコン"
@@ -619,11 +641,11 @@ msgstr ""
 "the lower right. Remote jobs appear with cloud icon |cloud| on the upper "
 "right."
 
-#: ../../usage/calculation.rst:57
+#: ../../usage/calculation.rst:63
 msgid "cloud"
 msgstr ""
 
-#: ../../usage/calculation.rst:51
+#: ../../usage/calculation.rst:57
 msgid ""
 "ローカル実行ジョブは1つずつ順に実行されます。右下のラベルの色は計算ジョブの状態を示しており、赤色が実行中、黄色が実行待機中です。ジョブが終了すると、ラベルが緑色になり、"
 " Calculating から消えます。実行前にキャンセルされたリモート実行ジョブは、ラベルが灰色になります。"
@@ -634,7 +656,7 @@ msgstr ""
 "the icon disappears from :guilabel:`Calculating`\\ . The label on the "
 "remote job that is cancelled before execution turns gray."
 
-#: ../../usage/calculation.rst:55
+#: ../../usage/calculation.rst:61
 msgid ""
 "実行中・実行待機中の計算ジョブを中止するには、アイコンを右クリックして :guilabel:`Delete jobs` "
 "をクリックするか、プロジェクト画面を開き、画面右側のパネルの :guilabel:`Stop Calculation` "
@@ -647,17 +669,17 @@ msgstr ""
 "view is not shown, first click :guilabel:`Result` from the menu "
 "|projectmenuicon| on the lower left.)"
 
-#: ../../usage/calculation.rst:62
+#: ../../usage/calculation.rst:68
 msgid "ローカルジョブマネージャー"
 msgstr "Local Job Manager"
 
-#: ../../usage/calculation.rst:64
+#: ../../usage/calculation.rst:70
 msgid "ローカル実行ジョブは、NanoLaboを終了すると同時に終了します（確認が表示されます）。"
 msgstr ""
 "Local jobs are terminated when NanoLabo is terminated (confirmation is "
 "shown)."
 
-#: ../../usage/calculation.rst:66
+#: ../../usage/calculation.rst:72
 msgid ""
 "Linuxの場合は、 :guilabel:`Job Manager` "
 "を使うことにより、ジョブをNanoLaboから切り離して実行し、NanoLaboを終了しても計算が続くようにすることができます。"
@@ -666,7 +688,7 @@ msgstr ""
 "separately from NanoLabo and continue the calculation even after NanoLabo"
 " is terminated."
 
-#: ../../usage/calculation.rst:68
+#: ../../usage/calculation.rst:74
 msgid ""
 "画面左上のアイコン |mainmenuicon| から :menuselection:`Job Manager` を開き、 "
 ":guilabel:`Job Manager` をRawに設定してください。 :guilabel:`Job Queue` の |add| "
@@ -678,14 +700,14 @@ msgstr ""
 "environment variables required for execution (if any) in :guilabel:`Job "
 "Script` ."
 
-#: ../../usage/calculation.rst:76 ../../usage/explorer.rst:43
+#: ../../usage/calculation.rst:82 ../../usage/explorer.rst:43
 #: ../../usage/inputeditorlammps.rst:146 ../../usage/inputeditorqe.rst:6
 #: ../../usage/modeler.rst:239 ../../usage/result.rst:75
 #: ../../usage/resultpdos.rst:35 ../../usage/sshserver.rst:19
 msgid "add"
 msgstr ""
 
-#: ../../usage/calculation.rst:70
+#: ../../usage/calculation.rst:76
 msgid ""
 "また、ローカルでジョブ管理システムをお使いの場合は、 :guilabel:`Job Manager` "
 "をPBS、SLURM、PJMに設定することでローカルにジョブ投入をすることもできます。"
@@ -694,7 +716,7 @@ msgstr ""
 "you can set :guilabel:`Job Manager` to PBS, SLURM or PJM to post jobs to "
 "the local machine."
 
-#: ../../usage/calculation.rst:72
+#: ../../usage/calculation.rst:78
 msgid ""
 "実行時には、 :guilabel:`Host Name` はlocalhostにして、 :guilabel:`Queue Type` "
 "で追加したキュー名を指定してください。"
@@ -702,17 +724,17 @@ msgstr ""
 "When executing, set :guilabel:`Host Name` to localhost, and specify the "
 "queue name you added in :guilabel:`Queue Type` ."
 
-#: ../../usage/calculation.rst:74
+#: ../../usage/calculation.rst:80
 msgid ":guilabel:`Job Manager` をBuild-inに戻すと、ジョブをNanoLabo上で実行する設定に戻ります。"
 msgstr ""
 "Set :guilabel:`Job Manager` back to Build-in to revert the setting and "
 "execute jobs on NanoLabo."
 
-#: ../../usage/calculation.rst:81
+#: ../../usage/calculation.rst:87
 msgid "計算がうまくいかない場合"
 msgstr "Troubleshooting"
 
-#: ../../usage/calculation.rst:83
+#: ../../usage/calculation.rst:89
 msgid ""
 "計算が正常に実行できなかった場合、 :guilabel:`Error` "
 "ウィンドウが表示されます。エラーの内容を確認するには、プロジェクト画面を開き、 :guilabel:`CRASH` や "
@@ -2723,14 +2745,16 @@ msgid ""
 "NanoLaboを使うことで、Atomic Simulation "
 "Environment(ASE)とNanoLaboの間で原子構造を相互にやり取りし、JupyterLab上で原子構造を扱うことができます。"
 msgstr ""
-"JupyterLab is a browser-based Python environment. With Jupyter Interface for NanoLabo, "
-"you can exchange atomic structures between Atomic Simulation Environment(ASE) and NanoLabo, "
-"and handle atomic structures on JupyterLab."
+"JupyterLab is a browser-based Python environment. With Jupyter Interface "
+"for NanoLabo, you can exchange atomic structures between Atomic "
+"Simulation Environment(ASE) and NanoLabo, and handle atomic structures on"
+" JupyterLab."
 
 #: ../../usage/jupyter.rst:9
 msgid "本機能は2023年7月31日までは無償利用可となっております。以降はNanoLabo本体とは別にライセンスが必要です。"
 msgstr ""
-"This feature is free to use until July 31, 2023. Separate license is required after that."
+"This feature is free to use until July 31, 2023. Separate license is "
+"required after that."
 
 #: ../../usage/jupyter.rst:14
 msgid "設定"
@@ -2754,11 +2778,15 @@ msgstr ""
 
 #: ../../usage/jupyter.rst:20
 msgid "JupyterLabに接続するためのURL（例： ``http://localhost:8888/lab`` ）とtokenを設定します。"
-msgstr "Specify URL (example: ``http://localhost:8888/lab`` ) and token to connect to JupyterLab."
+msgstr ""
+"Specify URL (example: ``http://localhost:8888/lab`` ) and token to "
+"connect to JupyterLab."
 
 #: ../../usage/jupyter.rst:24
 msgid "パスワードによる認証には現在対応しておりません。パスワード認証の場合、JupyterLabの画面は表示できますが、原子構造のアップロード・ダウンロードができません。"
-msgstr "Password authentication is currently not supported. In case of password authentication, while JupyterLab screen can be displayed, "
+msgstr ""
+"Password authentication is currently not supported. In case of password "
+"authentication, while JupyterLab screen can be displayed, "
 "uploading/downloading atomic structure does not work."
 
 #: ../../usage/jupyter.rst:26
@@ -2767,7 +2795,9 @@ msgstr ""
 
 #: ../../usage/jupyter.rst:28
 msgid "NanoLaboからJupyterLabに原子構造をアップロードする際の設定です。JupyterLabのルートディレクトリに対する相対パスを指定してください。"
-msgstr "Configuration for uploading atomic structure from NanoLabo to JupyterLab. Specify relative path to the root directory of Jupyterlab."
+msgstr ""
+"Configuration for uploading atomic structure from NanoLabo to JupyterLab."
+" Specify relative path to the root directory of Jupyterlab."
 
 #: ../../usage/jupyter.rst:30
 msgid "Uploading File Type"
@@ -2775,7 +2805,9 @@ msgstr ""
 
 #: ../../usage/jupyter.rst:32
 msgid "原子座標の固定／可動の情報を含めてアップロードしたい場合は :file:`.POSCAR` 形式を指定してください。"
-msgstr "Specify :file:`.POSCAR` format to upload including the information if atomic coordinates are fixed/mobile."
+msgstr ""
+"Specify :file:`.POSCAR` format to upload including the information if "
+"atomic coordinates are fixed/mobile."
 
 #: ../../usage/jupyter.rst:34
 msgid "Using NGLView"
@@ -2783,15 +2815,17 @@ msgstr ""
 
 #: ../../usage/jupyter.rst:36
 msgid "ファイルをインポートする際のコードに、NGLViewを使って原子構造を可視化するコードを追加します。"
-msgstr "Add codes to visualize atomic structure with NGLView when importing a file."
+msgstr ""
+"Add codes to visualize atomic structure with NGLView when importing a "
+"file."
 
 #: ../../usage/jupyter.rst:38
 msgid ""
 "設定が終わったら、画面右上のPythonアイコン |pythonicon| "
 "をクリックして、JupyterLabの画面が表示されることを確認してください。"
 msgstr ""
-"When the setting is completed, click Python icon |pythonicon| on the upper right of the window "
-"to see if JupyterLab screen is shown."
+"When the setting is completed, click Python icon |pythonicon| on the "
+"upper right of the window to see if JupyterLab screen is shown."
 
 #: ../../usage/jupyter.rst:41
 msgid "pythonicon"
@@ -2806,14 +2840,16 @@ msgid ""
 "プロジェクトの原子構造をJupyterLabにインポートするには、左下のメニュー |projectmenuicon| から "
 ":guilabel:`Jupyter Lab` をクリックします。"
 msgstr ""
-"To import an atomic structure from a project, click :guilabel:`Jupyter Lab` "
-"from the lower left menu |projectmenuicon| ."
+"To import an atomic structure from a project, click :guilabel:`Jupyter "
+"Lab` from the lower left menu |projectmenuicon| ."
 
 #: ../../usage/jupyter.rst:50
 msgid "原子構造ファイルがJupyterLabにアップロードされるとともに、JupyterLabのタブが開いて、原子構造をインポートするためのPythonコードが表示されます。表示されたコードをコピーし、JupyterLab上で実行することで、ASEのAtomsオブジェクトが作成されます。"
 msgstr ""
-"The atomic sturecture file is uploaded to JupyterLab, and JupyterLab tab is opened at the same time, displaying the Python code to import the atomic structure. "
-"Copy the code and execute it on JupyterLab to create the Atoms object of ASE."
+"The atomic sturecture file is uploaded to JupyterLab, and JupyterLab tab "
+"is opened at the same time, displaying the Python code to import the "
+"atomic structure. Copy the code and execute it on JupyterLab to create "
+"the Atoms object of ASE."
 
 #: ../../usage/jupyter.rst:56
 msgid "NGLViewは ``pip`` コマンドでインストールできます。"
@@ -2833,7 +2869,9 @@ msgstr ""
 
 #: ../../usage/jupyter.rst:68
 msgid "というエラーが表示される場合、 ``ipywidgets`` のバージョンを指定することで改善する場合があります。"
-msgstr "when executing visualization by NGLView, it may be resolved by specifying the version of ``ipywidgets`` ."
+msgstr ""
+"when executing visualization by NGLView, it may be resolved by specifying"
+" the version of ``ipywidgets`` ."
 
 #: ../../usage/jupyter.rst:70
 msgid "$ pip install 'ipywidgets>=7.6.0,<8'"
@@ -2841,12 +2879,16 @@ msgstr ""
 
 #: ../../usage/jupyter.rst:74
 msgid "プロジェクトメニューから以外にも、原子構造ビューワーやプロジェクトアイコンの右クリックメニューからJupyterLabにインポートすることができます。"
-msgstr "Not only from the project menu, but you can also import from the right click menu of atomic structure viewer or project icon."
+msgstr ""
+"Not only from the project menu, but you can also import from the right "
+"click menu of atomic structure viewer or project icon."
 
 #: ../../usage/jupyter.rst:80
 msgid "例えば、分子描画機能を使って分子を作成した後、原子構造ビューワーの右クリックメニューからすぐにJupyterLabにアップロードすることができます。"
-msgstr "For example, after making a molecure by Drawing Molecule feature, "
-"you can immediately upload it to JupyterLab from the right click menu of the atomic structure viewer."
+msgstr ""
+"For example, after making a molecure by Drawing Molecule feature, you can"
+" immediately upload it to JupyterLab from the right click menu of the "
+"atomic structure viewer."
 
 #: ../../usage/jupyter.rst:87
 msgid "JupyterLab |rarr| NanoLabo"
@@ -2857,8 +2899,9 @@ msgid ""
 "JupyterLab上で原子構造をファイルに出力します。ファイル形式はNanoLaboが対応しているものにしてください。 "
 ":file:`.POSCAR` 形式で保存する例を示します。"
 msgstr ""
-"First, export the atomic strucure to a file on JupyterLab. Choose the file format that is supported by NanoLabo. "
-"Below is an example of exporting to :file:`.POSCAR` format."
+"First, export the atomic strucure to a file on JupyterLab. Choose the "
+"file format that is supported by NanoLabo. Below is an example of "
+"exporting to :file:`.POSCAR` format."
 
 #: ../../usage/jupyter.rst:91
 msgid ""
@@ -2872,8 +2915,9 @@ msgid ""
 "をクリックすると、ファイルがNanoLaboにダウンロードされ、プレビューのダイアログが表示されます。 :guilabel:`Open` "
 "をクリックするとプロジェクトとして開きます。"
 msgstr ""
-"When you click :guilabel:`Download` from the right click menu of a file on the file browser, "
-"it is downloaded to NanoLabo, and a preview dialog is shown. Click :guilabel:`Open` to open it as a project."
+"When you click :guilabel:`Download` from the right click menu of a file "
+"on the file browser, it is downloaded to NanoLabo, and a preview dialog "
+"is shown. Click :guilabel:`Open` to open it as a project."
 
 #: ../../usage/m3gnet.rst:5
 msgid "M3GNet汎用力場を使うための設定"
