@@ -37,7 +37,7 @@ OPLS-AA
 NeuralMD
 -----------
 
-:guilabel:`Atomic Energy` を :guilabel:`without bias` に設定することで、LAMMPS実行時に最終層のバイアス項を0にし、原子エネルギーの平準化を図る機能が有効になります。
+:guilabel:`Atomic Energy` を :guilabel:`without bias` に設定することで、LAMMPS実行時にニューラルネットワーク最終層のバイアス項（原子の内部エネルギーに相当する定数）を0にし、原子エネルギーの平準化を図る機能が有効になります。
 
 .. hint::
 
