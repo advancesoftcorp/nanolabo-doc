@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-18 10:19+0900\n"
+"POT-Creation-Date: 2023-05-26 17:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1498,19 +1498,27 @@ msgstr ""
 "://neuralmd-doc.readthedocs.io/en/latest/usage/behler.html>`_ in the "
 "NeuralMD document."
 
-#: ../../usage/grandproject.rst:182
+#: ../../usage/grandproject.rst:180
+msgid ""
+":guilabel:`Training w/o Force` をyesにすると、力の損失関数の係数 ``coefForce`` "
+"が0になり、エネルギーだけを使って学習します。"
+msgstr ""
+"If :guilabel:`Training w/o Force` is set to yes, the factor of loss function of force is set to 0 "
+"and only energy is used for the training."
+
+#: ../../usage/grandproject.rst:184
 msgid "設定後、左下メニューの :guilabel:`Run` から学習（最適化）を実行します。"
 msgstr ""
 "Once setting is finished, run the training (optimization) by "
 ":guilabel:`Run` in the lower left menu."
 
-#: ../../usage/grandproject.rst:186
+#: ../../usage/grandproject.rst:188
 msgid "Advance/NeuralMD Pro版をお使いの場合、GPUを使って計算を高速化することができます。"
 msgstr ""
 "You can accelerate calculations using GPU if you are using "
 "Advance/NeuralMD Pro edition."
 
-#: ../../usage/grandproject.rst:188 ../../usage/inputeditorlammps.rst:46
+#: ../../usage/grandproject.rst:190 ../../usage/inputeditorlammps.rst:46
 msgid ""
 "（Linuxのみ）ローカルで実行する場合、 :menuselection:`メインメニュー --> Properties --> "
 "Advance/NeuralMD` の :guilabel:`Number of GPU` "
@@ -1521,13 +1529,13 @@ msgstr ""
 "Properties --> Advance/NeuralMD` . If multiple GPUs are used, MPI "
 "parallel processes are evenly distributed on the GPUs."
 
-#: ../../usage/grandproject.rst:189 ../../usage/inputeditorlammps.rst:47
+#: ../../usage/grandproject.rst:191 ../../usage/inputeditorlammps.rst:47
 msgid "リモートで実行する場合、\\ :doc:`SSHサーバーの設定<sshserver>`\\ で使用するキューのGPU設定を有効にしてください。"
 msgstr ""
 "To execute remotely, enable the GPU setting of the queue on :doc:`ssh "
 "server setting <sshserver>`\\ ."
 
-#: ../../usage/grandproject.rst:193 ../../usage/inputeditorlammps.rst:51
+#: ../../usage/grandproject.rst:195 ../../usage/inputeditorlammps.rst:51
 #: ../../usage/sshserver.rst:79
 msgid ""
 "GPUドライバを事前にインストールしておく必要があります。CUDA "
@@ -1536,13 +1544,13 @@ msgstr ""
 "GPU driver is necessary to be installed beforehand. As CUDA 11.4.4 is "
 "used, driver version 470.82.01 or later is required."
 
-#: ../../usage/grandproject.rst:194
+#: ../../usage/grandproject.rst:196
 msgid "元素数が5以上の場合は、重み付き対称関数を使う（\\ :guilabel:`Element Weight`\\ をyesに設定する）必要があります。"
 msgstr ""
 "In case 5 or more elements are in the system, weighted symmetry function "
 "must be used (set :guilabel:`Element Weight` to yes)."
 
-#: ../../usage/grandproject.rst:196
+#: ../../usage/grandproject.rst:198
 msgid ""
 "実行後、タブに戻るとResult画面が表示され、計算の状況を確認できます。 :guilabel:`RMSE` ボタンで収束の様子が確認できます。 "
 ":guilabel:`Classical Potential` （|Delta|-NNP法）を有効にした場合、 :guilabel:`LJ-"
@@ -1554,13 +1562,13 @@ msgstr ""
 "Potential` (|Delta|-NNP method) is enabled, you can check the form of the"
 " classical potential by :guilabel:`LJ-like.pot`\\ ."
 
-#: ../../usage/grandproject.rst:198
+#: ../../usage/grandproject.rst:200
 msgid ":guilabel:`force-field` をクリックすると、学習したニューラルネットワークをLAMMPSの力場ファイルとして保存できます。"
 msgstr ""
 "Click :guilabel:`force-field` to save trained neural network as a force "
 "field file for LAMMPS."
 
-#: ../../usage/grandproject.rst:200 ../../usage/slhmc.rst:56
+#: ../../usage/grandproject.rst:202 ../../usage/slhmc.rst:56
 msgid ""
 "作成した力場ファイルを使って分子動力学計算を行うには、LAMMPSのプロジェクトの :guilabel:`Force-Field` 設定画面で "
 ":guilabel:`Type of Force Field` をNeuralMDまたはNeuralMD with Chargeに設定して、 "
@@ -1572,7 +1580,7 @@ msgstr ""
 " screen, and choose the created force field file in :guilabel:`Potential "
 "File`\\ ."
 
-#: ../../usage/grandproject.rst:204
+#: ../../usage/grandproject.rst:206
 msgid ""
 "また、既にニューラルネットワークの学習を行ったグランドプロジェクトで :guilabel:`Testing Neural Network "
 "Potential` にある :guilabel:`Start Testing NNP` "
@@ -1585,11 +1593,11 @@ msgstr ""
 "Network Potential`\\ . The result can be checked by :guilabel:`Tested` "
 "button in the Result screen."
 
-#: ../../usage/grandproject.rst:213
+#: ../../usage/grandproject.rst:215
 msgid "教師データ・テストデータのインポート"
 msgstr "Importing training data / testing data"
 
-#: ../../usage/grandproject.rst:215
+#: ../../usage/grandproject.rst:217
 msgid ""
 "既に計算済みの教師データ( :file:`sannp.train` )・テストデータ( :file:`sannp.test` "
 ")をグランドプロジェクトにインポートするには、画面右側の :guilabel:`Open Project of NNP` "
@@ -1604,11 +1612,11 @@ msgstr ""
 "lower left menu. You can choose on a dialog whether to replace the data "
 "in the grand-project, or leave the data and append to it."
 
-#: ../../usage/grandproject.rst:220
+#: ../../usage/grandproject.rst:222
 msgid "教師データの分割"
 msgstr "Splitting training data"
 
-#: ../../usage/grandproject.rst:222
+#: ../../usage/grandproject.rst:224
 msgid ""
 "グランドプロジェクトにある教師データを分割し、一部をテストデータにすることができます。NNPの設定画面で左下メニューの "
 ":guilabel:`Split TRAIN-data` "
@@ -2098,8 +2106,8 @@ msgid ""
 "に設定することで、LAMMPS実行時にニューラルネットワーク最終層のバイアス項（原子の内部エネルギーに相当する定数）を0にし、原子エネルギーの平準化を図る機能が有効になります。"
 msgstr ""
 "Set :guilabel:`Atomic Energy` to :guilabel:`without bias` to enable the "
-"function to set the bias terms of the last layer (constants correspond to internal energy of atoms) to 0, thus leveling "
-"the energy of the atoms."
+"function to set the bias terms of the last layer (constants correspond to"
+" internal energy of atoms) to 0, thus leveling the energy of the atoms."
 
 #: ../../usage/inputeditorlammps.rst:44
 msgid "ニューラルネットワーク力場は、GPUを使って計算を高速化することができます。"

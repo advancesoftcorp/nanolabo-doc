@@ -38,6 +38,8 @@
 
 :guilabel:`Details of NNP` の :guilabel:`Start Setting NNP` をクリックすると、ニューラルネットワーク力場の設定画面が表示されます。設定項目の詳細については、NeuralMDのドキュメントにある設定ファイルの説明 `sannp.prop <https://neuralmd-doc.readthedocs.io/ja/latest/usage/prop.html>`_ の対応する項目を参照してください。
 
+- :guilabel:`Training w/o Force` をyesにすると、力の損失関数の係数 ``coefForce`` が0になり、エネルギーだけを使って学習します。
+
 設定が終わったら、画面左下の |projectmenuicon| から :guilabel:`Return to SLHMC` をクリックし、元のプロジェクト画面に戻ります。
 
 .. image:: /img/slhmc_nnp.png

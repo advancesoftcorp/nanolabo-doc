@@ -177,6 +177,8 @@ Calculation of Q.E.
 
 設定項目の詳細については、NeuralMDのドキュメントにある設定ファイルの説明 `sannp.prop <https://neuralmd-doc.readthedocs.io/ja/latest/usage/prop.html>`_ , `sannp.behler <https://neuralmd-doc.readthedocs.io/ja/latest/usage/behler.html>`_ の対応する項目を参照してください。
 
+- :guilabel:`Training w/o Force` をyesにすると、力の損失関数の係数 ``coefForce`` が0になり、エネルギーだけを使って学習します。
+
 .. image:: /img/nnp_setting.png
 
 設定後、左下メニューの :guilabel:`Run` から学習（最適化）を実行します。
