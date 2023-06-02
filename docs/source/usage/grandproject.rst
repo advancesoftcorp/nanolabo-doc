@@ -69,7 +69,7 @@ NeuralMD
 #. :guilabel:`Generate Geometries` をクリックします。ランダム構造が生成されます。
 #. :guilabel:`Run` をクリックして、SCF計算を実行します。
 #. 計算が終わったらグランドプロジェクトの画面に戻り、画面右側の :guilabel:`Training Neural Network Potential` の :guilabel:`Start Training NNP` ボタンをクリックします。
-#. NNP設定画面が開きます。 :menuselection:`左下メニュー --> Run` でニューラルネットワークの学習を実行します。
+#. NNP設定画面が開きます。 :menuselection:`左下メニュー --> Run` でニューラルネットワークの学習を実行します。（Windowsでローカル実行する場合は :guilabel:`#Processes` を1に設定）
 #. 計算が終わったらNNPのタブに戻り、結果画面の :guilabel:`force-field` をクリックして力場ファイルを保存します。
 #. 作成した力場ファイルを使って分子動力学計算を行うには、新たにLAMMPSのプロジェクトを作成し、 :guilabel:`Force-Field` の設定画面で :guilabel:`Type of Force Field` をNeuralMDに設定して、 :guilabel:`Potential File` で作成した力場ファイルを選択します。
 
@@ -182,6 +182,8 @@ Calculation of Q.E.
 .. image:: /img/nnp_setting.png
 
 設定後、左下メニューの :guilabel:`Run` から学習（最適化）を実行します。
+
+.. note:: Windows版NeuralMDは現在MPI並列に対応していないため、Windowsでローカル実行する場合は :guilabel:`#Processes` を1に設定してください。OpenMP並列は使用可能です。
 
 .. hint::
 
