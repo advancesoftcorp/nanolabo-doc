@@ -31,6 +31,20 @@ Open Catalyst Projectで公開されている\ `インストール手順 <https:
 
      Windowsで環境変数 :envvar:`PATH` を変更しない設定でインストールした場合、以降の作業はスタートメニューからAnaconda Promptを起動して行ってください。
 
+     インターネット接続にプロキシが必要な場合は、環境変数の設定等を適宜行ってください。
+
+     .. code-block:: console
+      :caption: Windows・認証なしの例
+
+      set HTTP_PROXY=http://host:port
+      set HTTPS_PROXY=http://host:port
+
+     .. code-block:: console
+      :caption: Linux・認証ありの例
+
+      export HTTP_PROXY=http://user:pass@host:port
+      export HTTPS_PROXY=http://user:pass@host:port
+
 #. ocp-modelsリポジトリの用意
 
      gitコマンドが使える場合は

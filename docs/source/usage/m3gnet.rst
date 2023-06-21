@@ -21,6 +21,20 @@ LAMMPSから\ `M3GNet <https://github.com/materialsvirtuallab/m3gnet>`__\ 汎用
 
      Windowsで環境変数 :envvar:`PATH` を変更しない設定でインストールした場合、以降の作業はスタートメニューからAnaconda Promptを起動して行ってください。
 
+     インターネット接続にプロキシが必要な場合は、環境変数の設定等を適宜行ってください。
+
+     .. code-block:: console
+      :caption: Windows・認証なしの例
+
+      set HTTP_PROXY=http://host:port
+      set HTTPS_PROXY=http://host:port
+
+     .. code-block:: console
+      :caption: Linux・認証ありの例
+
+      export HTTP_PROXY=http://user:pass@host:port
+      export HTTPS_PROXY=http://user:pass@host:port
+
 #. インストール
 
      m3gnetと、DFT-D3補正に必要なパッケージをインストールします。
