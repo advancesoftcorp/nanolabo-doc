@@ -151,9 +151,16 @@ Generating Geometries
 
       メトロポリス法の使い方 <metro>
 
- .. note:: 座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。
-
  :guilabel:`Generate Geometries` をクリックすると、指定した設定でランダム構造を生成（抽出）します。
+
+ - Self-Learning Hybrid MC
+    自己学習ハイブリッドモンテカルロ法(SLHMC)を実行し、その過程で生成された構造を使います。 :guilabel:`Edit SLHMC Input` のボタンをクリックするとSLHMCの設定画面が開きます。設定を行ったらタブを閉じて戻り、 :guilabel:`Run` ボタンで計算を実行してください。
+
+    - `SLHMCの設定項目詳細（NeuralMDマニュアル） <https://neuralmd-doc.readthedocs.io/ja/latest/slhmc/prop.html>`_
+    - ここでのSLHMC設定画面のデフォルトパラメータは構造生成を目的としたものであるため、力場生成時とは異なるものになっています。
+    - SLHMCの過程でSCF計算が行われるため、別途Quantum ESPRESSOの計算実行は必要ありません。
+
+ .. note:: 座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。
 
 Calculation of Q.E.
  生成したランダム構造に対し、SCF計算を実行します。
@@ -162,9 +169,12 @@ Calculation of Q.E.
 
  Result画面では、計算の状況を確認できます。ダウンロードボタン |granddownload| をクリックすると計算サーバーから結果一式をダウンロードし、進捗を更新します（負荷を抑えるため、自動的には更新されません）。 :guilabel:`Energy` 、 :guilabel:`Force` から終了した計算の結果をまとめて確認できます。
 
+ ダウンロード抑止ボタン |grandavoiddownload| をクリックして有効にしておくと、教師データを集計するときに自動的にダウンロードを行わないようになります。
+
  .. image:: /img/grandresult.png
 
 .. |granddownload| image:: /img/granddownload.png
+.. |grandavoiddownload| image:: /img/grandavoiddownload.png
 
 .. _grand_neumd_export:
 
@@ -197,7 +207,10 @@ Calculation of Q.E.
   - GPUドライバを事前にインストールしておく必要があります。CUDA 11.4.4を使用しており、これに対応するドライババージョン470.82.01以上が必要です。
   - 元素数が5以上の場合は、重み付き対称関数を使う（\ :guilabel:`Element Weight`\ をyesに設定する）必要があります。
 
-実行後、タブに戻るとResult画面が表示され、計算の状況を確認できます。 :guilabel:`RMSE` ボタンで収束の様子が確認できます。 :guilabel:`Classical Potential` （|Delta|-NNP法）を有効にした場合、 :guilabel:`LJ-like.pot` で古典力場の形状を確認できます。
+実行後、タブに戻るとResult画面が表示され、計算の状況を確認できます。
+
+- :guilabel:`RMSE` ボタンで収束の様子が確認できます。
+- :guilabel:`Classical Potential` （|Delta|-NNP法）を有効にした場合、 :guilabel:`LJ-like.pot` で古典力場の形状を確認できます。
 
 :guilabel:`force-field` をクリックすると、学習したニューラルネットワークをLAMMPSの力場ファイルとして保存できます。
 

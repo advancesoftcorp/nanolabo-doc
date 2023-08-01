@@ -9,7 +9,7 @@
 .. |projectmenuicon| image:: /img/projectmenuicon.png
 
 - Job Type
-   （\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_\ のみ）計算エンジンでどの計算を行うか選択します。
+   （\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_\ ・\ `ThreeBodyTB <https://pages.nist.gov/ThreeBodyTB.jl/>`_\ のみ）計算エンジンでどの計算を行うか選択します。
 
 - Host Name
    計算をどのコンピューターで実行するか選択します。ローカル実行（このコンピューターで実行）する場合は :guilabel:`localhost` 、リモート実行（別のコンピューターで実行）する場合はそのホスト名を選択します。

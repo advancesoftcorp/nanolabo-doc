@@ -32,6 +32,7 @@
 
    Quantum ESPRESSO<inputeditorqe>
    LAMMPS<inputeditorlammps>
+   inputeditortb3
 
 .. _texteditor:
 
