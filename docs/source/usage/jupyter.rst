@@ -19,10 +19,6 @@ JupyterLabは、ブラウザベースのPython実行環境です。Jupyter Inter
 - Token
    JupyterLabに接続するためのURL（例： ``http://localhost:8888/lab`` ）とtokenを設定します。
 
-   .. note::
-
-      パスワードによる認証には現在対応しておりません。パスワード認証の場合、JupyterLabの画面は表示できますが、原子構造のアップロード・ダウンロードができません。
-
 - Uploading Path
 
       NanoLaboからJupyterLabに原子構造をアップロードする際の設定です。JupyterLabのルートディレクトリに対する相対パスを指定してください。

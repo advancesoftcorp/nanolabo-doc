@@ -99,7 +99,7 @@ Windowsでの使用には、pywin32モジュールが必要です。\ ``pip``\ �
  計算を実行します。リモートサーバーにジョブを投入する場合は、事前に\ :doc:`usage/sshserver`\ をしておく必要があります。
 
  :param str path: プロジェクトをフォルダの絶対パスで指定します。デフォルトの保存先にあるプロジェクトは、プロジェクト名だけで指定できます。
- :param str jobType: 実行する計算の種類を指定します。有効な値："SCF", "OPTIMIZ", "MD", "DOS", "BAND", "TDDFT", "Phonon", "PhDisp", "NEB", "LAMMPS"
+ :param str jobType: 実行する計算の種類を指定します。省略した場合、プロジェクトで開かれている計算エンジンおよび入力エディターのモードを参照します。有効な値："SCF", "OPTIMIZ", "MD", "DOS", "BAND", "TDDFT", "Phonon", "PhDisp", "NEB", "LAMMPS"
  :param str host: ローカルで実行する場合は"localhost"、リモートサーバーにジョブを投入する場合はその設定名を指定します。省略した場合、直前に実行した計算の設定を引き継ぎます。
  :param str queue: ジョブを投入するキューの設定名を指定します。ローカルで実行する場合は指定しても無視されます。
 
