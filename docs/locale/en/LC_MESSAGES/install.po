@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-03 12:24+0900\n"
+"POT-Creation-Date: 2023-08-03 17:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,14 +44,14 @@ msgstr ""
 
 #: ../../install/linux.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.8) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1115>`_"
+"`Advance/NanoLabo (ver.2.9) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1234>`_"
 msgstr ""
 
 #: ../../install/linux.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.7.1) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1085>`_"
+"`Advance/NanoLabo Tool (ver.2.9) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1240>`_"
 msgstr ""
 
 #: ../../install/linux.rst:20 ../../install/mac.rst:28
@@ -521,19 +521,19 @@ msgstr "Intel ver.: for pre-existing machines, download these 2."
 
 #: ../../install/mac.rst:16
 msgid ""
-"`Advance/NanoLabo (ver.2.8) Intel版 "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1119>`_"
+"`Advance/NanoLabo (ver.2.9) Intel版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1222>`_"
 msgstr ""
-"`Advance/NanoLabo (ver.2.8) Intel ver. "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1056>`_"
+"`Advance/NanoLabo (ver.2.9) Intel ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1222>`_"
 
 #: ../../install/mac.rst:18
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.7.1) Intel版 "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1087>`_"
+"`Advance/NanoLabo Tool (ver.2.9) Intel版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1246>`_"
 msgstr ""
-"`Advance/NanoLabo Tool (ver.2.7.1) Intel ver. "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1087>`_"
+"`Advance/NanoLabo Tool (ver.2.9) Intel ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1246>`_"
 
 #: ../../install/mac.rst:20
 msgid "ARM版：Apple M1搭載マシンではこちらの2つをダウンロードしてください。"
@@ -541,19 +541,19 @@ msgstr "ARM ver.: for machines with Apple M1, download these 2."
 
 #: ../../install/mac.rst:22
 msgid ""
-"`Advance/NanoLabo (ver.2.8) ARM版 "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1117>`_"
+"`Advance/NanoLabo (ver.2.9) ARM版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1237>`_"
 msgstr ""
-"`Advance/NanoLabo (ver.2.8) ARM ver. "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1057>`_"
+"`Advance/NanoLabo (ver.2.9) ARM ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1237>`_"
 
 #: ../../install/mac.rst:24
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.7.1) ARM版 "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1086>`_"
+"`Advance/NanoLabo Tool (ver.2.9) ARM版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1243>`_"
 msgstr ""
-"`Advance/NanoLabo Tool (ver.2.7.1) ARM ver. "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1086>`_"
+"`Advance/NanoLabo Tool (ver.2.9) ARM ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1243>`_"
 
 #: ../../install/mac.rst:35
 msgid "まず、Advance/NanoLaboのdmgファイルを開きます。マウントが終わるとディスクイメージの内容が表示されますので、NanoLaboアイコンをアプリケーションディレクトリへドラッグ＆ドロップしてください。"
@@ -1024,14 +1024,14 @@ msgstr "How to Install (Windows)"
 
 #: ../../install/windows.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.8) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1113>`_"
+"`Advance/NanoLabo (ver.2.9) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1252>`_"
 msgstr ""
 
 #: ../../install/windows.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.7.1) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1084>`_"
+"`Advance/NanoLabo Tool (ver.2.9) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1249>`_"
 msgstr ""
 
 #: ../../install/windows.rst:22

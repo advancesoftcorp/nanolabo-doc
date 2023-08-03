@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-02 16:03+0900\n"
+"POT-Creation-Date: 2023-08-03 17:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,8 @@ msgstr "Version Information"
 
 #: ../../version.rst:36
 #, fuzzy
-msgid "2023/--/-- バージョン2.9"
-msgstr "2023/04/25 Version 2.8"
+msgid "2023/08/03 バージョン2.9"
+msgstr "2023/08/03 Version 2.9"
 
 #: ../../version.rst:8 ../../version.rst:39 ../../version.rst:65
 #: ../../version.rst:91 ../../version.rst:136 ../../version.rst:158
@@ -45,40 +45,58 @@ msgstr "NeuralMD: new features correspond to Ver.1.9"
 
 #: ../../version.rst:13
 msgid "複数のニューラルネットワークモデルの平均値を用いて1つの力場を定義する手法の設定項目を追加"
-msgstr "added setting items for the method to define one force field using the average value of multiple neural network models"
+msgstr ""
+"added setting items for the method to define one force field using the "
+"average value of multiple neural network models"
 
 #: ../../version.rst:14
 msgid "Super Epoch法（教師データを複数のサブセットに分割して、各サブセットを使った学習処理を順次実行する）の設定項目を追加"
-msgstr "added setting items for Super Epoch method (split the training data into subsets and serially perform the training process using each subset)"
+msgstr ""
+"added setting items for Super Epoch method (split the training data into "
+"subsets and serially perform the training process using each subset)"
 
 #: ../../version.rst:15
 msgid "一部のパラメータのデフォルト値を変更（無機結晶に特化した値を採用）"
-msgstr "changed default values of some parameters (values suitable for inorganic crystal are adopted)"
+msgstr ""
+"changed default values of some parameters (values suitable for inorganic "
+"crystal are adopted)"
 
 #: ../../version.rst:17
 msgid "NeuralMD: SCFの計算条件をグランドプロジェクト内で共有する機能を追加"
-msgstr "NeuralMD: added feature to equalize SCF calculation conditions in a grand project"
+msgstr ""
+"NeuralMD: added feature to equalize SCF calculation conditions in a grand"
+" project"
 
 #: ../../version.rst:18
 msgid "NeuralMD: グランドプロジェクトで、教師データ用の構造を生成する方法としてSLHMCを追加"
-msgstr "NeuralMD: in grand-project, added SLHMC as the method of generating structures"                                                                               "
+msgstr ""
+"NeuralMD: in grand-project, added SLHMC as the method of generating "
+"structures\""
+"                                                                               \n"
 
 #: ../../version.rst:19
 msgid "NeuralMD: グランドプロジェクトで、リモートサーバーで実行したQuamtum ESPRESSOの計算結果のダウンロードを抑止できる機能を追加"
-msgstr "NeuralMD: in grand-project, added feature to suppress automatic download of Quantum ESPRESSO calculation results "
-"executed on remote server"
+msgstr ""
+"NeuralMD: in grand-project, added feature to suppress automatic download "
+"of Quantum ESPRESSO calculation results executed on remote server"
 
 #: ../../version.rst:20
 msgid "NeuralMD: グランドプロジェクトで、Quamtum ESPRESSOでの教師データ生成の継続計算に対応"
-msgstr "NeuralMD: in grand-project, support restarting the calculation of training data generation by Quantum ESPRESSO"
+msgstr ""
+"NeuralMD: in grand-project, support restarting the calculation of "
+"training data generation by Quantum ESPRESSO"
 
 #: ../../version.rst:21
 msgid "計算結果のグラフ右上の情報をクリップボードにコピーする機能を追加"
-msgstr "added capability of copying information on the upper right of the calculation result graph"
+msgstr ""
+"added capability of copying information on the upper right of the "
+"calculation result graph"
 
 #: ../../version.rst:22
 msgid "PDFファイル閲覧機能を追加（エクスプローラー上で開くか、ファイルを画面にドラッグ＆ドロップすると表示）"
-msgstr "added PDF file viewer (open in explorer, or drag & drop the file onto the screen)"
+msgstr ""
+"added PDF file viewer (open in explorer, or drag & drop the file onto the"
+" screen)"
 
 #: ../../version.rst:24 ../../version.rst:44 ../../version.rst:80
 #: ../../version.rst:123 ../../version.rst:146 ../../version.rst:172
@@ -88,7 +106,9 @@ msgstr "Change / fix"
 
 #: ../../version.rst:26
 msgid "JRE17移行に伴う不具合の回避（画面レイアウトの乱れ、原子構造ビューワーでのメモリリーク等）"
-msgstr "avoid problems caused by migration to JRE17 (inaccurate screen layout, memory leak in atomic structure viewer, etc.)"
+msgstr ""
+"avoid problems caused by migration to JRE17 (inaccurate screen layout, "
+"memory leak in atomic structure viewer, etc.)"
 
 #: ../../version.rst:27
 msgid "プロット表示時のアニメーションを無効化"
@@ -100,28 +120,39 @@ msgstr "improved GC performance of Java virtual machine"
 
 #: ../../version.rst:29
 msgid "QE: |Gamma|\\ 点のみ、かつNon-Colinearスピンを使用した際の不具合を解消"
-msgstr "QE: resolved error that occurs if |Gamma| point only and Non-Colinear spin is used"
+msgstr ""
+"QE: resolved error that occurs if |Gamma| point only and Non-Colinear "
+"spin is used"
 
 #: ../../version.rst:30
 msgid "QE: Always OfflineモードのリモートサーバーでTD-DFTを実行した際に誘電関数がプロットされない不具合を解消"
-msgstr "QE: resolved problem that dielectric function plot is not shown when TD-DFT is executed on the remote server "
-"which is set to Always Offline mode"
+msgstr ""
+"QE: resolved problem that dielectric function plot is not shown when TD-"
+"DFT is executed on the remote server which is set to Always Offline mode"
 
 #: ../../version.rst:31
 msgid "リモートサーバー上のファイル所有者が\"domain users\"の場合に発生していた不具合を解消"
-msgstr "resolved problem that occurs if file owner on the remote server is \"domain users\""
+msgstr ""
+"resolved problem that occurs if file owner on the remote server is "
+"\"domain users\""
 
 #: ../../version.rst:32
 msgid "NeuralMD: LinuxでSLHMCを実行する際、ログインシェルがdashだと動作しない不具合を解消"
-msgstr "NeuralMD: resolved problem that SLHMC on Linux does not work if login shell is dash"
+msgstr ""
+"NeuralMD: resolved problem that SLHMC on Linux does not work if login "
+"shell is dash"
 
 #: ../../version.rst:33
 msgid "内蔵ウェブブラウザーのライブラリをJxBrowser（Chromiumベースのブラウザー）に変更"
-msgstr "changed the library of built-in web browser to JxBrowser (Chromium-based browser)"
+msgstr ""
+"changed the library of built-in web browser to JxBrowser (Chromium-based "
+"browser)"
 
 #: ../../version.rst:35
 msgid "サポート対象OSにWindows 11を追加・macOSのサポート対象をVentura(13)以降に変更"
-msgstr "added Windows 11 to supported OS / changed supported macOS version to Ventura(13) or later"
+msgstr ""
+"added Windows 11 to supported OS / changed supported macOS version to "
+"Ventura(13) or later"
 
 #: ../../version.rst:36 ../../version.rst:55 ../../version.rst:88
 #: ../../version.rst:133 ../../version.rst:155 ../../version.rst:178
