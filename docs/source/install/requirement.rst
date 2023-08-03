@@ -6,7 +6,7 @@
 
 OS
 
-* Windows 10/11 (64 bit)
+* Windows 10・Windows 11 (64 bit)
 * CentOS 7 (64 bit)
 * AlmaLinux 8
 * macOS Ventura(13)以降 (64 bit)（Intel/Apple M1対応）
