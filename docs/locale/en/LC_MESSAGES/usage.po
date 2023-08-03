@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-21 10:55+0900\n"
+"POT-Creation-Date: 2023-08-03 12:24+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,8 +42,8 @@ msgstr "Viewpoint manipulation"
 #: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:93
 #: ../../usage/atomsviewer.rst:136 ../../usage/atomsviewer.rst:162
 #: ../../usage/atomsviewer.rst:186 ../../usage/explorer.rst:139
-#: ../../usage/grandproject.rst:95 ../../usage/initial.rst:105
-#: ../../usage/project.rst:114
+#: ../../usage/grandproject.rst:95 ../../usage/initial.rst:112
+#: ../../usage/project.rst:129
 msgid "操作"
 msgstr "Operation"
 
@@ -166,8 +166,8 @@ msgstr ""
 "view."
 
 #: ../../usage/atomsviewer.rst:54 ../../usage/calculation.rst:9
-#: ../../usage/grandproject.rst:27 ../../usage/inputeditor.rst:47
-#: ../../usage/jupyter.rst:82 ../../usage/modeler.rst:15
+#: ../../usage/grandproject.rst:27 ../../usage/inputeditor.rst:48
+#: ../../usage/jupyter.rst:78 ../../usage/modeler.rst:15
 #: ../../usage/project.rst:20 ../../usage/result.rst:9 ../../usage/slhmc.rst:62
 msgid "projectmenuicon"
 msgstr ""
@@ -232,7 +232,7 @@ msgstr ""
 
 #: ../../usage/atomsviewer.rst:104 ../../usage/atomsviewer.rst:147
 #: ../../usage/atomsviewer.rst:173 ../../usage/grandproject.rst:106
-#: ../../usage/initial.rst:112 ../../usage/project.rst:123
+#: ../../usage/initial.rst:119 ../../usage/project.rst:138
 msgid "`*`:sup: macOSでは :kbd:`Ctrl` |rarr| :kbd:`command` と読み替えてください。"
 msgstr "`*`:sup: For macOS, replace :kbd:`Ctrl` |rarr| :kbd:`command` ."
 
@@ -355,7 +355,7 @@ msgid ":kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr "Press :kbd:`Esc` key to fix the position."
 
 #: ../../usage/atomsviewer.rst:180 ../../usage/explorer.rst:133
-#: ../../usage/initial.rst:99 ../../usage/project.rst:108
+#: ../../usage/initial.rst:106 ../../usage/project.rst:123
 msgid "ショートカットキー一覧"
 msgstr "Shortcut keys list"
 
@@ -510,10 +510,11 @@ msgstr ""
 
 #: ../../usage/calculation.rst:12
 msgid ""
-"（\\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_\\ "
+"（\\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_\\ ・\\ "
+"`ThreeBodyTB <https://pages.nist.gov/ThreeBodyTB.jl/>`_\\ "
 "のみ）計算エンジンでどの計算を行うか選択します。"
 msgstr ""
-"(\\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_ only) Choose "
+"(\\ `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_ / `ThreeBodyTB <https://pages.nist.gov/ThreeBodyTB.jl/>`_ only) Choose "
 "a calculation type to be run by the calculation engine."
 
 #: ../../usage/calculation.rst:17 ../../usage/sshserver.rst:30
@@ -612,9 +613,9 @@ msgstr ""
 "|mainmenuicon| and toggle the setting of :guilabel:`Input File Editor` ."
 
 #: ../../usage/calculation.rst:48 ../../usage/grandproject.rst:53
-#: ../../usage/initial.rst:61 ../../usage/jupyter.rst:40
-#: ../../usage/m3gnet.rst:68 ../../usage/ocp.rst:182 ../../usage/result.rst:60
-#: ../../usage/sshserver.rst:9
+#: ../../usage/initial.rst:61 ../../usage/inputeditortb3.rst:52
+#: ../../usage/jupyter.rst:36 ../../usage/m3gnet.rst:68 ../../usage/ocp.rst:182
+#: ../../usage/result.rst:60 ../../usage/sshserver.rst:9
 msgid "mainmenuicon"
 msgstr ""
 
@@ -827,7 +828,7 @@ msgid "Web"
 msgstr ""
 
 #: ../../usage/explorer.rst:36
-msgid "内蔵ウェブブラウザのブックマークを表示します。"
+msgid "内蔵ウェブブラウザーのブックマークを表示します。"
 msgstr "Bookmarks of built-in web browser are shown."
 
 #: ../../usage/explorer.rst:38
@@ -865,7 +866,7 @@ msgstr ""
 msgid "fwd"
 msgstr ""
 
-#: ../../usage/explorer.rst:54 ../../usage/inputeditor.rst:49
+#: ../../usage/explorer.rst:54 ../../usage/inputeditor.rst:50
 msgid "up"
 msgstr ""
 
@@ -1342,10 +1343,13 @@ msgid "Edit Input File of Q.E."
 msgstr ""
 
 #: ../../usage/grandproject.rst:126
-msgid "SCF計算の設定をします。この設定がカラム内のランダム構造の計算に適用されます。"
+msgid "SCF計算の設定をします。この設定がカラム内のランダム構造の計算に適用されます。また、カラムが複数ある場合は、設定の変更が他のカラムにも反映されます（教師データ内でSCF計算条件を揃えるため）。"
 msgstr ""
-"Configure the SCF calculation. This configuration is applied to the "
-"calculations of random geometries in the column."
+"Configure the SCF calculation. This "
+"configuration is applied to the "
+"calculations of random geometries in the"
+" column. If there are multiple columns, changes in the setting are also reflected to the other columns "
+"(in order to equalize the SCF calculation condition within the training data)."
 
 #: ../../usage/grandproject.rst:129
 msgid "Edit Geometry by Modeler"
@@ -1382,7 +1386,7 @@ msgstr ""
 "The state of checkboxes are displayed next to the title with colors. You "
 "can see them at a glance even the configuration view is collapsed."
 
-#: ../../usage/grandproject.rst:156
+#: ../../usage/grandproject.rst:163
 msgid "Generating Geometries"
 msgstr ""
 
@@ -1426,32 +1430,65 @@ msgstr ""
 "and run the calculation by :guilabel:`Run` from the lower left menu."
 
 #: ../../usage/grandproject.rst:154
-msgid "座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。"
-msgstr ""
-"If there is fixed atom(s), the coordinates stay fixed when generating "
-"random geometries."
-
-#: ../../usage/grandproject.rst:156
 msgid ":guilabel:`Generate Geometries` をクリックすると、指定した設定でランダム構造を生成（抽出）します。"
 msgstr ""
 "Click :guilabel:`Generate Geometries` to generate (extract) random "
 "geometries using specified setting."
 
-#: ../../usage/grandproject.rst:165
+#: ../../usage/grandproject.rst:161
+msgid "Self-Learning Hybrid MC"
+msgstr ""
+
+#: ../../usage/grandproject.rst:157
+msgid ""
+"自己学習ハイブリッドモンテカルロ法(SLHMC)を実行し、その過程で生成された構造を使います。 :guilabel:`Edit SLHMC "
+"Input` のボタンをクリックするとSLHMCの設定画面が開きます。設定を行ったらタブを閉じて戻り、 :guilabel:`Run` "
+"ボタンで計算を実行してください。"
+msgstr ""
+"Perform Self-Learning Hybrid MC method (SLHMC) and use the structures generated in the process. Click :guilabel:`Edit SLHMC "
+"Input` button to open the SLHMC setting screen. When the setting is done, close the tab to go back, and execute the calculation "
+"by :guilabel:`Run` button."
+
+#: ../../usage/grandproject.rst:159
+msgid ""
+"`SLHMCの設定項目詳細（NeuralMDマニュアル） <https://neuralmd-"
+"doc.readthedocs.io/ja/latest/slhmc/prop.html>`_"
+msgstr ""
+"`SLHMC setting details (NeuralMD manual) <https://neuralmd-"
+"doc.readthedocs.io/en/latest/slhmc/prop.html>`_"
+
+#: ../../usage/grandproject.rst:160
+msgid "ここでのSLHMC設定画面のデフォルトパラメータは構造生成を目的としたものであるため、力場生成時とは異なるものになっています。"
+msgstr ""
+"The default parameters in the SLHMC setting screen here is for the purpose of generating the structures, therefore "
+"differ from that for generating the force field."
+
+#: ../../usage/grandproject.rst:161
+msgid "SLHMCの過程でSCF計算が行われるため、別途Quantum ESPRESSOの計算実行は必要ありません。"
+msgstr ""
+"Since SCF calculations are performed in the SLHMC process, separate Quantum ESPRESSO calculations are not necessary."
+
+#: ../../usage/grandproject.rst:163
+msgid "座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。"
+msgstr ""
+"If there is fixed atom(s), the coordinates stay fixed when generating "
+"random geometries."
+
+#: ../../usage/grandproject.rst:174
 msgid "Calculation of Q.E."
 msgstr ""
 
-#: ../../usage/grandproject.rst:159
+#: ../../usage/grandproject.rst:166
 msgid "生成したランダム構造に対し、SCF計算を実行します。"
 msgstr "Run SCF calculations for the generated random geometries."
 
-#: ../../usage/grandproject.rst:161
+#: ../../usage/grandproject.rst:168
 msgid "同一のグランドプロジェクト内であっても、設定ごとに別の計算サーバーで計算を実行することもできます。"
 msgstr ""
 "The calculation for different configurations can be performed on "
 "different servers, even they are in the same grand-project."
 
-#: ../../usage/grandproject.rst:163
+#: ../../usage/grandproject.rst:170
 msgid ""
 "Result画面では、計算の状況を確認できます。ダウンロードボタン |granddownload| "
 "をクリックすると計算サーバーから結果一式をダウンロードし、進捗を更新します（負荷を抑えるため、自動的には更新されません）。 "
@@ -1463,15 +1500,27 @@ msgstr ""
 "automatically). The results of finished calculations are summarized in "
 ":guilabel:`Energy` and :guilabel:`Force`\\ ."
 
-#: ../../usage/grandproject.rst:167
+#: ../../usage/grandproject.rst:176
 msgid "granddownload"
 msgstr ""
 
 #: ../../usage/grandproject.rst:172
+msgid ""
+"ダウンロード抑止ボタン |grandavoiddownload| "
+"をクリックして有効にしておくと、教師データを集計するときに自動的にダウンロードを行わないようになります。"
+msgstr ""
+"Click and turn on suppress download button |grandavoiddownload| to avoid automatic download when gathering "
+"training data."
+
+#: ../../usage/grandproject.rst:177
+msgid "grandavoiddownload"
+msgstr ""
+
+#: ../../usage/grandproject.rst:182
 msgid "ニューラルネットワークの学習・テスト"
 msgstr "Training / testing neural network"
 
-#: ../../usage/grandproject.rst:174
+#: ../../usage/grandproject.rst:184
 msgid ""
 "画面右側の :guilabel:`Training Neural Network Potential` にある :guilabel:`Start "
 "Training NNP` "
@@ -1482,13 +1531,13 @@ msgstr ""
 "in the grand-project, and using it as the training data, you can train "
 "the neural network in the following screen."
 
-#: ../../usage/grandproject.rst:176
+#: ../../usage/grandproject.rst:186
 msgid "計算サーバーで計算を実行した場合は、自動的に結果を取得し、集計します。"
 msgstr ""
 "If calculations are performed on the server, the results are "
 "automatically fetched and summarized."
 
-#: ../../usage/grandproject.rst:178
+#: ../../usage/grandproject.rst:188
 msgid ""
 "設定項目の詳細については、NeuralMDのドキュメントにある設定ファイルの説明 `sannp.prop <https://neuralmd-"
 "doc.readthedocs.io/ja/latest/usage/prop.html>`_ , `sannp.behler <https"
@@ -1501,7 +1550,7 @@ msgstr ""
 "://neuralmd-doc.readthedocs.io/en/latest/usage/behler.html>`_ in the "
 "NeuralMD document."
 
-#: ../../usage/grandproject.rst:180 ../../usage/slhmc.rst:41
+#: ../../usage/grandproject.rst:190 ../../usage/slhmc.rst:41
 msgid ""
 ":guilabel:`Training w/o Force` をyesにすると、力の損失関数の係数 ``coefForce`` "
 "が0になり、エネルギーだけを使って学習します。"
@@ -1509,13 +1558,13 @@ msgstr ""
 "If :guilabel:`Training w/o Force` is set to yes, the factor of loss "
 "function of force is set to 0 and only energy is used for the training."
 
-#: ../../usage/grandproject.rst:184
+#: ../../usage/grandproject.rst:194
 msgid "設定後、左下メニューの :guilabel:`Run` から学習（最適化）を実行します。"
 msgstr ""
 "Once setting is finished, run the training (optimization) by "
 ":guilabel:`Run` in the lower left menu."
 
-#: ../../usage/grandproject.rst:186
+#: ../../usage/grandproject.rst:196
 msgid ""
 "Windows版NeuralMDは現在MPI並列に対応していないため、Windowsでローカル実行する場合は "
 ":guilabel:`#Processes` を1に設定してください。OpenMP並列は使用可能です。"
@@ -1524,13 +1573,13 @@ msgstr ""
 "Windows version of NeuralMD currently does not support MPI parallel. "
 "OpenMP parallel is available."
 
-#: ../../usage/grandproject.rst:190
+#: ../../usage/grandproject.rst:200
 msgid "Advance/NeuralMD Pro版をお使いの場合、GPUを使って計算を高速化することができます。"
 msgstr ""
 "You can accelerate calculations using GPU if you are using "
 "Advance/NeuralMD Pro edition."
 
-#: ../../usage/grandproject.rst:192 ../../usage/inputeditorlammps.rst:46
+#: ../../usage/grandproject.rst:202 ../../usage/inputeditorlammps.rst:46
 msgid ""
 "（Linuxのみ）ローカルで実行する場合、 :menuselection:`メインメニュー --> Properties --> "
 "Advance/NeuralMD` の :guilabel:`Number of GPU` "
@@ -1541,13 +1590,13 @@ msgstr ""
 "Properties --> Advance/NeuralMD` . If multiple GPUs are used, MPI "
 "parallel processes are evenly distributed on the GPUs."
 
-#: ../../usage/grandproject.rst:193 ../../usage/inputeditorlammps.rst:47
+#: ../../usage/grandproject.rst:203 ../../usage/inputeditorlammps.rst:47
 msgid "リモートで実行する場合、\\ :doc:`SSHサーバーの設定<sshserver>`\\ で使用するキューのGPU設定を有効にしてください。"
 msgstr ""
 "To execute remotely, enable the GPU setting of the queue on :doc:`ssh "
 "server setting <sshserver>`\\ ."
 
-#: ../../usage/grandproject.rst:197 ../../usage/inputeditorlammps.rst:51
+#: ../../usage/grandproject.rst:207 ../../usage/inputeditorlammps.rst:51
 #: ../../usage/sshserver.rst:79
 msgid ""
 "GPUドライバを事前にインストールしておく必要があります。CUDA "
@@ -1556,31 +1605,39 @@ msgstr ""
 "GPU driver is necessary to be installed beforehand. As CUDA 11.4.4 is "
 "used, driver version 470.82.01 or later is required."
 
-#: ../../usage/grandproject.rst:198
+#: ../../usage/grandproject.rst:208
 msgid "元素数が5以上の場合は、重み付き対称関数を使う（\\ :guilabel:`Element Weight`\\ をyesに設定する）必要があります。"
 msgstr ""
 "In case 5 or more elements are in the system, weighted symmetry function "
 "must be used (set :guilabel:`Element Weight` to yes)."
 
-#: ../../usage/grandproject.rst:200
+#: ../../usage/grandproject.rst:210
+msgid "実行後、タブに戻るとResult画面が表示され、計算の状況を確認できます。"
+msgstr "After running the calculation, go back to the tab to show Result screen "
+"and check the status of the calculation."
+
+#: ../../usage/grandproject.rst:212
+msgid ":guilabel:`RMSE` ボタンで収束の様子が確認できます。"
+msgstr ""
+"Status of converging can be "
+"checked by :guilabel:`RMSE` button. "
+
+#: ../../usage/grandproject.rst:213
 msgid ""
-"実行後、タブに戻るとResult画面が表示され、計算の状況を確認できます。 :guilabel:`RMSE` ボタンで収束の様子が確認できます。 "
 ":guilabel:`Classical Potential` （|Delta|-NNP法）を有効にした場合、 :guilabel:`LJ-"
 "like.pot` で古典力場の形状を確認できます。"
 msgstr ""
-"After running the calculation, go back to the tab to show Result screen "
-"and check the status of the calculation. Status of converging can be "
-"checked by :guilabel:`RMSE` button. In case :guilabel:`Classical "
+"In case :guilabel:`Classical "
 "Potential` (|Delta|-NNP method) is enabled, you can check the form of the"
 " classical potential by :guilabel:`LJ-like.pot`\\ ."
 
-#: ../../usage/grandproject.rst:202
+#: ../../usage/grandproject.rst:215
 msgid ":guilabel:`force-field` をクリックすると、学習したニューラルネットワークをLAMMPSの力場ファイルとして保存できます。"
 msgstr ""
 "Click :guilabel:`force-field` to save trained neural network as a force "
 "field file for LAMMPS."
 
-#: ../../usage/grandproject.rst:204 ../../usage/slhmc.rst:58
+#: ../../usage/grandproject.rst:217 ../../usage/slhmc.rst:58
 msgid ""
 "作成した力場ファイルを使って分子動力学計算を行うには、LAMMPSのプロジェクトの :guilabel:`Force-Field` 設定画面で "
 ":guilabel:`Type of Force Field` をNeuralMDまたはNeuralMD with Chargeに設定して、 "
@@ -1592,7 +1649,7 @@ msgstr ""
 " screen, and choose the created force field file in :guilabel:`Potential "
 "File`\\ ."
 
-#: ../../usage/grandproject.rst:208
+#: ../../usage/grandproject.rst:221
 msgid ""
 "また、既にニューラルネットワークの学習を行ったグランドプロジェクトで :guilabel:`Testing Neural Network "
 "Potential` にある :guilabel:`Start Testing NNP` "
@@ -1605,11 +1662,11 @@ msgstr ""
 "Network Potential`\\ . The result can be checked by :guilabel:`Tested` "
 "button in the Result screen."
 
-#: ../../usage/grandproject.rst:217
+#: ../../usage/grandproject.rst:230
 msgid "教師データ・テストデータのインポート"
 msgstr "Importing training data / testing data"
 
-#: ../../usage/grandproject.rst:219
+#: ../../usage/grandproject.rst:232
 msgid ""
 "既に計算済みの教師データ( :file:`sannp.train` )・テストデータ( :file:`sannp.test` "
 ")をグランドプロジェクトにインポートするには、画面右側の :guilabel:`Open Project of NNP` "
@@ -1624,11 +1681,11 @@ msgstr ""
 "lower left menu. You can choose on a dialog whether to replace the data "
 "in the grand-project, or leave the data and append to it."
 
-#: ../../usage/grandproject.rst:224
+#: ../../usage/grandproject.rst:237
 msgid "教師データの分割"
 msgstr "Splitting training data"
 
-#: ../../usage/grandproject.rst:226
+#: ../../usage/grandproject.rst:239
 msgid ""
 "グランドプロジェクトにある教師データを分割し、一部をテストデータにすることができます。NNPの設定画面で左下メニューの "
 ":guilabel:`Split TRAIN-data` "
@@ -1659,7 +1716,7 @@ msgstr ""
 " another while performing analysis."
 
 #: ../../usage/initial.rst:18
-msgid "内蔵ウェブブラウザで開いているページもタブとして表示されます。"
+msgid "内蔵ウェブブラウザーで開いているページもタブとして表示されます。"
 msgstr "Web pages opened in the built-in web browser are also shown as tabs."
 
 #: ../../usage/initial.rst:20
@@ -1711,7 +1768,7 @@ msgid ":guilabel:`Documents`"
 msgstr ""
 
 #: ../../usage/initial.rst:46
-msgid "このドキュメントを内蔵ウェブブラウザで開きます。"
+msgid "このドキュメントを内蔵ウェブブラウザーで開きます。"
 msgstr "Open this document in built-in web browser."
 
 #: ../../usage/initial.rst:48
@@ -1825,12 +1882,13 @@ msgstr ""
 #: ../../usage/initial.rst:87
 msgid ""
 ":guilabel:`Materials Finder` と書かれた部分をクリックすることで、説明が表示されます。Materials "
-"Projectのアカウントをお持ちの場合、ここで\\ `APIキー <https://materialsproject.org/open>`_\\"
-" を設定することで、基本単位胞／慣用単位胞のどちらを取得するか選択できるようになります。"
+"Projectのアカウントをお持ちの場合、ここで\\ `APIキー "
+"<https://legacy.materialsproject.org/open>`_\\ "
+"を設定することで、基本単位胞／慣用単位胞のどちらを取得するか選択できるようになります。"
 msgstr ""
 "Click on the text saying Materials Finder to show the description. If you"
 " have Materials Project account, set your `API key "
-"<https://materialsproject.org/open>`_ here and you can choose either to "
+"<https://legacy.materialsproject.org/open>`_ here and you can choose either to "
 "retrieve primitive cell / standard cell."
 
 #: ../../usage/initial.rst:92
@@ -1845,19 +1903,32 @@ msgstr ""
 "Draw a molecule structure using the molecular editor `JSME <https://jsme-"
 "editor.github.io/>`_\\ , and use it as the model."
 
-#: ../../usage/initial.rst:107
+#: ../../usage/initial.rst:99 ../../usage/jupyter.rst:5
+msgid "Jupyter Interface for NanoLabo"
+msgstr ""
+
+#: ../../usage/initial.rst:101
+msgid ""
+"PythonのAtomic Simulation "
+"Environment(ASE)とNanoLaboの間で原子構造を相互にやり取りし、JupyterLab上で原子構造を扱うことができます。詳細は\\"
+" :doc:`jupyter`\\ を参照してください。"
+msgstr ""
+"Exchange atomic structure between Atomic Simulation Environment (ASE) on Python and NanoLabo, and handle the "
+"atomic structure on JupyterLab. Please refer to :doc:`jupyter` for details."
+
+#: ../../usage/initial.rst:114
 msgid "タブを閉じる"
 msgstr "Close tab"
 
-#: ../../usage/initial.rst:107
+#: ../../usage/initial.rst:114
 msgid ":kbd:`Ctrl` + :kbd:`W`"
 msgstr ""
 
-#: ../../usage/initial.rst:109
+#: ../../usage/initial.rst:116
 msgid "NanoLabo終了"
 msgstr "Close NanoLabo"
 
-#: ../../usage/initial.rst:109
+#: ../../usage/initial.rst:116
 msgid ":kbd:`Ctrl` + :kbd:`Q`"
 msgstr ""
 
@@ -1944,11 +2015,11 @@ msgstr ""
 "There are supplemental description for some setting views. See the links "
 "below."
 
-#: ../../usage/inputeditor.rst:39
+#: ../../usage/inputeditor.rst:40
 msgid "内蔵テキストエディタ―"
 msgstr "Built-in text editor"
 
-#: ../../usage/inputeditor.rst:41
+#: ../../usage/inputeditor.rst:42
 msgid ""
 "左下のメニュー |projectmenuicon| から :guilabel:`Input-file` "
 "を開くと、作成される入力ファイルの内容を内蔵テキストエディタ―で確認することができます。"
@@ -1956,17 +2027,17 @@ msgstr ""
 "Open :guilabel:`Input-file` from the menu on the lower left to check the "
 "input file to be created in text format."
 
-#: ../../usage/inputeditor.rst:43
+#: ../../usage/inputeditor.rst:44
 msgid "画面右側のパネルで変更した設定項目は、再読み込みボタン |reloadac| をクリックすることでテキストエディタ―側に反映されます。"
 msgstr ""
 "Click reload button |reloadac| to reflect the modified items on the right"
 " side panel in the text editor."
 
-#: ../../usage/inputeditor.rst:48
+#: ../../usage/inputeditor.rst:49
 msgid "reloadac"
 msgstr ""
 
-#: ../../usage/inputeditor.rst:45
+#: ../../usage/inputeditor.rst:46
 msgid ""
 "また、テキストエディタ―で入力ファイルの内容を直接変更することもできます。変更した内容は、上矢印ボタン |up| "
 "をクリックすることで画面右側のパネルに反映されます。"
@@ -1975,7 +2046,7 @@ msgstr ""
 "editor. Click up arrow button |up| to reflect the modified items in right"
 " side panel."
 
-#: ../../usage/inputeditor.rst:52
+#: ../../usage/inputeditor.rst:53
 msgid ""
 "テキストエディターの内容は、実際の入力ファイルを開いているわけではなく、設定項目から生成された一時的なものです。 "
 "上矢印ボタンをクリックしてから保存をすることで、実際の入力ファイルに反映されます。 "
@@ -1987,17 +2058,17 @@ msgstr ""
 "input file. If you do not click the up arrow button, the text will not be"
 " reflected in the actual input file even if you save the project."
 
-#: ../../usage/inputeditor.rst:59
+#: ../../usage/inputeditor.rst:60
 msgid "原子の固定・可動設定"
 msgstr "Let atoms fixed / mobile"
 
-#: ../../usage/inputeditor.rst:61
+#: ../../usage/inputeditor.rst:62
 msgid "構造最適化や分子動力学計算を行う際に、指定した原子の座標を固定して計算を行うための設定を行います。"
 msgstr ""
 "In structure optimization or molecular dynamics calculation, you can fix "
 "coordinates of specified atoms."
 
-#: ../../usage/inputeditor.rst:63
+#: ../../usage/inputeditor.rst:64
 msgid ""
 "画面左側のビューワーで、固定したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ "
 ":kbd:`Ctrl` + 右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから "
@@ -2012,7 +2083,7 @@ msgstr ""
 "shown in checker pattern. To get fixed atoms mobile again, click "
 ":guilabel:`Let selected atoms be MOBILE` from the menu."
 
-#: ../../usage/inputeditor.rst:65
+#: ../../usage/inputeditor.rst:66
 msgid ""
 "各方向ごとの固定・可動の設定を確認・変更するには、右下のメニュー |editormenuicon| から :guilabel:`Geometry`"
 " を開き、 :guilabel:`Atoms` 内の :guilabel:`Atomic Configuration` "
@@ -2755,9 +2826,104 @@ msgstr ""
 " not calculated, calculation is performed without correction even "
 ":guilabel:`Non-Analytic Term` is set to yes."
 
-#: ../../usage/jupyter.rst:5
-msgid "Jupyter Interface for NanoLabo"
+#: ../../usage/inputeditortb3.rst:5
+msgid "ThreeBodyTBの事前設定"
+msgstr "Preparation for ThreeBodyTB"
+
+#: ../../usage/inputeditortb3.rst:7
+msgid ""
+"`ThreeBodyTB <https://pages.nist.gov/ThreeBodyTB.jl/>`_\\ "
+"として公開されているパッケージを使い、三体間相互作用を考慮したタイトバインディング法に基づく計算を行います。"
 msgstr ""
+"Using the package released as `ThreeBodyTB <https://pages.nist.gov/ThreeBodyTB.jl/>`_\\ , perform calculation "
+"based on tight-binding method including three-body interaction."
+
+#: ../../usage/inputeditortb3.rst:9
+msgid "Juliaを呼び出して実行するため、事前にJulia環境の設定が必要です。また、MPI並列には非対応です（OpenMP並列は可能です）。"
+msgstr "Since this feature is executed by calling Julia, Julia environment have to be prepared in advance. "
+"Also, MPI parallel is not supported (OpenMP parallel is available)."
+
+#: ../../usage/inputeditortb3.rst:14 ../../usage/m3gnet.rst:38
+#: ../../usage/ocp.rst:58
+msgid "インストール"
+msgstr "Installation"
+
+#: ../../usage/inputeditortb3.rst:16 ../../usage/m3gnet.rst:14
+#: ../../usage/ocp.rst:14
+msgid "実際に計算を行うマシン（計算サーバーにジョブ投入する場合には、その計算サーバー上）でインストールを行ってください。"
+msgstr ""
+"Perform the installation on the actual machine used for the calculation "
+"(e.g. if you will submit the job to the calculation server, install on "
+"the server)."
+
+#: ../../usage/inputeditortb3.rst:18
+msgid ""
+"Juliaの\\ `ダウンロードページ <https://julialang.org/downloads/>`\\ "
+"からインストーラーまたは実行ファイルをダウンロードし、インストールしてください。"
+msgstr ""
+"Download the installer or executable file from Julia's `download page <https://julialang.org/downloads/>`_ and install it."
+
+#: ../../usage/inputeditortb3.rst:20
+msgid "インストールしたJuliaの対話型実行環境を起動し、ThreeBodyTBパッケージをインストールしてください。"
+msgstr "Launch interactive execution environment of installed Julia and install ThreeBodyTB package."
+
+#: ../../usage/inputeditortb3.rst:22
+msgid ""
+"using Pkg\n"
+"Pkg.add(\"ThreeBodyTB\")"
+msgstr ""
+
+#: ../../usage/inputeditortb3.rst:27
+msgid "DOS・Bandを使用する場合はPlotsパッケージもインストールしてください。"
+msgstr "If planning to use DOS/Band, also install Plots package."
+
+#: ../../usage/inputeditortb3.rst:29
+msgid "Pkg.add(\"Plots\")"
+msgstr ""
+
+#: ../../usage/inputeditortb3.rst:36 ../../usage/m3gnet.rst:50
+#: ../../usage/ocp.rst:164
+msgid "NanoLaboへの設定"
+msgstr "Configuring NanoLabo"
+
+#: ../../usage/inputeditortb3.rst:38 ../../usage/m3gnet.rst:52
+#: ../../usage/ocp.rst:166
+msgid "ローカル（NanoLaboを使っているマシン）で実行する場合"
+msgstr "To run locally (on the machine running NanoLabo)"
+
+#: ../../usage/inputeditortb3.rst:40
+msgid ""
+"画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Julia` "
+"でjulia実行ファイルのパスを設定します。"
+msgstr ""
+"Click the icon |mainmenuicon| on upper left of the screen, and open "
+":menuselection:`Properties --> Julia` to set the path to julia executable file. "
+
+#: ../../usage/inputeditortb3.rst:42 ../../usage/m3gnet.rst:58
+#: ../../usage/ocp.rst:172
+msgid "リモート（計算サーバー等）で実行する場合"
+msgstr "To run remotely (on calculation server etc.)"
+
+#: ../../usage/inputeditortb3.rst:44
+msgid ""
+"juliaのインストール先が :file:`~/julia*` の場合は、デフォルトで追加される :envvar:`PATH` "
+"で動作しますので、設定は必要ありません。"
+msgstr ""
+"In case julia is installed in :file:`~/julia*`\\ , it works with autmatically added "
+":envvar:`PATH`\\ , therefore no configuration is needed."
+
+#: ../../usage/inputeditortb3.rst:46
+msgid ""
+"他の場所にインストールした場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> "
+"SSH server` を開き、ジョブスクリプトに :envvar:`PATH` を追加してください。"
+msgstr ""
+"If installed in the other location, click the icon |mainmenuicon| on the "
+"upper left, open :menuselection:`Network --> SSH server`\\ , and then add"
+" :envvar:`PATH` to the job script."
+
+#: ../../usage/inputeditortb3.rst:48
+msgid "export PATH=(juliaのインストール先)/bin:$PATH"
+msgstr "export PATH=(julia installation destination)/bin:$PATH"
 
 #: ../../usage/jupyter.rst:7
 msgid ""
@@ -2771,10 +2937,8 @@ msgstr ""
 " JupyterLab."
 
 #: ../../usage/jupyter.rst:9
-msgid "本機能は2023年7月31日までは無償利用可となっております。以降はNanoLabo本体とは別にライセンスが必要です。"
-msgstr ""
-"This feature is free to use until July 31, 2023. Separate license is "
-"required after that."
+msgid "本機能を利用するには、NanoLabo本体とは別にオプションのライセンスが必要です。"
+msgstr "Separate optional license from NanoLabo itself is required to use this feature."
 
 #: ../../usage/jupyter.rst:14
 msgid "設定"
@@ -2792,7 +2956,7 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
-#: ../../usage/jupyter.rst:24
+#: ../../usage/jupyter.rst:20
 msgid "Token"
 msgstr ""
 
@@ -2802,44 +2966,37 @@ msgstr ""
 "Specify URL (example: ``http://localhost:8888/lab`` ) and token to "
 "connect to JupyterLab."
 
-#: ../../usage/jupyter.rst:24
-msgid "パスワードによる認証には現在対応しておりません。パスワード認証の場合、JupyterLabの画面は表示できますが、原子構造のアップロード・ダウンロードができません。"
-msgstr ""
-"Password authentication is currently not supported. In case of password "
-"authentication, while JupyterLab screen can be displayed, "
-"uploading/downloading atomic structure does not work."
-
-#: ../../usage/jupyter.rst:26
+#: ../../usage/jupyter.rst:22
 msgid "Uploading Path"
 msgstr ""
 
-#: ../../usage/jupyter.rst:28
+#: ../../usage/jupyter.rst:24
 msgid "NanoLaboからJupyterLabに原子構造をアップロードする際の設定です。JupyterLabのルートディレクトリに対する相対パスを指定してください。"
 msgstr ""
 "Configuration for uploading atomic structure from NanoLabo to JupyterLab."
 " Specify relative path to the root directory of Jupyterlab."
 
-#: ../../usage/jupyter.rst:30
+#: ../../usage/jupyter.rst:26
 msgid "Uploading File Type"
 msgstr ""
 
-#: ../../usage/jupyter.rst:32
+#: ../../usage/jupyter.rst:28
 msgid "原子座標の固定／可動の情報を含めてアップロードしたい場合は :file:`.POSCAR` 形式を指定してください。"
 msgstr ""
 "Specify :file:`.POSCAR` format to upload including the information if "
 "atomic coordinates are fixed/mobile."
 
-#: ../../usage/jupyter.rst:34
+#: ../../usage/jupyter.rst:30
 msgid "Using NGLView"
 msgstr ""
 
-#: ../../usage/jupyter.rst:36
+#: ../../usage/jupyter.rst:32
 msgid "ファイルをインポートする際のコードに、NGLViewを使って原子構造を可視化するコードを追加します。"
 msgstr ""
 "Add codes to visualize atomic structure with NGLView when importing a "
 "file."
 
-#: ../../usage/jupyter.rst:38
+#: ../../usage/jupyter.rst:34
 msgid ""
 "設定が終わったら、画面右上のPythonアイコン |pythonicon| "
 "をクリックして、JupyterLabの画面が表示されることを確認してください。"
@@ -2847,15 +3004,15 @@ msgstr ""
 "When the setting is completed, click Python icon |pythonicon| on the "
 "upper right of the window to see if JupyterLab screen is shown."
 
-#: ../../usage/jupyter.rst:41
+#: ../../usage/jupyter.rst:37
 msgid "pythonicon"
 msgstr ""
 
-#: ../../usage/jupyter.rst:46
+#: ../../usage/jupyter.rst:42
 msgid "NanoLabo |rarr| JupyterLab"
 msgstr ""
 
-#: ../../usage/jupyter.rst:48
+#: ../../usage/jupyter.rst:44
 msgid ""
 "プロジェクトの原子構造をJupyterLabにインポートするには、左下のメニュー |projectmenuicon| から "
 ":guilabel:`Jupyter Lab` をクリックします。"
@@ -2863,7 +3020,7 @@ msgstr ""
 "To import an atomic structure from a project, click :guilabel:`Jupyter "
 "Lab` from the lower left menu |projectmenuicon| ."
 
-#: ../../usage/jupyter.rst:50
+#: ../../usage/jupyter.rst:46
 msgid "原子構造ファイルがJupyterLabにアップロードされるとともに、JupyterLabのタブが開いて、原子構造をインポートするためのPythonコードが表示されます。表示されたコードをコピーし、JupyterLab上で実行することで、ASEのAtomsオブジェクトが作成されます。"
 msgstr ""
 "The atomic sturecture file is uploaded to JupyterLab, and JupyterLab tab "
@@ -2871,50 +3028,50 @@ msgstr ""
 "atomic structure. Copy the code and execute it on JupyterLab to create "
 "the Atoms object of ASE."
 
-#: ../../usage/jupyter.rst:56
+#: ../../usage/jupyter.rst:52
 msgid "NGLViewは ``pip`` コマンドでインストールできます。"
 msgstr "You can install NGLView by ``pip`` command."
 
-#: ../../usage/jupyter.rst:58
+#: ../../usage/jupyter.rst:54
 msgid "$ pip install nglview"
 msgstr ""
 
-#: ../../usage/jupyter.rst:62
+#: ../../usage/jupyter.rst:58
 msgid "NGLViewによる可視化を実行しようとした時に"
 msgstr "If you see an error like"
 
-#: ../../usage/jupyter.rst:64
+#: ../../usage/jupyter.rst:60
 msgid "AttributeError: 'super' object has no attribute '_ipython_display_'"
 msgstr ""
 
-#: ../../usage/jupyter.rst:68
+#: ../../usage/jupyter.rst:64
 msgid "というエラーが表示される場合、 ``ipywidgets`` のバージョンを指定することで改善する場合があります。"
 msgstr ""
 "when executing visualization by NGLView, it may be resolved by specifying"
 " the version of ``ipywidgets`` ."
 
-#: ../../usage/jupyter.rst:70
+#: ../../usage/jupyter.rst:66
 msgid "$ pip install 'ipywidgets>=7.6.0,<8'"
 msgstr ""
 
-#: ../../usage/jupyter.rst:74
+#: ../../usage/jupyter.rst:70
 msgid "プロジェクトメニューから以外にも、原子構造ビューワーやプロジェクトアイコンの右クリックメニューからJupyterLabにインポートすることができます。"
 msgstr ""
 "Not only from the project menu, but you can also import from the right "
 "click menu of atomic structure viewer or project icon."
 
-#: ../../usage/jupyter.rst:80
+#: ../../usage/jupyter.rst:76
 msgid "例えば、分子描画機能を使って分子を作成した後、原子構造ビューワーの右クリックメニューからすぐにJupyterLabにアップロードすることができます。"
 msgstr ""
 "For example, after making a molecure by Drawing Molecule feature, you can"
 " immediately upload it to JupyterLab from the right click menu of the "
 "atomic structure viewer."
 
-#: ../../usage/jupyter.rst:87
+#: ../../usage/jupyter.rst:83
 msgid "JupyterLab |rarr| NanoLabo"
 msgstr ""
 
-#: ../../usage/jupyter.rst:89
+#: ../../usage/jupyter.rst:85
 msgid ""
 "JupyterLab上で原子構造をファイルに出力します。ファイル形式はNanoLaboが対応しているものにしてください。 "
 ":file:`.POSCAR` 形式で保存する例を示します。"
@@ -2923,13 +3080,13 @@ msgstr ""
 "file format that is supported by NanoLabo. Below is an example of "
 "exporting to :file:`.POSCAR` format."
 
-#: ../../usage/jupyter.rst:91
+#: ../../usage/jupyter.rst:87
 msgid ""
 "from ase.io import write\n"
 "write('export.POSCAR', myAtoms)"
 msgstr ""
 
-#: ../../usage/jupyter.rst:96
+#: ../../usage/jupyter.rst:92
 msgid ""
 "ファイルブラウザ上でファイルの右クリックメニューから :guilabel:`Download` "
 "をクリックすると、ファイルがNanoLaboにダウンロードされ、プレビューのダイアログが表示されます。 :guilabel:`Open` "
@@ -2957,13 +3114,6 @@ msgstr ""
 "<https://github.com/materialsvirtuallab/m3gnet>`__ versatile force field "
 "+ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_ correction "
 "from LAMMPS is described here."
-
-#: ../../usage/m3gnet.rst:14 ../../usage/ocp.rst:14
-msgid "実際に計算を行うマシン（計算サーバーにジョブ投入する場合には、その計算サーバー上）でインストールを行ってください。"
-msgstr ""
-"Perform the installation on the actual machine used for the calculation "
-"(e.g. if you will submit the job to the calculation server, install on "
-"the server)."
 
 #: ../../usage/m3gnet.rst:16 ../../usage/ocp.rst:26
 msgid "conda環境の用意"
@@ -3017,10 +3167,6 @@ msgid ""
 "export HTTPS_PROXY=http://user:pass@host:port"
 msgstr ""
 
-#: ../../usage/m3gnet.rst:38 ../../usage/ocp.rst:58
-msgid "インストール"
-msgstr "Installation"
-
 #: ../../usage/m3gnet.rst:40
 msgid "m3gnetと、DFT-D3補正に必要なパッケージをインストールします。"
 msgstr "Install m3gnet and packages required for DFT-D3 correction."
@@ -3030,14 +3176,6 @@ msgid ""
 "pip install m3gnet\n"
 "conda install simple-dftd3 dftd3-python -c conda-forge"
 msgstr ""
-
-#: ../../usage/m3gnet.rst:50 ../../usage/ocp.rst:164
-msgid "NanoLaboへの設定"
-msgstr "Configuring NanoLabo"
-
-#: ../../usage/m3gnet.rst:52 ../../usage/ocp.rst:166
-msgid "ローカル（NanoLaboを使っているマシン）で実行する場合"
-msgstr "To run locally (on the machine running NanoLabo)"
 
 #: ../../usage/m3gnet.rst:54 ../../usage/ocp.rst:168
 msgid ""
@@ -3057,10 +3195,6 @@ msgstr ""
 "It is located at :file:`conda installation destination\\\\python.exe` on "
 "Windows, and :file:`conda installation destination/bin/python` on "
 "Linux/macOS."
-
-#: ../../usage/m3gnet.rst:58 ../../usage/ocp.rst:172
-msgid "リモート（計算サーバー等）で実行する場合"
-msgstr "To run remotely (on calculation server etc.)"
 
 #: ../../usage/m3gnet.rst:60 ../../usage/ocp.rst:174
 msgid ""
@@ -4335,14 +4469,15 @@ msgid "`Quantum ESPRESSO`_"
 msgstr ""
 
 #: ../../usage/project.rst:35 ../../usage/project.rst:57
+#: ../../usage/project.rst:67
 msgid ":guilabel:`Geometry`"
 msgstr ""
 
-#: ../../usage/project.rst:35 ../../usage/project.rst:57
-msgid "原子構造・結晶構造の設定"
-msgstr "atomic / crystal structure settings"
+#: ../../usage/project.rst:35
+msgid "原子構造・結晶構造・擬ポテンシャルの設定"
+msgstr "atomic/crystal structure / pseudo potential settings"
 
-#: ../../usage/project.rst:37
+#: ../../usage/project.rst:37 ../../usage/project.rst:69
 msgid ":guilabel:`SCF`"
 msgstr ""
 
@@ -4350,7 +4485,7 @@ msgstr ""
 msgid "自己無撞着場計算"
 msgstr "self consistent field calculation"
 
-#: ../../usage/project.rst:39
+#: ../../usage/project.rst:39 ../../usage/project.rst:71
 msgid ":guilabel:`Optimize`"
 msgstr ""
 
@@ -4366,19 +4501,19 @@ msgstr ""
 msgid "第一原理分子動力学法"
 msgstr "first principle molecular dynamics"
 
-#: ../../usage/project.rst:43
+#: ../../usage/project.rst:43 ../../usage/project.rst:73
 msgid ":guilabel:`DOS`"
 msgstr ""
 
-#: ../../usage/project.rst:43
+#: ../../usage/project.rst:43 ../../usage/project.rst:73
 msgid "状態密度計算"
 msgstr "density of states calculation"
 
-#: ../../usage/project.rst:45
+#: ../../usage/project.rst:45 ../../usage/project.rst:75
 msgid ":guilabel:`Band`"
 msgstr ""
 
-#: ../../usage/project.rst:45
+#: ../../usage/project.rst:45 ../../usage/project.rst:75
 msgid "バンド計算"
 msgstr "band calculation"
 
@@ -4426,6 +4561,10 @@ msgstr "Nudged Elastic Band method"
 msgid "`LAMMPS`_"
 msgstr ""
 
+#: ../../usage/project.rst:57 ../../usage/project.rst:67
+msgid "原子構造・結晶構造の設定"
+msgstr "atomic / crystal structure settings"
+
 #: ../../usage/project.rst:59
 msgid ":guilabel:`Force-Field`"
 msgstr ""
@@ -4443,36 +4582,64 @@ msgid "計算過程の設定"
 msgstr "calculation scheme settings"
 
 #: ../../usage/project.rst:63
-msgid "Metropolis w/ NNP"
+msgid ":guilabel:`Option`"
 msgstr ""
 
 #: ../../usage/project.rst:63
+msgid "外場・外力等の設定"
+msgstr "optional operations"
+
+#: ../../usage/project.rst:65
+msgid ":guilabel:`User's`"
+msgstr ""
+
+#: ../../usage/project.rst:65
+msgid "任意コマンド追加、任意変数出力・グラフ化の設定"
+msgstr "user's additional commands / variables to output and plot settings"
+
+#: ../../usage/project.rst:67
+msgid "`ThreeBodyTB`_"
+msgstr ""
+
+#: ../../usage/project.rst:69
+msgid "自己無撞着場計算（汎用タイトバインディング法）"
+msgstr "SCF calculation (versatile tight-binding method)"
+
+#: ../../usage/project.rst:71
+msgid "構造最適化"
+msgstr "structure optimization"
+
+#: ../../usage/project.rst:77
+msgid "Metropolis w/ NNP"
+msgstr ""
+
+#: ../../usage/project.rst:77
 msgid "メトロポリス法による構造生成（\\ `Advance/NeuralMD`_\\ 連携機能）"
 msgstr ""
 "generate structures by Metropolis method (cooperation function with "
 "`Advance/NeuralMD`_ )"
 
-#: ../../usage/project.rst:65
+#: ../../usage/project.rst:79
 msgid "SLHMC"
 msgstr ""
 
-#: ../../usage/project.rst:65
+#: ../../usage/project.rst:79
 msgid "自己学習ハイブリッドモンテカルロ法による力場作成（\\ `Advance/NeuralMD`_\\ 連携機能）"
 msgstr ""
 "make force field by self-learning hybrid Monte Carlo method (cooperation "
 "function with `Advance/NeuralMD`_ )"
 
-#: ../../usage/project.rst:74
+#: ../../usage/project.rst:89
 msgid "使用する計算エンジンとエディターのモードを選ぶと、それに応じた設定項目が画面右側のエディターパネルに表示されます。"
 msgstr ""
 "When you select the calculation engine and the editor mode, corresponding"
 " setting items are displayed in editor panel on the right side."
 
-#: ../../usage/project.rst:79
+#: ../../usage/project.rst:94
 msgid "プロジェクトの保存"
 msgstr "Saving project"
 
-#: ../../usage/project.rst:81
+#: ../../usage/project.rst:96
 msgid ""
 "新しいプロジェクトを開いた場合、そのままではまだ保存されていません。左下のメニュー |projectmenuicon| から "
 ":guilabel:`Save` をクリックし、保存場所とプロジェクト名を設定して保存してください。タブにプロジェクト名が表示されます。"
@@ -4481,14 +4648,14 @@ msgstr ""
 " from the menu |projectmenuicon| on the lower left and specify the name "
 "and the location to save it. The project name is displayed on the tab."
 
-#: ../../usage/project.rst:83
+#: ../../usage/project.rst:98
 msgid "保存していないプロジェクトで計算を実行しようとしたり、エディターで変更を加えたまま保存せずにタブを閉じようとしたりすると、保存するよう促されます。"
 msgstr ""
 "You will be prompted to save the project if you try to run the "
 "calculation in an unsaved project or if you try to close a tab with "
 "unsaved changes."
 
-#: ../../usage/project.rst:87
+#: ../../usage/project.rst:102
 msgid ""
 "Windowsで、Quantum "
 "ESPRESSOの計算をローカルで行う場合、プロジェクトの保存先はCドライブ内にする必要があります（Quantum "
@@ -4497,14 +4664,14 @@ msgstr ""
 "On Windows, if you run Quantum ESPRESSO calculation locally, the project "
 "must be saved in C drive (due to specification of Quantum ESPRESSO)."
 
-#: ../../usage/project.rst:89
+#: ../../usage/project.rst:104
 msgid "この制限は、ジャンクションを使うことで回避できます。下記の例のようにコマンドを実行して設定することで、NanoLabo上でextフォルダに保存したデータが、実体としてはnanolaboDataフォルダに保存されます。"
 msgstr ""
 "This limitation can be avoided by using junction. You can set it by "
 "executing commands as example below, and when you save data in ext folder"
 " on NanoLabo, the actual data will be stored in nanolaboData folder."
 
-#: ../../usage/project.rst:91
+#: ../../usage/project.rst:106
 msgid ""
 "また、Linuxでもシンボリックリンクを使うことで、\\ :file:`.nanolabo`\\ の外にあるフォルダを\\ "
 ":file:`.nanolabo`\\ 内にあるように扱うことができます。"
@@ -4512,11 +4679,11 @@ msgstr ""
 "Also on Linux, using simbolic link, you can handle a folder out of "
 ":file:`.nanolabo` as if it is in :file:`.nanolabo`\\ ."
 
-#: ../../usage/project.rst:93
+#: ../../usage/project.rst:108
 msgid "Windows"
 msgstr ""
 
-#: ../../usage/project.rst:93
+#: ../../usage/project.rst:108
 msgid ""
 "mkdir D:\\nanolaboData\n"
 "mklink /J C:\\Users\\ユーザー名\\.nanolabo\\ext D:\\nanolaboData"
@@ -4524,11 +4691,11 @@ msgstr ""
 "mkdir D:\\nanolaboData\n"
 "mklink /J C:\\Users\\username\\.nanolabo\\ext D:\\nanolaboData"
 
-#: ../../usage/project.rst:99
+#: ../../usage/project.rst:114
 msgid "Linux"
 msgstr ""
 
-#: ../../usage/project.rst:99
+#: ../../usage/project.rst:114
 msgid ""
 "mkdir /home/ユーザー名/nanolaboData\n"
 "ln -s /home/ユーザー名/nanolaboData /home/ユーザー名/.nanolabo/ext"
@@ -4536,27 +4703,27 @@ msgstr ""
 "mkdir /home/username/nanolaboData\n"
 "ln -s /home/username/nanolaboData /home/username/.nanolabo/ext"
 
-#: ../../usage/project.rst:116
+#: ../../usage/project.rst:131
 msgid "プロジェクト保存"
 msgstr "Save project"
 
-#: ../../usage/project.rst:116
+#: ../../usage/project.rst:131
 msgid ":kbd:`Ctrl` + :kbd:`S`"
 msgstr ""
 
-#: ../../usage/project.rst:118
+#: ../../usage/project.rst:133
 msgid "戻る（左下の矢印ボタン）"
 msgstr "Go back (arrow button on lower left)"
 
-#: ../../usage/project.rst:118
+#: ../../usage/project.rst:133
 msgid ":kbd:`Ctrl` + |larr|"
 msgstr ""
 
-#: ../../usage/project.rst:120
+#: ../../usage/project.rst:135
 msgid "スクリーンショット（画像保存）"
 msgstr "Screenshot (save as image)"
 
-#: ../../usage/project.rst:120
+#: ../../usage/project.rst:135
 msgid ":kbd:`PrintScreen`"
 msgstr ""
 

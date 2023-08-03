@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-25 15:10+0900\n"
+"POT-Creation-Date: 2023-08-03 12:24+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -995,8 +995,8 @@ msgid "OS"
 msgstr ""
 
 #: ../../install/requirement.rst:9
-msgid "Windows 10 (64 bit)"
-msgstr ""
+msgid "Windows 10・Windows 11 (64 bit)"
+msgstr "Windows 10 / Windows 11 (64 bit)"
 
 #: ../../install/requirement.rst:10
 msgid "CentOS 7 (64 bit)"
@@ -1007,8 +1007,8 @@ msgid "AlmaLinux 8"
 msgstr ""
 
 #: ../../install/requirement.rst:12
-msgid "macOS 10.15 (64 bit)（Intel/Apple M1対応）"
-msgstr "macOS 10.15 (64 bit)(Intel/Apple M1 supported)"
+msgid "macOS Ventura(13)以降 (64 bit)（Intel/Apple M1対応）"
+msgstr "macOS Ventura(13) or later (64 bit)(Intel/Apple M1 supported)"
 
 #: ../../install/requirement.rst:14
 msgid "Java"
@@ -1121,7 +1121,4 @@ msgid ""
 msgstr ""
 "In some case, Java VM setting is stored in "
 ":file:`C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\VirtualStore` ."
-
-#~ msgid "macOS 10.15 (64 bit)"
-#~ msgstr ""
 
