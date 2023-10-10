@@ -51,6 +51,20 @@
 
 画面左下のメニュー |projectmenuicon| から :guilabel:`Run` をクリックし、実行します。リモートで実行する場合は、ジョブスクリプト\ :file:`nanolabo.sh`\ に加えて、Quantum ESPRESSO、LAMMPS、NeuralMDを呼び出す際に実行されるスクリプトの編集画面も表示されますので、内容を確認し、必要に応じて変更してから :guilabel:`OK` をクリックしてください。
 
+.. note:: Windows版NeuralMDは現在MPI並列に対応していないため、Windowsでローカル実行する場合は :guilabel:`#Processes` を1に設定してください。OpenMP並列は使用可能です。
+
+.. hint::
+
+ GPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD Pro版のライセンスが必要）、およびLAMMPSを使ったニューラルネットワーク力場による分子動力学計算です。
+
+ - （Linuxのみ）ローカルで実行する場合、 :menuselection:`メインメニュー --> Properties --> Advance/NeuralMD` の :guilabel:`Number of GPU` に使用するGPUの数を設定します。複数のGPUを使用する設定の場合、MPI並列のプロセスを各GPUに均等に割り当てて実行されます。0を設定するとGPUを使用しません。
+ - リモートで実行する場合、\ :doc:`SSHサーバーの設定<sshserver>`\ で使用するキューのGPU設定を有効にしてください。
+
+ .. note::
+
+  - GPUドライバを事前にインストールしておく必要があります。CUDA 11.4.4を使用しており、これに対応するドライババージョン470.82.01以上が必要です。
+  - 元素数が5以上の場合は、重み付き対称関数を使う（\ :guilabel:`Element Weight`\ をyesに設定する）必要があります。
+
 実行後、タブに戻るとResult画面が表示され、初期ニューラルネットワーク力場作成用の第一原理分子動力学計算(FPMD)、ハイブリッドモンテカルロ計算(HMC)の状況を確認できます。計算中は進捗（ :guilabel:`#Steps of Training` に対する割合）が表示されます。ニューラルネットワーク力場は随時更新され、Accepted Rate（モンテカルロ法の採択率）が1に近く、エネルギーの平均絶対誤差(MAE)が小さいほど、性能の良い力場であると判断できます。
 
 :guilabel:`force-field` をクリックすると、学習したニューラルネットワークをLAMMPSの力場ファイルとして保存できます。:guilabel:`train-data` をクリックすると、生成された教師データを保存できます。
