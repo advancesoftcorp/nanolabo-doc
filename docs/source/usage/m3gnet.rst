@@ -35,6 +35,12 @@ LAMMPSから\ `M3GNet <https://github.com/materialsvirtuallab/m3gnet>`__\ 汎用
       export HTTP_PROXY=http://user:pass@host:port
       export HTTPS_PROXY=http://user:pass@host:port
 
+#. （任意）GPUを使う場合
+
+     NVIDIAドライバがインストールされていない場合は、あらかじめインストールしてください。
+
+     PyTorchのGPU版をインストールします。CUDAバージョンが最新の場合は `Get Started <https://pytorch.org/get-started>`_ 、そうでない場合は `Previous Versions <https://pytorch.org/get-started/previous-versions/>`_ を参照し、CUDAバージョンに合わせたpipのインストールコマンドを実行してください。
+
 #. インストール
 
      m3gnetと、DFT-D3補正に必要なパッケージをインストールします。
@@ -67,10 +73,24 @@ NanoLaboへの設定
 
 .. |mainmenuicon| image:: /img/mainmenuicon.png
 
+.. hint::
+
+ 実行時に次のようなエラーが出る場合があります。
+
+ .. code-block:: none
+ 
+  ValueError: Model does not exists
+
+ これは実行に必要な学習済みのモデルデータが存在しないというメッセージです。m3gnetパッケージにはモデルデータが含まれていないため、初回実行時にダウンロードを試みますが、インターネット接続に問題があると実行できません。
+
+ 代替として、モデルデータを手動でダウンロードすることもできます。\ `m3gnetのリポジトリのMP-2021.2.8-EFSフォルダ <https://github.com/materialsvirtuallab/m3gnet/tree/main/pretrained/MP-2021.2.8-EFS>`_\ 内のファイルをダウンロードし、 :file:`(condaのインストール先)/lib/site-packages/m3gnet/models/MP-2021.2.8-EFS` に保存してください。
+
 .. _m3gnetlammps:
 
 LAMMPSを直接実行する場合
 ===========================
+
+NanoLaboを使わず、LAMMPS単体で実行する場合の説明です。
 
 NanoLabo Tool同梱の実行ファイル :file:`lammps_m3gnet` を使用します。MPI並列計算には非対応です。
 
