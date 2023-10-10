@@ -186,6 +186,8 @@ NanoLaboへの設定
 LAMMPSを直接実行する場合
 ===========================
 
+NanoLaboを使わず、LAMMPS単体で実行する場合の説明です。
+
 NanoLabo Tool同梱の実行ファイル :file:`lammps_oc20` を使用します。MPI並列計算、ビリアル応力の計算（NPT・NPHアンサンブル、セル最適化）には非対応です。
 
 Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` を設定してください。
