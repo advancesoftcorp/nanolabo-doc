@@ -41,6 +41,17 @@ LAMMPSから\ `M3GNet <https://github.com/materialsvirtuallab/m3gnet>`__\ 汎用
 
      PyTorchのGPU版をインストールします。CUDAバージョンが最新の場合は `Get Started <https://pytorch.org/get-started>`_ 、そうでない場合は `Previous Versions <https://pytorch.org/get-started/previous-versions/>`_ を参照し、CUDAバージョンに合わせたpipのインストールコマンドを実行してください。
 
+     インストール後、GPUが利用可能になっているかどうかPythonの対話環境で確認できます。
+
+     .. code-block:: python
+
+      python
+
+      >>> import torch
+      >>> print(torch.cuda.is_available())   #GPU使用可否
+      True
+      >>> quit()                             #Python環境終了
+
 #. インストール
 
      m3gnetと、DFT-D3補正に必要なパッケージをインストールします。
