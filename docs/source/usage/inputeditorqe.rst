@@ -29,6 +29,8 @@
 
 画面右下のメニュー |editormenuicon| から :guilabel:`Geometry` を選び、 :guilabel:`Elements` の :guilabel:`Element's Properties` で擬ポテンシャルの設定を行います。各元素の :guilabel:`Pseudopotential` 欄にあるボタンをクリックすると、擬ポテンシャルファイルを選択できます。また、設定に応じたカットオフエネルギーの推奨値が下部に表示されます。
 
+擬ポテンシャルファイルを追加する場合は、 :file:`C:\Users\ユーザー名\.nanolabo\.pseudopot` (Windows) :file:`/home/ユーザー名/.nanolabo/.pseudopot` (Linux・macOS) にファイルを保存すると一覧に表示されるようになります。
+
 擬ポテンシャル変更後、 :guilabel:`SCF` の設定で :guilabel:`Cutoff` 入力欄のデフォルト値設定ボタン |default| をクリックすると、更新されたカットオフエネルギーの推奨値が入力されます。
 
 .. |default| image:: /img/default.png
