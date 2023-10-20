@@ -165,7 +165,7 @@ NanoLaboへの設定
 
 - ローカル（NanoLaboを使っているマシン）で実行する場合
 
-      画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` （またはForce Field設定画面の :guilabel:`Setting Python` ボタン）でpython実行ファイルのパスを設定します。
+      画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` （またはForce Field設定画面の |gearicon| ボタン）でpython実行ファイルのパスを設定します。
 
       Windowsでは :file:`condaのインストール先\\envs\\ocp-models\\python.exe` 、Linux・macOSでは :file:`condaのインストール先/envs/ocp-models/bin/python` にあります。
 
@@ -180,6 +180,7 @@ NanoLaboへの設定
          export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-models/lib:$LD_LIBRARY_PATH
 
 .. |mainmenuicon| image:: /img/mainmenuicon.png
+.. |gearicon| image:: /img/gear.png
 
 .. _ocplammps:
 

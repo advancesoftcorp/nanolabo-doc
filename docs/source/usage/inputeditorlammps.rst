@@ -39,6 +39,8 @@ NeuralMD
 
 :guilabel:`Atomic Energy` を :guilabel:`without bias` に設定することで、LAMMPS実行時にニューラルネットワーク最終層のバイアス項（原子の内部エネルギーに相当する定数）を0にし、原子エネルギーの平準化を図る機能が有効になります。
 
+:guilabel:`Potential File` で設定する力場ファイルはAdvance/NeuralMDで生成するか、学習済みの力場ファイルを\ `力場データベース <https://www.nanolabo.advancesoft.jp/forcefield/>`_\ からダウンロードして使うこともできます。
+
 .. hint::
 
  ニューラルネットワーク力場は、GPUを使って計算を高速化することができます。
@@ -58,7 +60,7 @@ Open Catalyst 2020
 
 LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| をクリックすると説明が表示されます。
 
-- MPI並列には非対応です（OpenMP並列、またはGPUを使った計算が可能です）。
+- MPI並列には非対応です（OpenMP並列・GPUを使った計算が可能です）。
 - ARM版(Apple M1)には非対応です。
 - Z軸方向には周期境界条件が適用されません。
 - ビリアル応力が計算できないため、NPT・NPHアンサンブルでの計算、およびセルの最適化には非対応です。
@@ -71,17 +73,26 @@ LAMMPSからPythonを呼び出して実行するため、事前にPython環境�
 M3GNet
 --------------------
 
-`M3GNet <https://github.com/materialsvirtuallab/m3gnet>`_ として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場＋\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\ による補正を使います。
+M3GNet（\ `従来版 <https://github.com/materialsvirtuallab/m3gnet>`_\ 、\ `MatGL版 <https://github.com/materialsvirtuallab/matgl>`_\ ）として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場＋\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\ による補正を使います。
 
-LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| をクリックすると説明が表示されます。
-
-- MPI並列には非対応です（OpenMP並列は可能です）。
-- ARM版(Apple M1)には非対応です。
+LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、MPI並列には非対応です（OpenMP並列・GPUを使った計算が可能です）。 |info| をクリックすると説明が表示されます。
 
 .. toctree::
    :maxdepth: 1
 
    Python環境の設定方法<m3gnet>
+
+CHGNet
+-------------------
+
+`CHGNet <https://github.com/CederGroupHub/chgnet>`_ として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場＋\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\ による補正を使います。
+
+LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、MPI並列には非対応です（OpenMP並列・GPUを使った計算が可能です）。 |info| をクリックすると説明が表示されます。
+
+.. toctree::
+   :maxdepth: 1
+
+   Python環境の設定方法<chgnet>
 
 .. |info| image:: /img/info.png
 

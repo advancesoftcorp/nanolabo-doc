@@ -9,7 +9,9 @@ M3GNet汎用力場を使うための設定
 Pythonの設定
 ===============
 
-LAMMPSから\ `M3GNet <https://github.com/materialsvirtuallab/m3gnet>`__\ 汎用力場＋\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\ による補正を使うために必要な設定手順を説明します。
+LAMMPSからM3GNet汎用力場（\ `従来版 <https://github.com/materialsvirtuallab/m3gnet>`_\ 、\ `MatGL版 <https://github.com/materialsvirtuallab/matgl>`_\ ）＋\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\ による補正を使うために必要な設定手順を説明します。
+
+従来版のM3GNetは単独のパッケージとして公開されましたが、その後継となるバージョンがMaterials Graph Library(MatGL)に含まれる形で新たに公開されています。アドバンスソフト改修版LAMMPSでは、従来版に同梱されている学習済みモデル ``MP-2021.2.8-EFS`` を使う場合は従来版のM3GNetを、それ以外の場合はMatGL版のM3GNetを選んで実行するようになっています。
 
 実際に計算を行うマシン（計算サーバーにジョブ投入する場合には、その計算サーバー上）でインストールを行ってください。
 
@@ -37,9 +39,13 @@ LAMMPSから\ `M3GNet <https://github.com/materialsvirtuallab/m3gnet>`__\ 汎用
 
 #. （任意）GPUを使う場合
 
+     MatGL版M3GNetはPyTorchを使って実装されており、GPU版PyTorchを使うことで計算を高速化することができます。
+
      NVIDIAドライバがインストールされていない場合は、あらかじめインストールしてください。
 
-     PyTorchのGPU版をインストールします。CUDAバージョンが最新の場合は `Get Started <https://pytorch.org/get-started>`_ 、そうでない場合は `Previous Versions <https://pytorch.org/get-started/previous-versions/>`_ を参照し、CUDAバージョンに合わせたpipのインストールコマンドを実行してください。
+     まず、PyTorchのGPU版をインストールします。CUDAバージョンが最新の場合は `Get Started <https://pytorch.org/get-started>`__ 、そうでない場合は `Previous Versions <https://pytorch.org/get-started/previous-versions/>`_ を参照し、CUDAバージョンに合わせたpipのインストールコマンドを実行してください。
+
+     次に、Deep Graph Library(DGL)のGPU版をインストールします。 `Get Started <https://www.dgl.ai/pages/start.html>`__ を参照し、CUDAバージョンに合わせたpipのインストールコマンドを実行してください。
 
      インストール後、GPUが利用可能になっているかどうかPythonの対話環境で確認できます。
 
@@ -50,7 +56,7 @@ LAMMPSから\ `M3GNet <https://github.com/materialsvirtuallab/m3gnet>`__\ 汎用
       >>> import torch
       >>> print(torch.cuda.is_available())   #GPU使用可否
       True
-      >>> quit()                             #Python環境終了
+      >>> exit()                             #Python環境終了
 
 #. インストール
 
@@ -58,7 +64,7 @@ LAMMPSから\ `M3GNet <https://github.com/materialsvirtuallab/m3gnet>`__\ 汎用
 
      .. code-block:: console
 
-         pip install m3gnet
+         pip install m3gnet matgl
          conda install simple-dftd3 dftd3-python -c conda-forge
 
 .. _m3gnetnanolabo:
@@ -68,7 +74,7 @@ NanoLaboへの設定
 
 - ローカル（NanoLaboを使っているマシン）で実行する場合
 
-      画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` （またはForce Field設定画面の :guilabel:`Setting Python` ボタン）でpython実行ファイルのパスを設定します。
+      画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` （またはForce Field設定画面の |gearicon| ボタン）でpython実行ファイルのパスを設定します。
 
       Windowsでは :file:`condaのインストール先\\python.exe` 、Linux・macOSでは :file:`condaのインストール先/bin/python` にあります。
 
@@ -83,6 +89,7 @@ NanoLaboへの設定
          export LD_LIBRARY_PATH=(condaのインストール先)/lib:$LD_LIBRARY_PATH
 
 .. |mainmenuicon| image:: /img/mainmenuicon.png
+.. |gearicon| image:: /img/gear.png
 
 .. hint::
 
@@ -118,7 +125,7 @@ Linux・macOSでは、実行時にPythonの動的ライブラリを使用しま�
 
  $ export OPAL_PREFIX=/opt/AdvanceSoft/NanoLabo/exec.LINUX/mpi
 
-LAMMPSから :file:`m3gnet_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の :file:`m3gnet` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 :envvar:`PYTHONPATH` に追加します。
+LAMMPSから :file:`m3gnet_driver.py` または :file:`matgl_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の :file:`m3gnet` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 :envvar:`PYTHONPATH` に追加します。
 
 .. code-block:: console
  :caption: Linuxの例
@@ -144,12 +151,14 @@ LAMMPSの入力ファイル中で、以下のように\ ``pair_style``\ を設�
  .. table::
   :widths: auto
 
-  +--------------------+-------------------------------------------------------------------------------------------------+
-  | model              || 使用するグラフニューラルネットワークのモデル                                                   |
-  |                    || MP-2021.2.8-EFSを指定（配布されている学習済みモデル）                                          |
-  +--------------------+-------------------------------------------------------------------------------------------------+
-  | 元素名             | LAMMPSのatom type毎に、対応する元素名を列挙                                                     |
-  +--------------------+-------------------------------------------------------------------------------------------------+
+  +--------------------+---------------------------------------------------------------------------------------------------------------------+
+  | model              || 使用するグラフニューラルネットワークのモデル                                                                       |
+  |                    || MP-2021.2.8-EFSを指定すると、従来版M3GNet＋同梱の学習済みモデルを使用                                              |
+  |                    || M3GNet-MP-2021.2.8-PESまたはM3GNet-MP-2021.2.8-DIRECT-PESを指定すると、MatGL版M3GNet＋同梱の学習済みモデルを使用   |
+  |                    || フォルダパスを指定すると、MatGL版M3GNet＋フォルダに保存されたモデルを使用                                          |
+  +--------------------+---------------------------------------------------------------------------------------------------------------------+
+  | 元素名             | LAMMPSのatom type毎に、対応する元素名を列挙                                                                         |
+  +--------------------+---------------------------------------------------------------------------------------------------------------------+
 
 .. hint::
 
