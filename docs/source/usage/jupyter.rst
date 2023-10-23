@@ -20,16 +20,16 @@ JupyterLabは、ブラウザベースのPython実行環境です。Jupyter Inter
    JupyterLabに接続するためのURL（例： ``http://localhost:8888/lab`` ）とtokenを設定します。
 
 - Uploading Path
-
-      NanoLaboからJupyterLabに原子構造をアップロードする際の設定です。JupyterLabのルートディレクトリに対する相対パスを指定してください。
+   NanoLaboからJupyterLabに原子構造をアップロードする際の設定です。JupyterLabのルートディレクトリに対する相対パスを指定してください。
 
 - Uploading File Type
-
-      原子座標の固定／可動の情報を含めてアップロードしたい場合は :file:`.POSCAR` 形式を指定してください。
+   原子座標の固定／可動の情報を含めてアップロードしたい場合は :file:`.POSCAR` 形式を指定してください。
 
 - Using NGLView
+   ファイルをインポートする際のコードに、NGLViewを使って原子構造を可視化するコードを追加します。
 
-       ファイルをインポートする際のコードに、NGLViewを使って原子構造を可視化するコードを追加します。
+- Drag & Drop
+   JupyterLab画面にドロップしたファイルを直接JupyterLabに渡すか、NanoLaboで処理するかの設定です。
 
 設定が終わったら、画面右上のPythonアイコン |pythonicon| をクリックして、JupyterLabの画面が表示されることを確認してください。
 

@@ -187,7 +187,7 @@ Java VMの引数を追加することで表示が改善します。
 （任意）グラフニューラルネットワーク汎用力場の設定
 ====================================================
 
-LAMMPSの計算でグラフニューラルネットワーク汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\ :doc:`Open Catalyst Projectの設定 </usage/ocp>`\ 、\ :doc:`M3GNetの設定 </usage/m3gnet>`\ をそれぞれ参照してください。
+LAMMPSの計算でグラフニューラルネットワーク汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\ :doc:`Open Catalyst Projectの設定 </usage/ocp>`\ 、\ :doc:`M3GNetの設定 </usage/m3gnet>`\ 、\ :doc:`CHGNetの設定 </usage/chgnet>`\ をそれぞれ参照してください。
 
 .. _sshl:
 

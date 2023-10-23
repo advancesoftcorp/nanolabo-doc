@@ -165,6 +165,8 @@
 
 :guilabel:`Adsorbate Molecule / Atom` （吸着する分子）、 :guilabel:`Adsorption Site` （吸着サイトの種類）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous` で前の項目の設定に移ります。
 
+- :guilabel:`Adsorbate Molecule` はあらかじめ用意されたものに加え、左上メニュー |mainmenuicon| から :menuselection:`Import --> Import Adsorbate molecule` でインポートしたものも使えます。
+
 吸着の方法には、:guilabel:`Adsorption to Single Site` （選択した単一サイトへの吸着）と、 :guilabel:`Rate of Occupied Sites` （サイトの占有率を指定した吸着）があります。使用したい方を選択してください。
 
 :guilabel:`Adsorption to Single Site` では、a軸・b軸方向の位置をスライダーで変更するか、サイトに振られた通し番号を使って、サイトを指定してください。
@@ -173,6 +175,7 @@
 
 左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。
 
+.. |mainmenuicon| image:: /img/mainmenuicon.png
 .. |increment| image:: /img/increment.png
 .. |decrement| image:: /img/decrement.png
 

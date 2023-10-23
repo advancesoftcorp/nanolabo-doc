@@ -15,6 +15,8 @@ Force-Field（力場）
 
 力場の設定後、設定内容に応じて各原子のパラメーターを調整する必要がある場合には、 :guilabel:`Resolve Force Field` の :guilabel:`Apply` ボタンが赤色になりますので、クリックして設定を反映させてください。
 
+原子に電荷を設定しない力場の場合、 :guilabel:`Request Charge` をyesに設定することで、外部電場用の電荷を設定することができます。
+
 Lennard-Jones
 ----------------------
 
@@ -82,6 +84,8 @@ LAMMPSからPythonを呼び出して実行するため、事前にPython環境�
 
    Python環境の設定方法<m3gnet>
 
+:guilabel:`Model` にはM3GNetに同梱されている学習済みモデルが表示されます。また、画面左上のアイコン |mainmenuicon| から :menuselection:`Import --> Import M3GNet model` でモデルをインポートできます。
+
 CHGNet
 -------------------
 
@@ -96,6 +100,8 @@ LAMMPSからPythonを呼び出して実行するため、事前にPython環境�
 
 .. |info| image:: /img/info.png
 
+:guilabel:`Model` にはCHGNetに同梱されている学習済みモデルが表示されます。また、画面左上のアイコン |mainmenuicon| から :menuselection:`Import --> Import CHGNet model` でモデルをインポートできます。
+
 .. _scheme:
 
 Scheme（計算過程）
@@ -105,7 +111,7 @@ Scheme（計算過程）
 
 .. |editormenuicon| image:: /img/editormenuicon.png
 
-画面右側の :guilabel:`Set Scheme` で計算の設定を行い、 :guilabel:`Add Scheme` の :guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| :guilabel:`Apply` を繰り返して過程を追加していきます。
+画面右側の :guilabel:`Setting Scheme` で計算の設定を行い、 :guilabel:`Add Scheme` の :guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| :guilabel:`Apply` を繰り返して過程を追加していきます。
 
 .. |rarr| raw:: html
 
@@ -117,13 +123,33 @@ Scheme（計算過程）
 .. |lpfwd| image:: /img/lpfwd.png
 .. |lpdel| image:: /img/lpdel.png
 
+また、ショートカットキーによる操作ができます。
+
+.. table::
+   :widths: auto
+
+   +---------------------------------------+------------------------------------------------------------------------------------+
+   | 操作                                  |                                                                                    |
+   +=======================================+====================================================================================+
+   | 直前に追加したタイルを削除            | :kbd:`Ctrl` + :kbd:`C` , :kbd:`Backspace` , :kbd:`Delete`                          |
+   +---------------------------------------+------------------------------------------------------------------------------------+
+   | アンドゥ（直前の操作の取り消し）      | :kbd:`Ctrl` + :kbd:`Z`                                                             |
+   +---------------------------------------+------------------------------------------------------------------------------------+
+   | リドゥ（取り消した操作のやり直し）    | :kbd:`Ctrl` + :kbd:`Shift` + :kbd:`Z`                                              |
+   +---------------------------------------+------------------------------------------------------------------------------------+
+
+`*`:sup: macOSでは :kbd:`Ctrl` |rarr| :kbd:`command` と読み替えてください。
+
 追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` ウィンドウが表示され、設定を編集できます。
 
-また、 :guilabel:`Statistical Properties` の各項目を :guilabel:`yes` に設定することで、統計量（熱伝導率、粘性係数、拡散係数、動径分布関数(RDF)）が計算され、結果画面に表示されます。
+また、 :guilabel:`Statistical Properties` の各項目を :guilabel:`yes` に設定することで、統計量（熱伝導率、粘性係数、拡散係数、動径分布関数(RDF)）が計算され、結果画面に表示されます。熱伝導率、粘性係数については、 |dotsmenuicon| からパラメータを設定できます。
 
 各熱力学量や原子構造は毎ステップではなく、間を空けて出力されます。 :guilabel:`Interval to Print Logs` で出力の間隔をステップ数で設定できます。
 
 .. image:: /img/scheme.png
+
+.. |mainmenuicon| image:: /img/mainmenuicon.png
+.. |dotsmenuicon| image:: /img/dotsmenuicon.png
 
 .. _option:
 
