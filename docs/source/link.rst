@@ -120,11 +120,35 @@ Gitリポジトリ
 M3GNet
 =========
 
+従来版
+---------
+
 M3GNetドキュメント
  https://materialsvirtuallab.github.io/m3gnet/
 
 Gitリポジトリ
  https://github.com/materialsvirtuallab/m3gnet
+
+MatGL版
+---------
+
+MatGLドキュメント
+ https://matgl.ai/
+
+Gitリポジトリ
+ https://github.com/materialsvirtuallab/matgl
+
+CHGNet
+=========
+
+CHGNetドキュメント
+ https://chgnet.lbl.gov/
+
+Gitリポジトリ
+ https://github.com/CederGroupHub/chgnet
+
+Simple DFT-D3
+===============
 
 Simple DFT-D3ドキュメント
  https://dftd3.readthedocs.io/en/latest/
