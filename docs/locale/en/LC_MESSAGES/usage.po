@@ -3146,6 +3146,8 @@ msgstr ""
 #: ../../usage/m3gnet.rst:24 ../../usage/ocp.rst:34
 msgid "インターネット接続にプロキシが必要な場合は、環境変数の設定等を適宜行ってください。"
 msgstr ""
+"If you require a proxy for internet connection, please adjust the "
+"environment variable settings as necessary."
 
 #: ../../usage/m3gnet.rst:26 ../../usage/ocp.rst:36
 msgid "Windows・認証なしの例"
