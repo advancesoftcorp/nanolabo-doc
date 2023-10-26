@@ -7,6 +7,7 @@
 2023/--/-- バージョン2.9.1
  - 機能追加
 
+   - Matlantis\ |tm|\ との連携機能を追加（Jupyter Interface使用）
    - LAMMPS: MatGL版のM3GNet力場（従来のM3GNetの後継版）に対応
    - LAMMPS: グラフニューラルネットワーク力場CHGNetに対応
    - LAMMPS: 外部電場用の電荷設定機能を追加（Force-Field画面内）
@@ -368,3 +369,7 @@
 .. |gamma| raw:: html
 
    &Gamma;
+
+.. |tm| raw:: html
+
+   &trade;

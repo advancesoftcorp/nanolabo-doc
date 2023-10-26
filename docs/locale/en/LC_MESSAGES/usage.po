@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-24 14:11+0900\n"
+"POT-Creation-Date: 2023-10-26 15:59+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../usage/atomsviewer.rst:54 ../../usage/calculation.rst:9
 #: ../../usage/grandproject.rst:27 ../../usage/inputeditor.rst:48
-#: ../../usage/jupyter.rst:78 ../../usage/modeler.rst:15
+#: ../../usage/jupyter.rst:88 ../../usage/modeler.rst:15
 #: ../../usage/project.rst:20 ../../usage/result.rst:9 ../../usage/slhmc.rst:76
 msgid "projectmenuicon"
 msgstr ""
@@ -617,7 +617,7 @@ msgstr ""
 #: ../../usage/calculation.rst:48 ../../usage/chgnet.rst:85
 #: ../../usage/grandproject.rst:53 ../../usage/initial.rst:61
 #: ../../usage/inputeditorlammps.rst:151 ../../usage/inputeditorqe.rst:36
-#: ../../usage/inputeditortb3.rst:52 ../../usage/jupyter.rst:36
+#: ../../usage/inputeditortb3.rst:52 ../../usage/jupyter.rst:46
 #: ../../usage/m3gnet.rst:91 ../../usage/modeler.rst:178
 #: ../../usage/ocp.rst:182 ../../usage/result.rst:60
 #: ../../usage/sshserver.rst:9
@@ -745,11 +745,11 @@ msgid ""
 "LinuxマシンでGPUが搭載されている場合、ニューラルネットワーク力場関連の計算をGPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD"
 " Pro版のライセンスが必要）、およびLAMMPSを使ったニューラルネットワーク力場による分子動力学計算です。"
 msgstr ""
-"On a Linux machine that has GPU(s), calculations related to neural network force "
-"field can be accelerated using GPU. Supported calculations are: learning "
-"of neural network force field using Advance/NeuralMD (Advance/NeuralMD "
-"Pro edition license is required), and molecular dynamics calculation by "
-"neural network force field using LAMMPS."
+"On a Linux machine that has GPU(s), calculations related to neural "
+"network force field can be accelerated using GPU. Supported calculations "
+"are: learning of neural network force field using Advance/NeuralMD "
+"(Advance/NeuralMD Pro edition license is required), and molecular "
+"dynamics calculation by neural network force field using LAMMPS."
 
 #: ../../usage/calculation.rst:91
 msgid ""
@@ -758,8 +758,8 @@ msgid ""
 "でGPUの数を設定してください。0を設定するとGPUを使用しません。"
 msgstr ""
 "Click the icon |mainmenuicon| on upper left of the screen, and open "
-":menuselection:`Properties --> Advance/NeuralMD` and set :guilabel:`Number of GPUs`\\ ."
-"Set 0 to not use GPU."
+":menuselection:`Properties --> Advance/NeuralMD` and set "
+":guilabel:`Number of GPUs`\\ .Set 0 to not use GPU."
 
 #: ../../usage/calculation.rst:95 ../../usage/grandproject.rst:207
 #: ../../usage/inputeditorlammps.rst:55 ../../usage/slhmc.rst:65
@@ -774,10 +774,10 @@ msgstr ""
 #: ../../usage/calculation.rst:97
 msgid "ここでの設定はAdvance/NeuralMD関連の計算にのみ適用されます。OC20/22、M3GNet、CHGNetのGPU使用の設定とは独立しています。これらのGPU使用についてはそれぞれの環境設定方法を参照してください。"
 msgstr ""
-"The configuration here is only applicable to the Advance/NeuralMD-related "
-"calculations. The GPU usage settings for OC20/22, M3GNet, and CHGNet are "
-"independent. For the GPU usage of each, please refer to their respective "
-"environment setup instructions."
+"The configuration here is only applicable to the Advance/NeuralMD-related"
+" calculations. The GPU usage settings for OC20/22, M3GNet, and CHGNet are"
+" independent. For the GPU usage of each, please refer to their respective"
+" environment setup instructions."
 
 #: ../../usage/calculation.rst:102
 msgid "計算がうまくいかない場合"
@@ -811,8 +811,8 @@ msgid ""
 "による補正を使うために必要な設定手順を説明します。"
 msgstr ""
 "Setup procedure required for using `CHGNet "
-"<https://github.com/CederGroupHub/chgnet>`__ versatile force field "
-"+ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_ correction "
+"<https://github.com/CederGroupHub/chgnet>`__ versatile force field + "
+"`Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_ correction "
 "from LAMMPS is described here."
 
 #: ../../usage/chgnet.rst:14 ../../usage/inputeditortb3.rst:16
@@ -891,10 +891,11 @@ msgid ""
 "/get-started>`__ 、そうでない場合は `Previous Versions <https://pytorch.org/get-"
 "started/previous-versions/>`_ を参照し、CUDAバージョンに合わせたpipのインストールコマンドを実行してください。"
 msgstr ""
-"Install the GPU version of PyTorch. If you have the latest CUDA version installed, "
-"refer to `Get Started <https://pytorch.org/get-started>`__. Otherwise, check "
-"`Previous Versions <https://pytorch.org/get-started/previous-versions/>`_ and "
-"execute the pip install command that matches your CUDA version."
+"Install the GPU version of PyTorch. If you have the latest CUDA version "
+"installed, refer to `Get Started <https://pytorch.org/get-started>`__. "
+"Otherwise, check `Previous Versions <https://pytorch.org/get-started"
+"/previous-versions/>`_ and execute the pip install command that matches "
+"your CUDA version."
 
 #: ../../usage/chgnet.rst:44 ../../usage/m3gnet.rst:50
 msgid "インストール後、GPUが利用可能になっているかどうかPythonの対話環境で確認できます。"
@@ -949,8 +950,8 @@ msgid ""
 "（またはForce Field設定画面の |gearicon| ボタン）でpython実行ファイルのパスを設定します。"
 msgstr ""
 "Set the python executable path in :menuselection:`Properties --> Python` "
-"from the upper left menu |mainmenuicon| (or |gearicon| "
-"button in the Force Field setting screen)."
+"from the upper left menu |mainmenuicon| (or |gearicon| button in the "
+"Force Field setting screen)."
 
 #: ../../usage/chgnet.rst:86 ../../usage/m3gnet.rst:92 ../../usage/ocp.rst:183
 msgid "gearicon"
@@ -1000,9 +1001,7 @@ msgstr "Using LAMMPS directly"
 
 #: ../../usage/chgnet.rst:93 ../../usage/m3gnet.rst:111 ../../usage/ocp.rst:190
 msgid "NanoLaboを使わず、LAMMPS単体で実行する場合の説明です。"
-msgstr ""
-"This description is for running LAMMPS standalone, "
-"without using NanoLabo."
+msgstr "This description is for running LAMMPS standalone, without using NanoLabo."
 
 #: ../../usage/chgnet.rst:95
 msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_chgnet` を使用します。MPI並列計算には非対応です。"
@@ -1057,7 +1056,9 @@ msgstr "Linux example"
 
 #: ../../usage/chgnet.rst:112
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/chgnet:$PYTHONPATH"
-msgstr "$ export PYTHONPATH=(NanoLabo Tool installation destination)/chgnet:$PYTHONPATH"
+msgstr ""
+"$ export PYTHONPATH=(NanoLabo Tool installation "
+"destination)/chgnet:$PYTHONPATH"
 
 #: ../../usage/chgnet.rst:117 ../../usage/m3gnet.rst:135
 #: ../../usage/ocp.rst:214
@@ -1074,7 +1075,8 @@ msgid ""
 "pair_coeff * * <modelname> <元素名1 元素名2 ...>        # モデル名を指定する例"
 msgstr ""
 "pair_style chgnet\n"
-"pair_coeff * * <modelname> <element1 element2 ...>       # Example specifying model name"
+"pair_coeff * * <modelname> <element1 element2 ...>       # Example "
+"specifying model name"
 
 #: ../../usage/chgnet.rst:125
 msgid "CHGNet + DFT-D3による補正"
@@ -1086,7 +1088,8 @@ msgid ""
 "pair_coeff * * path <modelfile> <元素名1 元素名2 ...>   # モデルファイルを指定する例"
 msgstr ""
 "pair_style chgnet/d3\n"
-"pair_coeff * * path <modelfile> <element1 element2 ...>  # Example specifying model file"
+"pair_coeff * * path <modelfile> <element1 element2 ...>  # Example "
+"specifying model file"
 
 #: ../../usage/chgnet.rst:131
 msgid "CHGNet、GPU使用"
@@ -1135,8 +1138,7 @@ msgstr "Specify \"MPtrj-efsm\" to use the bundled pretrained model"
 
 #: ../../usage/chgnet.rst
 msgid "pathに続けてファイルパスを指定すると、ファイルに保存されたモデルを使用"
-msgstr ""
-"Specify a file path after \"path\" to use the model saved in that file"
+msgstr "Specify a file path after \"path\" to use the model saved in that file"
 
 #: ../../usage/chgnet.rst:153 ../../usage/m3gnet.rst:160
 #: ../../usage/ocp.rst:238
@@ -2285,8 +2287,9 @@ msgstr ""
 "Click on the text saying Materials Finder to show the description. If you"
 " have Materials Project account, set your `API key "
 "<https://legacy.materialsproject.org/open>`_ here and you can choose "
-"either to retrieve primitive cell / standard cell. "
-"Also, you can set whether to open the database web page with built-in web browser or external browser by :guilabel:`Browser Type`\ ."
+"either to retrieve primitive cell / standard cell. Also, you can set "
+"whether to open the database web page with built-in web browser or "
+"external browser by :guilabel:`Browser Type`\\ ."
 
 #: ../../usage/initial.rst:92
 msgid "分子作成"
@@ -2300,7 +2303,7 @@ msgstr ""
 "Draw a molecule structure using the molecular editor `JSME <https://jsme-"
 "editor.github.io/>`_\\ , and use it as the model."
 
-#: ../../usage/initial.rst:99 ../../usage/jupyter.rst:5
+#: ../../usage/initial.rst:99
 msgid "Jupyter Interface for NanoLabo"
 msgstr ""
 
@@ -2539,8 +2542,9 @@ msgid ""
 "原子に電荷を設定しない力場の場合、 :guilabel:`Request Charge` "
 "をyesに設定することで、外部電場用の電荷を設定することができます。"
 msgstr ""
-"For force fields that do not assign charges to atoms, by setting :guilabel:`Request Charge` "
-"to yes, you can specify charges for external electric field."
+"For force fields that do not assign charges to atoms, by setting "
+":guilabel:`Request Charge` to yes, you can specify charges for external "
+"electric field."
 
 #: ../../usage/inputeditorlammps.rst:21
 msgid "Lennard-Jones"
@@ -2606,8 +2610,9 @@ msgid ""
 "<https://www.nanolabo.advancesoft.jp/forcefield/>`_\\ "
 "からダウンロードして使うこともできます。"
 msgstr ""
-"The force field file set to :guilabel:`Potential File` can either be generated with Advance/NeuralMD, "
-"or you can download and use pretrained force field files from the `Force-Field Database "
+"The force field file set to :guilabel:`Potential File` can either be "
+"generated with Advance/NeuralMD, or you can download and use pretrained "
+"force field files from the `Force-Field Database "
 "<https://www.nanolabo.advancesoft.jp/forcefield/>`_."
 
 #: ../../usage/inputeditorlammps.rst:48
@@ -2649,8 +2654,8 @@ msgstr ""
 #: ../../usage/inputeditorlammps.rst:65
 msgid "MPI並列には非対応です（OpenMP並列・GPUを使った計算が可能です）。"
 msgstr ""
-"MPI parallel is not supported (calculation using OpenMP parallel / GPU "
-"is available)."
+"MPI parallel is not supported (calculation using OpenMP parallel / GPU is"
+" available)."
 
 #: ../../usage/inputeditorlammps.rst:66
 msgid "ARM版(Apple M1)には非対応です。"
@@ -2678,10 +2683,10 @@ msgid ""
 "<https://dftd3.readthedocs.io/en/latest/>`_\\ による補正を使います。"
 msgstr ""
 "Use pretrained versatile force field based on graph neural network, "
-"published as M3GNet (`original version <https://github.com/materialsvirtuallab/m3gnet>`_\\ , "
-"`MatGL version <https://github.com/materialsvirtuallab/matgl>`_\\ ) + "
-"correction by `Simple DFT-D3 "
-"<https://dftd3.readthedocs.io/en/latest/>`_\\ ."
+"published as M3GNet (`original version "
+"<https://github.com/materialsvirtuallab/m3gnet>`_\\ , `MatGL version "
+"<https://github.com/materialsvirtuallab/matgl>`_\\ ) + correction by "
+"`Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\\ ."
 
 #: ../../usage/inputeditorlammps.rst:80 ../../usage/inputeditorlammps.rst:94
 msgid ""
@@ -2689,8 +2694,9 @@ msgid ""
 " |info| をクリックすると説明が表示されます。"
 msgstr ""
 "Since this feature is realized by calling Python from LAMMPS, Python "
-"environment have to be prepared in advance, and MPI parallel is not supported (OpenMP parallel / GPU is supported). "
-"Click |info| to show the description."
+"environment have to be prepared in advance, and MPI parallel is not "
+"supported (OpenMP parallel / GPU is supported). Click |info| to show the "
+"description."
 
 #: ../../usage/inputeditorlammps.rst:87
 msgid ""
@@ -2698,8 +2704,10 @@ msgid ""
 "|mainmenuicon| から :menuselection:`Import --> Import M3GNet model` "
 "でモデルをインポートできます。"
 msgstr ""
-"In :guilabel:`Model`, pretrained models bundled with M3GNet will be displayed. Also, you can import a model "
-"from the top left menu |mainmenuicon| by selecting :menuselection:`Import --> Import M3GNet model`."
+"In :guilabel:`Model`, pretrained models bundled with M3GNet will be "
+"displayed. Also, you can import a model from the top left menu "
+"|mainmenuicon| by selecting :menuselection:`Import --> Import M3GNet "
+"model`."
 
 #: ../../usage/inputeditorlammps.rst:92
 msgid ""
@@ -2718,8 +2726,10 @@ msgid ""
 "|mainmenuicon| から :menuselection:`Import --> Import CHGNet model` "
 "でモデルをインポートできます。"
 msgstr ""
-"In :guilabel:`Model`, pretrained models bundled with CHGNet will be displayed. Also, you can import a model "
-"from the top left menu |mainmenuicon| by selecting :menuselection:`Import --> Import CHGNet model`."
+"In :guilabel:`Model`, pretrained models bundled with CHGNet will be "
+"displayed. Also, you can import a model from the top left menu "
+"|mainmenuicon| by selecting :menuselection:`Import --> Import CHGNet "
+"model`."
 
 #: ../../usage/inputeditorlammps.rst:108
 msgid "Scheme（計算過程）"
@@ -2740,10 +2750,10 @@ msgid ""
 ":guilabel:`Apply` をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| "
 ":guilabel:`Apply` を繰り返して過程を追加していきます。"
 msgstr ""
-"Configure the calculation by :guilabel:`Setting Scheme` on the right side "
-"panel, and then click :guilabel:`Apply` in :guilabel:`Add Scheme` to add "
-"the setting on the left side of the window as a tile. Repeat configuring "
-"|rarr| :guilabel:`Apply` to add processes as many times as necessary."
+"Configure the calculation by :guilabel:`Setting Scheme` on the right side"
+" panel, and then click :guilabel:`Apply` in :guilabel:`Add Scheme` to add"
+" the setting on the left side of the window as a tile. Repeat configuring"
+" |rarr| :guilabel:`Apply` to add processes as many times as necessary."
 
 #: ../../usage/inputeditorlammps.rst:120
 msgid ""
@@ -2772,8 +2782,7 @@ msgstr "Shortcut keys can be used for operation."
 
 #: ../../usage/inputeditorlammps.rst:134
 msgid "直前に追加したタイルを削除"
-msgstr ""
-"Remove the tile that was last added"
+msgstr "Remove the tile that was last added"
 
 #: ../../usage/inputeditorlammps.rst:134
 msgid ":kbd:`Ctrl` + :kbd:`C` , :kbd:`Backspace` , :kbd:`Delete`"
@@ -2797,9 +2806,9 @@ msgstr ""
 "Also, by setting the items in :guilabel:`Statistical Properties` to "
 ":guilabel:`yes`\\ , statistical quantities (thermal conductivity, "
 "viscosity coefficient, diffusion constant and radial distribution "
-"function (RDF)) are calculated and displayed in the result screen. "
-"For thermal conductivity and viscosity coefficient, "
-"parameters can be set from the |dotsmenuicon| menu."
+"function (RDF)) are calculated and displayed in the result screen. For "
+"thermal conductivity and viscosity coefficient, parameters can be set "
+"from the |dotsmenuicon| menu."
 
 #: ../../usage/inputeditorlammps.rst:152
 msgid "dotsmenuicon"
@@ -3009,8 +3018,9 @@ msgid ""
 "擬ポテンシャルファイルを追加する場合は、左上メニュー |mainmenuicon| から :menuselection:`Import --> "
 "Import Poseudopotential` でインポートします。"
 msgstr ""
-"To add a pseudopotential file, import it from the top-left menu |mainmenuicon| by selecting :menuselection:`Import --> "
-"Import Pseudopotential`."
+"To add a pseudopotential file, import it from the top-left menu "
+"|mainmenuicon| by selecting :menuselection:`Import --> Import "
+"Pseudopotential`."
 
 #: ../../usage/inputeditorqe.rst:34
 msgid ""
@@ -3387,28 +3397,48 @@ msgstr ""
 msgid "export PATH=(juliaのインストール先)/bin:$PATH"
 msgstr "export PATH=(julia installation destination)/bin:$PATH"
 
+#: ../../usage/jupyter.rst:5
+msgid "Jupyter Interface for NanoLabo / Matlantis連携"
+msgstr "Jupyter Interface for NanoLabo / Matlantis Collaboration"
+
 #: ../../usage/jupyter.rst:7
 msgid ""
-"JupyterLabは、ブラウザベースのPython実行環境です。Jupyter Interface for "
-"NanoLaboを使うことで、Atomic Simulation "
+"JupyterLab / Jupyter Notebookは、ブラウザベースのPython実行環境です。Jupyter Interface for"
+" NanoLaboを使うことで、Atomic Simulation "
 "Environment(ASE)とNanoLaboの間で原子構造を相互にやり取りし、JupyterLab上で原子構造を扱うことができます。"
 msgstr ""
-"JupyterLab is a browser-based Python environment. With Jupyter Interface "
+"JupyterLab / Jupyter Notebook are browser-based Python environments. With Jupyter Interface "
 "for NanoLabo, you can exchange atomic structures between Atomic "
 "Simulation Environment(ASE) and NanoLabo, and handle atomic structures on"
 " JupyterLab."
 
 #: ../../usage/jupyter.rst:9
+msgid ""
+"また、Preferred Computational Chemistry社（Preferred "
+"NetworksとENEOSの合弁会社）の汎用ニューラルネットワーク力場Matlantis\\ |tm|\\ は、Jupyter "
+"Notebookを使ったクラウドサービスとして提供されています。Jupyter Interface for "
+"NanoLaboを使うことで、NanoLabo上で原子構造をモデリングしてMatlantis\\ |tm|\\ "
+"でシミュレーションを行う、あるいはMatlantis\\ |tm|\\ "
+"のシミュレーション結果をNanoLaboで可視化する、といった連携が行えます。"
+msgstr ""
+"Additionally, a versatile neural network force field Matlantis\\ |tm|\\ , "
+"from Preferred Computational Chemistry (a joint venture between Preferred Networks "
+"and ENEOS), is offered as a cloud service using Jupyter Notebook. By utilizing the "
+"Jupyter Interface for NanoLabo, you can model atomic structures on NanoLabo and "
+"run simulations in Matlantis\\ |tm|\\ , or visualize the simulation results of "
+"Matlantis\\ |tm|\\ in NanoLabo, enabling collaboration between the two."
+
+#: ../../usage/jupyter.rst:11
 msgid "本機能を利用するには、NanoLabo本体とは別にオプションのライセンスが必要です。"
 msgstr ""
 "Separate optional license from NanoLabo itself is required to use this "
 "feature."
 
-#: ../../usage/jupyter.rst:14
+#: ../../usage/jupyter.rst:16
 msgid "設定"
 msgstr "Setting"
 
-#: ../../usage/jupyter.rst:16
+#: ../../usage/jupyter.rst:18
 msgid ""
 "画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Jupyter Lab` "
 "を開き、設定を行います。"
@@ -3416,60 +3446,99 @@ msgstr ""
 "Click the icon |mainmenuicon| on upper left of the screen, and open "
 ":menuselection:`Properties --> Jupyter Lab`\\ ."
 
-#: ../../usage/jupyter.rst:18
-msgid "URL"
+#: ../../usage/jupyter.rst:21
+msgid "Type of Jupyter Lab"
 msgstr ""
 
-#: ../../usage/jupyter.rst:20
-msgid "Token"
+#: ../../usage/jupyter.rst:21
+msgid ""
+"Jupyter Interfaceのデフォルトの環境を設定します。Matlantis\\ |tm|\\ を使用する場合は\\ "
+":guilabel:`Matlantis`\\ を、それ以外のオンプレミス等のJupyterLab環境を使用する場合は\\ "
+":guilabel:`On Premise`\\ に設定してください。"
+msgstr ""
+"Set the default environment for the Jupyter Interface. To use Matlantis\\ |tm|\\ , "
+"select :guilabel:`Matlantis`. For other JupyterLab environment like on-premises one, "
+"please set to :guilabel:`On Premise`."
+
+#: ../../usage/jupyter.rst:24
+msgid "Launching Behavior"
 msgstr ""
 
-#: ../../usage/jupyter.rst:20
-msgid "JupyterLabに接続するためのURL（例： ``http://localhost:8888/lab`` ）とtokenを設定します。"
+#: ../../usage/jupyter.rst:24
+msgid ""
+"Jupyter Interface起動時に環境を選択するダイアログを表示します。Matlantis\\ |tm|\\ "
+"とオンプレミス環境を切り替えてどちらも使用するという場合は\\ :guilabel:`Ask Type of Jupyter Lab`\\ "
+"に設定してください。"
 msgstr ""
-"Specify URL (example: ``http://localhost:8888/lab`` ) and token to "
-"connect to JupyterLab."
+"Whether to show a dialog to select the environment when launching the Jupyter Interface. If you switch between "
+"Matlantis\\ |tm|\\ and on-premises environments and intend to use both, set to :guilabel:`Ask Type of Jupyter Lab`."
 
-#: ../../usage/jupyter.rst:23
+#: ../../usage/jupyter.rst:26
+msgid ""
+"Matlantis\\ |tm|\\ を使用するには、最初にログインが必要です。\\ :guilabel:`Matlantis`\\ タブの\\ "
+":guilabel:`Log-in`\\ のボタンからログインを行ってください。ログイン後、Jupyter NotebookのURLが\\ "
+":guilabel:`URL`\\ 欄に設定されます。"
+msgstr ""
+"To use Matlantis\\ |tm|\\ , you need to first log in. Click the button next to "
+":guilabel:`Log-in` label on the :guilabel:`Matlantis` tab to log in. After "
+"logging in, the Jupyter Notebook URL will be set in the "
+":guilabel:`URL` field."
+
+#: ../../usage/jupyter.rst:28
+msgid ""
+"オンプレミス環境の場合は、\\ :guilabel:`On Premise`\\ タブでJupyterLabに接続するための\\ "
+":guilabel:`URL`\\ （例： ``http://localhost:8888/lab`` ）と\\ "
+":guilabel:`Token`\\ を設定してください。"
+msgstr ""
+"For on-premises environments, set the :guilabel:`URL` "
+"(e.g., ``http://localhost:8888/lab``) and the :guilabel:`Token` "
+"in the :guilabel:`On Premise` tab to connect to JupyterLab."
+
+#: ../../usage/jupyter.rst:30
+msgid "以下は各タブ共通の設定です。"
+"The following are settings common to both tabs."
+
+#: ../../usage/jupyter.rst:33
 msgid "Uploading Path"
 msgstr ""
 
-#: ../../usage/jupyter.rst:23
+#: ../../usage/jupyter.rst:33
 msgid "NanoLaboからJupyterLabに原子構造をアップロードする際の設定です。JupyterLabのルートディレクトリに対する相対パスを指定してください。"
 msgstr ""
 "Configuration for uploading atomic structure from NanoLabo to JupyterLab."
 " Specify relative path to the root directory of Jupyterlab."
 
-#: ../../usage/jupyter.rst:26
+#: ../../usage/jupyter.rst:36
 msgid "Uploading File Type"
 msgstr ""
 
-#: ../../usage/jupyter.rst:26
+#: ../../usage/jupyter.rst:36
 msgid "原子座標の固定／可動の情報を含めてアップロードしたい場合は :file:`.POSCAR` 形式を指定してください。"
 msgstr ""
 "Specify :file:`.POSCAR` format to upload including the information if "
 "atomic coordinates are fixed/mobile."
 
-#: ../../usage/jupyter.rst:29
+#: ../../usage/jupyter.rst:39
 msgid "Using NGLView"
 msgstr ""
 
-#: ../../usage/jupyter.rst:29
+#: ../../usage/jupyter.rst:39
 msgid "ファイルをインポートする際のコードに、NGLViewを使って原子構造を可視化するコードを追加します。"
 msgstr ""
 "Add codes to visualize atomic structure with NGLView when importing a "
 "file."
 
-#: ../../usage/jupyter.rst:32
+#: ../../usage/jupyter.rst:42
 msgid "Drag & Drop"
 msgstr ""
 
-#: ../../usage/jupyter.rst:32
-msgid "JupyterLab画面にドロップしたファイルを直接JupyterLabに渡すか、NanoLaboで処理するかの設定です。"
+#: ../../usage/jupyter.rst:42
+msgid "画面にドロップしたファイルを直接JupyterLabに渡すか、NanoLaboで処理するかの設定です。"
 msgstr ""
-"Whether files dropped onto the JupyterLab screen are directly passed to JupyterLab or processed by NanoLabo."
+"Whether files dropped onto the screen are directly passed to "
+"JupyterLab or processed by NanoLabo."
 
-#: ../../usage/jupyter.rst:34
+#: ../../usage/jupyter.rst:44
 msgid ""
 "設定が終わったら、画面右上のPythonアイコン |pythonicon| "
 "をクリックして、JupyterLabの画面が表示されることを確認してください。"
@@ -3477,15 +3546,15 @@ msgstr ""
 "When the setting is completed, click Python icon |pythonicon| on the "
 "upper right of the window to see if JupyterLab screen is shown."
 
-#: ../../usage/jupyter.rst:37
+#: ../../usage/jupyter.rst:47
 msgid "pythonicon"
 msgstr ""
 
-#: ../../usage/jupyter.rst:42
+#: ../../usage/jupyter.rst:52
 msgid "NanoLabo |rarr| JupyterLab"
 msgstr ""
 
-#: ../../usage/jupyter.rst:44
+#: ../../usage/jupyter.rst:54
 msgid ""
 "プロジェクトの原子構造をJupyterLabにインポートするには、左下のメニュー |projectmenuicon| から "
 ":guilabel:`Jupyter Lab` をクリックします。"
@@ -3493,7 +3562,7 @@ msgstr ""
 "To import an atomic structure from a project, click :guilabel:`Jupyter "
 "Lab` from the lower left menu |projectmenuicon| ."
 
-#: ../../usage/jupyter.rst:46
+#: ../../usage/jupyter.rst:56
 msgid "原子構造ファイルがJupyterLabにアップロードされるとともに、JupyterLabのタブが開いて、原子構造をインポートするためのPythonコードが表示されます。表示されたコードをコピーし、JupyterLab上で実行することで、ASEのAtomsオブジェクトが作成されます。"
 msgstr ""
 "The atomic sturecture file is uploaded to JupyterLab, and JupyterLab tab "
@@ -3501,50 +3570,50 @@ msgstr ""
 "atomic structure. Copy the code and execute it on JupyterLab to create "
 "the Atoms object of ASE."
 
-#: ../../usage/jupyter.rst:52
+#: ../../usage/jupyter.rst:62
 msgid "NGLViewは ``pip`` コマンドでインストールできます。"
 msgstr "You can install NGLView by ``pip`` command."
 
-#: ../../usage/jupyter.rst:54
+#: ../../usage/jupyter.rst:64
 msgid "$ pip install nglview"
 msgstr ""
 
-#: ../../usage/jupyter.rst:58
+#: ../../usage/jupyter.rst:68
 msgid "NGLViewによる可視化を実行しようとした時に"
 msgstr "If you see an error like"
 
-#: ../../usage/jupyter.rst:60
+#: ../../usage/jupyter.rst:70
 msgid "AttributeError: 'super' object has no attribute '_ipython_display_'"
 msgstr ""
 
-#: ../../usage/jupyter.rst:64
+#: ../../usage/jupyter.rst:74
 msgid "というエラーが表示される場合、 ``ipywidgets`` のバージョンを指定することで改善する場合があります。"
 msgstr ""
 "when executing visualization by NGLView, it may be resolved by specifying"
 " the version of ``ipywidgets`` ."
 
-#: ../../usage/jupyter.rst:66
+#: ../../usage/jupyter.rst:76
 msgid "$ pip install 'ipywidgets>=7.6.0,<8'"
 msgstr ""
 
-#: ../../usage/jupyter.rst:70
+#: ../../usage/jupyter.rst:80
 msgid "プロジェクトメニューから以外にも、原子構造ビューワーやプロジェクトアイコンの右クリックメニューからJupyterLabにインポートすることができます。"
 msgstr ""
 "Not only from the project menu, but you can also import from the right "
 "click menu of atomic structure viewer or project icon."
 
-#: ../../usage/jupyter.rst:76
+#: ../../usage/jupyter.rst:86
 msgid "例えば、分子描画機能を使って分子を作成した後、原子構造ビューワーの右クリックメニューからすぐにJupyterLabにアップロードすることができます。"
 msgstr ""
 "For example, after making a molecure by Drawing Molecule feature, you can"
 " immediately upload it to JupyterLab from the right click menu of the "
 "atomic structure viewer."
 
-#: ../../usage/jupyter.rst:83
+#: ../../usage/jupyter.rst:93
 msgid "JupyterLab |rarr| NanoLabo"
 msgstr ""
 
-#: ../../usage/jupyter.rst:85
+#: ../../usage/jupyter.rst:95
 msgid ""
 "JupyterLab上で原子構造をファイルに出力します。ファイル形式はNanoLaboが対応しているものにしてください。 "
 ":file:`.POSCAR` 形式で保存する例を示します。"
@@ -3553,13 +3622,13 @@ msgstr ""
 "file format that is supported by NanoLabo. Below is an example of "
 "exporting to :file:`.POSCAR` format."
 
-#: ../../usage/jupyter.rst:87
+#: ../../usage/jupyter.rst:97
 msgid ""
 "from ase.io import write\n"
 "write('export.POSCAR', myAtoms)"
 msgstr ""
 
-#: ../../usage/jupyter.rst:92
+#: ../../usage/jupyter.rst:102
 msgid ""
 "ファイルブラウザ上でファイルの右クリックメニューから :guilabel:`Download` "
 "をクリックすると、ファイルがNanoLaboにダウンロードされ、プレビューのダイアログが表示されます。 :guilabel:`Open` "
@@ -3583,8 +3652,8 @@ msgstr ""
 "This page describes the configuration steps required to use the M3GNet "
 "versatile force field (`original version "
 "<https://github.com/materialsvirtuallab/m3gnet>`_, `MatGL version "
-"<https://github.com/materialsvirtuallab/matgl>`_) + "
-"`Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_ correction in LAMMPS."
+"<https://github.com/materialsvirtuallab/matgl>`_) + `Simple DFT-D3 "
+"<https://dftd3.readthedocs.io/en/latest/>`_ correction in LAMMPS."
 
 #: ../../usage/m3gnet.rst:14
 msgid ""
@@ -3595,15 +3664,16 @@ msgid ""
 msgstr ""
 "The original version of M3GNet was released as a standalone package, but "
 "its successor has been newly released as part of the Materials Graph "
-"Library (MatGL). In LAMMPS modified by AdvanceSoft, if you "
-"use the pretrained model ``MP-2021.2.8-EFS`` included in the original "
-"version, original M3GNet is chosen, while in other cases, MatGL version of M3GNet is chosen to be executed."
+"Library (MatGL). In LAMMPS modified by AdvanceSoft, if you use the "
+"pretrained model ``MP-2021.2.8-EFS`` included in the original version, "
+"original M3GNet is chosen, while in other cases, MatGL version of M3GNet "
+"is chosen to be executed."
 
 #: ../../usage/m3gnet.rst:42
 msgid "MatGL版M3GNetはPyTorchを使って実装されており、GPU版PyTorchを使うことで計算を高速化することができます。"
 msgstr ""
-"The MatGL version of M3GNet is implemented using PyTorch, and by using the "
-"GPU version of PyTorch, calculations can be accelerated."
+"The MatGL version of M3GNet is implemented using PyTorch, and by using "
+"the GPU version of PyTorch, calculations can be accelerated."
 
 #: ../../usage/m3gnet.rst:46
 msgid ""
@@ -3612,10 +3682,11 @@ msgid ""
 "<https://pytorch.org/get-started/previous-versions/>`_ "
 "を参照し、CUDAバージョンに合わせたpipのインストールコマンドを実行してください。"
 msgstr ""
-"First, install the GPU version of PyTorch. If you have the latest version of "
-"CUDA, refer to `Get Started <https://pytorch.org/get-started>`__. If not, "
-"refer to `Previous Versions <https://pytorch.org/get-started/previous-versions/>`_ "
-"and execute the pip installation command corresponding to your CUDA version."
+"First, install the GPU version of PyTorch. If you have the latest version"
+" of CUDA, refer to `Get Started <https://pytorch.org/get-started>`__. If "
+"not, refer to `Previous Versions <https://pytorch.org/get-started"
+"/previous-versions/>`_ and execute the pip installation command "
+"corresponding to your CUDA version."
 
 #: ../../usage/m3gnet.rst:48
 msgid ""
@@ -3624,8 +3695,8 @@ msgid ""
 "を参照し、CUDAバージョンに合わせたpipのインストールコマンドを実行してください。"
 msgstr ""
 "Next, install the GPU version of the Deep Graph Library (DGL). Refer to "
-"`Get Started <https://www.dgl.ai/pages/start.html>`__ and execute the pip "
-"installation command corresponding to your CUDA version."
+"`Get Started <https://www.dgl.ai/pages/start.html>`__ and execute the pip"
+" installation command corresponding to your CUDA version."
 
 #: ../../usage/m3gnet.rst:63
 msgid "m3gnetと、DFT-D3補正に必要なパッケージをインストールします。"
@@ -3648,9 +3719,10 @@ msgstr ""
 #: ../../usage/m3gnet.rst:102
 msgid "これは実行に必要な学習済みのモデルデータが存在しないというメッセージです。m3gnetパッケージにはモデルデータが含まれていないため、初回実行時にダウンロードを試みますが、インターネット接続に問題があると実行できません。"
 msgstr ""
-"This message indicates the absence of the required pretrained model data for execution. "
-"As the m3gnet package does not include model data, on the initial run, it attempts to "
-"download, but if there is an issue with the internet connection, it cannot proceed."
+"This message indicates the absence of the required pretrained model data "
+"for execution. As the m3gnet package does not include model data, on the "
+"initial run, it attempts to download, but if there is an issue with the "
+"internet connection, it cannot proceed."
 
 #: ../../usage/m3gnet.rst:104
 msgid ""
@@ -3659,10 +3731,11 @@ msgid ""
 " 内のファイルをダウンロードし、 :file:`(condaのインストール先)/lib/site-"
 "packages/m3gnet/models/MP-2021.2.8-EFS` に保存してください。"
 msgstr ""
-"As an alternative, you can manually download the model data. Download the files from the "
-"`MP-2021.2.8-EFS folder of the m3gnet repository "
-"<https://github.com/materialsvirtuallab/m3gnet/tree/main/pretrained/MP-2021.2.8-EFS>`_ and "
-"store them to :file:`(conda installation path)/lib/site-packages/m3gnet/models/MP-2021.2.8-EFS`."
+"As an alternative, you can manually download the model data. Download the"
+" files from the `MP-2021.2.8-EFS folder of the m3gnet repository "
+"<https://github.com/materialsvirtuallab/m3gnet/tree/main/pretrained/MP-2021.2.8-EFS>`_"
+" and store them to :file:`(conda installation path)/lib/site-"
+"packages/m3gnet/models/MP-2021.2.8-EFS`."
 
 #: ../../usage/m3gnet.rst:113
 msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_m3gnet` を使用します。MPI並列計算には非対応です。"
@@ -3676,10 +3749,10 @@ msgid ""
 "を呼び出すことで動作しますので、NanoLabo Toolインストール先の :file:`m3gnet` "
 "フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 :envvar:`PYTHONPATH` に追加します。"
 msgstr ""
-"Since LAMMPS calls :file:`m3gnet_driver.py` or :file:`matgl_driver.py` when it works, add "
-":file:`m3gnet` folder in NanoLabo Tool installation destination to the "
-"module search path of Python. Add it to environment variable "
-":envvar:`PYTHONPATH`\\ , for example."
+"Since LAMMPS calls :file:`m3gnet_driver.py` or :file:`matgl_driver.py` "
+"when it works, add :file:`m3gnet` folder in NanoLabo Tool installation "
+"destination to the module search path of Python. Add it to environment "
+"variable :envvar:`PYTHONPATH`\\ , for example."
 
 #: ../../usage/m3gnet.rst:130
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/m3gnet:$PYTHONPATH"
@@ -3720,11 +3793,14 @@ msgid ""
 "M3GNet-MP-2021.2.8-PESまたはM3GNet-MP-2021.2.8-DIRECT-"
 "PESを指定すると、MatGL版M3GNet＋同梱の学習済みモデルを使用"
 msgstr ""
-"specify M3GNet-MP-2021.2.8-PES or M3GNet-MP-2021.2.8-DIRECT-PES to use MatGL version M3GNet + bundled pretrained model"
+"specify M3GNet-MP-2021.2.8-PES or M3GNet-MP-2021.2.8-DIRECT-PES to use "
+"MatGL version M3GNet + bundled pretrained model"
 
 #: ../../usage/m3gnet.rst
 msgid "フォルダパスを指定すると、MatGL版M3GNet＋フォルダに保存されたモデルを使用"
-msgstr "specify folder path to use MatGL version M3GNet + model stored in that folder"
+msgstr ""
+"specify folder path to use MatGL version M3GNet + model stored in that "
+"folder"
 
 #: ../../usage/m3gnet.rst:165
 msgid "次のようなエラーで実行できない場合があります。"
@@ -4220,9 +4296,9 @@ msgstr ""
 msgid ""
 ":guilabel:`Adsorbate Molecule` はあらかじめ用意されたものに加え、左上メニュー |mainmenuicon| から "
 ":menuselection:`Import --> Import Adsorbate molecule` でインポートしたものも使えます。"
-msgstr "" 
-":guilabel:`Adsorbate Molecule` includes predefined ones, and you can"
-" also use those imported from the top-left menu |mainmenuicon| by "
+msgstr ""
+":guilabel:`Adsorbate Molecule` includes predefined ones, and you can also"
+" use those imported from the top-left menu |mainmenuicon| by "
 ":menuselection:`Import --> Import Adsorbate molecule`."
 
 #: ../../usage/modeler.rst:170
@@ -5575,10 +5651,11 @@ msgstr ""
 msgid ""
 "GPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD"
 " Pro版のライセンスが必要）、およびLAMMPSを使ったニューラルネットワーク力場による分子動力学計算です。"
-msgstr "You can achieve faster execution using GPU(s). The supported functions"
-" are the training of neural network force field with Advance/NeuralMD (a license for"
-" the Advance/NeuralMD Pro edition is required) and molecular dynamics"
-" calculations using LAMMPS with a neural network force field."
+msgstr ""
+"You can achieve faster execution using GPU(s). The supported functions "
+"are the training of neural network force field with Advance/NeuralMD (a "
+"license for the Advance/NeuralMD Pro edition is required) and molecular "
+"dynamics calculations using LAMMPS with a neural network force field."
 
 #: ../../usage/slhmc.rst:68
 msgid ""
@@ -5714,14 +5791,13 @@ msgstr "Enter the account information for SSH connection to the server."
 msgid "パスワード認証の場合"
 msgstr "For password authentication"
 
-
 #: ../../usage/sshserver.rst:52
 msgid ""
 ":guilabel:`User Name` にユーザー名、 :guilabel:`Password` にパスワードを入力してください。 "
 ":guilabel:`Private Key` は使用しません。"
 msgstr ""
-"Enter :guilabel:`User Name` and :guilabel:`Password`. :guilabel:`Private Key` is not used."
-
+"Enter :guilabel:`User Name` and :guilabel:`Password`. :guilabel:`Private "
+"Key` is not used."
 
 #: ../../usage/sshserver.rst:54
 msgid "公開鍵認証の場合"
@@ -5733,9 +5809,9 @@ msgid ""
 "をクリックして秘密鍵ファイルを選択してください（ |clear| でクリア）。パスフレーズが設定されている場合は "
 ":guilabel:`Password` に入力してください。"
 msgstr ""
-"Enter :guilabel:`User Name` and select the private key"
-" file by clicking on :guilabel:`Private Key` (clear with |clear|). If a"
-" passphrase is set, enter it in :guilabel:`Password`."
+"Enter :guilabel:`User Name` and select the private key file by clicking "
+"on :guilabel:`Private Key` (clear with |clear|). If a passphrase is set, "
+"enter it in :guilabel:`Password`."
 
 #: ../../usage/sshserver.rst:60
 msgid "clear"
@@ -5965,8 +6041,8 @@ msgid ""
 "お気に入りボタン |favorite| でウェブページのURLを保存します。保存したウェブページはエクスプローラーの "
 ":guilabel:`Web` に一覧表示されます。"
 msgstr ""
-"Save the web page URL with the favorite button |favorite|. Saved pages"
-" are listed on :guilabel:`Web` in the explorer."
+"Save the web page URL with the favorite button |favorite|. Saved pages "
+"are listed on :guilabel:`Web` in the explorer."
 
 #: ../../usage/webbrowser.rst:24
 msgid "favorite"
@@ -5999,7 +6075,9 @@ msgid ""
 "ウェブページ内のテキストを選択し、右クリックメニューの :guilabel:`Search Material` "
 "から、材料データベース検索をすることができます。"
 msgstr ""
-"You can select text within the web page, right-click, and choose :guilabel:`Search Material` from the context menu to search the materials database."
+"You can select text within the web page, right-click, and choose "
+":guilabel:`Search Material` from the context menu to search the materials"
+" database."
 
 #: ../../usage/webbrowser.rst:31
 msgid "構造情報ファイル・擬ポテンシャルファイルのダウンロード"

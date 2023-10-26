@@ -1,10 +1,12 @@
 .. _jupyter:
 
-================================
-Jupyter Interface for NanoLabo
-================================
+====================================================
+Jupyter Interface for NanoLabo / Matlantis連携
+====================================================
 
-JupyterLabは、ブラウザベースのPython実行環境です。Jupyter Interface for NanoLaboを使うことで、Atomic Simulation Environment(ASE)とNanoLaboの間で原子構造を相互にやり取りし、JupyterLab上で原子構造を扱うことができます。
+JupyterLab / Jupyter Notebookは、ブラウザベースのPython実行環境です。Jupyter Interface for NanoLaboを使うことで、Atomic Simulation Environment(ASE)とNanoLaboの間で原子構造を相互にやり取りし、JupyterLab上で原子構造を扱うことができます。
+
+また、Preferred Computational Chemistry社（Preferred NetworksとENEOSの合弁会社）の汎用ニューラルネットワーク力場Matlantis\ |tm|\ は、Jupyter Notebookを使ったクラウドサービスとして提供されています。Jupyter Interface for NanoLaboを使うことで、NanoLabo上で原子構造をモデリングしてMatlantis\ |tm|\ でシミュレーションを行う、あるいはMatlantis\ |tm|\ のシミュレーション結果をNanoLaboで可視化する、といった連携が行えます。
 
 .. note:: 本機能を利用するには、NanoLabo本体とは別にオプションのライセンスが必要です。
 
@@ -15,9 +17,17 @@ JupyterLabは、ブラウザベースのPython実行環境です。Jupyter Inter
 
 画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Jupyter Lab` を開き、設定を行います。
 
-- URL
-- Token
-   JupyterLabに接続するためのURL（例： ``http://localhost:8888/lab`` ）とtokenを設定します。
+- Type of Jupyter Lab
+   Jupyter Interfaceのデフォルトの環境を設定します。Matlantis\ |tm|\ を使用する場合は\ :guilabel:`Matlantis`\ を、それ以外のオンプレミス等のJupyterLab環境を使用する場合は\ :guilabel:`On Premise`\ に設定してください。
+
+- Launching Behavior
+   Jupyter Interface起動時に環境を選択するダイアログを表示します。Matlantis\ |tm|\ とオンプレミス環境を切り替えてどちらも使用するという場合は\ :guilabel:`Ask Type of Jupyter Lab`\ に設定してください。
+
+Matlantis\ |tm|\ を使用するには、最初にログインが必要です。\ :guilabel:`Matlantis`\ タブの\ :guilabel:`Log-in`\ のボタンからログインを行ってください。ログイン後、Jupyter NotebookのURLが\ :guilabel:`URL`\ 欄に設定されます。
+
+オンプレミス環境の場合は、\ :guilabel:`On Premise`\ タブでJupyterLabに接続するための\ :guilabel:`URL`\ （例： ``http://localhost:8888/lab`` ）と\ :guilabel:`Token`\ を設定してください。
+
+以下は各タブ共通の設定です。
 
 - Uploading Path
    NanoLaboからJupyterLabに原子構造をアップロードする際の設定です。JupyterLabのルートディレクトリに対する相対パスを指定してください。
@@ -29,7 +39,7 @@ JupyterLabは、ブラウザベースのPython実行環境です。Jupyter Inter
    ファイルをインポートする際のコードに、NGLViewを使って原子構造を可視化するコードを追加します。
 
 - Drag & Drop
-   JupyterLab画面にドロップしたファイルを直接JupyterLabに渡すか、NanoLaboで処理するかの設定です。
+   画面にドロップしたファイルを直接JupyterLabに渡すか、NanoLaboで処理するかの設定です。
 
 設定が終わったら、画面右上のPythonアイコン |pythonicon| をクリックして、JupyterLabの画面が表示されることを確認してください。
 
@@ -96,3 +106,7 @@ JupyterLab上で原子構造をファイルに出力します。ファイル形�
 .. |rarr| raw:: html
 
    &rarr;
+
+.. |tm| raw:: html
+
+   &trade;
