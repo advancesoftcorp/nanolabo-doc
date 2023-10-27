@@ -176,6 +176,12 @@ Materials Project
 PubChem
  https://pubchem.ncbi.nlm.nih.gov/
 
+Matlantis
+===================
+
+Matlantis\ |tm|\ ホームページ
+ https://matlantis.com/ja/
+
 .. |lsquo| raw:: html
 
    &lsquo;
@@ -183,3 +189,7 @@ PubChem
 .. |rsquo| raw:: html
 
    &rsquo;
+
+.. |tm| raw:: html
+
+   &trade;

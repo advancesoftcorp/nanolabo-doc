@@ -6,7 +6,7 @@ Jupyter Interface for NanoLabo / Matlantis連携
 
 JupyterLab / Jupyter Notebookは、ブラウザベースのPython実行環境です。Jupyter Interface for NanoLaboを使うことで、Atomic Simulation Environment(ASE)とNanoLaboの間で原子構造を相互にやり取りし、JupyterLab上で原子構造を扱うことができます。
 
-また、Preferred Computational Chemistry社（Preferred NetworksとENEOSの合弁会社）の汎用ニューラルネットワーク力場Matlantis\ |tm|\ は、Jupyter Notebookを使ったクラウドサービスとして提供されています。Jupyter Interface for NanoLaboを使うことで、NanoLabo上で原子構造をモデリングしてMatlantis\ |tm|\ でシミュレーションを行う、あるいはMatlantis\ |tm|\ のシミュレーション結果をNanoLaboで可視化する、といった連携が行えます。
+また、Preferred Computational Chemistry社（Preferred NetworksとENEOSの合弁会社）の汎用ニューラルネットワーク力場\ `Matlantis <https://matlantis.com/ja/>`_\ |tm|\ は、Jupyter Notebookを使ったクラウドサービスとして提供されています。Jupyter Interface for NanoLaboを使うことで、NanoLabo上で原子構造をモデリングしてMatlantis\ |tm|\ でシミュレーションを行う、あるいはMatlantis\ |tm|\ のシミュレーション結果をNanoLaboで可視化する、といった連携が行えます。
 
 .. note:: 本機能を利用するには、NanoLabo本体とは別にオプションのライセンスが必要です。
 
