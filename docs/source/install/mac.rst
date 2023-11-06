@@ -77,9 +77,9 @@
        :width: 300 px
        :align: center
 
-#. :guilabel:`Activate Advance/NanoLabo` ダイアログが表示されたら、rootユーザーのパスワードを :guilabel:`Password of Root` 欄に入力し、 :guilabel:`OK` をクリックしてください。パスワードはこの場でのコマンド実行のみに使われ、保存されることはありません。
+#. :guilabel:`Activate Advance/NanoLabo` ダイアログが表示されたら、（管理者ユーザーでログインしている場合）ユーザーアカウントのパスワードを :guilabel:`Password of Root` 欄に入力し、 :guilabel:`OK` をクリックしてください。パスワードはこの場でのコマンド実行のみに使われ、保存されることはありません。
 
-   または、手動でターミナルを開いて :guilabel:`Command` 欄に表示されたコマンドを管理者ユーザーで実行する方法もあります。この場合、:guilabel:`OK` をクリックした後にエラーと表示されますが、成功していれば次回以降の起動ではダイアログが表示されなくなります。
+   または、手動でターミナルを開いて :guilabel:`Command` 欄に表示されたコマンドを管理者ユーザーで実行する方法もあります。rootユーザー以外の場合は ``sudo`` を付けて実行してください。この場合、:guilabel:`OK` をクリックした後にエラーと表示されますが、成功していれば次回以降の起動ではダイアログが表示されなくなります。
 
     .. image:: /img/mac_activate.png
        :width: 300 px
