@@ -47,6 +47,7 @@
    - LAMMPS: バージョンを2Aug2023にアップデート
    - LAMMPS: Scheme編集時にOptionがリセットされる不具合を修正
    - LAMMPS: M3GNetでDFT-D3補正を使わない場合はdftd3のインポートを行わないよう変更
+   - NeuralMD: Ver.1.9.1にアップデート
    - 外部Jarライブラリーを分離して、NanoLaboの起動速度を向上
    - 内蔵ブラウザにシステムのロケールを継承（日本語フォントなどの表示が改善）
    - NanoLaboを複数起動した際の動作改善
