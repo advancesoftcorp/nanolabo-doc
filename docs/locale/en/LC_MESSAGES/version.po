@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-08 15:56+0900\n"
+"POT-Creation-Date: 2023-11-10 15:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "バージョン情報"
 msgstr "Version Information"
 
 #: ../../version.rst:57
-msgid "2023/--/-- バージョン2.9.1"
-msgstr "2023/--/-- Version 2.9.1"
+msgid "2023/11/15 バージョン2.9.1"
+msgstr "2023/11/15 Version 2.9.1"
 
 #: ../../version.rst:8 ../../version.rst:60 ../../version.rst:91
 #: ../../version.rst:117 ../../version.rst:143 ../../version.rst:188
@@ -189,8 +189,8 @@ msgstr ""
 #: ../../version.rst:50
 msgid "LAMMPS: OPLS-AAのパラメータが未定義の一部の系について、代替のパラメータを設定して割り当てエラーを回避"
 msgstr ""
-"LAMMPS: avoid parameter assigning error on some systems that has OPLS-AA parameters undefined by using "
-"alternative parameters"
+"LAMMPS: avoid parameter assigning error on some systems that has OPLS-AA "
+"parameters undefined by using alternative parameters"
 
 #: ../../version.rst:51
 msgid "NeuralMD: Ver.1.9.1にアップデート"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-06 18:16+0900\n"
+"POT-Creation-Date: 2023-11-10 15:14+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,14 +44,14 @@ msgstr ""
 
 #: ../../install/linux.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.9) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1234>`_"
+"`Advance/NanoLabo (ver.2.9.1) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1325>`_"
 msgstr ""
 
 #: ../../install/linux.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.9) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1240>`_"
+"`Advance/NanoLabo Tool (ver.2.9.1) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1328>`_"
 msgstr ""
 
 #: ../../install/linux.rst:20 ../../install/mac.rst:28
@@ -522,19 +522,19 @@ msgstr "Intel ver.: for pre-existing machines, download these 2."
 
 #: ../../install/mac.rst:16
 msgid ""
-"`Advance/NanoLabo (ver.2.9) Intel版 "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1222>`_"
+"`Advance/NanoLabo (ver.2.9.1) Intel版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1312>`_"
 msgstr ""
-"`Advance/NanoLabo (ver.2.9) Intel ver. "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1222>`_"
+"`Advance/NanoLabo (ver.2.9.1) Intel ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1312>`_"
 
 #: ../../install/mac.rst:18
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.9) Intel版 "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1246>`_"
+"`Advance/NanoLabo Tool (ver.2.9.1) Intel版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1334>`_"
 msgstr ""
-"`Advance/NanoLabo Tool (ver.2.9) Intel ver. "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1246>`_"
+"`Advance/NanoLabo Tool (ver.2.9.1) Intel ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1334>`_"
 
 #: ../../install/mac.rst:20
 msgid "ARM版：Apple M1搭載マシンではこちらの2つをダウンロードしてください。"
@@ -542,19 +542,19 @@ msgstr "ARM ver.: for machines with Apple M1, download these 2."
 
 #: ../../install/mac.rst:22
 msgid ""
-"`Advance/NanoLabo (ver.2.9) ARM版 "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1237>`_"
+"`Advance/NanoLabo (ver.2.9.1) ARM版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1313>`_"
 msgstr ""
-"`Advance/NanoLabo (ver.2.9) ARM ver. "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1237>`_"
+"`Advance/NanoLabo (ver.2.9.1) ARM ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1313>`_"
 
 #: ../../install/mac.rst:24
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.9) ARM版 "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1243>`_"
+"`Advance/NanoLabo Tool (ver.2.9.1) ARM版 "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1327>`_"
 msgstr ""
-"`Advance/NanoLabo Tool (ver.2.9) ARM ver. "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1243>`_"
+"`Advance/NanoLabo Tool (ver.2.9.1) ARM ver. "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1327>`_"
 
 #: ../../install/mac.rst:35
 msgid "まず、Advance/NanoLaboのdmgファイルを開きます。マウントが終わるとディスクイメージの内容が表示されますので、NanoLaboアイコンをアプリケーションディレクトリへドラッグ＆ドロップしてください。"
@@ -614,10 +614,11 @@ msgid ""
 "Root` 欄に入力し、 :guilabel:`OK` "
 "をクリックしてください。パスワードはこの場でのコマンド実行のみに使われ、保存されることはありません。"
 msgstr ""
-"When :guilabel:`Activate Advance/NanoLabo` dialog is displayed, (if you have logged in as administrator) enter the"
-" user account password in :guilabel:`Password of Root` box and click "
-":guilabel:`OK`\\ . This password is used only for executing the commands "
-"in place and never be saved."
+"When :guilabel:`Activate Advance/NanoLabo` dialog is displayed, (if you "
+"have logged in as administrator) enter the user account password in "
+":guilabel:`Password of Root` box and click :guilabel:`OK`\\ . This "
+"password is used only for executing the commands in place and never be "
+"saved."
 
 #: ../../install/mac.rst:82
 msgid ""
@@ -627,10 +628,10 @@ msgid ""
 "をクリックした後にエラーと表示されますが、成功していれば次回以降の起動ではダイアログが表示されなくなります。"
 msgstr ""
 "Otherwise, you can manually open the terminal and execute the commands "
-"shown in :guilabel:`Command` box as administrator. For the user other than root user, please prepend ``sudo``"
-" to the command. In this way, an error "
-"is shown when you click :guilabel:`OK` , but the dialog will no longer "
-"appear from the next startup if it is successful."
+"shown in :guilabel:`Command` box as administrator. For the user other "
+"than root user, please prepend ``sudo`` to the command. In this way, an "
+"error is shown when you click :guilabel:`OK` , but the dialog will no "
+"longer appear from the next startup if it is successful."
 
 #: ../../install/mac.rst:107
 msgid "ソフトウェアを起動すると、ライセンス登録を案内する画面が表示されます。"
@@ -1048,14 +1049,14 @@ msgstr "How to Install (Windows)"
 
 #: ../../install/windows.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.9) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1252>`_"
+"`Advance/NanoLabo (ver.2.9.1) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1326>`_"
 msgstr ""
 
 #: ../../install/windows.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.9) "
-"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1249>`_"
+"`Advance/NanoLabo Tool (ver.2.9.1) "
+"<https://www.nanolabo.advancesoft.jp/?wpdmdl=1332>`_"
 msgstr ""
 
 #: ../../install/windows.rst:22
