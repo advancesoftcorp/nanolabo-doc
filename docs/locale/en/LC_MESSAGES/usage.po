@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 12:21+0900\n"
+"POT-Creation-Date: 2023-11-13 15:13+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -763,7 +763,7 @@ msgstr ""
 
 #: ../../usage/calculation.rst:95 ../../usage/grandproject.rst:207
 #: ../../usage/inputeditorlammps.rst:55 ../../usage/slhmc.rst:65
-#: ../../usage/sshserver.rst:89
+#: ../../usage/sshserver.rst:91
 msgid ""
 "GPUドライバを事前にインストールしておく必要があります。CUDA "
 "11.4.4を使用しており、これに対応するドライババージョン470.82.01以上が必要です。"
@@ -1703,7 +1703,7 @@ msgstr "The column can also be removed by |remove| at the top."
 
 #: ../../usage/grandproject.rst:114 ../../usage/inputeditorqe.rst:9
 #: ../../usage/modeler.rst:243 ../../usage/result.rst:76
-#: ../../usage/sshserver.rst:71
+#: ../../usage/sshserver.rst:73
 msgid "remove"
 msgstr ""
 
@@ -3423,12 +3423,13 @@ msgid ""
 "のシミュレーション結果をNanoLaboで可視化する、といった連携が行えます。"
 msgstr ""
 "Additionally, a versatile neural network force field `Matlantis "
-"<https://matlantis.com/ja/>`_\\ |tm|\\ , from Preferred Computational Chemistry "
-"(a joint venture between Preferred Networks and ENEOS), is offered as a cloud "
-"service using Jupyter Notebook. By utilizing the Jupyter Interface for NanoLabo, "
-"you can model atomic structures on NanoLabo and run simulations in "
-"Matlantis\\ |tm|\\ , or visualize the simulation results of Matlantis\\ "
-"|tm|\\ in NanoLabo, enabling collaboration between the two."
+"<https://matlantis.com/ja/>`_\\ |tm|\\ , from Preferred Computational "
+"Chemistry (a joint venture between Preferred Networks and ENEOS), is "
+"offered as a cloud service using Jupyter Notebook. By utilizing the "
+"Jupyter Interface for NanoLabo, you can model atomic structures on "
+"NanoLabo and run simulations in Matlantis\\ |tm|\\ , or visualize the "
+"simulation results of Matlantis\\ |tm|\\ in NanoLabo, enabling "
+"collaboration between the two."
 
 #: ../../usage/jupyter.rst:11
 msgid "本機能を利用するには、NanoLabo本体とは別にオプションのライセンスが必要です。"
@@ -5783,7 +5784,7 @@ msgstr ""
 "machine etc. from the environment where you have to use proxy for the "
 "internet connection."
 
-#: ../../usage/sshserver.rst:56
+#: ../../usage/sshserver.rst:58
 msgid "Account"
 msgstr ""
 
@@ -5817,31 +5818,39 @@ msgstr ""
 "on :guilabel:`Private Key` (clear with |clear|). If a passphrase is set, "
 "enter it in :guilabel:`Password`."
 
-#: ../../usage/sshserver.rst:60
+#: ../../usage/sshserver.rst:62
 msgid "clear"
 msgstr ""
 
 #: ../../usage/sshserver.rst:58
+msgid ""
+"PuTTY形式の秘密鍵ファイル（拡張子 :file:`.ppk` "
+"）はそのままではお使いいただけません。PEM形式またはOpenSSH形式に変換してお使いください。"
+msgstr ""
+"PuTTY format private key file (extension :file:`.ppk` ) cannot be used as-is. "
+"Please convert it to PEM or OpenSSH format before use."
+
+#: ../../usage/sshserver.rst:60
 msgid "設定内容に問題がなければ、タブが白色になります。問題がある場合はその項目が赤色で表示されますので、確認してください。"
 msgstr ""
 "If settings are OK, the tab turns white. In case something is wrong, the "
 "item is displayed in red, so please check it."
 
-#: ../../usage/sshserver.rst:63
+#: ../../usage/sshserver.rst:65
 msgid "Jobタブの設定"
 msgstr "Job settings"
 
-#: ../../usage/sshserver.rst:65
+#: ../../usage/sshserver.rst:67
 msgid "次に、 :guilabel:`Job` タブでサーバーへのジョブ投入に関する設定を行います。"
 msgstr ""
 "Next, in :guilabel:`Job` tab, configure settings related to job posting "
 "to the server."
 
-#: ../../usage/sshserver.rst:69
+#: ../../usage/sshserver.rst:71
 msgid "Job Queue"
 msgstr ""
 
-#: ../../usage/sshserver.rst:68
+#: ../../usage/sshserver.rst:70
 msgid ""
 "キューの名前のリストです。 |add| ボタンで追加、 |remove| ボタンで削除します。 "
 "ジョブ管理システムを使わずに実行する場合でも、適当な名前のキューを作成してください。"
@@ -5849,28 +5858,28 @@ msgstr ""
 "List of the names of the queues. Click |add| ( |remove| ) to add (remove)"
 " item. Even if you do not use job manager, add a queue with some name."
 
-#: ../../usage/sshserver.rst:73
+#: ../../usage/sshserver.rst:75
 msgid "Job Posting Command"
 msgstr ""
 
-#: ../../usage/sshserver.rst:79
+#: ../../usage/sshserver.rst:81
 msgid "Job Script"
 msgstr ""
 
-#: ../../usage/sshserver.rst:75
+#: ../../usage/sshserver.rst:77
 msgid "キューごとに、ジョブ投入用のコマンドとジョブスクリプトを設定します。ジョブ管理システムに応じたデフォルトの内容がキュー追加時に設定されます。必要に応じて編集してください。"
 msgstr ""
 "Set the command to post a job and the job script for each queue. Default "
 "values tailored for the job manager are set when you add a queue. Edit "
 "them if you need."
 
-#: ../../usage/sshserver.rst:79
+#: ../../usage/sshserver.rst:81
 msgid "実際に実行されるスクリプトの内容は、ジョブ投入時に表示されるウィンドウでご確認ください。"
 msgstr ""
 "The actual content of the script to be executed is shown when you post a "
 "job."
 
-#: ../../usage/sshserver.rst:81
+#: ../../usage/sshserver.rst:83
 msgid ""
 "また、サーバーにGPUが搭載されている場合、ニューラルネットワーク力場関連の計算をGPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD"
 " Pro版のライセンスが必要）、およびLAMMPSを使ったニューラルネットワーク力場による分子動力学計算です。設定画面右側の "
@@ -5885,7 +5894,7 @@ msgstr ""
 "right side of setting window and enable :guilabel:`GPU for "
 "Advance/NeuralMD` to use GPU."
 
-#: ../../usage/sshserver.rst:83
+#: ../../usage/sshserver.rst:85
 msgid ""
 "複数のGPUが搭載されている場合、デフォルトではデバイスID0のGPUのみを使いますが、MPI並列と併用して各プロセスごとに使用するGPUを指定すると、より効率的にGPUを使うことができます。"
 " |add| "
@@ -5901,67 +5910,67 @@ msgstr ""
 "sure to match the number of rows with the number of MPI parallel "
 "(processes) specified in :guilabel:`Job Posting` tab."
 
-#: ../../usage/sshserver.rst:85
+#: ../../usage/sshserver.rst:87
 msgid "なお、各GPUに割り当てられたデバイスIDは、サーバー上で ``nvidia-smi -L`` を実行して確認できます。"
 msgstr ""
 "For your information, you can check the device ID assigned to each GPU by"
 " executing ``nvidia-smi -L`` on the server."
 
-#: ../../usage/sshserver.rst:91
+#: ../../usage/sshserver.rst:93
 msgid "例えば、グラフィックカードが2つ搭載されているマシンで、MPI4並列で実行し、2プロセスをデバイスID0のGPU、2プロセスをデバイスID1のGPUに割り当てる場合は次のように設定します。"
 msgstr ""
 "For example, on a machine with 2 graphic cards, to execute with 4 MPI "
 "parallel processes, with allocating 2 processes to device ID0 GPU and 2 "
 "to device ID1 GPU, you can set it as follows."
 
-#: ../../usage/sshserver.rst:96
+#: ../../usage/sshserver.rst:98
 msgid "Speedタブの設定"
 msgstr "Speed settings"
 
-#: ../../usage/sshserver.rst:98
+#: ../../usage/sshserver.rst:100
 msgid ":guilabel:`Speed` タブでは、サーバーからの情報取得・ファイルダウンロードの間隔、同時接続数を設定できます。"
 msgstr ""
 "In :guilabel:`Speed` tab, you can configure the intervals of retrieving "
 "informations / downloading files from the server, and the number of "
 "simultaneous accesses."
 
-#: ../../usage/sshserver.rst:100
+#: ../../usage/sshserver.rst:102
 msgid "サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` 側に動かすことで頻度を下げることができます。"
 msgstr ""
 "If frequent access is undesirable, move the sliders to :guilabel:`Slow` "
 "side to lower the frequency."
 
-#: ../../usage/sshserver.rst:102
+#: ../../usage/sshserver.rst:104
 msgid ":guilabel:`Connection Style` で、低速ネットワーク用の設定ができます。"
 msgstr ":guilabel:`Connection Style` is settings for the low bandwidth network."
 
-#: ../../usage/sshserver.rst:105
+#: ../../usage/sshserver.rst:107
 msgid "Online Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:105
+#: ../../usage/sshserver.rst:107
 msgid "常時オフラインモードに設定すると、リアルタイムでの結果取得（ファイルのダウンロード）を行いません。"
 msgstr ""
 "if set to Always OFFLINE mode, the result is not fetched (files are not "
 "downloaded) in real time."
 
-#: ../../usage/sshserver.rst:108
+#: ../../usage/sshserver.rst:110
 msgid "Download Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:108
+#: ../../usage/sshserver.rst:110
 msgid "容量の大きいバイナリファイルなどを除外し、テキストファイルのみダウンロードするよう設定できます。"
 msgstr "can be set to download Only Text Files, excluding large binary files etc."
 
-#: ../../usage/sshserver.rst:111
+#: ../../usage/sshserver.rst:113
 msgid "Download Time"
 msgstr ""
 
-#: ../../usage/sshserver.rst:111
+#: ../../usage/sshserver.rst:113
 msgid "常時オフラインモードの際に、ファイルを一括ダウンロードする間隔（分単位）を設定します。"
 msgstr "interval (minute) of batch download while in Always OFFLINE mode."
 
-#: ../../usage/sshserver.rst:113
+#: ../../usage/sshserver.rst:115
 msgid ""
 "SLHMC（力場自動生成）のデータ（slhmc_datフォルダ内の各計算エンジンの出力）のダウンロード有無は、 "
 ":menuselection:`メインメニュー --> Properties --> Advance/NeuralMD` "
@@ -5972,17 +5981,17 @@ msgstr ""
 "folder) or not from :menuselection:`main menu --> Properties --> "
 "Advance/NeuralMD` . The download is not performed by default."
 
-#: ../../usage/sshserver.rst:116
+#: ../../usage/sshserver.rst:118
 msgid "接続テスト"
 msgstr "Connection test"
 
-#: ../../usage/sshserver.rst:118
+#: ../../usage/sshserver.rst:120
 msgid "設定が完了したら、 :guilabel:`Test` タブでサーバーへの接続テストを行い、設定に問題がないか確認することができます。"
 msgstr ""
 "Once settings are done, you can perform connection test to the server in "
 ":guilabel:`Test` tab to check if the setting are correct."
 
-#: ../../usage/sshserver.rst:120
+#: ../../usage/sshserver.rst:122
 msgid ""
 ":guilabel:`Start to Test Connection` をクリックすると、自動的にテストを行います。 ``TEST OF "
 "CONNECTION IS SUCCEEDED`` と表示されればテストは成功です。接続に失敗した場合は ``ERROR HAS OCCURRED"
@@ -5993,17 +6002,17 @@ msgstr ""
 "SUCCEEDED`` or ``ERROR HAS OCCURRED IN TESTING CONNECTION`` . In latter "
 "case, please re-check the settings."
 
-#: ../../usage/sshserver.rst:123
+#: ../../usage/sshserver.rst:125
 msgid "サーバーの編集・削除"
 msgstr "Edit / remove server"
 
-#: ../../usage/sshserver.rst:125
+#: ../../usage/sshserver.rst:127
 msgid "各タブで設定した内容は、サーバーごとに保存されます。リストから既に保存されているサーバーを選択すると、その設定内容を編集できます。"
 msgstr ""
 "Settings in the tabs are saved server by server. Select previously saved "
 "server from the list to edit the settings of it."
 
-#: ../../usage/sshserver.rst:127
+#: ../../usage/sshserver.rst:129
 msgid "サーバーを削除するには、:guilabel:`SSH Configuration` の右側の |remove| ボタンをクリックしてください。"
 msgstr ""
 "To remove a server, click |remove| button on the right of :guilabel:`SSH "

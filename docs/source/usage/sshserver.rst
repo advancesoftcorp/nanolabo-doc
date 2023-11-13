@@ -55,6 +55,8 @@ Serverタブの設定
 
       :guilabel:`User Name` にユーザー名を入力し、 :guilabel:`Private Key` をクリックして秘密鍵ファイルを選択してください（ |clear| でクリア）。パスフレーズが設定されている場合は :guilabel:`Password` に入力してください。
 
+      .. hint:: PuTTY形式の秘密鍵ファイル（拡張子 :file:`.ppk` ）はそのままではお使いいただけません。PEM形式またはOpenSSH形式に変換してお使いください。
+
 設定内容に問題がなければ、タブが白色になります。問題がある場合はその項目が赤色で表示されますので、確認してください。
 
 .. |clear| image:: /img/clear.png
