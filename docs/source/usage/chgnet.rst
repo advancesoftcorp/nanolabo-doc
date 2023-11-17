@@ -85,6 +85,20 @@ NanoLaboへの設定
 .. |mainmenuicon| image:: /img/mainmenuicon.png
 .. |gearicon| image:: /img/gear.png
 
+.. hint::
+
+ WindowsでGPUを使った場合、次のようなエラーで実行できない場合があります。
+
+ .. code-block:: none
+
+  FileNotFoundError: Could not find module 'C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll' (or one of its dependencies). Try using the full path with constructor syntax.
+
+ .. code-block:: none
+
+  pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found
+
+ この場合、 :file:`C:\\Windows\\System32\\nvml.dll` を :file:`C:\\Program Files\\NVIDIA Corporation\\NVSMI\\nvml.dll` にコピー（フォルダがない場合は作成）してから実行してみてください。
+
 .. _chgnetlammps:
 
 LAMMPSを直接実行する場合

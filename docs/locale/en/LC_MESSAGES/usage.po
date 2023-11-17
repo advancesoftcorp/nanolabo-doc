@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-13 15:13+0900\n"
+"POT-Creation-Date: 2023-11-17 15:59+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -995,21 +995,49 @@ msgstr ""
 "export LD_LIBRARY_PATH=(conda installation "
 "destination)/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/chgnet.rst:91 ../../usage/m3gnet.rst:109 ../../usage/ocp.rst:188
+#: ../../usage/chgnet.rst:90
+msgid "WindowsでGPUを使った場合、次のようなエラーで実行できない場合があります。"
+msgstr "When using GPU on Windows, following errors may prevent the execution."
+
+#: ../../usage/chgnet.rst:92
+msgid ""
+"FileNotFoundError: Could not find module 'C:\\Program Files\\NVIDIA "
+"Corporation\\NVSMI\\nvml.dll' (or one of its dependencies). Try using the"
+" full path with constructor syntax."
+msgstr ""
+
+#: ../../usage/chgnet.rst:96
+msgid "pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found"
+msgstr ""
+
+#: ../../usage/chgnet.rst:100
+msgid ""
+"この場合、 :file:`C:\\\\Windows\\\\System32\\\\nvml.dll` を "
+":file:`C:\\\\Program Files\\\\NVIDIA Corporation\\\\NVSMI\\\\nvml.dll` "
+"にコピー（フォルダがない場合は作成）してから実行してみてください。"
+msgstr ""
+"In this case, please try copying :file:`C:\\\\Windows\\\\System32\\\\nvml.dll` to "
+":file:`C:\\\\Program Files\\\\NVIDIA Corporation\\\\NVSMI\\\\nvml.dll` (create the "
+"folder if not exist) and execute it again."
+
+#: ../../usage/chgnet.rst:105 ../../usage/m3gnet.rst:109
+#: ../../usage/ocp.rst:188
 msgid "LAMMPSを直接実行する場合"
 msgstr "Using LAMMPS directly"
 
-#: ../../usage/chgnet.rst:93 ../../usage/m3gnet.rst:111 ../../usage/ocp.rst:190
+#: ../../usage/chgnet.rst:107 ../../usage/m3gnet.rst:111
+#: ../../usage/ocp.rst:190
 msgid "NanoLaboを使わず、LAMMPS単体で実行する場合の説明です。"
 msgstr "This description is for running LAMMPS standalone, without using NanoLabo."
 
-#: ../../usage/chgnet.rst:95
+#: ../../usage/chgnet.rst:109
 msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_chgnet` を使用します。MPI並列計算には非対応です。"
 msgstr ""
 "Use the executable file :file:`lammps_chgnet` included in NanoLabo Tool. "
 "MPI parallel execution is not supported."
 
-#: ../../usage/chgnet.rst:97 ../../usage/m3gnet.rst:115 ../../usage/ocp.rst:194
+#: ../../usage/chgnet.rst:111 ../../usage/m3gnet.rst:115
+#: ../../usage/ocp.rst:194
 msgid ""
 "Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` "
 "を設定してください。"
@@ -1017,28 +1045,28 @@ msgstr ""
 "On Linux/macOS, set the environment variable :envvar:`LD_LIBRARY_PATH` , "
 "so the program can use Python dynamic library when executed."
 
-#: ../../usage/chgnet.rst:99 ../../usage/m3gnet.rst:117
+#: ../../usage/chgnet.rst:113 ../../usage/m3gnet.rst:117
 msgid "$ export LD_LIBRARY_PATH=(condaのインストール先)/lib:$LD_LIBRARY_PATH"
 msgstr ""
 "$ export LD_LIBRARY_PATH=(conda installation "
 "destination)/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/chgnet.rst:103 ../../usage/m3gnet.rst:121
+#: ../../usage/chgnet.rst:117 ../../usage/m3gnet.rst:121
 #: ../../usage/ocp.rst:200
 msgid "また、Linuxでは環境変数 :envvar:`OPAL_PREFIX` を設定してください。"
 msgstr "Also, on Linux, set the environment variable :envvar:`OPAL_PREFIX` ."
 
-#: ../../usage/chgnet.rst:105 ../../usage/m3gnet.rst:123
+#: ../../usage/chgnet.rst:119 ../../usage/m3gnet.rst:123
 #: ../../usage/ocp.rst:202
 msgid "デフォルトの場所にインストールした場合の例"
 msgstr "in case installed in default location"
 
-#: ../../usage/chgnet.rst:105 ../../usage/m3gnet.rst:123
+#: ../../usage/chgnet.rst:119 ../../usage/m3gnet.rst:123
 #: ../../usage/ocp.rst:202
 msgid "$ export OPAL_PREFIX=/opt/AdvanceSoft/NanoLabo/exec.LINUX/mpi"
 msgstr ""
 
-#: ../../usage/chgnet.rst:110
+#: ../../usage/chgnet.rst:124
 msgid ""
 "LAMMPSから :file:`chgnet_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の "
 ":file:`chgnet` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 "
@@ -1049,27 +1077,27 @@ msgstr ""
 "module search path of Python. Add it to environment variable "
 ":envvar:`PYTHONPATH`\\ , for example."
 
-#: ../../usage/chgnet.rst:112 ../../usage/m3gnet.rst:130
+#: ../../usage/chgnet.rst:126 ../../usage/m3gnet.rst:130
 #: ../../usage/ocp.rst:209
 msgid "Linuxの例"
 msgstr "Linux example"
 
-#: ../../usage/chgnet.rst:112
+#: ../../usage/chgnet.rst:126
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/chgnet:$PYTHONPATH"
 msgstr ""
 "$ export PYTHONPATH=(NanoLabo Tool installation "
 "destination)/chgnet:$PYTHONPATH"
 
-#: ../../usage/chgnet.rst:117 ../../usage/m3gnet.rst:135
+#: ../../usage/chgnet.rst:131 ../../usage/m3gnet.rst:135
 #: ../../usage/ocp.rst:214
 msgid "LAMMPSの入力ファイル中で、以下のように\\ ``pair_style``\\ を設定します。"
 msgstr "Set ``pair_style`` as below in the LAMMPS input file."
 
-#: ../../usage/chgnet.rst:119 ../../usage/inputeditorlammps.rst:90
+#: ../../usage/chgnet.rst:133 ../../usage/inputeditorlammps.rst:90
 msgid "CHGNet"
 msgstr ""
 
-#: ../../usage/chgnet.rst:119
+#: ../../usage/chgnet.rst:133
 msgid ""
 "pair_style chgnet\n"
 "pair_coeff * * <modelname> <元素名1 元素名2 ...>        # モデル名を指定する例"
@@ -1078,11 +1106,11 @@ msgstr ""
 "pair_coeff * * <modelname> <element1 element2 ...>       # Example "
 "specifying model name"
 
-#: ../../usage/chgnet.rst:125
+#: ../../usage/chgnet.rst:139
 msgid "CHGNet + DFT-D3による補正"
 msgstr "CHGNet + DFT-D3 correction"
 
-#: ../../usage/chgnet.rst:125
+#: ../../usage/chgnet.rst:139
 msgid ""
 "pair_style chgnet/d3\n"
 "pair_coeff * * path <modelfile> <元素名1 元素名2 ...>   # モデルファイルを指定する例"
@@ -1091,11 +1119,11 @@ msgstr ""
 "pair_coeff * * path <modelfile> <element1 element2 ...>  # Example "
 "specifying model file"
 
-#: ../../usage/chgnet.rst:131
+#: ../../usage/chgnet.rst:145
 msgid "CHGNet、GPU使用"
 msgstr "CHGNet, using GPU"
 
-#: ../../usage/chgnet.rst:131
+#: ../../usage/chgnet.rst:145
 msgid ""
 "pair_style chgnet/gpu\n"
 "pair_coeff * * <modelname> <元素名1 元素名2 ...>"
@@ -1103,11 +1131,11 @@ msgstr ""
 "pair_style chgnet/gpu\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/chgnet.rst:137
+#: ../../usage/chgnet.rst:151
 msgid "CHGNet + DFT-D3による補正、GPU使用"
 msgstr "CHGNet + DFT-D3 correction, using GPU"
 
-#: ../../usage/chgnet.rst:137
+#: ../../usage/chgnet.rst:151
 msgid ""
 "pair_style chgnet/d3/gpu\n"
 "pair_coeff * * <modelname> <元素名1 元素名2 ...>"
@@ -1115,7 +1143,7 @@ msgstr ""
 "pair_style chgnet/d3/gpu\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/chgnet.rst:143 ../../usage/m3gnet.rst:149
+#: ../../usage/chgnet.rst:157 ../../usage/m3gnet.rst:149
 #: ../../usage/ocp.rst:228
 msgid "パラメーター"
 msgstr "Parameter"
@@ -1140,12 +1168,12 @@ msgstr "Specify \"MPtrj-efsm\" to use the bundled pretrained model"
 msgid "pathに続けてファイルパスを指定すると、ファイルに保存されたモデルを使用"
 msgstr "Specify a file path after \"path\" to use the model saved in that file"
 
-#: ../../usage/chgnet.rst:153 ../../usage/m3gnet.rst:160
+#: ../../usage/chgnet.rst:167 ../../usage/m3gnet.rst:160
 #: ../../usage/ocp.rst:238
 msgid "元素名"
 msgstr "element"
 
-#: ../../usage/chgnet.rst:153 ../../usage/m3gnet.rst:160
+#: ../../usage/chgnet.rst:167 ../../usage/m3gnet.rst:160
 #: ../../usage/ocp.rst:238
 msgid "LAMMPSのatom type毎に、対応する元素名を列挙"
 msgstr "list element names in the same order as atom types of LAMMPS"
@@ -5827,8 +5855,8 @@ msgid ""
 "PuTTY形式の秘密鍵ファイル（拡張子 :file:`.ppk` "
 "）はそのままではお使いいただけません。PEM形式またはOpenSSH形式に変換してお使いください。"
 msgstr ""
-"PuTTY format private key file (extension :file:`.ppk` ) cannot be used as-is. "
-"Please convert it to PEM or OpenSSH format before use."
+"PuTTY format private key file (extension :file:`.ppk` ) cannot be used "
+"as-is. Please convert it to PEM or OpenSSH format before use."
 
 #: ../../usage/sshserver.rst:60
 msgid "設定内容に問題がなければ、タブが白色になります。問題がある場合はその項目が赤色で表示されますので、確認してください。"
