@@ -977,7 +977,7 @@ msgid ""
 "の場合は、デフォルトで追加される :envvar:`LD_LIBRARY_PATH` で動作しますので、設定は必要ありません。"
 msgstr ""
 "In case conda is installed in :file:`~/anaconda3` or "
-":file:`~/miniconda3`\\ , it works with autmatically added "
+":file:`~/miniconda3`\\ , it works with automatically added "
 ":envvar:`LD_LIBRARY_PATH`\\ , therefore no configuration is needed."
 
 #: ../../usage/chgnet.rst:79 ../../usage/m3gnet.rst:85 ../../usage/ocp.rst:176

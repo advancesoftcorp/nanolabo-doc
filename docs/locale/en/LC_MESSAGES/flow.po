@@ -24,7 +24,7 @@ msgstr "Usage Outline"
 
 #: ../../flow.rst:10
 msgid "解析したい物質を決めます。"
-msgstr "Decide a substance you'd like to analyze."
+msgstr "Decide a substance you want to analyze."
 
 #: ../../flow.rst:10
 msgid "\\"
@@ -44,8 +44,8 @@ msgstr ""
 "Search external materials databases (\\ `Materials Project "
 "<https://materialsproject.org/>`_\\ , `PubChem "
 "<https://pubchem.ncbi.nlm.nih.gov/>`_\\ ) by substance name or chemical "
-"formula from the search box at the top of the window. Also, you can "
-"import the files you have, or modify the atomic structure (Modeling)."
+"formula from the search box at the top of the window. Additionally, you can "
+"import your own files or modify the atomic structure through the modeling function."
 
 #: ../../flow.rst:15
 msgid "(\\ |rarr|\\ :doc:`usage/initial` |rarr|\\ :doc:`usage/explorer`)"
@@ -54,14 +54,14 @@ msgstr ""
 #: ../../flow.rst:20
 msgid "解析の方法（計算エンジン）を選び、設定を行います。"
 msgstr ""
-"Select the analysis method (calculation engine) and configure the "
+"Choose the analysis method (calculation engine) and configure the "
 "calculation."
 
 #: ../../flow.rst:18
 msgid "計算条件などを指定する入力ファイルをGUI上で作成できます。"
 msgstr ""
-"You can create the input files on GUI to specify the calculation "
-"conditions etc."
+"Use the GUI to create input files, specifying the calculation "
+"conditions and other parameters as needed."
 
 #: ../../flow.rst:20
 msgid "(\\ |rarr|\\ :doc:`usage/project` |rarr|\\ :doc:`usage/inputeditor`)"
@@ -77,11 +77,11 @@ msgstr "(\\ |rarr|\\ :doc:`usage/calculation`)"
 
 #: ../../flow.rst:28
 msgid "結果を確認します。"
-msgstr "Check the result."
+msgstr "Review the result."
 
 #: ../../flow.rst:26
 msgid "画像や動画として結果を可視化し、ご活用ください。"
-msgstr "Visualize the results as images or movies, and then utilize them."
+msgstr "Visualize the data in the form of images or videos and utilize them as you want."
 
 #: ../../flow.rst:28
 msgid "(\\ |rarr|\\ :doc:`usage/result`)"

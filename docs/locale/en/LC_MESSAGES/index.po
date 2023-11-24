@@ -24,7 +24,7 @@ msgstr "Index:"
 
 #: ../../index.rst:8
 msgid "ナノ材料解析統合GUI Advance/NanoLabo"
-msgstr "Integrated Nano Material Analysis GUI Advance/NanoLabo"
+msgstr "Integrated Nanomaterial Analysis GUI Advance/NanoLabo"
 
 #: ../../index.rst:10
 msgid ""
@@ -36,19 +36,19 @@ msgid ""
 "などの材料データベースを検索し、モデリング・計算条件設定が極めて容易に行えます。計算実行後は、結果を瞬時にグラフィック表示できます。"
 msgstr ""
 "An integrated GUI that supports `Advance/PHASE "
-"<https://www.advancesoft.jp/products/nano/advance-phase/>`_ (our product) and "
-"open source nano material analysis softwares as `Quantum ESPRESSO "
+"<https://www.advancesoft.jp/products/nano/advance-phase/>`_ (our product) "
+"as well as open-source nanomaterial analysis software such as `Quantum ESPRESSO "
 "<https://www.quantum-espresso.org/>`_ and `LAMMPS "
-"<https://www.lammps.org/>`_\\ . You can search materials databases as "
-"`Materials Project <https://materialsproject.org/>`_\\ , perform modeling"
-" and configure calculation conditions very easily. After the calculation,"
-" you can immediately visualize and check the results."
+"<https://www.lammps.org/>`_\\ . You can search materials databases like "
+"`Materials Project <https://materialsproject.org/>`_\\ , perform modeling,"
+" and configure calculation conditions with ease. After the calculation,"
+" you can instantly visualize and review the results."
 
 #: ../../index.rst:12
 msgid "本サイトはオンラインマニュアルです。製品ホームページは |nanolabologo|_ へどうぞ。"
 msgstr ""
-"This site is the online manual. Please navigate to |nanolabologoen|_ for "
-"the product home page."
+"This site serves as the online manual. Please navigate to |nanolabologoen|_ for "
+"the product's homepage."
 
 #: ../../index.rst:14
 msgid "nanolabologo"
@@ -63,6 +63,6 @@ msgid ""
 "初めて使用される場合は、\\ :doc:`インストール<install>`\\ を行った後、\\ :doc:`使用の流れ<flow>`\\ "
 "をご確認ください。"
 msgstr ""
-"For the first time users: see :doc:`Usage Outline<flow>` after the "
+"For the first time users: refer to :doc:`the Usage Outline<flow>` after "
 ":doc:`Installation <install>`\\ ."
 

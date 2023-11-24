@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../../link.rst:14
 msgid "Advance/NanoLaboホームページ"
-msgstr "Advance/NanoLabo home page"
+msgstr "Advance/NanoLabo homepage"
 
 #: ../../link.rst:14
 msgid "https://www.nanolabo.advancesoft.jp/"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../link.rst:26
 msgid "Advance/NeuralMDホームページ"
-msgstr "Advance/NeuralMD home page"
+msgstr "Advance/NeuralMD homepage"
 
 #: ../../link.rst:26
 msgid "https://www.nanolabo.advancesoft.jp/neuralmd/"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../../link.rst:41
 msgid "Advance/PHASEホームページ"
-msgstr "Advance/PHASE home page"
+msgstr "Advance/PHASE homepage"
 
 #: ../../link.rst:41
 msgid "https://www.advancesoft.jp/products/nano/advance-phase/"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../link.rst:47
 msgid "Quantum ESPRESSO ホームページ"
-msgstr "Quantum ESPRESSO home page"
+msgstr "Quantum ESPRESSO homepage"
 
 #: ../../link.rst:47
 msgid "https://www.quantum-espresso.org/"
@@ -252,7 +252,7 @@ msgstr ""
 
 #: ../../link.rst:103
 msgid "LAMMPSホームページ"
-msgstr "LAMMPS home page"
+msgstr "LAMMPS homepage"
 
 #: ../../link.rst:103
 msgid "https://www.lammps.org/"
@@ -276,7 +276,7 @@ msgstr ""
 
 #: ../../link.rst:115
 msgid "Open Catalyst Projectホームページ"
-msgstr "Open Catalyst Project home page"
+msgstr "Open Catalyst Project homepage"
 
 #: ../../link.rst:115
 msgid "https://opencatalystproject.org/"
@@ -401,7 +401,7 @@ msgstr ""
 
 #: ../../link.rst:183
 msgid "Matlantis\\ |tm|\\ ホームページ"
-msgstr "Matlantis\\ |tm| home page"
+msgstr "Matlantis\\ |tm| homepage"
 
 #: ../../link.rst:183
 msgid "https://matlantis.com/ja/"

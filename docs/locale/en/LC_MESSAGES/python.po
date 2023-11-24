@@ -25,9 +25,9 @@ msgstr ""
 #: ../../python.rst:7
 msgid "Advance/NanoLaboには外部のプログラムから操作するためのインターフェースが備わっています。同梱のモジュールをインポートすることで、PythonからNanoLaboを操作する関数が使えるようになります。"
 msgstr ""
-"Advance/NanoLabo has the interface to allow operation from external "
-"programs. By importing included Python module, you can use functions to "
-"operate NanoLabo from Python."
+"Advance/NanoLabo provides an interface that allows it to be operated from external "
+"programs. By importing the included Python module, you can utilize functions to "
+"control NanoLabo directory from Python."
 
 #: ../../python.rst:10
 msgid "準備"
@@ -38,9 +38,8 @@ msgid ""
 "Python 2系またはPython 3系の実行環境でお使いいただけます。 Pythonのセットアップ・実行方法については、\\ "
 "`Pythonのドキュメント <https://docs.python.org/ja>`_\\ を参照してください。"
 msgstr ""
-"Python 2 series and Python 3 series environments are supported. Please "
-"refer to `Python documentation <https://docs.python.org/>`_ for Python "
-"setup and usage."
+"Both Python 2.x and Python 3.x environments are supported. For setting up "
+"and using Python, please consult the `Python documentation <https://docs.python.org/>`_ ."
 
 #: ../../python.rst:15
 msgid "Windowsでの使用には、pywin32モジュールが必要です。\\ ``pip``\\ を使ってインストールするには、以下のコマンドを実行します。"
@@ -60,11 +59,11 @@ msgid ""
 "フォルダにあります。必要に応じて好きな場所にコピーし、お使いください。これをインポートすることで、モジュール名 ``nanolabo`` "
 "を使って関数にアクセスできるようになります。"
 msgstr ""
-"Module file :file:`nanolabo.py` is stored in :file:`python` folder in "
-"NanoLabo installation destination on Windows / Linux, or in "
-":file:`/Library/Application Support/AdvanceSoft/NanoLabo/python` folder "
-"on macOS. Please copy the file to any place you like.  By importing it, "
-"you can access the functions with module name ``nanolabo`` ."
+"The module file :file:`nanolabo.py` can be found in the :file:`python` folder within "
+"the NanoLabo installation folder on Windows / Linux. For macOS users, it is located in "
+":file:`/Library/Application Support/AdvanceSoft/NanoLabo/python` . "
+"You can copy this file to a location of your choice. Once imported, "
+"you can access the functions using the module name ``nanolabo`` ."
 
 #: ../../python.rst:23
 msgid ">>> import nanolabo"
@@ -72,7 +71,7 @@ msgstr ""
 
 #: ../../python.rst:27
 msgid "モジュールのヘルプは、以下のように組込み関数を使って参照できます。"
-msgstr "You can see the module help by using built-in functions as follows:"
+msgstr "You can view the module help by using built-in functions as follows:"
 
 #: ../../python.rst:29
 msgid ""
@@ -87,9 +86,9 @@ msgstr ""
 #: ../../python.rst:37
 msgid "操作するNanoLaboをあらかじめ起動しておいてください。複数のNanoLaboが起動している場合、最初に起動したNanoLaboのみがPythonからの操作を受け付けます。"
 msgstr ""
-"Launch target NanoLabo before starting operation. If there are multiple "
-"NanoLabo's launched, one launched at first will accept the operation from"
-" Python."
+"Before starting any operation, ensure that the target NanoLabo is launched. If multiple "
+"instance of NanoLabo are running, the one launched first will the one that accepts operations from "
+"Python."
 
 #: ../../python.rst:40
 msgid "関数一覧"
@@ -117,8 +116,8 @@ msgstr "Parameter"
 #: ../../python.rst:378 ../../python.rst:391 ../../python.rst:405
 msgid "プロジェクトをフォルダの絶対パスで指定します。デフォルトの保存先にあるプロジェクトは、プロジェクト名だけで指定できます。"
 msgstr ""
-"Specify the project by absolute path of the folder. Project stored in the"
-" default location can be specified just by the project name."
+"Designate the project using the absolute path of the folder. If the project is stored in the "
+"default location, you can simply specify it by the project name."
 
 #: ../../python.rst:51 ../../python.rst:64 ../../python.rst:78
 #: ../../python.rst:92 ../../python.rst:106 ../../python.rst:120
@@ -163,10 +162,10 @@ msgstr "Save a project."
 #: ../../python.rst:76
 msgid "プロジェクトの保存先をフォルダの絶対パスで指定します。デフォルトの保存先に保存する場合は、プロジェクト名だけで指定できます。指定したフォルダが既に存在する場合は保存しません。省略した場合は、pathで指定したプロジェクトを上書き保存します。"
 msgstr ""
-"Specify the save destination of the project by absolute path of the "
-"folder. To save it in the default location, just specify the project "
-"name. If specified folder already exists, the project is not saved. If "
-"not passed, overwrite the project specified by path."
+"Designate the save destination for the project using the absolute path of the "
+"folder. If you wish to save it in the default location, just provide the project "
+"name. However, if the specified folder already exists, the project will not be saved. If "
+"no path is provided, the software will overwrite the project specified by path."
 
 #: ../../python.rst:78
 msgid ""
@@ -199,8 +198,8 @@ msgstr ""
 #: ../../python.rst:99
 msgid "計算を実行します。リモートサーバーにジョブを投入する場合は、事前に\\ :doc:`usage/sshserver`\\ をしておく必要があります。"
 msgstr ""
-"Run a calculation. In case posting job to remote server, you have to do "
-":doc:`usage/sshserver` in advance."
+"Run the calculation. If you are submitting a job to remote server, ensure that you have completed "
+":doc:`usage/sshserver` beforehand."
 
 #: ../../python.rst:102
 msgid ""
@@ -208,24 +207,24 @@ msgid ""
 " \"OPTIMIZ\", \"MD\", \"DOS\", \"BAND\", \"TDDFT\", \"Phonon\", "
 "\"PhDisp\", \"NEB\", \"LAMMPS\""
 msgstr ""
-"Specify the type of calculation. If not passed, it will be determined by currently opened calculation engine and input editor mode "
-"in the project. Can "
-"be: \"SCF\", \"OPTIMIZ\", \"MD\", \"DOS\", "
+"Specify the type of calculation. If not specifieded, it will be determined by the currently opened calculation engine and input editor mode "
+"in the project. Options "
+"include: \"SCF\", \"OPTIMIZ\", \"MD\", \"DOS\", "
 "\"BAND\", \"TDDFT\", \"Phonon\", \"PhDisp\", "
 "\"NEB\", \"LAMMPS\""
 
 #: ../../python.rst:103
 msgid "ローカルで実行する場合は\"localhost\"、リモートサーバーにジョブを投入する場合はその設定名を指定します。省略した場合、直前に実行した計算の設定を引き継ぎます。"
 msgstr ""
-"Specify \"localhost\" to run on local, or setting name of the remote "
-"server to post the job. If not passed, inherited setting from previous "
-"calculation is used."
+"Specify \"localhost\" to run the job locally or provide the name of the remote "
+"server to post the job. If not provided, the setting from the previous "
+"calculation will be used."
 
 #: ../../python.rst:104
 msgid "ジョブを投入するキューの設定名を指定します。ローカルで実行する場合は指定しても無視されます。"
 msgstr ""
-"Specify the setting name of the queue to post the job. Ignored in case of"
-" local run even if specified."
+"Specify the name of the queue setting for posting the job. This setting will be "
+"ignored if running locally, even if specified."
 
 #: ../../python.rst:106
 msgid ""
@@ -248,17 +247,17 @@ msgstr "Create new project from atomic structure file."
 #: ../../python.rst:117
 msgid "原子構造ファイルを絶対パスで指定します。カレントフォルダにあるファイルはファイル名だけで指定できます。"
 msgstr ""
-"Specify atomic structure file by absolute path. File in current folder "
-"can be specified just by file name."
+"Specify the atomic structure file using the absolute path. The file in the current folder "
+"can be specified just by the file name."
 
 #: ../../python.rst:118
 msgid "作成したプロジェクトの保存先を絶対パスで指定します。デフォルトの保存先に保存する場合は、プロジェクト名だけで指定できます。省略した場合、原子構造ファイルの名前（拡張子なし）をプロジェクト名にします。指定した保存先が既に存在する場合、プロジェクトを作成しません。"
 msgstr ""
-"Specify the save destination of created project by absolute path of the "
-"folder. To save it in the default location, just specify the project "
-"name. If not passed, the name of atomic structure file (without "
-"extension) will be used as project name. If specified folder already "
-"exists, the project is not created."
+"Specify the location to save the created project by provideing the absolute path of the "
+"folder. To save it in the default location, simply specify the project "
+"name. If the project name is not specified, the name of the atomic structure file (without "
+"extension) will be used as the project name. If the specified folder already "
+"exists, the project will not be created."
 
 #: ../../python.rst:120
 msgid ">>> nanolabo.create_project(r\"C:\\Users\\demouser\\sic.cif\", \"SiC\")"
@@ -279,20 +278,20 @@ msgstr ""
 #: ../../python.rst:141
 msgid "ファイルで定義した原子構造を設定します。既にプロジェクトにある情報は上書きされます。"
 msgstr ""
-"Import atomic structure defined by a file. Geometry info already in the "
+"Import atomic structure from file. Geometry information already in the "
 "project will be overwritten."
 
 #: ../../python.rst:144
 msgid "原子構造の情報を含むファイルを絶対パスで指定します。カレントフォルダにあるファイルはファイル名だけで指定できます。"
 msgstr ""
-"Specify the file containing atomic structure information. File in current"
-" folder can be specified just by file name."
+"Specify the file that contains information about the atomic structure. A file in the current"
+" folder can be specified simply by the file name."
 
 #: ../../python.rst:146
 msgid "ファイルの形式は次の例のようになります。\\ :py:func:`qe_get_geometry`\\ で出力したファイルを読み込むことができます。"
 msgstr ""
-"The file format is as follows. Can import the file exported by "
-":py:func:`qe_get_geometry`."
+"The file format is as follows. The file exported by "
+":py:func:`qe_get_geometry` can be imported."
 
 #: ../../python.rst:148
 msgid ""
@@ -369,7 +368,7 @@ msgstr "Add an atom."
 
 #: ../../python.rst:209
 msgid "追加する原子の種類を元素記号で指定します。"
-msgstr "Specify the type of atom to be added by element symbol."
+msgstr "Specify which type of atom should be added using its corresponding element symbol."
 
 #: ../../python.rst:210 ../../python.rst:279
 msgid "x, y, z座標(\\ |angs|\\ )を指定します。"
@@ -429,8 +428,8 @@ msgstr "Get coordinates of an atom."
 #: ../../python.rst:253
 msgid "原子の座標(\\ |angs|\\ )、および各方向に固定(0)か可動(1)か"
 msgstr ""
-"Coordinates of an atom (\\ |angs|\\ ), and if it is fixed (0) or mobile "
-"(1) along each direction"
+"Atom coordinates (\\ |angs|\\ ) and fixed (0) or mobile "
+"(1) status along each direction"
 
 #: ../../python.rst:256
 msgid ""
@@ -444,7 +443,7 @@ msgstr "Change an atom."
 
 #: ../../python.rst:268
 msgid "設定する原子の種類を元素記号で指定します。"
-msgstr "Specify the type of atom to be set by element symbol."
+msgstr "Specify the atom type by using the element symbol."
 
 #: ../../python.rst:270
 msgid ">>> nanolabo.set_atom_name(\"SiC\", 0, \"C\")"
@@ -453,8 +452,8 @@ msgstr ""
 #: ../../python.rst:280
 msgid "x, y, z方向に固定(0)か可動(1)か。省略した場合可動(1)になります。"
 msgstr ""
-"Fixed (0) or mobile (1) along x, y, z direction. Defaults to mobile (1) "
-"if not passed."
+"Fixed (0) or mobile (1) in the x, y, z direction. The default is mobile (1) "
+"if not specified."
 
 #: ../../python.rst:282
 msgid ""
@@ -474,9 +473,9 @@ msgid ""
 ":guilabel:`Geometry`\\ |rarr|\\ :guilabel:`Atoms`\\ "
 "の番号(#)は1から数えるので、indexとは1つずれます（順序は同じです）。"
 msgstr ""
-"Serial number (#) shown in :guilabel:`Geometry`\\ |rarr|\\ "
-":guilabel:`Atoms` starts at 1, therefore it is shifted from index by one "
-"(the orders are the same)."
+"Serial number (#) shown in the :guilabel:`Geometry`\\ |rarr|\\ "
+":guilabel:`Atoms` starts at 1, resulting in a one-index shift "
+"(orders remaining the same)."
 
 #: ../../python.rst:296
 msgid "Quantum ESPRESSO関連操作"
@@ -487,14 +486,14 @@ msgid ""
 "SCF計算のk点の数を取得します。詳細は\\ `Quantum ESPRESSOのマニュアル <https://www.quantum-"
 "espresso.org/Doc/INPUT_PW.html>`_\\ (K_POINTS automatic)を参照してください。"
 msgstr ""
-"Get number of k points for SCF calculation. Please refer to `Quantum "
+"Get number of k points for SCF calculation. For more imformation, please refer to `Quantum "
 "ESPRESSO manual <https://www.quantum-espresso.org/Doc/INPUT_PW.html>`_ "
-"(K_POINTS automatic) for detail."
+"(K_POINTS automatic)."
 
 #: ../../python.rst:303
 msgid "各方向のk点数と、オフセットを適用する(1)かしない(0)かの設定"
 msgstr ""
-"Number of k points along each direction, and if apply the offset (1) or "
+"Number of k points in each direction, and if apply the offset (1) or "
 "not (0)"
 
 #: ../../python.rst:306
@@ -508,9 +507,9 @@ msgid ""
 "SCF計算のk点の数を設定します。詳細は\\ `Quantum ESPRESSOのマニュアル <https://www.quantum-"
 "espresso.org/Doc/INPUT_PW.html>`_\\ (K_POINTS automatic)を参照してください。"
 msgstr ""
-"Set number of k points for SCF calculation. Please refer to `Quantum "
+"Set number of k points for SCF calculation. For more imformation, please refer to `Quantum "
 "ESPRESSO manual <https://www.quantum-espresso.org/Doc/INPUT_PW.html>`_ "
-"(K_POINTS automatic) for detail."
+"(K_POINTS automatic)."
 
 #: ../../python.rst:317
 msgid "k点分割数"
@@ -526,7 +525,7 @@ msgstr ""
 
 #: ../../python.rst:327
 msgid "元素に設定された質量\\ :ref:`**<pynotemass>`\\ を取得します。"
-msgstr "Get atomic mass :ref:`**<pynotemass>` currently set for an element."
+msgstr "Get the currently set atomic mass :ref:`**<pynotemass>` for an element."
 
 #: ../../python.rst:330 ../../python.rst:345 ../../python.rst:364
 #: ../../python.rst:379
@@ -557,11 +556,11 @@ msgstr ""
 
 #: ../../python.rst:357
 msgid "元素の質量の設定は計算エンジンごとに独立しています。"
-msgstr "Mass for elements is separately set for each calculation engine."
+msgstr "Mass for each element is separately configured for every calculation engine."
 
 #: ../../python.rst:361
 msgid "元素に設定された擬ポテンシャルを取得します。"
-msgstr "Get pseudo potential currently set for an element."
+msgstr "Get the currently set pseudo potential for an element."
 
 #: ../../python.rst:365
 msgid "擬ポテンシャルのファイル名"
@@ -579,7 +578,7 @@ msgstr "Set pseudo potential for an element."
 
 #: ../../python.rst:380
 msgid "擬ポテンシャルをファイル名で指定します。"
-msgstr "Specify pseudo potential by file name."
+msgstr "Specify the pseudo potential by file name."
 
 #: ../../python.rst:382
 msgid ">>> nanolabo.qe_set_pseudo(\"SiC\", \"Si\", \"Si.pbe-rrkj.UPF\")"
@@ -587,12 +586,12 @@ msgstr ""
 
 #: ../../python.rst:389
 msgid "SCF計算で得られた全エネルギーを取得します。"
-msgstr "Get total energy obtained by SCF calculation."
+msgstr "Get the total energy obtained from the SCF calculation."
 
 #: ../../python.rst:392
 msgid "SCF計算が収束している(1)かしていない(0)か、および全エネルギーの値(Ry)"
 msgstr ""
-"if SCF calculation is converged (1) or not (0), and the value of total "
+"if the SCF calculation has converged (1) or not (0), and the value of total "
 "energy (Ry)"
 
 #: ../../python.rst:395
@@ -606,9 +605,9 @@ msgid ""
 "第一原理構造最適化計算で得られた原子構造の情報をファイル :file:`ホームディレクトリ/.nanolabo/.tmp_inquiry` "
 "に出力します。ファイルは\\ :py:func:`set_all_atoms`\\ で読み込ませることができます。"
 msgstr ""
-"Export atomic structure information obtained by first principle structure"
+"Export atomic structure information obtained through first principle structure"
 " optimization to :file:`home directory/.nanolabo/.tmp_inquiry` . You can "
-"import the file by :py:func:`set_all_atoms` ."
+"import the file using the :py:func:`set_all_atoms` function."
 
 #: ../../python.rst:406
 msgid "構造最適化が収束しているかどうか"
