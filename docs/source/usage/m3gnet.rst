@@ -103,6 +103,27 @@ NanoLaboへの設定
 
  代替として、モデルデータを手動でダウンロードすることもできます。\ `m3gnetのリポジトリのMP-2021.2.8-EFSフォルダ <https://github.com/materialsvirtuallab/m3gnet/tree/main/pretrained/MP-2021.2.8-EFS>`_\ 内のファイルをダウンロードし、 :file:`(condaのインストール先)/lib/site-packages/m3gnet/models/MP-2021.2.8-EFS` に保存してください。
 
+.. hint::
+
+ PyTorch1.13.1以前で次のようなエラーが出ることを確認しています。
+
+ .. code-block:: none
+ 
+  IndexError: tensors used as indices must be long, byte or bool tensors
+
+ この場合、PyTorchのバージョンを確認し、PyTorch2以降をインストールしてください。
+
+ .. code-block:: console
+
+  # インストールされているバージョンを確認
+  pip list
+  # PyTorchをアンインストール
+  pip uninstall torch torchvision torchaudio
+  # インストール可能なPyTorchのバージョンを表示
+  pip install torch==
+  # PyTorch2以降を指定してインストール
+  pip install 'torch>=2' torchvision torchaudio
+
 .. _m3gnetlammps:
 
 LAMMPSを直接実行する場合

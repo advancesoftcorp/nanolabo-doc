@@ -99,6 +99,27 @@ NanoLaboへの設定
 
  この場合、 :file:`C:\\Windows\\System32\\nvml.dll` を :file:`C:\\Program Files\\NVIDIA Corporation\\NVSMI\\nvml.dll` にコピー（フォルダがない場合は作成）してから実行してみてください。
 
+.. hint::
+
+ PyTorch1.13.1以前で次のようなエラーが出ることを確認しています。
+
+ .. code-block:: none
+ 
+  IndexError: tensors used as indices must be long, byte or bool tensors
+
+ この場合、PyTorchのバージョンを確認し、PyTorch2以降をインストールしてください。
+
+ .. code-block:: console
+
+  # インストールされているバージョンを確認
+  pip list
+  # PyTorchをアンインストール
+  pip uninstall torch torchvision torchaudio
+  # インストール可能なPyTorchのバージョンを表示
+  pip install torch==
+  # PyTorch2以降を指定してインストール
+  pip install 'torch>=2' torchvision torchaudio
+
 .. _chgnetlammps:
 
 LAMMPSを直接実行する場合
