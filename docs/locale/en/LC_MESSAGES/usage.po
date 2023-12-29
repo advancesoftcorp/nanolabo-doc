@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-29 18:21+0900\n"
+"POT-Creation-Date: 2023-12-29 18:43+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -846,6 +846,18 @@ msgstr ""
 " etc. for remote execution. Especially during remote execution, if not "
 "explicitly set, the system's default values are used, which may "
 "unintentionally lead to an excessive number of threads."
+
+#: ../../usage/calculation.rst:126
+msgid "ファイアウォールの設定"
+msgstr "Firewall configuration"
+
+#: ../../usage/calculation.rst:128
+msgid "Windowsで、実行時にファイアウォールの警告が表示される場合があります。これはMPIライブラリが受信の待ち受けを行うためです。「アクセスを許可する」か、または計算エンジンの実行ファイルをあらかじめファイアウォールの例外に追加しておくことで、警告が表示されなくなります。"
+msgstr ""
+"Firewall warning may appear on Windows when running the calculation. This"
+" is due to the MPI library awaiting incoming communication. Allow the "
+"access, or otherwise add the executables of calculation engines to the "
+"exception of the firewall beforehand to suppress the warning."
 
 #: ../../usage/chgnet.rst:5
 msgid "CHGNet汎用力場を使うための設定"
@@ -3871,8 +3883,9 @@ msgid ""
 "この場合、 :file:`(condaのインストール先)\\\\Library\\\\bin\\\\libiomp5md.dll` "
 "をリネーム（例： :file:`libiomp5md.dll_` ）してください。"
 msgstr ""
-"In this case, rename :file:`(conda installation path)\\\\Library\\\\bin\\\\libiomp5md.dll` to "
-":file:`libiomp5md.dll_` for example."
+"In this case, rename :file:`(conda installation "
+"path)\\\\Library\\\\bin\\\\libiomp5md.dll` to :file:`libiomp5md.dll_` for"
+" example."
 
 #: ../../usage/m3gnet.rst:144
 msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_m3gnet` を使用します。MPI並列計算には非対応です。"
