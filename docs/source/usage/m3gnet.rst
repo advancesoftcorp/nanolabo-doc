@@ -105,6 +105,16 @@ NanoLaboへの設定
 
 .. hint::
 
+ Windowsで、実行時に次のようなエラーが出る場合があります。
+
+ .. code-block:: none
+ 
+  OMP: Error #15: Initializing libiomp5md.dll, but found libiomp5md.dll already initialized.
+
+ この場合、 :file:`(condaのインストール先)\\Library\\bin\\libiomp5md.dll` をリネーム（例： :file:`libiomp5md.dll_` ）してください。
+
+.. hint::
+
  PyTorch1.13.1以前で次のようなエラーが出ることを確認しています。
 
  .. code-block:: none

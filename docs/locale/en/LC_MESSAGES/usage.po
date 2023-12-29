@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-26 17:30+0900\n"
+"POT-Creation-Date: 2023-12-29 18:21+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1072,21 +1072,21 @@ msgstr ""
 "Files\\\\NVIDIA Corporation\\\\NVSMI\\\\nvml.dll` (create the folder if "
 "not exist) and execute it again."
 
-#: ../../usage/chgnet.rst:104 ../../usage/m3gnet.rst:108
+#: ../../usage/chgnet.rst:104 ../../usage/m3gnet.rst:118
 msgid "PyTorch1.13.1以前で次のようなエラーが出ることを確認しています。"
 msgstr ""
 "We recognize that the following error occurs with PyTorch 1.13.1 and "
 "earlier versions:"
 
-#: ../../usage/chgnet.rst:106 ../../usage/m3gnet.rst:110
+#: ../../usage/chgnet.rst:106 ../../usage/m3gnet.rst:120
 msgid "IndexError: tensors used as indices must be long, byte or bool tensors"
 msgstr ""
 
-#: ../../usage/chgnet.rst:110 ../../usage/m3gnet.rst:114
+#: ../../usage/chgnet.rst:110 ../../usage/m3gnet.rst:124
 msgid "この場合、PyTorchのバージョンを確認し、PyTorch2以降をインストールしてください。"
 msgstr "In this case, check the PyTorch version and install PyTorch 2 or later."
 
-#: ../../usage/chgnet.rst:112 ../../usage/m3gnet.rst:116
+#: ../../usage/chgnet.rst:112 ../../usage/m3gnet.rst:126
 msgid ""
 "# インストールされているバージョンを確認\n"
 "pip list\n"
@@ -1106,12 +1106,12 @@ msgstr ""
 "# Install specifying PyTorch 2 or later\n"
 "pip install 'torch>=2' torchvision torchaudio"
 
-#: ../../usage/chgnet.rst:126 ../../usage/m3gnet.rst:130
+#: ../../usage/chgnet.rst:126 ../../usage/m3gnet.rst:140
 #: ../../usage/ocp.rst:188
 msgid "LAMMPSを直接実行する場合"
 msgstr "Using LAMMPS directly"
 
-#: ../../usage/chgnet.rst:128 ../../usage/m3gnet.rst:132
+#: ../../usage/chgnet.rst:128 ../../usage/m3gnet.rst:142
 #: ../../usage/ocp.rst:190
 msgid "NanoLaboを使わず、LAMMPS単体で実行する場合の説明です。"
 msgstr "This description is for running LAMMPS standalone, without using NanoLabo."
@@ -1122,7 +1122,7 @@ msgstr ""
 "Use the executable file :file:`lammps_chgnet` included in NanoLabo Tool. "
 "MPI parallel execution is not supported."
 
-#: ../../usage/chgnet.rst:132 ../../usage/m3gnet.rst:136
+#: ../../usage/chgnet.rst:132 ../../usage/m3gnet.rst:146
 #: ../../usage/ocp.rst:194
 msgid ""
 "Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` "
@@ -1131,23 +1131,23 @@ msgstr ""
 "On Linux/macOS, set the environment variable :envvar:`LD_LIBRARY_PATH` , "
 "so the program can use Python dynamic library when executed."
 
-#: ../../usage/chgnet.rst:134 ../../usage/m3gnet.rst:138
+#: ../../usage/chgnet.rst:134 ../../usage/m3gnet.rst:148
 msgid "$ export LD_LIBRARY_PATH=(condaのインストール先)/lib:$LD_LIBRARY_PATH"
 msgstr ""
 "$ export LD_LIBRARY_PATH=(conda installation "
 "destination)/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/chgnet.rst:138 ../../usage/m3gnet.rst:142
+#: ../../usage/chgnet.rst:138 ../../usage/m3gnet.rst:152
 #: ../../usage/ocp.rst:200
 msgid "また、Linuxでは環境変数 :envvar:`OPAL_PREFIX` を設定してください。"
 msgstr "Also, on Linux, set the environment variable :envvar:`OPAL_PREFIX` ."
 
-#: ../../usage/chgnet.rst:140 ../../usage/m3gnet.rst:144
+#: ../../usage/chgnet.rst:140 ../../usage/m3gnet.rst:154
 #: ../../usage/ocp.rst:202
 msgid "デフォルトの場所にインストールした場合の例"
 msgstr "in case installed in default location"
 
-#: ../../usage/chgnet.rst:140 ../../usage/m3gnet.rst:144
+#: ../../usage/chgnet.rst:140 ../../usage/m3gnet.rst:154
 #: ../../usage/ocp.rst:202
 msgid "$ export OPAL_PREFIX=/opt/AdvanceSoft/NanoLabo/exec.LINUX/mpi"
 msgstr ""
@@ -1163,7 +1163,7 @@ msgstr ""
 "module search path of Python. Add it to environment variable "
 ":envvar:`PYTHONPATH`\\ , for example."
 
-#: ../../usage/chgnet.rst:147 ../../usage/m3gnet.rst:151
+#: ../../usage/chgnet.rst:147 ../../usage/m3gnet.rst:161
 #: ../../usage/ocp.rst:209
 msgid "Linuxの例"
 msgstr "Linux example"
@@ -1174,7 +1174,7 @@ msgstr ""
 "$ export PYTHONPATH=(NanoLabo Tool installation "
 "destination)/chgnet:$PYTHONPATH"
 
-#: ../../usage/chgnet.rst:152 ../../usage/m3gnet.rst:156
+#: ../../usage/chgnet.rst:152 ../../usage/m3gnet.rst:166
 #: ../../usage/ocp.rst:214
 msgid "LAMMPSの入力ファイル中で、以下のように\\ ``pair_style``\\ を設定します。"
 msgstr "Set ``pair_style`` as below in the LAMMPS input file."
@@ -1229,7 +1229,7 @@ msgstr ""
 "pair_style chgnet/d3/gpu\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/chgnet.rst:178 ../../usage/m3gnet.rst:170
+#: ../../usage/chgnet.rst:178 ../../usage/m3gnet.rst:180
 #: ../../usage/ocp.rst:228
 msgid "パラメーター"
 msgstr "Parameter"
@@ -1254,12 +1254,12 @@ msgstr "Specify \"MPtrj-efsm\" to use the bundled pretrained model"
 msgid "pathに続けてファイルパスを指定すると、ファイルに保存されたモデルを使用"
 msgstr "Specify a file path after \"path\" to use the model saved in that file"
 
-#: ../../usage/chgnet.rst:188 ../../usage/m3gnet.rst:181
+#: ../../usage/chgnet.rst:188 ../../usage/m3gnet.rst:191
 #: ../../usage/ocp.rst:238
 msgid "元素名"
 msgstr "element"
 
-#: ../../usage/chgnet.rst:188 ../../usage/m3gnet.rst:181
+#: ../../usage/chgnet.rst:188 ../../usage/m3gnet.rst:191
 #: ../../usage/ocp.rst:238
 msgid "LAMMPSのatom type毎に、対応する元素名を列挙"
 msgstr "list element names in the same order as atom types of LAMMPS"
@@ -2785,7 +2785,7 @@ msgstr ""
 "Since virial stress is not calculated, neither NPT/NPH ensemble "
 "calculation nor cell optimization is supported."
 
-#: ../../usage/inputeditorlammps.rst:76 ../../usage/m3gnet.rst:158
+#: ../../usage/inputeditorlammps.rst:76 ../../usage/m3gnet.rst:168
 msgid "M3GNet"
 msgstr ""
 
@@ -3856,13 +3856,31 @@ msgstr ""
 " and store them to :file:`(conda installation path)/lib/site-"
 "packages/m3gnet/models/MP-2021.2.8-EFS`."
 
-#: ../../usage/m3gnet.rst:134
+#: ../../usage/m3gnet.rst:108
+msgid "Windowsで、実行時に次のようなエラーが出る場合があります。"
+msgstr "Following error may appear at runtime on Windows."
+
+#: ../../usage/m3gnet.rst:110
+msgid ""
+"OMP: Error #15: Initializing libiomp5md.dll, but found libiomp5md.dll "
+"already initialized."
+msgstr ""
+
+#: ../../usage/m3gnet.rst:114
+msgid ""
+"この場合、 :file:`(condaのインストール先)\\\\Library\\\\bin\\\\libiomp5md.dll` "
+"をリネーム（例： :file:`libiomp5md.dll_` ）してください。"
+msgstr ""
+"In this case, rename :file:`(conda installation path)\\\\Library\\\\bin\\\\libiomp5md.dll` to "
+":file:`libiomp5md.dll_` for example."
+
+#: ../../usage/m3gnet.rst:144
 msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_m3gnet` を使用します。MPI並列計算には非対応です。"
 msgstr ""
 "Use the executable file :file:`lammps_m3gnet` included in NanoLabo Tool. "
 "MPI parallel execution is not supported."
 
-#: ../../usage/m3gnet.rst:149
+#: ../../usage/m3gnet.rst:159
 msgid ""
 "LAMMPSから :file:`m3gnet_driver.py` または :file:`matgl_driver.py` "
 "を呼び出すことで動作しますので、NanoLabo Toolインストール先の :file:`m3gnet` "
@@ -3873,13 +3891,13 @@ msgstr ""
 "destination to the module search path of Python. Add it to environment "
 "variable :envvar:`PYTHONPATH`\\ , for example."
 
-#: ../../usage/m3gnet.rst:151
+#: ../../usage/m3gnet.rst:161
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/m3gnet:$PYTHONPATH"
 msgstr ""
 "$ export PYTHONPATH=(NanoLabo Tool installation "
 "destination)/m3gnet:$PYTHONPATH"
 
-#: ../../usage/m3gnet.rst:158
+#: ../../usage/m3gnet.rst:168
 msgid ""
 "pair_style m3gnet\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -3887,11 +3905,11 @@ msgstr ""
 "pair_style m3gnet\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/m3gnet.rst:164
+#: ../../usage/m3gnet.rst:174
 msgid "M3GNet + DFT-D3による補正"
 msgstr "M3GNet + DFT-D3 correction"
 
-#: ../../usage/m3gnet.rst:164
+#: ../../usage/m3gnet.rst:174
 msgid ""
 "pair_style m3gnet/d3\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -3899,7 +3917,7 @@ msgstr ""
 "pair_style m3gnet/d3\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/m3gnet.rst:176 ../../usage/ocp.rst:234
+#: ../../usage/m3gnet.rst:186 ../../usage/ocp.rst:234
 msgid "model"
 msgstr ""
 
@@ -3921,11 +3939,11 @@ msgstr ""
 "specify folder path to use MatGL version M3GNet + model stored in that "
 "folder"
 
-#: ../../usage/m3gnet.rst:186
+#: ../../usage/m3gnet.rst:196
 msgid "次のようなエラーで実行できない場合があります。"
 msgstr "Following error may appear at runtime."
 
-#: ../../usage/m3gnet.rst:188
+#: ../../usage/m3gnet.rst:198
 msgid ""
 "Fatal Python error: init_fs_encoding: failed to get the Python codec of "
 "the filesystem encoding\n"
@@ -3933,17 +3951,17 @@ msgid ""
 "ModuleNotFoundError: No module named 'encodings'"
 msgstr ""
 
-#: ../../usage/m3gnet.rst:194
+#: ../../usage/m3gnet.rst:204
 msgid "この場合、環境変数 :envvar:`PYTHONHOME` が正しく設定されているかご確認ください。"
 msgstr ""
 "In this case, make sure the environment variable :envvar:`PYTHONHOME` is "
 "set correctly."
 
-#: ../../usage/m3gnet.rst:196
+#: ../../usage/m3gnet.rst:206
 msgid "Windowsの例"
 msgstr "Windows example"
 
-#: ../../usage/m3gnet.rst:196
+#: ../../usage/m3gnet.rst:206
 msgid "set PYTHONHOME=(condaのインストール先)"
 msgstr "set PYTHONHOME=(conda installation destination)"
 
