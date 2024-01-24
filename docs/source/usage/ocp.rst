@@ -9,6 +9,21 @@ Open Catalyst Project汎用力場を使うための設定
 Pythonの設定
 ===============
 
+.. note:: 
+
+ 現在、NanoLabo同梱のLAMMPSは最新のocpリポジトリの内容に対応しておりません。今後の更新で対応する予定ですが、暫定的に変更前時点(e7a8745)のocpリポジトリの内容をお使いいただくようお願いいたします。
+
+ 以下の説明はe7a8745版を使うように変更済みですが、もし既に最新版のocpリポジトリの内容をインストールされてしまった場合は、\ `e7a8745版のzipファイル <https://codeload.github.com/Open-Catalyst-Project/ocp/zip/e7a8745>`_\ をダウンロード・解凍するか、 ``git reset e7a8745 --hard`` を実行した上で、
+
+ .. code-block:: console
+
+  conda activate ocp-models
+  pip install -e .
+
+ を実行してインストールし直してください。
+
+ またインストール後、LAMMPS実行時に ``ModuleNotFoundError: No module named ***`` のエラーが出る場合は、対応するパッケージを ``pip install ***`` でインストールしてください。
+
 Open Catalyst Projectで公開されている\ `インストール手順 <https://github.com/Open-Catalyst-Project/ocp/tree/main#installation>`_\ に沿って、LAMMPSから汎用力場を使うために必要な設定手順を説明します。
 
 実際に計算を行うマシン（計算サーバーにジョブ投入する場合には、その計算サーバー上）でインストールを行ってください。
@@ -52,8 +67,10 @@ Open Catalyst Projectで公開されている\ `インストール手順 <https:
      .. code-block:: console
 
          git clone https://github.com/Open-Catalyst-Project/ocp.git
+         cd ocp
+         git reset e7a8745
 
-     または https://github.com/Open-Catalyst-Project/ocp/archive/refs/heads/main.zip をダウンロード・解凍します。
+     または https://codeload.github.com/Open-Catalyst-Project/ocp/zip/e7a8745 をダウンロード・解凍します。
 
 #. インストール
 
