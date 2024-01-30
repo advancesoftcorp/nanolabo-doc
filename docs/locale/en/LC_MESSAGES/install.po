@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
+# SOME DESCRIPTIVE TITLE.fuzzy
 # Copyright (C) 2018, AdvanceSoft Corporation
 # This file is distributed under the same license as the Advance/NanoLabo
 # package.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-10 15:14+0900\n"
+"POT-Creation-Date: 2024-01-30 15:21+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,10 +37,10 @@ msgid ""
 "本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo"
 " Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。"
 msgstr ""
-"This software can be installed using two separate installers. "
-"The primary installer is \"Advance/NanoLabo\", while the supplementary installer, "
-"\"Advance/NanoLabo Tool\", contains open-source calculation engines and other features. "
-"Please download both from the links provided below."
+"This software can be installed using two separate installers. The primary"
+" installer is \"Advance/NanoLabo\", while the supplementary installer, "
+"\"Advance/NanoLabo Tool\", contains open-source calculation engines and "
+"other features. Please download both from the links provided below."
 
 #: ../../install/linux.rst:14
 msgid ""
@@ -58,20 +58,22 @@ msgstr ""
 #: ../../install/windows.rst:20
 msgid "計算をリモートで実行する場合でも、NanoLabo本体と同じマシンにNanoLabo Toolをインストールしてください。"
 msgstr ""
-"Ensure that you install NanoLabo Tool on the same machine where NanoLabo is installed, "
-"even if you intend to run calculations on a remote machine."
+"Ensure that you install NanoLabo Tool on the same machine where NanoLabo "
+"is installed, even if you intend to run calculations on a remote machine."
 
 #: ../../install/linux.rst:22
 msgid "インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先ディレクトリにコピーされます。"
 msgstr ""
-"The Java Runtime Environment is bundled with the installer. It will be transferred "
-"to the designated installation directory during the installation process."
+"The Java Runtime Environment is bundled with the installer. It will be "
+"transferred to the designated installation directory during the "
+"installation process."
 
 #: ../../install/linux.rst:29
 msgid "端末（ターミナル）で、インストーラーのあるディレクトリに移動します。実行権限を付与したら、まずAdvance/NanoLaboのインストーラーを実行します。"
 msgstr ""
 "Open a terminal and navigate to the directory containing the installers. "
-"After granting execution permissions, start by running the Advance/NanoLabo installer."
+"After granting execution permissions, start by running the "
+"Advance/NanoLabo installer."
 
 #: ../../install/linux.rst:31
 msgid ""
@@ -82,12 +84,15 @@ msgstr ""
 #: ../../install/linux.rst:36
 msgid "言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
 msgstr ""
-"If a language selection window appears, choose a language for the installation process "
-"(note that this selection does not determine the language used within the software itself)."
+"If a language selection window appears, choose a language for the "
+"installation process (note that this selection does not determine the "
+"language used within the software itself)."
 
 #: ../../install/linux.rst:38
 msgid "画面の指示に従い、インストールの設定を行ってください。"
-msgstr "Proceed by following the on-screen instructions to configure the installation."
+msgstr ""
+"Proceed by following the on-screen instructions to configure the "
+"installation."
 
 #: ../../install/linux.rst:42
 msgid ""
@@ -95,36 +100,37 @@ msgid ""
 ":file:`/home/ユーザー名/AdvanceSoft/NanoLabo` "
 "など）を指定するか、書き込み権限のあるユーザーでインストーラーを実行してください。"
 msgstr ""
-"You cannot install the software in a location without write "
-"permission. Ensure you choose the location with write permission (e.g. "
-":file:`/home/username/AdvanceSoft/NanoLabo` ) as the installation destination,"
-" or execute the installer as the user with write permission."
+"You cannot install the software in a location without write permission. "
+"Ensure you choose the location with write permission (e.g. "
+":file:`/home/username/AdvanceSoft/NanoLabo` ) as the installation "
+"destination, or execute the installer as the user with write permission."
 
 #: ../../install/linux.rst:44
 msgid ""
 "設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo "
 "Toolのインストール、およびライセンスの設定の際に必要になりますので、控えておいていただくようお願いします。"
 msgstr ""
-"Once the configuration is complete, a summary window will appear. "
-"The Install Folder will be required when installing the Advance/NanoLabo Tool "
-"and during license setup. Please make a note of the install folder."
+"Once the configuration is complete, a summary window will appear. The "
+"Install Folder will be required when installing the Advance/NanoLabo Tool"
+" and during license setup. Please make a note of the install folder."
 
 #: ../../install/linux.rst:48 ../../install/windows.rst:35
 msgid "インストールが終わると、ライセンス登録案内が表示されます。ライセンス登録がお済みでない場合は、必要な項目をご記入ください。次へをクリックすると、ライセンス登録メールの内容が表示されますので、弊社宛に送信してください。"
 msgstr ""
-"Once the installation is complete, a license registration guide will be displayed. "
-"If you haven't registered the license yet, please complete the form. "
-" Upon clicking \"Next\", the content for the license registration email will appear. "
-" Please send this email to us."
+"Once the installation is complete, a license registration guide will be "
+"displayed. If you haven't registered the license yet, please complete the"
+" form.  Upon clicking \"Next\", the content for the license registration "
+"email will appear.  Please send this email to us."
 
 #: ../../install/linux.rst:54
 msgid ""
 "メール本文の「ホストＩＤ」が空欄になっている場合、Host ID取得時に必要なredhat-"
 "lsbライブラリがインストールされていない可能性があります。その場合、次のコマンドをroot権限で実行してインストールしてください。"
 msgstr ""
-"If the \"Host ID\" field in the email body is empty, you might be missing the "
-"redhat-lsb library, which is essential for obtaining the Host ID. If this is the "
-"case, please run the following command with root privileges to install it."
+"If the \"Host ID\" field in the email body is empty, you might be missing"
+" the redhat-lsb library, which is essential for obtaining the Host ID. If"
+" this is the case, please run the following command with root privileges "
+"to install it."
 
 #: ../../install/linux.rst:56
 msgid "# yum -y install redhat-lsb-core"
@@ -133,19 +139,21 @@ msgstr ""
 #: ../../install/linux.rst:60
 msgid "インストーラーで一旦「戻る」をクリックし、再度「次へ」をクリックしていただくことで、Host IDの取得を再試行します。"
 msgstr ""
-"In the installer, click \"Previous\" once, and then click \"Next\" to attempt "
-"retrieving the Host ID again."
+"In the installer, click \"Previous\" once, and then click \"Next\" to "
+"attempt retrieving the Host ID again."
 
 #: ../../install/linux.rst:64 ../../install/windows.rst:41
 msgid "ここでライセンス登録を行わない場合でも、ソフトウェア起動時に表示される案内画面から登録していただくことができます。"
 msgstr ""
-"Even if you choose not to register the license at this point, you can still register it "
-"later from the guide window that appears when you start the software."
+"Even if you choose not to register the license at this point, you can "
+"still register it later from the guide window that appears when you start"
+" the software."
 
 #: ../../install/linux.rst:66 ../../install/windows.rst:43
 msgid "最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。"
 msgstr ""
-"At the final window, click \"Done\" to complete the installation of Advance/NanoLabo."
+"At the final window, click \"Done\" to complete the installation of "
+"Advance/NanoLabo."
 
 #: ../../install/linux.rst:68 ../../install/windows.rst:45
 msgid "続けて、Advance/NanoLabo Toolのインストーラーを実行します。"
@@ -158,13 +166,15 @@ msgstr ""
 #: ../../install/linux.rst:74 ../../install/windows.rst:47
 msgid "画面の指示に従い、インストールの設定を行ってください。インストール先として、Advance/NanoLaboと同じ場所を選択してください。"
 msgstr ""
-"Follow the on-screen instructions to configure the installation. Ensure you select "
-" the same location for the installation destination as you did for Advance/NanoLabo."
+"Follow the on-screen instructions to configure the installation. Ensure "
+"you select  the same location for the installation destination as you did"
+" for Advance/NanoLabo."
 
 #: ../../install/linux.rst:78 ../../install/windows.rst:51
 msgid "インストール後、最後の画面で完了をクリックすると、Advance/NanoLabo Toolのインストールが終了します。"
 msgstr ""
-"At the final window, click \"Done\" to finish the installation of the Advance/NanoLabo Tool."
+"At the final window, click \"Done\" to finish the installation of the "
+"Advance/NanoLabo Tool."
 
 #: ../../install/linux.rst:83 ../../install/mac.rst:105
 #: ../../install/windows.rst:56
@@ -177,16 +187,18 @@ msgid ""
 ":file:`license` ディレクトリにコピーしてください。"
 msgstr ""
 "Once you've registered your license, we will send you a license file ( "
-":file:`nanolabo.lic` ). You can typically expect to receive this within 5 business days. Please "
-"copy this file to the :file:`license` directory located in your installation destination."
+":file:`nanolabo.lic` ). You can typically expect to receive this within 5"
+" business days. Please copy this file to the :file:`license` directory "
+"located in your installation destination."
 
 #: ../../install/linux.rst:87
 msgid "本ソフトウェアのライセンス認証は、ライセンスサーバー（ライセンス認証用のプログラム）により行われます。本ソフトウェアの起動時に自動的にライセンスサーバーが起動されますので、通常はライセンスサーバーの操作を行っていただく必要はございません。"
 msgstr ""
-"The software's license authentication is handled by a license server, which "
-"is a separate program designed for this purpose. This software will "
-"automatically initiate the license server upon startup, so under normal "
-"circumstances, there's no need for manual intervention with the license server."
+"The software's license authentication is handled by a license server, "
+"which is a separate program designed for this purpose. This software will"
+" automatically initiate the license server upon startup, so under normal "
+"circumstances, there's no need for manual intervention with the license "
+"server."
 
 #: ../../install/linux.rst:91
 msgid "手動でライセンスサーバーを操作することも可能です。"
@@ -204,9 +216,9 @@ msgid ""
 "<https://remotelicense-doc.readthedocs.io/ja/latest/>`_\\ を参照してください。"
 msgstr ""
 "Use our tool, `remoteLicense <https://remotelicense-"
-"doc.readthedocs.io/en/latest/>`_ to conveniently start / stop / check the "
-"status of license server on a Linux machine from Windows. Please consult "
-"the `manual <https://remotelicense-doc.readthedocs.io/en/latest/>`_ for "
+"doc.readthedocs.io/en/latest/>`_ to conveniently start / stop / check the"
+" status of license server on a Linux machine from Windows. Please consult"
+" the `manual <https://remotelicense-doc.readthedocs.io/en/latest/>`_ for "
 "detail."
 
 #: ../../install/linux.rst:97
@@ -219,8 +231,9 @@ msgid ""
 "です。端末（ターミナル）でインストール先のディレクトリに移動したら、以下のコマンド例のように起動します。"
 msgstr ""
 "The executable of the license server is located at "
-":file:`exec.LINUX/flex/lmgrd` within the install destination. After navigating to "
-"the installation directory in a terminal, execute it as shown in the example below."
+":file:`exec.LINUX/flex/lmgrd` within the install destination. After "
+"navigating to the installation directory in a terminal, execute it as "
+"shown in the example below."
 
 #: ../../install/linux.rst:101
 msgid "$ exec.LINUX/flex/lmgrd -c license/nanolabo.lic -l lmgrd.log"
@@ -229,8 +242,8 @@ msgstr ""
 #: ../../install/linux.rst:105
 msgid "ライセンスサーバーの状態を表示するには、インストール先の :file:`exec.LINUX/flex/lmstat` を使用します。"
 msgstr ""
-"To check the status of license server, use :file:`exec.LINUX/flex/lmstat` "
-"located in the install destination."
+"To check the status of license server, use :file:`exec.LINUX/flex/lmstat`"
+" located in the install destination."
 
 #: ../../install/linux.rst:107
 msgid "$ exec.LINUX/flex/lmstat -a -c license/nanolabo.lic"
@@ -239,8 +252,8 @@ msgstr ""
 #: ../../install/linux.rst:111
 msgid "また、ライセンスサーバーを終了するには、インストール先の :file:`exec.LINUX/flex/lmdown` を使用します。"
 msgstr ""
-"To stop license server, use :file:`exec.LINUX/flex/lmdown` located in the install"
-" destination."
+"To stop license server, use :file:`exec.LINUX/flex/lmdown` located in the"
+" install destination."
 
 #: ../../install/linux.rst:113
 msgid "$ exec.LINUX/flex/lmdown -c license/nanolabo.lic"
@@ -253,8 +266,9 @@ msgstr "Floating license"
 #: ../../install/linux.rst:122
 msgid "Linuxマシンに対して発行されたライセンスはフローティングライセンスとなっており、ネットワーク接続された別のマシン上（Windows・Linux）でNanoLaboを使うことができます。"
 msgstr ""
-"The license issued for a linux machine is a floating license, allowing you to "
-"use NeuralMD on other connected machines(Windows/Linux) via the network."
+"The license issued for a linux machine is a floating license, allowing "
+"you to use NeuralMD on other connected machines(Windows/Linux) via the "
+"network."
 
 #: ../../install/linux.rst:124
 msgid "ライセンスサーバーとして使うマシン側"
@@ -263,10 +277,10 @@ msgstr "Machine to be used as license server"
 #: ../../install/linux.rst:126
 msgid "別のWindowsマシンからremoteLicenseを使うか、またはそのマシンにNanoLaboをインストールして、ホストIDの取得・ライセンス登録を行ってください。ライセンスファイル取得後、remoteLicenseを使うか、またはマシン上で直接ライセンスサーバーを起動してください。"
 msgstr ""
-"You can obtain the HostID and request the license by using remoteLicense from "
-"a separate Windows machine or by installing NanoLabo on the intended machine itself. "
-"Once you have the license file, you can launch the license server using "
-"remoteLicense or directly on the machine."
+"You can obtain the HostID and request the license by using remoteLicense "
+"from a separate Windows machine or by installing NanoLabo on the intended"
+" machine itself. Once you have the license file, you can launch the "
+"license server using remoteLicense or directly on the machine."
 
 #: ../../install/linux.rst:128
 msgid "NanoLaboを使うクライアントマシン側"
@@ -285,10 +299,10 @@ msgstr "If the license authentication fails, consider the following checks."
 #: ../../install/linux.rst:134
 msgid "クライアントからライセンスサーバーへの接続には、ライセンスファイル中に書かれたホスト名を使用します。ホスト名を使った接続ができない場合、ファイル中のホスト名をIPアドレスに書き換えることで接続できるようになることがあります。"
 msgstr ""
-"The hostname stored in the license file is utilized when a client connects to the "
-"license server. If you cannot connect using the hostname, "
-"try replacing the hostname in the file with the IP address to see "
-"if that resolves the issues."
+"The hostname stored in the license file is utilized when a client "
+"connects to the license server. If you cannot connect using the hostname,"
+" try replacing the hostname in the file with the IP address to see if "
+"that resolves the issues."
 
 #: ../../install/linux.rst:136
 msgid ""
@@ -296,20 +310,20 @@ msgid ""
 "の2つのプロセスが起動し、それぞれがネットワーク通信を行います。使用するポート番号は動的に決まります（\\ :file:`lmgrd` "
 "は27000-27009番ポートを使用）が、ファイアウォールの設定等のためにポート番号を固定したい場合は、ライセンスファイル中に追記して指定することができます。"
 msgstr ""
-"While the license server is operational, the license manager daemon :file:`lmgrd`"
-" and vendor daemon :file:`advanced` are both running, and both engage in "
-"network communications. Although the port number is dynamically "
-"determined (\\ :file:`lmgrd` uses port number 27000-27009), you can "
-"assign fixed port number by specifying it in the license file. This can be useful "
-"for firewall configuration etc."
+"While the license server is operational, the license manager daemon "
+":file:`lmgrd` and vendor daemon :file:`advanced` are both running, and "
+"both engage in network communications. Although the port number is "
+"dynamically determined (\\ :file:`lmgrd` uses port number 27000-27009), "
+"you can assign fixed port number by specifying it in the license file. "
+"This can be useful for firewall configuration etc."
 
 #: ../../install/linux.rst:138
 msgid "ライセンスファイルはテキストファイルですので通常のテキストエディタで編集できます。ホスト名の変更・ポート番号の追記でライセンスの再発行は必要ありません。サーバー側・クライアント側両方で同じように変更してください。"
 msgstr ""
 "The license file is a text document and can be edited with standard text "
-"editors. Should you need to change the hostname or add a port number, there's "
-" no need to re-issue the license. Just ensure any modifications are consistently "
-"applied to both the server and client sides."
+"editors. Should you need to change the hostname or add a port number, "
+"there's  no need to re-issue the license. Just ensure any modifications "
+"are consistently applied to both the server and client sides."
 
 #: ../../install/linux.rst:143
 msgid "lmgrdが30000番、advancedが30001番ポートを使うように設定する例"
@@ -336,9 +350,10 @@ msgid ""
 "クライアント側でNanoLaboを起動したときに、ライセンスサーバーが終了してしまう場合があります。ライセンスサーバーの起動時に "
 ":file:`lmgrd` のオプション ``-local`` を付けることで、クライアント側から終了されないようにすることができます。"
 msgstr ""
-"When launching NanoLabo on the client, the license server might get terminated. To prevent the "
-"server from being shut down by the client, add the ``-local`` option to :file:`lmgrd` when "
-"launching the license server."
+"When launching NanoLabo on the client, the license server might get "
+"terminated. To prevent the server from being shut down by the client, add"
+" the ``-local`` option to :file:`lmgrd` when launching the license "
+"server."
 
 #: ../../install/linux.rst:164 ../../install/mac.rst:56
 #: ../../install/windows.rst:63
@@ -348,8 +363,8 @@ msgstr "Launching"
 #: ../../install/linux.rst:166 ../../install/windows.rst:65
 msgid "インストール時にショートカットを作成した場合は、ショートカットから起動してください。"
 msgstr ""
-"If you created a shortcut during installation, you can "
-"launch the software using that shortcut."
+"If you created a shortcut during installation, you can launch the "
+"software using that shortcut."
 
 #: ../../install/linux.rst:168
 msgid ""
@@ -378,10 +393,10 @@ msgid ""
 ":guilabel:`Arguments for Java VM` に ``-Dprism.forceGPU=true`` を追加します。その後 "
 ":guilabel:`OK` をクリックしてNanoLaboを再起動してください。"
 msgstr ""
-"Click on the main menu icon |mainmenuicon| located in the upper left. Then, navigate to "
-":menuselection:`Properties --> Java VM`\\ , and append "
-"``-Dprism.forceGPU=true`` to the :guilabel:`Arguments for Java VM`\\ . Then, "
-"click :guilabel:`OK` and restart NanoLabo."
+"Click on the main menu icon |mainmenuicon| located in the upper left. "
+"Then, navigate to :menuselection:`Properties --> Java VM`\\ , and append "
+"``-Dprism.forceGPU=true`` to the :guilabel:`Arguments for Java VM`\\ . "
+"Then, click :guilabel:`OK` and restart NanoLabo."
 
 #: ../../install/linux.rst:183
 msgid "mainmenuicon"
@@ -400,61 +415,65 @@ msgid ""
 "</usage/m3gnet>`\\ 、\\ :doc:`CHGNetの設定 </usage/chgnet>`\\ をそれぞれ参照してください。"
 msgstr ""
 "To utilize the graph neural network versatile force field in LAMMPS "
-"calculations, additional settings in the Python environment are necessary. For the detailed "
-"procedure, please refer :doc:`Open Catalyst Project setting </usage/ocp>`, "
-":doc:`M3GNet setting </usage/m3gnet>`, or :doc:`CHGNet setting </usage/chgnet>`."
+"calculations, additional settings in the Python environment are "
+"necessary. For the detailed procedure, please refer :doc:`Open Catalyst "
+"Project setting </usage/ocp>`, :doc:`M3GNet setting </usage/m3gnet>`, or "
+":doc:`CHGNet setting </usage/chgnet>`."
 
 #: ../../install/linux.rst:195 ../../install/mac.rst:98
-#: ../../install/windows.rst:79
+#: ../../install/windows.rst:86
 msgid "（任意）リモート計算の設定"
 msgstr "(Optional) Setting up for remote calculation"
 
 #: ../../install/linux.rst:197 ../../install/mac.rst:100
-#: ../../install/windows.rst:81
+#: ../../install/windows.rst:88
 msgid ""
 "NanoLaboからリモートのマシンに計算ジョブを投入する場合、SSH接続の設定が必要です。設定方法は\\ :doc:`こちら "
 "</usage/sshserver>`\\ を参照してください。"
 msgstr ""
-"To submit calculation jobs from NanoLabo to a remote machine, you'll need "
-"to establish an SSH connection. Please refer :doc:`here "
+"To submit calculation jobs from NanoLabo to a remote machine, you'll need"
+" to establish an SSH connection. Please refer :doc:`here "
 "</usage/sshserver>` for the detailed setup instructions."
 
 #: ../../install/linux.rst:202 ../../install/mac.rst:116
-#: ../../install/windows.rst:86
+#: ../../install/windows.rst:93
 msgid "更新・アップグレード"
 msgstr "Update/Upgrade"
 
 #: ../../install/linux.rst:204 ../../install/mac.rst:118
-#: ../../install/windows.rst:88
+#: ../../install/windows.rst:95
 msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
 msgstr ""
-"When upgrading from the trial version to the production version, there is no need"
-" for an additional installation. Simply replace the license file."
+"When upgrading from the trial version to the production version, there is"
+" no need for an additional installation. Simply replace the license file."
 
-#: ../../install/linux.rst:206 ../../install/windows.rst:90
+#: ../../install/linux.rst:206 ../../install/windows.rst:97
 msgid "新しいバージョンにアップデートされる場合、上書きインストールが可能です。"
-msgstr "When updating to a newer version, you can install directly over the existing version."
+msgstr ""
+"When updating to a newer version, you can install directly over the "
+"existing version."
 
 #: ../../install/linux.rst:208 ../../install/mac.rst:122
-#: ../../install/windows.rst:92
+#: ../../install/windows.rst:99
 msgid ""
 "NanoLaboと同時にNanoLabo Toolが更新されている場合は、そちらもアップデートしてください。最新版のNanoLabo "
 "Toolに同梱されている計算エンジンでの使用を想定しています。"
 msgstr ""
-"If a newer version of NanoLabo Tool is available along with NanoLabo, it is recommended "
-"to update both. NanoLabo is designed to be used in conjunction with the calculation "
-"engines provided in the latest version of NanoLabo Tool."
+"If a newer version of NanoLabo Tool is available along with NanoLabo, it "
+"is recommended to update both. NanoLabo is designed to be used in "
+"conjunction with the calculation engines provided in the latest version "
+"of NanoLabo Tool."
 
 #: ../../install/linux.rst:210 ../../install/mac.rst:124
-#: ../../install/windows.rst:94
+#: ../../install/windows.rst:101
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
-"Your software configurations and any projects you have created are stored separately from "
-"the installation directory. This ensures that you can continue using the software seamlessly, even "
-"after the update."
+"Your software configurations and any projects you have created are stored"
+" separately from the installation directory. This ensures that you can "
+"continue using the software seamlessly, even after the update."
 
 #: ../../install/linux.rst:215 ../../install/mac.rst:129
-#: ../../install/windows.rst:99
+#: ../../install/windows.rst:106
 msgid "アンインストール"
 msgstr "Uninstallation"
 
@@ -463,8 +482,9 @@ msgid ""
 "端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
 ":file:`Change NanoLabo Tool Installation` を起動します。"
 msgstr ""
-"In a terminal, execute :file:`Change NanoLabo Tool Installation` located in "
-":file:`_NanoLabo_Tool_installation` directory at your installation destination."
+"In a terminal, execute :file:`Change NanoLabo Tool Installation` located "
+"in :file:`_NanoLabo_Tool_installation` directory at your installation "
+"destination."
 
 #: ../../install/linux.rst:219
 msgid ""
@@ -472,22 +492,22 @@ msgid ""
 "Tool\\ Installation"
 msgstr ""
 
-#: ../../install/linux.rst:223 ../../install/windows.rst:107
+#: ../../install/linux.rst:223 ../../install/windows.rst:114
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow the on-screen instructions to proceed with the uninstallation."
 
-#: ../../install/linux.rst:225 ../../install/windows.rst:109
+#: ../../install/linux.rst:225 ../../install/windows.rst:116
 msgid "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。"
 msgstr ""
-"After uninstalling the Advance/NanoLabo Tool, make "
-"sure to also uninstall Advance/NanoLabo."
+"After uninstalling the Advance/NanoLabo Tool, make sure to also uninstall"
+" Advance/NanoLabo."
 
-#: ../../install/linux.rst:229 ../../install/windows.rst:113
+#: ../../install/linux.rst:229 ../../install/windows.rst:120
 msgid "アンインストールの際に、インストール先のライセンスファイルは削除されずに残ります。また、インストールログファイルが残る場合があります。その際はお手数ですが手動で削除してください。"
 msgstr ""
-"The license file in the installation directory is not automatically removed during the "
-"uninstallation process. Additionally, installation log files might remain. If so, "
-"please delete them manually."
+"The license file in the installation directory is not automatically "
+"removed during the uninstallation process. Additionally, installation log"
+" files might remain. If so, please delete them manually."
 
 #: ../../install/linux.rst:233
 msgid ""
@@ -496,8 +516,9 @@ msgid ""
 msgstr ""
 "Configuration and projects created by this software are saved in a "
 "location separate from the installation directory ( :file:`home "
-"directory/.nanolabo` ). These files are not deleted during the uninstallation process. "
-"If you wish to remove them, please do so manually."
+"directory/.nanolabo` ). These files are not deleted during the "
+"uninstallation process. If you wish to remove them, please do so "
+"manually."
 
 #: ../../install/mac.rst:5
 msgid "インストール手順 (macOS)"
@@ -509,9 +530,10 @@ msgid ""
 " Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。"
 msgstr ""
 "This software is provided in the form of disk image files. There are two "
-"separate files: \"Advance/NanoLabo\", which is the primary image, and"
-" \"Advance/NanoLabo Tool\", encompassing open-source calculation engines, among "
-"other features. Please download both files from the provided links below."
+"separate files: \"Advance/NanoLabo\", which is the primary image, and "
+"\"Advance/NanoLabo Tool\", encompassing open-source calculation engines, "
+"among other features. Please download both files from the provided links "
+"below."
 
 #: ../../install/mac.rst:14
 msgid "Intel版：従来のマシンではこちらの2つをダウンロードしてください。"
@@ -556,8 +578,8 @@ msgstr ""
 #: ../../install/mac.rst:35
 msgid "まず、Advance/NanoLaboのdmgファイルを開きます。マウントが終わるとディスクイメージの内容が表示されますので、NanoLaboアイコンをアプリケーションディレクトリへドラッグ＆ドロップしてください。"
 msgstr ""
-"First, open the Advance/NanoLabo dmg file. Once mounted, you'll see the content of "
-"the disk image. Drag & drop the NanoLabo icon to the "
+"First, open the Advance/NanoLabo dmg file. Once mounted, you'll see the "
+"content of the disk image. Drag & drop the NanoLabo icon to the "
 "Applications directory."
 
 #: ../../install/mac.rst:41
@@ -589,20 +611,20 @@ msgid ""
 ":kbd:`control` キーを押しながらNanoLaboを開きます（開くをクリックするまで :kbd:`control` "
 "キーを離さないでください）。"
 msgstr ""
-"Hold down :kbd:`control` key, then click to open NanoLabo (do not release "
-":kbd:`control` key until you click :guilabel:`Open` )."
+"Hold down :kbd:`control` key, then click to open NanoLabo (do not release"
+" :kbd:`control` key until you click :guilabel:`Open` )."
 
 #: ../../install/mac.rst:68
 msgid "「検証中」のプログレスバーが表示されます。時間がかかる場合がありますので、少しお待ちください。"
 msgstr ""
-"\"Verifying\" progress bar will appear. This process might take some time, so please"
-" be patient."
+"\"Verifying\" progress bar will appear. This process might take some "
+"time, so please be patient."
 
 #: ../../install/mac.rst:74
 msgid "実行の許可を確認するダイアログが表示されますので、「開く」をクリックしてください。"
 msgstr ""
-"A dialog will appear asking for confirmation to open the application. Click "
-":guilabel:`Open`\\ ."
+"A dialog will appear asking for confirmation to open the application. "
+"Click :guilabel:`Open`\\ ."
 
 #: ../../install/mac.rst:80
 msgid ""
@@ -611,8 +633,8 @@ msgid ""
 "Root` 欄に入力し、 :guilabel:`OK` "
 "をクリックしてください。パスワードはこの場でのコマンド実行のみに使われ、保存されることはありません。"
 msgstr ""
-"When :guilabel:`Activate Advance/NanoLabo` dialog appears, (if you "
-"have logged in as administrator) enter the user account password in the "
+"When :guilabel:`Activate Advance/NanoLabo` dialog appears, (if you have "
+"logged in as administrator) enter the user account password in the "
 ":guilabel:`Password of Root` box and click :guilabel:`OK`\\ . This "
 "password is used only for executing the commands in place and is never "
 "saved."
@@ -624,11 +646,12 @@ msgid ""
 "を付けて実行してください。この場合、:guilabel:`OK` "
 "をクリックした後にエラーと表示されますが、成功していれば次回以降の起動ではダイアログが表示されなくなります。"
 msgstr ""
-"Alternatively, you can manually open the terminal and execute the commands "
-"displayed in :guilabel:`Command` box as an administrator. For the user other "
-"than root user, please prepend ``sudo`` to the command. If you choose this method, an error "
-"will appear when you click :guilabel:`OK` , but the dialog will not show up "
-"during subsequent startups if the process is successful."
+"Alternatively, you can manually open the terminal and execute the "
+"commands displayed in :guilabel:`Command` box as an administrator. For "
+"the user other than root user, please prepend ``sudo`` to the command. If"
+" you choose this method, an error will appear when you click "
+":guilabel:`OK` , but the dialog will not show up during subsequent "
+"startups if the process is successful."
 
 #: ../../install/mac.rst:107
 msgid "ソフトウェアを起動すると、ライセンス登録を案内する画面が表示されます。"
@@ -642,31 +665,34 @@ msgid ""
 ":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
 "ディレクトリにコピーしてください。"
 msgstr ""
-"After you complete the license registration, we will send you a license file ( "
-":file:`nanolabo.lic` ), basically you receive it within 5 business days. Please copy this file to "
-":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
-"directory."
+"After you complete the license registration, we will send you a license "
+"file ( :file:`nanolabo.lic` ), basically you receive it within 5 business"
+" days. Please copy this file to :file:`/Library/Application "
+"Support/AdvanceSoft/NanoLabo/license` directory."
 
 #: ../../install/mac.rst:111
 msgid ""
 "Finderのメニューバーから :menuselection:`移動 --> フォルダへ移動...` "
 "をクリックし、上記パスを入力していただくと簡単です。"
 msgstr ""
-"An easy way to locate the directory is by using Finder. Click :menuselection:`Go --> Go to Folder...` in "
-"the menu bar and enter the path provided above."
+"An easy way to locate the directory is by using Finder. Click "
+":menuselection:`Go --> Go to Folder...` in the menu bar and enter the "
+"path provided above."
 
 #: ../../install/mac.rst:120
 msgid ""
 "新しいバージョンにアップデートされる場合は、インストール時と同じ操作を行い、確認が表示されたら「置き換える」を選択してください。アップデート後、ライセンスファイルを再度"
 " :file:`license` ディレクトリにコピーしてください。"
 msgstr ""
-"When updating to a newer version, follow the same steps as the initial installation. When "
-"prompted, choose :guilabel:`Replace`. Afterward, copy "
+"When updating to a newer version, follow the same steps as the initial "
+"installation. When prompted, choose :guilabel:`Replace`. Afterward, copy "
 "the license file to :file:`license` directory once again."
 
 #: ../../install/mac.rst:131
 msgid "アプリケーションディレクトリのNanoLaboを削除してください。"
-msgstr "To uninstall NanoLabo, locate and delete it from the Applications directory."
+msgstr ""
+"To uninstall NanoLabo, locate and delete it from the Applications "
+"directory."
 
 #: ../../install/mac.rst:135
 msgid ""
@@ -674,16 +700,16 @@ msgid ""
 "以下に保存されていますので、必要に応じて削除してください。"
 msgstr ""
 "Executable files of calculation engines etc. are stored in "
-":file:`/Library/Application Support/AdvanceSoft` . You can remove them if "
-"desired."
+":file:`/Library/Application Support/AdvanceSoft` . You can remove them if"
+" desired."
 
 #: ../../install/mac.rst:139
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは :file:`ホームディレクトリ/.nanolabo` "
 "に保存されていますので、必要に応じて削除してください。"
 msgstr ""
-"Configuration setting and projects created by this software are stored in "
-":file:`home directory/.nanolabo` . You can remove them if you want."
+"Configuration setting and projects created by this software are stored in"
+" :file:`home directory/.nanolabo` . You can remove them if you want."
 
 #: ../../install/purchase.rst:5
 msgid "ライセンスご購入方法"
@@ -692,15 +718,15 @@ msgstr "Purchasing License"
 #: ../../install/purchase.rst:7
 msgid "本ソフトウェアは有償です。試用ライセンスで1カ月間ご試用いただき、お客様の需要に応えると判断していただけましたら、継続利用のため製品ライセンスのご購入をお願いします。"
 msgstr ""
-"This software operates as shareware. You can try it for one month with a trial "
-"license. If you find that the software meets your needs, please "
+"This software operates as shareware. You can try it for one month with a "
+"trial license. If you find that the software meets your needs, please "
 "purchase a paid license to continue using it."
 
 #: ../../install/purchase.rst:9
 msgid "試用版・製品版とも、ご使用には弊社よりライセンスを取得していただく必要があります。ライセンス形態は実行環境により以下のようになっています。"
 msgstr ""
-"To use either the trial or paid version, please obtain your license from us. The "
-"license model varies based on the environment, as follows:"
+"To use either the trial or paid version, please obtain your license from "
+"us. The license model varies based on the environment, as follows:"
 
 #: ../../install/purchase.rst:11
 msgid "Windows・macOS： ノードロックライセンス"
@@ -718,14 +744,15 @@ msgstr "Linux: floating license"
 msgid "本製品を使用するコンピューターは固定されませんが、ライセンスサーバー（ライセンス認証用のプログラム）を起動するコンピューターが固定されます。"
 msgstr ""
 "This permits use of the software on any computer. However, the license "
-"server (program for license authentication) must be run on one specific computer."
+"server (program for license authentication) must be run on one specific "
+"computer."
 
 #: ../../install/purchase.rst:19
 msgid "また、本ソフトウェアから使用できるオープンソースの計算エンジンについて、有償にて技術サポートを承ります。併せてご利用ください。"
 msgstr ""
 "We also offer paid technical support for the open-source calculation "
-"engines that are compatible with this software. We encourage "
-"you to consider utilizing this service."
+"engines that are compatible with this software. We encourage you to "
+"consider utilizing this service."
 
 #: ../../install/purchase.rst:24
 msgid "エディション"
@@ -862,9 +889,9 @@ msgstr "+600,000 JPY"
 #: ../../install/purchase.rst:78
 msgid "`**`:sup: 買取ライセンス料金には初年度のみ保守サポートサービスが含まれます。２年目以降は別途保守料金が必要です。"
 msgstr ""
-"`**`:sup: The price of the permanent license includes one year of maintenance and support "
-"service. Starting from the second year, an additional maintenance fee will "
-"be required."
+"`**`:sup: The price of the permanent license includes one year of "
+"maintenance and support service. Starting from the second year, an "
+"additional maintenance fee will be required."
 
 #: ../../install/purchase.rst:85
 msgid "技術サポート（万円／年、税抜）"
@@ -901,15 +928,16 @@ msgid ""
 "ご使用になるコンピューター（Windows・macOSでは本製品を使用するコンピューター、Linuxではライセンスサーバーを起動するコンピューター）について、固有のHost"
 " IDを取得し、そのHost IDに対してライセンスファイルを発行します。"
 msgstr ""
-"This software retrieves a unique Host ID from the computer (Windows/macOS "
-"computer where you use this software, or Linux computer where you "
-"run the license server). We then issue a license file corresponding to that specific Host ID."
+"This software retrieves a unique Host ID from the computer (Windows/macOS"
+" computer where you use this software, or Linux computer where you run "
+"the license server). We then issue a license file corresponding to that "
+"specific Host ID."
 
 #: ../../install/purchase.rst:111
 msgid "ライセンス登録後、原則5営業日以内にライセンスファイルをお送りします。"
 msgstr ""
-"After you register the license, we will typically send you a license file "
-"within 5 business days. "
+"After you register the license, we will typically send you a license file"
+" within 5 business days. "
 
 #: ../../install/purchase.rst:116
 msgid "インストール時"
@@ -921,8 +949,8 @@ msgid ""
 ":doc:`Windows<windows>`\\ 、\\ :doc:`Linux<linux>`\\ ）を参照ください。"
 msgstr ""
 "The license registration window will appear during the installation "
-"process. For guidance, please refer to How to Install (\\ :doc:`Windows<windows>`\\ ,"
-" :doc:`Linux<linux>`\\ )."
+"process. For guidance, please refer to How to Install (\\ "
+":doc:`Windows<windows>`\\ , :doc:`Linux<linux>`\\ )."
 
 #: ../../install/purchase.rst:123
 msgid "インストール後または試用期間後"
@@ -961,8 +989,9 @@ msgid ""
 "宛にご希望のライセンス種別と併せてお送りください。"
 msgstr ""
 "When the :guilabel:`License Registration Guidance` window appears, click "
-":guilabel:`Mail` or copy the Host Name and Host ID displayed in the window and send"
-"this information to support.nano@advancesoft.jp along with the license type you wish to order."
+":guilabel:`Mail` or copy the Host Name and Host ID displayed in the "
+"window and sendthis information to support.nano@advancesoft.jp along with"
+" the license type you wish to order."
 
 #: ../../install/purchase.rst:135
 msgid "Windows上からLinuxマシンのHost IDを取得"
@@ -975,16 +1004,17 @@ msgid ""
 "IDを取得できます。"
 msgstr ""
 "You can utilize `remoteLicense <https://remotelicense-"
-"doc.readthedocs.io/en/latest/>`_ tool to conveniently obtain the Host ID of a Linux "
-"machine while using Windows."
+"doc.readthedocs.io/en/latest/>`_ tool to conveniently obtain the Host ID "
+"of a Linux machine while using Windows."
 
 #: ../../install/purchase.rst:139
 msgid ""
 "手順の概要を以下に示します。詳細は\\ `マニュアル <https://remotelicense-"
 "doc.readthedocs.io/ja/latest/>`_\\ を参照してください。"
 msgstr ""
-"Below is the outline of the procedure. For detailed instruction, please refer to the `manual <https"
-"://remotelicense-doc.readthedocs.io/en/latest/>`_\\ ."
+"Below is the outline of the procedure. For detailed instruction, please "
+"refer to the `manual <https://remotelicense-"
+"doc.readthedocs.io/en/latest/>`_\\ ."
 
 #: ../../install/purchase.rst:141
 msgid ""
@@ -997,16 +1027,16 @@ msgstr ""
 #: ../../install/purchase.rst:142
 msgid ":guilabel:`Host` タブでLinuxマシンへの接続情報を設定します。"
 msgstr ""
-"Navigate to the :guilabel:`Host` tab and input the connection details for the Linux "
-"machine."
+"Navigate to the :guilabel:`Host` tab and input the connection details for"
+" the Linux machine."
 
 #: ../../install/purchase.rst:143
 msgid ""
 ":guilabel:`Get Host ID` をクリックし、Host IDが取得できたら :guilabel:`Send Mail of "
 "License Request` をクリックします。"
 msgstr ""
-"Click on :guilabel:`Get Host ID` . Once the Host ID is retrieved, click on "
-":guilabel:`Send Mail of License Request` ."
+"Click on :guilabel:`Get Host ID` . Once the Host ID is retrieved, click "
+"on :guilabel:`Send Mail of License Request` ."
 
 #: ../../install/requirement.rst:5
 msgid "動作環境"
@@ -1059,72 +1089,89 @@ msgstr ""
 #: ../../install/windows.rst:22
 msgid "インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先フォルダにコピーされます。"
 msgstr ""
-"The Java Runtime Environment is bundled with the installer. It will be copied "
-"to the designated installation folder during installation process."
+"The Java Runtime Environment is bundled with the installer. It will be "
+"copied to the designated installation folder during installation process."
 
 #: ../../install/windows.rst:29
 msgid "まず、Advance/NanoLaboのインストーラーを実行します。言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
 msgstr ""
 "First, execute the Advance/NanoLabo installer. If a language selection "
-"window appears, choose a language for the installation process (this choice does "
-"not affect the software's language setting)."
+"window appears, choose a language for the installation process (this "
+"choice does not affect the software's language setting)."
 
 #: ../../install/windows.rst:31
 msgid ""
 "画面の指示に従い、インストールの設定を行ってください。設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo"
 " Toolのインストール、およびライセンスの設定の際に必要になりますので、控えておいていただくようお願いします。"
 msgstr ""
-"Follow the on-screen instructions to configure the installation. Once the "
-"configuration is complete, a summary window will be displayed. The Install"
-" Folder location will be required when you install Advance/NanoLabo Tool and "
-"set up the license. Please make a note of the installation folder."
+"Follow the on-screen instructions to configure the installation. Once the"
+" configuration is complete, a summary window will be displayed. The "
+"Install Folder location will be required when you install "
+"Advance/NanoLabo Tool and set up the license. Please make a note of the "
+"installation folder."
 
 #: ../../install/windows.rst:58
 msgid ""
 "ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。インストール先の "
 ":file:`license` フォルダーにコピーしてください。"
 msgstr ""
-"After you complete the license registration, we will typically send you a license file ( "
-":file:`nanolabo.lic` ) within 5 business days. Please copy this file to "
-":file:`license` folder in your installation directory."
+"After you complete the license registration, we will typically send you a"
+" license file ( :file:`nanolabo.lic` ) within 5 business days. Please "
+"copy this file to :file:`license` folder in your installation directory."
 
 #: ../../install/windows.rst:67
 msgid "直接起動する場合は、インストール先の :file:`bin` フォルダーにある :file:`NanoLabo.exe` を起動してください。"
 msgstr ""
-"To launch the software directly, navigate to the :file:`bin` folder in the "
-"installation directory and execute :file:`NanoLabo.exe` ."
+"To launch the software directly, navigate to the :file:`bin` folder in "
+"the installation directory and execute :file:`NanoLabo.exe` ."
 
-#: ../../install/windows.rst:101
+#: ../../install/windows.rst:79
+msgid "（任意）汎用タイトバインディング法(ThreeBodyTB)の設定"
+msgstr "(Optional) Configuration for versatile tight-binding method (ThreeBodyTB)"
+
+#: ../../install/windows.rst:81
+msgid ""
+"汎用タイトバインディング法(ThreeBodyTB)の計算を行うためには、別途Julia環境での設定が必要です。設定方法は\\ :doc:`こちら"
+" </usage/inputeditortb3>`\\ を参照してください。"
+msgstr ""
+"To utilize the versatile tight-binding method (ThreeBodyTB) "
+"calculations, additional settings in the Julia environment are "
+"necessary. Please refer :doc:`here "
+"</usage/inputeditortb3>` for the detailed setup instructions."
+
+#: ../../install/windows.rst:108
 msgid "次のいずれかの方法でアンインストーラーを起動してください。"
 msgstr "Use one of the following procedures to run the uninstaller."
 
-#: ../../install/windows.rst:103
+#: ../../install/windows.rst:110
 msgid ""
 "スタートボタンを右クリックし、「アプリと機能」を開きます。リストの中にあるAdvance/NanoLabo "
 "Toolをクリックし、アンインストールボタンをクリックします。"
 msgstr ""
-"Right click the Start button and select \"Apps and Features\"\\ . Find and click "
-"Advance/NanoLabo Tool from the list. Click Uninstall button."
+"Right click the Start button and select \"Apps and Features\"\\ . Find "
+"and click Advance/NanoLabo Tool from the list. Click Uninstall button."
 
-#: ../../install/windows.rst:104
+#: ../../install/windows.rst:111
 msgid ""
 "スタートメニューから「Windows システム ツール」内の「コントロール "
 "パネル」を開きます。「プログラムのアンインストール」（アイコン表示の場合は「プログラムと機能」）を開き、リストの中にあるAdvance/NanoLabo"
 " Toolをダブルクリックします。"
 msgstr ""
-"From the Start menu, navigate to  \"Windows System\" and select \"Control Panel\"\\ . Access "
-"\"Uninstall a program\" (or select \"Programs and Features\" if in icons "
-"view) and double click on Advance/NanoLabo Tool in the list."
+"From the Start menu, navigate to  \"Windows System\" and select \"Control"
+" Panel\"\\ . Access \"Uninstall a program\" (or select \"Programs and "
+"Features\" if in icons view) and double click on Advance/NanoLabo Tool in"
+" the list."
 
-#: ../../install/windows.rst:105
+#: ../../install/windows.rst:112
 msgid ""
 "インストール先の :file:`_NanoLabo_Tool_installation` フォルダーにある :file:`Change "
 "NanoLabo Tool Installation.exe` を起動します。"
 msgstr ""
-"Locate the :file:`_NanoLabo_Tool_installation` folder in your installation directory. "
-"Execute :file:`Change NanoLabo Tool Installation.exe` . "
+"Locate the :file:`_NanoLabo_Tool_installation` folder in your "
+"installation directory. Execute :file:`Change NanoLabo Tool "
+"Installation.exe` . "
 
-#: ../../install/windows.rst:117
+#: ../../install/windows.rst:124
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\.nanolabo` "
@@ -1132,11 +1179,11 @@ msgid ""
 msgstr ""
 "Configuration and projects created by this software are saved in a "
 "location separate from the installation directory ( "
-":file:`C:\\\\Users\\\\username\\\\.nanolabo` ) . These files are not deleted during "
-"the uninstallation process. If you wish to remove them, you will "
-"need to do so manually."
+":file:`C:\\\\Users\\\\username\\\\.nanolabo` ) . These files are not "
+"deleted during the uninstallation process. If you wish to remove them, "
+"you will need to do so manually."
 
-#: ../../install/windows.rst:119
+#: ../../install/windows.rst:126
 msgid ""
 "また、Java VMの設定は "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\AppData\\\\Local\\\\VirtualStore` "

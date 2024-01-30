@@ -189,6 +189,13 @@ Java VMの引数を追加することで表示が改善します。
 
 LAMMPSの計算でグラフニューラルネットワーク汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\ :doc:`Open Catalyst Projectの設定 </usage/ocp>`\ 、\ :doc:`M3GNetの設定 </usage/m3gnet>`\ 、\ :doc:`CHGNetの設定 </usage/chgnet>`\ をそれぞれ参照してください。
 
+.. _tb3l:
+
+（任意）汎用タイトバインディング法(ThreeBodyTB)の設定
+========================================================
+
+汎用タイトバインディング法(ThreeBodyTB)の計算を行うためには、別途Julia環境での設定が必要です。設定方法は\ :doc:`こちら </usage/inputeditortb3>`\ を参照してください。
+
 .. _sshl:
 
 （任意）リモート計算の設定
