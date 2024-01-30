@@ -103,6 +103,14 @@ NanoLaboへの設定
 
  代替として、モデルデータを手動でダウンロードすることもできます。\ `m3gnetのリポジトリのMP-2021.2.8-EFSフォルダ <https://github.com/materialsvirtuallab/m3gnet/tree/main/pretrained/MP-2021.2.8-EFS>`_\ 内のファイルをダウンロードし、 :file:`(condaのインストール先)/lib/site-packages/m3gnet/models/MP-2021.2.8-EFS` に保存してください。
 
+ また、MatGL版M3GNetでも同じ理由で次のエラーが出る場合があります。
+
+ .. code-block:: none
+
+  ValueError: No valid model found in pre-trained_models at https://github.com/materialsvirtuallab/matgl/raw/main/pretrained_models/.
+
+ MatGL版の場合は、\ `matglのリポジトリ <https://github.com/materialsvirtuallab/matgl/tree/main/pretrained_models>`_\ に各モデル名のフォルダがありますので、使用するモデルのファイルをダウンロードし、 :file:`(ホームディレクトリ)/.cache/matgl/(モデル名)` に保存してください。
+
 .. hint::
 
  Windowsで、実行時に次のようなエラーが出る場合があります。
