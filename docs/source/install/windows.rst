@@ -111,6 +111,15 @@ NanoLaboからリモートのマシンに計算ジョブを投入する場合、
 * スタートメニューから「Windows システム ツール」内の「コントロール パネル」を開きます。「プログラムのアンインストール」（アイコン表示の場合は「プログラムと機能」）を開き、リストの中にあるAdvance/NanoLabo Toolをダブルクリックします。
 * インストール先の :file:`_NanoLabo_Tool_installation` フォルダーにある :file:`Change NanoLabo Tool Installation.exe` を起動します。
 
+.. note::
+
+   NanoLabo Toolのアンインストーラーを起動しようとしたときに、「ご使用のシステムで適切な Java 仮想マシンが見つかりませんでした。」というエラーが表示される場合があります。Java実行環境をインストールすることで実行できるようになりますが、以下の手順でも回避できます。
+
+   #. インストール先の :file:`_NanoLabo_installation\\Change NanoLabo Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行をコピーします。
+   #. :file:`_NanoLabo_Tool_installation\\Change NanoLabo Tool Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行を探して、コピーした内容を上書きします。
+   
+    - :file:`Program Files` への書き込みは制限されているため、管理者権限で実行したテキストエディタを使うか、いったんファイルを別のフォルダに移して編集してから元の場所に戻してください。
+
 画面の指示に従い、アンインストールを行ってください。
 
 Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-30 15:21+0900\n"
+"POT-Creation-Date: 2024-02-02 20:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,7 +176,7 @@ msgstr ""
 "At the final window, click \"Done\" to finish the installation of the "
 "Advance/NanoLabo Tool."
 
-#: ../../install/linux.rst:83 ../../install/mac.rst:105
+#: ../../install/linux.rst:83 ../../install/mac.rst:112
 #: ../../install/windows.rst:56
 msgid "ライセンスの設定"
 msgstr "Setting license"
@@ -421,11 +421,26 @@ msgstr ""
 ":doc:`CHGNet setting </usage/chgnet>`."
 
 #: ../../install/linux.rst:195 ../../install/mac.rst:98
+#: ../../install/windows.rst:79
+msgid "（任意）汎用タイトバインディング法(ThreeBodyTB)の設定"
+msgstr "(Optional) Configuration for versatile tight-binding method (ThreeBodyTB)"
+
+#: ../../install/linux.rst:197 ../../install/mac.rst:100
+#: ../../install/windows.rst:81
+msgid ""
+"汎用タイトバインディング法(ThreeBodyTB)の計算を行うためには、別途Julia環境での設定が必要です。設定方法は\\ :doc:`こちら"
+" </usage/inputeditortb3>`\\ を参照してください。"
+msgstr ""
+"To utilize the versatile tight-binding method (ThreeBodyTB) calculations,"
+" additional settings in the Julia environment are necessary. Please refer"
+" :doc:`here </usage/inputeditortb3>` for the detailed setup instructions."
+
+#: ../../install/linux.rst:202 ../../install/mac.rst:105
 #: ../../install/windows.rst:86
 msgid "（任意）リモート計算の設定"
 msgstr "(Optional) Setting up for remote calculation"
 
-#: ../../install/linux.rst:197 ../../install/mac.rst:100
+#: ../../install/linux.rst:204 ../../install/mac.rst:107
 #: ../../install/windows.rst:88
 msgid ""
 "NanoLaboからリモートのマシンに計算ジョブを投入する場合、SSH接続の設定が必要です。設定方法は\\ :doc:`こちら "
@@ -435,25 +450,25 @@ msgstr ""
 " to establish an SSH connection. Please refer :doc:`here "
 "</usage/sshserver>` for the detailed setup instructions."
 
-#: ../../install/linux.rst:202 ../../install/mac.rst:116
+#: ../../install/linux.rst:209 ../../install/mac.rst:123
 #: ../../install/windows.rst:93
 msgid "更新・アップグレード"
 msgstr "Update/Upgrade"
 
-#: ../../install/linux.rst:204 ../../install/mac.rst:118
+#: ../../install/linux.rst:211 ../../install/mac.rst:125
 #: ../../install/windows.rst:95
 msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
 msgstr ""
 "When upgrading from the trial version to the production version, there is"
 " no need for an additional installation. Simply replace the license file."
 
-#: ../../install/linux.rst:206 ../../install/windows.rst:97
+#: ../../install/linux.rst:213 ../../install/windows.rst:97
 msgid "新しいバージョンにアップデートされる場合、上書きインストールが可能です。"
 msgstr ""
 "When updating to a newer version, you can install directly over the "
 "existing version."
 
-#: ../../install/linux.rst:208 ../../install/mac.rst:122
+#: ../../install/linux.rst:215 ../../install/mac.rst:129
 #: ../../install/windows.rst:99
 msgid ""
 "NanoLaboと同時にNanoLabo Toolが更新されている場合は、そちらもアップデートしてください。最新版のNanoLabo "
@@ -464,7 +479,7 @@ msgstr ""
 "conjunction with the calculation engines provided in the latest version "
 "of NanoLabo Tool."
 
-#: ../../install/linux.rst:210 ../../install/mac.rst:124
+#: ../../install/linux.rst:217 ../../install/mac.rst:131
 #: ../../install/windows.rst:101
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
@@ -472,12 +487,12 @@ msgstr ""
 " separately from the installation directory. This ensures that you can "
 "continue using the software seamlessly, even after the update."
 
-#: ../../install/linux.rst:215 ../../install/mac.rst:129
+#: ../../install/linux.rst:222 ../../install/mac.rst:136
 #: ../../install/windows.rst:106
 msgid "アンインストール"
 msgstr "Uninstallation"
 
-#: ../../install/linux.rst:217
+#: ../../install/linux.rst:224
 msgid ""
 "端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
 ":file:`Change NanoLabo Tool Installation` を起動します。"
@@ -486,30 +501,30 @@ msgstr ""
 "in :file:`_NanoLabo_Tool_installation` directory at your installation "
 "destination."
 
-#: ../../install/linux.rst:219
+#: ../../install/linux.rst:226
 msgid ""
 "$ AdvanceSoft/NanoLabo/_NanoLabo_Tool_installation/Change\\ NanoLabo\\ "
 "Tool\\ Installation"
 msgstr ""
 
-#: ../../install/linux.rst:223 ../../install/windows.rst:114
+#: ../../install/linux.rst:230 ../../install/windows.rst:123
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow the on-screen instructions to proceed with the uninstallation."
 
-#: ../../install/linux.rst:225 ../../install/windows.rst:116
+#: ../../install/linux.rst:232 ../../install/windows.rst:125
 msgid "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。"
 msgstr ""
 "After uninstalling the Advance/NanoLabo Tool, make sure to also uninstall"
 " Advance/NanoLabo."
 
-#: ../../install/linux.rst:229 ../../install/windows.rst:120
+#: ../../install/linux.rst:236 ../../install/windows.rst:129
 msgid "アンインストールの際に、インストール先のライセンスファイルは削除されずに残ります。また、インストールログファイルが残る場合があります。その際はお手数ですが手動で削除してください。"
 msgstr ""
 "The license file in the installation directory is not automatically "
 "removed during the uninstallation process. Additionally, installation log"
 " files might remain. If so, please delete them manually."
 
-#: ../../install/linux.rst:233
+#: ../../install/linux.rst:240
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` "
 "）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"
@@ -653,13 +668,13 @@ msgstr ""
 ":guilabel:`OK` , but the dialog will not show up during subsequent "
 "startups if the process is successful."
 
-#: ../../install/mac.rst:107
+#: ../../install/mac.rst:114
 msgid "ソフトウェアを起動すると、ライセンス登録を案内する画面が表示されます。"
 msgstr ""
 "A registration window for license activation appears when you launch the "
 "software."
 
-#: ../../install/mac.rst:109
+#: ../../install/mac.rst:116
 msgid ""
 "ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。 "
 ":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
@@ -670,7 +685,7 @@ msgstr ""
 " days. Please copy this file to :file:`/Library/Application "
 "Support/AdvanceSoft/NanoLabo/license` directory."
 
-#: ../../install/mac.rst:111
+#: ../../install/mac.rst:118
 msgid ""
 "Finderのメニューバーから :menuselection:`移動 --> フォルダへ移動...` "
 "をクリックし、上記パスを入力していただくと簡単です。"
@@ -679,7 +694,7 @@ msgstr ""
 ":menuselection:`Go --> Go to Folder...` in the menu bar and enter the "
 "path provided above."
 
-#: ../../install/mac.rst:120
+#: ../../install/mac.rst:127
 msgid ""
 "新しいバージョンにアップデートされる場合は、インストール時と同じ操作を行い、確認が表示されたら「置き換える」を選択してください。アップデート後、ライセンスファイルを再度"
 " :file:`license` ディレクトリにコピーしてください。"
@@ -688,13 +703,13 @@ msgstr ""
 "installation. When prompted, choose :guilabel:`Replace`. Afterward, copy "
 "the license file to :file:`license` directory once again."
 
-#: ../../install/mac.rst:131
+#: ../../install/mac.rst:138
 msgid "アプリケーションディレクトリのNanoLaboを削除してください。"
 msgstr ""
 "To uninstall NanoLabo, locate and delete it from the Applications "
 "directory."
 
-#: ../../install/mac.rst:135
+#: ../../install/mac.rst:142
 msgid ""
 "計算エンジンの実行ファイル等は :file:`/Library/Application Support/AdvanceSoft` "
 "以下に保存されていますので、必要に応じて削除してください。"
@@ -703,7 +718,7 @@ msgstr ""
 ":file:`/Library/Application Support/AdvanceSoft` . You can remove them if"
 " desired."
 
-#: ../../install/mac.rst:139
+#: ../../install/mac.rst:146
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは :file:`ホームディレクトリ/.nanolabo` "
 "に保存されていますので、必要に応じて削除してください。"
@@ -1125,20 +1140,6 @@ msgstr ""
 "To launch the software directly, navigate to the :file:`bin` folder in "
 "the installation directory and execute :file:`NanoLabo.exe` ."
 
-#: ../../install/windows.rst:79
-msgid "（任意）汎用タイトバインディング法(ThreeBodyTB)の設定"
-msgstr "(Optional) Configuration for versatile tight-binding method (ThreeBodyTB)"
-
-#: ../../install/windows.rst:81
-msgid ""
-"汎用タイトバインディング法(ThreeBodyTB)の計算を行うためには、別途Julia環境での設定が必要です。設定方法は\\ :doc:`こちら"
-" </usage/inputeditortb3>`\\ を参照してください。"
-msgstr ""
-"To utilize the versatile tight-binding method (ThreeBodyTB) "
-"calculations, additional settings in the Julia environment are "
-"necessary. Please refer :doc:`here "
-"</usage/inputeditortb3>` for the detailed setup instructions."
-
 #: ../../install/windows.rst:108
 msgid "次のいずれかの方法でアンインストーラーを起動してください。"
 msgstr "Use one of the following procedures to run the uninstaller."
@@ -1171,7 +1172,43 @@ msgstr ""
 "installation directory. Execute :file:`Change NanoLabo Tool "
 "Installation.exe` . "
 
-#: ../../install/windows.rst:124
+#: ../../install/windows.rst:116
+msgid ""
+"NanoLabo Toolのアンインストーラーを起動しようとしたときに、「ご使用のシステムで適切な Java "
+"仮想マシンが見つかりませんでした。」というエラーが表示される場合があります。Java実行環境をインストールすることで実行できるようになりますが、以下の手順でも回避できます。"
+msgstr ""
+"When attempting to launch the NanoLabo Tool uninstaller, you may encounter an error stating, "
+"'Could not find a valid Java virtual machine on this system to load.' While installing the "
+"Java Runtime Environment allows it to run, you can also bypass this issue with the following steps:"
+
+#: ../../install/windows.rst:118
+msgid ""
+"インストール先の :file:`_NanoLabo_installation\\\\Change NanoLabo "
+"Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行をコピーします。"
+msgstr ""
+"Open :file:`_NanoLabo_installation\\\\Change NanoLabo Installation.lax` "
+"located in the installation directory and copy the line starting with "
+"``lax.nl.current.vm`` ."
+
+#: ../../install/windows.rst:119
+msgid ""
+":file:`_NanoLabo_Tool_installation\\\\Change NanoLabo Tool "
+"Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行を探して、コピーした内容を上書きします。"
+msgstr ""
+"Open :file:`_NanoLabo_Tool_installation\\\\Change NanoLabo Tool "
+"Installation.lax` and locate the line starting with "
+"``lax.nl.current.vm`` . Overwrite the content with the copied line."
+
+#: ../../install/windows.rst:121
+msgid ""
+":file:`Program Files` "
+"への書き込みは制限されているため、管理者権限で実行したテキストエディタを使うか、いったんファイルを別のフォルダに移して編集してから元の場所に戻してください。"
+msgstr ""
+"Writing to :file:`Program Files` is restricted, so either use a text editor "
+"executed with administrator privileges or temporarily move the file to "
+"another folder, edit it there, and then move it back to its original location."
+
+#: ../../install/windows.rst:133
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\.nanolabo` "
@@ -1183,7 +1220,7 @@ msgstr ""
 "deleted during the uninstallation process. If you wish to remove them, "
 "you will need to do so manually."
 
-#: ../../install/windows.rst:126
+#: ../../install/windows.rst:135
 msgid ""
 "また、Java VMの設定は "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\AppData\\\\Local\\\\VirtualStore` "
