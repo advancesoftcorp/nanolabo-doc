@@ -127,7 +127,7 @@
 #. :guilabel:`FlexNet License Finder` というタイトルのウィンドウが表示された場合、 :guilabel:`Cancel` をクリックして閉じてください。
 #. :guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示された場合、 :guilabel:`OK` をクリックして閉じてください。
 #. :guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。
-#. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 support.nano@advancesoft.jp 宛にご希望のライセンス種別と併せてお送りください。
+#. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 `support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ 宛にご希望のライセンス種別と併せてお送りください。
 
 .. _id-remote:
 

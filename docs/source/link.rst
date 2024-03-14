@@ -156,6 +156,12 @@ Simple DFT-D3ドキュメント
 Gitリポジトリ
  https://github.com/dftd3/simple-dftd3
 
+SevenNet
+============
+
+Gitリポジトリ
+ https://github.com/MDIL-SNU/SevenNet
+
 ThreeBodyTB
 ============
 

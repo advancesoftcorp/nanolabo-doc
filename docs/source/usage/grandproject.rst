@@ -44,7 +44,9 @@ NeuralMD
 
   - Windowsから操作する場合、弊社ツール\ `remoteLicense <https://remotelicense-doc.readthedocs.io/ja/latest/>`_\ を使うことで、簡単にLinuxマシン上でライセンスサーバーを起動することができます。詳細は\ `マニュアル <https://remotelicense-doc.readthedocs.io/ja/latest/>`_\ を参照してください。
 
-  - Linux上で操作する場合、NeuralMDのインストーラーにライセンスサーバーの実行ファイルが含まれていますので、ライセンスサーバーとして使うマシンにインストールを行い、\ `ドキュメント <https://neuralmd-doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\ に従ってライセンスサーバーを起動してください。NanoLaboの方では、必要に応じ、:guilabel:`Job Script` の設定画面で環境変数 :envvar:`ADVANCED_LICENSE_FILE` を追加してください。
+  - Linux上で操作する場合、NeuralMDのインストーラーにライセンスサーバーの実行ファイルが含まれていますので、ライセンスサーバーとして使うマシンにインストールを行い、\ `ドキュメント <https://neuralmd-doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\ に従ってライセンスサーバーを起動してください。また、環境変数 :envvar:`ADVANCED_LICENSE_FILE` にライセンスファイルのパスを設定する必要がありますので、NanoLaboの\ :ref:`Job Script設定画面 <ssh_jobtab>`\ でコマンドを追加するか、シェルの初期化ファイルで設定してください。
+
+  - ライセンスサーバーとは別のマシンでNeuralMDを実行する場合は、実行するマシンのアクセスできる場所にライセンスファイルを置き、環境変数 :envvar:`ADVANCED_LICENSE_FILE` にファイルパスを設定（NanoLaboの\ :ref:`Job Script設定画面 <ssh_jobtab>`\ でコマンドを追加するか、シェルの初期化ファイルで設定）してください。
 
   - メトロポリス法による構造生成・ニューラルネットワークのテストについては、ライセンスは必要ありません。
 
@@ -157,7 +159,7 @@ Generating Geometries
     自己学習ハイブリッドモンテカルロ法(SLHMC)を実行し、その過程で生成された構造を使います。 :guilabel:`Edit SLHMC Input` のボタンをクリックするとSLHMCの設定画面が開きます。設定を行ったらタブを閉じて戻り、 :guilabel:`Run` ボタンで計算を実行してください。
 
     - `SLHMCの設定項目詳細（NeuralMDマニュアル） <https://neuralmd-doc.readthedocs.io/ja/latest/slhmc/prop.html>`_
-    - ここでのSLHMC設定画面のデフォルトパラメータは構造生成を目的としたものであるため、力場生成時とは異なるものになっています。
+    - ここでのSLHMC設定画面のデフォルトパラメーターは構造生成を目的としたものであるため、力場生成時とは異なるものになっています。
     - SLHMCの過程でSCF計算が行われるため、別途Quantum ESPRESSOの計算実行は必要ありません。
 
  .. note:: 座標を固定した原子がある場合、ランダム構造生成時にもその座標は固定されたままになります。
