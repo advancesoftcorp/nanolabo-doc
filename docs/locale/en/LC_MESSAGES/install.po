@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE.fuzzy
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2018, AdvanceSoft Corporation
 # This file is distributed under the same license as the Advance/NanoLabo
 # package.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-02 20:02+0900\n"
+"POT-Creation-Date: 2024-03-15 10:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1000,12 +1000,13 @@ msgstr "If a window titled :guilabel:`Error` appears, click :guilabel:`OK`\\ ."
 #: ../../install/purchase.rst:130
 msgid ""
 ":guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` "
-"をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 support.nano@advancesoft.jp "
-"宛にご希望のライセンス種別と併せてお送りください。"
+"をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 `support.nano@advancesoft.jp "
+"<mailto:support.nano@advancesoft.jp>`_ 宛にご希望のライセンス種別と併せてお送りください。"
 msgstr ""
 "When the :guilabel:`License Registration Guidance` window appears, click "
 ":guilabel:`Mail` or copy the Host Name and Host ID displayed in the "
-"window and sendthis information to support.nano@advancesoft.jp along with"
+"window and sendthis information to `support.nano@advancesoft.jp "
+"<mailto:support.nano@advancesoft.jp>`_ along with"
 " the license type you wish to order."
 
 #: ../../install/purchase.rst:135
@@ -1177,9 +1178,11 @@ msgid ""
 "NanoLabo Toolのアンインストーラーを起動しようとしたときに、「ご使用のシステムで適切な Java "
 "仮想マシンが見つかりませんでした。」というエラーが表示される場合があります。Java実行環境をインストールすることで実行できるようになりますが、以下の手順でも回避できます。"
 msgstr ""
-"When attempting to launch the NanoLabo Tool uninstaller, you may encounter an error stating, "
-"'Could not find a valid Java virtual machine on this system to load.' While installing the "
-"Java Runtime Environment allows it to run, you can also bypass this issue with the following steps:"
+"When attempting to launch the NanoLabo Tool uninstaller, you may "
+"encounter an error stating, 'Could not find a valid Java virtual machine "
+"on this system to load.' While installing the Java Runtime Environment "
+"allows it to run, you can also bypass this issue with the following "
+"steps:"
 
 #: ../../install/windows.rst:118
 msgid ""
@@ -1196,17 +1199,18 @@ msgid ""
 "Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行を探して、コピーした内容を上書きします。"
 msgstr ""
 "Open :file:`_NanoLabo_Tool_installation\\\\Change NanoLabo Tool "
-"Installation.lax` and locate the line starting with "
-"``lax.nl.current.vm`` . Overwrite the content with the copied line."
+"Installation.lax` and locate the line starting with ``lax.nl.current.vm``"
+" . Overwrite the content with the copied line."
 
 #: ../../install/windows.rst:121
 msgid ""
 ":file:`Program Files` "
 "への書き込みは制限されているため、管理者権限で実行したテキストエディタを使うか、いったんファイルを別のフォルダに移して編集してから元の場所に戻してください。"
 msgstr ""
-"Writing to :file:`Program Files` is restricted, so either use a text editor "
-"executed with administrator privileges or temporarily move the file to "
-"another folder, edit it there, and then move it back to its original location."
+"Writing to :file:`Program Files` is restricted, so either use a text "
+"editor executed with administrator privileges or temporarily move the "
+"file to another folder, edit it there, and then move it back to its "
+"original location."
 
 #: ../../install/windows.rst:133
 msgid ""

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 10:47+0900\n"
+"POT-Creation-Date: 2024-03-15 10:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -283,7 +283,7 @@ msgid "https://opencatalystproject.org/"
 msgstr ""
 
 #: ../../link.rst:118 ../../link.rst:130 ../../link.rst:139 ../../link.rst:148
-#: ../../link.rst:157 ../../link.rst:166
+#: ../../link.rst:157 ../../link.rst:163 ../../link.rst:172
 msgid "Gitリポジトリ"
 msgstr "Git repository"
 
@@ -360,50 +360,58 @@ msgid "https://github.com/dftd3/simple-dftd3"
 msgstr ""
 
 #: ../../link.rst:160
-msgid "ThreeBodyTB"
+msgid "SevenNet"
 msgstr ""
 
 #: ../../link.rst:163
-msgid "ThreeBodyTBドキュメント"
-msgstr "ThreeBodyTB document"
-
-#: ../../link.rst:163
-msgid "https://pages.nist.gov/ThreeBodyTB.jl/"
+msgid "https://github.com/MDIL-SNU/SevenNet"
 msgstr ""
 
 #: ../../link.rst:166
+msgid "ThreeBodyTB"
+msgstr ""
+
+#: ../../link.rst:169
+msgid "ThreeBodyTBドキュメント"
+msgstr "ThreeBodyTB document"
+
+#: ../../link.rst:169
+msgid "https://pages.nist.gov/ThreeBodyTB.jl/"
+msgstr ""
+
+#: ../../link.rst:172
 msgid "https://github.com/usnistgov/ThreeBodyTB.jl"
 msgstr ""
 
-#: ../../link.rst:171
+#: ../../link.rst:177
 msgid "材料データベース"
 msgstr "Materials database"
 
-#: ../../link.rst:174
+#: ../../link.rst:180
 msgid "Materials Project"
 msgstr ""
 
-#: ../../link.rst:174
+#: ../../link.rst:180
 msgid "https://materialsproject.org/"
 msgstr ""
 
-#: ../../link.rst:177
+#: ../../link.rst:183
 msgid "PubChem"
 msgstr ""
 
-#: ../../link.rst:177
+#: ../../link.rst:183
 msgid "https://pubchem.ncbi.nlm.nih.gov/"
 msgstr ""
 
-#: ../../link.rst:180
+#: ../../link.rst:186
 msgid "Matlantis"
 msgstr ""
 
-#: ../../link.rst:183
+#: ../../link.rst:189
 msgid "Matlantis\\ |tm|\\ ホームページ"
 msgstr "Matlantis\\ |tm| homepage"
 
-#: ../../link.rst:183
+#: ../../link.rst:189
 msgid "https://matlantis.com/ja/"
 msgstr "https://matlantis.com/"
 
