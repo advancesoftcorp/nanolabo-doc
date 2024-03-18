@@ -9,12 +9,6 @@ M3GNet汎用力場を使うための設定
 Pythonの設定
 ===============
 
-.. note:: 
-
- 現在、NanoLabo同梱のLAMMPSは最新のmatglパッケージに対応しておりません。今後の更新で対応する予定ですが、暫定的に変更前時点(0.9.1)のmatglをお使いいただくようお願いいたします。
-
- 以下の説明は0.9.1を使うように変更済みですが、もし既に最新版のmatglをインストールされてしまった場合は、 ``pip install matgl==0.9.1`` を実行してインストールし直してください。
-
 LAMMPSからM3GNet汎用力場（\ `従来版 <https://github.com/materialsvirtuallab/m3gnet>`_\ 、\ `MatGL版 <https://github.com/materialsvirtuallab/matgl>`_\ ）＋\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\ による補正を使うために必要な設定手順を説明します。
 
 従来版のM3GNetは単独のパッケージとして公開されましたが、その後継となるバージョンがMaterials Graph Library(MatGL)に含まれる形で新たに公開されています。アドバンスソフト改修版LAMMPSでは、従来版に同梱されている学習済みモデル ``MP-2021.2.8-EFS`` を使う場合は従来版のM3GNetを、それ以外の場合はMatGL版のM3GNetを選んで実行するようになっています。
@@ -70,7 +64,7 @@ LAMMPSからM3GNet汎用力場（\ `従来版 <https://github.com/materialsvirtu
 
      .. code-block:: console
 
-         pip install m3gnet matgl==0.9.1
+         pip install m3gnet matgl
          conda install simple-dftd3 dftd3-python -c conda-forge
 
 .. _m3gnetnanolabo:
