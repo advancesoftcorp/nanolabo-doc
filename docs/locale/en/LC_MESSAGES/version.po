@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-15 10:28+0900\n"
+"POT-Creation-Date: 2024-03-25 12:36+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "バージョン情報"
 msgstr "Version Information"
 
 #: ../../version.rst:36
-msgid "2024/--/-- バージョン2.9.2"
-msgstr "2024/--/-- Version 2.9.2"
+msgid "2024/03/25 バージョン2.9.2"
+msgstr "2024/03/25 Version 2.9.2"
 
 #: ../../version.rst:8 ../../version.rst:39 ../../version.rst:91
 #: ../../version.rst:122 ../../version.rst:148 ../../version.rst:174
@@ -37,12 +37,15 @@ msgstr "New features"
 
 #: ../../version.rst:10
 msgid "ChatGPTを活用した、NanoLaboの使い方に関するチャットボット機能を搭載"
-msgstr "added chatbot functionality utilizing ChatGPT for questions about how to use"
-" NanoLabo"
+msgstr ""
+"added chatbot functionality utilizing ChatGPT for questions about how to "
+"use NanoLabo"
 
 #: ../../version.rst:11
 msgid "マルチGPU対応の汎用GNN力場\"SevenNet\"のインターフェースを実装"
-msgstr "added interface for \"SevenNet\", a multi-GPU compatible GNN versatile force field"
+msgstr ""
+"added interface for \"SevenNet\", a multi-GPU compatible GNN versatile "
+"force field"
 
 #: ../../version.rst:12
 msgid "ツールバーのボタンの表示／非表示設定"
@@ -62,11 +65,15 @@ msgstr "LAMMPS: support for deformation in 2D and 1D directions of cell shape"
 
 #: ../../version.rst:16
 msgid "SSHサーバー設定画面で、設定の並び替えなどができる編集画面を追加"
-msgstr "added editing interface in SSH server settings to allow reordering of configurations etc."
+msgstr ""
+"added editing interface in SSH server settings to allow reordering of "
+"configurations etc."
 
 #: ../../version.rst:17
 msgid "SSHサーバー設定画面で、設定を新規作成する際に既存の設定内容をコピーする機能を追加"
-msgstr "added functionality to copy existing settings when creating new configurations in SSH server settings"
+msgstr ""
+"added functionality to copy existing settings when creating new "
+"configurations in SSH server settings"
 
 #: ../../version.rst:19
 msgid "NeuralMD: Ver.1.9.2に対応した機能追加"
@@ -85,7 +92,9 @@ msgstr "Change / fix"
 
 #: ../../version.rst:25
 msgid "QE: 孤立原子系のOccupationsのデフォルトをFixedからSmearingに変更"
-msgstr "QE: change default Occupations of isolated atomic systems from Fixed to Smearing"
+msgstr ""
+"QE: change default Occupations of isolated atomic systems from Fixed to "
+"Smearing"
 
 #: ../../version.rst:26
 msgid "SLHMC: SCF計算が収束しなかった場合のデータをプロットから除外"
@@ -101,7 +110,9 @@ msgstr "LAMMPS: compatibility with the latest version of MatGL"
 
 #: ../../version.rst:29
 msgid "LAMMPS: GNN力場使用時に元素名Pmが正しく認識されない不具合を修正"
-msgstr "LAMMPS: fix for the issue where element name Pm is not recognized correctly when using GNN force fields"
+msgstr ""
+"LAMMPS: fix for the issue where element name Pm is not recognized "
+"correctly when using GNN force fields"
 
 #: ../../version.rst:30
 msgid "エクスプローラーでWord/Excel/PowerPointの一時ファイルを非表示化"
@@ -109,7 +120,9 @@ msgstr "hide temporary files of Word/Excel/PowerPoint in explorer"
 
 #: ../../version.rst:31
 msgid "（Mac版）内蔵ウェブブラウザーにてズームのショートカットキーが使えない不具合を修正"
-msgstr "(Mac) fix for the issue where zoom shortcut keys are not functional in the built-in web browser"
+msgstr ""
+"(Mac) fix for the issue where zoom shortcut keys are not functional in "
+"the built-in web browser"
 
 #: ../../version.rst:32
 msgid "内蔵ウェブブラウザーのライブラリJxBrowserをアップデート(7.34\\ |rarr|\\ 7.37.1)"
@@ -117,11 +130,15 @@ msgstr "update the build-in web browser library JxBrowser (7.34\\ |rarr|\\ 7.37.
 
 #: ../../version.rst:33
 msgid "SSHサーバー設定のFOCUSスパコン用のプリセット設定を最新版に改訂"
-msgstr "revise FOCUS supercomputer preset settings in SSH server configuration to the latest version"
+msgstr ""
+"revise FOCUS supercomputer preset settings in SSH server configuration to"
+" the latest version"
 
 #: ../../version.rst:34
 msgid "リモート実行時、PBSのqstatコマンドで長いジョブIDの末尾が省略されている場合に対応"
-msgstr "for remote execution, support cases where long job IDs are truncated at the end in the output of the qstat command in PBS"
+msgstr ""
+"for remote execution, support cases where long job IDs are truncated at "
+"the end in the output of the qstat command in PBS"
 
 #: ../../version.rst:36 ../../version.rst:88 ../../version.rst:119
 #: ../../version.rst:138 ../../version.rst:171 ../../version.rst:216

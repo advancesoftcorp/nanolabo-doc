@@ -13,15 +13,15 @@
 
 - Intel版：従来のマシンではこちらの2つをダウンロードしてください。
 
- `Advance/NanoLabo (ver.2.9.1) Intel版 <https://www.nanolabo.advancesoft.jp/?wpdmdl=1312>`_
+ `Advance/NanoLabo (ver.2.9.2) Intel版 <https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2174>`_
 
- `Advance/NanoLabo Tool (ver.2.9.1) Intel版 <https://www.nanolabo.advancesoft.jp/?wpdmdl=1334>`_
+ `Advance/NanoLabo Tool (ver.2.9.2) Intel版 <https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2172>`_
 
 - ARM版：Apple M1搭載マシンではこちらの2つをダウンロードしてください。
 
- `Advance/NanoLabo (ver.2.9.1) ARM版 <https://www.nanolabo.advancesoft.jp/?wpdmdl=1313>`_
+ `Advance/NanoLabo (ver.2.9.2) ARM版 <https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2175>`_
 
- `Advance/NanoLabo Tool (ver.2.9.1) ARM版 <https://www.nanolabo.advancesoft.jp/?wpdmdl=1327>`_
+ `Advance/NanoLabo Tool (ver.2.9.2) ARM版 <https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2171>`_
 
 .. note::
 
