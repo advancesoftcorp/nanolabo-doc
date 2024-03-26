@@ -85,9 +85,12 @@ NanoLaboへの設定
 .. |mainmenuicon| image:: /img/mainmenuicon.png
 .. |gearicon| image:: /img/gear.png
 
-.. hint::
+.. _chgneterror:
 
- WindowsでGPUを使った場合、次のようなエラーで実行できない場合があります。
+実行時のエラー
+================
+
+- WindowsでGPUを使った場合、次のようなエラーで実行できない場合があります。
 
  .. code-block:: none
 
@@ -99,9 +102,19 @@ NanoLaboへの設定
 
  この場合、 :file:`C:\\Windows\\System32\\nvml.dll` を :file:`C:\\Program Files\\NVIDIA Corporation\\NVSMI\\nvml.dll` にコピー（フォルダがない場合は作成）してから実行してみてください。
 
-.. hint::
+- DFT-D3を有効にして実行した時に次のようなエラーが出る場合があります。
 
- PyTorch1.13.1以前で次のようなエラーが出ることを確認しています。
+ .. code-block:: none
+
+  version `GOMP_5.0' not found
+
+ この場合、次の環境変数を設定してください。
+
+ .. code-block:: none
+
+  export LD_PRELOAD=(condaのインストール先)/lib/libgomp.so
+
+- PyTorch1.13.1以前で次のようなエラーが出ることを確認しています。
 
  .. code-block:: none
  
