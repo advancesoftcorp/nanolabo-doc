@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-25 17:21+0900\n"
+"POT-Creation-Date: 2024-04-12 11:41+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1070,7 +1070,9 @@ msgstr "Windows 10 / Windows 11 (64 bit)"
 
 #: ../../install/requirement.rst:10
 msgid "CentOS 7 (64 bit) （2024年6月30日のOSサポート終了に伴い、本製品でもサポート対象外となります。）"
-msgstr "CentOS 7 (64 bit) (With the end of OS support on June 30, 2024, use on it will no longer be supported.)"
+msgstr ""
+"CentOS 7 (64 bit) (With the end of OS support on June 30, 2024, use on it"
+" will no longer be supported.)"
 
 #: ../../install/requirement.rst:11
 msgid "AlmaLinux 8"
@@ -1094,8 +1096,8 @@ msgstr "How to Install (Windows)"
 
 #: ../../install/windows.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.9.2) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2152>`_"
+"`Advance/NanoLabo (ver.2.9.3) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2328>`_"
 msgstr ""
 
 #: ../../install/windows.rst:16
