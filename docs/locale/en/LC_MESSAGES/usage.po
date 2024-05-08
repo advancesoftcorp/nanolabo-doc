@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-08 16:09+0900\n"
+"POT-Creation-Date: 2024-05-08 16:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -777,7 +777,7 @@ msgstr ""
 
 #: ../../usage/calculation.rst:95 ../../usage/grandproject.rst:209
 #: ../../usage/inputeditorlammps.rst:55 ../../usage/slhmc.rst:96
-#: ../../usage/sshserver.rst:99
+#: ../../usage/sshserver.rst:109
 msgid ""
 "GPUドライバを事前にインストールしておく必要があります。CUDA "
 "11.4.4を使用しており、これに対応するドライババージョン470.82.01以上が必要です。"
@@ -5941,7 +5941,7 @@ msgid "eye"
 msgstr ""
 
 #: ../../usage/result.rst:74 ../../usage/resultpdos.rst:36
-#: ../../usage/sshserver.rst:147
+#: ../../usage/sshserver.rst:157
 msgid "edit"
 msgstr ""
 
@@ -6379,11 +6379,10 @@ msgid ""
 "サーバーへの接続にプロキシを使用します。 :menuselection:`Network --> Proxy server` "
 "で設定したプロキシが使われます。インターネットへの接続にプロキシが必要な環境で、外部のクラウド仮想マシン等に計算ジョブを投入する際にお使いいただけます。"
 msgstr ""
-"Utilize a proxy for the server connection. Use the proxy "
-"settings in :menuselection:`Network --> Proxy server` . This is "
-"beneficial when submitting calculation jobs to external cloud virtual "
-"machines or similar environment where a proxy is required for internet "
-"connection."
+"Utilize a proxy for the server connection. Use the proxy settings in "
+":menuselection:`Network --> Proxy server` . This is beneficial when "
+"submitting calculation jobs to external cloud virtual machines or similar"
+" environment where a proxy is required for internet connection."
 
 #: ../../usage/sshserver.rst:64
 msgid "Account"
@@ -6461,19 +6460,16 @@ msgstr ""
 msgid "Job Posting Command"
 msgstr ""
 
-#: ../../usage/sshserver.rst:89
+#: ../../usage/sshserver.rst:99
 msgid "Job Script"
 msgstr ""
 
 #: ../../usage/sshserver.rst:85
-msgid ""
-"キューごとに、ジョブ投入用のコマンドとジョブスクリプトを設定します。ジョブ管理システムに応じたデフォルトの内容がキュー追加時に設定されます。必要に応じて編集してください。NeuralMD連携機能を使う場合、\\"
-" :ref:`ライセンス設定 <grand_neumd>`\\ のコマンドが必要な場合があります。"
+msgid "キューごとに、ジョブ投入用のコマンドとジョブスクリプトを設定します。ジョブ管理システムに応じたデフォルトの内容がキュー追加時に設定されます。必要に応じて編集してください。"
 msgstr ""
 "Specify the command and job script for each queue. Default values for the"
 " job manager are automatically set when you add a queue. Modify them as "
-"needed. If using the NeuralMD integration feature, the command for "
-":ref:`license settings <grand_neumd>` may be required."
+"needed."
 
 #: ../../usage/sshserver.rst:89
 msgid "実際に実行されるスクリプトの内容は、ジョブ投入時に表示されるウィンドウでご確認ください。"
@@ -6481,7 +6477,23 @@ msgstr ""
 "The actual content of the script to be executed is displayed when you "
 "submit a job."
 
-#: ../../usage/sshserver.rst:91
+#: ../../usage/sshserver.rst:93
+msgid ""
+"NeuralMD連携機能を使う場合、\\ :ref:`ライセンス設定 <grand_neumd>`\\ "
+"のコマンドが必要な場合はここでジョブスクリプトに追加します。remoteLicenseを使っている場合、およびシェルの初期化ファイルで設定している場合は必要ありません。"
+msgstr ""
+"When using the NeuralMD integration functionality, if the command in :ref:`License Settings <grand_neumd>` is required, add it to the job script here. "
+"This is not necessary if you are using remoteLicense or have set it in the shell initialization file."
+
+#: ../../usage/sshserver.rst:95
+msgid "計算を実行する行（mpirun等）よりも前に、次の行を追加してください。"
+msgstr "Add the following line before the line that runs the calculation (e.g. mpirun):"
+
+#: ../../usage/sshserver.rst:97
+msgid "export ADVANCED_LICENSE_FILE=(ライセンスファイルの場所)/neumd.lic"
+msgstr "export ADVANCED_LICENSE_FILE=(license file path)/neumd.lic"
+
+#: ../../usage/sshserver.rst:101
 msgid ""
 "また、サーバーにGPUが搭載されている場合、ニューラルネットワーク力場関連の計算をGPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD"
 " Pro版のライセンスが必要）、およびLAMMPSを使ったニューラルネットワーク力場による分子動力学計算です。設定画面右側の "
@@ -6496,7 +6508,7 @@ msgstr ""
 "utilize the GPU, open the :guilabel:`GPU` tab on the right side of "
 "setting window and enable :guilabel:`GPU for Advance/NeuralMD` ."
 
-#: ../../usage/sshserver.rst:93
+#: ../../usage/sshserver.rst:103
 msgid ""
 "複数のGPUが搭載されている場合、デフォルトではデバイスID0のGPUのみを使いますが、MPI並列と併用して各プロセスごとに使用するGPUを指定すると、より効率的にGPUを使うことができます。"
 " |add| "
@@ -6513,13 +6525,13 @@ msgstr ""
 "click menu. Ensure that the number of rows matches the number of MPI "
 "parallel (processes) specified in :guilabel:`Job Posting` tab."
 
-#: ../../usage/sshserver.rst:95
+#: ../../usage/sshserver.rst:105
 msgid "なお、各GPUに割り当てられたデバイスIDは、サーバー上で ``nvidia-smi -L`` を実行して確認できます。"
 msgstr ""
 "You can check the device ID assigned to each GPU by executing ``nvidia-"
 "smi -L`` on the server."
 
-#: ../../usage/sshserver.rst:101
+#: ../../usage/sshserver.rst:111
 msgid "例えば、グラフィックカードが2つ搭載されているマシンで、MPI4並列で実行し、2プロセスをデバイスID0のGPU、2プロセスをデバイスID1のGPUに割り当てる場合は次のように設定します。"
 msgstr ""
 "For instance, on a machine with 2 graphic cards, if you wish to execute "
@@ -6527,58 +6539,58 @@ msgstr ""
 "device ID 0 and 2 to the GPU with device ID 1, you can configure it as "
 "follows."
 
-#: ../../usage/sshserver.rst:108
+#: ../../usage/sshserver.rst:118
 msgid "Speedタブの設定"
 msgstr "Speed settings"
 
-#: ../../usage/sshserver.rst:110
+#: ../../usage/sshserver.rst:120
 msgid ":guilabel:`Speed` タブでは、サーバーからの情報取得・ファイルダウンロードの間隔、同時接続数を設定できます。"
 msgstr ""
 "In :guilabel:`Speed` tab, you can configure the intervals for retrieving "
 "information / downloading files from the server, as well the number of "
 "simultaneous accesses."
 
-#: ../../usage/sshserver.rst:112
+#: ../../usage/sshserver.rst:122
 msgid "サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` 側に動かすことで頻度を下げることができます。"
 msgstr ""
 "If frequent access is undesirable, adjust the sliders toward the "
 ":guilabel:`Slow` side to decrease the frequency of operations."
 
-#: ../../usage/sshserver.rst:114
+#: ../../usage/sshserver.rst:124
 msgid ":guilabel:`Connection Style` で、低速ネットワーク用の設定ができます。"
 msgstr ":guilabel:`Connection Style` is settings for the low bandwidth network."
 
-#: ../../usage/sshserver.rst:117
+#: ../../usage/sshserver.rst:127
 msgid "Online Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:117
+#: ../../usage/sshserver.rst:127
 msgid "常時オフラインモードに設定すると、リアルタイムでの結果取得（ファイルのダウンロード）を行いません。"
 msgstr ""
 "if set to Always OFFLINE mode, the system will not fetch results "
 "(download files) in real-time."
 
-#: ../../usage/sshserver.rst:120
+#: ../../usage/sshserver.rst:130
 msgid "Download Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:120
+#: ../../usage/sshserver.rst:130
 msgid "容量の大きいバイナリファイルなどを除外し、テキストファイルのみダウンロードするよう設定できます。"
 msgstr ""
 "you can configure settings to download Only Text Files, excluding large "
 "binary files etc."
 
-#: ../../usage/sshserver.rst:123
+#: ../../usage/sshserver.rst:133
 msgid "Download Time"
 msgstr ""
 
-#: ../../usage/sshserver.rst:123
+#: ../../usage/sshserver.rst:133
 msgid "常時オフラインモードの際に、ファイルを一括ダウンロードする間隔（分単位）を設定します。"
 msgstr ""
 "you can set the interval (in minute) of batch downloading files in Always"
 " OFFLINE mode."
 
-#: ../../usage/sshserver.rst:125
+#: ../../usage/sshserver.rst:135
 msgid ""
 "SLHMC（力場自動生成）のデータ（slhmc_datフォルダ内の各計算エンジンの出力）のダウンロード有無は、 "
 ":menuselection:`メインメニュー --> Properties --> Advance/NeuralMD` "
@@ -6589,17 +6601,17 @@ msgstr ""
 "slhmc_dat folder), from :menuselection:`main menu --> Properties --> "
 "Advance/NeuralMD` . By default, this data is not downloaded."
 
-#: ../../usage/sshserver.rst:130
+#: ../../usage/sshserver.rst:140
 msgid "接続テスト"
 msgstr "Connection test"
 
-#: ../../usage/sshserver.rst:132
+#: ../../usage/sshserver.rst:142
 msgid "設定が完了したら、 :guilabel:`Test` タブでサーバーへの接続テストを行い、設定に問題がないか確認することができます。"
 msgstr ""
 "Once settings are configured, you can conduct a connection test to the "
 "server in :guilabel:`Test` tab to verify that the settings are correct."
 
-#: ../../usage/sshserver.rst:134
+#: ../../usage/sshserver.rst:144
 msgid ""
 ":guilabel:`Start to Test Connection` をクリックすると、自動的にテストを行います。 ``TEST OF "
 "CONNECTION IS SUCCEEDED`` と表示されればテストは成功です。接続に失敗した場合は ``ERROR HAS OCCURRED"
@@ -6610,24 +6622,24 @@ msgstr ""
 "SUCCEEDED`` or ``ERROR HAS OCCURRED IN TESTING CONNECTION`` . If you "
 "receive the latter message, please re-check the settings."
 
-#: ../../usage/sshserver.rst:139
+#: ../../usage/sshserver.rst:149
 msgid "設定の編集・削除・コピー"
 msgstr "Editing, deleting, copying settings"
 
-#: ../../usage/sshserver.rst:141
+#: ../../usage/sshserver.rst:151
 msgid "各タブで設定した内容は、サーバーごとに保存されます。リストから既に保存されているサーバーを選択すると、その設定内容を編集できます。"
 msgstr ""
 "Settings within the tabs are saved on a per-server basis. To edit the "
 "settings for the previously saved server, select the server from the "
 "list."
 
-#: ../../usage/sshserver.rst:143
+#: ../../usage/sshserver.rst:153
 msgid "設定名の右の |edit| をクリックすると、設定の並び替え・削除・位置を指定した追加ができるウィンドウが開きます。"
 msgstr ""
 "Clicking on |edit| to the right of the setting name opens a window where "
 "you can reorder, delete, and add settings with specified positions."
 
-#: ../../usage/sshserver.rst:145
+#: ../../usage/sshserver.rst:155
 msgid ""
 "既存の設定内容をコピーして新たな設定を追加するには、 |add| ボタンを押した後、ダイアログの :guilabel:`Copy from` "
 "でコピー元の設定を選んでください。"
