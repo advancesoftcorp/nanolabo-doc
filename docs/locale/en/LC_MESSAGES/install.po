@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-12 11:41+0900\n"
+"POT-Creation-Date: 2024-05-28 11:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -348,25 +348,37 @@ msgstr ""
 #: ../../install/linux.rst:151
 msgid ""
 "クライアント側でNanoLaboを起動したときに、ライセンスサーバーが終了してしまう場合があります。ライセンスサーバーの起動時に "
-":file:`lmgrd` のオプション ``-local`` を付けることで、クライアント側から終了されないようにすることができます。"
+":file:`lmgrd` にオプションを付けることで、クライアント側から終了されないようにすることができます。"
 msgstr ""
 "When launching NanoLabo on the client, the license server might get "
-"terminated. To prevent the server from being shut down by the client, add"
-" the ``-local`` option to :file:`lmgrd` when launching the license "
+"terminated. To prevent the server from being terminated by the client, add"
+" the option to :file:`lmgrd` when launching the license "
 "server."
 
-#: ../../install/linux.rst:164 ../../install/mac.rst:56
+#: ../../install/linux.rst:153
+msgid "``-local`` を付けると、他のマシンから終了されないようになります。"
+msgstr "Adding the ``-local`` option prevents the server from being terminated by other machines."
+
+#: ../../install/linux.rst:154
+msgid ""
+"``-x lmdown`` を付けると、自身を含めてどのマシンからも終了されないようになります。終了する場合は ``kill`` "
+"コマンドを使う必要があります。"
+msgstr ""
+"Adding the ``-x lmdown`` option prevents the server from being terminated by any machine, including itself."
+" To stop it, you would need to use the ``kill`` command."
+
+#: ../../install/linux.rst:167 ../../install/mac.rst:56
 #: ../../install/windows.rst:63
 msgid "起動"
 msgstr "Launching"
 
-#: ../../install/linux.rst:166 ../../install/windows.rst:65
+#: ../../install/linux.rst:169 ../../install/windows.rst:65
 msgid "インストール時にショートカットを作成した場合は、ショートカットから起動してください。"
 msgstr ""
 "If you created a shortcut during installation, you can launch the "
 "software using that shortcut."
 
-#: ../../install/linux.rst:168
+#: ../../install/linux.rst:171
 msgid ""
 "直接起動する場合は、端末（ターミナル）でインストール先の :file:`bin` ディレクトリに移動し、 :file:`nanolabo.sh` "
 "を起動してください。"
@@ -375,19 +387,19 @@ msgstr ""
 ":file:`bin` directory within the install destination, and then execute "
 ":file:`nanolabo.sh` ."
 
-#: ../../install/linux.rst:170
+#: ../../install/linux.rst:173
 msgid "$ ./nanolabo.sh"
 msgstr ""
 
-#: ../../install/linux.rst:177
+#: ../../install/linux.rst:180
 msgid "3Dモデルが表示されない場合"
 msgstr "If 3D models aren't displayed"
 
-#: ../../install/linux.rst:179
+#: ../../install/linux.rst:182
 msgid "Java VMの引数を追加することで表示が改善します。"
 msgstr "You can add a Java VM argument to address the display issue."
 
-#: ../../install/linux.rst:181
+#: ../../install/linux.rst:184
 msgid ""
 "画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Java VM` を開き、 "
 ":guilabel:`Arguments for Java VM` に ``-Dprism.forceGPU=true`` を追加します。その後 "
@@ -398,16 +410,16 @@ msgstr ""
 "``-Dprism.forceGPU=true`` to the :guilabel:`Arguments for Java VM`\\ . "
 "Then, click :guilabel:`OK` and restart NanoLabo."
 
-#: ../../install/linux.rst:183
+#: ../../install/linux.rst:186
 msgid "mainmenuicon"
 msgstr ""
 
-#: ../../install/linux.rst:188 ../../install/mac.rst:91
+#: ../../install/linux.rst:191 ../../install/mac.rst:91
 #: ../../install/windows.rst:72
 msgid "（任意）グラフニューラルネットワーク汎用力場の設定"
 msgstr "(Optional) Configuration for graph neural network versatile force field"
 
-#: ../../install/linux.rst:190 ../../install/mac.rst:93
+#: ../../install/linux.rst:193 ../../install/mac.rst:93
 #: ../../install/windows.rst:74
 msgid ""
 "LAMMPSの計算でグラフニューラルネットワーク汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\\ "
@@ -420,12 +432,12 @@ msgstr ""
 "Project setting </usage/ocp>`, :doc:`M3GNet setting </usage/m3gnet>`, or "
 ":doc:`CHGNet setting </usage/chgnet>`."
 
-#: ../../install/linux.rst:195 ../../install/mac.rst:98
+#: ../../install/linux.rst:198 ../../install/mac.rst:98
 #: ../../install/windows.rst:79
 msgid "（任意）汎用タイトバインディング法(ThreeBodyTB)の設定"
 msgstr "(Optional) Configuration for versatile tight-binding method (ThreeBodyTB)"
 
-#: ../../install/linux.rst:197 ../../install/mac.rst:100
+#: ../../install/linux.rst:200 ../../install/mac.rst:100
 #: ../../install/windows.rst:81
 msgid ""
 "汎用タイトバインディング法(ThreeBodyTB)の計算を行うためには、別途Julia環境での設定が必要です。設定方法は\\ :doc:`こちら"
@@ -435,12 +447,12 @@ msgstr ""
 " additional settings in the Julia environment are necessary. Please refer"
 " :doc:`here </usage/inputeditortb3>` for the detailed setup instructions."
 
-#: ../../install/linux.rst:202 ../../install/mac.rst:105
+#: ../../install/linux.rst:205 ../../install/mac.rst:105
 #: ../../install/windows.rst:86
 msgid "（任意）リモート計算の設定"
 msgstr "(Optional) Setting up for remote calculation"
 
-#: ../../install/linux.rst:204 ../../install/mac.rst:107
+#: ../../install/linux.rst:207 ../../install/mac.rst:107
 #: ../../install/windows.rst:88
 msgid ""
 "NanoLaboからリモートのマシンに計算ジョブを投入する場合、SSH接続の設定が必要です。設定方法は\\ :doc:`こちら "
@@ -450,25 +462,25 @@ msgstr ""
 " to establish an SSH connection. Please refer :doc:`here "
 "</usage/sshserver>` for the detailed setup instructions."
 
-#: ../../install/linux.rst:209 ../../install/mac.rst:123
+#: ../../install/linux.rst:212 ../../install/mac.rst:123
 #: ../../install/windows.rst:93
 msgid "更新・アップグレード"
 msgstr "Update/Upgrade"
 
-#: ../../install/linux.rst:211 ../../install/mac.rst:125
+#: ../../install/linux.rst:214 ../../install/mac.rst:125
 #: ../../install/windows.rst:95
 msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
 msgstr ""
 "When upgrading from the trial version to the production version, there is"
 " no need for an additional installation. Simply replace the license file."
 
-#: ../../install/linux.rst:213 ../../install/windows.rst:97
+#: ../../install/linux.rst:216 ../../install/windows.rst:97
 msgid "新しいバージョンにアップデートされる場合、上書きインストールが可能です。"
 msgstr ""
 "When updating to a newer version, you can install directly over the "
 "existing version."
 
-#: ../../install/linux.rst:215 ../../install/mac.rst:129
+#: ../../install/linux.rst:218 ../../install/mac.rst:129
 #: ../../install/windows.rst:99
 msgid ""
 "NanoLaboと同時にNanoLabo Toolが更新されている場合は、そちらもアップデートしてください。最新版のNanoLabo "
@@ -479,7 +491,7 @@ msgstr ""
 "conjunction with the calculation engines provided in the latest version "
 "of NanoLabo Tool."
 
-#: ../../install/linux.rst:217 ../../install/mac.rst:131
+#: ../../install/linux.rst:220 ../../install/mac.rst:131
 #: ../../install/windows.rst:101
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
@@ -487,12 +499,12 @@ msgstr ""
 " separately from the installation directory. This ensures that you can "
 "continue using the software seamlessly, even after the update."
 
-#: ../../install/linux.rst:222 ../../install/mac.rst:136
+#: ../../install/linux.rst:225 ../../install/mac.rst:136
 #: ../../install/windows.rst:106
 msgid "アンインストール"
 msgstr "Uninstallation"
 
-#: ../../install/linux.rst:224
+#: ../../install/linux.rst:227
 msgid ""
 "端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
 ":file:`Change NanoLabo Tool Installation` を起動します。"
@@ -501,30 +513,30 @@ msgstr ""
 "in :file:`_NanoLabo_Tool_installation` directory at your installation "
 "destination."
 
-#: ../../install/linux.rst:226
+#: ../../install/linux.rst:229
 msgid ""
 "$ AdvanceSoft/NanoLabo/_NanoLabo_Tool_installation/Change\\ NanoLabo\\ "
 "Tool\\ Installation"
 msgstr ""
 
-#: ../../install/linux.rst:230 ../../install/windows.rst:123
+#: ../../install/linux.rst:233 ../../install/windows.rst:123
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow the on-screen instructions to proceed with the uninstallation."
 
-#: ../../install/linux.rst:232 ../../install/windows.rst:125
+#: ../../install/linux.rst:235 ../../install/windows.rst:125
 msgid "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。"
 msgstr ""
 "After uninstalling the Advance/NanoLabo Tool, make sure to also uninstall"
 " Advance/NanoLabo."
 
-#: ../../install/linux.rst:236 ../../install/windows.rst:129
+#: ../../install/linux.rst:239 ../../install/windows.rst:129
 msgid "アンインストールの際に、インストール先のライセンスファイルは削除されずに残ります。また、インストールログファイルが残る場合があります。その際はお手数ですが手動で削除してください。"
 msgstr ""
 "The license file in the installation directory is not automatically "
 "removed during the uninstallation process. Additionally, installation log"
 " files might remain. If so, please delete them manually."
 
-#: ../../install/linux.rst:240
+#: ../../install/linux.rst:243
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` "
 "）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"
