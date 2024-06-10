@@ -50,3 +50,22 @@ NanoLaboへの設定
          export PATH=(juliaのインストール先)/bin:$PATH
 
 .. |mainmenuicon| image:: /img/mainmenuicon.png
+
+.. _tb3error:
+
+実行時のエラー
+====================
+
+- ThreeBodyTB 1.0.0以降とXML2_jll 2.12.0以降の組み合わせで次のようなエラーが出る場合があります。
+
+ .. code-block:: none
+
+  Warning: XMLError: xmlSAX2Characters: huge text node from XML parser
+  ERROR: LoadError: InexactError: trunc(Int64, NaN)
+
+ この場合、Juliaの対話型実行環境を起動し、XML2_jll 2.11.5以前にバージョンを下げてください。
+
+ .. code-block:: console
+
+  using Pkg
+  Pkg.add(PackageSpec(name="XML2_jll", version="2.11.5")) 

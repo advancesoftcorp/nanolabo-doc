@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-05 16:28+0900\n"
+"POT-Creation-Date: 2024-06-10 11:21+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1084,7 +1084,8 @@ msgstr ""
 "export LD_LIBRARY_PATH=(conda installation "
 "destination)/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/chgnet.rst:91 ../../usage/m3gnet.rst:97
+#: ../../usage/chgnet.rst:91 ../../usage/inputeditortb3.rst:57
+#: ../../usage/m3gnet.rst:97
 msgid "実行時のエラー"
 msgstr "Troubleshooting"
 
@@ -2896,9 +2897,7 @@ msgstr ""
 
 #: ../../usage/inputeditorlammps.rst:48
 msgid "NeuralMD力場は、GPUを使って計算を高速化することができます。"
-msgstr ""
-"The calculation of NeuralMD force field can be accelerated using a "
-"GPU."
+msgstr "The calculation of NeuralMD force field can be accelerated using a GPU."
 
 #: ../../usage/inputeditorlammps.rst:56
 msgid "元素数が5以上の場合は、力場作成時に重み付き対称関数を使っている必要があります。"
@@ -2910,11 +2909,10 @@ msgstr ""
 #: ../../usage/inputeditorlammps.rst:57
 msgid "ここでの設定はNeuralMD関連の計算にのみ適用されます。それ以外のグラフニューラルネットワーク力場のGPU使用の設定とは独立しています。これらのGPU使用についてはそれぞれの環境設定方法を参照してください。"
 msgstr ""
-"The configuration settings described are specific to NeuralMD-"
-"related calculations. The GPU usage settings for other graph neural network "
-"force fields are separate and independent. To understand the GPU usage for them, "
-"please refer to their respective environment setup "
-"instructions."
+"The configuration settings described are specific to NeuralMD-related "
+"calculations. The GPU usage settings for other graph neural network force"
+" fields are separate and independent. To understand the GPU usage for "
+"them, please refer to their respective environment setup instructions."
 
 #: ../../usage/inputeditorlammps.rst:60
 msgid "Open Catalyst 2020"
@@ -3883,6 +3881,26 @@ msgstr ""
 #: ../../usage/inputeditortb3.rst:48
 msgid "export PATH=(juliaのインストール先)/bin:$PATH"
 msgstr "export PATH=(julia installation destination)/bin:$PATH"
+
+#: ../../usage/inputeditortb3.rst:59
+msgid "ThreeBodyTB 1.0.0以降とXML2_jll 2.12.0以降の組み合わせで次のようなエラーが出る場合があります。"
+msgstr "When using the combination of ThreeBodyTB 1.0.0 or later and XML2_jll 2.12.0 or later, you may encounter the following error."
+
+#: ../../usage/inputeditortb3.rst:61
+msgid ""
+"Warning: XMLError: xmlSAX2Characters: huge text node from XML parser\n"
+"ERROR: LoadError: InexactError: trunc(Int64, NaN)"
+msgstr ""
+
+#: ../../usage/inputeditortb3.rst:66
+msgid "この場合、Juliaの対話型実行環境を起動し、XML2_jll 2.11.5以前にバージョンを下げてください。"
+msgstr "In this case, launch Julia's interactive execution environment and downgrade to XML2_jll 2.11.5 or earlier."
+
+#: ../../usage/inputeditortb3.rst:68
+msgid ""
+"using Pkg\n"
+"Pkg.add(PackageSpec(name=\"XML2_jll\", version=\"2.11.5\"))"
+msgstr ""
 
 #: ../../usage/jupyter.rst:5
 msgid "Jupyter Interface for NanoLabo / Matlantis連携"
@@ -6514,11 +6532,13 @@ msgid ""
 ":guilabel:`GPU` タブを開き、 :guilabel:`GPU for Advance/NeuralMD` "
 "を有効にするとGPUを使うようになります。"
 msgstr ""
-"If the server is equipped with GPU(s), Advance/NeuralMD-related computations can be expedited "
-"using the GPU. Supported operations include the training of a neural network force field via Advance/NeuralMD "
-"(requiring an Advance/NeuralMD Pro edition license) and molecular dynamics simulations"
-" using a NeuralMD force field using LAMMPS. To utilize the GPU, open the :guilabel:`GPU` tab on the"
-" right side of setting window and enable :guilabel:`GPU for Advance/NeuralMD` ."
+"If the server is equipped with GPU(s), Advance/NeuralMD-related "
+"computations can be expedited using the GPU. Supported operations include"
+" the training of a neural network force field via Advance/NeuralMD "
+"(requiring an Advance/NeuralMD Pro edition license) and molecular "
+"dynamics simulations using a NeuralMD force field using LAMMPS. To "
+"utilize the GPU, open the :guilabel:`GPU` tab on the right side of "
+"setting window and enable :guilabel:`GPU for Advance/NeuralMD` ."
 
 #: ../../usage/sshserver.rst:103
 msgid ""
