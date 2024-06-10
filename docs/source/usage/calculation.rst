@@ -86,7 +86,7 @@ Linuxの場合は、 :guilabel:`Job Manager` を使うことにより、ジョ�
 GPU使用の設定
 ====================
 
-LinuxマシンでGPUが搭載されている場合、ニューラルネットワーク力場関連の計算をGPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD Pro版のライセンスが必要）、およびLAMMPSを使ったニューラルネットワーク力場による分子動力学計算です。
+LinuxマシンでGPUが搭載されている場合、Advance/NeuralMD関連の計算をGPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD Pro版のライセンスが必要）、およびNeuralMD力場を使ったLAMMPSによる分子動力学計算です。
 
 画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Advance/NeuralMD` を開き、 :guilabel:`Number of GPUs` でGPUの数を設定してください。0を設定するとGPUを使用しません。
 
@@ -94,7 +94,7 @@ LinuxマシンでGPUが搭載されている場合、ニューラルネットワ
 
  GPUドライバを事前にインストールしておく必要があります。CUDA 11.4.4を使用しており、これに対応するドライババージョン470.82.01以上が必要です。
 
-.. hint:: ここでの設定はAdvance/NeuralMD関連の計算にのみ適用されます。OC20/22、M3GNet、CHGNetのGPU使用の設定とは独立しています。これらのGPU使用についてはそれぞれの環境設定方法を参照してください。
+.. hint:: ここでの設定はAdvance/NeuralMD関連の計算にのみ適用されます。それ以外のグラフニューラルネットワーク力場のGPU使用の設定とは独立しています。これらのGPU使用についてはそれぞれの環境設定方法を参照してください。
 
 .. _error:
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-08 16:30+0900\n"
+"POT-Creation-Date: 2024-06-05 16:28+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,7 +44,7 @@ msgstr "Viewpoint manipulation"
 #: ../../usage/atomsviewer.rst:136 ../../usage/atomsviewer.rst:162
 #: ../../usage/atomsviewer.rst:186 ../../usage/explorer.rst:139
 #: ../../usage/grandproject.rst:97 ../../usage/initial.rst:130
-#: ../../usage/inputeditorlammps.rst:177 ../../usage/project.rst:129
+#: ../../usage/inputeditorlammps.rst:178 ../../usage/project.rst:129
 #: ../../usage/webbrowser.rst:37
 msgid "操作"
 msgstr "Operation"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: ../../usage/atomsviewer.rst:104 ../../usage/atomsviewer.rst:147
 #: ../../usage/atomsviewer.rst:173 ../../usage/grandproject.rst:108
-#: ../../usage/initial.rst:137 ../../usage/inputeditorlammps.rst:186
+#: ../../usage/initial.rst:137 ../../usage/inputeditorlammps.rst:187
 #: ../../usage/project.rst:138
 msgid "`*`:sup: macOSでは :kbd:`Ctrl` |rarr| :kbd:`command` と読み替えてください。"
 msgstr "`*`:sup: For macOS, replace :kbd:`Ctrl` |rarr| :kbd:`command` ."
@@ -432,19 +432,19 @@ msgstr "Paste\\ `*`:sup:"
 msgid ":kbd:`Ctrl` + :kbd:`V`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:208 ../../usage/inputeditorlammps.rst:181
+#: ../../usage/atomsviewer.rst:208 ../../usage/inputeditorlammps.rst:182
 msgid "アンドゥ（直前の操作の取り消し）"
 msgstr "Undo"
 
-#: ../../usage/atomsviewer.rst:208 ../../usage/inputeditorlammps.rst:181
+#: ../../usage/atomsviewer.rst:208 ../../usage/inputeditorlammps.rst:182
 msgid ":kbd:`Ctrl` + :kbd:`Z`"
 msgstr ""
 
-#: ../../usage/atomsviewer.rst:210 ../../usage/inputeditorlammps.rst:183
+#: ../../usage/atomsviewer.rst:210 ../../usage/inputeditorlammps.rst:184
 msgid "リドゥ（取り消した操作のやり直し）"
 msgstr "Redo"
 
-#: ../../usage/atomsviewer.rst:210 ../../usage/inputeditorlammps.rst:183
+#: ../../usage/atomsviewer.rst:210 ../../usage/inputeditorlammps.rst:184
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`Z`"
 msgstr ""
 
@@ -630,7 +630,7 @@ msgstr ""
 
 #: ../../usage/calculation.rst:48 ../../usage/chgnet.rst:85
 #: ../../usage/grandproject.rst:55 ../../usage/initial.rst:65
-#: ../../usage/inputeditorlammps.rst:196 ../../usage/inputeditorqe.rst:36
+#: ../../usage/inputeditorlammps.rst:197 ../../usage/inputeditorqe.rst:36
 #: ../../usage/inputeditortb3.rst:52 ../../usage/jupyter.rst:46
 #: ../../usage/m3gnet.rst:91 ../../usage/modeler.rst:178
 #: ../../usage/ocp.rst:182 ../../usage/result.rst:60
@@ -721,7 +721,7 @@ msgstr ""
 "Script` ."
 
 #: ../../usage/calculation.rst:82 ../../usage/explorer.rst:43
-#: ../../usage/inputeditorlammps.rst:228 ../../usage/inputeditorqe.rst:6
+#: ../../usage/inputeditorlammps.rst:229 ../../usage/inputeditorqe.rst:6
 #: ../../usage/modeler.rst:242 ../../usage/result.rst:75
 #: ../../usage/resultpdos.rst:35 ../../usage/sshserver.rst:21
 msgid "add"
@@ -756,14 +756,14 @@ msgstr "Configuration to use GPU"
 
 #: ../../usage/calculation.rst:89
 msgid ""
-"LinuxマシンでGPUが搭載されている場合、ニューラルネットワーク力場関連の計算をGPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD"
-" Pro版のライセンスが必要）、およびLAMMPSを使ったニューラルネットワーク力場による分子動力学計算です。"
+"LinuxマシンでGPUが搭載されている場合、Advance/NeuralMD関連の計算をGPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD"
+" Pro版のライセンスが必要）、およびNeuralMD力場を使ったLAMMPSによる分子動力学計算です。"
 msgstr ""
-"On a Linux machine that has GPU(s), calculations related to neural "
-"network force field can be accelerated using GPU. Supported calculations "
+"On a Linux machine that has GPU(s), calculations related to "
+"Advance/NeuralMD can be accelerated using GPU. Supported calculations "
 "include the learning of neural network force field using Advance/NeuralMD"
 " (an Advance/NeuralMD Pro edition license is required) and molecular "
-"dynamics calculations with the neural network force field using LAMMPS."
+"dynamics calculations with the NeuralMD force field using LAMMPS."
 
 #: ../../usage/calculation.rst:91
 msgid ""
@@ -786,8 +786,9 @@ msgstr ""
 "11.4.4 is being　utilized, a driver version of 470.82.01 or later is "
 "necessary."
 
-#: ../../usage/calculation.rst:97
-msgid "ここでの設定はAdvance/NeuralMD関連の計算にのみ適用されます。OC20/22、M3GNet、CHGNetのGPU使用の設定とは独立しています。これらのGPU使用についてはそれぞれの環境設定方法を参照してください。"
+#: ../../usage/calculation.rst:97 ../../usage/sshserver.rst:110
+#, fuzzy
+msgid "ここでの設定はAdvance/NeuralMD関連の計算にのみ適用されます。それ以外のグラフニューラルネットワーク力場のGPU使用の設定とは独立しています。これらのGPU使用についてはそれぞれの環境設定方法を参照してください。"
 msgstr ""
 "The configuration settings described are specific to Advance/NeuralMD-"
 "related calculations. The GPU usage settings for OC20/22, M3GNet, and "
@@ -1246,7 +1247,7 @@ msgstr ""
 msgid "LAMMPSの入力ファイル中で、以下のように\\ ``pair_style``\\ を設定します。"
 msgstr "In the LAMMPS input file,  set the ``pair_style`` as follows."
 
-#: ../../usage/chgnet.rst:167 ../../usage/inputeditorlammps.rst:90
+#: ../../usage/chgnet.rst:167 ../../usage/inputeditorlammps.rst:91
 msgid "CHGNet"
 msgstr ""
 
@@ -2628,7 +2629,7 @@ msgstr ""
 "in the lower right corner. Then, set the required values by referring to "
 "the calculation engine manual."
 
-#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:126
+#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:127
 #: ../../usage/inputeditorqe.rst:3 ../../usage/project.rst:24
 msgid "editormenuicon"
 msgstr ""
@@ -2772,8 +2773,8 @@ msgstr ""
 " fixed / mobile along X/Y/Z direction using the right-click menu of the "
 "rows of atoms."
 
-#: ../../usage/inputeditorlammps.rst:70 ../../usage/inputeditorlammps.rst:82
-#: ../../usage/inputeditorlammps.rst:96
+#: ../../usage/inputeditorlammps.rst:71 ../../usage/inputeditorlammps.rst:83
+#: ../../usage/inputeditorlammps.rst:97
 msgid "Python環境の設定方法"
 msgstr "Setting up the Python environment"
 
@@ -2894,9 +2895,9 @@ msgstr ""
 "<https://www.nanolabo.advancesoft.jp/forcefield/>`_."
 
 #: ../../usage/inputeditorlammps.rst:48
-msgid "ニューラルネットワーク力場は、GPUを使って計算を高速化することができます。"
+msgid "NeuralMD力場は、GPUを使って計算を高速化することができます。"
 msgstr ""
-"The calculation of neural network force field can be accelerated using a "
+"The calculation of NeuralMD force field can be accelerated using a "
 "GPU."
 
 #: ../../usage/inputeditorlammps.rst:56
@@ -2906,11 +2907,20 @@ msgstr ""
 "use a weighted symmetry function during the generation of the force "
 "field."
 
-#: ../../usage/inputeditorlammps.rst:59
+#: ../../usage/inputeditorlammps.rst:57
+msgid "ここでの設定はNeuralMD関連の計算にのみ適用されます。それ以外のグラフニューラルネットワーク力場のGPU使用の設定とは独立しています。これらのGPU使用についてはそれぞれの環境設定方法を参照してください。"
+msgstr ""
+"The configuration settings described are specific to NeuralMD-"
+"related calculations. The GPU usage settings for other graph neural network "
+"force fields are separate and independent. To understand the GPU usage for them, "
+"please refer to their respective environment setup "
+"instructions."
+
+#: ../../usage/inputeditorlammps.rst:60
 msgid "Open Catalyst 2020"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:61
+#: ../../usage/inputeditorlammps.rst:62
 msgid ""
 "`Open Catalyst Project <https://opencatalystproject.org>`_ "
 "で公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。"
@@ -2919,7 +2929,7 @@ msgstr ""
 "network, which is publicly available in the `Open Catalyst Project "
 "<https://opencatalystproject.org>`_\\ ."
 
-#: ../../usage/inputeditorlammps.rst:63
+#: ../../usage/inputeditorlammps.rst:64
 msgid ""
 "LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| "
 "をクリックすると説明が表示されます。"
@@ -2929,35 +2939,35 @@ msgstr ""
 "there are some limitations to this approach. Click on |info| to view the "
 "detailed description."
 
-#: ../../usage/inputeditorlammps.rst:101
+#: ../../usage/inputeditorlammps.rst:102
 msgid "info"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:65
+#: ../../usage/inputeditorlammps.rst:66
 msgid "MPI並列には非対応です（OpenMP並列・GPUを使った計算が可能です）。"
 msgstr ""
 "MPI parallel processing is not supported (calculations using OpenMP "
 "parallel processing / a GPU are available)."
 
-#: ../../usage/inputeditorlammps.rst:66
+#: ../../usage/inputeditorlammps.rst:67
 msgid "ARM版(Apple M1)には非対応です。"
 msgstr "ARM ver. (Apple M1) is not supported."
 
-#: ../../usage/inputeditorlammps.rst:67
+#: ../../usage/inputeditorlammps.rst:68
 msgid "Z軸方向には周期境界条件が適用されません。"
 msgstr "Periodic boundary conditions are not applied along the Z axis."
 
-#: ../../usage/inputeditorlammps.rst:68
+#: ../../usage/inputeditorlammps.rst:69
 msgid "ビリアル応力が計算できないため、NPT・NPHアンサンブルでの計算、およびセルの最適化には非対応です。"
 msgstr ""
 "As virial stress is not calculated, calculations involving NPT/NPH "
 "ensemble or cell optimization are not supported."
 
-#: ../../usage/inputeditorlammps.rst:76 ../../usage/m3gnet.rst:187
+#: ../../usage/inputeditorlammps.rst:77 ../../usage/m3gnet.rst:187
 msgid "M3GNet"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:78
+#: ../../usage/inputeditorlammps.rst:79
 msgid ""
 "M3GNet（\\ `従来版 <https://github.com/materialsvirtuallab/m3gnet>`_\\ 、\\ "
 "`MatGL版 <https://github.com/materialsvirtuallab/matgl>`_\\ "
@@ -2970,7 +2980,7 @@ msgstr ""
 "<https://github.com/materialsvirtuallab/matgl>`_\\ ) + correction by "
 "`Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\\ ."
 
-#: ../../usage/inputeditorlammps.rst:80 ../../usage/inputeditorlammps.rst:94
+#: ../../usage/inputeditorlammps.rst:81 ../../usage/inputeditorlammps.rst:95
 msgid ""
 "LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、MPI並列には非対応です（OpenMP並列・GPUを使った計算が可能です）。"
 " |info| をクリックすると説明が表示されます。"
@@ -2980,7 +2990,7 @@ msgstr ""
 "parallel processing is not supported (OpenMP parallel processing / GPU "
 "are supported). Click on |info| to view a detailed description."
 
-#: ../../usage/inputeditorlammps.rst:87
+#: ../../usage/inputeditorlammps.rst:88
 msgid ""
 ":guilabel:`Model` にはM3GNetに同梱されている学習済みモデルが表示されます。また、画面左上のアイコン "
 "|mainmenuicon| から :menuselection:`Import --> Import M3GNet model` "
@@ -2991,7 +3001,7 @@ msgstr ""
 "|mainmenuicon| by selecting :menuselection:`Import --> Import M3GNet "
 "model`."
 
-#: ../../usage/inputeditorlammps.rst:92
+#: ../../usage/inputeditorlammps.rst:93
 msgid ""
 "`CHGNet <https://github.com/CederGroupHub/chgnet>`_ "
 "として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場＋\\ `Simple DFT-D3 "
@@ -3002,7 +3012,7 @@ msgstr ""
 "correction by `Simple DFT-D3 "
 "<https://dftd3.readthedocs.io/en/latest/>`_\\ ."
 
-#: ../../usage/inputeditorlammps.rst:103
+#: ../../usage/inputeditorlammps.rst:104
 msgid ""
 ":guilabel:`Model` にはCHGNetに同梱されている学習済みモデルが表示されます。また、画面左上のアイコン "
 "|mainmenuicon| から :menuselection:`Import --> Import CHGNet model` "
@@ -3013,11 +3023,11 @@ msgstr ""
 ":menuselection:`Import --> Import CHGNet model` from the |mainmenuicon| "
 "located at the top left."
 
-#: ../../usage/inputeditorlammps.rst:106
+#: ../../usage/inputeditorlammps.rst:107
 msgid "SevenNet"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:108
+#: ../../usage/inputeditorlammps.rst:109
 msgid ""
 "`SevenNet <https://github.com/MDIL-SNU/SevenNet>`_ "
 "として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。"
@@ -3026,11 +3036,11 @@ msgstr ""
 "network, which is publicly available as `SevenNet <https://github.com"
 "/MDIL-SNU/SevenNet>`_."
 
-#: ../../usage/inputeditorlammps.rst:110
+#: ../../usage/inputeditorlammps.rst:111
 msgid "マルチGPUに対応しており、1GPUあたり1MPIプロセスでの実行が想定されています。"
 msgstr "It supports multi-GPU, and is designed to run with 1 MPI process per GPU."
 
-#: ../../usage/inputeditorlammps.rst:112
+#: ../../usage/inputeditorlammps.rst:113
 msgid ""
 "SevenNetに対応したLAMMPSの実行ファイルはNanoLaboに同梱されておりません。リポジトリの説明に従ってリモートサーバー上に実行環境を用意し、実行ファイルを"
 " :file:`lammps_sevennet` というファイル名で用意してください。必要に応じ、\\ :guilabel:`Job "
@@ -3042,7 +3052,7 @@ msgstr ""
 "name :file:`lammps_sevennet`. If necessary, set the :envvar:`PATH` "
 "environment variable in the :guilabel:`Job Script` settings screen."
 
-#: ../../usage/inputeditorlammps.rst:114
+#: ../../usage/inputeditorlammps.rst:115
 msgid ""
 ":guilabel:`Model` にはSevenNetに同梱されている学習済みモデルが表示されます。また、画面左上のアイコン "
 "|mainmenuicon| から :menuselection:`Import --> Import SevenNet model` "
@@ -3053,21 +3063,21 @@ msgstr ""
 "|mainmenuicon| by selecting :menuselection:`Import --> Import SevenNet "
 "model`."
 
-#: ../../usage/inputeditorlammps.rst:116
+#: ../../usage/inputeditorlammps.rst:117
 msgid "SevenNet-0_serial: 応力の出力が可能です。"
 msgstr "SevenNet-0_serial: Capable of outputting stress."
 
-#: ../../usage/inputeditorlammps.rst:117
+#: ../../usage/inputeditorlammps.rst:118
 msgid "SevenNet-0_parallel: マルチGPUでの実行が可能です。圧力の計算はできません（不正確になります）。"
 msgstr ""
 "SevenNet-0_parallel: Capable of multi-GPU execution. Cannot accurately "
 "calculate pressure."
 
-#: ../../usage/inputeditorlammps.rst:122
+#: ../../usage/inputeditorlammps.rst:123
 msgid "Scheme（計算過程）"
 msgstr "Scheme"
 
-#: ../../usage/inputeditorlammps.rst:124
+#: ../../usage/inputeditorlammps.rst:125
 msgid ""
 "入力ファイルエディターの :guilabel:`Scheme` で計算過程の設定を行います。画面右下のメニュー |editormenuicon| "
 "から :guilabel:`Scheme` をクリックしてください。"
@@ -3076,39 +3086,39 @@ msgstr ""
 "input file editor. Click on :guilabel:`Scheme` from the menu "
 "|editormenuicon| located at the lower right."
 
-#: ../../usage/inputeditorlammps.rst:128
+#: ../../usage/inputeditorlammps.rst:129
 msgid "画面右側の :guilabel:`Setting Scheme` で計算過程のパラメーターを設定します。"
 msgstr ""
 "Set the parameters for the calculation scheme from the :guilabel:`Setting"
 " Scheme` on the right side of the screen."
 
-#: ../../usage/inputeditorlammps.rst:130
+#: ../../usage/inputeditorlammps.rst:131
 msgid "Shape of Cell: NPH、NPTにおけるセル変形の拘束条件の設定"
 msgstr ""
 "Shape of Cell: Set the constraints on cell deformation for NPH and NPT "
 "ensembles."
 
-#: ../../usage/inputeditorlammps.rst:136 ../../usage/slhmc.rst:38
+#: ../../usage/inputeditorlammps.rst:137 ../../usage/slhmc.rst:38
 msgid "Isotropic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:136 ../../usage/slhmc.rst:38
+#: ../../usage/inputeditorlammps.rst:137 ../../usage/slhmc.rst:38
 msgid "等方的な変形を許す"
 msgstr "Allow isotropic deformation"
 
-#: ../../usage/inputeditorlammps.rst:138 ../../usage/slhmc.rst:40
+#: ../../usage/inputeditorlammps.rst:139 ../../usage/slhmc.rst:40
 msgid "Anisotropic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:138 ../../usage/slhmc.rst:40
+#: ../../usage/inputeditorlammps.rst:139 ../../usage/slhmc.rst:40
 msgid "x,y,z軸方向の伸縮を許す"
 msgstr "Allow stretching along x, y, z axes"
 
-#: ../../usage/inputeditorlammps.rst:140 ../../usage/slhmc.rst:42
+#: ../../usage/inputeditorlammps.rst:141 ../../usage/slhmc.rst:42
 msgid "Triclinic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:140 ../../usage/slhmc.rst:42
+#: ../../usage/inputeditorlammps.rst:141 ../../usage/slhmc.rst:42
 msgid "任意の変形を許す"
 msgstr "Allow arbitrary deformation"
 
@@ -3124,7 +3134,7 @@ msgstr ""
 msgid "XZ Isotropic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:142 ../../usage/slhmc.rst:44
+#: ../../usage/inputeditorlammps.rst:143 ../../usage/slhmc.rst:44
 msgid "2つの軸方向の同じ割合での伸縮を許す"
 msgstr "Allow stretching along the 2 axes at the same ratio"
 
@@ -3140,7 +3150,7 @@ msgstr ""
 msgid "XZ Anisotropic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:146 ../../usage/slhmc.rst:48
+#: ../../usage/inputeditorlammps.rst:147 ../../usage/slhmc.rst:48
 msgid "2つの軸方向の伸縮を許す"
 msgstr "Allow stretching along the 2 axes"
 
@@ -3156,7 +3166,7 @@ msgstr ""
 msgid "XZ Monoclinic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:150 ../../usage/slhmc.rst:52
+#: ../../usage/inputeditorlammps.rst:151 ../../usage/slhmc.rst:52
 msgid "2つの軸を含む面内の任意の変形を許す"
 msgstr "Allow arbitrary deformations in a plane containing the 2 axes"
 
@@ -3172,11 +3182,11 @@ msgstr ""
 msgid "Z Mobile"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:154 ../../usage/slhmc.rst:56
+#: ../../usage/inputeditorlammps.rst:155 ../../usage/slhmc.rst:56
 msgid "1つの軸方向の伸縮を許す"
 msgstr "Allow stretching along 1 axis"
 
-#: ../../usage/inputeditorlammps.rst:159
+#: ../../usage/inputeditorlammps.rst:160
 msgid ""
 ":guilabel:`Add Scheme` の :guilabel:`Apply` "
 "をクリックすると、画面左側に設定内容がタイル状に表示されます。必要に応じ、設定 |rarr| :guilabel:`Apply` "
@@ -3187,7 +3197,7 @@ msgstr ""
 "configuring |rarr| :guilabel:`Apply` as many times as necessary to add "
 "multiple processes."
 
-#: ../../usage/inputeditorlammps.rst:165
+#: ../../usage/inputeditorlammps.rst:166
 msgid ""
 "タイルの左上の数字が過程の実行される順番です。前へボタン |lpback| 、後へボタン |lpfwd| で順番を入れ替えます。削除ボタン "
 "|lpdel| で削除します。"
@@ -3197,31 +3207,31 @@ msgstr ""
 "the forward button |lpfwd| to change the order. To delete a process, use "
 "the delete button |lpdel| ."
 
-#: ../../usage/inputeditorlammps.rst:167
+#: ../../usage/inputeditorlammps.rst:168
 msgid "lpback"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:168
+#: ../../usage/inputeditorlammps.rst:169
 msgid "lpfwd"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:169
+#: ../../usage/inputeditorlammps.rst:170
 msgid "lpdel"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:171
+#: ../../usage/inputeditorlammps.rst:172
 msgid "また、ショートカットキーによる操作ができます。"
 msgstr "Shortcut keys are also available for some operations."
 
-#: ../../usage/inputeditorlammps.rst:179
+#: ../../usage/inputeditorlammps.rst:180
 msgid "直前に追加したタイルを削除"
 msgstr "Remove the tile that was last added"
 
-#: ../../usage/inputeditorlammps.rst:179
+#: ../../usage/inputeditorlammps.rst:180
 msgid ":kbd:`Ctrl` + :kbd:`C` , :kbd:`Backspace` , :kbd:`Delete`"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:188
+#: ../../usage/inputeditorlammps.rst:189
 msgid ""
 "追加済みのタイルの設定を後から編集するには、タイルをダブルクリックしてください。 :guilabel:`Set the scheme` "
 "ウィンドウが表示され、設定を編集できます。"
@@ -3230,7 +3240,7 @@ msgstr ""
 "will deisplay the :guilabel:`Set the scheme` window, where you can modify"
 " the settings."
 
-#: ../../usage/inputeditorlammps.rst:190
+#: ../../usage/inputeditorlammps.rst:191
 msgid ""
 "また、 :guilabel:`Statistical Properties` の各項目を :guilabel:`yes` "
 "に設定することで、統計量（熱伝導率、粘性係数、拡散係数、動径分布関数(RDF)）が計算され、結果画面に表示されます。熱伝導率、粘性係数については、"
@@ -3243,11 +3253,11 @@ msgstr ""
 "result screen. Parameters for thermal conductivity and viscosity "
 "coefficient can be configured via the |dotsmenuicon| menu."
 
-#: ../../usage/inputeditorlammps.rst:197
+#: ../../usage/inputeditorlammps.rst:198
 msgid "dotsmenuicon"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:192
+#: ../../usage/inputeditorlammps.rst:193
 msgid ""
 "各熱力学量や原子構造は毎ステップではなく、間を空けて出力されます。 :guilabel:`Interval to Print Logs` "
 "で出力の間隔をステップ数で設定できます。"
@@ -3257,57 +3267,57 @@ msgstr ""
 "intervals in the :guilabel:`Interval to Print Logs` by specifying the "
 "number of steps."
 
-#: ../../usage/inputeditorlammps.rst:202
+#: ../../usage/inputeditorlammps.rst:203
 msgid "Option（追加操作）"
 msgstr "Option"
 
-#: ../../usage/inputeditorlammps.rst:204
+#: ../../usage/inputeditorlammps.rst:205
 msgid "入力ファイルエディターの :guilabel:`Option` で外場・外力等の設定を行います。"
 msgstr ""
 "Configure optional operations in the :guilabel:`Option` mode of the input"
 " file editor."
 
-#: ../../usage/inputeditorlammps.rst:207
+#: ../../usage/inputeditorlammps.rst:208
 msgid "E-Field"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:207
+#: ../../usage/inputeditorlammps.rst:208
 msgid "静電場を印加します。"
 msgstr "Apply a static electric field."
 
-#: ../../usage/inputeditorlammps.rst:210
+#: ../../usage/inputeditorlammps.rst:211
 msgid "Ext. Forces"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:210
+#: ../../usage/inputeditorlammps.rst:211
 msgid "外力を印加します。"
 msgstr "Apply external forces."
 
-#: ../../usage/inputeditorlammps.rst:213
+#: ../../usage/inputeditorlammps.rst:214
 msgid "Move Atoms"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:213
+#: ../../usage/inputeditorlammps.rst:214
 msgid "原子を一定の速度で（原子に働く力に依らず）動かします。"
 msgstr "Move atoms at a constant speed, regardless of the forces acting on them. "
 
-#: ../../usage/inputeditorlammps.rst:216
+#: ../../usage/inputeditorlammps.rst:217
 msgid "Deform Cell"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:216
+#: ../../usage/inputeditorlammps.rst:217
 msgid "セルを一定の速度で変形させます。対象とする原子はセルの変形に追随します。"
 msgstr ""
 "Deform the cell at a constant speed, with target atoms following the "
 "cell's deformation."
 
-#: ../../usage/inputeditorlammps.rst:218
+#: ../../usage/inputeditorlammps.rst:219
 msgid "各タブの :guilabel:`Target Group` で対象とする原子グループを選び、パラメーターを入力します。"
 msgstr ""
 "In each tab, select the target atom group using the :guilabel:`Target "
 "Group` , and then specify the relevant parameters."
 
-#: ../../usage/inputeditorlammps.rst:220
+#: ../../usage/inputeditorlammps.rst:221
 msgid ""
 "これらの設定は、 :guilabel:`Scheme` の過程ごとに独立しており、 :guilabel:`Target Scheme` "
 "で選択されている過程にのみ適用されます。"
@@ -3315,7 +3325,7 @@ msgstr ""
 "These settings are specific to each :guilabel:`Scheme` , and are only "
 "applied to the selected :guilabel:`Target Scheme` ."
 
-#: ../../usage/inputeditorlammps.rst:222
+#: ../../usage/inputeditorlammps.rst:223
 msgid ""
 "初速度を与えて原子を動かすにはこの画面ではなく、 :guilabel:`Geometry` の :guilabel:`Velocities` "
 "で設定します。"
@@ -3324,7 +3334,7 @@ msgstr ""
 "screen. Instead, go to :guilabel:`Velocities` section under "
 ":guilabel:`Geometry` ."
 
-#: ../../usage/inputeditorlammps.rst:224
+#: ../../usage/inputeditorlammps.rst:225
 msgid ""
 "また、 :guilabel:`Target Group` "
 "として最初はall（全ての原子）のみが選択できますが、:guilabel:`Groups` で原子グループを定義することができます。 |add| "
@@ -3339,35 +3349,35 @@ msgstr ""
 ":guilabel:`Atoms` to select atoms individually. To delete atom group, "
 "click :guilabel:`Delete` from the right-click menu of the row."
 
-#: ../../usage/inputeditorlammps.rst:226
+#: ../../usage/inputeditorlammps.rst:227
 msgid "LAMMPSの仕様により、原子グループ数の上限は32個（allを除いて、31個まで追加可能）となります。"
 msgstr ""
 "Due to LAMMPS specifications, the maximum number of atoms groups is "
 "limited to 32 (you can add up to 31, excluding \"all\")."
 
-#: ../../usage/inputeditorlammps.rst:235
+#: ../../usage/inputeditorlammps.rst:236
 msgid "User's（ユーザー定義）"
 msgstr "User's"
 
-#: ../../usage/inputeditorlammps.rst:237
+#: ../../usage/inputeditorlammps.rst:238
 msgid "入力ファイルエディターの :guilabel:`User's` で任意コマンド追加、任意変数出力・グラフ化の設定を行います。"
 msgstr "Configure additional user commands / variables for output and plotting."
 
-#: ../../usage/inputeditorlammps.rst:240 ../../usage/inputeditorlammps.rst:249
+#: ../../usage/inputeditorlammps.rst:241 ../../usage/inputeditorlammps.rst:250
 msgid "User's Additional Settings into Input-file"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:240
+#: ../../usage/inputeditorlammps.rst:241
 msgid "テキストボックスに任意のLAMMPSコマンドを追加すると、入力ファイルに挿入されます。"
 msgstr ""
 "Add any LAMMPS commands into the text box to insert them to the input "
 "file."
 
-#: ../../usage/inputeditorlammps.rst:245 ../../usage/inputeditorlammps.rst:259
+#: ../../usage/inputeditorlammps.rst:246 ../../usage/inputeditorlammps.rst:260
 msgid "User's Variables to Output and Plot"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:243
+#: ../../usage/inputeditorlammps.rst:244
 msgid "変数を追加すると、結果画面にボタンが追加され、時系列プロットとして表示することができます。また、CSVファイルにもカラムが追加されます。"
 msgstr ""
 "When you add a variable, a corresponding button will be added to the "
@@ -3375,7 +3385,7 @@ msgstr ""
 "Additionally, a corresponding column for this variable will be added to "
 "the CSV file."
 
-#: ../../usage/inputeditorlammps.rst:245
+#: ../../usage/inputeditorlammps.rst:246
 msgid ""
 "変数としてはあらかじめ定義されているもの（\\ `LAMMPSマニュアル参照 "
 "<https://docs.lammps.org/thermo_style.html>`_\\ "
@@ -3385,7 +3395,7 @@ msgstr ""
 "<https://docs.lammps.org/thermo_style.html>`_\\ ) or variables added via "
 "LAMMPS command."
 
-#: ../../usage/inputeditorlammps.rst:247
+#: ../../usage/inputeditorlammps.rst:248
 msgid ""
 "例として、bond・angleが定義されている計算（OPLS-"
 "AA力場）で、各時刻の結合距離・結合角の平均をプロットし、ヒストグラムをファイル出力する設定を示します。"
@@ -3395,7 +3405,7 @@ msgstr ""
 "length / angle, while also outputting the histgram to a file at each "
 "timestep."
 
-#: ../../usage/inputeditorlammps.rst:251
+#: ../../usage/inputeditorlammps.rst:252
 msgid ""
 "compute 1 all bond/local dist\n"
 "compute 2 all angle/local theta\n"
@@ -3404,11 +3414,11 @@ msgid ""
 "fix 2 all ave/histo 10 10 100 80 120 20 c_2 mode vector file theta.histo"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:261
+#: ../../usage/inputeditorlammps.rst:262
 msgid "c_3[*]"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst:265
+#: ../../usage/inputeditorlammps.rst:266
 msgid ""
 "LAMMPSコマンドの使い方については\\ `LAMMPSのマニュアル "
 "<https://docs.lammps.org/Commands_category.html>`_\\ を参照してください。"
@@ -5941,7 +5951,7 @@ msgid "eye"
 msgstr ""
 
 #: ../../usage/result.rst:74 ../../usage/resultpdos.rst:36
-#: ../../usage/sshserver.rst:157
+#: ../../usage/sshserver.rst:158
 msgid "edit"
 msgstr ""
 
@@ -6482,12 +6492,16 @@ msgid ""
 "NeuralMD連携機能を使う場合、\\ :ref:`ライセンス設定 <grand_neumd>`\\ "
 "のコマンドが必要な場合はここでジョブスクリプトに追加します。remoteLicenseを使っている場合、およびシェルの初期化ファイルで設定している場合は必要ありません。"
 msgstr ""
-"When using the NeuralMD integration functionality, if the command in :ref:`License Settings <grand_neumd>` is required, add it to the job script here. "
-"This is not necessary if you are using remoteLicense or have set it in the shell initialization file."
+"When using the NeuralMD integration functionality, if the command in "
+":ref:`License Settings <grand_neumd>` is required, add it to the job "
+"script here. This is not necessary if you are using remoteLicense or have"
+" set it in the shell initialization file."
 
 #: ../../usage/sshserver.rst:95
 msgid "計算を実行する行（mpirun等）よりも前に、次の行を追加してください。"
-msgstr "Add the following line before the line that runs the calculation (e.g. mpirun):"
+msgstr ""
+"Add the following line before the line that runs the calculation (e.g. "
+"mpirun):"
 
 #: ../../usage/sshserver.rst:97
 msgid "export ADVANCED_LICENSE_FILE=(ライセンスファイルの場所)/neumd.lic"
@@ -6495,18 +6509,16 @@ msgstr "export ADVANCED_LICENSE_FILE=(license file path)/neumd.lic"
 
 #: ../../usage/sshserver.rst:101
 msgid ""
-"また、サーバーにGPUが搭載されている場合、ニューラルネットワーク力場関連の計算をGPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD"
-" Pro版のライセンスが必要）、およびLAMMPSを使ったニューラルネットワーク力場による分子動力学計算です。設定画面右側の "
+"また、サーバーにGPUが搭載されている場合、Advance/NeuralMD関連の計算をGPUを使ってより高速に実行することができます。対応しているのは、Advance/NeuralMDを使ったニューラルネットワーク力場の学習（Advance/NeuralMD"
+" Pro版のライセンスが必要）、およびNeuralMD力場を使ったLAMMPSによる分子動力学計算です。設定画面右側の "
 ":guilabel:`GPU` タブを開き、 :guilabel:`GPU for Advance/NeuralMD` "
 "を有効にするとGPUを使うようになります。"
 msgstr ""
-"If the server is equipped with GPU(s), neural network force field-related"
-" computations can be expedited using the GPU. Supported operations "
-"include the training of a neural network force field via Advance/NeuralMD"
-" (requiring an Advance/NeuralMD Pro edition license) and molecular "
-"dynamics simulations using a neural network force field using LAMMPS. To "
-"utilize the GPU, open the :guilabel:`GPU` tab on the right side of "
-"setting window and enable :guilabel:`GPU for Advance/NeuralMD` ."
+"If the server is equipped with GPU(s), Advance/NeuralMD-related computations can be expedited "
+"using the GPU. Supported operations include the training of a neural network force field via Advance/NeuralMD "
+"(requiring an Advance/NeuralMD Pro edition license) and molecular dynamics simulations"
+" using a NeuralMD force field using LAMMPS. To utilize the GPU, open the :guilabel:`GPU` tab on the"
+" right side of setting window and enable :guilabel:`GPU for Advance/NeuralMD` ."
 
 #: ../../usage/sshserver.rst:103
 msgid ""
@@ -6531,7 +6543,7 @@ msgstr ""
 "You can check the device ID assigned to each GPU by executing ``nvidia-"
 "smi -L`` on the server."
 
-#: ../../usage/sshserver.rst:111
+#: ../../usage/sshserver.rst:112
 msgid "例えば、グラフィックカードが2つ搭載されているマシンで、MPI4並列で実行し、2プロセスをデバイスID0のGPU、2プロセスをデバイスID1のGPUに割り当てる場合は次のように設定します。"
 msgstr ""
 "For instance, on a machine with 2 graphic cards, if you wish to execute "
@@ -6539,58 +6551,58 @@ msgstr ""
 "device ID 0 and 2 to the GPU with device ID 1, you can configure it as "
 "follows."
 
-#: ../../usage/sshserver.rst:118
+#: ../../usage/sshserver.rst:119
 msgid "Speedタブの設定"
 msgstr "Speed settings"
 
-#: ../../usage/sshserver.rst:120
+#: ../../usage/sshserver.rst:121
 msgid ":guilabel:`Speed` タブでは、サーバーからの情報取得・ファイルダウンロードの間隔、同時接続数を設定できます。"
 msgstr ""
 "In :guilabel:`Speed` tab, you can configure the intervals for retrieving "
 "information / downloading files from the server, as well the number of "
 "simultaneous accesses."
 
-#: ../../usage/sshserver.rst:122
+#: ../../usage/sshserver.rst:123
 msgid "サーバーへのアクセス頻度が問題になる場合には、スライダーを :guilabel:`Slow` 側に動かすことで頻度を下げることができます。"
 msgstr ""
 "If frequent access is undesirable, adjust the sliders toward the "
 ":guilabel:`Slow` side to decrease the frequency of operations."
 
-#: ../../usage/sshserver.rst:124
+#: ../../usage/sshserver.rst:125
 msgid ":guilabel:`Connection Style` で、低速ネットワーク用の設定ができます。"
 msgstr ":guilabel:`Connection Style` is settings for the low bandwidth network."
 
-#: ../../usage/sshserver.rst:127
+#: ../../usage/sshserver.rst:128
 msgid "Online Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:127
+#: ../../usage/sshserver.rst:128
 msgid "常時オフラインモードに設定すると、リアルタイムでの結果取得（ファイルのダウンロード）を行いません。"
 msgstr ""
 "if set to Always OFFLINE mode, the system will not fetch results "
 "(download files) in real-time."
 
-#: ../../usage/sshserver.rst:130
+#: ../../usage/sshserver.rst:131
 msgid "Download Mode"
 msgstr ""
 
-#: ../../usage/sshserver.rst:130
+#: ../../usage/sshserver.rst:131
 msgid "容量の大きいバイナリファイルなどを除外し、テキストファイルのみダウンロードするよう設定できます。"
 msgstr ""
 "you can configure settings to download Only Text Files, excluding large "
 "binary files etc."
 
-#: ../../usage/sshserver.rst:133
+#: ../../usage/sshserver.rst:134
 msgid "Download Time"
 msgstr ""
 
-#: ../../usage/sshserver.rst:133
+#: ../../usage/sshserver.rst:134
 msgid "常時オフラインモードの際に、ファイルを一括ダウンロードする間隔（分単位）を設定します。"
 msgstr ""
 "you can set the interval (in minute) of batch downloading files in Always"
 " OFFLINE mode."
 
-#: ../../usage/sshserver.rst:135
+#: ../../usage/sshserver.rst:136
 msgid ""
 "SLHMC（力場自動生成）のデータ（slhmc_datフォルダ内の各計算エンジンの出力）のダウンロード有無は、 "
 ":menuselection:`メインメニュー --> Properties --> Advance/NeuralMD` "
@@ -6601,17 +6613,17 @@ msgstr ""
 "slhmc_dat folder), from :menuselection:`main menu --> Properties --> "
 "Advance/NeuralMD` . By default, this data is not downloaded."
 
-#: ../../usage/sshserver.rst:140
+#: ../../usage/sshserver.rst:141
 msgid "接続テスト"
 msgstr "Connection test"
 
-#: ../../usage/sshserver.rst:142
+#: ../../usage/sshserver.rst:143
 msgid "設定が完了したら、 :guilabel:`Test` タブでサーバーへの接続テストを行い、設定に問題がないか確認することができます。"
 msgstr ""
 "Once settings are configured, you can conduct a connection test to the "
 "server in :guilabel:`Test` tab to verify that the settings are correct."
 
-#: ../../usage/sshserver.rst:144
+#: ../../usage/sshserver.rst:145
 msgid ""
 ":guilabel:`Start to Test Connection` をクリックすると、自動的にテストを行います。 ``TEST OF "
 "CONNECTION IS SUCCEEDED`` と表示されればテストは成功です。接続に失敗した場合は ``ERROR HAS OCCURRED"
@@ -6622,24 +6634,24 @@ msgstr ""
 "SUCCEEDED`` or ``ERROR HAS OCCURRED IN TESTING CONNECTION`` . If you "
 "receive the latter message, please re-check the settings."
 
-#: ../../usage/sshserver.rst:149
+#: ../../usage/sshserver.rst:150
 msgid "設定の編集・削除・コピー"
 msgstr "Editing, deleting, copying settings"
 
-#: ../../usage/sshserver.rst:151
+#: ../../usage/sshserver.rst:152
 msgid "各タブで設定した内容は、サーバーごとに保存されます。リストから既に保存されているサーバーを選択すると、その設定内容を編集できます。"
 msgstr ""
 "Settings within the tabs are saved on a per-server basis. To edit the "
 "settings for the previously saved server, select the server from the "
 "list."
 
-#: ../../usage/sshserver.rst:153
+#: ../../usage/sshserver.rst:154
 msgid "設定名の右の |edit| をクリックすると、設定の並び替え・削除・位置を指定した追加ができるウィンドウが開きます。"
 msgstr ""
 "Clicking on |edit| to the right of the setting name opens a window where "
 "you can reorder, delete, and add settings with specified positions."
 
-#: ../../usage/sshserver.rst:155
+#: ../../usage/sshserver.rst:156
 msgid ""
 "既存の設定内容をコピーして新たな設定を追加するには、 |add| ボタンを押した後、ダイアログの :guilabel:`Copy from` "
 "でコピー元の設定を選んでください。"
