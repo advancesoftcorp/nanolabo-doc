@@ -10,11 +10,14 @@
 
 ファイルを設定する項目で、テキストファイルアイコン |textviewer| があるものは、アイコンをクリックするとファイルの内容が表示されます。
 
+詳細設定ボタン |gearicon| がある設定項目は、ボタンをクリックすると詳細設定ダイアログが開きます。
+
 折り畳まれて表示されていない項目（右三角アイコン |collapse| ）は、クリックして展開することで表示できます。
 
 .. |editormenuicon| image:: /img/editormenuicon.png
 .. |default| image:: /img/default.png
 .. |textviewer| image:: /img/textviewer.png
+.. |gearicon| image:: /img/gear.png
 .. |collapse| image:: /img/collapse.png
 
 入力欄が黄色くなった場合は、その値が適切でないことを示します。また、入力欄が赤くなった場合は、その値では計算ができない（実行してもエラーになる）ことを示します。入力欄をポイントすると入力可能な値の範囲が表示されます。入力欄を右クリックするとアンドゥ等の操作ができます。
