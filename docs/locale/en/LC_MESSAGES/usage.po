@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-10 11:21+0900\n"
+"POT-Creation-Date: 2024-07-11 13:50+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,7 +169,7 @@ msgstr ""
 "to return to the previous view."
 
 #: ../../usage/atomsviewer.rst:54 ../../usage/calculation.rst:9
-#: ../../usage/grandproject.rst:27 ../../usage/inputeditor.rst:48
+#: ../../usage/grandproject.rst:27 ../../usage/inputeditor.rst:51
 #: ../../usage/jupyter.rst:88 ../../usage/modeler.rst:15
 #: ../../usage/project.rst:20 ../../usage/result.rst:9
 #: ../../usage/slhmc.rst:107
@@ -177,7 +177,7 @@ msgid "projectmenuicon"
 msgstr ""
 
 #: ../../usage/atomsviewer.rst:55 ../../usage/explorer.rst:52
-#: ../../usage/modeler.rst:153 ../../usage/result.rst:13
+#: ../../usage/modeler.rst:233 ../../usage/result.rst:13
 #: ../../usage/resultpdos.rst:37 ../../usage/webbrowser.rst:21
 msgid "back"
 msgstr ""
@@ -632,7 +632,7 @@ msgstr ""
 #: ../../usage/grandproject.rst:55 ../../usage/initial.rst:65
 #: ../../usage/inputeditorlammps.rst:197 ../../usage/inputeditorqe.rst:36
 #: ../../usage/inputeditortb3.rst:52 ../../usage/jupyter.rst:46
-#: ../../usage/m3gnet.rst:91 ../../usage/modeler.rst:178
+#: ../../usage/m3gnet.rst:91 ../../usage/modeler.rst:258
 #: ../../usage/ocp.rst:182 ../../usage/result.rst:60
 #: ../../usage/sshserver.rst:9
 msgid "mainmenuicon"
@@ -722,7 +722,7 @@ msgstr ""
 
 #: ../../usage/calculation.rst:82 ../../usage/explorer.rst:43
 #: ../../usage/inputeditorlammps.rst:229 ../../usage/inputeditorqe.rst:6
-#: ../../usage/modeler.rst:242 ../../usage/result.rst:75
+#: ../../usage/modeler.rst:322 ../../usage/result.rst:75
 #: ../../usage/resultpdos.rst:35 ../../usage/sshserver.rst:21
 msgid "add"
 msgstr ""
@@ -1041,7 +1041,8 @@ msgstr ""
 "Python` from the |mainmenuicon| located in the upper left corner of the "
 "screen(or |gearicon| button in the Force Field setting screen)."
 
-#: ../../usage/chgnet.rst:86 ../../usage/m3gnet.rst:92 ../../usage/ocp.rst:183
+#: ../../usage/chgnet.rst:86 ../../usage/inputeditor.rst:20
+#: ../../usage/m3gnet.rst:92 ../../usage/ocp.rst:183
 msgid "gearicon"
 msgstr ""
 
@@ -1459,7 +1460,7 @@ msgstr ""
 msgid "fwd"
 msgstr ""
 
-#: ../../usage/explorer.rst:54 ../../usage/inputeditor.rst:50
+#: ../../usage/explorer.rst:54 ../../usage/inputeditor.rst:53
 msgid "up"
 msgstr ""
 
@@ -1913,7 +1914,7 @@ msgid "カラム上部の |remove| でも削除ができます。"
 msgstr "Alternstively, the column can be removed by |remove| at the top."
 
 #: ../../usage/grandproject.rst:116 ../../usage/inputeditorqe.rst:9
-#: ../../usage/modeler.rst:243 ../../usage/result.rst:76
+#: ../../usage/modeler.rst:323 ../../usage/result.rst:76
 #: ../../usage/sshserver.rst:81
 msgid "remove"
 msgstr ""
@@ -2544,7 +2545,7 @@ msgstr ""
 msgid "分子作成"
 msgstr "Create molecule"
 
-#: ../../usage/initial.rst:98 ../../usage/modeler.rst:213
+#: ../../usage/initial.rst:98 ../../usage/modeler.rst:293
 msgid ""
 "分子エディタ―\\ `JSME <https://jsme-editor.github.io/>`_\\ "
 "を使用し、作図した構造をそのままモデルとして使用できます。"
@@ -2607,11 +2608,11 @@ msgstr "Close NanoLabo"
 msgid ":kbd:`Ctrl` + :kbd:`Q`"
 msgstr ""
 
-#: ../../usage/inputeditor.rst:30
+#: ../../usage/inputeditor.rst:33
 msgid "Quantum ESPRESSO"
 msgstr ""
 
-#: ../../usage/inputeditor.rst:30
+#: ../../usage/inputeditor.rst:33
 msgid "LAMMPS"
 msgstr ""
 
@@ -2630,7 +2631,7 @@ msgstr ""
 "in the lower right corner. Then, set the required values by referring to "
 "the calculation engine manual."
 
-#: ../../usage/inputeditor.rst:15 ../../usage/inputeditorlammps.rst:127
+#: ../../usage/inputeditor.rst:17 ../../usage/inputeditorlammps.rst:127
 #: ../../usage/inputeditorqe.rst:3 ../../usage/project.rst:24
 msgid "editormenuicon"
 msgstr ""
@@ -2641,7 +2642,7 @@ msgstr ""
 "Some of the setting items have a default value button |default| . Click "
 "this button to restore the settings to their default value."
 
-#: ../../usage/inputeditor.rst:16 ../../usage/inputeditorqe.rst:37
+#: ../../usage/inputeditor.rst:18 ../../usage/inputeditorqe.rst:37
 msgid "default"
 msgstr ""
 
@@ -2651,21 +2652,27 @@ msgstr ""
 "Some items to specify a file have a text file icon |textviewer| . Click "
 "on the icon to view the content of the file."
 
-#: ../../usage/inputeditor.rst:17
+#: ../../usage/inputeditor.rst:19
 msgid "textviewer"
 msgstr ""
 
 #: ../../usage/inputeditor.rst:13
+msgid "詳細設定ボタン |gearicon| がある設定項目は、ボタンをクリックすると詳細設定ダイアログが開きます。"
+msgstr ""
+"For settings with the Advanced Settings button |gearicon|, clicking the "
+"button will open the Advanced Settings dialog."
+
+#: ../../usage/inputeditor.rst:15
 msgid "折り畳まれて表示されていない項目（右三角アイコン |collapse| ）は、クリックして展開することで表示できます。"
 msgstr ""
 "Some of the setting items are collapsed and not visible. You can expand "
 "them by clicking on the right-pointing triangle icon |collapse| ."
 
-#: ../../usage/inputeditor.rst:18
+#: ../../usage/inputeditor.rst:21
 msgid "collapse"
 msgstr ""
 
-#: ../../usage/inputeditor.rst:20
+#: ../../usage/inputeditor.rst:23
 msgid "入力欄が黄色くなった場合は、その値が適切でないことを示します。また、入力欄が赤くなった場合は、その値では計算ができない（実行してもエラーになる）ことを示します。入力欄をポイントすると入力可能な値の範囲が表示されます。入力欄を右クリックするとアンドゥ等の操作ができます。"
 msgstr ""
 "A yellow input field indicates that the value is not appropriate. A red "
@@ -2674,7 +2681,7 @@ msgstr ""
 " your cursor over the input field. Additionally, you can right-click on "
 "the input field for options like undo etc."
 
-#: ../../usage/inputeditor.rst:24
+#: ../../usage/inputeditor.rst:27
 msgid ""
 "スライダーは、マウス操作で値を設定するほか、右クリックメニューの :guilabel:`Input directly` "
 "で値を直接入力できます。また、一部のスライダーは右クリックメニューの :guilabel:`Extend the domain` "
@@ -2685,18 +2692,18 @@ msgstr ""
 "right-click menu. Some sliders also offer an :guilabel:`Extend the "
 "domain` option in the menu to extend the range of values."
 
-#: ../../usage/inputeditor.rst:28
+#: ../../usage/inputeditor.rst:31
 msgid "いくつかの設定画面については補足説明がありますので、以下のリンクよりご覧ください。"
 msgstr ""
 "There are additional explanatory notes available for certain setting "
 "views. You can access these supplemental descriptions through the "
 "following links."
 
-#: ../../usage/inputeditor.rst:40
+#: ../../usage/inputeditor.rst:43
 msgid "内蔵テキストエディタ―"
 msgstr "Built-in text editor"
 
-#: ../../usage/inputeditor.rst:42
+#: ../../usage/inputeditor.rst:45
 msgid ""
 "左下のメニュー |projectmenuicon| から :guilabel:`Input-file` "
 "を開くと、作成される入力ファイルの内容を内蔵テキストエディタ―で確認することができます。"
@@ -2704,17 +2711,17 @@ msgstr ""
 "Open the :guilabel:`Input-file` from the menu on the lower left to review"
 " the input file in text format that will created."
 
-#: ../../usage/inputeditor.rst:44
+#: ../../usage/inputeditor.rst:47
 msgid "画面右側のパネルで変更した設定項目は、再読み込みボタン |reloadac| をクリックすることでテキストエディタ―側に反映されます。"
 msgstr ""
 "Click the reload button |reloadac| to update the modified items from the "
 "right-side panel in the text editor."
 
-#: ../../usage/inputeditor.rst:49
+#: ../../usage/inputeditor.rst:52
 msgid "reloadac"
 msgstr ""
 
-#: ../../usage/inputeditor.rst:46
+#: ../../usage/inputeditor.rst:49
 msgid ""
 "また、テキストエディタ―で入力ファイルの内容を直接変更することもできます。変更した内容は、上矢印ボタン |up| "
 "をクリックすることで画面右側のパネルに反映されます。"
@@ -2723,7 +2730,7 @@ msgstr ""
 "text editor. Click the up arrow button |up| to apply the changes to the "
 "right-side panel."
 
-#: ../../usage/inputeditor.rst:53
+#: ../../usage/inputeditor.rst:56
 msgid ""
 "テキストエディターの内容は、実際の入力ファイルを開いているわけではなく、設定項目から生成された一時的なものです。 "
 "上矢印ボタンをクリックしてから保存をすることで、実際の入力ファイルに反映されます。 "
@@ -2735,17 +2742,17 @@ msgstr ""
 "If you don't click the up arrow button, the text will not be reflected in"
 " the actual input file, even if you save the project."
 
-#: ../../usage/inputeditor.rst:60
+#: ../../usage/inputeditor.rst:63
 msgid "原子の固定・可動設定"
 msgstr "Let atoms fixed / mobile"
 
-#: ../../usage/inputeditor.rst:62
+#: ../../usage/inputeditor.rst:65
 msgid "構造最適化や分子動力学計算を行う際に、指定した原子の座標を固定して計算を行うための設定を行います。"
 msgstr ""
 "In structure optimization or molecular dynamics calculations, it is "
 "possible to fix coordinates of specified atoms."
 
-#: ../../usage/inputeditor.rst:64
+#: ../../usage/inputeditor.rst:67
 msgid ""
 "画面左側のビューワーで、固定したい原子を右クリックします。複数の原子を変更したい場合は :kbd:`Ctrl` + ドラッグで選択（ "
 ":kbd:`Ctrl` + 右ドラッグで選択解除）します。対象の原子がワイヤーフレーム表示に変わりますので、メニューから "
@@ -2761,7 +2768,7 @@ msgstr ""
 "To make the fixed atoms mobile again, choose :guilabel:`Let selected "
 "atoms be MOBILE` from the menu."
 
-#: ../../usage/inputeditor.rst:66
+#: ../../usage/inputeditor.rst:69
 msgid ""
 "各方向ごとの固定・可動の設定を確認・変更するには、右下のメニュー |editormenuicon| から :guilabel:`Geometry`"
 " を開き、 :guilabel:`Atoms` 内の :guilabel:`Atomic Configuration` "
@@ -3612,7 +3619,7 @@ msgstr ""
 "ordering is automatically adjusted based on atomic bonds. This algorithm "
 "can be adjusted via the |settingicon| button."
 
-#: ../../usage/inputeditorqe.rst:100 ../../usage/modeler.rst:96
+#: ../../usage/inputeditorqe.rst:100 ../../usage/modeler.rst:176
 msgid "settingicon"
 msgstr ""
 
@@ -3884,7 +3891,9 @@ msgstr "export PATH=(julia installation destination)/bin:$PATH"
 
 #: ../../usage/inputeditortb3.rst:59
 msgid "ThreeBodyTB 1.0.0以降とXML2_jll 2.12.0以降の組み合わせで次のようなエラーが出る場合があります。"
-msgstr "When using the combination of ThreeBodyTB 1.0.0 or later and XML2_jll 2.12.0 or later, you may encounter the following error."
+msgstr ""
+"When using the combination of ThreeBodyTB 1.0.0 or later and XML2_jll "
+"2.12.0 or later, you may encounter the following error."
 
 #: ../../usage/inputeditortb3.rst:61
 msgid ""
@@ -3894,7 +3903,9 @@ msgstr ""
 
 #: ../../usage/inputeditortb3.rst:66
 msgid "この場合、Juliaの対話型実行環境を起動し、XML2_jll 2.11.5以前にバージョンを下げてください。"
-msgstr "In this case, launch Julia's interactive execution environment and downgrade to XML2_jll 2.11.5 or earlier."
+msgstr ""
+"In this case, launch Julia's interactive execution environment and "
+"downgrade to XML2_jll 2.11.5 or earlier."
 
 #: ../../usage/inputeditortb3.rst:68
 msgid ""
@@ -4507,10 +4518,156 @@ msgstr ""
 "left corner to return to the project view."
 
 #: ../../usage/modeler.rst:20
+msgid "Autopilot"
+msgstr ""
+
+#: ../../usage/modeler.rst:22
+msgid ""
+"ChatGPTを活用し、自然言語による命令でモデルを作成する機能です。モデラー画面右下の :guilabel:`Autopilot` ボタン "
+"|autopilot| をクリックすると命令文の入力欄が表示されます。"
+msgstr ""
+"This is a feature that utilizes ChatGPT to create models based on natural"
+" language instructions. Clicking the :guilabel:`Autopilot` button "
+"|autopilot| in the bottom right corner of the modeler screen will display"
+" an input field for entering instructions."
+
+#: ../../usage/modeler.rst:83
+msgid "autopilot"
+msgstr ""
+
+#: ../../usage/modeler.rst:26
+msgid ""
+"作成したいモデルの説明を入力してください。 |autopilot_speech| ボタンで音声入力もできます。 "
+"|autopilot_submit| ボタンで送信します。 |autopilot_close| ボタンで元の画面に戻ります。"
+msgstr ""
+"Enter the description of the model you want to create. You can also use "
+"voice input with the |autopilot_speech| button. Submit with the "
+"|autopilot_submit| button. Return to the previous screen with the "
+"|autopilot_close| button."
+
+#: ../../usage/modeler.rst:84
+msgid "autopilot_speech"
+msgstr ""
+
+#: ../../usage/modeler.rst:85
+msgid "autopilot_submit"
+msgstr ""
+
+#: ../../usage/modeler.rst:86
+msgid "autopilot_close"
+msgstr ""
+
+#: ../../usage/modeler.rst:28
+msgid "命令文の例"
+msgstr "Examples of instructions"
+
+#: ../../usage/modeler.rst:34
+msgid "「NMC電極の110表面と、1mol/LのLiBF4のEC:DMC(7:3)溶液の固液界面」"
+msgstr ""
+"\"The solid-liquid interface between the 110 surface of NMC electrode and"
+" 1 mol/L LiBF4 in EC:DMC (7:3) solution\""
+
+#: ../../usage/modeler.rst:36
+msgid ""
+"層状LiCoO\\ `2`:sub:\\ のスーパーセルを作り、CoをMnとNiに置換して(110)スラブを作った後、EC、DMC、Li\\ "
+"`+`:sup:\\ 、BF\\ `4`:sub:\\ `-`:sup:\\ を指定された割合でパッキングします。"
+msgstr ""
+"Create a supercell of layered LiCoO\\ 2:sub:\\, substitute Co with Mn and"
+" Ni and create a (110) slab, then pack EC, DMC, Li\\ `+`:sup:\\ , and "
+"BF\\ `4`:sub:\\ `-`:sup:\\ in the specified ratio."
+
+#: ../../usage/modeler.rst:38
+msgid "|2emdash| AIがNMC電極の意味を理解した上でモデリングします。"
+msgstr ""
+"|2emdash| AI will model with an understanding of what an NMC electrode "
+"means."
+
+#: ../../usage/modeler.rst:45
+msgid "「Fe/Ni/Cr/Mn＝7/1/1/1の合金」"
+msgstr "\"An alloy with Fe/Ni/Cr/Mn ratio = 7/1/1/1\""
+
+#: ../../usage/modeler.rst:47
+msgid "Feのスーパーセルを作成した後、FeをNiに10.0%置換、FeをCrに11.1%置換、FeをMnに12.5%置換します。"
+msgstr ""
+"Create a supercell of Fe, then substitute 10.0% of Fe with Ni, 11.1% of "
+"Fe with Cr, and 12.5% of Fe with Mn."
+
+#: ../../usage/modeler.rst:49
+msgid "|2emdash| AIが元素置換率を自動計算してくれます。"
+msgstr "|2emdash| AI will automatically calculate the element substitution rates."
+
+#: ../../usage/modeler.rst:56
+msgid "「ZrO2(001)/Rh(111) + 2 x NO\\@hollow」"
+msgstr "\"ZrO2(001)/Rh(111) + 2 x NO\\@hollow\""
+
+#: ../../usage/modeler.rst:58
+msgid "ZrO\\ `2`:sub:\\ (001)とRh(111)の界面モデルを作成して、その上に一酸化窒素分子をホローサイトに2つ吸着させます。"
+msgstr "Create an interface model of ZrO\ 2:sub:\ (001) and Rh(111), "
+"then adsorb two nitric oxide molecules on hollow sites on top of it."
+
+#: ../../usage/modeler.rst:60
+msgid "|2emdash| AIは化学式を使った曖昧な表現も理解します。"
+msgstr "|2emdash| AI understands ambiguous expressions using chemical formulas as well."
+
+#: ../../usage/modeler.rst:63
+msgid ""
+"命令文が解釈されると、それに対応するモデラーの操作手順が表示されます。\\ :guilabel:`Run`\\ "
+"をクリックすると実際に手順が実行されます。"
+msgstr ""
+"When the instruction is interpreted, the corresponding modeler operation steps are displayed. "
+"Clicking :guilabel:`Run` will execute these steps."
+
+#: ../../usage/modeler.rst:67
+msgid "Full-Auto"
+msgstr ""
+
+#: ../../usage/modeler.rst:69
+msgid "ユーザーが操作することなく、すべてのステップが自動的に実行され、モデルが作成されます。"
+msgstr "All steps are automatically executed and the model is created without any user intervention."
+
+#: ../../usage/modeler.rst:71
+msgid "Semi-Auto"
+msgstr ""
+
+#: ../../usage/modeler.rst:73
+msgid "各ステップで説明が表示され、それに従いユーザーが操作を行います。パラメーター等の詳細を手動で設定したい場合に便利です。"
+msgstr ""
+"An explanation is shown at each step, guiding the user through the operations. "
+"This is useful when you want to manually set details such as parameters."
+
+#: ../../usage/modeler.rst:75
+msgid "左下の矢印が赤く |back_red| なっている場合、クリックすることで次のステップに進みます。"
+msgstr "When the arrow in the bottom left turns red |back_red|, click it to proceed to the next step."
+
+#: ../../usage/modeler.rst:87
+msgid "back_red"
+msgstr ""
+
+#: ../../usage/modeler.rst:77
+msgid "本機能は外部のサーバーに接続して実行されるため、インターネット接続が必要です。"
+msgstr "This feature requires an internet connection as it is executed by connecting to an external server."
+
+#: ../../usage/modeler.rst:79
+msgid "命令文の送信、音声入力にはそれぞれ1日当たりの上限を設定しています。上限に達した場合、当日中は当該の機能を使用できなくなります。"
+msgstr ""
+"A daily limit is set for sending instructions and voice input, respectively. "
+"When the limit is reached, the function will be unavailable for the rest of the day."
+
+
+#: ../../usage/modeler.rst:81
+msgid ""
+"左上メニュー |mainmenuicon| から :menuselection:`Properties --> Autopilot` "
+"で設定画面を開きます。利用規約の確認や、命令文の製品開発への利用を許可するかの設定変更もこちらで行えます。"
+msgstr ""
+"Click on the icon |mainmenuicon| located in the upper left corner of the "
+"screen, and open :menuselection:`Properties --> Autopilot`\\ to open the setting dialog. "
+"You can also check the terms of use and change the setting to allow the use of instructional text for product development here."
+
+#: ../../usage/modeler.rst:100
 msgid "並進移動"
 msgstr "Translation"
 
-#: ../../usage/modeler.rst:22
+#: ../../usage/modeler.rst:102
 msgid ""
 ":guilabel:`Cell` タブの :guilabel:`Translation of Cell` "
 "で、すべての原子を同じ方向・距離に移動させます。各単位格子ベクトルのスライダーを動かすと、リアルタイムでビューワーに反映されます。"
@@ -4520,11 +4677,11 @@ msgstr ""
 "distance. The changes made to the vector sliders will be immediately "
 "reflected in the viewer in real-time."
 
-#: ../../usage/modeler.rst:27
+#: ../../usage/modeler.rst:107
 msgid "スーパーセル"
 msgstr "Super cell"
 
-#: ../../usage/modeler.rst:29
+#: ../../usage/modeler.rst:109
 msgid ""
 ":guilabel:`Cell` タブの :guilabel:`Super Cell` で、単位格子を繰り返した構造のスーパーセルを作成します。 "
 ":guilabel:`Scaling` 欄の3つのテキストボックスに、a、b、c軸方向の繰り返し回数をそれぞれ入力し、 "
@@ -4536,11 +4693,11 @@ msgstr ""
 "boxes in the :guilabel:`Scaling` field, and then click "
 ":guilabel:`Build`\\ ."
 
-#: ../../usage/modeler.rst:36
+#: ../../usage/modeler.rst:116
 msgid "より一般的なスーパーセル"
 msgstr "Non-diagonal super cell expansion"
 
-#: ../../usage/modeler.rst:38
+#: ../../usage/modeler.rst:118
 msgid ""
 ":guilabel:`Lattice` タブの :guilabel:`Super Cell` "
 "では、各軸方向の繰り返しにとどまらず、格子ベクトルの方向の取り直しを伴うようなより一般的なスーパーセルが生成できます。"
@@ -4549,7 +4706,7 @@ msgstr ""
 "axes but including the redefinition of the lattice vectors, utilize the "
 ":guilabel:`Super Cell` function in :guilabel:`Lattice` tab. "
 
-#: ../../usage/modeler.rst:40
+#: ../../usage/modeler.rst:120
 msgid ""
 ":guilabel:`As Miller Index` : "
 "各格子ベクトルの変換先をミラー指数で指定（つまり、格子ベクトルに対する変換行列を入力）します。"
@@ -4558,50 +4715,50 @@ msgstr ""
 "vector using Miller indices (i.e. enter the transformation matrix for "
 "lattice vectors)."
 
-#: ../../usage/modeler.rst:42
+#: ../../usage/modeler.rst:122
 msgid ":guilabel:`As Dual Vector` : 入力値の逆数の比に対し、それと等しくなるような最小の整数比を計算して、ミラー指数とします。"
 msgstr ""
 ":guilabel:`As Dual Vector` : calculate the smallest integer ratio that is"
 " equal to the reciprocal ratio of the entered values and use it as the "
 "Miller indices."
 
-#: ../../usage/modeler.rst:44
+#: ../../usage/modeler.rst:124
 msgid "変換行列の各成分が整数であることにより、変換後の格子もまた単位格子となります。"
 msgstr ""
 "Since each element of the transformation matrix is an integer, the "
 "transformed lattice once again becomes a unit lattice."
 
-#: ../../usage/modeler.rst:51
+#: ../../usage/modeler.rst:131
 msgid "格子ベクトルの編集"
 msgstr "Edit lattice vectors"
 
-#: ../../usage/modeler.rst:53
+#: ../../usage/modeler.rst:133
 msgid ":guilabel:`Lattice` タブの :guilabel:`Lattice Vectors` で、格子ベクトルの編集をします。"
 msgstr ""
 "To edit the lattice vector, use the :guilabel:`Lattice Vectors` function "
 "in the :guilabel:`Lattice` tab."
 
-#: ../../usage/modeler.rst:55
+#: ../../usage/modeler.rst:135
 msgid ":guilabel:`Affine Positions` : 格子と同時に原子座標も変換します。"
 msgstr ""
 ":guilabel:`Affine Positions` : atom coordinates are converted along with "
 "the lattice transformation."
 
-#: ../../usage/modeler.rst:57
+#: ../../usage/modeler.rst:137
 msgid ":guilabel:`Leave Positions` : 原子座標は変換しません。"
 msgstr ":guilabel:`Leave Positions` : atom coordinates remain unchanged."
 
-#: ../../usage/modeler.rst:59
+#: ../../usage/modeler.rst:139
 msgid ":guilabel:`Refine` をクリックすると、Quantum ESPRESSOのブラベー格子表現に適した格子ベクトルへの変換を行います。"
 msgstr ""
 "Select :guilabel:`Refine` to adjust the lattice vectors, ensuring they "
 "are compatible for Bravais lattice representation in Quantum ESPRESSO."
 
-#: ../../usage/modeler.rst:64
+#: ../../usage/modeler.rst:144
 msgid "原子位置の調整"
 msgstr "Positions of Atoms"
 
-#: ../../usage/modeler.rst:66
+#: ../../usage/modeler.rst:146
 msgid ""
 "位置を調整したい原子を選択してから、 :guilabel:`Atom` タブの :guilabel:`Start Modeling` "
 "をクリックします。"
@@ -4609,7 +4766,7 @@ msgstr ""
 "Select the atom(s) whose positions you wish to adjust, and then click "
 ":guilabel:`Start Modeling` in the :guilabel:`Atom` tab."
 
-#: ../../usage/modeler.rst:68
+#: ../../usage/modeler.rst:148
 msgid ""
 "|Delta|\\ X(\\ |Delta|\\ Y, |Delta|\\ Z) / Angs. "
 "のスライダーで、各座標軸方向に移動します。スライダーの右クリックメニューの :guilabel:`Input directly` "
@@ -4620,7 +4777,7 @@ msgstr ""
 "the value directly through the :guilabel:`Input directly` option in the "
 "right-click menu."
 
-#: ../../usage/modeler.rst:70
+#: ../../usage/modeler.rst:150
 msgid ""
 ":guilabel:`X(Y, Z)-Mobility` "
 "で、各座標軸方向の固定・可動を設定します。この設定は構造最適化や分子動力学計算を行う際に適用されます。"
@@ -4629,7 +4786,7 @@ msgstr ""
 " the coordinate axes. This setting is applied for structural optimization"
 " or molecular dynamics calculations."
 
-#: ../../usage/modeler.rst:72
+#: ../../usage/modeler.rst:152
 msgid ""
 ":guilabel:`Rotation` で、選択原子の幾何中心に対して回転移動します。 :guilabel:`Rotate Atoms` "
 "をクリックすると球が表示されますので、ドラッグして回転移動を行います。 :kbd:`Esc` キーを押すと、位置が確定します。"
@@ -4639,15 +4796,15 @@ msgstr ""
 "Atoms`\\ , a sphere appears, then drag this sphere to rotate the atoms. "
 "Press :kbd:`Esc` to set their position."
 
-#: ../../usage/modeler.rst:81
+#: ../../usage/modeler.rst:161
 msgid "結晶格子の変換"
 msgstr "Conversion of crystal lattice"
 
-#: ../../usage/modeler.rst:83
+#: ../../usage/modeler.rst:163
 msgid "モデルの格子ベクトルを再定義し、結晶格子を変換します。"
 msgstr "Redefine the model's lattice vector to transform the crystal lattice."
 
-#: ../../usage/modeler.rst:85
+#: ../../usage/modeler.rst:165
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Conversion of Cell Type` の各 "
 ":guilabel:`Build` ボタンをクリックすると、変換が行われます。"
@@ -4655,42 +4812,42 @@ msgstr ""
 "In the :guilabel:`Crystal` tab, click the corresponding :guilabel:`Build`"
 " button to perform the conversion."
 
-#: ../../usage/modeler.rst:87
+#: ../../usage/modeler.rst:167
 msgid "Finding a Primitive Cell"
 msgstr ""
 
-#: ../../usage/modeler.rst:91
+#: ../../usage/modeler.rst:171
 msgid "Finding a Standard Cell"
 msgstr ""
 
-#: ../../usage/modeler.rst:89
+#: ../../usage/modeler.rst:169
 msgid "基本単位胞・慣用単位胞を自動的に決定し、相互に変換します。"
 msgstr "automatically find and convert to primitive / standard cell."
 
-#: ../../usage/modeler.rst:94
+#: ../../usage/modeler.rst:174
 msgid "More Symmetric Cell"
 msgstr ""
 
-#: ../../usage/modeler.rst:94
+#: ../../usage/modeler.rst:174
 msgid "ある程度の原子位置のずれを許容し、より対称性の高い結晶構造を探索します。 |settingicon| ボタンから対称性判定の閾値を設定できます。"
 msgstr ""
 "Discover a more symmetric crystal structure, permitting some variation in"
 " atom locations. You can specify the tolerance threshold using the "
 "|settingicon| button."
 
-#: ../../usage/modeler.rst:98
+#: ../../usage/modeler.rst:178
 msgid "Hexagonal -> Orthorhombic"
 msgstr ""
 
-#: ../../usage/modeler.rst:102
+#: ../../usage/modeler.rst:182
 msgid "Orthorhombic -> Hexagonal"
 msgstr ""
 
-#: ../../usage/modeler.rst:100
+#: ../../usage/modeler.rst:180
 msgid "六方晶・直方晶（斜方晶）を相互に変換します。"
 msgstr "Transform into hexagonal crystal / orthorhombic crystal."
 
-#: ../../usage/modeler.rst:104
+#: ../../usage/modeler.rst:184
 msgid ""
 "また、 :guilabel:`Cell` タブの :guilabel:`Operation for Axis` "
 "の各ボタンで、格子ベクトルの反転操作、および格子ベクトルの入れ替えができます。"
@@ -4698,15 +4855,15 @@ msgstr ""
 "Additionally, by using the :guilabel:`Operation for Axis` buttons in the "
 ":guilabel:`Cell` tab, you can flip / swap the lattice vectors."
 
-#: ../../usage/modeler.rst:109
+#: ../../usage/modeler.rst:189
 msgid "元素置換"
 msgstr "Element substitution"
 
-#: ../../usage/modeler.rst:111
+#: ../../usage/modeler.rst:191
 msgid "モデル中の原子の一部を異なる種類に変更します。"
 msgstr "Replace certain atoms in the model for different types of atoms."
 
-#: ../../usage/modeler.rst:113
+#: ../../usage/modeler.rst:193
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Element Substitution` にある "
 ":guilabel:`Start Modeling` をクリックすると、元素置換を行う画面が表示されます。"
@@ -4715,7 +4872,7 @@ msgstr ""
 ":guilabel:`Element Substitution` to display the element substitution "
 "view."
 
-#: ../../usage/modeler.rst:115
+#: ../../usage/modeler.rst:195
 msgid ""
 ":guilabel:`Element to be Substituted` （置換元の元素）、 :guilabel:`For What "
 "Element ?` （置換先の元素）、 :guilabel:`Super Cell` （スーパーセルを作成する場合その繰り返し回数）、 "
@@ -4733,23 +4890,23 @@ msgstr ""
 "symmetry. Clicking :guilabel:`Build` again will show a different "
 "structure with the same substitution settings."
 
-#: ../../usage/modeler.rst:117 ../../usage/modeler.rst:130
-#: ../../usage/modeler.rst:149 ../../usage/modeler.rst:176
-#: ../../usage/modeler.rst:240 ../../usage/modeler.rst:270
+#: ../../usage/modeler.rst:197 ../../usage/modeler.rst:210
+#: ../../usage/modeler.rst:229 ../../usage/modeler.rst:256
+#: ../../usage/modeler.rst:320 ../../usage/modeler.rst:350
 msgid "左下の戻るボタン |back| をクリックすると、ビューワーに表示されている構造が確定され、モデラ―画面に戻ります。"
 msgstr ""
 "Click the back button |back| locatded at the lower left to return to "
 "modeler view."
 
-#: ../../usage/modeler.rst:122
+#: ../../usage/modeler.rst:202
 msgid "点欠陥（空孔）"
 msgstr "Point defect (vacancy)"
 
-#: ../../usage/modeler.rst:124
+#: ../../usage/modeler.rst:204
 msgid "モデル中の原子の一部を取り除き、点欠陥（空孔）を作成します。"
 msgstr "Remove atoms from the model to create point defects (vacancies)."
 
-#: ../../usage/modeler.rst:126
+#: ../../usage/modeler.rst:206
 msgid ""
 ":guilabel:`Crystal` タブの :guilabel:`Lattice Defect` にある :guilabel:`Start "
 "Modeling` をクリックすると、点欠陥を作成する画面が表示されます。"
@@ -4757,7 +4914,7 @@ msgstr ""
 "In the :guilabel:`Crystal` tab, click on :guilabel:`Start Modeling` under"
 " :guilabel:`Lattice Defect` to access the lattice defect view."
 
-#: ../../usage/modeler.rst:128
+#: ../../usage/modeler.rst:208
 msgid ""
 ":guilabel:`Element to be Removed` （取り除く元素）、 :guilabel:`Super Cell` "
 "（スーパーセルを作成する場合その繰り返し回数）、 :guilabel:`Rate of Lattice Defect` "
@@ -4775,17 +4932,17 @@ msgstr ""
 "viewer, including symmetry. Clicking :guilabel:`Build` again will show a "
 "different structure, but with the same defect setting."
 
-#: ../../usage/modeler.rst:135
+#: ../../usage/modeler.rst:215
 msgid "スラブモデル"
 msgstr "Slab model"
 
-#: ../../usage/modeler.rst:137
+#: ../../usage/modeler.rst:217
 msgid "表面などの非周期系を近似的に周期的境界条件で扱う、スラブ近似のためのモデルを作成します。"
 msgstr ""
 "Build a model for slab approximation, where non-periodic systems like "
 "surfaces are approximated using periodic boundary conditions."
 
-#: ../../usage/modeler.rst:139
+#: ../../usage/modeler.rst:219
 msgid ""
 ":guilabel:`Slab` タブの :guilabel:`Slab Model` で、表面となる結晶面をミラー指数で指定し、 "
 ":guilabel:`Build` をクリックすると、スラブモデルの詳細設定を行う画面が表示されます。"
@@ -4794,7 +4951,7 @@ msgstr ""
 " Miller indices, then click :guilabel:`Build`\\ . This action will "
 "display a detailed view of the slab model settings."
 
-#: ../../usage/modeler.rst:141
+#: ../../usage/modeler.rst:221
 msgid ""
 "スラブの厚さを :guilabel:`Slab System` の :guilabel:`Width / Cell` スライダーで、真空層の厚さを"
 " :guilabel:`Vacuum of a Side` の :guilabel:`Width / Angs.` スライダーで変更します。 "
@@ -4808,7 +4965,7 @@ msgstr ""
 "the slab, enter the repeat count in the text boxes under :guilabel:`Area "
 "Scaling` and then click :guilabel:`Build`."
 
-#: ../../usage/modeler.rst:143
+#: ../../usage/modeler.rst:223
 msgid ""
 "複数の異なる表面原子構造が存在する場合、 :guilabel:`Kind of Surface` "
 "に複数の候補が表示されますので、クリックして選択してください。"
@@ -4817,32 +4974,32 @@ msgstr ""
 "preferred option from the list of candidates displayed under "
 ":guilabel:`Kind of Surface`\\ ."
 
-#: ../../usage/modeler.rst:145
+#: ../../usage/modeler.rst:225
 msgid "変更はリアルタイムでビューワーに反映されます。"
 msgstr "Modifications are updated and displayed in the viewer in real-time."
 
-#: ../../usage/modeler.rst:147
+#: ../../usage/modeler.rst:227
 msgid ":guilabel:`Initialize Model` をクリックすると、詳細設定を行う前（スラブモデル画面を開いた時点）の状態に戻ります。"
 msgstr ""
 "Click :guilabel:`Initialize Model` to revert to the state prior to "
 "detailed settings being applied (as it was when the slab model view was "
 "first opened)."
 
-#: ../../usage/modeler.rst:151
+#: ../../usage/modeler.rst:231
 msgid "また、スラブモデル作成後、 :guilabel:`Editing Slab Model` の各ボタンから、スラブモデルに対する追加の編集が可能です。"
 msgstr ""
 "Once the slab model is built, additional modifications can be made using "
 "the :guilabel:`Editing Slab Model` buttons."
 
-#: ../../usage/modeler.rst:160
+#: ../../usage/modeler.rst:240
 msgid "分子吸着"
 msgstr "Molecules adsorption"
 
-#: ../../usage/modeler.rst:162
+#: ../../usage/modeler.rst:242
 msgid "スラブモデルの表面に分子を吸着します。"
 msgstr "Adsorb molecules onto the slab model."
 
-#: ../../usage/modeler.rst:164
+#: ../../usage/modeler.rst:244
 msgid ""
 "スラブモデルを用意し、:guilabel:`Slab` タブの :guilabel:`Molecular Adsorption onto "
 "Slab` にある :guilabel:`Start Modeling` をクリックしてください。分子吸着を行う画面が表示されます。"
@@ -4851,7 +5008,7 @@ msgstr ""
 ":guilabel:`Start Modeling` under :guilabel:`Molecular Adsorption onto "
 "Slab` to display the view of molecules adsorbing onto the slab."
 
-#: ../../usage/modeler.rst:166
+#: ../../usage/modeler.rst:246
 msgid ""
 ":guilabel:`Adsorbate Molecule / Atom` （吸着する分子）、 :guilabel:`Adsorption "
 "Site` （吸着サイトの種類）を順に設定してください。 :guilabel:`Next` で次の項目、 :guilabel:`Previous`"
@@ -4861,7 +5018,7 @@ msgstr ""
 ":guilabel:`Adsorption Site`\\ . To navigate through the items, click "
 ":guilabel:`Next` ( :guilabel:`Previous` ) to move forward (go back) ."
 
-#: ../../usage/modeler.rst:168
+#: ../../usage/modeler.rst:248
 msgid ""
 ":guilabel:`Adsorbate Molecule` はあらかじめ用意されたものに加え、左上メニュー |mainmenuicon| から "
 ":menuselection:`Import --> Import Adsorbate molecule` でインポートしたものも使えます。"
@@ -4871,7 +5028,7 @@ msgstr ""
 ":menuselection:`Import --> Import Adsorbate molecule` from the main menu "
 "|mainmenuicon| located at the top-left."
 
-#: ../../usage/modeler.rst:170
+#: ../../usage/modeler.rst:250
 msgid ""
 "吸着の方法には、:guilabel:`Adsorption to Single Site` （選択した単一サイトへの吸着）と、 "
 ":guilabel:`Rate of Occupied Sites` （サイトの占有率を指定した吸着）があります。使用したい方を選択してください。"
@@ -4880,7 +5037,7 @@ msgstr ""
 ":guilabel:`Adsorption to Single Site` and :guilabel:`Rate of Occupied "
 "Sites`\\ . Please choose the one you would like to use."
 
-#: ../../usage/modeler.rst:172
+#: ../../usage/modeler.rst:252
 msgid ""
 ":guilabel:`Adsorption to Single Site` "
 "では、a軸・b軸方向の位置をスライダーで変更するか、サイトに振られた通し番号を使って、サイトを指定してください。"
@@ -4889,7 +5046,7 @@ msgstr ""
 " axis by using the sliders, or specify the site by using the serial "
 "number assigned to each site."
 
-#: ../../usage/modeler.rst:174
+#: ../../usage/modeler.rst:254
 msgid ""
 ":guilabel:`Rate of Occupied Sites` では、占有率を入力して :guilabel:`Build` "
 "をクリックすると、分子を吸着した構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
@@ -4900,25 +5057,25 @@ msgstr ""
 " viewer. Clicking :guilabel:`Build` again will show a different structure"
 " while maintaining the same settings."
 
-#: ../../usage/modeler.rst:179
+#: ../../usage/modeler.rst:259
 msgid "increment"
 msgstr ""
 
-#: ../../usage/modeler.rst:180
+#: ../../usage/modeler.rst:260
 msgid "decrement"
 msgstr ""
 
-#: ../../usage/modeler.rst:187
+#: ../../usage/modeler.rst:267
 msgid "界面モデル（Pro版のみ）"
 msgstr "Interface model (Pro version only)"
 
-#: ../../usage/modeler.rst:189
+#: ../../usage/modeler.rst:269
 msgid "格子定数の異なる2つの結晶モデルから、界面モデルを作成します。"
 msgstr ""
 "Construct an interface model by combining two crystal models that have "
 "different lattice constants."
 
-#: ../../usage/modeler.rst:191
+#: ../../usage/modeler.rst:271
 msgid ""
 ":guilabel:`Slab` タブの :guilabel:`Interface Model` にある :guilabel:`Start "
 "Modeling` をクリックしてください。界面モデル作成を行う画面が表示されます。"
@@ -4926,32 +5083,33 @@ msgstr ""
 "In the :guilabel:`Slab` tab, click on :guilabel:`Start Modeling` under "
 ":guilabel:`Interface Model` to display the interface model view."
 
-#: ../../usage/modeler.rst:193
+#: ../../usage/modeler.rst:273
 msgid ""
 "まず、2つのスラブモデルを作成します。画面左のモデルに対し、表面となる結晶面を :guilabel:`Miller Index` で指定し、 "
 ":guilabel:`Build` をクリックしてスラブモデルを作成します。続けて、右上に赤く表示されているimportボタン "
 "|import_red| "
-"をクリックし、もう一つのモデルを選択します。画面右にモデルが設定されたら、こちらもミラー指数を入力し、スラブモデルを作成します。"
+"をクリックするとエクスプローラーが表示されますので、もう一つのモデルをダブルクリックして選択します。画面右にモデルが設定されたら、こちらもミラー指数を入力し、スラブモデルを作成します。"
 msgstr ""
 "Begin by creating two slab models. First, for the left-hand side model, "
 "specify the crystal plane to be the surface using the :guilabel:`Miller "
 "Index` and then click :guilabel:`Build` to create a slab model. Next, "
-"click the import button |import_red| located at the upper right to select"
-" the second model. Once this model appears on the right-hand side, input "
+"click the import button |import_red| located at the upper right. In the explorer "
+"view, double-click on the model to be used for the second one. "
+"Once this model appears on the right-hand side, input "
 "the Miller indices and create another slab model following the the same "
 "way."
 
-#: ../../usage/modeler.rst:203
+#: ../../usage/modeler.rst:283
 msgid "import_red"
 msgstr ""
 
-#: ../../usage/modeler.rst:195
+#: ../../usage/modeler.rst:275
 msgid "中央の :guilabel:`Build Interface` ボタンをクリックすると、界面を作成する画面に移ります。"
 msgstr ""
 "Click the :guilabel:`Build Interface` button in the middle to proceed to "
 "build interface view."
 
-#: ../../usage/modeler.rst:199
+#: ../../usage/modeler.rst:279
 msgid ""
 ":guilabel:`Acceptable Strain` （許容する格子定数の歪み）を入力し、  :guilabel:`Next` "
 "をクリックすると、界面を探索し、結果が表示されます。問題が無ければ、さらに  :guilabel:`Next` "
@@ -4964,7 +5122,7 @@ msgstr ""
 " along the a/b-axis using the sliders. To  optimize the inter-slab "
 "distance with classical force field, click :guilabel:`Optimize`."
 
-#: ../../usage/modeler.rst:201
+#: ../../usage/modeler.rst:281
 msgid ""
 "ビューワー右上の :guilabel:`finish modeling` ボタン |finish| "
 "をクリックすると、表示されている構造が確定され、モデラー画面に戻ります。"
@@ -4973,15 +5131,15 @@ msgstr ""
 "upper right corner of the viewer. This will fix the structure and return "
 "to modeler view."
 
-#: ../../usage/modeler.rst:204
+#: ../../usage/modeler.rst:284
 msgid "finish"
 msgstr ""
 
-#: ../../usage/modeler.rst:211
+#: ../../usage/modeler.rst:291
 msgid "分子エディタ―"
 msgstr "Drawing a molecule"
 
-#: ../../usage/modeler.rst:215
+#: ../../usage/modeler.rst:295
 msgid ""
 ":guilabel:`Molecule` タブの :guilabel:`Drawing a Molecule` にある "
 ":guilabel:`Start Modeling` "
@@ -4993,7 +5151,7 @@ msgstr ""
 "model appears on the right side. The structure that you created on the "
 "editor will be displayed as 3D model in real time."
 
-#: ../../usage/modeler.rst:217
+#: ../../usage/modeler.rst:297
 msgid ""
 "エディターの使用方法については、JSMEの\\ `ヘルプ <https://jsme-"
 "editor.github.io/help.html>`_\\ を参照してください。"
@@ -5001,22 +5159,22 @@ msgstr ""
 "For guidance on using the editer, please refer to JSME `Help <https"
 "://jsme-editor.github.io/help.html>`_ documentation."
 
-#: ../../usage/modeler.rst:221
+#: ../../usage/modeler.rst:301
 msgid "左下の戻るボタン |back| をクリックすると、作図した構造が確定され、モデラ―画面に戻ります。このとき前のモデルは上書きされます。"
 msgstr ""
 "Click the back button |back| located at the lower left corner to return "
 "to the modeler view. Be aware that the previous model will be "
 "overwritten."
 
-#: ../../usage/modeler.rst:226
+#: ../../usage/modeler.rst:306
 msgid "分子充填"
 msgstr "Packing molecules"
 
-#: ../../usage/modeler.rst:228
+#: ../../usage/modeler.rst:308
 msgid "モデルの空いている領域に、小分子を充填します。"
 msgstr "Pack small molecules into the empty space in the model."
 
-#: ../../usage/modeler.rst:230
+#: ../../usage/modeler.rst:310
 msgid ""
 "分子を充填できる空間を持ったモデルを用意し、:guilabel:`Molecule` タブの :guilabel:`Packing "
 "Molecules` にある :guilabel:`Start Modeling` をクリックしてください。分子充填を行う画面が表示されます。"
@@ -5025,7 +5183,7 @@ msgstr ""
 " the :guilabel:`Crystal` tab, click on :guilabel:`Start Modeling` under "
 ":guilabel:`Packing Molecules` to access the view for packing molecules."
 
-#: ../../usage/modeler.rst:232
+#: ../../usage/modeler.rst:312
 msgid ""
 "右側のパネルの :guilabel:`Molecules to be Packed` "
 "で、充填する分子とその数を設定します。最初は分子のリストに水が設定されています。"
@@ -5034,7 +5192,7 @@ msgstr ""
 "the :guilabel:`Molecules to be Packed`\\ . Initially, water is present in"
 " the molecules list."
 
-#: ../../usage/modeler.rst:234
+#: ../../usage/modeler.rst:314
 msgid ""
 "リストに分子を追加するには、 |add| "
 "ボタンをクリックします。エクスプローラーが表示されますので、分子をダブルクリックして選択してください。この場で "
@@ -5047,13 +5205,13 @@ msgstr ""
 "molecule is added to the list, specify the quantity of this molecule to "
 "be packed."
 
-#: ../../usage/modeler.rst:236
+#: ../../usage/modeler.rst:316
 msgid "リストから分子を削除するには、右側の |remove| ボタンをクリックします。"
 msgstr ""
 "Click the |remove| button on the right to delete the molecule from the "
 "list."
 
-#: ../../usage/modeler.rst:238
+#: ../../usage/modeler.rst:318
 msgid ""
 "充填する分子を設定し終わったら、 :guilabel:`Build` "
 "をクリックしてください。充填後の構造がビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
@@ -5063,17 +5221,17 @@ msgstr ""
 "packed molecules in the viewer. If you click :guilabel:`Build` again , a "
 "different structure will bw shown, but with the same settings retained."
 
-#: ../../usage/modeler.rst:250
+#: ../../usage/modeler.rst:330
 msgid "高分子モデラー（Pro版のみ）"
 msgstr "Polymer modeler (Pro version only)"
 
-#: ../../usage/modeler.rst:252
+#: ../../usage/modeler.rst:332
 msgid "単量体（モノマー）のモデルから、高分子（ポリマー）のモデルを作成し、空間に充填します。"
 msgstr ""
 "Generate a polymer model from the monomer model and then pack it into the"
 " designated space."
 
-#: ../../usage/modeler.rst:254
+#: ../../usage/modeler.rst:334
 msgid ""
 "モノマーのモデルを用意し、 :guilabel:`Molecule` タブの :guilabel:`Polymer Model` にある "
 ":guilabel:`Start Modeling` をクリックしてください。高分子モデル作成を行う画面が表示されます。"
@@ -5082,7 +5240,7 @@ msgstr ""
 ":guilabel:`Start Modeling` under :guilabel:`Polymer Model` to access the "
 "polymer modeler view."
 
-#: ../../usage/modeler.rst:256
+#: ../../usage/modeler.rst:336
 msgid ""
 "まず、 :guilabel:`Define box` "
 "ダイアログで高分子を充填する空間の大きさを指定します。次に、モノマーのモデルが表示されますので、始端となる原子をダブルクリックして選択し、 "
@@ -5093,7 +5251,7 @@ msgstr ""
 "side atom for polymerization and click :guilabel:`OK`\\ . Similarly, "
 "select the tail side atom for polymerization in the same way."
 
-#: ../../usage/modeler.rst:260
+#: ../../usage/modeler.rst:340
 msgid ""
 "選択後、画面下側の :guilabel:`Sequence of Polymer` に行が追加されます。 :guilabel:`oneself` "
 "の右下にある欄に重合度、 :guilabel:`#Chains` に充填する高分子の数を入力します。"
@@ -5104,7 +5262,7 @@ msgstr ""
 "of :guilabel:`oneself`\\ , and input the number of polymer chains in the "
 ":guilabel:`#Chains` field."
 
-#: ../../usage/modeler.rst:262
+#: ../../usage/modeler.rst:342
 msgid ""
 "複数の高分子を同時に充填することもできます。別の高分子を追加するには :guilabel:`Add Polymer` "
 "をクリックし、モノマーを選択してから設定を行います。高分子を削除するには、 :guilabel:`#Chains` の右にある |remove| "
@@ -5116,7 +5274,7 @@ msgstr ""
 "polymer, click the |remove| button located at the right of the "
 ":guilabel:`#Chains` field."
 
-#: ../../usage/modeler.rst:264
+#: ../../usage/modeler.rst:344
 msgid ""
 "また、モノマー枠の左側（右側）にある |add| ボタンをクリックすることで、始端（終端）に別の高分子を繋ぐことができます。 |remove| "
 "ボタンをクリックすると、その枠の高分子を削除します。また、矢印ボタンを使って高分子を繋げる順番を入れ替えられます。"
@@ -5126,7 +5284,7 @@ msgstr ""
 " remove the polymer from the box, click |remove| button. You can also "
 "change the order of the polymers using the arrow buttons."
 
-#: ../../usage/modeler.rst:266
+#: ../../usage/modeler.rst:346
 msgid ""
 "充填する空間の大きさを編集するには、 |box| ボタンをクリックします。XYZ方向の大きさを |angs| 単位で入力し、 |box| "
 "アイコンをクリックすると設定されます。"
@@ -5135,11 +5293,11 @@ msgstr ""
 "size along the XYZ directions in |angs| units. Then, click the |box| icon"
 " to apply these changes."
 
-#: ../../usage/modeler.rst:276
+#: ../../usage/modeler.rst:356
 msgid "box"
 msgstr ""
 
-#: ../../usage/modeler.rst:268
+#: ../../usage/modeler.rst:348
 msgid ""
 "高分子の設定が終わったら、 :guilabel:`Build` "
 "をクリックしてください。充填後の構造が画面上側のビューワー内に表示されます。そのまま再度 :guilabel:`Build` "
@@ -5150,7 +5308,7 @@ msgstr ""
 ":guilabel:`Build` again will present a different structure while "
 "maintaining the same settings."
 
-#: ../../usage/modeler.rst:274
+#: ../../usage/modeler.rst:354
 msgid ""
 "また、スラブモデルの真空層等に高分子を充填することも可能です。分子を充填できる空間を持ったモデルを用意し、そのプロジェクトで高分子モデラーを開きます。"
 " :guilabel:`Add Polymer` で高分子を追加すると、生成した分子をモデルの空いている部分に充填します。"
@@ -5948,10 +6106,10 @@ msgstr "3D display"
 #: ../../usage/result.rst:67
 msgid ""
 ":guilabel:`3D` "
-"の各ボタンをクリックすると、SCF計算結果の電荷密度・ポテンシャル・（スピンを有効にしている場合）スピン偏極の空間分布が3D表示できます。"
+"の各ボタンをクリックすると、SCF計算結果の電荷密度・ポテンシャル・（スピンを有効にしている場合）スピン偏極の空間分布・波動関数が3D表示できます。"
 msgstr ""
 "Click the :guilabel:`3D` buttons to visualize the spacial distribution of"
-" charge density / potential / spin polarization (if spin is enabled) "
+" charge density / potential / spin polarization (if spin is enabled) / wave function "
 "obtained from SCF calculation in 3D."
 
 #: ../../usage/result.rst:71
