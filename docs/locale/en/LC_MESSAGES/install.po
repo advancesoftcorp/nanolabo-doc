@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:26+0900\n"
+"POT-Creation-Date: 2024-07-17 12:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,14 +44,14 @@ msgstr ""
 
 #: ../../install/linux.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.9.2) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2173>`_"
+"`Advance/NanoLabo (ver.3.0) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2791>`_"
 msgstr ""
 
 #: ../../install/linux.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.9.2) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2170>`_"
+"`Advance/NanoLabo Tool (ver.3.0) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2795>`_"
 msgstr ""
 
 #: ../../install/linux.rst:20 ../../install/mac.rst:28
@@ -355,7 +355,9 @@ msgstr ""
 
 #: ../../install/linux.rst:155
 msgid "> Test-NetConnection -ComputerName (IPアドレスまたはホスト名) -Port (ポート番号)"
-msgstr "> Test-NetConnection -ComputerName (IP address or hostname) -Port (port number)"
+msgstr ""
+"> Test-NetConnection -ComputerName (IP address or hostname) -Port (port "
+"number)"
 
 #: ../../install/linux.rst:160
 msgid "Linux"
@@ -590,19 +592,19 @@ msgstr "Intel ver.: for pre-existing machines, download these 2."
 
 #: ../../install/mac.rst:16
 msgid ""
-"`Advance/NanoLabo (ver.2.9.2) Intel版 "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2174>`_"
+"`Advance/NanoLabo (ver.3.0) Intel版 "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2822>`_"
 msgstr ""
-"`Advance/NanoLabo (ver.2.9.2) Intel ver. "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2174>`_"
+"`Advance/NanoLabo (ver.3.0) Intel ver. "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2822>`_"
 
 #: ../../install/mac.rst:18
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.9.2) Intel版 "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2172>`_"
+"`Advance/NanoLabo Tool (ver.3.0) Intel版 "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2823>`_"
 msgstr ""
-"`Advance/NanoLabo Tool (ver.2.9.2) Intel ver. "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2172>`_"
+"`Advance/NanoLabo Tool (ver.3.0) Intel ver. "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2823>`_"
 
 #: ../../install/mac.rst:20
 msgid "ARM版：Apple M1搭載マシンではこちらの2つをダウンロードしてください。"
@@ -610,19 +612,19 @@ msgstr "ARM ver.: for machines with Apple M1, download these 2."
 
 #: ../../install/mac.rst:22
 msgid ""
-"`Advance/NanoLabo (ver.2.9.2) ARM版 "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2175>`_"
+"`Advance/NanoLabo (ver.3.0) ARM版 "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2821>`_"
 msgstr ""
-"`Advance/NanoLabo (ver.2.9.2) ARM ver. "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2175>`_"
+"`Advance/NanoLabo (ver.3.0) ARM ver. "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2821>`_"
 
 #: ../../install/mac.rst:24
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.9.2) ARM版 "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2171>`_"
+"`Advance/NanoLabo Tool (ver.3.0) ARM版 "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2825>`_"
 msgstr ""
-"`Advance/NanoLabo Tool (ver.2.9.2) ARM ver. "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2171>`_"
+"`Advance/NanoLabo Tool (ver.3.0) ARM ver. "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2825>`_"
 
 #: ../../install/mac.rst:35
 msgid "まず、Advance/NanoLaboのdmgファイルを開きます。マウントが終わるとディスクイメージの内容が表示されますので、NanoLaboアイコンをアプリケーションディレクトリへドラッグ＆ドロップしてください。"
@@ -1130,14 +1132,14 @@ msgstr "How to Install (Windows)"
 
 #: ../../install/windows.rst:14
 msgid ""
-"`Advance/NanoLabo (ver.2.9.3) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2328>`_"
+"`Advance/NanoLabo (ver.3.0) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2785>`_"
 msgstr ""
 
 #: ../../install/windows.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.2.9.2) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2168>`_"
+"`Advance/NanoLabo Tool (ver.3.0) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2793>`_"
 msgstr ""
 
 #: ../../install/windows.rst:22

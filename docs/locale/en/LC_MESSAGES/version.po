@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 10:26+0900\n"
+"POT-Creation-Date: 2024-07-17 12:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgid "バージョン情報"
 msgstr "Version Information"
 
 #: ../../version.rst:32
-msgid "2024/07/-- バージョン3.0"
-msgstr "2024/07/-- Version 3.0"
+msgid "2024/07/17 バージョン3.0"
+msgstr "2024/07/17 Version 3.0"
 
 #: ../../version.rst:8 ../../version.rst:44 ../../version.rst:75
 #: ../../version.rst:127 ../../version.rst:158 ../../version.rst:184
@@ -37,13 +37,16 @@ msgstr "New features"
 
 #: ../../version.rst:10
 msgid "モデラーのAutopilot機能（世界初となる材料モデル生成AI）"
-msgstr "Autopilot functionality in the modeler (world's first material model generation AI)"
+msgstr ""
+"Autopilot functionality in the modeler (world's first material model "
+"generation AI)"
 
 #: ../../version.rst:11
 msgid "QE: 波動関数の3次元データ可視化機能（SCF設定 |rarr| :guilabel:`3D Volumes` の詳細設定ボタンから有効化）"
 msgstr ""
-"QE: 3D data visualization function for wave functions "
-"(enabled from advanced setting button on SCF configuration |rarr| :guilabel:`3D Volumes` )"
+"QE: 3D data visualization function for wave functions (enabled from "
+"advanced setting button on SCF configuration |rarr| :guilabel:`3D "
+"Volumes` )"
 
 #: ../../version.rst:12
 msgid "LAMMPS: M3GNetのGPU使用の切り替え"
@@ -55,7 +58,9 @@ msgstr "Stop button on the model selection screen in the Modeler"
 
 #: ../../version.rst:14
 msgid "原子構造ビューワーにモデルインポート機能を追加（右クリックメニュー内）"
-msgstr "model import function added to the atomic structure viewer (in the right-click menu)"
+msgstr ""
+"model import function added to the atomic structure viewer (in the right-"
+"click menu)"
 
 #: ../../version.rst:16
 msgid "（Linux版・macOS版）プロキシに関する機能追加・修正"
@@ -96,15 +101,21 @@ msgstr "Change / fix"
 
 #: ../../version.rst:26
 msgid "分子充填機能における分子および真空領域の体積計算アルゴリズムの改善"
-msgstr "improved volume calculation algorithm for molecular and vacuum regions in the molecular packing function"
+msgstr ""
+"improved volume calculation algorithm for molecular and vacuum regions in"
+" the molecular packing function"
 
 #: ../../version.rst:27
 msgid "分子吸着機能において上部真空層のサイズを自動調整するように改修"
-msgstr "modified the molecular adsorption function to automatically adjust the size of the upper vacuum layer"
+msgstr ""
+"modified the molecular adsorption function to automatically adjust the "
+"size of the upper vacuum layer"
 
 #: ../../version.rst:28
 msgid "QE: バンド数のデフォルトをフルバレンス（全価電子軌道数）に変更"
-msgstr "QE: default band number changed to full valence (number of all valence electron orbitals)"
+msgstr ""
+"QE: default band number changed to full valence (number of all valence "
+"electron orbitals)"
 
 #: ../../version.rst:29
 msgid "LAMMPS: CHGNet・M3GNet(MatGL)の最新バージョンに対応"
