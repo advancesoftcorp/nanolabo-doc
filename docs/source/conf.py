@@ -109,6 +109,8 @@ htmlhelp_basename = 'AdvanceNanoLabodoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
+latex_engine = 'platex'
+
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
