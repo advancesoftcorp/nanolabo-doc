@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-11 13:50+0900\n"
+"POT-Creation-Date: 2024-10-08 12:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr "Viewpoint manipulation"
 #: ../../usage/atomsviewer.rst:18 ../../usage/atomsviewer.rst:93
 #: ../../usage/atomsviewer.rst:136 ../../usage/atomsviewer.rst:162
 #: ../../usage/atomsviewer.rst:186 ../../usage/explorer.rst:139
-#: ../../usage/grandproject.rst:97 ../../usage/initial.rst:130
+#: ../../usage/grandproject.rst:97 ../../usage/initial.rst:135
 #: ../../usage/inputeditorlammps.rst:178 ../../usage/project.rst:129
 #: ../../usage/webbrowser.rst:37
 msgid "操作"
@@ -239,7 +239,7 @@ msgstr ""
 
 #: ../../usage/atomsviewer.rst:104 ../../usage/atomsviewer.rst:147
 #: ../../usage/atomsviewer.rst:173 ../../usage/grandproject.rst:108
-#: ../../usage/initial.rst:137 ../../usage/inputeditorlammps.rst:187
+#: ../../usage/initial.rst:142 ../../usage/inputeditorlammps.rst:187
 #: ../../usage/project.rst:138
 msgid "`*`:sup: macOSでは :kbd:`Ctrl` |rarr| :kbd:`command` と読み替えてください。"
 msgstr "`*`:sup: For macOS, replace :kbd:`Ctrl` |rarr| :kbd:`command` ."
@@ -365,7 +365,7 @@ msgid ":kbd:`Esc` キーを押すと、位置が確定します。"
 msgstr "Press :kbd:`Esc` key to fix the position."
 
 #: ../../usage/atomsviewer.rst:180 ../../usage/explorer.rst:133
-#: ../../usage/initial.rst:124 ../../usage/project.rst:123
+#: ../../usage/initial.rst:129 ../../usage/project.rst:123
 #: ../../usage/webbrowser.rst:31
 msgid "ショートカットキー一覧"
 msgstr "Shortcut keys list"
@@ -2575,36 +2575,42 @@ msgstr "Chatbot"
 #: ../../usage/initial.rst:112
 msgid ""
 "ChatGPTを活用した、NanoLaboの使い方に関するチャットボットの画面を開きます。製品ユーザーに限りお使いいただくため、アカウント制としております。利用登録をご希望の場合は"
-" `サポート <mailto:support.nano@advancesoft.jp>`_ にご連絡ください。"
+" `support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ "
+"`*`:sup: 宛にご連絡ください。"
 msgstr ""
 "Opens the chatbot screen utilizing ChatGPT for questions about how to use"
 " NanoLabo. This feature is limited to product users and requires an "
-"account. If you wish to register for use, please contact `support "
-"<mailto:support.nano@advancesoft.jp>`_."
+"account. If you wish to register for use, please contact "
+"`support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ "
+"`*`:sup: ."
 
 #: ../../usage/initial.rst:117
+msgid ":smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`"
+msgstr ":smallnote:`* We do not accept commercial or promotional emails unrelated to our products or services to this address.`"
+
+#: ../../usage/initial.rst:122
 msgid "ツールバーボタンの表示／非表示"
 msgstr "Show/Hide Tool bar buttons"
 
-#: ../../usage/initial.rst:119
+#: ../../usage/initial.rst:124
 msgid ":menuselection:`メインメニュー --> Tool bar` 、または各ボタンの右クリックメニューから表示／非表示を設定できます。"
 msgstr ""
 "You can set whether to show or hide the buttons from :menuselection:Main "
 "menu --> Tool bar, or the right-click menu of each button."
 
-#: ../../usage/initial.rst:132
+#: ../../usage/initial.rst:137
 msgid "タブを閉じる"
 msgstr "Close tab"
 
-#: ../../usage/initial.rst:132 ../../usage/webbrowser.rst:57
+#: ../../usage/initial.rst:137 ../../usage/webbrowser.rst:57
 msgid ":kbd:`Ctrl` + :kbd:`W`"
 msgstr ""
 
-#: ../../usage/initial.rst:134
+#: ../../usage/initial.rst:139
 msgid "NanoLabo終了"
 msgstr "Close NanoLabo"
 
-#: ../../usage/initial.rst:134 ../../usage/webbrowser.rst:59
+#: ../../usage/initial.rst:139 ../../usage/webbrowser.rst:59
 msgid ":kbd:`Ctrl` + :kbd:`Q`"
 msgstr ""
 
@@ -4602,20 +4608,23 @@ msgstr "\"ZrO2(001)/Rh(111) + 2 x NO\\@hollow\""
 
 #: ../../usage/modeler.rst:58
 msgid "ZrO\\ `2`:sub:\\ (001)とRh(111)の界面モデルを作成して、その上に一酸化窒素分子をホローサイトに2つ吸着させます。"
-msgstr "Create an interface model of ZrO\ 2:sub:\ (001) and Rh(111), "
-"then adsorb two nitric oxide molecules on hollow sites on top of it."
+msgstr ""
+"Create an interface model of ZrO\\ 2:sub:\\ (001) and Rh(111), then "
+"adsorb two nitric oxide molecules on hollow sites on top of it."
 
 #: ../../usage/modeler.rst:60
 msgid "|2emdash| AIは化学式を使った曖昧な表現も理解します。"
-msgstr "|2emdash| AI understands ambiguous expressions using chemical formulas as well."
+msgstr ""
+"|2emdash| AI understands ambiguous expressions using chemical formulas as"
+" well."
 
 #: ../../usage/modeler.rst:63
 msgid ""
 "命令文が解釈されると、それに対応するモデラーの操作手順が表示されます。\\ :guilabel:`Run`\\ "
 "をクリックすると実際に手順が実行されます。"
 msgstr ""
-"When the instruction is interpreted, the corresponding modeler operation steps are displayed. "
-"Clicking :guilabel:`Run` will execute these steps."
+"When the instruction is interpreted, the corresponding modeler operation "
+"steps are displayed. Clicking :guilabel:`Run` will execute these steps."
 
 #: ../../usage/modeler.rst:67
 msgid "Full-Auto"
@@ -4623,7 +4632,9 @@ msgstr ""
 
 #: ../../usage/modeler.rst:69
 msgid "ユーザーが操作することなく、すべてのステップが自動的に実行され、モデルが作成されます。"
-msgstr "All steps are automatically executed and the model is created without any user intervention."
+msgstr ""
+"All steps are automatically executed and the model is created without any"
+" user intervention."
 
 #: ../../usage/modeler.rst:71
 msgid "Semi-Auto"
@@ -4632,12 +4643,15 @@ msgstr ""
 #: ../../usage/modeler.rst:73
 msgid "各ステップで説明が表示され、それに従いユーザーが操作を行います。パラメーター等の詳細を手動で設定したい場合に便利です。"
 msgstr ""
-"An explanation is shown at each step, guiding the user through the operations. "
-"This is useful when you want to manually set details such as parameters."
+"An explanation is shown at each step, guiding the user through the "
+"operations. This is useful when you want to manually set details such as "
+"parameters."
 
 #: ../../usage/modeler.rst:75
 msgid "左下の矢印が赤く |back_red| なっている場合、クリックすることで次のステップに進みます。"
-msgstr "When the arrow in the bottom left turns red |back_red|, click it to proceed to the next step."
+msgstr ""
+"When the arrow in the bottom left turns red |back_red|, click it to "
+"proceed to the next step."
 
 #: ../../usage/modeler.rst:87
 msgid "back_red"
@@ -4645,14 +4659,16 @@ msgstr ""
 
 #: ../../usage/modeler.rst:77
 msgid "本機能は外部のサーバーに接続して実行されるため、インターネット接続が必要です。"
-msgstr "This feature requires an internet connection as it is executed by connecting to an external server."
+msgstr ""
+"This feature requires an internet connection as it is executed by "
+"connecting to an external server."
 
 #: ../../usage/modeler.rst:79
 msgid "命令文の送信、音声入力にはそれぞれ1日当たりの上限を設定しています。上限に達した場合、当日中は当該の機能を使用できなくなります。"
 msgstr ""
-"A daily limit is set for sending instructions and voice input, respectively. "
-"When the limit is reached, the function will be unavailable for the rest of the day."
-
+"A daily limit is set for sending instructions and voice input, "
+"respectively. When the limit is reached, the function will be unavailable"
+" for the rest of the day."
 
 #: ../../usage/modeler.rst:81
 msgid ""
@@ -4660,8 +4676,10 @@ msgid ""
 "で設定画面を開きます。利用規約の確認や、命令文の製品開発への利用を許可するかの設定変更もこちらで行えます。"
 msgstr ""
 "Click on the icon |mainmenuicon| located in the upper left corner of the "
-"screen, and open :menuselection:`Properties --> Autopilot`\\ to open the setting dialog. "
-"You can also check the terms of use and change the setting to allow the use of instructional text for product development here."
+"screen, and open :menuselection:`Properties --> Autopilot`\\ to open the "
+"setting dialog. You can also check the terms of use and change the "
+"setting to allow the use of instructional text for product development "
+"here."
 
 #: ../../usage/modeler.rst:100
 msgid "並進移動"
@@ -5093,11 +5111,10 @@ msgstr ""
 "Begin by creating two slab models. First, for the left-hand side model, "
 "specify the crystal plane to be the surface using the :guilabel:`Miller "
 "Index` and then click :guilabel:`Build` to create a slab model. Next, "
-"click the import button |import_red| located at the upper right. In the explorer "
-"view, double-click on the model to be used for the second one. "
-"Once this model appears on the right-hand side, input "
-"the Miller indices and create another slab model following the the same "
-"way."
+"click the import button |import_red| located at the upper right. In the "
+"explorer view, double-click on the model to be used for the second one. "
+"Once this model appears on the right-hand side, input the Miller indices "
+"and create another slab model following the the same way."
 
 #: ../../usage/modeler.rst:283
 msgid "import_red"
@@ -6109,8 +6126,8 @@ msgid ""
 "の各ボタンをクリックすると、SCF計算結果の電荷密度・ポテンシャル・（スピンを有効にしている場合）スピン偏極の空間分布・波動関数が3D表示できます。"
 msgstr ""
 "Click the :guilabel:`3D` buttons to visualize the spacial distribution of"
-" charge density / potential / spin polarization (if spin is enabled) / wave function "
-"obtained from SCF calculation in 3D."
+" charge density / potential / spin polarization (if spin is enabled) / "
+"wave function obtained from SCF calculation in 3D."
 
 #: ../../usage/result.rst:71
 msgid ""

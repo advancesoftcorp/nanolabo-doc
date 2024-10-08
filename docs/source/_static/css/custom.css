@@ -47,3 +47,10 @@ table.align-center div.first {
     right:0;
     margin:auto;
 }
+
+.small-note {
+    display: block;
+    font-size: 0.8em;
+    color: gray;
+    text-align: end;
+}

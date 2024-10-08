@@ -109,7 +109,12 @@ PythonのAtomic Simulation Environment(ASE)とNanoLaboの間で原子構造を�
 チャットボット
 -----------------------
 
-ChatGPTを活用した、NanoLaboの使い方に関するチャットボットの画面を開きます。製品ユーザーに限りお使いいただくため、アカウント制としております。利用登録をご希望の場合は `サポート <mailto:support.nano@advancesoft.jp>`_ にご連絡ください。
+ChatGPTを活用した、NanoLaboの使い方に関するチャットボットの画面を開きます。製品ユーザーに限りお使いいただくため、アカウント制としております。利用登録をご希望の場合は `support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ `*`:sup: 宛にご連絡ください。
+
+.. role:: smallnote
+   :class: small-note
+
+:smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`
 
 .. _toolbar_button_initial:
 
