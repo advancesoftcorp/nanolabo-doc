@@ -142,11 +142,24 @@ NanoLaboを使わず、LAMMPS単体で実行する場合の説明です。
 
 NanoLabo Tool同梱の実行ファイル :file:`lammps_chgnet` を使用します。MPI並列計算には非対応です。
 
-Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` を設定してください。
+.. _chgnetenvvar:
+
+環境変数の設定
+---------------------------
+
+実行時にPythonの動的ライブラリを使用しますので、Linux・macOSでは環境変数 :envvar:`LD_LIBRARY_PATH` 、Windowsでは環境変数 :envvar:`PATH` を設定してください（インストール時に設定していない場合）。
+
+LinuxではOpenMPIの動的ライブラリが必要ですので、こちらも :envvar:`LD_LIBRARY_PATH` に設定してください。
 
 .. code-block:: console
+ :caption: Linuxの例
 
- $ export LD_LIBRARY_PATH=(condaのインストール先)/lib:$LD_LIBRARY_PATH
+ $ export LD_LIBRARY_PATH=(condaのインストール先)/lib:(NanoLabo Toolのインストール先)/exec.LINUX/mpi/lib:$LD_LIBRARY_PATH
+
+.. code-block:: console
+ :caption: Windowsの例
+
+ > set PATH=(condaのインストール先);%PATH%
 
 また、Linuxでは環境変数 :envvar:`OPAL_PREFIX` を設定してください。
 
@@ -161,6 +174,11 @@ LAMMPSから :file:`chgnet_driver.py` を呼び出すことで動作しますの
  :caption: Linuxの例
 
  $ export PYTHONPATH=(NanoLabo Toolのインストール先)/chgnet:$PYTHONPATH
+
+.. _chgnetinput:
+
+入力ファイルの設定
+----------------------------
 
 LAMMPSの入力ファイル中で、以下のように\ ``pair_style``\ を設定します。
 

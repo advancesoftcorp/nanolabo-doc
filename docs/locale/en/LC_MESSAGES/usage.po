@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 12:42+0900\n"
+"POT-Creation-Date: 2024-10-30 10:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1188,40 +1188,65 @@ msgstr ""
 "Utilize the executable file :file:`lammps_chgnet` included in NanoLabo "
 "Tool. Note that MPI parallel execution is not supported with this method."
 
-#: ../../usage/chgnet.rst:145 ../../usage/m3gnet.rst:165
-#: ../../usage/ocp.rst:194
+#: ../../usage/chgnet.rst:148 ../../usage/m3gnet.rst:168
+#: ../../usage/ocp.rst:197
+msgid "環境変数の設定"
+msgstr "Setting Environment Variables"
+
+#: ../../usage/chgnet.rst:150 ../../usage/m3gnet.rst:170
 msgid ""
-"Linux・macOSでは、実行時にPythonの動的ライブラリを使用しますので、環境変数 :envvar:`LD_LIBRARY_PATH` "
-"を設定してください。"
+"実行時にPythonの動的ライブラリを使用しますので、Linux・macOSでは環境変数 :envvar:`LD_LIBRARY_PATH` "
+"、Windowsでは環境変数 :envvar:`PATH` を設定してください（インストール時に設定していない場合）。"
 msgstr ""
-"On Linux/macOS, it is necessary to set the environment variable "
-":envvar:`LD_LIBRARY_PATH` . This ensure that the program can access the "
-"Python dynamic library when executed."
+"Since Python dynamic libraries are used at runtime, set the environment variable :envvar:`LD_LIBRARY_PATH` "
+"on Linux/macOS, or the environment variable :envvar:`PATH` on Windows (if not set during installation)."
 
-#: ../../usage/chgnet.rst:147 ../../usage/m3gnet.rst:167
-msgid "$ export LD_LIBRARY_PATH=(condaのインストール先)/lib:$LD_LIBRARY_PATH"
+#: ../../usage/chgnet.rst:152 ../../usage/m3gnet.rst:172
+#: ../../usage/ocp.rst:201
+msgid "LinuxではOpenMPIの動的ライブラリが必要ですので、こちらも :envvar:`LD_LIBRARY_PATH` に設定してください。"
+msgstr "On Linux, OpenMPI dynamic libraries are required, so add their path to :envvar:`LD_LIBRARY_PATH` as well."
+
+#: ../../usage/chgnet.rst:154 ../../usage/chgnet.rst:173
+#: ../../usage/m3gnet.rst:174 ../../usage/m3gnet.rst:193
+#: ../../usage/ocp.rst:203 ../../usage/ocp.rst:222
+msgid "Linuxの例"
+msgstr "Linux example"
+
+#: ../../usage/chgnet.rst:154 ../../usage/m3gnet.rst:174
+msgid ""
+"$ export LD_LIBRARY_PATH=(condaのインストール先)/lib:(NanoLabo "
+"Toolのインストール先)/exec.LINUX/mpi/lib:$LD_LIBRARY_PATH"
 msgstr ""
-"$ export LD_LIBRARY_PATH=(conda installation "
-"destination)/lib:$LD_LIBRARY_PATH"
+"$ export LD_LIBRARY_PATH=(conda installation destination)/lib:(NanoLabo "
+"Tool installation destination)/exec.LINUX/mpi/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/chgnet.rst:151 ../../usage/m3gnet.rst:171
-#: ../../usage/ocp.rst:200
+#: ../../usage/chgnet.rst:159 ../../usage/m3gnet.rst:179
+#: ../../usage/m3gnet.rst:243 ../../usage/ocp.rst:208
+msgid "Windowsの例"
+msgstr "Windows example"
+
+#: ../../usage/chgnet.rst:159 ../../usage/m3gnet.rst:179
+msgid "> set PATH=(condaのインストール先);%PATH%"
+msgstr "> set PATH=(conda installation destination)/envs/ocp-models;%PATH%"
+
+#: ../../usage/chgnet.rst:164 ../../usage/m3gnet.rst:184
+#: ../../usage/ocp.rst:213
 msgid "また、Linuxでは環境変数 :envvar:`OPAL_PREFIX` を設定してください。"
 msgstr ""
 "Additionally, on Linux, you should set the environment variable "
 ":envvar:`OPAL_PREFIX` ."
 
-#: ../../usage/chgnet.rst:153 ../../usage/m3gnet.rst:173
-#: ../../usage/ocp.rst:202
+#: ../../usage/chgnet.rst:166 ../../usage/m3gnet.rst:186
+#: ../../usage/ocp.rst:215
 msgid "デフォルトの場所にインストールした場合の例"
 msgstr "if installed in the default location"
 
-#: ../../usage/chgnet.rst:153 ../../usage/m3gnet.rst:173
-#: ../../usage/ocp.rst:202
+#: ../../usage/chgnet.rst:166 ../../usage/m3gnet.rst:186
+#: ../../usage/ocp.rst:215
 msgid "$ export OPAL_PREFIX=/opt/AdvanceSoft/NanoLabo/exec.LINUX/mpi"
 msgstr ""
 
-#: ../../usage/chgnet.rst:158
+#: ../../usage/chgnet.rst:171
 msgid ""
 "LAMMPSから :file:`chgnet_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の "
 ":file:`chgnet` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 "
@@ -1230,30 +1255,30 @@ msgstr ""
 "Since LAMMPS calls :file:`chgnet_driver.py` during its operation, you "
 "need to add the :file:`m3gnet` folder, located in the NanoLabo Tool "
 "installation directory, to Python's module search path. You can do this "
-"by adding it to the :envvar:`PYTHONPATH`\\ environment variable. This "
+"by adding it to the :envvar:`PYTHONPATH` environment variable. This "
 "will ensure that Python can find and use the module when LAMMPS runs."
 
-#: ../../usage/chgnet.rst:160 ../../usage/m3gnet.rst:180
-#: ../../usage/ocp.rst:209
-msgid "Linuxの例"
-msgstr "Linux example"
-
-#: ../../usage/chgnet.rst:160
+#: ../../usage/chgnet.rst:173
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/chgnet:$PYTHONPATH"
 msgstr ""
 "$ export PYTHONPATH=(NanoLabo Tool installation "
 "destination)/chgnet:$PYTHONPATH"
 
-#: ../../usage/chgnet.rst:165 ../../usage/m3gnet.rst:185
-#: ../../usage/ocp.rst:214
+#: ../../usage/chgnet.rst:181 ../../usage/m3gnet.rst:201
+#: ../../usage/ocp.rst:230
+msgid "入力ファイルの設定"
+msgstr "Setting Input File"
+
+#: ../../usage/chgnet.rst:183 ../../usage/m3gnet.rst:203
+#: ../../usage/ocp.rst:232
 msgid "LAMMPSの入力ファイル中で、以下のように\\ ``pair_style``\\ を設定します。"
 msgstr "In the LAMMPS input file,  set the ``pair_style`` as follows."
 
-#: ../../usage/chgnet.rst:167 ../../usage/inputeditorlammps.rst:91
+#: ../../usage/chgnet.rst:185 ../../usage/inputeditorlammps.rst:91
 msgid "CHGNet"
 msgstr ""
 
-#: ../../usage/chgnet.rst:167
+#: ../../usage/chgnet.rst:185
 msgid ""
 "pair_style chgnet\n"
 "pair_coeff * * <modelname> <元素名1 元素名2 ...>        # モデル名を指定する例"
@@ -1262,11 +1287,11 @@ msgstr ""
 "pair_coeff * * <modelname> <element1 element2 ...>       # Example "
 "specifying model name"
 
-#: ../../usage/chgnet.rst:173
+#: ../../usage/chgnet.rst:191
 msgid "CHGNet + DFT-D3による補正"
 msgstr "CHGNet + DFT-D3 correction"
 
-#: ../../usage/chgnet.rst:173
+#: ../../usage/chgnet.rst:191
 msgid ""
 "pair_style chgnet/d3\n"
 "pair_coeff * * path <modelfile> <元素名1 元素名2 ...>   # モデルファイルを指定する例"
@@ -1275,11 +1300,11 @@ msgstr ""
 "pair_coeff * * path <modelfile> <element1 element2 ...>  # Example "
 "specifying model file"
 
-#: ../../usage/chgnet.rst:179
+#: ../../usage/chgnet.rst:197
 msgid "CHGNet、GPU使用"
 msgstr "CHGNet, using GPU"
 
-#: ../../usage/chgnet.rst:179
+#: ../../usage/chgnet.rst:197
 msgid ""
 "pair_style chgnet/gpu\n"
 "pair_coeff * * <modelname> <元素名1 元素名2 ...>"
@@ -1287,11 +1312,11 @@ msgstr ""
 "pair_style chgnet/gpu\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/chgnet.rst:185
+#: ../../usage/chgnet.rst:203
 msgid "CHGNet + DFT-D3による補正、GPU使用"
 msgstr "CHGNet + DFT-D3 correction, using GPU"
 
-#: ../../usage/chgnet.rst:185
+#: ../../usage/chgnet.rst:203
 msgid ""
 "pair_style chgnet/d3/gpu\n"
 "pair_coeff * * <modelname> <元素名1 元素名2 ...>"
@@ -1299,8 +1324,8 @@ msgstr ""
 "pair_style chgnet/d3/gpu\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/chgnet.rst:191 ../../usage/m3gnet.rst:199
-#: ../../usage/ocp.rst:228
+#: ../../usage/chgnet.rst:209 ../../usage/m3gnet.rst:217
+#: ../../usage/ocp.rst:246
 msgid "パラメーター"
 msgstr "Parameter"
 
@@ -1324,13 +1349,13 @@ msgstr "Specify \"MPtrj-efsm\" to use the bundled pretrained model"
 msgid "pathに続けてファイルパスを指定すると、ファイルに保存されたモデルを使用"
 msgstr "To use a custom model saved in a file,　specify a file path after \"path\" "
 
-#: ../../usage/chgnet.rst:201 ../../usage/m3gnet.rst:210
-#: ../../usage/ocp.rst:238
+#: ../../usage/chgnet.rst:219 ../../usage/m3gnet.rst:228
+#: ../../usage/ocp.rst:256
 msgid "元素名"
 msgstr "element"
 
-#: ../../usage/chgnet.rst:201 ../../usage/m3gnet.rst:210
-#: ../../usage/ocp.rst:238
+#: ../../usage/chgnet.rst:219 ../../usage/m3gnet.rst:228
+#: ../../usage/ocp.rst:256
 msgid "LAMMPSのatom type毎に、対応する元素名を列挙"
 msgstr "list the element names in the same order as the atom types used in LAMMPS"
 
@@ -2586,7 +2611,9 @@ msgstr ""
 
 #: ../../usage/initial.rst:117
 msgid ":smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`"
-msgstr ":smallnote:`* We do not accept commercial or promotional emails unrelated to our products or services to this address.`"
+msgstr ""
+":smallnote:`* We do not accept commercial or promotional emails unrelated"
+" to our products or services to this address.`"
 
 #: ../../usage/initial.rst:122
 msgid "ツールバーボタンの表示／非表示"
@@ -2974,7 +3001,7 @@ msgstr ""
 "As virial stress is not calculated, calculations involving NPT/NPH "
 "ensemble or cell optimization are not supported."
 
-#: ../../usage/inputeditorlammps.rst:77 ../../usage/m3gnet.rst:187
+#: ../../usage/inputeditorlammps.rst:77 ../../usage/m3gnet.rst:205
 msgid "M3GNet"
 msgstr ""
 
@@ -4320,7 +4347,7 @@ msgstr ""
 "Utilize the executable file :file:`lammps_m3gnet` included in NanoLabo "
 "Tool. Please note that MPI parallel execution is not supported."
 
-#: ../../usage/m3gnet.rst:178
+#: ../../usage/m3gnet.rst:191
 msgid ""
 "LAMMPSから :file:`m3gnet_driver.py` または :file:`matgl_driver.py` "
 "を呼び出すことで動作しますので、NanoLabo Toolインストール先の :file:`m3gnet` "
@@ -4329,16 +4356,16 @@ msgstr ""
 "Since LAMMPS accesses :file:`m3gnet_driver.py` or :file:`matgl_driver.py`"
 " during operation, add the :file:`m3gnet` folder from the NanoLabo Tool "
 "installation location to Python' module search path. This can be "
-"achieved, for example, by adding it to the :envvar:`PYTHONPATH`\\ "
+"achieved, for example, by adding it to the :envvar:`PYTHONPATH` "
 "environment variable."
 
-#: ../../usage/m3gnet.rst:180
+#: ../../usage/m3gnet.rst:193
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/m3gnet:$PYTHONPATH"
 msgstr ""
 "$ export PYTHONPATH=(NanoLabo Tool installation "
 "destination)/m3gnet:$PYTHONPATH"
 
-#: ../../usage/m3gnet.rst:187
+#: ../../usage/m3gnet.rst:205
 msgid ""
 "pair_style m3gnet\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -4346,11 +4373,11 @@ msgstr ""
 "pair_style m3gnet\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/m3gnet.rst:193
+#: ../../usage/m3gnet.rst:211
 msgid "M3GNet + DFT-D3による補正"
 msgstr "M3GNet + DFT-D3 correction"
 
-#: ../../usage/m3gnet.rst:193
+#: ../../usage/m3gnet.rst:211
 msgid ""
 "pair_style m3gnet/d3\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -4358,7 +4385,7 @@ msgstr ""
 "pair_style m3gnet/d3\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/m3gnet.rst:205 ../../usage/ocp.rst:234
+#: ../../usage/m3gnet.rst:223 ../../usage/ocp.rst:252
 msgid "model"
 msgstr ""
 
@@ -4382,11 +4409,11 @@ msgstr ""
 "specify the folder path to use the MatGL version M3GNet + model stored in"
 " that folder"
 
-#: ../../usage/m3gnet.rst:215
+#: ../../usage/m3gnet.rst:233
 msgid "次のようなエラーで実行できない場合があります。"
 msgstr "The following error may appear at runtime."
 
-#: ../../usage/m3gnet.rst:217
+#: ../../usage/m3gnet.rst:235
 msgid ""
 "Fatal Python error: init_fs_encoding: failed to get the Python codec of "
 "the filesystem encoding\n"
@@ -4394,17 +4421,13 @@ msgid ""
 "ModuleNotFoundError: No module named 'encodings'"
 msgstr ""
 
-#: ../../usage/m3gnet.rst:223
+#: ../../usage/m3gnet.rst:241
 msgid "この場合、環境変数 :envvar:`PYTHONHOME` が正しく設定されているかご確認ください。"
 msgstr ""
 "In this case, ensure that the environment variable :envvar:`PYTHONHOME` "
 "is set correctly."
 
-#: ../../usage/m3gnet.rst:225
-msgid "Windowsの例"
-msgstr "Windows example"
-
-#: ../../usage/m3gnet.rst:225
+#: ../../usage/m3gnet.rst:243
 msgid "set PYTHONHOME=(condaのインストール先)"
 msgstr "set PYTHONHOME=(conda installation destination)"
 
@@ -5423,7 +5446,7 @@ msgstr ""
 "Next, export the list of required packages for creating the ocp-models "
 "virtual environment to a file named :file:`env.yml` ."
 
-#: ../../usage/ocp.rst:68 ../../usage/ocp.rst:216
+#: ../../usage/ocp.rst:68 ../../usage/ocp.rst:234
 msgid "CPUで計算を行う（GPUを使わない）場合"
 msgstr "Use CPU for calculation (do not use GPU)"
 
@@ -5431,7 +5454,7 @@ msgstr "Use CPU for calculation (do not use GPU)"
 msgid " conda-merge env.common.yml env.cpu.yml > env.yml"
 msgstr ""
 
-#: ../../usage/ocp.rst:73 ../../usage/ocp.rst:94 ../../usage/ocp.rst:222
+#: ../../usage/ocp.rst:73 ../../usage/ocp.rst:94 ../../usage/ocp.rst:240
 msgid "GPUで計算を行う場合"
 msgstr "Use GPU for calculation"
 
@@ -5615,15 +5638,27 @@ msgstr ""
 "execution or virial stress calculation (NPT/NPH ensemble, cell "
 "optimization)."
 
-#: ../../usage/ocp.rst:196
+#: ../../usage/ocp.rst:199
 msgid ""
-"$ export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-"
-"models/lib:$LD_LIBRARY_PATH"
+"実行時にPythonの動的ライブラリを使用しますので、Linux・macOSでは環境変数 :envvar:`LD_LIBRARY_PATH` "
+"、Windowsでは環境変数 :envvar:`PATH` を設定してください。"
 msgstr ""
-"$ export LD_LIBRARY_PATH=(conda installation destination)/envs/ocp-"
-"models/lib:$LD_LIBRARY_PATH"
+"Since Python dynamic libraries are used at runtime, set the environment variable :envvar:`LD_LIBRARY_PATH` "
+"on Linux/macOS, or the environment variable :envvar:`PATH` on Windows."
 
-#: ../../usage/ocp.rst:207
+#: ../../usage/ocp.rst:203
+msgid ""
+"$ export LD_LIBRARY_PATH=(condaのインストール先)/envs/ocp-models/lib:(NanoLabo "
+"Toolのインストール先)/exec.LINUX/mpi/lib:$LD_LIBRARY_PATH"
+msgstr ""
+"$ export LD_LIBRARY_PATH=(conda installation destination)/envs/ocp-models/lib:(NanoLabo "
+"Tool installation destination)/exec.LINUX/mpi/lib:$LD_LIBRARY_PATH"
+
+#: ../../usage/ocp.rst:208
+msgid "> set PATH=(condaのインストール先)/envs/ocp-models;%PATH%"
+msgstr "> set PATH=(conda installation destination)/envs/ocp-models;%PATH%"
+
+#: ../../usage/ocp.rst:220
 msgid ""
 "LAMMPSから :file:`oc20_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の "
 ":file:`oc20driver` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 "
@@ -5632,16 +5667,16 @@ msgstr ""
 "As LAMMPS calls :file:`oc20_driver.py` during its operation, please "
 "ensure that the :file:`oc20driver` folder in NanoLabo Tool installation "
 "directory is added to the Python module search path. You can achieve this"
-" by adding it to the :envvar:`PYTHONPATH`\\ environment variable, for "
+" by adding it to the :envvar:`PYTHONPATH` environment variable, for "
 "example."
 
-#: ../../usage/ocp.rst:209
+#: ../../usage/ocp.rst:222
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/oc20driver:$PYTHONPATH"
 msgstr ""
 "$ export PYTHONPATH=(NanoLabo Tool installation "
 "destination)/oc20driver:$PYTHONPATH"
 
-#: ../../usage/ocp.rst:216
+#: ../../usage/ocp.rst:234
 msgid ""
 "pair_style oc20\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
@@ -5649,7 +5684,7 @@ msgstr ""
 "pair_style oc20\n"
 "pair_coeff * * <model> <element1 element2 ...>"
 
-#: ../../usage/ocp.rst:222
+#: ../../usage/ocp.rst:240
 msgid ""
 "pair_style oc20/gpu\n"
 "pair_coeff * * <model> <元素名1 元素名2 ...>"
