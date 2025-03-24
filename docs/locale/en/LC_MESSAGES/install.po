@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 12:42+0900\n"
+"POT-Creation-Date: 2025-03-24 15:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,13 +45,13 @@ msgstr ""
 #: ../../install/linux.rst:14
 msgid ""
 "`Advance/NanoLabo (ver.3.0) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2791>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_linux_v3.0.bin>`_"
 msgstr ""
 
 #: ../../install/linux.rst:16
 msgid ""
 "`Advance/NanoLabo Tool (ver.3.0) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2795>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_linux_v3.0.bin>`_"
 msgstr ""
 
 #: ../../install/linux.rst:20 ../../install/mac.rst:28
@@ -593,18 +593,18 @@ msgstr "Intel ver.: for pre-existing machines, download these 2."
 #: ../../install/mac.rst:16
 msgid ""
 "`Advance/NanoLabo (ver.3.0) Intel版 "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2822>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-Intel.dmg>`_"
 msgstr ""
 "`Advance/NanoLabo (ver.3.0) Intel ver. "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2822>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-Intel.dmg>`_"
 
 #: ../../install/mac.rst:18
 msgid ""
 "`Advance/NanoLabo Tool (ver.3.0) Intel版 "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2823>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-Intel.dmg>`_"
 msgstr ""
 "`Advance/NanoLabo Tool (ver.3.0) Intel ver. "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2823>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-Intel.dmg>`_"
 
 #: ../../install/mac.rst:20
 msgid "ARM版：Apple M1搭載マシンではこちらの2つをダウンロードしてください。"
@@ -613,18 +613,18 @@ msgstr "ARM ver.: for machines with Apple M1, download these 2."
 #: ../../install/mac.rst:22
 msgid ""
 "`Advance/NanoLabo (ver.3.0) ARM版 "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2821>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-ARM.dmg>`_"
 msgstr ""
 "`Advance/NanoLabo (ver.3.0) ARM ver. "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2821>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-ARM.dmg>`_"
 
 #: ../../install/mac.rst:24
 msgid ""
 "`Advance/NanoLabo Tool (ver.3.0) ARM版 "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2825>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-ARM.dmg>`_"
 msgstr ""
 "`Advance/NanoLabo Tool (ver.3.0) ARM ver. "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2825>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-ARM.dmg>`_"
 
 #: ../../install/mac.rst:35
 msgid "まず、Advance/NanoLaboのdmgファイルを開きます。マウントが終わるとディスクイメージの内容が表示されますので、NanoLaboアイコンをアプリケーションディレクトリへドラッグ＆ドロップしてください。"
@@ -1047,7 +1047,9 @@ msgstr ""
 
 #: ../../install/purchase.rst:135
 msgid ":smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`"
-msgstr ":smallnote:`* We do not accept commercial or promotional emails unrelated to our products or services to this address.`"
+msgstr ""
+":smallnote:`* We do not accept commercial or promotional emails unrelated"
+" to our products or services to this address.`"
 
 #: ../../install/purchase.rst:140
 msgid "Windows上からLinuxマシンのHost IDを取得"
@@ -1137,13 +1139,13 @@ msgstr "How to Install (Windows)"
 #: ../../install/windows.rst:14
 msgid ""
 "`Advance/NanoLabo (ver.3.0) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2785>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_windows_v3.0.exe>`_"
 msgstr ""
 
 #: ../../install/windows.rst:16
 msgid ""
 "`Advance/NanoLabo Tool (ver.3.0) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=2793>`_"
+"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_windows_v3.0.exe>`_"
 msgstr ""
 
 #: ../../install/windows.rst:22
