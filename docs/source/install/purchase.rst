@@ -6,13 +6,13 @@
 
 本ソフトウェアは有償です。試用ライセンスで1カ月間ご試用いただき、お客様の需要に応えると判断していただけましたら、継続利用のため製品ライセンスのご購入をお願いします。
 
-試用版・製品版とも、ご使用には弊社よりライセンスを取得していただく必要があります。ライセンス形態は実行環境により以下のようになっています。
+試用版・製品版とも、ご使用には弊社よりライセンスを取得していただく必要があります。ライセンス形態は実行環境によらず以下の2種類からお選びいただけます。
 
-* Windows・macOS： ノードロックライセンス
+* ノードロックライセンス
 
  本製品を使用するコンピューターが固定されます。
 
-* Linux： フローティングライセンス
+* フローティングライセンス
 
  本製品を使用するコンピューターは固定されませんが、ライセンスサーバー（ライセンス認証用のプログラム）を起動するコンピューターが固定されます。
 
@@ -103,46 +103,13 @@
 
 .. _license:
 
-お申し込み手順
+お申し込み方法
 ==========================
 
-ご使用になるコンピューター（Windows・macOSでは本製品を使用するコンピューター、Linuxではライセンスサーバーを起動するコンピューター）について、固有のHost IDを取得し、そのHost IDに対してライセンスファイルを発行します。
+`support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ 宛にご希望のライセンス種別を明記の上お申し込みください。
 
-ライセンス登録後、原則5営業日以内にライセンスファイルをお送りします。
+ライセンス契約後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りしますので、記載されているProduct Key (PKID)を用いてライセンスの設定を行ってください。
 
-.. _id-install:
+NanoLaboをインストールするマシンがインターネットに接続されている場合は、ご利用のOSに対応するインストール手順のページの"ライセンスの設定（オンライン）"（\ :ref:`Windows<licenseonlinew>`\ 、\ :ref:`Linux<licenseonlinel>`\ 、\ :ref:`MacOS<licenseonlinem>`\ ）または"ライセンスの更新（オンライン）"（\ :ref:`Windows<licenseupdateonlinew>`\ 、\ :ref:`Linux<licenseupdateonlinel>`\ 、\ :ref:`MacOS<licenseupdateonlinem>`\ ）を参照してください。
 
-インストール時
-----------------------------------
-
-インストーラーでインストールを行う際に、ライセンス登録画面が表示されます。インストール手順（\ :doc:`Windows<windows>`\ 、\ :doc:`Linux<linux>`\ ）を参照ください。
-
-.. _id-after:
-
-インストール後または試用期間後
-----------------------------------
-
-ライセンス未登録、または期間が終了した状態でソフトウェアを起動しようとすると、ライセンス登録を案内する画面が表示されます。
-
-#. :guilabel:`FlexNet License Finder` というタイトルのウィンドウが表示された場合、 :guilabel:`Cancel` をクリックして閉じてください。
-#. :guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示された場合、 :guilabel:`OK` をクリックして閉じてください。
-#. :guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。
-#. :guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 `support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ `*`:sup: 宛にご希望のライセンス種別と併せてお送りください。
-
-.. role:: smallnote
-   :class: small-note
-
-:smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`
-
-.. _id-remote:
-
-Windows上からLinuxマシンのHost IDを取得
------------------------------------------
-
-弊社ツール\ `remoteLicense <https://remotelicense-doc.readthedocs.io/ja/latest/>`_\ を使うことで、Windows上から簡単にLinuxマシンのHost IDを取得できます。
-
-手順の概要を以下に示します。詳細は\ `マニュアル <https://remotelicense-doc.readthedocs.io/ja/latest/>`_\ を参照してください。
-
-#. `remoteLicenseインストーラー <https://remotelicense-doc.readthedocs.io/ja/latest/install.html#download>`_\ を使ってインストールし、起動します。
-#. :guilabel:`Host` タブでLinuxマシンへの接続情報を設定します。
-#. :guilabel:`Get Host ID` をクリックし、Host IDが取得できたら :guilabel:`Send Mail of License Request` をクリックします。
+NanoLaboをインストールするマシンがインターネットに接続されていない場合は、\ :ref:`licenseoffline`\ または\ :ref:`licenseupdateoffline`\ を参照してください。

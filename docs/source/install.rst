@@ -12,3 +12,5 @@
    install/linux
    install/mac
    install/purchase
+   install/license
+   install/flex

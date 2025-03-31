@@ -1,0 +1,289 @@
+.. _licensesetupdateoffacc:
+
+================================================
+ライセンスの設定・更新
+================================================
+
+
+- NanoLaboをインストールしたマシンがインターネットに接続されている場合:
+
+  以下の\ :ref:`licenseonline`\ または\ :ref:`licenseupdateonline`\ を参照してください。
+
+- NanoLaboをインストールしたマシンがインターネットに接続されていない場合: 
+
+  以下の\ :ref:`licenseoffline`\ または\ :ref:`licenseupdateoffline`\ を参照してください。
+
+- 上記の手順でライセンスの設定がうまくいかない場合:
+
+  以下の\ :ref:`licenseacc`\ または\ :ref:`licenseupdateacc`\ を参照してください。 
+
+.. note::
+      
+      NanoLaboをインストールしたマシンがインターネットに接続されていない場合、別途インターネットに接続されているマシンが必要です。
+
+
+.. _licenseset:
+
+ライセンスの設定
+==========================================
+
+.. _licenseonline:
+
+ライセンスの設定（オンライン）
+------------------------------
+ご利用のOSに対応するインストール手順のページの"ライセンスの設定（オンライン）"（\ :ref:`Windows<licenseonlinew>`\ 、\ :ref:`Linux<licenseonlinel>`\ 、\ :ref:`MacOS<licenseonlinem>`\ ）を参照してください。
+
+.. _licenseoffline:
+
+ライセンスの設定（オフライン）
+------------------------------
+ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。 Entitlement Certificateに記載されているProduct Key (PKID)を用いてライセンスの設定を行います。
+
+.. _licenseofflinec2v:
+
+C2Vファイルの生成
++++++++++++++++++
+
+初めに、NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の \ :menuselection:`License --> License Information` \ を選択してください。
+
+.. image:: /img/LicenseInformation.png
+
+.. note::
+      
+      NanoLaboを起動後に一定時間が経つと、自動でライセンスに関するダイアログが表示される場合がございますが、その場合も同様にして以降の手順に進んでください。
+
+初回起動時は旧ライセンス(FlexNet)を使用するかを訊ねるダイアログが表示されますので、Noを選択してください。
+
+.. image:: /img/AskFlex.png
+
+.. note::
+
+      Yes（旧ライセンス(FlexNet)を使用）を選択した場合も、後からSentinelライセンスに切り替えることができます。詳細は\ :ref:`switchlicense`\ を確認してください
+
+その後表示されるライセンスエラーダイアログのOKボタンをクリックすると、License Registration Guidance画面が表示されます。
+
+"Activate and apply your license automatically. (online) (recommended)"のチェックボックスのチェックを外し、"Create nanolabo.c2v of this machine in (path) for activation. (offline)"のチェックボックスにチェックを入れ、OKボタンをクリックしてください。（(path)の部分には、マシンごとに対応するパスが表示されます。）
+
+.. image:: /img/LicenseRegistrationGuidanceC2V.png
+
+"SUCCESS IN CREATING C2V"ダイアログが表示されたら、記載されているパスを控えたうえで、OKボタンをクリックしてください。
+
+.. note::
+      
+      C2Vファイルの作成に失敗した場合は、ダイアログのリンクからAdmin Control Center (ACC)を開き、C2Vファイル(拡張子:c2v)をダウンロードしてください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccc2v`\ 以降の手順に従ってライセンスの設定を行ってください。
+
+先ほど控えたパスに作成されているnanolabo.c2vファイルを、インターネットに接続しているマシンに移動します。
+
+.. _offlineEMS:
+
+V2CPファイルの生成
++++++++++++++++++++
+
+インターネットに接続しているマシンのウェブブラウザから、\ `Entitlement Management System (EMS) <https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\ にアクセスします。
+
+ログイン方法としてPKIDを選択し、Entitlement Certificateに記載されているProduct Key (PKID)を入力してログインします。
+
+.. image:: /img/EMSLogin.png
+
+Products画面が開いたら、Activate Offlineボタンをクリックします。
+
+.. image:: /img/EMSProducts.png
+
+Activate Products画面が開いたら、Select Fileボタンをクリックして、nanolabo.c2vを選択し、Complete Activationボタンをクリックします。
+
+.. image:: /img/EMSActivateProducts.png
+
+アクティベーションに成功したら、Download Licenseをクリックして、V2CPファイル(拡張子:.v2cp)をダウンロードします。
+
+.. image:: /img/EMSActivated.png
+
+V2CPファイルの適用
++++++++++++++++++++
+
+ダウンロードしたV2CPファイルを、NanoLaboをインストールしたマシンに移動し、先ほどC2Vファイルが作成されたディレクトリに配置します。
+
+このとき、必ず、V2CPファイルの名前をnanolabo.v2cpに変更してください。
+
+次に、NanoLaboを再び起動し、先ほどと同様にして画面左上のメニュー |mainmenuicon| の \ :menuselection:`License --> License Information` \ からLicense Registration Guidance画面を開きます。
+
+License Registration Guidance画面が表示されたら、"Activate and apply your license automatically. (online) (recommended)"のチェックボックスのチェックを外し、"Apply nanolabo.v2cp in (path) for this machine. (offline)"のチェックボックスにチェックを入れ、OKボタンをクリックしてください。
+
+.. image:: /img/LicenseRegistrationGuidanceV2C.png
+
+
+"SUCCESS IN APPLYING V2CP"ダイアログが表示されたら、OKボタンをクリックしてください。
+
+.. note::
+      
+      V2CPファイルの適用に失敗した場合は、ダイアログのリンクからAdmin Control Center (ACC)を開き、V2CPファイルを適用してください。詳細は\ :ref:`licenseacc`\ > \ :ref:`licenseaccv2cpapply` \  を参照してください。
+
+V2CPファイルの適用に成功すると、NanoLaboの再起動を促すダイアログが表示されますので、Yesボタンをクリックしてください。
+
+.. image:: /img/Restart.png
+
+.. _offlinekeyselect:
+
+ライセンスキーの選択
++++++++++++++++++++++
+
+NanoLaboを再起動後、画面左上のメニュー |mainmenuicon| から、再度 \ :menuselection:`License --> License Information` \ を選択すると、"Select a license to login"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
+
+.. image:: /img/SelectLicenseDialog.png
+
+.. note::
+      
+      NanoLaboを起動後に一定時間が経つと、自動でライセンスに関するダイアログが表示される場合がございますが、その場合も同様にして以降の手順に進んでください。
+
+"SUCCESS IN LICENSING"ダイアログが表示されたら、ライセンスの設定は完了です。OKボタンをクリックしてダイアログを閉じてください。次回以降の起動時には、今回選んだライセンスキーが自動で選択されますので、ライセンスに関する操作は必要ありません。
+
+.. _licenseacc:
+
+ライセンスの設定（ACCを利用）
+-----------------------------
+
+.. note::
+
+      通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの設定は完了し、Admin Control Center (ACC)へのアクセスは必要ありません。NanoLaboからのライセンスの設定が失敗する場合のみ、このセクションをご確認ください。
+
+ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。 Entitlement Certificateに記載されているProduct Key (PKID)を用いてライセンスの設定を行います。
+
+.. _licenseaccc2v:
+
+C2Vファイルの生成
++++++++++++++++++
+
+まず、NanoLaboをインストールしているマシンから\ `Admin Control Center (ACC) <http://localhost:1947>`_\ にアクセスしてください。ウェブブラウザのアドレス欄に http://localhost:1947 と入力することでもACCにアクセスできます。また、ACCはオフラインのマシンからもアクセス可能です。
+
+.. note::
+      
+      NanoLaboの画面左上のメニュー |mainmenuicon| の \ :menuselection:`License --> Other License Actions --> Open Admin Control Center (ACC)` \ を選択することでも、ACCにアクセスできます。ただし、新規インストール時や、設定済みのライセンスの期限が切れているなどの場合は、起動後すぐにライセンスエラーで使用できなくなりますので、URLの直接入力をおすすめします。
+
+ACCのSentinel Keys画面のリストのうち、Vendorの欄に32462と記載されている行の、Fingerprintボタンをクリックして、C2Vファイル（fingerprint_32462.c2v）をダウンロードします。
+
+.. note::
+      
+      ライセンスを更新する場合は、更新を適用するライセンスキーのC2Vボタンをクリックして、C2Vファイル（(KeyID)_(timestamp).c2v）をダウンロードしてください。
+
+.. image:: /img/ACCSentinelKeys.png
+
+.. _licenseaccv2cp:
+
+V2CPファイルの生成
++++++++++++++++++++
+
+次に、ウェブブラウザで\ `EMS <https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\ にアクセスします。
+
+.. note::
+      
+      NanoLaboをインストールしたマシンがオフラインの場合は、ダウンロードしたC2Vファイルをオンラインの別のマシンに移動したうえで\ `EMS <https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\ にアクセスしてください。
+
+
+ログイン方法としてPKIDを選択し、Entitlement Certificateに記載されているProduct Key (PKID)を入力してログインします。
+
+.. image:: /img/EMSLogin.png
+
+Products画面が開いたら、Activate Offlineボタンをクリックします。
+
+.. image:: /img/EMSProducts.png
+
+Activate Products画面が開いたら、Select Fileボタンをクリックして、先ほどダウンロードしたC2Vファイルを選択し、Complete Activationボタンをクリックします。
+
+.. image:: /img/EMSActivateProductsFingerprint.png
+
+アクティベーションに成功したら、Download Licenseをクリックして、V2CPファイル(拡張子:.v2cp)をダウンロードします。
+
+.. image:: /img/EMSActivatedFingerprint.png
+
+.. _licenseaccv2cpapply:
+
+V2CPファイルの適用
++++++++++++++++++++
+
+ACCの画面に戻り、左側のメニューからUpdate/Attach画面を開きます。Select Fileボタンから、ダウンロードしたV2CPファイルを選択し、Apply Fileボタンをクリックしてください。
+
+.. note::
+      
+      NanoLaboをインストールしたマシンがオフラインの場合は、ダウンロードしたV2CPファイルをオフラインのマシンに移動したうえでACCにアクセスしてください。
+
+.. image:: /img/ACCApply.png
+
+V2CPファイルのApplyに成功したら、NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の \ :menuselection:`License --> License Information` \ を選択してください。
+
+.. image:: /img/LicenseInformation.png
+
+.. note::
+      
+      NanoLaboを起動後に一定時間が経つと、自動でライセンスに関するダイアログが表示される場合がございますが、その場合も同様にして以降の手順に進んでください。
+
+
+
+初回起動時は旧ライセンス(FlexNet)を使用するかを訊ねるダイアログが表示されますので、Noを選択してください。
+
+.. image:: /img/AskFlex.png
+
+.. note::
+
+      Yes（旧ライセンス(FlexNet)を使用）を選択した場合も、後からSentinelライセンスに切り替えることができます。詳細は\ :ref:`switchlicense`\ を確認してください
+
+"Select a license to login"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
+
+.. image:: /img/SelectLicenseDialog.png
+
+"SUCCESS IN LICENSING"ダイアログが表示されたら、ライセンスの設定は完了です。OKボタンをクリックしてダイアログを閉じてください。次回以降の起動時には、今回選んだライセンスキーが自動で選択されますので、ライセンスに関する操作は必要ありません。
+
+.. |mainmenuicon| image:: /img/mainmenuicon.png
+      :scale: 75
+
+.. _licenseupdate:
+
+ライセンスの更新
+===================================
+support.nano\@advancesoft.jpにライセンスの更新をリクエストしてください。
+
+ライセンス登録後、noreply\@sentinelcloud.comから新しいEntitlement Certificateをメールでお送りしますので、記載されているProduct Key (PKID)を用いてライセンスの更新を行ってください。
+
+基本的な操作手順は、\ :ref:`licenseset`\ と同様です。ただし、以下の各セクションの注意点に留意して更新を行ってください。
+
+.. _licenseupdateonline:
+
+ライセンスの更新(オンライン)
+-----------------------------
+
+ご利用のOSに対応するインストール手順のページの"ライセンスの更新(オンライン)"（\ :ref:`Windows<licenseupdateonlinew>`\ 、\ :ref:`Linux<licenseupdateonlinel>`\ 、\ :ref:`MacOS<licenseupdateonlinem>`\ ）の注意点を参照してください。
+
+.. _licenseupdateoffline:
+
+ライセンスの更新(オフライン)
+-----------------------------
+
+.. warning::
+      
+      必ず更新を適用したいライセンスキーを選択した状態で、更新作業を行ってください。ライセンスキーの確認・変更方法についてはインストール手順のページの"ライセンスキーの確認方法"（\ :ref:`Windows<licenseinfow>`\ 、\ :ref:`Linux<licenseinfol>`\ 、\ :ref:`MacOS<licenseinfom>`\ ）"ライセンスキーの変更方法"（\ :ref:`Windows<changelicensew>`\ 、\ :ref:`Linux<changelicensel>`\ 、\ :ref:`MacOS<changelicensem>`\ ）を参照してください。ライセンスキーが一つしかない場合は、特に対応の必要はありません。
+
+.. warning      
+.. ライセンスキーの更新ではなく、ライセンスキーの追加を行う場合は、...の手順に従ってください。
+
+- ライセンスの種類やバージョン等に関する警告が表示される場合は、YesをクリックしてLicense Registration Guidanceを開いて下さい。 
+
+- 最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、LIcense Registration Guidanceは表示されません。代わりに以下の操作を行ってください。
+
+ - C2Vファイルを作成するには、画面左上のメニューの \ :menuselection:`License --> Create C2V` \ を選択してください。
+
+ - V2CPファイルを適用するには、画面左上のメニューの \ :menuselection:`License --> Apply V2CP` \ を選択してください。
+
+- NanoLaboの再起動後のライセンスキーの選択は必要ありません。
+
+.. _licenseupdateacc:
+  
+ライセンスの更新(ACCを利用)
+-----------------------------
+
+.. note::
+
+      通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの更新は完了し、ACCへのアクセスは必要ありません。NanoLaboからのライセンスの更新が失敗する場合のみ、ACCをご利用ください。
+
+- ACCのSentinel Keys画面では、更新を適用するライセンスキーのC2Vボタンをクリックして、C2Vファイル（(KeyID)_(timestamp).c2v）をダウンロードします。
+
+- EMSでは、fingerprint_32462.c2vではなく、必ず、手前の手順でダウンロードしたC2Vファイル((KeyID)_(timestamp).c2v)を使用してください。
+
+- NanoLaboの再起動後のライセンスキーの選択は必要に応じて行ってください。
