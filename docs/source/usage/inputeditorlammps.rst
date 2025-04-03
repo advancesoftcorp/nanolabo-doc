@@ -56,52 +56,45 @@ NeuralMD
  - 元素数が5以上の場合は、力場作成時に重み付き対称関数を使っている必要があります。
  - ここでの設定はNeuralMD関連の計算にのみ適用されます。それ以外のグラフニューラルネットワーク力場のGPU使用の設定とは独立しています。これらのGPU使用についてはそれぞれの環境設定方法を参照してください。
 
-Open Catalyst 2020
----------------------
 
-`Open Catalyst Project <https://opencatalystproject.org>`_ で公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。
+汎用グラフニューラルネットワーク力場
+-------------------------------------------
+
+オープンソースで公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場を使います。
+
+* MatGL
+
+  * M3GNet
+
+* CHGNet
+
+* MACE
+
+  * MACE-Osaka24
+
+* MACE-OFF
+
+* Orb
+
+* MatterSim
+
+* FAIR-Chem
+
+  * EquiformerV2
 
 LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、いくつか制約があります。 |info| をクリックすると説明が表示されます。
 
 - MPI並列には非対応です（OpenMP並列・GPUを使った計算が可能です）。
-- ARM版(Apple M1)には非対応です。
-- Z軸方向には周期境界条件が適用されません。
-- ビリアル応力が計算できないため、NPT・NPHアンサンブルでの計算、およびセルの最適化には非対応です。
+- 一部のモデルでは、ビリアル応力が計算できないため、NPT・NPHアンサンブルでの計算、およびセルの最適化には非対応です。
 
 .. toctree::
    :maxdepth: 1
 
-   Python環境の設定方法<ocp>
+   Python環境の設定方法<gnnp>
 
-M3GNet
---------------------
-
-M3GNet（\ `従来版 <https://github.com/materialsvirtuallab/m3gnet>`_\ 、\ `MatGL版 <https://github.com/materialsvirtuallab/matgl>`_\ ）として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場＋\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\ による補正を使います。
-
-LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、MPI並列には非対応です（OpenMP並列・GPUを使った計算が可能です）。 |info| をクリックすると説明が表示されます。
-
-.. toctree::
-   :maxdepth: 1
-
-   Python環境の設定方法<m3gnet>
-
-:guilabel:`Model` にはM3GNetに同梱されている学習済みモデルが表示されます。また、画面左上のアイコン |mainmenuicon| から :menuselection:`Import --> Import M3GNet model` でモデルをインポートできます。
-
-CHGNet
--------------------
-
-`CHGNet <https://github.com/CederGroupHub/chgnet>`_ として公開されている、グラフニューラルネットワークに基づく学習済みの汎用力場＋\ `Simple DFT-D3 <https://dftd3.readthedocs.io/en/latest/>`_\ による補正を使います。
-
-LAMMPSからPythonを呼び出して実行するため、事前にPython環境の設定が必要である他、MPI並列には非対応です（OpenMP並列・GPUを使った計算が可能です）。 |info| をクリックすると説明が表示されます。
-
-.. toctree::
-   :maxdepth: 1
-
-   Python環境の設定方法<chgnet>
+:guilabel:`Model` には同梱されている学習済みモデルが表示されます。また、画面左上のアイコン |mainmenuicon| から :menuselection:`Import --> Import CHGNet model` でモデルをインポートできます。
 
 .. |info| image:: /img/info.png
-
-:guilabel:`Model` にはCHGNetに同梱されている学習済みモデルが表示されます。また、画面左上のアイコン |mainmenuicon| から :menuselection:`Import --> Import CHGNet model` でモデルをインポートできます。
 
 SevenNet
 -------------------
