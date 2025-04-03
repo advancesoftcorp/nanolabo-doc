@@ -88,7 +88,13 @@
 
 .. _SMILES: https://www.daylight.com/smiles/index.html
 
-:guilabel:`Materials Finder` と書かれた部分をクリックすることで、説明が表示されます。Materials Projectのアカウントをお持ちの場合、ここで\ `APIキー <https://legacy.materialsproject.org/open>`_\ を設定することで、基本単位胞／慣用単位胞のどちらを取得するか選択できるようになります。また、データベースのウェブページを内蔵ウェブブラウザーで開くか、外部ブラウザーで開くかを :guilabel:`Browser Type` で設定できます。
+:guilabel:`Materials Finder` と書かれた部分をクリックすることで、説明・設定画面が表示されます。
+
+Materials Projectの使用にはアカウント登録が必要です。\ `アカウント作成・ログイン <https://profile.materialsproject.org>`_\ 後、\ `APIページ <https://next-gen.materialsproject.org/api>`_\ でAPIキーを確認して、設定画面で入力すると使えるようになります。
+
+.. image:: /img/materialsapi.svg
+
+:guilabel:`Cell Type` で基本単位胞／慣用単位胞のどちらを取得するか選択できます。また、データベースのウェブページを内蔵ウェブブラウザーで開くか、外部ブラウザーで開くかを :guilabel:`Browser Type` で設定できます。
 
 .. _createmolecule:
 
