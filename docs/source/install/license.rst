@@ -4,7 +4,6 @@
 ライセンスの設定・更新
 ================================================
 
-
 - NanoLaboをインストールしたマシンがインターネットに接続されている場合:
 
   以下の\ :ref:`licenseonline`\ または\ :ref:`licenseupdateonline`\ を参照してください。
@@ -16,6 +15,8 @@
 - 上記の手順でライセンスの設定がうまくいかない場合:
 
   以下の\ :ref:`licenseacc`\ または\ :ref:`licenseupdateacc`\ を参照してください。 
+
+- :ref:`floating`
 
 .. note::
       
@@ -31,7 +32,72 @@
 
 ライセンスの設定（オンライン）
 ------------------------------
-ご利用のOSに対応するインストール手順のページの"ライセンスの設定（オンライン）"（\ :ref:`Windows<licenseonlinew>`\ 、\ :ref:`Linux<licenseonlinel>`\ 、\ :ref:`MacOS<licenseonlinem>`\ ）を参照してください。
+ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。Entitlement Certificateに記載されているProduct Key (PKID)を用いてライセンスの設定を行います。
+
+初めに、NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の \ :menuselection:`License --> License Information` \ を選択してください。
+
+.. image:: /img/LicenseInformation.png
+
+.. note::
+      
+      NanoLaboを起動後に一定時間が経つと、自動でライセンスに関するダイアログが表示される場合がございますが、その場合も同様にして以降の手順に進んでください。
+
+初回起動時は旧ライセンス(FlexNet)を使用するかを訊ねるダイアログが表示されますので、Noを選択してください。
+
+.. image:: /img/AskFlex.png
+
+.. note::
+
+      Yes（旧ライセンス(FlexNet)を使用）を選択した場合も、後からSentinelライセンスに切り替えることができます。詳細は\ :ref:`switchlicense`\ を確認してください。
+
+その後に表示されるライセンスエラーダイアログのOKボタンをクリックすると、License Registration Guidance画面が表示されます。
+
+"Activate and apply your license automatically. (online) (recommended)"のチェックボックスにチェックを入れ、OKボタンをクリックしてください。
+
+.. image:: /img/LicenseRegistrationGuidanceActivate.png
+
+.. _licenseonlinec2v:
+
+"SUCCESS IN CREATING C2V"ダイアログが表示されたら、記載されているパスを控えたうえでOKボタンをクリックしてください。
+
+.. note::
+      
+      C2Vファイルの作成に失敗した場合は、ダイアログのリンクからAdmin Control Center (ACC)を開き、C2Vファイル(拡張子:c2v)をダウンロードしてください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccc2v`\ 以降の手順に従って設定を行ってください。
+
+"Activate License"ダイアログが表示されたら、Entitlement Certificateに記載されているProduct Key (PKID)をテキストフィールドに入力してください。
+
+.. note::
+      このあと、cURLコマンドを用いてV2CPファイルの生成が行われます。プロキシの設定またはcURLコマンドのオプションの設定が必要な場合は、対応するチェックボックスにチェックを入れたうえでOKボタンをクリックし、続いて表示されるダイアログで各種設定を行ってください。
+
+.. image:: /img/ActivateLicense.png
+
+"SUCCESS IN CREATING V2CP"ダイアログが表示されたら、OKボタンをクリックしてください。
+
+.. note::
+      
+      V2CPファイルの作成に失敗した場合は、ダイアログのリンクからEntitlement Management System (EMS)を開き、V2CPファイルをダウンロードしてください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccv2cp`\  以降の手順に従ってライセンスの設定を行ってください。EMSでは、先ほど控えたパスに生成されているnanolabo.c2vを使用してください。
+
+自動でV2CPファイルがマシンに適用され、"SUCCESS IN APPLYING V2CP"ダイアログが表示されたら、OKボタンをクリックしてください。
+
+.. note::
+      
+      V2CPファイルの適用に失敗した場合は、ダイアログのリンクからAdmin Control Center (ACC)を開き、V2CPファイルを適用してください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccv2cpapply` \  以降の手順に従ってライセンスの設定を行ってください。ACCでは、先ほど控えたパスに生成されているnanolabo.v2cpを使用してください。
+
+V2CPファイルの適用に成功すると、NanoLaboの再起動を促すダイアログが表示されますので、Yesボタンをクリックしてください。
+
+.. image:: /img/Restart.png
+
+.. _onlinekeyselect:
+
+NanoLaboを再起動後、左上のメニューから、再度 \ :menuselection:`License --> License Information` \ を選択すると、"Select a license to login"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
+
+.. image:: /img/SelectLicenseDialog.png
+
+.. note::
+      
+     NanoLaboを起動後に一定時間が経つと、自動でライセンスに関するダイアログが表示される場合がございますが、その場合も同様にして以降の手順に進んでください。
+
+"SUCCESS IN LICENSING"ダイアログが表示されたら、ライセンスの設定は完了です。OKボタンをクリックしてダイアログを閉じてください。次回以降の起動時には、今回選んだライセンスキーが自動で選択されますので、ライセンスに関する操作は必要ありません。
 
 .. _licenseoffline:
 
@@ -109,7 +175,6 @@ V2CPファイルの適用
 License Registration Guidance画面が表示されたら、"Activate and apply your license automatically. (online) (recommended)"のチェックボックスのチェックを外し、"Apply nanolabo.v2cp in (path) for this machine. (offline)"のチェックボックスにチェックを入れ、OKボタンをクリックしてください。
 
 .. image:: /img/LicenseRegistrationGuidanceV2C.png
-
 
 "SUCCESS IN APPLYING V2CP"ダイアログが表示されたら、OKボタンをクリックしてください。
 
@@ -215,8 +280,6 @@ V2CPファイルのApplyに成功したら、NanoLaboを起動し、画面左上
       
       NanoLaboを起動後に一定時間が経つと、自動でライセンスに関するダイアログが表示される場合がございますが、その場合も同様にして以降の手順に進んでください。
 
-
-
 初回起動時は旧ライセンス(FlexNet)を使用するかを訊ねるダイアログが表示されますので、Noを選択してください。
 
 .. image:: /img/AskFlex.png
@@ -238,7 +301,12 @@ V2CPファイルのApplyに成功したら、NanoLaboを起動し、画面左上
 
 ライセンスの更新
 ===================================
-support.nano\@advancesoft.jpにライセンスの更新をリクエストしてください。
+`support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ :sup:`*` にライセンスの更新をリクエストしてください。
+
+.. role:: smallnote
+   :class: small-note
+
+:smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`
 
 ライセンス登録後、noreply\@sentinelcloud.comから新しいEntitlement Certificateをメールでお送りしますので、記載されているProduct Key (PKID)を用いてライセンスの更新を行ってください。
 
@@ -249,7 +317,18 @@ support.nano\@advancesoft.jpにライセンスの更新をリクエストして�
 ライセンスの更新(オンライン)
 -----------------------------
 
-ご利用のOSに対応するインストール手順のページの"ライセンスの更新(オンライン)"（\ :ref:`Windows<licenseupdateonlinew>`\ 、\ :ref:`Linux<licenseupdateonlinel>`\ 、\ :ref:`MacOS<licenseupdateonlinem>`\ ）の注意点を参照してください。
+.. warning::
+      
+      必ず更新を適用したいライセンスキーを選択した状態で、更新作業を行ってください。ライセンスキーの確認・変更方法については\ :ref:`licenseinfo`\  及び \ :ref:`changelicense`\ を参照してください。ライセンスキーが一つしかない場合は、特に対応の必要はありません。
+
+.. warning      
+.. ライセンスキーの更新ではなく、ライセンスキーの追加を行う場合は、...の手順に従ってください。
+
+- ライセンスの種類やバージョン等に関する警告が表示される場合は、YesをクリックしてLicense Registration Guidanceを開いて下さい。 
+
+- 最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、NanoLaboを起動後、画面左上のメニューの \ :menuselection:`License --> Activate License Automatically` \ を選択してください。
+
+- NanoLaboの再起動後のキーの選択は必要ありません。
 
 .. _licenseupdateoffline:
 
@@ -258,7 +337,7 @@ support.nano\@advancesoft.jpにライセンスの更新をリクエストして�
 
 .. warning::
       
-      必ず更新を適用したいライセンスキーを選択した状態で、更新作業を行ってください。ライセンスキーの確認・変更方法についてはインストール手順のページの"ライセンスキーの確認方法"（\ :ref:`Windows<licenseinfow>`\ 、\ :ref:`Linux<licenseinfol>`\ 、\ :ref:`MacOS<licenseinfom>`\ ）"ライセンスキーの変更方法"（\ :ref:`Windows<changelicensew>`\ 、\ :ref:`Linux<changelicensel>`\ 、\ :ref:`MacOS<changelicensem>`\ ）を参照してください。ライセンスキーが一つしかない場合は、特に対応の必要はありません。
+      必ず更新を適用したいライセンスキーを選択した状態で、更新作業を行ってください。ライセンスキーの確認・変更方法については\ :ref:`licenseinfo`\  及び \ :ref:`changelicense`\ を参照してください。ライセンスキーが一つしかない場合は、特に対応の必要はありません。
 
 .. warning      
 .. ライセンスキーの更新ではなく、ライセンスキーの追加を行う場合は、...の手順に従ってください。
@@ -287,3 +366,58 @@ support.nano\@advancesoft.jpにライセンスの更新をリクエストして�
 - EMSでは、fingerprint_32462.c2vではなく、必ず、手前の手順でダウンロードしたC2Vファイル((KeyID)_(timestamp).c2v)を使用してください。
 
 - NanoLaboの再起動後のライセンスキーの選択は必要に応じて行ってください。
+
+.. _floating:
+
+フローティングライセンス
+===================================
+
+フローティングライセンスをご購入いただいた場合は、ライセンスの設定を行ったマシンと同一のネットワーク上にある別のマシン（Windows・Linux・macOS）でもNanoLaboを使うことができます。
+
+- ライセンスサーバーとして使うマシン側
+
+ NanoLaboをインストールして、ライセンスの設定を行ってください。マシンの起動時に毎回自動でライセンスマネージャが起動するため、一度ライセンスの設定を行って以降は特に必要な操作はありません。
+
+- NanoLaboを使うクライアントマシン側
+
+ NanoLaboをインストールして起動し、"Select a license to login"ダイアログで使用するライセンスキーを選択してください。一度選択したライセンスキーはデフォルトのキーとして登録されるため、それ以降の起動時に必要な操作はありません。
+
+.. note::
+      
+      クライアントマシンからライセンスサーバーのライセンスを検出できない場合は、以下の対応が必要です。
+      
+      - クライアントマシンにライセンスサーバーのIPアドレスを設定します。クライアントマシンから\ `Admin Control Center (ACC) <http://localhost:1947>`_\ にアクセスし、画面左側のメニューのConfigurationを選択してください。次に、Access to Remote License Managersタブを開いて、Remote License Search ParametersにライセンスサーバーのIPアドレスを入力し、Submitをクリックしてください。
+        
+      - ライセンスサーバーのファイアウォールの設定で、TCP/UDP ポート 1947が開放されていない場合は、設定を変更して開放してください。（Windowsマシンの場合、インストール時に自動でこれらのポートは開放されるため、通常ではファイアウォールの設定は必要ありません。）
+
+.. _licenseinfo:
+
+ライセンスキーの確認方法
+===================================
+
+画面左上のメニュー |mainmenuicon| の \ :menuselection:`License --> License Information` \ を選択すると、現在選択されているキーのIDなどの情報を確認できます。
+
+より詳細な情報は\ `ACC <http://localhost:1947>`_\ でもご確認いただけます。
+
+選択されているキーが期限切れなどで有効でない場合、ライセンスエラーを示すダイアログに選択されているキーのIDが表示されます。
+
+.. _changelicense:
+
+ライセンスキーの変更方法
+===================================
+
+複数のライセンスキーをご購入いただいている場合には、それらの内のどれか一つにログインして、NanoLaboをご利用いただくことになります。ログインするライセンスキーを変更する場合は、以下の手順に従って下さい。
+
+画面左上のメニュー |mainmenuicon| の \ :menuselection:`License --> Change License Key` \ を選択すると、"Select a license to login"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
+
+.. note::
+      
+      デフォルトで選択されているキーが期限切れなどで有効でない場合、ライセンスエラーを示すダイアログのSelect Keyボタンをクリックすると、"Select a license to login"ダイアログが表示されます。
+
+.. note::
+      
+      リストのcurrent loginは、そのライセンスキーの機能に対して、現在いくつのログインがあるかを表しています。また、リストのconcurrencyは、そのライセンスキーの機能に同時にログインできる数の上限を表しています。
+
+NanoLaboの再起動を促すダイアログが表示された場合は、YesボタンをクリックしてNanoLaboを再起動してください。
+
+変更後のキーは、デフォルトのキーとして登録されるため、次回以降の起動時に選択し直す必要はありません。
