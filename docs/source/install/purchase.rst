@@ -38,7 +38,7 @@
 
  基本機能に加え、強化された追加のモデリング・計算機能をお使いいただけます。
 
- Ver. 2.9.1 Pro版では、界面モデル作成機能、高分子モデラー機能が使用できます。
+ Ver. 3.1 Pro版では、界面モデル作成機能、高分子モデラー機能、GIPAW（NMRスペクトル）が使用できます。
 
 .. _pricing:
 
@@ -106,10 +106,15 @@
 お申し込み方法
 ==========================
 
-`support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ 宛にご希望のライセンス種別を明記の上お申し込みください。
+`support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ :sup:`*` 宛にご希望のライセンス種別を明記の上お申し込みください。
+
+.. role:: smallnote
+   :class: small-note
+
+:smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`
 
 ライセンス契約後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りしますので、記載されているProduct Key (PKID)を用いてライセンスの設定を行ってください。
 
-NanoLaboをインストールするマシンがインターネットに接続されている場合は、ご利用のOSに対応するインストール手順のページの"ライセンスの設定（オンライン）"（\ :ref:`Windows<licenseonlinew>`\ 、\ :ref:`Linux<licenseonlinel>`\ 、\ :ref:`MacOS<licenseonlinem>`\ ）または"ライセンスの更新（オンライン）"（\ :ref:`Windows<licenseupdateonlinew>`\ 、\ :ref:`Linux<licenseupdateonlinel>`\ 、\ :ref:`MacOS<licenseupdateonlinem>`\ ）を参照してください。
+NanoLaboをインストールするマシンがインターネットに接続されている場合は、\ :ref:`licenseonline`\ または\ :ref:`licenseupdateonline`\ を参照してください。
 
 NanoLaboをインストールするマシンがインターネットに接続されていない場合は、\ :ref:`licenseoffline`\ または\ :ref:`licenseupdateoffline`\ を参照してください。

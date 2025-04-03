@@ -8,23 +8,35 @@
  - 機能追加
 
    - 密度を指定してスラブモデルをリサイズする機能を分子充填画面内に追加
-   - BAND・DOSのプロットにバンドギャップの表示を追加
+   - QE: DOS・Bandのバンドギャップの自動計算（プロットに表示を追加）
+   - LAMMPS: 各種オープンソースGNN力場への対応を追加（FAIR-Chem(eqV2)、ORB、MatterSim、MACE、SevenNet新モデル）
    - ThreeBodyTB v1.0.0に対応
-   - LAMMPS: GNN力場への対応を追加（FAIR-Chem(eqV2)、ORB、MatterSim、MACE、SevenNet新モデル）
+   - ChatbotにNeuralMDに関する情報を学習させた
 
  - 変更・修正
 
-   - ライセンス管理モジュールをFlexNetからSentinelに変更
+   - ライセンス管理モジュールをSentinelに変更
 
-     - Sentinelは従来(FlexNet)のライセンスファイルと互換性がありません。
-     - バージョン3.0では移行期間として、FlexNetとSentinelから選択してライセンス認証が行えます。
-     - 従来(FlexNet)のライセンスファイルが使えるのはバージョン3.0が最後となり、次バージョン以降は使えなくなります。
+     - Sentinelは従来のライセンスファイルと互換性がありません。
+     - 移行期間として、約1年間は従来方式とSentinelから選択してライセンス認証が行えます。
+     - 新規に発行するライセンスはSentinelとなります。移行期間終了後のバージョンでは、従来のライセンスは使えなくなります。
 
+   - Materials Projectのlegacy API廃止に伴い、Materials Finderで使用するAPIを最新版に切り替え
+
+     - :ref:`APIキー設定 <materialsfinder>`\ が必須となります。
+
+   - （macOS版）Intel CPUのmacOSのサポートを終了
+   - （Linux版）ローカルJob Managerの性能改善（計算エンジンの実行ファイルコピーを省略）
+   - ChatbotおよびAutopilotの性能改善（GPT-3.5-turbo |rarr| GPT-4o-mini、いくつかの結晶構造を改善）
+   - Java実行環境をアップデート(Liberica JRE 17.0.14+10)
    - 内蔵ウェブブラウザーのライブラリJxBrowserをアップデート(7.37.1\ |rarr|\ 8.5.0)
    - 内蔵ウェブブラウザーで証明書検証時に不要なエラーメッセージが出る問題を修正
    - QE: 等値面の描画が曲率により欠ける場合がある問題を修正
    - QE: 原子数1000以上の構造最適化・第一原理MDの出力読み込みに対応
    - LAMMPS: Improper読み込みの不具合を修正
+   - LAMMPS: GNN力場で使用するDFT-D3補正のパッケージをtorch_dftd3に変更
+   - LAMMPS: GNN力場の開発プロジェクト移行に伴い旧バージョン（従来版M3GNet、Open Catalyst Project）を廃止
+   - LAMMPS: GNN力場用実行ファイルを統一・Pythonライブラリバージョンを3.9 |rarr| 3.11に変更
 
  - その他、動作改善・バグ修正等
 
