@@ -108,29 +108,8 @@ LAMMPSホームページ
 アドバンスソフト改修版LAMMPSソースコード
  https://github.com/advancesoftcorp/lammps
 
-Open Catalyst Project
-========================
-
-Open Catalyst Projectホームページ
- https://opencatalystproject.org/
-
-Gitリポジトリ
- https://github.com/Open-Catalyst-Project/ocp
-
-M3GNet
-=========
-
-従来版
----------
-
-M3GNetドキュメント
- https://materialsvirtuallab.github.io/m3gnet/
-
-Gitリポジトリ
- https://github.com/materialsvirtuallab/m3gnet
-
-MatGL版
----------
+MatGL
+======
 
 MatGLドキュメント
  https://matgl.ai/
@@ -147,14 +126,59 @@ CHGNetドキュメント
 Gitリポジトリ
  https://github.com/CederGroupHub/chgnet
 
-Simple DFT-D3
-===============
+MACE
+=====
 
-Simple DFT-D3ドキュメント
- https://dftd3.readthedocs.io/en/latest/
+MACEドキュメント
+ https://mace-docs.readthedocs.io/en/latest/
 
 Gitリポジトリ
- https://github.com/dftd3/simple-dftd3
+ https://github.com/ACEsuit/mace
+
+MACE-OFF Gitリポジトリ
+ https://github.com/ACEsuit/mace-off
+
+MACE-Osaka24 Gitリポジトリ
+ https://github.com/qiqb-osaka/mace-osaka24
+
+Orb
+====
+
+Gitリポジトリ
+ https://github.com/orbital-materials/orb-models
+
+技術ブログ記事
+ https://www.orbitalmaterials.com/post/technical-blog-introducing-the-orb-ai-based-interatomic-potential
+
+MatterSim
+============
+
+MatterSimドキュメント
+ https://microsoft.github.io/mattersim/
+
+Gitリポジトリ
+ https://github.com/microsoft/mattersim
+
+FAIR-Chem
+==========
+
+FAIR-Chemドキュメント
+ https://fair-chem.github.io/
+
+Gitリポジトリ
+ https://github.com/FAIR-Chem/fairchem
+
+Meta Open Materials 2024 (OMat24) モデル
+ https://huggingface.co/fairchem/OMAT24
+
+torch-dftd
+===============
+
+Gitリポジトリ
+ https://github.com/pfnet-research/torch-dftd
+
+ブログ記事
+ https://tech.preferred.jp/ja/blog/dft-dispersion-pytorch-oss/
 
 SevenNet
 ============
