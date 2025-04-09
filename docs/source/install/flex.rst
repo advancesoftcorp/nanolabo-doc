@@ -12,8 +12,6 @@ FlexNetライセンスをご利用の場合のみこちらのマニュアルを�
 
 移行期間終了後にリリースされるバージョンでは、FlexNetライセンスは利用できません。
 
-また、NanoLaboからNeuralMDを利用する場合、NeuralMDのライセンスは、NanoLaboと同じ種別のライセンスが使用されます。
-
 .. _switchlicense:
 
 ライセンスの切り替え方法(FlexNet⇔Sentinel)
