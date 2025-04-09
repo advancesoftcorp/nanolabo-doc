@@ -27,11 +27,11 @@ FlexNetからSentinelへの切り替え
 NanoLaboの画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Change to Sentinel` を選択してください。
 設定が変更された旨のダイアログのOKボタンをクリックすると、NanoLaboの再起動を促すダイアログが表示されます。
 Yesボタンをクリック、または手動でNanoLaboを再起動すれば、ライセンスの切り替えは完了です。
-以降のSentinelライセンスの設定方法は、\ :ref:`licenseonline`\ を参照してください。
+以降のSentinelライセンスの設定方法は、\ :ref:`licenseset`\ を参照してください。
 
 .. note:: 
 
-   NanoLaboを起動後すぐにライセンスエラーのダイアログが表示されてしまう場合、その後に表示されるLicense Registration Guidanceの"Use Sentinel licensing mode (recommended)"のチェックボックスにチェックを入れて、OKボタンをクリックすることでもライセンスの切り替えを行うことができます。この時に他のチェックボックスにチェックを入れて、同時にライセンスの設定手順を進めることも可能です。
+   NanoLaboを起動後すぐにライセンスエラーのダイアログが表示されてしまう場合は、その後に表示されるLicense Registration Guidanceの"Use Sentinel licensing mode (recommended)"にチェックを入れたうえで、\ :ref:`licenseonline`\ または\ :ref:`licenseoffline`\ の手順3以降に進むことでライセンスの切り替えおよび設定を行うことができます。
 
 SentinelからFlexNetへの切り替え(非推奨)
 +++++++++++++++++++++++++++++++++++++++
@@ -40,7 +40,7 @@ SentinelからFlexNetへの切り替え(非推奨)
 
    初回起動時のダイアログで誤ってNoを選択した場合以外では、SentinelからFlexNetへの切り替えは不要です。また、有効なSentinelライセンスをお持ちでない方のみ、以下の操作が可能です。
 
-NanoLaboを起動して、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択すると、ライセンスエラーを示すダイアログが表示されます（NanoLaboを起動後、一定時間が経過することでもこのダイアログは表示されます）。ダイアログのOKボタンをクリックした後に表示されるLicense Registration Guidanceの、"Use FlexNet licensing mode temporarily (deprecated)"のチェックボックスにチェックを入れて、OKボタンをクリックしてください。表示されるダイアログに従ってNanoLaboを再起動するとライセンスの切り替えが完了します。
+NanoLaboを起動して、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択すると、ライセンスエラーを示すダイアログが表示されます（NanoLaboを起動後、一定時間が経過することでもこのダイアログは表示されます）。ダイアログのOKボタンをクリックした後に表示されるLicense Registration Guidanceの、"Use FlexNet licensing mode temporarily (deprecated)"を選択して、OKボタンをクリックしてください。表示されるダイアログに従ってNanoLaboを再起動するとライセンスの切り替えが完了します。
 
 .. _flexw:
 
