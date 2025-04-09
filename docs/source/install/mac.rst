@@ -88,7 +88,7 @@
        :width: 300 px
        :align: center
 
-初回起動時にはライセンスに関するダイアログが表示されますので、\ :ref:`licenseset`\ を参照してProduct Key (PKID)の登録を行ってください。
+初回起動時にはライセンスに関するダイアログが表示されますので、\ :ref:`licenseset`\ を参照してProduct Keyの登録を行ってください。
 
 .. _optionalm:
 

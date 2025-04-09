@@ -31,7 +31,7 @@
 
 ライセンスの設定（オンライン）
 ------------------------------
-ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。Entitlement Certificateに記載されているProduct Key (PKID)を用いてライセンスの設定を行います。
+ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。Entitlement Certificateに記載されているProduct Keyを用いてライセンスの設定を行います。
 
 #. 初めに、NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択してください。
 
@@ -65,7 +65,7 @@
 
           C2Vファイルの作成に失敗した場合は、ダイアログのリンクからAdmin Control Center (ACC)を開き、C2Vファイル(拡張子:c2v)をダウンロードしてください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccc2v`\ 以降の手順に従って設定を行ってください。
 
-#. "Activate Sentinel License"ダイアログが表示されたら、Entitlement Certificateに記載されているProduct Key (PKID)をテキストフィールドに入力してください。
+#. "Activate Sentinel License"ダイアログが表示されたら、Entitlement Certificateに記載されているProduct Keyをテキストフィールドに入力してください。
 
     .. note::
 
@@ -105,7 +105,7 @@
 
 ライセンスの設定（オフライン）
 ------------------------------
-ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。 Entitlement Certificateに記載されているProduct Key (PKID)を用いてライセンスの設定を行います。
+ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。 Entitlement Certificateに記載されているProduct Keyを用いてライセンスの設定を行います。
 
 .. _licenseofflinec2v:
 
@@ -149,7 +149,7 @@ V2CPファイルの生成
 
 #. インターネットに接続しているマシンのウェブブラウザから、\ `Entitlement Management System (EMS) <https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\ にアクセスします。
 
-#. ログイン方法としてPKIDを選択し、Entitlement Certificateに記載されているProduct Key (PKID)を入力してログインします。
+#. "Product Key ID"の入力欄に、Entitlement Certificateに記載されている"Product Key"を入力してログインボタンをクリックしてください。
 
     .. image:: /img/EMSLogin.png
 
@@ -212,7 +212,7 @@ V2CPファイルの適用
 
       通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの設定は完了し、Admin Control Center (ACC)へのアクセスは必要ありません。NanoLaboからのライセンスの設定が失敗する場合のみ、このセクションをご確認ください。
 
-ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。 Entitlement Certificateに記載されているProduct Key (PKID)を用いてライセンスの設定を行います。
+ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。 Entitlement Certificateに記載されているProduct Keyを用いてライセンスの設定を行います。
 
 .. _licenseaccc2v:
 
@@ -245,7 +245,7 @@ V2CPファイルの生成
           NanoLaboをインストールしたマシンがオフラインの場合は、ダウンロードしたC2Vファイルをオンラインの別のマシンに移動したうえで\ `EMS <https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\ にアクセスしてください。
 
 
-#. ログイン方法としてPKIDを選択し、Entitlement Certificateに記載されているProduct Key (PKID)を入力してログインします。
+#. "Product Key ID"の入力欄に、Entitlement Certificateに記載されている"Product Key"を入力してログインボタンをクリックしてください。
 
     .. image:: /img/EMSLogin.png
 
@@ -310,7 +310,7 @@ V2CPファイルの適用
 
 :smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`
 
-ライセンス登録後、noreply\@sentinelcloud.comから新しいEntitlement Certificateをメールでお送りしますので、記載されているProduct Key (PKID)を用いてライセンスの更新を行ってください。
+ライセンス登録後、noreply\@sentinelcloud.comから新しいEntitlement Certificateをメールでお送りしますので、記載されているProduct Keyを用いてライセンスの更新を行ってください。
 
 基本的な操作手順は、\ :ref:`licenseset`\ と同様です。ただし、以下の各セクションの注意点に留意して更新を行ってください。
 

@@ -113,7 +113,7 @@
 
 :smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`
 
-ライセンス契約後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りしますので、記載されているProduct Key (PKID)を用いてライセンスの設定を行ってください。
+ライセンス契約後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りしますので、記載されているProduct Keyを用いてライセンスの設定を行ってください。
 
 NanoLaboをインストールするマシンがインターネットに接続されている場合は、\ :ref:`licenseonline`\ または\ :ref:`licenseupdateonline`\ を参照してください。
 
