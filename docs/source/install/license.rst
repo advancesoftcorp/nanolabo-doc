@@ -1,4 +1,4 @@
-.. _licensesetupdateoffacc:
+.. _licensesetupdate:
 
 ================================================
 ライセンスの設定・更新
