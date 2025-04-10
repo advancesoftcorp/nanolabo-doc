@@ -138,10 +138,6 @@ V2CPファイルの生成
 
     .. image:: /img/EMSLogin.png
 
-    .. warning::
-
-       Update Licensesボタンは使用しないでください。ライセンスの更新をする際も、Product Keyを入力してログインボタンをクリックしてください。
-
 #. Products画面が開いたら、Activate Offlineボタンをクリックします。
 
     .. image:: /img/EMSProducts.png
@@ -247,10 +243,6 @@ V2CPファイルの生成
 #. "Product Key ID"の入力欄に、Entitlement Certificateに記載されている"Product Key"を入力してログインボタンをクリックしてください。
 
     .. image:: /img/EMSLogin.png
-
-    .. warning::
-
-       Update Licensesボタンは使用しないでください。ライセンスの更新をする際も、Product Keyを入力してログインボタンをクリックしてください。
 
 #. Products画面が開いたら、Activate Offlineボタンをクリックします。
 
