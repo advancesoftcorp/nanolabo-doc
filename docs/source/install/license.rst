@@ -337,7 +337,7 @@ V2CPファイルの適用
       
       必ず更新を適用したいライセンスキーを選択した状態で、更新作業を行ってください。ライセンスキーの確認・変更方法については\ :ref:`licenseinfo`\  及び \ :ref:`changelicense`\ を参照してください。ライセンスキーが一つしかない場合は、特に対応の必要はありません。
 
-- ライセンスの種類やバージョン等に関する警告が表示される場合は、YesをクリックしてLicense Registration Guidanceを開いて下さい。 
+- ライセンスの種類やバージョン等に関するダイアログが自動で表示される場合は、YesまたはCloseをクリックしてLicense Registration Guidanceを開いて下さい。 
 
 - 最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、NanoLaboを起動後、画面左上のメニューの :menuselection:`License --> Sentinel Settings --> Activate Automatically` を選択してください。
 
@@ -356,7 +356,7 @@ V2CPファイルの適用
       
       C2VファイルおよびV2CPファイルは必ず新たに生成したものを使用してください。過去の設定・更新時に生成したものを誤って使用しないようにご注意ください。
 
-- ライセンスの種類やバージョン等に関する警告が表示される場合は、YesをクリックしてLicense Registration Guidanceを開いて下さい。 
+- ライセンスの種類やバージョン等に関するダイアログが自動で表示される場合は、YesまたはCloseをクリックしてLicense Registration Guidanceを開いて下さい。 
 
 - 最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、LIcense Registration Guidanceは表示されません。代わりに以下の操作を行ってください。
 
