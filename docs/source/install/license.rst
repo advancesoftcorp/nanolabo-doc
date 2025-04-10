@@ -74,7 +74,7 @@
 
     .. note::
 
-          C2Vファイルの作成、V2CPファイルの作成またはV2CPファイルの適用に失敗したことを示すダイアログが表示された場合は、\ :ref:`licenseacc`\ の\ :ref:`licenseaccc2v`\ 以降の手順に従って設定を行ってください。いずれの内容でダイアログが表示された場合でも、\ :ref:`licenseaccc2v`\ の手順から再度始めることをお勧めします。
+          C2Vファイルの作成、V2CPファイルの作成またはV2CPファイルの適用に失敗したことを示すダイアログが表示された場合は、\ :ref:`licenseacc`\ の\ :ref:`licenseaccc2v`\ 以降の手順に従って設定を行ってください。いずれの内容でダイアログが表示された場合でも、\ :ref:`licenseaccc2v`\ の手順から再度始めてください。
 
 #. NanoLaboを再起動後、左上のメニューから、再度 :menuselection:`License --> Authentication` を選択すると、"Select a Sentinel License Key"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
 
