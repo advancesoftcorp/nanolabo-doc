@@ -169,6 +169,10 @@ V2CPファイルの適用
 
     .. image:: /img/LicenseRegistrationGuidanceV2C.png
 
+    .. note::
+
+        ダウンロードしたV2CPファイルがnanolabo.v2cpという名前でない場合もこちらの選択肢で問題ありません。
+
 #. ファイルブラウザが表示されたら、手前の手順でダウンロードしたV2CPファイルを選択します。
 
 #. "V2CP file has been applied, successfully."ダイアログが表示されたら、OKボタンをクリックしてください。NanoLaboの再起動を促すダイアログが表示されますので、Yesボタンをクリックしてください。
