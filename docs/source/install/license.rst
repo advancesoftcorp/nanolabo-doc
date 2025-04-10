@@ -173,11 +173,11 @@ V2CPファイルの適用
 
 #. "V2CP file has been applied, successfully."ダイアログが表示されたら、OKボタンをクリックしてください。NanoLaboの再起動を促すダイアログが表示されますので、Yesボタンをクリックしてください。
 
+    .. image:: /img/Restart.png
+
     .. note::
 
           V2CPファイルの適用に失敗した場合は、ダイアログのリンクからAdmin Control Center (ACC)を開き、V2CPファイルを適用してください。詳細は\ :ref:`licenseacc`\ > \ :ref:`licenseaccv2cpapply` \  を参照してください。
-
-    .. image:: /img/Restart.png
 
 .. _offlinekeyselect:
 
