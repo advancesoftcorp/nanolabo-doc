@@ -59,11 +59,6 @@
 
     .. image:: /img/LicenseRegistrationGuidanceActivate.png
 
-#. "SUCCESS IN CREATING C2V"ダイアログが表示されたら、記載されているパスを控えたうえでOKボタンをクリックしてください。
-
-    .. note::
-
-          C2Vファイルの作成に失敗した場合は、ダイアログのリンクからAdmin Control Center (ACC)を開き、C2Vファイル(拡張子:c2v)をダウンロードしてください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccc2v`\ 以降の手順に従って設定を行ってください。
 
 #. "Activate Sentinel License"ダイアログが表示されたら、Entitlement Certificateに記載されているProduct Keyをテキストフィールドに入力してください。
 
@@ -73,21 +68,13 @@
 
     .. image:: /img/ActivateLicense.png
 
-#. "SUCCESS IN CREATING V2CP"ダイアログが表示されたら、OKボタンをクリックしてください。
-
-    .. note::
-
-          V2CPファイルの作成に失敗した場合は、ダイアログのリンクからEntitlement Management System (EMS)を開き、V2CPファイルをダウンロードしてください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccv2cp`\  以降の手順に従ってライセンスの設定を行ってください。EMSでは、先ほど控えたパスに生成されているnanolabo.c2vを使用してください。
-
-#. 自動でV2CPファイルがマシンに適用され、"SUCCESS IN APPLYING V2CP"ダイアログが表示されたら、OKボタンをクリックしてください。
-
-    .. note::
-
-          V2CPファイルの適用に失敗した場合は、ダイアログのリンクからAdmin Control Center (ACC)を開き、V2CPファイルを適用してください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccv2cpapply` \  以降の手順に従ってライセンスの設定を行ってください。ACCでは、先ほど控えたパスに生成されているnanolabo.v2cpを使用してください。
-
-#. V2CPファイルの適用に成功すると、NanoLaboの再起動を促すダイアログが表示されますので、Yesボタンをクリックしてください。
+#. "Sentinel License has been activated, successfully."というメッセージダイアログのOKボタンをクリックすると、NanoLaboの再起動を促すダイアログが表示されますので、Yesボタンをクリックしてください。
 
     .. image:: /img/Restart.png
+
+    .. note::
+
+          C2Vファイルの作成、V2CPファイルの作成またはV2CPファイルの適用に失敗したことを示すダイアログが表示された場合は、\ :ref:`licenseacc`\ の\ :ref:`licenseaccc2v`\ 以降の手順に従って設定を行ってください。いずれの内容でダイアログが表示された場合でも、\ :ref:`licenseaccc2v`\ の手順から再度始めることをお勧めします。
 
 #. NanoLaboを再起動後、左上のメニューから、再度 :menuselection:`License --> Authentication` を選択すると、"Select a Sentinel License Key"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
 
@@ -134,13 +121,11 @@ C2Vファイルの生成
 
     .. image:: /img/LicenseRegistrationGuidanceC2V.png
 
-#. "SUCCESS IN CREATING C2V"ダイアログが表示されたら、記載されているパスを控えたうえで、OKボタンをクリックしてください。
+#. "C2V file has been created, successfully."というメッセージダイアログのOKボタンをクリックすると、ファイルブラウザが起動されます。表示されているnanolabo.c2vファイルを、インターネットに接続しているマシンに移動してください。
 
     .. note::
 
-          C2Vファイルの作成に失敗した場合は、ダイアログのリンクからAdmin Control Center (ACC)を開き、C2Vファイル(拡張子:c2v)をダウンロードしてください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccc2v`\ 以降の手順に従ってライセンスの設定を行ってください。
-
-#. 先ほど控えたパスに作成されているnanolabo.c2vファイルを、インターネットに接続しているマシンに移動します。
+       C2Vファイルの作成に失敗したことを示すダイアログが表示された場合は、メッセージ中のリンクからAdmin Control Center (ACC)を開き、C2Vファイル(拡張子:c2v)をダウンロードしてください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccc2v`\ 以降の手順に従ってライセンスの設定を行ってください。
 
 .. _offlineEMS:
 
@@ -184,13 +169,13 @@ V2CPファイルの適用
 
     .. image:: /img/LicenseRegistrationGuidanceV2C.png
 
-#. "SUCCESS IN APPLYING V2CP"ダイアログが表示されたら、OKボタンをクリックしてください。
+#. ファイルブラウザが表示されたら、手前の手順でダウンロードしたV2CPファイルを選択します。
+
+#. "V2CP file has been applied, successfully."ダイアログが表示されたら、OKボタンをクリックしてください。NanoLaboの再起動を促すダイアログが表示されますので、Yesボタンをクリックしてください。
 
     .. note::
 
           V2CPファイルの適用に失敗した場合は、ダイアログのリンクからAdmin Control Center (ACC)を開き、V2CPファイルを適用してください。詳細は\ :ref:`licenseacc`\ > \ :ref:`licenseaccv2cpapply` \  を参照してください。
-
-#. V2CPファイルの適用に成功すると、NanoLaboの再起動を促すダイアログが表示されますので、Yesボタンをクリックしてください。
 
     .. image:: /img/Restart.png
 
