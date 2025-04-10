@@ -112,7 +112,7 @@
 C2Vファイルの生成
 +++++++++++++++++
 
-#. 初めに、NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択してください。
+#. NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択してください。
 
     .. image:: /img/LicenseInformation.png
 
