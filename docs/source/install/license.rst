@@ -171,16 +171,14 @@ V2CPファイルの生成
 
     .. note::
 
-        同一のV2CPファイルを圧縮して添付したメールが自動配信されますので、そちらをご利用いただくことも可能です。
+        同一のV2CPファイルを圧縮して添付したメールが自動配信されますので、そちらを解凍してご利用いただくことも可能です。
+
+#. ダウンロードしたV2CPファイルを、NanoLaboをインストールしたマシンに移動してください。
 
 V2CPファイルの適用
 +++++++++++++++++++
 
-#. ダウンロードしたV2CPファイルを、NanoLaboをインストールしたマシンに移動し、先ほどC2Vファイルが作成されたディレクトリに配置します。
-
-   このとき、必ず、V2CPファイルの名前をnanolabo.v2cpに変更してください。
-
-#. 次に、NanoLaboを再び起動し、先ほどと同様にして画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` からLicense Registration Guidance画面を開きます。
+#. NanoLaboを再び起動し、先ほどと同様にして画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` からLicense Registration Guidance画面を開きます。
 
 #. License Registration Guidance画面が表示されたら、"Apply V2CP file "nanolabo.v2cp" for this machine. (offline)"を選択し、OKボタンをクリックしてください。
 
@@ -273,16 +271,20 @@ V2CPファイルの生成
 
     .. image:: /img/EMSActivatedFingerprint.png
 
+    .. note::
+
+        同一のV2CPファイルを圧縮して添付したメールが自動配信されますので、そちらを解凍してご利用いただくことも可能です。
+
+    .. note::
+
+        NanoLaboをインストールしたマシンがオフラインの場合は、ダウンロードしたV2CPファイルをオフラインのマシンに移動してください。
+
 .. _licenseaccv2cpapply:
 
 V2CPファイルの適用
 +++++++++++++++++++
 
 #. ACCの画面に戻り、左側のメニューからUpdate/Attach画面を開きます。Select Fileボタンから、ダウンロードしたV2CPファイルを選択し、Apply Fileボタンをクリックしてください。
-
-    .. note::
-
-          NanoLaboをインストールしたマシンがオフラインの場合は、ダウンロードしたV2CPファイルをオフラインのマシンに移動したうえでACCにアクセスしてください。
 
     .. image:: /img/ACCApply.png
 
