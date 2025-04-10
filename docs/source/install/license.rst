@@ -250,6 +250,10 @@ V2CPファイルの生成
 
 #. Activate Products画面が開いたら、Select Fileボタンをクリックして、先ほどダウンロードしたC2Vファイルを選択し、Complete Activationボタンをクリックします。
 
+    .. warning::
+
+        ライセンスを更新する場合は、fingerprint_32462.c2vではなく、必ず、手前の手順でダウンロードしたC2Vファイル((KeyID)_(timestamp).c2v)を使用してください。
+
     .. image:: /img/EMSActivateProductsFingerprint.png
 
 #. アクティベーションに成功したら、Download Licenseをクリックして、V2CPファイル(拡張子:.v2cp)をダウンロードします。
