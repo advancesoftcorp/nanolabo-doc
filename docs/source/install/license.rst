@@ -339,7 +339,7 @@ V2CPファイルの適用
 
 - ライセンスの種類やバージョン等に関するダイアログが自動で表示される場合は、YesまたはCloseをクリックしてLicense Registration Guidanceを開いて下さい。 
 
-- 最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、NanoLaboを起動後、画面左上のメニューの :menuselection:`License --> Sentinel Settings --> Activate Automatically` を選択してください。
+- 最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、License Registration Guidanceは表示されません。代わりに、NanoLaboを起動後、画面左上のメニューの :menuselection:`License --> Sentinel Settings --> Activate Automatically` を選択してください。
 
 - NanoLaboの再起動後のキーの選択は必要ありません。
 
@@ -358,7 +358,7 @@ V2CPファイルの適用
 
 - ライセンスの種類やバージョン等に関するダイアログが自動で表示される場合は、YesまたはCloseをクリックしてLicense Registration Guidanceを開いて下さい。 
 
-- 最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、LIcense Registration Guidanceは表示されません。代わりに以下の操作を行ってください。
+- 最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、License Registration Guidanceは表示されません。代わりに以下の操作を行ってください。
 
     - C2Vファイルを作成するには、画面左上のメニューの :menuselection:`License --> Sentinel Settings --> Create C2V file` \ を選択してください。
 
