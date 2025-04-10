@@ -127,3 +127,5 @@ Advance/NanoLabo Toolのアンインストールが終わったら、同様にAd
    本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`C:\\Users\\ユーザ名\\.nanolabo` ）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。
 
    また、Java VMの設定は :file:`C:\\Users\\ユーザ名\\AppData\\Local\\VirtualStore` 内に保存される場合があります。
+
+.. NanoLaboのアンインストーラとSentinel RTEのアンインストーラを別にする場合は、Sentinel RTEのアンインストール方法を追記。
