@@ -126,7 +126,7 @@ C2Vファイルの生成
 
     .. note::
 
-          Yes（旧ライセンス(FlexNet)を使用）を選択した場合も、後からSentinelライセンスに切り替えることができます。詳細は\ :ref:`switchlicense`\ を確認してください
+          Yes（旧ライセンス(FlexNet)を使用）を選択した場合も、後からSentinelライセンスに切り替えることができます。詳細は\ :ref:`switchlicense`\ を確認してください。
 
 #. License Registration Guidance画面が表示されます。
 
@@ -296,7 +296,7 @@ V2CPファイルの適用
 
     .. note::
 
-          Yes（旧ライセンス(FlexNet)を使用）を選択した場合も、後からSentinelライセンスに切り替えることができます。詳細は\ :ref:`switchlicense`\ を確認してください
+          Yes（旧ライセンス(FlexNet)を使用）を選択した場合も、後からSentinelライセンスに切り替えることができます。詳細は\ :ref:`switchlicense`\ を確認してください。
 
 #. "Select a Sentinel License Key"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
 
