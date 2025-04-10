@@ -32,8 +32,6 @@
 
 .. image:: /img/install_summary.png
 
-.. Flexライセンスのライセンスの新規申し込みは受け付けないので、登録案内は削除
-
 .. %CommonProgramFiles(x86)%\\Aladdin Shared\\HASP\\ にhasplm.iniファイルを作成する画面の説明
 .. ここでhasplm.iniを作成しない場合でも、後からライセンスサーバーのIPアドレスを設定することは可能です。詳細はフローティングライセンスの節を参照してください。
 
