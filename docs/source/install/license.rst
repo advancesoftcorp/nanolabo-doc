@@ -49,7 +49,7 @@
 
           Yes（旧ライセンス(FlexNet)を使用）を選択した場合も、後からSentinelライセンスに切り替えることができます。詳細は\ :ref:`switchlicense`\ を確認してください。
 
-#. License Registration Guidance画面が表示されます。
+#. ライセンスエラーダイアログのOKボタンをクリックすると、License Registration Guidance画面が表示されます。
 
    "Activate your license automatically. (online) [recommended]"を選択して、OKボタンをクリックしてください。
 
@@ -128,7 +128,7 @@ C2Vファイルの生成
 
           Yes（旧ライセンス(FlexNet)を使用）を選択した場合も、後からSentinelライセンスに切り替えることができます。詳細は\ :ref:`switchlicense`\ を確認してください。
 
-#. License Registration Guidance画面が表示されます。
+#. ライセンスエラーダイアログのOKボタンをクリックすると、License Registration Guidance画面が表示されます。
 
    "Create C2V file "nanolabo.c2v" of this machine. (offline)"を選択し、OKボタンをクリックしてください。
 
