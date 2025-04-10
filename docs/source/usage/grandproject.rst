@@ -46,10 +46,7 @@ NeuralMD
 
  - NanoLaboのライセンスをご購入の際にまとめてNeuralMDのライセンスもご購入頂いた場合、別途ライセンスの設定を行う必要はありません。
 
- - NeuralMDを後から追加でご購入頂いた場合、ライセンスの設定が必要となります。
-  - NeuralMDのノードロックライセンスをご購入の場合 : NanoLaboをインストールしているマシンで、 `NeuralMDのドキュメント <https://neuralmd-doc.readthedocs.io/ja/latest/>`_ に従ってライセンスの設定を行ってください。
-  - NeuralMDのフローティングライセンスをご購入の場合 : ライセンスサーバーとして利用するマシンで、 `NeuralMDのドキュメント <https://neuralmd-doc.readthedocs.io/ja/latest/>`_ に従ってライセンスの設定を行ってください。
-    ライセンスサーバーとして利用するマシンにNanoLaboがインストールされていない場合は、NeuralMDをインストールしたうえでライセンスの設定を行ってください。
+ - NeuralMDを後から追加でご購入頂いた場合、ライセンスの設定が必要となります。 `NeuralMDのドキュメント <https://neuralmd-doc.readthedocs.io/ja/latest/>`_ に従ってライセンスの設定を行ってください。
 
 .. note::
 
