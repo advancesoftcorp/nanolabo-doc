@@ -89,7 +89,7 @@
 
     .. image:: /img/Restart.png
 
-#. NanoLaboを再起動後、左上のメニューから、再度 :menuselection:`License --> Authentication` を選択すると、"Select a license to login"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
+#. NanoLaboを再起動後、左上のメニューから、再度 :menuselection:`License --> Authentication` を選択すると、"Select a Sentinel License Key"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
 
     .. image:: /img/SelectLicenseDialog.png
 
@@ -201,7 +201,7 @@ V2CPファイルの適用
 ライセンスキーの選択
 +++++++++++++++++++++
 
-#. NanoLaboを再起動後、画面左上のメニュー |mainmenuicon| から、再度 :menuselection:`License --> Authentication` を選択すると、"Select a license to login"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
+#. NanoLaboを再起動後、画面左上のメニュー |mainmenuicon| から、再度 :menuselection:`License --> Authentication` を選択すると、"Select a Sentinel License Key"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
 
     .. image:: /img/SelectLicenseDialog.png
 
@@ -298,7 +298,7 @@ V2CPファイルの適用
 
           Yes（旧ライセンス(FlexNet)を使用）を選択した場合も、後からSentinelライセンスに切り替えることができます。詳細は\ :ref:`switchlicense`\ を確認してください
 
-#. "Select a license to login"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
+#. "Select a Sentinel License Key"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
 
     .. image:: /img/SelectLicenseDialog.png
 
@@ -392,7 +392,7 @@ V2CPファイルの適用
 
 - NanoLaboを使うクライアントマシン側
 
- NanoLaboをインストールして起動し、"Select a license to login"ダイアログで使用するライセンスキーを選択してください。一度選択したライセンスキーはデフォルトのキーとして登録されるため、それ以降の起動時に必要な操作はありません。
+ NanoLaboをインストールして起動し、"Select a Sentinel License Key"ダイアログで使用するライセンスキーを選択してください。一度選択したライセンスキーはデフォルトのキーとして登録されるため、それ以降の起動時に必要な操作はありません。
 
 .. note::
 
@@ -420,11 +420,11 @@ V2CPファイルの適用
 
 複数のライセンスキーをご購入いただいている場合には、それらの内のどれか一つにログインして、NanoLaboをご利用いただくことになります。ログインするライセンスキーを変更する場合は、以下の手順に従って下さい。
 
-画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Sentinel Settings --> Change License Key` を選択すると、"Select a license to login"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
+画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Sentinel Settings --> Change License Key` を選択すると、"Select a Sentinel License Key"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。
 
 .. note::
       
-      デフォルトで選択されているキーが期限切れなどで有効でない場合、ライセンスエラーを示すダイアログのSelect Keyボタンをクリックすると、"Select a license to login"ダイアログが表示されます。
+      デフォルトで選択されているキーが期限切れなどで有効でない場合、ライセンスエラーを示すダイアログのSelect Keyボタンをクリックすると、"Select a Sentinel License Key"ダイアログが表示されます。
 
 .. note::
       
