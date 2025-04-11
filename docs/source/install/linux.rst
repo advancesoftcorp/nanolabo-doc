@@ -45,9 +45,6 @@
 
 .. image:: /img/install_summary_l.png
 
-.. /etc/hasplm/にhasplm.iniファイルを作成する画面の説明
-.. ここでhasplm.iniを作成しない場合でも、後からライセンスサーバーのIPアドレスを設定することは可能です。詳細はフローティングライセンスの節を参照してください。
-
 最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。
 
 続けて、Advance/NanoLabo Toolのインストーラーを実行します。
@@ -147,5 +144,3 @@ Advance/NanoLabo Toolのアンインストールが終わったら、同様にAd
 .. note::
 
    本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` ）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。
-
-.. NanoLaboのアンインストーラとSentinel RTEのアンインストーラを別にする場合は、Sentinel RTEのアンインストール方法を追記。

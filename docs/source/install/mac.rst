@@ -11,17 +11,13 @@
 
 本ソフトウェアのインストールには、ディスクイメージファイルを使用します。ファイルは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。
 
-- Intel版：従来のマシンではこちらの2つをダウンロードしてください。
+ `Advance/NanoLabo (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-ARM.dmg>`_
 
- `Advance/NanoLabo (ver.3.0) Intel版 <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-Intel.dmg>`_
+ `Advance/NanoLabo Tool (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-ARM.dmg>`_
 
- `Advance/NanoLabo Tool (ver.3.0) Intel版 <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-Intel.dmg>`_
+また、ライセンス管理ソフトウェアとしてSentinel RTEを使用します。以下のリンクからインストーラーをダウンロードしてください。
 
-- ARM版：Apple M1搭載マシンではこちらの2つをダウンロードしてください。
-
- `Advance/NanoLabo (ver.3.0) ARM版 <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-ARM.dmg>`_
-
- `Advance/NanoLabo Tool (ver.3.0) ARM版 <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-ARM.dmg>`_
+ `Sentinel RTE <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v9.15_macOS.tar.gz>`_
 
 .. note::
 
@@ -50,8 +46,9 @@
    :width: 300 px
    :align: center
 
+続けて、Sentinel RTEをインストールします。ダウンロードしたファイルをダブルクリックして展開し、 :file:`SentinelRuntimeInstallerCLI` を実行してください。「開発元を検証できないため開けません。」の表示が出た場合は、 :kbd:`control` キーを押しながらクリックして開いてください。
 
-.. Macでは、インストール時に/etc/hasplm/にhasplm.iniファイルを作成しない予定
+画面の指示に従い、インストールを行ってください。
 
 .. _launchm:
 
@@ -143,6 +140,4 @@
 
 .. note::
 
-   ライセンス認証プログラムをアンインストールするには、ライセンス認証プログラムのインストーラと同じディレクトリにあるSentinel Runtime Uninstallを開きます。ダイアログの指示に従ってアンインストールを実行してください
-
-.. ライセンス認証プログラムのインストーラのディレクトリが固定の場合は、そのディレクトリを具体的に記述。
+   ライセンス認証プログラムをアンインストールするには、ライセンス認証プログラムのインストーラと同じディレクトリにあるSentinel Runtime Uninstallを開きます。ダイアログの指示に従ってアンインストールを実行してください。

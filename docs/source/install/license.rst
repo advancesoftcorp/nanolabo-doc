@@ -8,15 +8,24 @@
 
   以下の\ :ref:`licenseonline`\ または\ :ref:`licenseupdateonline`\ を参照してください。
 
+  .. image:: /img/license_online.svg
+     :height: 200 px
+
 - NanoLaboをインストールしたマシンがインターネットに接続されていない場合: 
 
   以下の\ :ref:`licenseoffline`\ または\ :ref:`licenseupdateoffline`\ を参照してください。
+
+  .. image:: /img/license_offline.svg
+     :height: 220 px
 
 - 上記の手順でライセンスの設定がうまくいかない場合:
 
   以下の\ :ref:`licenseacc`\ または\ :ref:`licenseupdateacc`\ を参照してください。 
 
 - フローティングライセンスをご購入の場合は\ :ref:`floating`\ も参照して設定を行ってください。
+
+  .. image:: /img/license_floating.svg
+     :height: 200 px
 
 .. note::
 
@@ -379,7 +388,19 @@ V2CPファイルの適用
 
 - ライセンスサーバーとして使うマシン側
 
- NanoLaboをインストールして、ライセンスの設定を行ってください。マシンの起動時に毎回自動でライセンスマネージャが起動するため、一度ライセンスの設定を行って以降は特に必要な操作はありません。
+ NanoLaboをインストールして、ライセンスの設定を行ってください。
+ 
+ - GUIが使えないマシンをライセンスサーバーとして使う場合、\ `Sentinel RTE（ライセンスマネージャー）をダウンロード <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v9.15_Linux.tar.gz>`_\ ・インストールし、ACCを利用してライセンスの設定を行ってください。
+ 
+    .. code-block:: console
+
+     tar -xf Sentinel-LDK-RTE-for-AdvanceSoft-v9.15_Linux.tar.gz
+     cd aksusbd-9.15.1
+     sudo ./dinst
+     # アンインストール時には、同フォルダのdunstを実行してください。
+     sudo ./dunst
+
+ マシンの起動時に毎回自動でライセンスマネージャが起動するため、一度ライセンスの設定を行って以降は特に必要な操作はありません。
 
 - NanoLaboを使うクライアントマシン側
 
