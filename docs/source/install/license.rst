@@ -422,7 +422,7 @@ V2CPファイルの適用
 
         - クライアントマシンから\ `Admin Control Center (ACC) <http://localhost:1947>`_\ にアクセスし、画面左側のメニューのConfigurationを選択してください。次に、Access to Remote License Managersタブを開いて、Remote License Search ParametersにライセンスサーバーのIPアドレスを入力し、Submitをクリックしてください。
     
-        - クライアントマシンに管理者権限が無いことでSentinel RTEをインストールできず、\ `ACC <http://localhost:1947>`_\ を利用できない場合は、クライアントマシンの以下のディレクトリにhasp_32462.iniファイルを作成し、ライセンスサーバーのIPアドレスを例を参考にして記述してください。
+        - クライアントマシンに管理者権限が無いことでSentinel RTEをインストールできず、\ `ACC <http://localhost:1947>`_\ を利用できない場合は、クライアントマシンの以下のディレクトリにhasp_32462.iniファイルを作成(既にある場合は編集)し、ライセンスサーバーのIPアドレスを例を参考にして記述(既にある場合は行を追加)してください。
   
           - Windowsの場合 : %LocalAppData%\\SafeNet Sentinel\\Sentinel LDK\\
 
