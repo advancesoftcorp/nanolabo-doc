@@ -115,6 +115,4 @@
 
 ライセンス契約後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りしますので、記載されているProduct Keyを用いてライセンスの設定を行ってください。
 
-NanoLaboをインストールするマシンがインターネットに接続されている場合は、\ :ref:`licenseonline`\ または\ :ref:`licenseupdateonline`\ を参照してください。
-
-NanoLaboをインストールするマシンがインターネットに接続されていない場合は、\ :ref:`licenseoffline`\ または\ :ref:`licenseupdateoffline`\ を参照してください。
+ライセンスの設定手順については\ :ref:`こちら <licensesetupdate>`\ を参照して下さい。

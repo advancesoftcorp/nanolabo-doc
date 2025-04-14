@@ -26,7 +26,7 @@ NanoLaboのインストール後またはバージョン3.1へのアップデー
 NanoLaboの画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Change to Sentinel` を選択してください。
 設定の変更を確認するダイアログのYesボタンをクリックすると、NanoLaboの再起動を促すダイアログが表示されます。
 Yesボタンをクリック、または手動でNanoLaboを再起動すれば、ライセンスの切り替えは完了です。
-以降のSentinelライセンスの設定方法は、\ :ref:`licenseset`\ を参照してください。
+以降のSentinelライセンスの設定方法は、\ :ref:`licensesetupdate`\ を参照してください。
 
 .. note:: 
 
