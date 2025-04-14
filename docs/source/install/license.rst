@@ -22,7 +22,7 @@
 
   以下の\ :ref:`licenseacc`\ または\ :ref:`licenseupdateacc`\ を参照してください。 
 
-- フローティングライセンスをご購入の場合は\ :ref:`floating`\ も参照して設定を行ってください。
+- フローティングライセンスをご購入の場合は\ :ref:`floating`\ を参照してから上記の手順を実行してください。
 
   .. image:: /img/license_floating.svg
      :height: 200 px
@@ -210,7 +210,7 @@ V2CPファイルの適用
 
 .. note::
 
-      通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの設定は完了し、Admin Control Center (ACC)へのアクセスは必要ありません。NanoLaboからのライセンスの設定が失敗する場合のみ、このセクションをご確認ください。
+      通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの設定は完了し、Admin Control Center (ACC)へのアクセスは必要ありません。NanoLaboからのライセンスの設定ができない場合のみ、このセクションをご確認ください。
 
 ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。 Entitlement Certificateに記載されているProduct Keyを用いてライセンスの設定を行います。
 
@@ -371,7 +371,7 @@ V2CPファイルの適用
 
 .. note::
 
-      通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの更新は完了し、ACCへのアクセスは必要ありません。NanoLaboからのライセンスの更新が失敗する場合のみ、ACCをご利用ください。
+      通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの更新は完了し、ACCへのアクセスは必要ありません。NanoLaboからのライセンスの更新ができない場合のみ、ACCをご利用ください。
 
 .. warning::
       
