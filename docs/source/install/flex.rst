@@ -30,7 +30,7 @@ Yesボタンをクリック、または手動でNanoLaboを再起動すれば、
 
 .. note:: 
 
-   NanoLaboを起動後すぐにライセンスエラーのダイアログが表示されてしまう場合は、その後に表示されるLicense Registration Guidanceの"Use Sentinel licensing mode (recommended)"にチェックを入れたうえで、\ :ref:`licenseonline`\ または\ :ref:`licenseoffline`\ の手順3以降に進むことでライセンスの切り替えおよび設定を行うことができます。
+   ライセンスエラーのダイアログが表示されてしまう場合は、その後に表示されるLicense Registration Guidanceの"Use Sentinel licensing mode (recommended)"にチェックを入れたうえで、\ :ref:`licenseonline`\ または\ :ref:`licenseoffline`\ の手順3以降に進むことでライセンスの切り替えおよび設定を行うことができます。ただし、フローティングライセンスのクライアントマシンでは手順3以降の操作は必要ありませんので、License Registration GuidanceのOKボタンを押した後に表示されるダイアログはそのまま閉じて、NanoLaboを再起動してください。
 
 Sentinelから旧ライセンスへの切り替え(非推奨)
 ++++++++++++++++++++++++++++++++++++++++++++++
