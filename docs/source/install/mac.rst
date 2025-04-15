@@ -15,7 +15,7 @@
 
  `Advance/NanoLabo Tool (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-ARM.dmg>`_
 
-また、ライセンス管理ソフトウェアとしてSentinel RTEを使用します。以下のリンクからインストーラーをダウンロードしてください。
+また、ライセンスマネージャーとしてSentinel RTEを使用します。以下のリンクからインストーラーをダウンロードしてください。
 
  `Sentinel RTE <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v9.15_macOS.tar.gz>`_
 
@@ -47,6 +47,10 @@
    :align: center
 
 続けて、Sentinel RTEをインストールします。ダウンロードしたファイルをダブルクリックして展開し、 :file:`SentinelRuntimeInstallerCLI` を実行してください。「開発元を検証できないため開けません。」の表示が出た場合は、 :kbd:`control` キーを押しながらクリックして開いてください。
+
+.. image:: /img/mac_sentinel.png
+   :width: 400 px
+   :align: center
 
 画面の指示に従い、インストールを行ってください。
 

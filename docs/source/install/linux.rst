@@ -30,7 +30,7 @@
 
 .. code-block:: console
 
- $ chmod +x install_nanolabo_linux.bin install_nanolabo_tool_linux.bin
+ $ chmod +x install_nanolabo_linux.bin
  $ ./install_nanolabo_linux.bin
 
 言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。
@@ -41,17 +41,25 @@
 
  書き込み権限のない場所にはインストールできません。インストール先として書き込み権限のある場所（ :file:`/home/ユーザー名/AdvanceSoft/NanoLabo` など）を指定するか、書き込み権限のあるユーザーでインストーラーを実行してください。
 
+- フローティングライセンスでクライアントとして使用する場合、Sentinel RTEをインストールしますか？でいいえを選択してください。ライセンスサーバーが異なるネットワークセグメントに存在する場合は、次の画面でライセンスサーバーのIPアドレスまたはホスト名を入力してください。
+
+  ここで指定しない場合でも、後からライセンスサーバーのIPアドレスを設定することは可能です。詳細は\ :ref:`floating`\ を参照してください。
+
+  .. image:: /img/install_license_server_l.png
+
 設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo Toolのインストールの際に必要になりますので、控えておいていただくようお願いします。
 
 .. image:: /img/install_summary_l.png
 
 最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。
 
-続けて、Advance/NanoLabo Toolのインストーラーを実行します。
+続けて、Advance/NanoLabo Toolのインストーラーを実行します。tar.gzファイルを展開し、 :file:`install.bin` を実行してください。
 
 .. code-block:: console
 
- $ ./install_nanolabo_tool_linux.bin
+ $ tar xf install_nanolabo_tool_linux.tar.gz
+ $ cd install_nanolabo_tool_linux
+ $ ./install.bin
 
 画面の指示に従い、インストールの設定を行ってください。インストール先として、Advance/NanoLaboと同じ場所を選択してください。
 

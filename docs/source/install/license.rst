@@ -130,11 +130,11 @@ C2Vファイルの生成
 
     .. image:: /img/LicenseRegistrationGuidanceC2V.png
 
-#. "C2V file has been created, successfully."というメッセージダイアログのOKボタンをクリックすると、ファイルブラウザが起動されます。表示されているnanolabo.c2vファイルを、インターネットに接続しているマシンに移動してください。
+#. "C2V file has been created, successfully."というメッセージダイアログのOKボタンをクリックすると、ファイルブラウザが起動されます。表示されている :file:`nanolabo.c2v` ファイルを、インターネットに接続しているマシンに移動してください。
 
     .. note::
 
-       C2Vファイルの作成に失敗したことを示すダイアログが表示された場合は、メッセージ中のリンクからAdmin Control Center (ACC)を開き、C2Vファイル(拡張子:c2v)をダウンロードしてください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccc2v`\ 以降の手順に従ってライセンスの設定を行ってください。
+       C2Vファイルの作成に失敗したことを示すダイアログが表示された場合は、メッセージ中のリンクからAdmin Control Center (ACC)を開き、C2Vファイル（拡張子:c2v）をダウンロードしてください。詳細は\ :ref:`licenseacc`\ を参照し、 \ :ref:`licenseaccc2v`\ 以降の手順に従ってライセンスの設定を行ってください。
 
 .. _offlineEMS:
 
@@ -151,11 +151,11 @@ V2CPファイルの生成
 
     .. image:: /img/EMSProducts.png
 
-#. Activate Products画面が開いたら、Select Fileボタンをクリックして、nanolabo.c2vを選択し、Complete Activationボタンをクリックします。
+#. Activate Products画面が開いたら、Select Fileボタンをクリックして、 :file:`nanolabo.c2v` を選択し、Complete Activationボタンをクリックします。
 
     .. image:: /img/EMSActivateProducts.png
 
-#. アクティベーションに成功したら、Download Licenseをクリックして、V2CPファイル(拡張子:.v2cp)をダウンロードします。
+#. アクティベーションに成功したら、Download Licenseをクリックして、V2CPファイル（拡張子:.v2cp）をダウンロードします。
 
     .. image:: /img/EMSActivated.png
 
@@ -176,7 +176,7 @@ V2CPファイルの適用
 
     .. note::
 
-        ダウンロードしたV2CPファイルがnanolabo.v2cpという名前でない場合もこちらの選択肢で問題ありません。
+        ダウンロードしたV2CPファイルが :file:`nanolabo.v2cp` という名前でない場合もこちらの選択肢で問題ありません。
 
 #. ファイルブラウザが表示されたら、手前の手順でダウンロードしたV2CPファイルを選択します。
 
@@ -225,15 +225,15 @@ C2Vファイルの生成
 
           NanoLaboの画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Sentinel Settings --> Admin Control Center` を選択することでも、ACCにアクセスできます。ただし、新規インストール時や、設定済みのライセンスの期限が切れているなどの場合は、起動後すぐにライセンスエラーで使用できなくなりますので、URLの直接入力をおすすめします。
 
-#. ACCのSentinel Keys画面のリストのうち、Vendorの欄に32462と記載されている行の、Fingerprintボタンをクリックして、C2Vファイル（fingerprint_32462.c2v）をダウンロードします。
+#. ACCのSentinel Keys画面のリストのうち、Vendorの欄に32462と記載されている行の、Fingerprintボタンをクリックして、C2Vファイル :file:`fingerprint_32462.c2v` をダウンロードします。
 
     .. note::
 
-          弊社の他の製品のキーがマシンに対して登録されている場合、Vendorの欄に32462と記載されている行にFingerprintボタンは表示されません。この場合は、弊社の他の製品のキーに表示されているC2Vボタンをクリックして、C2Vファイル（(KeyID)_(timestamp).c2v）をダウンロードしてください。
+          弊社の他の製品のキーがマシンに対して登録されている場合、Vendorの欄に32462と記載されている行にFingerprintボタンは表示されません。この場合は、弊社の他の製品のキーに表示されているC2Vボタンをクリックして、C2Vファイル :file:`(KeyID)_(timestamp).c2v` をダウンロードしてください。
 
     .. note::
 
-          ライセンスを更新する場合は、更新を適用するライセンスキーに表示されているC2Vボタンをクリックして、C2Vファイル（(KeyID)_(timestamp).c2v）をダウンロードしてください。
+          ライセンスを更新する場合は、更新を適用するライセンスキーに表示されているC2Vボタンをクリックして、C2Vファイル :file:`(KeyID)_(timestamp).c2v` をダウンロードしてください。
 
     .. image:: /img/ACCSentinelKeys.png
 
@@ -261,11 +261,11 @@ V2CPファイルの生成
 
     .. warning::
 
-        ライセンスを更新する場合は、fingerprint_32462.c2vではなく、必ず、手前の手順でダウンロードしたC2Vファイル((KeyID)_(timestamp).c2v)を使用してください。
+        ライセンスを更新する場合は、 :file:`fingerprint_32462.c2v` ではなく、必ず、手前の手順でダウンロードしたC2Vファイル :file:`(KeyID)_(timestamp).c2v` を使用してください。
 
     .. image:: /img/EMSActivateProductsFingerprint.png
 
-#. アクティベーションに成功したら、Download Licenseをクリックして、V2CPファイル(拡張子:.v2cp)をダウンロードします。
+#. アクティベーションに成功したら、Download Licenseをクリックして、V2CPファイル（拡張子:.v2cp）をダウンロードします。
 
     .. image:: /img/EMSActivatedFingerprint.png
 
@@ -328,8 +328,8 @@ V2CPファイルの適用
 
 .. _licenseupdateonline:
 
-ライセンスの更新(オンライン)
------------------------------
+ライセンスの更新（オンライン）
+--------------------------------
 
 .. warning::
       
@@ -343,8 +343,8 @@ V2CPファイルの適用
 
 .. _licenseupdateoffline:
 
-ライセンスの更新(オフライン)
------------------------------
+ライセンスの更新（オフライン）
+--------------------------------
 
 .. warning::
       
@@ -366,8 +366,8 @@ V2CPファイルの適用
 
 .. _licenseupdateacc:
   
-ライセンスの更新(ACCを利用)
------------------------------
+ライセンスの更新（ACCを利用）
+--------------------------------
 
 .. note::
 
@@ -394,9 +394,9 @@ V2CPファイルの適用
 - ライセンスサーバーとして使うマシン側
 
  NanoLaboをインストールして、ライセンスの設定を行ってください。
- 
- - GUIが使えないマシンをライセンスサーバーとして使う場合、\ `Sentinel RTE（ライセンスマネージャー）をダウンロード <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v9.15_Linux.tar.gz>`_\ ・インストールし、ACCを利用してライセンスの設定を行ってください。
- 
+
+ - GUIが使えないマシンをライセンスサーバーとして使う場合、NanoLaboインストーラーは使わず、\ `Sentinel RTE（ライセンスマネージャー）をダウンロード <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v9.15_Linux.tar.gz>`_\ ・インストールしてください。
+
     .. code-block:: console
 
      tar -xf Sentinel-LDK-RTE-for-AdvanceSoft-v9.15_Linux.tar.gz
@@ -405,7 +405,25 @@ V2CPファイルの適用
      # アンインストール時には、同フォルダのdunstを実行してください。
      sudo ./dunst
 
- マシンの起動時に毎回自動でライセンスマネージャが起動するため、一度ライセンスの設定を行って以降は特に必要な操作はありません。
+   インストール後、 :file:`/etc/hasplm/hasplm.ini` を作成（既にある場合は編集）し、以下の例を参考にして設定を記述してください。
+
+    .. table::
+
+     +-------------------------------------------------------------------------------------------+
+     |GUIアプリケーションを使用可能なPCのIPアドレスが192.168.00.000の場合                        |
+     +===========================================================================================+
+     || [SERVER]                                                                                 |
+     || accremote = 1                                                                            |
+     || [ACCESS]                                                                                 |
+     || allow = 192.168.00.000                                                                   |
+     || deny = all                                                                               |
+     +-------------------------------------------------------------------------------------------+
+
+   以上の設定を行うと、allow行にIPアドレスを指定したPCのウェブブラウザのアドレス欄に http://<NeuralMDをインストールしているマシンのIPアドレス>:1947 と入力することで、NeuralMDをインストールしているマシンのACCにアクセスできます。
+
+   ACCを利用してライセンスの設定を行ってください。
+
+ マシンの起動時に毎回自動でライセンスマネージャーが起動するため、一度ライセンスの設定を行って以降は特に必要な操作はありません。
 
 - NanoLaboを使うクライアントマシン側
 
@@ -422,16 +440,16 @@ V2CPファイルの適用
 
         - クライアントマシンから\ `Admin Control Center (ACC) <http://localhost:1947>`_\ にアクセスし、画面左側のメニューのConfigurationを選択してください。次に、Access to Remote License Managersタブを開いて、Remote License Search ParametersにライセンスサーバーのIPアドレスを入力し、Submitをクリックしてください。
     
-        - クライアントマシンに管理者権限が無いことでSentinel RTEをインストールできず、\ `ACC <http://localhost:1947>`_\ を利用できない場合は、クライアントマシンの以下のディレクトリにhasp_32462.iniファイルを作成(既にある場合は編集)し、ライセンスサーバーのIPアドレスを例を参考にして記述(既にある場合は行を追加)してください。
+        - クライアントマシンに管理者権限が無いことでSentinel RTEをインストールできず、\ `ACC <http://localhost:1947>`_\ を利用できない場合は、クライアントマシンの以下のディレクトリに :file:`hasp_32462.ini` ファイルを作成（既にある場合は編集）し、ライセンスサーバーのIPアドレスを例を参考にして記述（既にある場合は行を追加）してください。
   
-          - Windowsの場合 : %LocalAppData%\\SafeNet Sentinel\\Sentinel LDK\\
+          - Windowsの場合 : :file:`%LocalAppData%\\SafeNet Sentinel\\Sentinel LDK\\`
 
-          - Linuxの場合 : $HOME/.hasplm/
+          - Linuxの場合 : :file:`$HOME/.hasplm/`
   
             .. table::
 
               +-------------------------------------------------------------------------------------------+
-              |IPアドレスが192.168.00.000の場合　　　　　　　　　　　　　　　　　　                       |
+              |IPアドレスが192.168.00.000の場合                                                           |
               +===========================================================================================+
               || serveraddr = 192.168.00.000                                                              |
               +-------------------------------------------------------------------------------------------+
