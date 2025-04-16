@@ -19,7 +19,7 @@ Python環境の準備
 
      Python環境としてcondaを使用します。現在condaをお使いでない場合は、必要最小限の構成であるMinicondaを推奨します。
 
-     `Minicondaのページ <https://docs.conda.io/en/latest/miniconda.html>`_\ からPython 3.11のインストーラーをダウンロードし、インストールしてください。
+     `Minicondaのページ <https://docs.conda.io/en/latest/miniconda.html>`_\ から **Python 3.11** のインストーラーをダウンロードし、インストールしてください。
 
      Windowsで環境変数 :envvar:`PATH` を変更しない設定でインストールした場合、以降の作業はスタートメニューからAnaconda Promptを起動して行ってください。
 
