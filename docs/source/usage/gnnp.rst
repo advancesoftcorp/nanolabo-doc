@@ -453,9 +453,9 @@ LAMMPSから :file:`gnnp_driver.py` を呼び出すことで動作しますの�
   ||                   || EquiformerV2-31M-MP\ :sup:`**`, EquiformerV2-DeNS-31M-MP\ :sup:`**`, EquiformerV2-DeNS-86M-MP\ :sup:`**`, EquiformerV2-DeNS-153M-MP\ :sup:`**`   |
   +--------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
 
- \*: :file:`gnnp_driver.pyのあるフォルダ/mace-osaka24` にあるモデルファイルを読み込みます。
+ `*`:sup :file:`gnnp_driver.pyのあるフォルダ/mace-osaka24` にあるモデルファイルを読み込みます。
 
- \**: :file:`gnnp_driver.pyのあるフォルダ/fairchem-omat24` にあるモデルファイルを読み込みます。ファイルの入手にはHugging Faceのアカウント作成と使用条件への同意が必要です。\ `fairchem/OMAT24 <https://huggingface.co/fairchem/OMAT24>`__\ を参照してください。
+ `**`:sup: :file:`gnnp_driver.pyのあるフォルダ/fairchem-omat24` にあるモデルファイルを読み込みます。ファイルの入手にはHugging Faceのアカウント作成と使用条件への同意が必要です。\ `fairchem/OMAT24 <https://huggingface.co/fairchem/OMAT24>`__\ を参照してください。
 
 .. hint::
 
