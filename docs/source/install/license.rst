@@ -364,9 +364,9 @@ V2CPファイルの適用
 
 - 最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、License Registration Guidanceは表示されません。代わりに以下の操作を行ってください。
 
-    - C2Vファイルを作成するには、画面左上のメニューの :menuselection:`License --> Sentinel Settings --> Create C2V file` \ を選択してください。
+ - C2Vファイルを作成するには、画面左上のメニューの :menuselection:`License --> Sentinel Settings --> Create C2V file` \ を選択してください。
 
-    - V2CPファイルを適用するには、画面左上のメニューの :menuselection:`License --> Sentinel Settings --> Apply V2CP file` \ を選択してください。
+ - V2CPファイルを適用するには、画面左上のメニューの :menuselection:`License --> Sentinel Settings --> Apply V2CP file` \ を選択してください。
 
 - NanoLaboの再起動後のライセンスキーの選択は必要ありません。
 
