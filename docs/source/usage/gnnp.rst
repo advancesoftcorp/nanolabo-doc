@@ -19,7 +19,7 @@ Python環境の準備
 
      Python環境としてcondaを使用します。現在condaをお使いでない場合は、必要最小限の構成であるMinicondaを推奨します。
 
-     `Minicondaのページ <https://docs.conda.io/en/latest/miniconda.html>`_\ からPython 3.11のインストーラーをダウンロードし、インストールしてください。
+     `Minicondaのページ <https://docs.conda.io/en/latest/miniconda.html>`_\ から **Python 3.11** のインストーラーをダウンロードし、インストールしてください。
 
      Windowsで環境変数 :envvar:`PATH` を変更しない設定でインストールした場合、以降の作業はスタートメニューからAnaconda Promptを起動して行ってください。
 
@@ -453,9 +453,9 @@ LAMMPSから :file:`gnnp_driver.py` を呼び出すことで動作しますの�
   ||                   || EquiformerV2-31M-MP\ :sup:`**`, EquiformerV2-DeNS-31M-MP\ :sup:`**`, EquiformerV2-DeNS-86M-MP\ :sup:`**`, EquiformerV2-DeNS-153M-MP\ :sup:`**`   |
   +--------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
 
- \*: :file:`gnnp_driver.pyのあるフォルダ/mace-osaka24` にあるモデルファイルを読み込みます。
+ `*`:sup :file:`gnnp_driver.pyのあるフォルダ/mace-osaka24` にあるモデルファイルを読み込みます。
 
- \**: :file:`gnnp_driver.pyのあるフォルダ/fairchem-omat24` にあるモデルファイルを読み込みます。ファイルの入手にはHugging Faceのアカウント作成と使用条件への同意が必要です。\ `fairchem/OMAT24 <https://huggingface.co/fairchem/OMAT24>`__\ を参照してください。
+ `**`:sup: :file:`gnnp_driver.pyのあるフォルダ/fairchem-omat24` にあるモデルファイルを読み込みます。ファイルの入手にはHugging Faceのアカウント作成と使用条件への同意が必要です。\ `fairchem/OMAT24 <https://huggingface.co/fairchem/OMAT24>`__\ を参照してください。
 
 .. hint::
 
