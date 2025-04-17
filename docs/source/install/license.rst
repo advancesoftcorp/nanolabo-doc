@@ -219,11 +219,15 @@ V2CPファイルの適用
 C2Vファイルの生成
 +++++++++++++++++
 
-#. まず、NanoLaboをインストールしているマシンから\ `Admin Control Center (ACC) <http://localhost:1947>`_\ にアクセスしてください。ウェブブラウザのアドレス欄に http://localhost:1947 と入力することでもACCにアクセスできます。また、ACCはオフラインのマシンからもアクセス可能です。
+#. NanoLaboをインストールしているマシンのウェブブラウザで、Admin Control Center (ACC) (http://localhost:1947) にアクセスしてください。ACCはオフラインのマシンからもアクセス可能です。
 
     .. note::
 
+          フローティングライセンスをご利用の場合は、ライセンスサーバーのウェブブラウザでACC (http://localhost:1947) にアクセスしてください。
 
+    .. note::
+
+          ウェブブラウザが使用できない場合は、\ :ref:`floating`\ を参照してリモートのACCへのアクセス設定を行った上で、別のマシンからACCにアクセスしてください。
 
 #. ACCのSentinel Keys画面のリストのうち、Vendorの欄に32462と記載されている行の、Fingerprintボタンをクリックして、C2Vファイル :file:`fingerprint_32462.c2v` をダウンロードします。
 
@@ -451,9 +455,7 @@ V2CPファイルの適用
 
       - クライアントマシンにライセンスサーバーのIPアドレスを設定します。
 
-        - クライアントマシンの\ `Admin Control Center (ACC) <http://localhost:1947>`_\ にアクセスし、画面左側のメニューのConfigurationを選択してください。次に、Access to Remote License Managersタブを開いて、Remote License Search ParametersにライセンスサーバーのIPアドレスを入力し、Submitをクリックしてください。
-    
-        - クライアントマシンに管理者権限が無いことでSentinel RTEをインストールできず、\ `ACC <http://localhost:1947>`_\ を利用できない場合は、クライアントマシンの以下のディレクトリに :file:`hasp_32462.ini` ファイルを作成（既にある場合は編集）し、ライセンスサーバーのIPアドレスを例を参考にして記述（既にある場合は行を追加）してください。
+        - クライアントマシンの以下のディレクトリに :file:`hasp_32462.ini` ファイルを作成（既にある場合は編集）し、ライセンスサーバーのIPアドレスを例を参考にして記述（既にある場合は行を追加）してください。
   
           - Windowsの場合 : :file:`%LocalAppData%\\SafeNet Sentinel\\Sentinel LDK\\`
 
@@ -475,11 +477,11 @@ V2CPファイルの適用
 
 画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択すると、現在選択されているキーのIDなどの情報を確認できます。
 
-より詳細な情報は\ `ACC <http://localhost:1947>`_\ でもご確認いただけます。
+より詳細な情報はAdmin Control Center (ACC)でご確認いただけます。
 
 .. note::
 
-        NanoLaboの画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Sentinel Settings --> Admin Control Center` からもACCにアクセスできます。
+        ローカルのACCにはNanoLaboの画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Sentinel Settings --> Admin Control Center` からもアクセスできます。
 
 選択されているキーが期限切れなどで有効でない場合、ライセンスエラーを示すダイアログに選択されているキーのIDが表示されます。
 
