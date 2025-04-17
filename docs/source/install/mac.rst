@@ -17,7 +17,7 @@
 
 また、ライセンスマネージャーとしてSentinel RTEを使用します。以下のリンクからインストーラーをダウンロードしてください。
 
- `Sentinel RTE <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v9.15_macOS.tar.gz>`_
+ `Sentinel RTE <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v10.13.1_macOS.tar>`_
 
 .. note::
 
