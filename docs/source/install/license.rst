@@ -223,7 +223,7 @@ C2Vファイルの生成
 
     .. note::
 
-          NanoLaboの画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Sentinel Settings --> Admin Control Center` を選択することでも、ACCにアクセスできます。ただし、新規インストール時や、設定済みのライセンスの期限が切れているなどの場合は、起動後すぐにライセンスエラーで使用できなくなりますので、URLの直接入力をおすすめします。
+
 
 #. ACCのSentinel Keys画面のリストのうち、Vendorの欄に32462と記載されている行の、Fingerprintボタンをクリックして、C2Vファイル :file:`fingerprint_32462.c2v` をダウンロードします。
 
@@ -474,6 +474,10 @@ V2CPファイルの適用
 画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択すると、現在選択されているキーのIDなどの情報を確認できます。
 
 より詳細な情報は\ `ACC <http://localhost:1947>`_\ でもご確認いただけます。
+
+.. note::
+
+        NanoLaboの画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Sentinel Settings --> Admin Control Center` からもACCにアクセスできます。
 
 選択されているキーが期限切れなどで有効でない場合、ライセンスエラーを示すダイアログに選択されているキーのIDが表示されます。
 
