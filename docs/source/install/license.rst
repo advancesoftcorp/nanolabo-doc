@@ -42,7 +42,7 @@
 ------------------------------
 ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。Entitlement Certificateに記載されているProduct Keyを用いてライセンスの設定を行います。
 
-#. 初めに、NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択してください。
+#. NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択してください。
 
     .. image:: /img/LicenseInformation.png
 
@@ -210,7 +210,7 @@ V2CPファイルの適用
 
 .. note::
 
-      通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの設定は完了し、Admin Control Center (ACC)へのアクセスは必要ありません。NanoLaboからのライセンスの設定ができない場合のみ、このセクションをご確認ください。
+      通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの設定は完了し、Admin Control Center (ACC)へのアクセスは必要ありません。NanoLaboからのライセンス設定ができない場合のみ、このセクションをご確認ください。
 
 ライセンス登録後、noreply\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。 Entitlement Certificateに記載されているProduct Keyを用いてライセンスの設定を行います。
 
@@ -246,8 +246,7 @@ V2CPファイルの生成
 
     .. note::
 
-          NanoLaboをインストールしたマシンがオフラインの場合は、ダウンロードしたC2Vファイルをオンラインの別のマシンに移動したうえで\ `EMS <https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\ にアクセスしてください。
-
+          C2Vファイルをダウンロードしたマシンがオフラインの場合は、C2Vファイルをオンラインの別のマシンに移動したうえで\ `EMS <https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\ にアクセスしてください。
 
 #. "Product Key ID"の入力欄に、Entitlement Certificateに記載されている"Product Key"を入力してログインボタンをクリックしてください。
 
@@ -273,9 +272,7 @@ V2CPファイルの生成
 
         同一のV2CPファイルを圧縮して添付したメールが自動配信されますので、そちらを解凍してご利用いただくことも可能です。
 
-    .. note::
-
-        NanoLaboをインストールしたマシンがオフラインの場合は、ダウンロードしたV2CPファイルをオフラインのマシンに移動してください。
+#. ノードロックライセンスでNanoLaboを使用するマシン、またはフローティングライセンスでライセンスサーバーとして使用するマシンの任意のディレクトリに、ダウンロードしたV2CPファイルを格納してください。
 
 .. _licenseaccv2cpapply:
 
@@ -286,7 +283,12 @@ V2CPファイルの適用
 
     .. image:: /img/ACCApply.png
 
-#. V2CPファイルのApplyに成功したら、NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択してください。
+#. "Your update was applied successfully."と表示されれば、ライセンスキーが有効となります。
+
+ライセンスキーの選択
++++++++++++++++++++++
+
+#. NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` を選択してください。
 
     .. image:: /img/LicenseInformation.png
 
@@ -371,7 +373,7 @@ V2CPファイルの適用
 
 .. note::
 
-      通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの更新は完了し、ACCへのアクセスは必要ありません。NanoLaboからのライセンスの更新ができない場合のみ、ACCをご利用ください。
+      通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの更新は完了し、ACCへのアクセスは必要ありません。NanoLaboからのライセンス更新ができない場合のみ、ACCをご利用ください。
 
 .. warning::
       
@@ -449,7 +451,7 @@ V2CPファイルの適用
 
       - クライアントマシンにライセンスサーバーのIPアドレスを設定します。
 
-        - クライアントマシンから\ `Admin Control Center (ACC) <http://localhost:1947>`_\ にアクセスし、画面左側のメニューのConfigurationを選択してください。次に、Access to Remote License Managersタブを開いて、Remote License Search ParametersにライセンスサーバーのIPアドレスを入力し、Submitをクリックしてください。
+        - クライアントマシンの\ `Admin Control Center (ACC) <http://localhost:1947>`_\ にアクセスし、画面左側のメニューのConfigurationを選択してください。次に、Access to Remote License Managersタブを開いて、Remote License Search ParametersにライセンスサーバーのIPアドレスを入力し、Submitをクリックしてください。
     
         - クライアントマシンに管理者権限が無いことでSentinel RTEをインストールできず、\ `ACC <http://localhost:1947>`_\ を利用できない場合は、クライアントマシンの以下のディレクトリに :file:`hasp_32462.ini` ファイルを作成（既にある場合は編集）し、ライセンスサーバーのIPアドレスを例を参考にして記述（既にある場合は行を追加）してください。
   
