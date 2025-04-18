@@ -11,7 +11,6 @@
    - QE: DOS・Bandのバンドギャップの自動計算（プロットに表示を追加）
    - LAMMPS: 各種オープンソースGNN力場への対応を追加（FAIR-Chem(eqV2)、ORB、MatterSim、MACE、SevenNet新モデル）
    - ThreeBodyTB v1.0.0に対応
-   - ChatbotにNeuralMDに関する情報を学習させた
 
  - 変更・修正
 

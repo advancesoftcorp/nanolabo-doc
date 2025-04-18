@@ -92,7 +92,7 @@ LAMMPSからPythonを呼び出して実行するため、事前にPython環境�
 
    Python環境の設定方法<gnnp>
 
-:guilabel:`Model` には同梱されている学習済みモデルが表示されます。また、画面左上のアイコン |mainmenuicon| から :menuselection:`Import --> Import CHGNet model` でモデルをインポートできます。
+:guilabel:`Model` には同梱されている学習済みモデルが表示されます。また、画面左上のアイコン |mainmenuicon| から :menuselection:`Import --> Import GNNP model` でモデルをインポートできます。
 
 .. |info| image:: /img/info.png
 
@@ -106,9 +106,6 @@ SevenNet
 SevenNetに対応したLAMMPSの実行ファイルはNanoLaboに同梱されておりません。リポジトリの説明に従ってリモートサーバー上に実行環境を用意し、実行ファイルを :file:`lammps_sevennet` というファイル名で用意してください。必要に応じ、\ :guilabel:`Job Script`\ 設定画面で :envvar:`PATH` を設定してください。
 
 :guilabel:`Model` にはSevenNetに同梱されている学習済みモデルが表示されます。また、画面左上のアイコン |mainmenuicon| から :menuselection:`Import --> Import SevenNet model` でモデルをインポートできます。
-
-- SevenNet-0_serial: 応力の出力が可能です。
-- SevenNet-0_parallel: マルチGPUでの実行が可能です。圧力の計算はできません（不正確になります）。
 
 .. _scheme:
 
