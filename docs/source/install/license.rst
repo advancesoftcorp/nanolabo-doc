@@ -31,6 +31,12 @@
   .. image:: /img/license_floating.svg
      :height: 200 px
 
+ .. warning::
+
+     フローティングライセンスをご購入で、macOSをクライアントマシンとして利用する場合、クライアントマシン上でProduct Keyを用いたライセンスの設定を実行しないようご注意ください。
+
+     Product Keyを用いたライセンスの設定は、ライセンスサーバー上のNanoLaboまたはACCを利用して実行してください。
+
 .. _licenseset:
 
 ライセンスの設定
