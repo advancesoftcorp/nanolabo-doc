@@ -501,7 +501,7 @@ V2CPファイルの適用
 
         ローカルのACCにはNanoLaboの画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Sentinel Settings --> Admin Control Center` からもアクセスできます。
 
-選択されているキーが期限切れなどで有効でない場合、ライセンスエラーを示すダイアログに選択されているキーのIDが表示されます。
+選択されているキーが期限切れなどで有効でない場合、ライセンスエラーを示すダイアログに、選択されているキーのIDが表示されます。
 
 .. _changelicense:
 
