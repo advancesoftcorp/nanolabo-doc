@@ -11,6 +11,7 @@
    - QE: DOS・Bandのバンドギャップの自動計算（プロットに表示を追加）
    - LAMMPS: 各種オープンソースGNN力場への対応を追加（FAIR-Chem(eqV2)、ORB、MatterSim、MACE、SevenNet新モデル）
    - ThreeBodyTB v1.0.0に対応
+   - QE: |Gamma|\ -Trickの使用有無を切り替えるオプションを追加
 
  - 変更・修正
 
@@ -32,6 +33,7 @@
    - 内蔵ウェブブラウザーで証明書検証時に不要なエラーメッセージが出る問題を修正
    - QE: 等値面の描画が曲率により欠ける場合がある問題を修正
    - QE: 原子数1000以上の構造最適化・第一原理MDの出力読み込みに対応
+   - QE: |Gamma|\ 点のみでSCF計算を実行していた場合、その後のDOS・Band計算時にSCFの再計算を実行しないよう変更
    - LAMMPS: Improper読み込みの不具合を修正
    - LAMMPS: GNN力場で使用するDFT-D3補正のパッケージをtorch_dftd3に変更
    - LAMMPS: GNN力場の開発プロジェクト移行に伴い旧バージョン（従来版M3GNet、Open Catalyst Project）を廃止
