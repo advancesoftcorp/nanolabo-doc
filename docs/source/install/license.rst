@@ -411,7 +411,7 @@ V2CPファイルの適用
  NanoLaboをインストールして、ライセンスの設定を行ってください。マシンの起動時に毎回自動でライセンスマネージャーが起動するため、一度ライセンスの設定を行って以降は特に必要な操作はありません。
 
  .. note::
-    GUIが使えないマシンをライセンスサーバーとして使う場合、NanoLaboインストーラーは使わず、\ `Sentinel RTE（ライセンスマネージャー）をダウンロード <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v10.13.1_Linux.tar.gz>`_\ ・インストールしてください。
+    GUIが使えないマシンをライセンスサーバーとして使う場合、NanoLaboインストーラーは使わず、\ `Sentinel-LDK-RTE（ライセンスマネージャー）をダウンロード <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v10.13.1_Linux.tar.gz>`_\ ・インストールしてください。
 
     .. code-block:: console
 

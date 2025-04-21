@@ -9,11 +9,19 @@
 インストールの準備
 ==============================
 
-本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。
+本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは3つに分かれています。それぞれ以下のリンクからダウンロードしてください。
+
+- 本体
 
  `Advance/NanoLabo (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_windows_v3.0.exe>`_
 
+- オープンソースの計算エンジン等
+
  `Advance/NanoLabo Tool (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_windows_v3.0.exe>`_
+
+- 追加のGNN力場モデルファイル（FAIR-ChemまたはSevenNetを使う場合のみ）
+
+ `Advance/NanoLabo GNNP (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_windows_v3.0.exe>`_
 
 .. note::
 
@@ -30,7 +38,7 @@
 
 画面の指示に従い、インストールの設定を行ってください。
 
-- フローティングライセンスでクライアントとして使用する場合、Sentinel RTEをインストールしますか？でいいえを選択してください。
+- フローティングライセンスでクライアントとして使用する場合、Sentinel-LDK-RTEをインストールしますか？でいいえを選択してください。
 
   ライセンスサーバーが異なるネットワークセグメントに存在する場合は、次の画面でライセンスサーバーのIPアドレスまたはホスト名を入力してください。ここで指定しない場合でも、後からライセンスサーバーのIPアドレスまたはホスト名を設定することは可能です。詳細は\ :ref:`floating`\ を参照してください。
 
@@ -42,13 +50,15 @@
 
 最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。
 
-続けて、Advance/NanoLabo Toolのインストーラーを実行します。zipファイルを展開し、 :file:`install.exe` を実行してください。
+続けて、Advance/NanoLabo Toolのインストーラーを実行します。
 
 画面の指示に従い、インストールの設定を行ってください。インストール先として、Advance/NanoLaboと同じ場所を選択してください。
 
 .. image:: /img/install_tool.png
 
 インストール後、最後の画面で完了をクリックすると、Advance/NanoLabo Toolのインストールが終了します。
+
+FAIR-ChemまたはSevenNetを使う場合は、Advance/NanoLabo GNNPも同様にインストールしてください。
 
 .. _launchw:
 
@@ -119,7 +129,7 @@
 
 画面の指示に従い、アンインストールを行ってください。
 
-Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。
+Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLabo GNNP、Advance/NanoLaboをアンインストールしてください。
 
 .. note::
 
@@ -133,4 +143,4 @@ Advance/NanoLabo Toolのアンインストールが終わったら、同様にAd
 
 .. note::
 
-   Sentinel RTEは"Thales Sentinel LDK Run-time Environment"という名前でインストールされます。後からアンインストールする場合はそちらをアンインストールしてください。
+   Sentinel-LDK-RTEは"Thales Sentinel LDK Run-time Environment"という名前でインストールされます。後からアンインストールする場合はそちらをアンインストールしてください。

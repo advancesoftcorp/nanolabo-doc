@@ -7,6 +7,9 @@
 アドバンスソフト株式会社
  https://www.advancesoft.jp/
 
+Sentinel-LDK-RTEドキュメント
+ https://apps.advancesoft.jp/sentinel/doc/index.html
+
 Advance/NanoLabo
 ================
 

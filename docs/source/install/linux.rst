@@ -9,11 +9,19 @@
 インストールの準備
 ==============================
 
-本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。
+本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは3つに分かれています。それぞれ以下のリンクからダウンロードしてください。
+
+- 本体
 
  `Advance/NanoLabo (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_linux_v3.0.bin>`_
 
+- オープンソースの計算エンジン等
+
  `Advance/NanoLabo Tool (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_linux_v3.0.bin>`_
+
+- 追加のGNN力場モデルファイル（FAIR-ChemまたはSevenNetを使う場合のみ）
+
+ `Advance/NanoLabo GNNP (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_windows_v3.0.exe>`_
 
 .. note::
 
@@ -41,7 +49,7 @@
 
  書き込み権限のない場所にはインストールできません。インストール先として書き込み権限のある場所（ :file:`/home/ユーザー名/AdvanceSoft/NanoLabo` など）を指定するか、書き込み権限のあるユーザーでインストーラーを実行してください。
 
-- フローティングライセンスでクライアントとして使用する場合、Sentinel RTEをインストールしますか？でいいえを選択してください。
+- フローティングライセンスでクライアントとして使用する場合、Sentinel-LDK-RTEをインストールしますか？でいいえを選択してください。
 
   ライセンスサーバーが異なるネットワークセグメントに存在する場合は、次の画面でライセンスサーバーのIPアドレスまたはホスト名を入力してください。ここで指定しない場合でも、後からライセンスサーバーのIPアドレスまたはホスト名を設定することは可能です。詳細は\ :ref:`floating`\ を参照してください。
 
@@ -53,19 +61,20 @@
 
 最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。
 
-続けて、Advance/NanoLabo Toolのインストーラーを実行します。tar.gzファイルを展開し、 :file:`install.bin` を実行してください。
+続けて、Advance/NanoLabo Toolのインストーラーを実行します。
 
 .. code-block:: console
 
- $ tar xf install_nanolabo_tool_linux.tar.gz
- $ cd install_nanolabo_tool_linux
- $ ./install.bin
+ $ chmod +x install_nanolabo_tool_linux.bin
+ $ ./install_nanolabo_tool_linux.bin
 
 画面の指示に従い、インストールの設定を行ってください。インストール先として、Advance/NanoLaboと同じ場所を選択してください。
 
 .. image:: /img/install_tool_l.png
 
 インストール後、最後の画面で完了をクリックすると、Advance/NanoLabo Toolのインストールが終了します。
+
+FAIR-ChemまたはSevenNetを使う場合は、Advance/NanoLabo GNNPも同様にインストールしてください。
 
 .. _launchl:
 
@@ -143,7 +152,7 @@ Java VMの引数を追加することで表示が改善します。
 
 画面の指示に従い、アンインストールを行ってください。
 
-Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。
+Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLabo GNNP、Advance/NanoLaboをアンインストールしてください。
 
 .. note::
 
@@ -155,4 +164,4 @@ Advance/NanoLabo Toolのアンインストールが終わったら、同様にAd
 
 .. note::
 
-   Sentinel RTEを後からアンインストールするには、\ `Sentinel RTEインストーラー <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v9.15_Linux.tar.gz>`_\ に入っている :file:`dunst` を実行してください。
+   Sentinel-LDK-RTEを後からアンインストールするには、\ `Sentinel-LDK-RTEインストーラー <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v10.13.1_Linux.tar.gz>`_\ に入っている :file:`dunst` を実行してください。

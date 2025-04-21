@@ -9,15 +9,23 @@
 インストールの準備
 ==============================
 
-本ソフトウェアのインストールには、ディスクイメージファイルを使用します。ファイルは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。
+本ソフトウェアのインストールには、ディスクイメージファイルを使用します。ファイルは3つに分かれています。それぞれ以下のリンクからダウンロードしてください。
+
+- 本体
 
  `Advance/NanoLabo (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-ARM.dmg>`_
 
+- オープンソースの計算エンジン等
+
  `Advance/NanoLabo Tool (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-ARM.dmg>`_
 
-また、ライセンスマネージャーとしてSentinel RTEを使用します。以下のリンクからインストーラーをダウンロードしてください。
+- 追加のGNN力場モデルファイル（FAIR-ChemまたはSevenNetを使う場合のみ）
 
- `Sentinel RTE <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v10.13.1_macOS.tar>`_
+ `Advance/NanoLabo GNNP (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_windows_v3.0.exe>`_
+
+また、ライセンスマネージャーとしてSentinel-LDK-RTEを使用します。以下のリンクからインストーラーをダウンロードしてください。
+
+ `Sentinel-LDK-RTE <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-AdvanceSoft-v10.13.1_macOS.tar>`_
 
 .. note::
 
@@ -46,7 +54,9 @@
    :width: 300 px
    :align: center
 
-続けて、Sentinel RTEをインストールします。ダウンロードしたファイルをダブルクリックして展開し、 :file:`SentinelRuntimeInstallerCLI` を実行してください。「開発元を検証できないため開けません。」の表示が出た場合は、 :kbd:`control` キーを押しながらクリックして開いてください。
+FAIR-ChemまたはSevenNetを使う場合は、Advance/NanoLabo GNNPも同様にインストールしてください。確認のダイアログが表示されたら、「結合」を選んでください。
+
+続けて、Sentinel-LDK-RTEをインストールします。ダウンロードしたファイルをダブルクリックして展開し、 :file:`SentinelRuntimeInstallerCLI` を実行してください。「開発元を検証できないため開けません。」の表示が出た場合は、 :kbd:`control` キーを押しながらクリックして開いてください。
 
 .. image:: /img/mac_sentinel.png
    :width: 400 px
@@ -144,4 +154,4 @@
 
 .. note::
 
-   Sentinel RTEをアンインストールするには、Sentinel RTEのインストーラーと同じディレクトリにあるSentinel Runtime Uninstallを開きます。ダイアログの指示に従ってアンインストールを実行してください。
+   Sentinel-LDK-RTEをアンインストールするには、Sentinel-LDK-RTEのインストーラーと同じディレクトリにあるSentinel Runtime Uninstallを開きます。ダイアログの指示に従ってアンインストールを実行してください。
