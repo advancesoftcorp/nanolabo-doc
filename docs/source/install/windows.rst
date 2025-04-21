@@ -13,15 +13,15 @@
 
 - 本体
 
- `Advance/NanoLabo (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_windows_v3.0.exe>`_
+ `Advance/NanoLabo (ver.3.1) <https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3088>`_
 
 - オープンソースの計算エンジン等
 
- `Advance/NanoLabo Tool (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_windows_v3.0.exe>`_
+ `Advance/NanoLabo Tool (ver.3.1) <https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3086>`_
 
 - 追加のGNN力場モデルファイル（FAIR-ChemまたはSevenNetを使う場合のみ）
 
- `Advance/NanoLabo GNNP (ver.3.0) <https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_windows_v3.0.exe>`_
+ `Advance/NanoLabo GNNP (ver.3.1) <https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3084>`_
 
 .. note::
 
