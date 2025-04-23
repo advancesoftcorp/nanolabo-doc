@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-24 15:16+0900\n"
+"POT-Creation-Date: 2025-04-21 16:56+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,197 +18,178 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../install.rst:5 ../../install/linux.rst:27 ../../install/mac.rst:33
-#: ../../install/windows.rst:27
+#: ../../install.rst:5 ../../install/linux.rst:35 ../../install/mac.rst:37
+#: ../../install/windows.rst:35
 msgid "インストール"
 msgstr "Installation"
 
-#: ../../install/linux.rst:5
-msgid "インストール手順 (Linux)"
-msgstr "How to Install (Linux)"
+#: ../../install/flex.rst:5
+msgid "旧ライセンスの利用方法"
+msgstr "How to use the old license"
 
-#: ../../install/linux.rst:10 ../../install/mac.rst:10
-#: ../../install/windows.rst:10
-msgid "インストールの準備"
-msgstr "Preparation"
+#: ../../install/flex.rst:7
+msgid "バージョン3.1以降のNanoLaboでは、ライセンス管理モジュールをSentinelへと変更します。"
+msgstr ""
+"In NanoLabo version 3.1 and later, the license management module will be "
+"changed to Sentinel."
 
-#: ../../install/linux.rst:12 ../../install/windows.rst:12
+#: ../../install/flex.rst:9
+msgid "移行期間として、バージョン3.1リリースから約1年間は引き続き旧ライセンスをご利用いただくことができます。"
+msgstr ""
+"As a transition period, the old license will continue to be available for"
+" approximately one year after the release of version 3.1."
+
+#: ../../install/flex.rst:11
+msgid "旧ライセンスをご利用の場合のみこちらのマニュアルをご参照ください。"
+msgstr "Please refer to this manual only if you are using the old license."
+
+#: ../../install/flex.rst:13
+msgid "移行期間終了後にリリースされるバージョンでは、旧ライセンスは利用できません。"
+msgstr ""
+"The old license will not be available in versions released after the end "
+"of the transition period."
+
+#: ../../install/flex.rst:18
+msgid "ライセンスの切り替え方法（旧ライセンス⇔Sentinel）"
+msgstr "How to switch licenses (old license ⇔ Sentinel)"
+
+#: ../../install/flex.rst:20
 msgid ""
-"本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo"
-" Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。"
+"NanoLaboのインストール後またはバージョン3.1へのアップデート後の初回起動時に、旧ライセンスを使用するか訊ねるダイアログが表示されます。 "
+"選択したライセンスの種別は、以下の方法で後から変更することが可能です。"
 msgstr ""
-"This software can be installed using two separate installers. The primary"
-" installer is \"Advance/NanoLabo\", while the supplementary installer, "
-"\"Advance/NanoLabo Tool\", contains open-source calculation engines and "
-"other features. Please download both from the links provided below."
+"When NanoLabo is launched for the first time after installation or after "
+"updating to version 3.1, a dialog will appear asking whether to use the "
+"old license. The selected license type can be changed later using the "
+"following method."
 
-#: ../../install/linux.rst:14
+#: ../../install/flex.rst:24
+msgid "旧ライセンスからSentinelへの切り替え"
+msgstr "Switching from the old license to Sentinel"
+
+#: ../../install/flex.rst:26
 msgid ""
-"`Advance/NanoLabo (ver.3.0) "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_linux_v3.0.bin>`_"
+"NanoLaboの画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Change to"
+" Sentinel` を選択してください。 "
+"設定の変更を確認するダイアログのYesボタンをクリックすると、NanoLaboの再起動を促すダイアログが表示されます。 "
+"Yesボタンをクリック、または手動でNanoLaboを再起動すれば、ライセンスの切り替えは完了です。 "
+"以降のSentinelライセンスの設定方法は、\\ :ref:`licensesetupdate`\\ を参照してください。"
+msgstr ""
+"Select :menuselection:`License --> Change to Sentinel` from the menu "
+"|mainmenuicon| in the upper left of the NanoLabo screen. Clicking the Yes"
+" button in the dialog confirming the change of settings will display a "
+"dialog prompting you to restart NanoLabo. Clicking the Yes button or "
+"manually restarting NanoLabo will complete the license switch. For "
+"information on how to configure the Sentinel license thereafter, please "
+"refer to :ref:`licensesetupdate`\\ ."
+
+#: ../../install/flex.rst:199 ../../install/license.rst:327
+#: ../../install/linux.rst:103
+msgid "mainmenuicon"
 msgstr ""
 
-#: ../../install/linux.rst:16
+#: ../../install/flex.rst:33
 msgid ""
-"`Advance/NanoLabo Tool (ver.3.0) "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_linux_v3.0.bin>`_"
+"ライセンスエラーのダイアログが表示されてしまう場合は、その後に表示されるLicense Registration Guidanceの\"Use "
+"Sentinel licensing mode (recommended)\"にチェックを入れたうえで、\\ "
+":ref:`licenseonline`\\ または\\ :ref:`licenseoffline`\\ "
+"の手順3以降に進むことでライセンスの切り替えおよび設定を行うことができます。ただし、フローティングライセンスのクライアントマシンでは手順3以降の操作は必要ありませんので、License"
+" Registration GuidanceのOKボタンを押した後に表示されるダイアログはそのまま閉じて、NanoLaboを再起動してください。"
 msgstr ""
+"If a license error dialog is displayed, you can switch and configure the "
+"license by checking \"Use Sentinel licensing mode (recommended)\" in the "
+"License Registration Guidance that appears afterwards, and then "
+"proceeding with step 3 or later of :ref:`licenseonline` or "
+":ref:`licenseoffline`\\ . However, client machines with floating licenses"
+" do not require the operations from step 3 onwards, so please close the "
+"dialog displayed after pressing the OK button in the License Registration"
+" Guidance and restart NanoLabo."
 
-#: ../../install/linux.rst:20 ../../install/mac.rst:28
-#: ../../install/windows.rst:20
-msgid "計算をリモートで実行する場合でも、NanoLabo本体と同じマシンにNanoLabo Toolをインストールしてください。"
+#: ../../install/flex.rst:36
+msgid "Sentinelから旧ライセンスへの切り替え（非推奨）"
+msgstr "Switching from Sentinel to the old license (not recommended)"
+
+#: ../../install/flex.rst:40
+msgid "初回起動時のダイアログで誤ってNoを選択した場合以外では、Sentinelから旧ライセンスへの切り替えは不要です。また、有効なSentinelライセンスをお持ちでない方のみ、以下の操作が可能です。"
 msgstr ""
-"Ensure that you install NanoLabo Tool on the same machine where NanoLabo "
-"is installed, even if you intend to run calculations on a remote machine."
+"Switching from Sentinel to the old license is usually not necessary "
+"unless you accidentally selected No in the initial startup dialog. Also, "
+"the following operations are only possible for those who do not have a "
+"valid Sentinel license."
 
-#: ../../install/linux.rst:22
-msgid "インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先ディレクトリにコピーされます。"
-msgstr ""
-"The Java Runtime Environment is bundled with the installer. It will be "
-"transferred to the designated installation directory during the "
-"installation process."
-
-#: ../../install/linux.rst:29
-msgid "端末（ターミナル）で、インストーラーのあるディレクトリに移動します。実行権限を付与したら、まずAdvance/NanoLaboのインストーラーを実行します。"
-msgstr ""
-"Open a terminal and navigate to the directory containing the installers. "
-"After granting execution permissions, start by running the "
-"Advance/NanoLabo installer."
-
-#: ../../install/linux.rst:31
+#: ../../install/flex.rst:42
 msgid ""
-"$ chmod +x install_nanolabo_linux.bin install_nanolabo_tool_linux.bin\n"
-"$ ./install_nanolabo_linux.bin"
+"NanoLaboを起動して、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> "
+"Authentication` "
+"を選択すると、ライセンスエラーを示すダイアログが表示されます（NanoLaboを起動後、一定時間が経過することでもこのダイアログは表示されます）。ダイアログのOKボタンをクリックした後に表示されるLicense"
+" Registration Guidanceの、\"Use ... licensing mode temporarily "
+"(deprecated)\"（...部分の表記はOSごとに異なります）を選択して、OKボタンをクリックしてください。表示されるダイアログに従ってNanoLaboを再起動するとライセンスの切り替えが完了します。"
 msgstr ""
+"Launch NanoLabo and select :menuselection:`License --> Authentication` "
+"from the menu |mainmenuicon| in the upper left of the screen. A dialog "
+"indicating a license error will be displayed (this dialog will also be "
+"displayed after a certain period of time has passed since NanoLabo was "
+"launched). After clicking the OK button in the dialog, select \"Use ... "
+"licensing mode temporarily (deprecated)\" (the notation for the ... part "
+"differs depending on the OS) in the License Registration Guidance that "
+"appears, and click the OK button. Restarting NanoLabo according to the "
+"dialog that appears will complete the license switch."
 
-#: ../../install/linux.rst:36
-msgid "言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
+#: ../../install/flex.rst:47
+msgid "旧ライセンスの設定(Windows)"
+msgstr "Old License Configuration (Windows)"
+
+#: ../../install/flex.rst:49
+msgid "ライセンスファイル( :file:`nanolabo.lic` )をインストール先の :file:`license` フォルダーに格納してください。"
 msgstr ""
-"If a language selection window appears, choose a language for the "
-"installation process (note that this selection does not determine the "
-"language used within the software itself)."
+"Place the license file ( :file:`nanolabo.lic` ) in the :file:`license` "
+"folder of the installation directory."
 
-#: ../../install/linux.rst:38
-msgid "画面の指示に従い、インストールの設定を行ってください。"
-msgstr ""
-"Proceed by following the on-screen instructions to configure the "
-"installation."
-
-#: ../../install/linux.rst:42
+#: ../../install/flex.rst:51 ../../install/flex.rst:64
 msgid ""
-"書き込み権限のない場所にはインストールできません。インストール先として書き込み権限のある場所（ "
-":file:`/home/ユーザー名/AdvanceSoft/NanoLabo` "
-"など）を指定するか、書き込み権限のあるユーザーでインストーラーを実行してください。"
+"NanoLaboを新しいバージョンにアップデートされる場合、上書きインストールが可能ですので、ライセンスファイル( "
+":file:`nanolabo.lic` )に関する操作は必要ありません。"
 msgstr ""
-"You cannot install the software in a location without write permission. "
-"Ensure you choose the location with write permission (e.g. "
-":file:`/home/username/AdvanceSoft/NanoLabo` ) as the installation "
-"destination, or execute the installer as the user with write permission."
+"When updating NanoLabo to a new version, you can perform an over-"
+"installation, so no action is required regarding the license file ( "
+":file:`nanolabo.lic` )."
 
-#: ../../install/linux.rst:44
+#: ../../install/flex.rst:55 ../../install/flex.rst:68
+#: ../../install/flex.rst:174
+msgid "移行期間終了後のバージョンでは旧ライセンスは使用できなくなりますので、Sentinelライセンスをご利用ください。"
+msgstr ""
+"The old license will not be usable in versions released after the "
+"transition period ends, so please use the Sentinel license."
+
+#: ../../install/flex.rst:60
+msgid "旧ライセンスの設定(Linux)"
+msgstr "Old License Configuration (Linux)"
+
+#: ../../install/flex.rst:62
 msgid ""
-"設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo "
-"Toolのインストール、およびライセンスの設定の際に必要になりますので、控えておいていただくようお願いします。"
+"ライセンスファイル( :file:`nanolabo.lic` )をインストール先の :file:`license` "
+"ディレクトリに格納してください。"
 msgstr ""
-"Once the configuration is complete, a summary window will appear. The "
-"Install Folder will be required when installing the Advance/NanoLabo Tool"
-" and during license setup. Please make a note of the install folder."
+"Place the license file ( :file:`nanolabo.lic` ) in the :file:`license` "
+"directory of the installation location."
 
-#: ../../install/linux.rst:48 ../../install/windows.rst:35
-msgid "インストールが終わると、ライセンス登録案内が表示されます。ライセンス登録がお済みでない場合は、必要な項目をご記入ください。次へをクリックすると、ライセンス登録メールの内容が表示されますので、弊社宛に送信してください。"
+#: ../../install/flex.rst:70
+msgid "NanoLaboのライセンス認証は、ライセンスサーバー（ライセンス認証用のプログラム）により行われます。NanoLaboの起動時に自動的にライセンスサーバーが起動されますので、通常はライセンスサーバーの操作を行っていただく必要はございません。"
 msgstr ""
-"Once the installation is complete, a license registration guide will be "
-"displayed. If you haven't registered the license yet, please complete the"
-" form.  Upon clicking \"Next\", the content for the license registration "
-"email will appear.  Please send this email to us."
+"NanoLabo's license authentication is performed by a license server (a "
+"program for license authentication). The license server is automatically "
+"started when NanoLabo is launched, so normally you do not need to operate"
+" the license server."
 
-#: ../../install/linux.rst:54
-msgid ""
-"メール本文の「ホストＩＤ」が空欄になっている場合、Host ID取得時に必要なredhat-"
-"lsbライブラリがインストールされていない可能性があります。その場合、次のコマンドをroot権限で実行してインストールしてください。"
-msgstr ""
-"If the \"Host ID\" field in the email body is empty, you might be missing"
-" the redhat-lsb library, which is essential for obtaining the Host ID. If"
-" this is the case, please run the following command with root privileges "
-"to install it."
-
-#: ../../install/linux.rst:56
-msgid "# yum -y install redhat-lsb-core"
-msgstr ""
-
-#: ../../install/linux.rst:60
-msgid "インストーラーで一旦「戻る」をクリックし、再度「次へ」をクリックしていただくことで、Host IDの取得を再試行します。"
-msgstr ""
-"In the installer, click \"Previous\" once, and then click \"Next\" to "
-"attempt retrieving the Host ID again."
-
-#: ../../install/linux.rst:64 ../../install/windows.rst:41
-msgid "ここでライセンス登録を行わない場合でも、ソフトウェア起動時に表示される案内画面から登録していただくことができます。"
-msgstr ""
-"Even if you choose not to register the license at this point, you can "
-"still register it later from the guide window that appears when you start"
-" the software."
-
-#: ../../install/linux.rst:66 ../../install/windows.rst:43
-msgid "最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。"
-msgstr ""
-"At the final window, click \"Done\" to complete the installation of "
-"Advance/NanoLabo."
-
-#: ../../install/linux.rst:68 ../../install/windows.rst:45
-msgid "続けて、Advance/NanoLabo Toolのインストーラーを実行します。"
-msgstr "Next, proceed to launch the Advance/NanoLabo Tool installer."
-
-#: ../../install/linux.rst:70
-msgid "$ ./install_nanolabo_tool_linux.bin"
-msgstr ""
-
-#: ../../install/linux.rst:74 ../../install/windows.rst:47
-msgid "画面の指示に従い、インストールの設定を行ってください。インストール先として、Advance/NanoLaboと同じ場所を選択してください。"
-msgstr ""
-"Follow the on-screen instructions to configure the installation. Ensure "
-"you select  the same location for the installation destination as you did"
-" for Advance/NanoLabo."
-
-#: ../../install/linux.rst:78 ../../install/windows.rst:51
-msgid "インストール後、最後の画面で完了をクリックすると、Advance/NanoLabo Toolのインストールが終了します。"
-msgstr ""
-"At the final window, click \"Done\" to finish the installation of the "
-"Advance/NanoLabo Tool."
-
-#: ../../install/linux.rst:83 ../../install/mac.rst:112
-#: ../../install/windows.rst:56
-msgid "ライセンスの設定"
-msgstr "Setting license"
-
-#: ../../install/linux.rst:85
-msgid ""
-"ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。インストール先の "
-":file:`license` ディレクトリにコピーしてください。"
-msgstr ""
-"Once you've registered your license, we will send you a license file ( "
-":file:`nanolabo.lic` ). You can typically expect to receive this within 5"
-" business days. Please copy this file to the :file:`license` directory "
-"located in your installation destination."
-
-#: ../../install/linux.rst:87
-msgid "本ソフトウェアのライセンス認証は、ライセンスサーバー（ライセンス認証用のプログラム）により行われます。本ソフトウェアの起動時に自動的にライセンスサーバーが起動されますので、通常はライセンスサーバーの操作を行っていただく必要はございません。"
-msgstr ""
-"The software's license authentication is handled by a license server, "
-"which is a separate program designed for this purpose. This software will"
-" automatically initiate the license server upon startup, so under normal "
-"circumstances, there's no need for manual intervention with the license "
-"server."
-
-#: ../../install/linux.rst:91
+#: ../../install/flex.rst:74
 msgid "手動でライセンスサーバーを操作することも可能です。"
 msgstr "If necessary, you can manually operate the license server."
 
-#: ../../install/linux.rst:93
+#: ../../install/flex.rst:76
 msgid "Windowsから操作する場合"
 msgstr "Operate from Windows"
 
-#: ../../install/linux.rst:95
+#: ../../install/flex.rst:78
 msgid ""
 "弊社ツール\\ `remoteLicense <https://remotelicense-"
 "doc.readthedocs.io/ja/latest/>`_\\ "
@@ -221,11 +202,11 @@ msgstr ""
 " the `manual <https://remotelicense-doc.readthedocs.io/en/latest/>`_ for "
 "detail."
 
-#: ../../install/linux.rst:97
+#: ../../install/flex.rst:80
 msgid "Linux上で操作する場合"
 msgstr "Operate on Linux"
 
-#: ../../install/linux.rst:99
+#: ../../install/flex.rst:82
 msgid ""
 "ライセンスサーバーの実行ファイルはインストール先の :file:`exec.LINUX/flex/lmgrd` "
 "です。端末（ターミナル）でインストール先のディレクトリに移動したら、以下のコマンド例のように起動します。"
@@ -235,68 +216,64 @@ msgstr ""
 "navigating to the installation directory in a terminal, execute it as "
 "shown in the example below."
 
-#: ../../install/linux.rst:101
+#: ../../install/flex.rst:84
 msgid "$ exec.LINUX/flex/lmgrd -c license/nanolabo.lic -l lmgrd.log"
 msgstr ""
 
-#: ../../install/linux.rst:105
+#: ../../install/flex.rst:88
 msgid "ライセンスサーバーの状態を表示するには、インストール先の :file:`exec.LINUX/flex/lmstat` を使用します。"
 msgstr ""
 "To check the status of license server, use :file:`exec.LINUX/flex/lmstat`"
 " located in the install destination."
 
-#: ../../install/linux.rst:107
+#: ../../install/flex.rst:90
 msgid "$ exec.LINUX/flex/lmstat -a -c license/nanolabo.lic"
 msgstr ""
 
-#: ../../install/linux.rst:111
+#: ../../install/flex.rst:94
 msgid "また、ライセンスサーバーを終了するには、インストール先の :file:`exec.LINUX/flex/lmdown` を使用します。"
 msgstr ""
 "To stop license server, use :file:`exec.LINUX/flex/lmdown` located in the"
 " install destination."
 
-#: ../../install/linux.rst:113
+#: ../../install/flex.rst:96
 msgid "$ exec.LINUX/flex/lmdown -c license/nanolabo.lic"
 msgstr ""
 
-#: ../../install/linux.rst:120
-msgid "フローティングライセンス"
-msgstr "Floating license"
+#: ../../install/flex.rst:103
+msgid "フローティングライセンス（旧ライセンス）"
+msgstr "Floating License (Old License)"
 
-#: ../../install/linux.rst:122
+#: ../../install/flex.rst:105
 msgid "Linuxマシンに対して発行されたライセンスはフローティングライセンスとなっており、ネットワーク接続された別のマシン上（Windows・Linux）でNanoLaboを使うことができます。"
 msgstr ""
 "The license issued for a linux machine is a floating license, allowing "
 "you to use NeuralMD on other connected machines(Windows/Linux) via the "
 "network."
 
-#: ../../install/linux.rst:124
+#: ../../install/flex.rst:107 ../../install/license.rst:413
 msgid "ライセンスサーバーとして使うマシン側"
 msgstr "Machine to be used as license server"
 
-#: ../../install/linux.rst:126
-msgid "別のWindowsマシンからremoteLicenseを使うか、またはそのマシンにNanoLaboをインストールして、ホストIDの取得・ライセンス登録を行ってください。ライセンスファイル取得後、remoteLicenseを使うか、またはマシン上で直接ライセンスサーバーを起動してください。"
-msgstr ""
-"You can obtain the HostID and request the license by using remoteLicense "
-"from a separate Windows machine or by installing NanoLabo on the intended"
-" machine itself. Once you have the license file, you can launch the "
-"license server using remoteLicense or directly on the machine."
+#: ../../install/flex.rst:109
+msgid "remoteLicenseを使うか、またはマシン上で直接ライセンスサーバーを起動してください。"
+msgstr "Use remoteLicense, or start the license server directly on the machine."
 
-#: ../../install/linux.rst:128
+#: ../../install/flex.rst:111 ../../install/license.rst:462
 msgid "NanoLaboを使うクライアントマシン側"
 msgstr "Machine to be a client to use NanoLabo"
 
-#: ../../install/linux.rst:130
-msgid "NanoLaboをインストールして、同じライセンスファイルをインストール先の :file:`license` ディレクトリにコピーしてください。"
+#: ../../install/flex.rst:113
+msgid "ライセンスサーバーと同じライセンスファイルを、NanoLaboのインストール先の :file:`license` ディレクトリにコピーしてください。"
 msgstr ""
-"Install NeuralMD and copy the same license file to :file:`license` "
-"directory in the installation destination."
+"Copy the same license file as the license server to the :file:`license` "
+"directory of the NanoLabo installation location."
 
-#: ../../install/linux.rst:132
+#: ../../install/flex.rst:115
 msgid "ライセンス認証がうまくいかない場合は、以下をご確認ください。"
 msgstr "If the license authentication fails, consider the following checks."
 
-#: ../../install/linux.rst:134
+#: ../../install/flex.rst:117
 msgid "クライアントからライセンスサーバーへの接続には、ライセンスファイル中に書かれたホスト名を使用します。ホスト名を使った接続ができない場合、ファイル中のホスト名をIPアドレスに書き換えることで接続できるようになることがあります。"
 msgstr ""
 "The hostname stored in the license file is utilized when a client "
@@ -304,7 +281,7 @@ msgstr ""
 " try replacing the hostname in the file with the IP address to see if "
 "that resolves the issues."
 
-#: ../../install/linux.rst:136
+#: ../../install/flex.rst:119
 msgid ""
 "ライセンスサーバー起動中はライセンスマネージャーデーモン :file:`lmgrd` とベンダーデーモン :file:`advanced` "
 "の2つのプロセスが起動し、それぞれがネットワーク通信を行います。使用するポート番号は動的に決まります（\\ :file:`lmgrd` "
@@ -317,7 +294,7 @@ msgstr ""
 "you can assign fixed port number by specifying it in the license file. "
 "This can be useful for firewall configuration etc."
 
-#: ../../install/linux.rst:138
+#: ../../install/flex.rst:121
 msgid "ライセンスファイルはテキストファイルですので通常のテキストエディタで編集できます。ホスト名の変更・ポート番号の追記でライセンスの再発行は必要ありません。サーバー側・クライアント側両方で同じように変更してください。"
 msgstr ""
 "The license file is a text document and can be edited with standard text "
@@ -325,49 +302,49 @@ msgstr ""
 "there's  no need to re-issue the license. Just ensure any modifications "
 "are consistently applied to both the server and client sides."
 
-#: ../../install/linux.rst:143
+#: ../../install/flex.rst:126
 msgid "lmgrdが30000番、advancedが30001番ポートを使うように設定する例"
 msgstr "Example where lmgrd uses 30000 and advanced uses 30001 port"
 
-#: ../../install/linux.rst
+#: ../../install/flex.rst
 msgid "SERVER (ホスト名) COMPOSITE=(ホストID) |portlmgrd|"
 msgstr "SERVER (hostname) COMPOSITE=(HostID) |portlmgrd|"
 
-#: ../../install/linux.rst
+#: ../../install/flex.rst
 msgid "VENDOR advanced |portadvanced|"
 msgstr ""
 
-#: ../../install/linux.rst
+#: ../../install/flex.rst
 msgid "USE_SERVER"
 msgstr ""
 
-#: ../../install/linux.rst
+#: ../../install/flex.rst
 msgid "FEATURE ..."
 msgstr ""
 
-#: ../../install/linux.rst:153
+#: ../../install/flex.rst:136
 msgid "ポートを指定してクライアントから疎通確認を行うコマンド"
 msgstr "Command to verify connectivity to a specified port from the client"
 
-#: ../../install/linux.rst:155
+#: ../../install/flex.rst:138
 msgid "Windows(PowerShell)"
 msgstr ""
 
-#: ../../install/linux.rst:155
+#: ../../install/flex.rst:138
 msgid "> Test-NetConnection -ComputerName (IPアドレスまたはホスト名) -Port (ポート番号)"
 msgstr ""
 "> Test-NetConnection -ComputerName (IP address or hostname) -Port (port "
 "number)"
 
-#: ../../install/linux.rst:160
+#: ../../install/flex.rst:143
 msgid "Linux"
 msgstr ""
 
-#: ../../install/linux.rst:160
+#: ../../install/flex.rst:143
 msgid "$ nc -vz (IPアドレスまたはホスト名) (ポート番号)"
 msgstr "$ nc -vz (IP address or hostname) (port number)"
 
-#: ../../install/linux.rst:165
+#: ../../install/flex.rst:148
 msgid ""
 "クライアント側でNanoLaboを起動したときに、ライセンスサーバーが終了してしまう場合があります。ライセンスサーバーの起動時に "
 ":file:`lmgrd` にオプションを付けることで、クライアント側から終了されないようにすることができます。"
@@ -376,13 +353,13 @@ msgstr ""
 "terminated. To prevent the server from being terminated by the client, "
 "add the option to :file:`lmgrd` when launching the license server."
 
-#: ../../install/linux.rst:167
+#: ../../install/flex.rst:150
 msgid "``-local`` を付けると、他のマシンから終了されないようになります。"
 msgstr ""
 "Adding the ``-local`` option prevents the server from being terminated by"
 " other machines."
 
-#: ../../install/linux.rst:168
+#: ../../install/flex.rst:151
 msgid ""
 "``-x lmdown`` を付けると、自身を含めてどのマシンからも終了されないようになります。終了する場合は ``kill`` "
 "コマンドを使う必要があります。"
@@ -391,18 +368,1218 @@ msgstr ""
 " by any machine, including itself. To stop it, you would need to use the "
 "``kill`` command."
 
-#: ../../install/linux.rst:181 ../../install/mac.rst:56
-#: ../../install/windows.rst:63
+#: ../../install/flex.rst:164
+msgid "旧ライセンスの設定(macOS)"
+msgstr "Old License Configuration (macOS)"
+
+#: ../../install/flex.rst:166
+msgid ""
+"ライセンスファイル( :file:`nanolabo.lic` )を :file:`/Library/Application "
+"Support/AdvanceSoft/NanoLabo/license` ディレクトリに格納してください。"
+msgstr ""
+"Place the license file ( :file:`nanolabo.lic` ) in the "
+":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
+"directory."
+
+#: ../../install/flex.rst:168
+msgid ""
+"Finderのメニューバーから :menuselection:`移動 --> フォルダへ移動...` "
+"をクリックし、上記パスを入力していただくと簡単です。"
+msgstr ""
+"An easy way to locate the directory is by using Finder. Click "
+":menuselection:`Go --> Go to Folder...` in the menu bar and enter the "
+"path provided above."
+
+#: ../../install/flex.rst:170
+msgid ""
+"NanoLaboを新しいバージョンにアップデートされる場合は、インストール時と同じ操作を行い、確認が表示されたら「置き換える」を選択してください。アップデート後、ライセンスファイル("
+" :file:`nanolabo.lic` )を再度 :file:`license` ディレクトリに格納してください。"
+msgstr ""
+"When updating NanoLabo to a new version, perform the same operation as "
+"during installation and select \"Replace\" when the confirmation is "
+"displayed. After the update, please place the license file ( "
+":file:`nanolabo.lic` ) in the :file:`license` directory again."
+
+#: ../../install/flex.rst:179
+msgid "NeuralMDの設定（旧ライセンス）"
+msgstr "NeuralMD Configuration (Old License)"
+
+#: ../../install/flex.rst:183
+msgid "ニューラルネットワークの学習を行う場合は、別途NeuralMDのライセンスが必要です。メトロポリス法による構造生成・ニューラルネットワークのテストについては、ライセンスは必要ありません。"
+msgstr ""
+"A separate NeuralMD license is required to train neural networks. No "
+"license is required for structure generation using the Metropolis method "
+"or for testing neural networks."
+
+#: ../../install/flex.rst:187
+msgid ""
+"ローカル（NanoLaboを使っているマシン）でニューラルネットワークの学習を行う場合は、画面左上のアイコン |mainmenuicon| から "
+":menuselection:`Properties --> Advance/NeuralMD` でライセンスファイルの場所を設定してください。"
+msgstr ""
+"To train neural networks locally (on the machine where NanoLabo is "
+"running), set the location of the license file in "
+":menuselection:`Properties --> Advance/NeuralMD` from the icon "
+"|mainmenuicon| in the upper left of the screen."
+
+#: ../../install/flex.rst:191
+msgid "リモート（計算サーバー等）でニューラルネットワークの学習を行う場合は、ライセンスサーバーの設定が必要です。"
+msgstr ""
+"If you are training neural networks remotely (on a calculation server, "
+"etc.), you need to configure the license server."
+
+#: ../../install/flex.rst:193
+msgid ""
+"Windowsから操作する場合、弊社ツール\\ `remoteLicense <https://remotelicense-"
+"doc.readthedocs.io/ja/latest/>`_\\ "
+"を使うことで、簡単にLinuxマシン上でライセンスサーバーを起動することができます。詳細は\\ `マニュアル <https"
+"://remotelicense-doc.readthedocs.io/ja/latest/>`_\\ を参照してください。"
+msgstr ""
+"If you are operating from Windows, you can easily start the license "
+"server on a Linux machine by using our tool `remoteLicense <https"
+"://remotelicense-doc.readthedocs.io/ja/latest/>`_\\ . For details, please"
+" refer to the `manual <https://remotelicense-"
+"doc.readthedocs.io/ja/latest/>`_\\ ."
+
+#: ../../install/flex.rst:195
+msgid ""
+"Linux上で操作する場合、NeuralMDのインストーラーにライセンスサーバーの実行ファイルが含まれていますので、ライセンスサーバーとして使うマシンにインストールを行い、\\"
+" `ドキュメント <https://neuralmd-"
+"doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\\ "
+"に従ってライセンスサーバーを起動してください。また、環境変数 :envvar:`ADVANCED_LICENSE_FILE` "
+"にライセンスファイルのパスを設定する必要がありますので、NanoLaboの\\ :ref:`Job Script設定画面 "
+"<ssh_jobtab>`\\ でコマンドを追加するか、シェルの初期化ファイルで設定してください。"
+msgstr ""
+"If you are operating on Linux, the NeuralMD installer includes the "
+"license server executable. Install it on the machine you want to use as "
+"the license server and start the license server according to the "
+"`document <https://neuralmd-"
+"doc.readthedocs.io/ja/latest/install/linux.html#launchl>`_\\ . You also "
+"need to set the license file path in the environment variable "
+":envvar:`ADVANCED_LICENSE_FILE`, so either add a command in NanoLabo's  "
+":ref:`Job Script settings screen <ssh_jobtab>` or configure it in the "
+"shell initialization file."
+
+#: ../../install/flex.rst:197
+msgid ""
+"ライセンスサーバーとは別のマシンでNeuralMDを実行する場合は、実行するマシンのアクセスできる場所にライセンスファイルを置き、環境変数 "
+":envvar:`ADVANCED_LICENSE_FILE` にファイルパスを設定（NanoLaboの\\ :ref:`Job "
+"Script設定画面 <ssh_jobtab>`\\ でコマンドを追加するか、シェルの初期化ファイルで設定）してください。"
+msgstr ""
+"If you are running NeuralMD on a machine different from the license "
+"server, place the license file in a location accessible from the machine "
+"and set the file path in the environment variable "
+":envvar:`ADVANCED_LICENSE_FILE` (add a command in NanoLabo's :ref:`Job "
+"Script settings screen <ssh_jobtab>` or configure it in the shell "
+"initialization file)."
+
+#: ../../install/license.rst:5
+msgid "ライセンスの設定・更新"
+msgstr "License Setup and Update"
+
+#: ../../install/license.rst:7
+msgid "NanoLaboをインストールしたマシンがインターネットに接続されている場合:"
+msgstr "If the machine where NanoLabo is installed is connected to the internet:"
+
+#: ../../install/license.rst:9
+msgid "以下の\\ :ref:`licenseonline`\\ または\\ :ref:`licenseupdateonline`\\ を参照してください。"
+msgstr ""
+"Please refer to the following :ref:`licenseonline` or "
+":ref:`licenseupdateonline`\\ ."
+
+#: ../../install/license.rst:14
+msgid "NanoLaboをインストールしたマシンがインターネットに接続されていない場合:"
+msgstr ""
+"If the machine where NanoLabo is installed is not connected to the "
+"internet:"
+
+#: ../../install/license.rst:16
+msgid ""
+"以下の\\ :ref:`licenseoffline`\\ または\\ :ref:`licenseupdateoffline`\\ "
+"を参照してください。"
+msgstr ""
+"Please refer to the following :ref:`licenseoffline` or "
+":ref:`licenseupdateoffline`\\ ."
+
+#: ../../install/license.rst:23
+msgid "ライセンスの設定を行うには、別途インターネットに接続されているマシンが必要です。"
+msgstr ""
+"To configure the license, you need a separate machine connected to the "
+"internet."
+
+#: ../../install/license.rst:25
+msgid "上記の手順でライセンスの設定がうまくいかない場合:"
+msgstr "If the license configuration is not successful using the above steps:"
+
+#: ../../install/license.rst:27
+msgid "以下の\\ :ref:`licenseacc`\\ または\\ :ref:`licenseupdateacc`\\ を参照してください。"
+msgstr ""
+"Please refer to the following :ref:`licenseacc` or "
+":ref:`licenseupdateacc`\\ ."
+
+#: ../../install/license.rst:29
+msgid "フローティングライセンスをご購入の場合は\\ :ref:`floating`\\ を参照してから上記の手順を実行してください。"
+msgstr ""
+"If you have purchased a floating license, please refer to :ref:`floating`"
+" before performing the above steps."
+
+#: ../../install/license.rst:36
+msgid "フローティングライセンスをご購入の場合、ライセンスサーバーとクライアントマシンにおけるライセンス設定手順は異なりますのでご注意ください。"
+msgstr ""
+"Please note that if you have purchased a floating license, the license "
+"configuration procedures for the license server and client machines are "
+"different."
+
+#: ../../install/license.rst:41
+msgid "ライセンスの設定"
+msgstr "Setting license"
+
+#: ../../install/license.rst:46
+msgid "ライセンスの設定（オンライン）"
+msgstr "License Setup (Online)"
+
+#: ../../install/license.rst:47
+msgid ""
+"ライセンス登録後、noreply\\@sentinelcloud.comからEntitlement "
+"Certificateをメールでお送りします。Entitlement Certificateに記載されているProduct "
+"Keyを用いてライセンスの設定を行います。"
+msgstr ""
+"After license registration, an Entitlement Certificate will be sent to "
+"you via email from noreply\\@sentinelcloud.com. Use the Product Key "
+"listed in the Entitlement Certificate to configure the license."
+
+#: ../../install/license.rst:49 ../../install/license.rst:115
+#: ../../install/license.rst:305
+msgid ""
+"NanoLaboを起動し、画面左上のメニュー |mainmenuicon| の :menuselection:`License --> "
+"Authentication` を選択してください。"
+msgstr ""
+"Launch NanoLabo and select :menuselection:`License --> Authentication` "
+"from the menu |mainmenuicon| in the upper left of the screen."
+
+#: ../../install/license.rst:55 ../../install/license.rst:98
+#: ../../install/license.rst:121 ../../install/license.rst:214
+#: ../../install/license.rst:311
+msgid "NanoLaboを起動後に一定時間が経つと、自動でライセンスに関するダイアログが表示される場合がございますが、その場合も同様にして以降の手順に進んでください。"
+msgstr ""
+"After NanoLabo has been running for a certain period of time, a dialog "
+"regarding the license may appear automatically. In that case, please "
+"proceed with the subsequent steps in the same manner."
+
+#: ../../install/license.rst:57 ../../install/license.rst:123
+#: ../../install/license.rst:313
+msgid "初回起動時は旧ライセンスを使用するかを訊ねるダイアログが表示されますので、Noを選択してください。"
+msgstr ""
+"When starting for the first time, a dialog asking whether to use the old "
+"license will be displayed. Please select No."
+
+#: ../../install/license.rst:63 ../../install/license.rst:129
+#: ../../install/license.rst:319
+msgid ""
+"Yes（旧ライセンスを使用）を選択した場合は、ダイアログに従ってNanoLaboを再起動してご利用ください。また、ここで選択したライセンス種別は後から変更できます。詳細は\\"
+" :ref:`switchlicense`\\ を確認してください。"
+msgstr ""
+"If you select Yes (use old license), please restart NanoLabo according to"
+" the dialog. Also, the license type selected here can be changed later. "
+"Please check :ref:`switchlicense` for details."
+
+#: ../../install/license.rst:65 ../../install/license.rst:131
+msgid "ライセンスエラーダイアログのOKボタンをクリックすると、License Registration Guidance画面が表示されます。"
+msgstr ""
+"Clicking the OK button on the license error dialog will display the "
+"License Registration Guidance screen."
+
+#: ../../install/license.rst:67
+msgid ""
+"\"Activate your license automatically. (online) "
+"[recommended]\"を選択して、OKボタンをクリックしてください。"
+msgstr ""
+"Select \"Activate your license automatically. (online) [recommended]\" "
+"and click the OK button."
+
+#: ../../install/license.rst:71
+msgid ""
+"ライセンス登録がお済みでない場合、ここで :guilabel:`Mail` "
+"をクリックすると、デフォルトのメーラーでライセンス発行依頼のメール作成画面を開きます。"
+msgstr ""
+"If you have not yet registered your license, clicking :guilabel:`Mail` "
+"here will open the email creation screen for a license request in your "
+"default mailer."
+
+#: ../../install/license.rst:76
+msgid ""
+"\"Activate Sentinel License\"ダイアログが表示されたら、Entitlement "
+"Certificateに記載されているProduct Keyをテキストフィールドに入力してください。"
+msgstr ""
+"When the \"Activate Sentinel License\" dialog is displayed, enter the "
+"Product Key written on the Entitlement Certificate in the text field."
+
+#: ../../install/license.rst:80
+msgid ""
+"このあと、cURLコマンドを用いてV2CPファイルの生成が行われます。プロキシの設定またはcURLコマンドのオプションの設定が必要な場合は、対応する設定ボタン"
+" |gearicon| をクリックし、表示されるダイアログで設定を行ってください。"
+msgstr ""
+"After this, a V2CP file will be generated using the cURL command. If "
+"proxy settings or cURL command option settings are necessary, click the "
+"corresponding settings button |gearicon| and configure them in the "
+"displayed dialog."
+
+#: ../../install/license.rst:102
+msgid "gearicon"
+msgstr ""
+
+#: ../../install/license.rst:84
+msgid ""
+"\"Sentinel License has been activated, "
+"successfully.\"というメッセージダイアログのOKボタンをクリックすると、NanoLaboの再起動を促すダイアログが表示されますので、Yesボタンをクリックしてください。"
+msgstr ""
+"When you click the OK button on the message dialog \"Sentinel License has"
+" been activated, successfully.\", a dialog prompting you to restart "
+"NanoLabo will be displayed, so please click the Yes button."
+
+#: ../../install/license.rst:90
+msgid ""
+"C2Vファイルの作成、V2CPファイルの作成またはV2CPファイルの適用に失敗したことを示すダイアログが表示された場合は、\\ "
+":ref:`licenseacc`\\ の\\ :ref:`licenseaccc2v`\\ "
+"以降の手順に従って設定を行ってください。いずれの内容でダイアログが表示された場合でも、\\ :ref:`licenseaccc2v`\\ "
+"の手順から再度始めてください。"
+msgstr ""
+"If a dialog indicating that the creation of the C2V file, the creation of"
+" the V2CP file, or the application of the V2CP file has failed is "
+"displayed, please follow the steps from :ref:`licenseaccc2v` onwards in "
+":ref:`licenseacc` to perform the settings. Regardless of the content of "
+"the dialog displayed, please start again from the steps in "
+":ref:`licenseaccc2v`\\ ."
+
+#: ../../install/license.rst:92
+msgid ""
+"NanoLaboを再起動後、左上のメニューから、再度 :menuselection:`License --> Authentication` "
+"を選択すると、\"Select a Sentinel License "
+"Key\"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。"
+msgstr ""
+"After restarting NanoLabo, if you select :menuselection:`License --> "
+"Authentication` again from the upper left menu, the \"Select a Sentinel "
+"License Key\" dialog will be displayed. Select the license key from the "
+"list and click the OK button."
+
+#: ../../install/license.rst:100 ../../install/license.rst:216
+#: ../../install/license.rst:325
+msgid ""
+"以上でライセンスの設定は完了です。\"SUCCESS IN "
+"LICENSING\"ダイアログが表示されている場合は、OKボタンをクリックしてダイアログを閉じてください。次回以降の起動時には、今回選んだライセンスキーが自動で選択されますので、ライセンスに関する操作は必要ありません。"
+msgstr ""
+"This completes the license setup. If the \"SUCCESS IN LICENSING\" dialog "
+"is displayed, click the OK button to close the dialog. From the next "
+"startup onward, the license key selected this time will be automatically "
+"selected, so no license-related operations will be necessary."
+
+#: ../../install/license.rst:107
+msgid "ライセンスの設定（オフライン）"
+msgstr "License Setup (Offline)"
+
+#: ../../install/license.rst:108 ../../install/license.rst:227
+msgid ""
+"ライセンス登録後、noreply\\@sentinelcloud.comからEntitlement Certificateをメールでお送りします。"
+" Entitlement Certificateに記載されているProduct Keyを用いてライセンスの設定を行います。"
+msgstr ""
+"After license registration, an Entitlement Certificate will be sent to "
+"you via email from noreply\\@sentinelcloud.com. Use the Product Key "
+"described in the Entitlement Certificate to configure the license."
+
+#: ../../install/license.rst:113 ../../install/license.rst:232
+msgid "C2Vファイルの生成"
+msgstr "C2V File Creation"
+
+#: ../../install/license.rst:133
+msgid ""
+"\"Create C2V file \"nanolabo.c2v\" of this machine. "
+"(offline)\"を選択し、OKボタンをクリックしてください。"
+msgstr ""
+"Select \"Create C2V file \"nanolabo.c2v\" of this machine. (offline)\" "
+"and click the OK button."
+
+#: ../../install/license.rst:137
+msgid ""
+"\"C2V file has been created, "
+"successfully.\"というメッセージダイアログのOKボタンをクリックすると、ファイルブラウザが起動されます。表示されている "
+":file:`nanolabo.c2v` ファイルを、インターネットに接続しているマシンに移動してください。"
+msgstr ""
+"Click the OK button on the \"C2V file has been created, successfully.\" "
+"message dialog. A file browser will open. Move the displayed "
+":file:`nanolabo.c2v` file to a machine connected to the internet."
+
+#: ../../install/license.rst:141
+msgid ""
+"C2Vファイルの作成に失敗したことを示すダイアログが表示された場合は、メッセージ中のリンクからAdmin Control Center "
+"(ACC)を開き、C2Vファイル（拡張子:c2v）をダウンロードしてください。詳細は\\ :ref:`licenseacc`\\ を参照し、 \\"
+" :ref:`licenseaccc2v`\\ 以降の手順に従ってライセンスの設定を行ってください。"
+msgstr ""
+"If a dialog appears indicating that C2V file creation failed, open the "
+"Admin Control Center (ACC) using the link in the message, and download "
+"the C2V file (extension: .c2v). For details, refer to :ref:`licenseacc`, "
+"and follow the steps from :ref:`licenseaccc2v` onwards to configure the "
+"license."
+
+#: ../../install/license.rst:146 ../../install/license.rst:257
+msgid "V2CPファイルの生成"
+msgstr "V2CP File Creation"
+
+#: ../../install/license.rst:148
+msgid ""
+"インターネットに接続しているマシンのウェブブラウザから、\\ `Entitlement Management System (EMS) "
+"<https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\\ "
+"にアクセスします。"
+msgstr ""
+"Access `Entitlement Management System (EMS) "
+"<https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_ from "
+"a web browser on a machine connected to the internet."
+
+#: ../../install/license.rst:150 ../../install/license.rst:265
+msgid ""
+"\"Product Key ID\"の入力欄に、Entitlement Certificateに記載されている\"Product "
+"Key\"を入力してログインボタンをクリックしてください。"
+msgstr ""
+"In the \"Product Key ID\" field, enter the \"Product Key\" found in the "
+"Entitlement Certificate and click the login button."
+
+#: ../../install/license.rst:154 ../../install/license.rst:269
+msgid "Products画面が開いたら、Activate Offlineボタンをクリックします。"
+msgstr "When the Products screen opens, click the Activate Offline button."
+
+#: ../../install/license.rst:158
+msgid ""
+"Activate Products画面が開いたら、Select Fileボタンをクリックして、 :file:`nanolabo.c2v` "
+"を選択し、Complete Activationボタンをクリックします。"
+msgstr ""
+"When the Activate Products screen opens, click the Select File button, "
+"select :file:`nanolabo.c2v`, and click the Complete Activation button."
+
+#: ../../install/license.rst:162
+msgid "ライセンスを更新する場合は、必ず、新たに生成したC2Vファイルを使用してください。過去の設定・更新時に生成したものを誤って使用しないようにご注意ください。"
+msgstr ""
+"When updating the license, be sure to use the newly generated C2V file. "
+"Please be careful not to accidentally use one generated during previous "
+"configurations or updates."
+
+#: ../../install/license.rst:166 ../../install/license.rst:281
+msgid "アクティベーションに成功したら、Download Licenseをクリックして、V2CPファイル（拡張子:.v2cp）をダウンロードします。"
+msgstr ""
+"Upon successful activation, click Download License to download the V2CP "
+"file (extension: .v2cp)."
+
+#: ../../install/license.rst:172 ../../install/license.rst:287
+msgid "同一のV2CPファイルを圧縮して添付したメールが自動配信されますので、そちらを解凍してご利用いただくことも可能です。"
+msgstr ""
+"Alternatively, an email with the same V2CP file (compressed) attached "
+"will be automatically sent. You can unzip and use this file."
+
+#: ../../install/license.rst:174
+msgid "ダウンロードしたV2CPファイルを、NanoLaboをインストールしたマシンに移動してください。"
+msgstr "Move the downloaded V2CP file to the machine where NanoLabo is installed."
+
+#: ../../install/license.rst:177 ../../install/license.rst:294
+msgid "V2CPファイルの適用"
+msgstr "Applying V2CP file"
+
+#: ../../install/license.rst:179
+msgid ""
+"NanoLaboを再び起動し、先ほどと同様にして画面左上のメニュー |mainmenuicon| の "
+":menuselection:`License --> Authentication` からLicense Registration "
+"Guidance画面を開きます。"
+msgstr ""
+"Restart NanoLabo. Then, as before, open the License Registration Guidance"
+" screen by selecting |mainmenuicon| :menuselection:`License --> "
+"Authentication` from the menu in the upper left corner of the screen."
+
+#: ../../install/license.rst:181
+msgid ""
+"License Registration Guidance画面が表示されたら、\"Apply V2CP file "
+"\"nanolabo.v2cp\" for this machine. (offline)\"を選択し、OKボタンをクリックしてください。"
+msgstr ""
+"When the License Registration Guidance screen is displayed, select "
+"\"Apply V2CP file \"nanolabo.v2cp\" for this machine. (offline)\" and "
+"click the OK button."
+
+#: ../../install/license.rst:187
+msgid "ダウンロードしたV2CPファイルが :file:`nanolabo.v2cp` という名前でない場合もこちらの選択肢で問題ありません。"
+msgstr ""
+"Even if the downloaded V2CP file is not named :file:`nanolabo.v2cp`\\ , "
+"you can still use this option."
+
+#: ../../install/license.rst:189
+msgid "ファイルブラウザが表示されたら、手前の手順でダウンロードしたV2CPファイルを選択します。"
+msgstr ""
+"When the file browser appears, select the V2CP file downloaded in the "
+"previous step."
+
+#: ../../install/license.rst:191
+msgid ""
+"\"V2CP file has been applied, "
+"successfully.\"ダイアログが表示されたら、OKボタンをクリックしてください。NanoLaboの再起動を促すダイアログが表示されますので、Yesボタンをクリックしてください。"
+msgstr ""
+"When the \"V2CP file has been applied, successfully.\" dialog appears, "
+"click the OK button. A dialog will then prompt you to restart NanoLabo; "
+"click the Yes button."
+
+#: ../../install/license.rst:197
+msgid ""
+"V2CPファイルの適用に失敗した場合は、ダイアログのリンクからAdmin Control Center "
+"(ACC)を開き、V2CPファイルを適用してください。詳細は\\ :ref:`licenseacc` |rarr| "
+":ref:`licenseaccv2cpapply` \\  を参照してください。"
+msgstr ""
+"If V2CP file application fails, open the Admin Control Center (ACC) from "
+"the link in the dialog and apply the V2CP file there. For details, see "
+":ref:`licenseacc` |rarr| :ref:`licenseaccv2cpapply`\\ ."
+
+#: ../../install/license.rst:206 ../../install/license.rst:303
+msgid "ライセンスキーの選択"
+msgstr "License Key Selection"
+
+#: ../../install/license.rst:208
+msgid ""
+"NanoLaboを再起動後、画面左上のメニュー |mainmenuicon| から、再度 :menuselection:`License --> "
+"Authentication` を選択すると、\"Select a Sentinel License "
+"Key\"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。"
+msgstr ""
+"After restarting NanoLabo, select :menuselection:`License --> "
+"Authentication` again from the menu |mainmenuicon| in the upper left "
+"corner of the screen. The \"Select a Sentinel License Key\" dialog will "
+"appear. Select the license key from the list and click the OK button."
+
+#: ../../install/license.rst:221
+msgid "ライセンスの設定（ACCを利用）"
+msgstr "License Configuration (Using ACC)"
+
+#: ../../install/license.rst:225
+msgid ""
+"通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの設定は完了し、Admin Control "
+"Center (ACC)へのアクセスは必要ありません。NanoLaboからのライセンス設定ができない場合のみ、このセクションをご確認ください。"
+msgstr ""
+"Under normal circumstances, license configuration is completed through "
+"operations in NanoLabo and EMS (only if offline), and access to the "
+"Admin Control Center (ACC) is not required. Please refer to this section "
+"only if you cannot configure the license from NanoLabo."
+
+#: ../../install/license.rst:234
+msgid ""
+"NanoLaboをインストールしているマシンのウェブブラウザで、Admin Control Center (ACC) "
+"(http://localhost:1947) にアクセスしてください。ACCはオフラインのマシンからもアクセス可能です。"
+msgstr ""
+"In a web browser on the machine where NanoLabo is installed, access the "
+"Admin Control Center (ACC) (http://localhost:1947). ACC can also be "
+"accessed from offline machines."
+
+#: ../../install/license.rst:238
+msgid ""
+"フローティングライセンスをご利用の場合は、ライセンスサーバーのウェブブラウザでACC (http://localhost:1947) "
+"にアクセスしてください。"
+msgstr ""
+"If you are using a floating license, access ACC (http://localhost:1947) in "
+"the web browser on the license server."
+
+#: ../../install/license.rst:240
+msgid ""
+"ウェブブラウザが使用できない場合は、\\ :ref:`floating`\\ "
+"を参照して、ウェブブラウザを使用可能な別のマシンからライセンスサーバーのACCにアクセスしてください。"
+msgstr ""
+"If a web browser is not available, refer to :ref:`floating` and access ACC "
+"on the license server from another machine where a web browser is available."
+
+#: ../../install/license.rst:242
+msgid ""
+"ACCのSentinel "
+"Keys画面のリストのうち、Vendorの欄に32462と記載されている行の、Fingerprintボタンをクリックして、C2Vファイル "
+":file:`fingerprint_32462.c2v` をダウンロードします。"
+msgstr ""
+"On the ACC Sentinel Keys screen, click the Fingerprint button in the row "
+"that lists 32462 in the Vendor column to download the C2V file "
+":file:`fingerprint_32462.c2v`\\ ."
+
+#: ../../install/license.rst:246
+msgid ""
+"弊社の他の製品のキーがマシンに対して登録されている場合、Vendorの欄に32462と記載されている行にFingerprintボタンは表示されません。この場合は、弊社の他の製品のキーに表示されているC2Vボタンをクリックして、C2Vファイル"
+" :file:`(KeyID)_(timestamp).c2v` をダウンロードしてください。"
+msgstr ""
+"If keys for our other products are registered on the machine, the "
+"Fingerprint button will not be displayed in the row where the Vendor column "
+"shows 32462. In this case, click the C2V button displayed for the other "
+"product key to download the C2V file :file:`(KeyID)_(timestamp).c2v`\\ ."
+
+#: ../../install/license.rst:250
+msgid ""
+"ライセンスを更新する場合は、必ず、更新を適用するライセンスキーに表示されているC2Vボタンをクリックして、C2Vファイル "
+":file:`(KeyID)_(timestamp).c2v` をダウンロードしてください。"
+msgstr ""
+"When updating the license, be sure to click the C2V button displayed for "
+"the license key you want to update, and download the C2V file "
+":file:`(KeyID)_(timestamp).c2v`\\ ."
+
+#: ../../install/license.rst:259
+msgid ""
+"次に、ウェブブラウザで\\ `EMS "
+"<https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\\ "
+"にアクセスします。"
+msgstr ""
+"Next, access `EMS <https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_ "
+"in a web browser."
+
+#: ../../install/license.rst:263
+msgid ""
+"C2Vファイルをダウンロードしたマシンがオフラインの場合は、C2Vファイルをオンラインの別のマシンに移動したうえで\\ `EMS "
+"<https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\\ "
+"にアクセスしてください。"
+msgstr ""
+"If the machine where you downloaded the C2V file is offline, move the C2V "
+"file to another online machine and then access `EMS "
+"<https://advancesoftcorporation.prod.sentinelcloud.com/customer/>`_\\ ."
+
+#: ../../install/license.rst:273
+msgid ""
+"Activate Products画面が開いたら、Select "
+"Fileボタンをクリックして、先ほどダウンロードしたC2Vファイルを選択し、Complete Activationボタンをクリックします。"
+msgstr ""
+"When the Activate Products screen opens, click the Select File button, "
+"select the C2V file you downloaded earlier, and click the Complete "
+"Activation button."
+
+#: ../../install/license.rst:277
+msgid ""
+"ライセンスを更新する場合は、 :file:`fingerprint_32462.c2v` "
+"ではなく、必ず、手前の手順でダウンロードしたC2Vファイル :file:`(KeyID)_(timestamp).c2v` を使用してください。"
+msgstr ""
+"When updating the license, be sure to use the C2V file "
+":file:`(KeyID)_(timestamp).c2v` downloaded in the previous step, not "
+":file:`fingerprint_32462.c2v`\\ ."
+
+#: ../../install/license.rst:289
+msgid "ダウンロードしたV2CPファイルは、ノードロックライセンスでNanoLaboを使用するマシンまたはフローティングライセンスでライセンスサーバーとして使用するマシンの任意のディレクトリに格納してください。"
+msgstr ""
+"Please store the downloaded V2CP file in any directory on the machine "
+"where you use NanoLabo with a node-locked license, or on the machine "
+"used as the license server with a floating license."
+
+#: ../../install/license.rst:296
+msgid ""
+"ACCの画面に戻り、左側のメニューからUpdate/Attach画面を開きます。Select "
+"Fileボタンから、ダウンロードしたV2CPファイルを選択し、Apply Fileボタンをクリックしてください。"
+msgstr ""
+"Return to the ACC screen and open the Update/Attach screen from the menu on "
+"the left. Click the Select File button, select the downloaded V2CP file, and "
+"click the Apply File button."
+
+#: ../../install/license.rst:300
+msgid "\"Your update was applied successfully.\"と表示されれば、ライセンスキーが有効となります。"
+msgstr ""
+"The license key becomes active when \"Your update was applied successfully.\" "
+"is displayed."
+
+#: ../../install/license.rst:321
+msgid ""
+"\"Select a Sentinel License "
+"Key\"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。"
+msgstr ""
+"The \"Select a Sentinel License Key\" dialog appears. Select the license key "
+"from the list and click the OK button."
+
+#: ../../install/license.rst:333
+msgid "ライセンスの更新"
+msgstr "License Update"
+
+#: ../../install/license.rst:334
+msgid ""
+"`support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ "
+":sup:`*` にライセンスの更新をリクエストしてください。"
+msgstr ""
+"Please request a license update to "
+"`support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ "
+":sup:`*`\\ ."
+
+#: ../../install/license.rst:339 ../../install/purchase.rst:120
+msgid ":smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`"
+msgstr ""
+":smallnote:`* We do not accept commercial or promotional emails unrelated"
+" to our products or services to this address.`"
+
+#: ../../install/license.rst:341
+msgid ""
+"ライセンス登録後、noreply\\@sentinelcloud.comから新しいEntitlement "
+"Certificateをメールでお送りしますので、記載されているProduct Keyを用いてライセンスの更新を行ってください。"
+msgstr ""
+"After registering the license, you will receive an email from noreply@sentinelcloud.com "
+"with a new Entitlement Certificate. Please use the Product Key provided in the "
+"email to update your license."
+
+#: ../../install/license.rst:343
+msgid "基本的な操作手順は、\\ :ref:`licenseset`\\ と同様です。ただし、以下の各セクションの注意点に留意して更新を行ってください。"
+msgstr ""
+"The basic operating procedure is the same as :ref:`licenseset`\\ . However, please "
+"perform the update while keeping in mind the precautions described in each of the "
+"following sections."
+
+#: ../../install/license.rst:348
+msgid "ライセンスの更新（オンライン）"
+msgstr "License Update (Online)"
+
+#: ../../install/license.rst:352 ../../install/license.rst:367
+msgid ""
+"必ず更新を適用したいライセンスキーを選択した状態で、更新作業を行ってください。ライセンスキーの確認・変更方法については\\ "
+":ref:`licenseinfo`\\  及び \\ :ref:`changelicense`\\ "
+"を参照してください。ライセンスキーが一つしかない場合は、特に対応の必要はありません。"
+msgstr ""
+"Make sure to select the license key you want to update before starting the update "
+"process. Refer to :ref:`licenseinfo` and :ref:`changelicense` for instructions on "
+"how to check and change license keys. If there is only one license key, no "
+"specific action is needed."
+
+#: ../../install/license.rst:354 ../../install/license.rst:373
+msgid ""
+"ライセンスの種類やバージョン等に関するダイアログが自動で表示される場合は、YesまたはCloseをクリックしてLicense "
+"Registration Guidanceを開いて下さい。"
+msgstr ""
+"If a dialog box concerning the license type, version, etc., is displayed "
+"automatically, click Yes or Close to open the License Registration Guidance."
+
+#: ../../install/license.rst:356
+msgid ""
+"最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、License"
+" Registration Guidanceは表示されません。代わりに、NanoLaboを起動後、画面左上のメニューの "
+":menuselection:`License --> Sentinel Settings --> Activate Automatically`"
+" を選択してください。"
+msgstr ""
+"When applying updates to the license or edition (such as adding concurrent "
+"users or upgrading to the Pro version) for a valid, latest-version Sentinel "
+"license, the License Registration Guidance will not be displayed. Instead, after "
+"launching NanoLabo, select :menuselection:`License --> Sentinel Settings --> "
+"Activate Automatically` from the menu in the upper left corner of the screen."
+
+#: ../../install/license.rst:358
+msgid "NanoLaboの再起動後のキーの選択は必要ありません。"
+msgstr "It is not necessary to select the key after restarting NanoLabo."
+
+#: ../../install/license.rst:363
+msgid "ライセンスの更新（オフライン）"
+msgstr "License Update (Offline)"
+
+#: ../../install/license.rst:371 ../../install/license.rst:394
+msgid "C2VファイルおよびV2CPファイルは必ず新たに生成したものを使用してください。過去の設定・更新時に生成したものを誤って使用しないようにご注意ください。"
+msgstr ""
+"Always use newly generated C2V and V2CP files. Please be careful not to "
+"accidentally use files generated during previous setups or updates."
+
+#: ../../install/license.rst:375
+msgid ""
+"最新バージョンの有効なSentinelライセンスに対して、ライセンス条件やエディションの更新（同時実行数の追加やPro版へのアップグレード等）を適用する場合は、License"
+" Registration Guidanceは表示されません。代わりに以下の操作を行ってください。"
+msgstr ""
+"When applying updates to the license or edition (such as adding concurrent "
+"users or upgrading to the Pro version) for a valid, latest-version Sentinel "
+"license, the License Registration Guidance will not be displayed. Instead, "
+"follow the steps below."
+
+#: ../../install/license.rst:377
+msgid ""
+"C2Vファイルを作成するには、画面左上のメニューの :menuselection:`License --> Sentinel Settings "
+"--> Create C2V file` \\ を選択してください。"
+msgstr ""
+"To create a C2V file, select :menuselection:`License --> Sentinel Settings --> "
+"Create C2V file` from the menu in the upper left corner of the screen."
+
+#: ../../install/license.rst:379
+msgid ""
+"V2CPファイルを適用するには、画面左上のメニューの :menuselection:`License --> Sentinel Settings "
+"--> Apply V2CP file` \\ を選択してください。"
+msgstr ""
+"To apply a V2CP file, select :menuselection:`License --> Sentinel Settings --> "
+"Apply V2CP file` from the menu in the upper left corner of the screen."
+
+#: ../../install/license.rst:381
+msgid "NanoLaboの再起動後のライセンスキーの選択は必要ありません。"
+msgstr "It is not necessary to select the license key after restarting NanoLabo."
+
+#: ../../install/license.rst:386
+msgid "ライセンスの更新（ACCを利用）"
+msgstr "License Update (Using ACC)"
+
+#: ../../install/license.rst:390
+msgid "通常の環境では、NanoLaboとEMS（EMSはオフラインの場合のみ）上の操作でライセンスの更新は完了し、ACCへのアクセスは必要ありません。NanoLaboからのライセンス更新ができない場合のみ、ACCをご利用ください。"
+msgstr ""
+"Under normal circumstances, license updates can be completed through operations "
+"in NanoLabo and EMS (EMS is used only for offline updates), and access to ACC is "
+"not required. Please use ACC only if you are unable to update the license via "
+"NanoLabo."
+
+#: ../../install/license.rst:398
+msgid ""
+"ACCのSentinel "
+"Keys画面からC2Vファイルをダウンロードする際は、必ず、更新を適用するキーに表示されているC2Vボタンをクリックしてダウンロードを行ってください。"
+msgstr ""
+"When downloading the C2V file from the Sentinel Keys screen in ACC, be sure to "
+"download it by clicking the C2V button associated with the key you intend to "
+"update."
+
+#: ../../install/license.rst:402
+msgid ""
+"初めてSentinelライセンスの設定を行う場合に必要なC2Vファイルのファイル名は :file:`fingerprint_32462.c2v` "
+"ですが、更新の際に必要なC2Vファイルのファイル名は :file:`(KeyID)_(timestamp).c2v` となります。"
+msgstr ""
+"The filename of the C2V file required when setting up the Sentinel license for "
+"the first time is :file:`fingerprint_32462.c2v`\\ , but the filename of the C2V "
+"file required for updates is :file:`(KeyID)_(timestamp).c2v`\\ ."
+
+#: ../../install/license.rst:404
+msgid "NanoLaboの再起動後のライセンスキーの選択は必要に応じて行ってください。"
+msgstr "Please select the license key after restarting NanoLabo if necessary."
+
+#: ../../install/license.rst:409
+msgid "フローティングライセンスの設定"
+msgstr "Floating license"
+
+#: ../../install/license.rst:411
+msgid ""
+"フローティングライセンスをご購入いただいた場合は、ライセンスの設定を行ったマシンとネットワーク接続された別のマシン（Windows・Linux・macOS\\"
+" :sup:`*`）でもNanoLaboを使うことができます。 `*`:sup: 管理者権限の無いmacOSを除く"
+msgstr ""
+"If you purchased a floating license, you can use NanoLabo on other machines "
+"(Windows, Linux, macOS\\ :sup:`*`\\ ) connected via network to the machine where "
+"the license is set up. `*`:sup: Excluding macOS without administrator "
+"privileges."
+
+#: ../../install/license.rst:415
+msgid "NanoLaboをインストールして、ライセンスの設定を行ってください。マシンの起動時に毎回自動でライセンスマネージャーが起動するため、一度ライセンスの設定を行って以降は特に必要な操作はありません。"
+msgstr ""
+"Install NanoLabo and configure the license. The license manager starts "
+"automatically each time the machine boots, so no further action is required "
+"after the initial license setup."
+
+#: ../../install/license.rst:418
+msgid ""
+"GUIが使えないマシンをライセンスサーバーとして使う場合、NanoLaboインストーラーは使わず、\\ `Sentinel-LDK-"
+"RTE（ライセンスマネージャー）をダウンロード <https://apps.advancesoft.jp/sentinel/Sentinel-"
+"LDK-RTE-for-AdvanceSoft-v10.13.1_Linux.tar.gz>`_\\ ・インストールしてください。"
+msgstr ""
+"When using a machine without a GUI as the license server, instead of using "
+"the NanoLabo installer, please download and install `Sentinel-LDK-RTE "
+"(License Manager) <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-"
+"AdvanceSoft-v10.13.1_Linux.tar.gz>`_\\ ."
+
+#: ../../install/license.rst:420
+msgid ""
+"tar -xf Sentinel-LDK-RTE-for-AdvanceSoft-v10.13.1_Linux.tar.gz\n"
+"cd aksusbd-10.13.1\n"
+"sudo ./dinst\n"
+"# アンインストール時には、同フォルダのdunstを実行してください。\n"
+"sudo ./dunst"
+msgstr ""
+"tar -xf Sentinel-LDK-RTE-for-AdvanceSoft-v10.13.1_Linux.tar.gz\n"
+"cd aksusbd-10.13.1\n"
+"sudo ./dinst\n"
+"# To uninstall, execute dunst in the same folder.\n"
+"sudo ./dunst"
+
+#: ../../install/license.rst:428
+msgid ""
+"ライセンスの設定を行うには、GUIアプリケーションを使用可能かつネットワーク接続された別のマシンからライセンスサーバーのACCにアクセスする必要があります。"
+" 以下のいずれかの方法で、ACCへのリモートアクセス設定を行ってください。"
+msgstr ""
+"License configuration requires accessing the license server's ACC from a "
+"separate, network-connected machine capable of running GUI applications. "
+"Configure remote access to ACC using one of the methods below."
+
+#: ../../install/license.rst:431
+msgid ""
+"ライセンスサーバーの :file:`/etc/hasplm/hasplm.ini` "
+"を管理者権限で編集し、以下の例を参考にして設定を記述してください。"
+msgstr ""
+"Edit :file:`/etc/hasplm/hasplm.ini` on the license server with administrator "
+"privileges and configure the settings referring to the example below."
+
+#: ../../install/license.rst:436
+msgid "/etc/hasplm/hasplm.iniの設定例"
+msgstr "Configuration example for /etc/hasplm/hasplm.ini"
+
+#: ../../install/license.rst
+msgid "accremote = 1"
+msgstr ""
+
+#: ../../install/license.rst
+msgid "adminremote = 0"
+msgstr ""
+
+#: ../../install/license.rst:444
+msgid "adminremoteに別の値が既に設定されている場合は、その値を変更する必要はありません。accremoteの値のみを変更してください。"
+msgstr ""
+"If adminremote already has a different value set, there is no need to "
+"change it. Only modify the value for accremote."
+
+#: ../../install/license.rst:446
+msgid ""
+"以上の設定を行うと、別のマシンのウェブブラウザのアドレス欄に http\\ ://<ライセンスサーバーのIPアドレス>:1947 "
+"と入力することで、ライセンスサーバーのACCにアクセスできます。"
+msgstr ""
+"With these settings configured, you can access the license server's ACC by "
+"entering http\\ ://<license server IP address>:1947 in the address bar of a "
+"web browser on a different machine."
+
+#: ../../install/license.rst:450
+msgid ""
+"リモートのACCに接続後、GUI画面からパスワードを設定することを推奨します。 ACCの画面左側のConfigurationを選択し、Basic "
+"Settingsタブを開くと、Password Protectionの欄からパスワードの適用範囲とパスワードを設定できます。 "
+"このパスワードは、選択した適用範囲(ACCの設定ページまたは全てのページ)にアクセスする際に必要となります。"
+msgstr ""
+"It is recommended to set a password via the GUI after connecting to the remote "
+"ACC. Select Configuration on the left side of the ACC screen, open the Basic "
+"Settings tab, and set the password scope and password in the Password "
+"Protection section. This password is required to access the selected scope "
+"(either the ACC configuration pages or all pages)."
+
+#: ../../install/license.rst:454
+msgid ""
+"SSHポートフォワーディングを利用してリモートのACCへアクセスします。詳細については\\ `こちらのドキュメント "
+"<https://apps.advancesoft.jp/sentinel/doc/index.html>`_\\ を参照してください。"
+msgstr ""
+"Use SSH port forwarding to access the remote ACC. Please refer to `this "
+"document <https://apps.advancesoft.jp/sentinel/doc/index.html>`_ for more "
+"details."
+
+#: ../../install/license.rst:456
+msgid "ACCに接続後、\\ :ref:`licenseacc`\\ に従ってライセンスの設定を行ってください。"
+msgstr ""
+"After connecting to ACC, follow the instructions in :ref:`licenseacc` to "
+"configure the license."
+
+#: ../../install/license.rst:460
+msgid ""
+"ファイアウォールの設定で、TCP/UDP ポート "
+"1947が開放されていない場合は、設定を変更して開放してください。（Windowsマシンの場合、インストール時に自動でこれらのポートは開放されるため、通常ではファイアウォールの設定は必要ありません。）"
+msgstr ""
+"If TCP/UDP port 1947 is not open in the firewall settings, change the settings "
+"to open it. (For Windows machines, these ports are automatically opened during "
+"installation, so firewall configuration is usually not required.)"
+
+#: ../../install/license.rst:464
+msgid ""
+"NanoLaboをインストールして起動し、\"Select a Sentinel License "
+"Key\"ダイアログで使用するライセンスキーを選択してください。一度選択したライセンスキーはデフォルトのキーとして登録されるため、それ以降の起動時に必要な操作はありません。"
+msgstr ""
+"Install and launch NanoLabo. In the \"Select a Sentinel License Key\" dialog "
+"that appears, select the license key you wish to use. This key will be "
+"registered as the default, so no further action is needed during subsequent "
+"launches."
+
+#: ../../install/license.rst:468
+msgid "ライセンスサーバーと異なるネットワークセグメントに存在するクライアントマシンで、NanoLaboインストール時にライセンスサーバーのIPアドレスまたはホスト名を設定していない場合は、以下の方法で設定を行ってください。"
+msgstr ""
+"If a client machine is on a different network segment from the license server "
+"and the server's IP address or hostname was not set during NanoLabo "
+"installation, follow the steps below to configure it."
+
+#: ../../install/license.rst:470
+msgid "クライアントマシンがWindowsまたはLinuxの場合"
+msgstr "For Windows or Linux client machines"
+
+#: ../../install/license.rst:472
+msgid ""
+"以下のディレクトリに :file:`hasp_32462.ini` "
+"ファイルを作成（既にある場合は編集）し、以下の例を参考にしてライセンスサーバーのIPアドレスまたはホスト名を記述（既にある場合は行を追加）してください。"
+msgstr ""
+"Create (or edit if it exists) the :file:`hasp_32462.ini` file in the directory "
+"specified below. Add a line with the license server's IP address or hostname, "
+"referring to the example below."
+
+#: ../../install/license.rst:474
+#, python-format
+msgid ""
+"Windowsの場合 : :file:`%LocalAppData%\\\\SafeNet Sentinel\\\\Sentinel "
+"LDK\\\\`"
+msgstr "Windows: :file:`%LocalAppData%\\\\SafeNet Sentinel\\\\Sentinel LDK\\\\`"
+
+#: ../../install/license.rst:476
+msgid "Linuxの場合 : :file:`$HOME/.hasplm/`"
+msgstr "Linux: :file:`$HOME/.hasplm/`"
+
+#: ../../install/license.rst:481
+msgid "IPアドレスが192.168.00.000の場合"
+msgstr "For IP address 192.168.00.000:"
+
+#: ../../install/license.rst
+msgid "serveraddr = 192.168.00.000"
+msgstr ""
+
+#: ../../install/license.rst:486
+msgid "クライアントマシンがmacOSの場合"
+msgstr "For macOS client machines"
+
+#: ../../install/license.rst:488
+msgid ""
+"クライアントマシンのウェブブラウザでAdmin Control Center (ACC) (http://localhost:1947) "
+"にアクセスし、画面左側のメニューのConfigurationを選択してください。"
+msgstr ""
+"On the client machine, open a web browser and navigate to the Admin Control "
+"Center (ACC) at http://localhost:1947 . Then, select Configuration from the "
+"menu on the left."
+
+#: ../../install/license.rst:490
+msgid ""
+"次に、Access to Remote License Managersタブを開いて、Remote License Search "
+"ParametersにライセンスサーバーのIPアドレスまたはホスト名を入力し、Submitをクリックしてください。"
+msgstr ""
+"Next, open the Access to Remote License Managers tab, enter the license "
+"server's IP address or hostname into the Remote License Search Parameters "
+"field, and click Submit."
+
+#: ../../install/license.rst:496
+msgid "ライセンスキーの確認方法"
+msgstr "How to check the license key"
+
+#: ../../install/license.rst:498
+msgid ""
+"画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Authentication` "
+"を選択すると、現在選択されているキーのIDなどの情報を確認できます。"
+msgstr ""
+"Select :menuselection:`License --> Authentication` from the menu |mainmenuicon| in "
+"the upper left corner to view information about the currently selected key, "
+"such as its ID."
+
+#: ../../install/license.rst:500
+msgid "より詳細な情報はAdmin Control Center (ACC)でご確認いただけます。"
+msgstr "More detailed information is available in the Admin Control Center (ACC)."
+
+#: ../../install/license.rst:504
+msgid ""
+"ローカルのACCにはNanoLaboの画面左上のメニュー |mainmenuicon| の :menuselection:`License -->"
+" Sentinel Settings --> Admin Control Center` からもアクセスできます。"
+msgstr ""
+"You can also access the local ACC from the NanoLabo menu |mainmenuicon| in the upper left "
+"corner by selecting :menuselection:`License --> Sentinel Settings "
+"--> Admin Control Center`."
+
+#: ../../install/license.rst:506
+msgid "選択されているキーが期限切れなどで有効でない場合、ライセンスエラーを示すダイアログに、選択されているキーのIDが表示されます。"
+msgstr ""
+"If the selected key is invalid (e.g., because it has expired), a license "
+"error dialog will appear, showing the ID of the invalid key."
+
+#: ../../install/license.rst:511
+msgid "ライセンスキーの変更方法"
+msgstr "How to change the license key"
+
+#: ../../install/license.rst:513
+msgid "複数のライセンスキーをご購入いただいている場合には、それらの内のどれか一つにログインして、NanoLaboをご利用いただくことになります。ログインするライセンスキーを変更する場合は、以下の手順に従って下さい。"
+msgstr ""
+"If you have multiple license keys, you will use NanoLabo by logging in with "
+"one of them. To change the license key used for login, follow the instructions "
+"below."
+
+#: ../../install/license.rst:515
+msgid ""
+"画面左上のメニュー |mainmenuicon| の :menuselection:`License --> Sentinel Settings "
+"--> Change License Key` を選択すると、\"Select a Sentinel License "
+"Key\"ダイアログが表示されますので、リストからライセンスキーを選択して、OKボタンをクリックしてください。"
+msgstr ""
+"Selecting :menuselection:`License --> Sentinel Settings --> Change "
+"License Key` from the menu |mainmenuicon| in the upper left corner displays the \"Select a "
+"Sentinel License Key\" dialog box. Select a license key from the list and click "
+"the OK button."
+
+#: ../../install/license.rst:519
+msgid ""
+"デフォルトで選択されているキーが期限切れなどで有効でない場合、ライセンスエラーを示すダイアログのSelect "
+"Keyボタンをクリックすると、\"Select a Sentinel License Key\"ダイアログが表示されます。"
+msgstr ""
+"If the key selected by default is invalid (e.g., expired), clicking the Select "
+"Key button on the license error dialog will display the \"Select a Sentinel "
+"License Key\" dialog box."
+
+#: ../../install/license.rst:523
+msgid "リストのloginsは、そのライセンスキーの機能に対して、現在いくつのログインがあるかを表しています。また、リストのconcurrencyは、そのライセンスキーの機能に同時にログインできる数の上限を表しています。"
+msgstr ""
+"'logins' in the list indicates the current number of active logins for the "
+"features of that license key. Additionally, 'concurrency' indicates the maximum "
+"number of simultaneous logins permitted for the features of that license key."
+
+#: ../../install/license.rst:525
+msgid "NanoLaboの再起動を促すダイアログが表示された場合は、YesボタンをクリックしてNanoLaboを再起動してください。"
+msgstr ""
+"If a dialog box appears prompting you to restart NanoLabo, click the Yes button "
+"to restart NanoLabo."
+
+#: ../../install/license.rst:527
+msgid "変更後のキーは、デフォルトのキーとして登録されるため、次回以降の起動時に選択し直す必要はありません。"
+msgstr ""
+"The selected key will be registered as the default key, so you do not need to "
+"select it again on future startups."
+
+#: ../../install/linux.rst:5
+msgid "インストール手順 (Linux)"
+msgstr "How to Install (Linux)"
+
+#: ../../install/linux.rst:10 ../../install/mac.rst:10
+#: ../../install/windows.rst:10
+msgid "インストールの準備"
+msgstr "Preparation"
+
+#: ../../install/linux.rst:12 ../../install/windows.rst:12
+msgid "本ソフトウェアのインストールには、インストーラーを使用します。インストーラーは3つに分かれています。それぞれ以下のリンクからダウンロードしてください。"
+msgstr ""
+"Installation of this software requires three separate installers. Please download "
+"each installer from the links below."
+
+#: ../../install/linux.rst:14 ../../install/mac.rst:14
+#: ../../install/windows.rst:14
+msgid "本体"
+msgstr "Main Program"
+
+#: ../../install/linux.rst:16
+msgid ""
+"`Advance/NanoLabo (ver.3.1) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3093>`_"
+msgstr ""
+
+#: ../../install/linux.rst:18 ../../install/mac.rst:18
+#: ../../install/windows.rst:18
+msgid "オープンソースの計算エンジン等"
+msgstr "Open Source Calculation Engines, etc."
+
+#: ../../install/linux.rst:20
+msgid ""
+"`Advance/NanoLabo Tool (ver.3.1) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3087>`_"
+msgstr ""
+
+#: ../../install/linux.rst:22 ../../install/mac.rst:22
+#: ../../install/windows.rst:22
+msgid "追加のGNN力場モデルファイル（FAIR-ChemまたはSevenNetを使う場合のみ）"
+msgstr ""
+"Additional GNN force field model files (Required only if using FAIR-Chem or "
+"SevenNet)"
+
+#: ../../install/linux.rst:24
+msgid ""
+"`Advance/NanoLabo GNNP (ver.3.1) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3085>`_"
+msgstr ""
+
+#: ../../install/linux.rst:28 ../../install/mac.rst:32
+#: ../../install/windows.rst:28
+msgid "計算をリモートで実行する場合でも、NanoLabo本体と同じマシンにNanoLabo Toolをインストールしてください。"
+msgstr ""
+"Ensure that you install NanoLabo Tool on the same machine where NanoLabo "
+"is installed, even if you intend to run calculations on a remote machine."
+
+#: ../../install/linux.rst:30
+msgid "インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先ディレクトリにコピーされます。"
+msgstr ""
+"The Java Runtime Environment is bundled with the installer. It will be "
+"transferred to the designated installation directory during the "
+"installation process."
+
+#: ../../install/linux.rst:37
+msgid "端末（ターミナル）で、インストーラーのあるディレクトリに移動します。実行権限を付与したら、まずAdvance/NanoLaboのインストーラーを実行します。"
+msgstr ""
+"Open a terminal and navigate to the directory containing the installers. "
+"After granting execution permissions, start by running the "
+"Advance/NanoLabo installer."
+
+#: ../../install/linux.rst:39
+msgid ""
+"$ chmod +x install_nanolabo_linux.bin\n"
+"$ ./install_nanolabo_linux.bin"
+msgstr ""
+
+#: ../../install/linux.rst:44
+msgid "言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
+msgstr ""
+"If a language selection window appears, choose a language for the "
+"installation process (note that this selection does not determine the "
+"language used within the software itself)."
+
+#: ../../install/linux.rst:46 ../../install/windows.rst:39
+msgid "画面の指示に従い、インストールの設定を行ってください。"
+msgstr ""
+"Proceed by following the on-screen instructions to configure the "
+"installation."
+
+#: ../../install/linux.rst:50
+msgid ""
+"書き込み権限のない場所にはインストールできません。インストール先として書き込み権限のある場所（ "
+":file:`/home/ユーザー名/AdvanceSoft/NanoLabo` "
+"など）を指定するか、書き込み権限のあるユーザーでインストーラーを実行してください。"
+msgstr ""
+"You cannot install the software in a location without write permission. "
+"Ensure you choose the location with write permission (e.g. "
+":file:`/home/username/AdvanceSoft/NanoLabo` ) as the installation "
+"destination, or execute the installer as the user with write permission."
+
+#: ../../install/linux.rst:52 ../../install/windows.rst:41
+msgid "フローティングライセンスでクライアントとして使用する場合、Sentinel-LDK-RTEをインストールしますか？でいいえを選択してください。"
+msgstr ""
+"When asked \"Install Sentinel-LDK-RTE?\", select No if you are using this "
+"machine as a client with a floating license."
+
+#: ../../install/linux.rst:54 ../../install/windows.rst:43
+msgid ""
+"ライセンスサーバーが異なるネットワークセグメントに存在する場合は、次の画面でライセンスサーバーのIPアドレスまたはホスト名を入力してください。ここで指定しない場合でも、後からライセンスサーバーのIPアドレスまたはホスト名を設定することは可能です。詳細は\\"
+" :ref:`floating`\\ を参照してください。"
+msgstr ""
+"If the license server is on a different network segment, please enter its IP "
+"address or hostname on the next screen. Even if not specified here, it is "
+"possible to configure the license server IP address or hostname later. For "
+"details, see :ref:`floating`\\ ."
+
+#: ../../install/linux.rst:58 ../../install/windows.rst:47
+msgid ""
+"設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo "
+"Toolのインストールの際に必要になりますので、控えておいていただくようお願いします。"
+msgstr ""
+"Once the configuration is complete, a summary window will appear. The "
+"Install Folder will be required when installing the Advance/NanoLabo Tool"
+". Please make a note of the install folder."
+
+#: ../../install/linux.rst:62 ../../install/windows.rst:51
+msgid "最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。"
+msgstr ""
+"At the final window, click \"Done\" to complete the installation of "
+"Advance/NanoLabo."
+
+#: ../../install/linux.rst:64 ../../install/windows.rst:53
+msgid "続けて、Advance/NanoLabo Toolのインストーラーを実行します。"
+msgstr "Next, run the Advance/NanoLabo Tool installer."
+
+#: ../../install/linux.rst:66
+msgid ""
+"$ chmod +x install_nanolabo_tool_linux.bin\n"
+"$ ./install_nanolabo_tool_linux.bin"
+msgstr ""
+
+#: ../../install/linux.rst:71 ../../install/windows.rst:55
+msgid "画面の指示に従い、インストールの設定を行ってください。インストール先として、Advance/NanoLaboと同じ場所を選択してください。"
+msgstr ""
+"Follow the on-screen instructions to configure the installation. Ensure "
+"you select  the same location for the installation destination as you did"
+" for Advance/NanoLabo."
+
+#: ../../install/linux.rst:75 ../../install/windows.rst:59
+msgid "インストール後、最後の画面で完了をクリックすると、Advance/NanoLabo Toolのインストールが終了します。"
+msgstr ""
+"At the final window, click \"Done\" to finish the installation of the "
+"Advance/NanoLabo Tool."
+
+#: ../../install/linux.rst:77 ../../install/windows.rst:61
+msgid "FAIR-ChemまたはSevenNetを使う場合は、Advance/NanoLabo GNNPも同様にインストールしてください。"
+msgstr ""
+"If using FAIR-Chem or SevenNet, please install Advance/NanoLabo GNNP similarly."
+
+#: ../../install/linux.rst:82 ../../install/mac.rst:70
+#: ../../install/windows.rst:66
 msgid "起動"
 msgstr "Launching"
 
-#: ../../install/linux.rst:183 ../../install/windows.rst:65
+#: ../../install/linux.rst:84 ../../install/windows.rst:68
 msgid "インストール時にショートカットを作成した場合は、ショートカットから起動してください。"
 msgstr ""
 "If you created a shortcut during installation, you can launch the "
 "software using that shortcut."
 
-#: ../../install/linux.rst:185
+#: ../../install/linux.rst:86
 msgid ""
 "直接起動する場合は、端末（ターミナル）でインストール先の :file:`bin` ディレクトリに移動し、 :file:`nanolabo.sh` "
 "を起動してください。"
@@ -411,19 +1588,28 @@ msgstr ""
 ":file:`bin` directory within the install destination, and then execute "
 ":file:`nanolabo.sh` ."
 
-#: ../../install/linux.rst:187
+#: ../../install/linux.rst:88
 msgid "$ ./nanolabo.sh"
 msgstr ""
 
-#: ../../install/linux.rst:194
-msgid "3Dモデルが表示されない場合"
+#: ../../install/linux.rst:92 ../../install/mac.rst:102
+#: ../../install/windows.rst:72
+msgid ""
+"初回起動時にはライセンスに関するダイアログが表示されますので、\\ :ref:`こちら <licensesetupdate>`\\ "
+"の手順に従ってライセンスの設定を行ってください。"
+msgstr ""
+"On initial launch, a license dialog will appear. Please follow the procedure "
+":ref:`here <licensesetupdate>` to set up the license."
+
+#: ../../install/linux.rst:97
+msgid "3Dモデルが表示されない場合の設定"
 msgstr "If 3D models aren't displayed"
 
-#: ../../install/linux.rst:196
+#: ../../install/linux.rst:99
 msgid "Java VMの引数を追加することで表示が改善します。"
 msgstr "You can add a Java VM argument to address the display issue."
 
-#: ../../install/linux.rst:198
+#: ../../install/linux.rst:101
 msgid ""
 "画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Java VM` を開き、 "
 ":guilabel:`Arguments for Java VM` に ``-Dprism.forceGPU=true`` を追加します。その後 "
@@ -434,35 +1620,48 @@ msgstr ""
 "``-Dprism.forceGPU=true`` to the :guilabel:`Arguments for Java VM`\\ . "
 "Then, click :guilabel:`OK` and restart NanoLabo."
 
-#: ../../install/linux.rst:200
-msgid "mainmenuicon"
-msgstr ""
+#: ../../install/linux.rst:109 ../../install/mac.rst:107
+#: ../../install/windows.rst:77
+msgid "追加の設定項目"
+msgstr "Additional Settings"
 
-#: ../../install/linux.rst:205 ../../install/mac.rst:91
-#: ../../install/windows.rst:72
-msgid "（任意）グラフニューラルネットワーク汎用力場の設定"
-msgstr "(Optional) Configuration for graph neural network versatile force field"
-
-#: ../../install/linux.rst:207 ../../install/mac.rst:93
-#: ../../install/windows.rst:74
-msgid ""
-"LAMMPSの計算でグラフニューラルネットワーク汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\\ "
-":doc:`Open Catalyst Projectの設定 </usage/ocp>`\\ 、\\ :doc:`M3GNetの設定 "
-"</usage/m3gnet>`\\ 、\\ :doc:`CHGNetの設定 </usage/chgnet>`\\ をそれぞれ参照してください。"
-msgstr ""
-"To utilize the graph neural network versatile force field in LAMMPS "
-"calculations, additional settings in the Python environment are "
-"necessary. For the detailed procedure, please refer :doc:`Open Catalyst "
-"Project setting </usage/ocp>`, :doc:`M3GNet setting </usage/m3gnet>`, or "
-":doc:`CHGNet setting </usage/chgnet>`."
-
-#: ../../install/linux.rst:212 ../../install/mac.rst:98
+#: ../../install/linux.rst:111 ../../install/mac.rst:109
 #: ../../install/windows.rst:79
-msgid "（任意）汎用タイトバインディング法(ThreeBodyTB)の設定"
-msgstr "(Optional) Configuration for versatile tight-binding method (ThreeBodyTB)"
+msgid "Materials FinderのAPI設定"
+msgstr "Materials Finder API Settings"
 
-#: ../../install/linux.rst:214 ../../install/mac.rst:100
+#: ../../install/linux.rst:113 ../../install/mac.rst:111
 #: ../../install/windows.rst:81
+msgid ""
+"Materials Projectから結晶構造を取得するためにAPIキーの設定が必要です。設定方法は\\ :ref:`こちら "
+"<materialsfinder>`\\ を参照してください。"
+msgstr ""
+"Configuration of an API key is required to obtain crystal structures from the "
+"Materials Project. For the configuration method, please see :ref:`here "
+"<materialsfinder>`\\ ."
+
+#: ../../install/linux.rst:115 ../../install/mac.rst:113
+#: ../../install/windows.rst:83
+msgid "グラフニューラルネットワーク汎用力場の設定"
+msgstr "Configuration for graph neural network universal force field"
+
+#: ../../install/linux.rst:117 ../../install/mac.rst:115
+#: ../../install/windows.rst:85
+msgid ""
+"LAMMPSの計算でグラフニューラルネットワーク汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\\ :doc:`こちら"
+" </usage/gnnp>`\\ を参照してください。"
+msgstr ""
+"To use graph neural network universal force fields in LAMMPS calculations, "
+"additional setup in a Python environment is required. For the configuration "
+"method, please see :doc:`here </usage/gnnp>`\\ ."
+
+#: ../../install/linux.rst:119 ../../install/mac.rst:117
+#: ../../install/windows.rst:87
+msgid "汎用タイトバインディング法(ThreeBodyTB)の設定"
+msgstr "Configuration for versatile tight-binding method (ThreeBodyTB)"
+
+#: ../../install/linux.rst:121 ../../install/mac.rst:119
+#: ../../install/windows.rst:89
 msgid ""
 "汎用タイトバインディング法(ThreeBodyTB)の計算を行うためには、別途Julia環境での設定が必要です。設定方法は\\ :doc:`こちら"
 " </usage/inputeditortb3>`\\ を参照してください。"
@@ -471,13 +1670,13 @@ msgstr ""
 " additional settings in the Julia environment are necessary. Please refer"
 " :doc:`here </usage/inputeditortb3>` for the detailed setup instructions."
 
-#: ../../install/linux.rst:219 ../../install/mac.rst:105
-#: ../../install/windows.rst:86
-msgid "（任意）リモート計算の設定"
-msgstr "(Optional) Setting up for remote calculation"
+#: ../../install/linux.rst:123 ../../install/mac.rst:121
+#: ../../install/windows.rst:91
+msgid "リモート計算の設定"
+msgstr "Setting up for remote calculation"
 
-#: ../../install/linux.rst:221 ../../install/mac.rst:107
-#: ../../install/windows.rst:88
+#: ../../install/linux.rst:125 ../../install/mac.rst:123
+#: ../../install/windows.rst:93
 msgid ""
 "NanoLaboからリモートのマシンに計算ジョブを投入する場合、SSH接続の設定が必要です。設定方法は\\ :doc:`こちら "
 "</usage/sshserver>`\\ を参照してください。"
@@ -486,26 +1685,37 @@ msgstr ""
 " to establish an SSH connection. Please refer :doc:`here "
 "</usage/sshserver>` for the detailed setup instructions."
 
-#: ../../install/linux.rst:226 ../../install/mac.rst:123
-#: ../../install/windows.rst:93
+#: ../../install/linux.rst:130 ../../install/mac.rst:128
+#: ../../install/windows.rst:98
 msgid "更新・アップグレード"
 msgstr "Update/Upgrade"
 
-#: ../../install/linux.rst:228 ../../install/mac.rst:125
-#: ../../install/windows.rst:95
-msgid "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。ライセンスファイルのみ置き換えてください。"
+#: ../../install/linux.rst:132 ../../install/mac.rst:130
+#: ../../install/windows.rst:100
+msgid ""
+"トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。\\ :ref:`licenseupdate`\\ "
+"を参考にしてライセンスのみを更新してください。"
 msgstr ""
-"When upgrading from the trial version to the production version, there is"
-" no need for an additional installation. Simply replace the license file."
+"When upgrading from the trial version to the full version, a new installation is "
+"not required. Please update only the license, referring to :ref:`licenseupdate`\\ ."
 
-#: ../../install/linux.rst:230 ../../install/windows.rst:97
+#: ../../install/linux.rst:134 ../../install/windows.rst:102
 msgid "新しいバージョンにアップデートされる場合、上書きインストールが可能です。"
 msgstr ""
 "When updating to a newer version, you can install directly over the "
 "existing version."
 
-#: ../../install/linux.rst:232 ../../install/mac.rst:129
-#: ../../install/windows.rst:99
+#: ../../install/linux.rst:136 ../../install/mac.rst:134
+#: ../../install/windows.rst:104
+msgid ""
+"メジャーバージョンが新しいNanoLaboにアップデートする場合は、ライセンスの更新が必要です。\\ :ref:`licenseupdate`\\"
+" を参考にしてライセンスを更新してください。"
+msgstr ""
+"When updating to a new major version of NanoLabo, a license update is required. "
+"Please update the license, referring to :ref:`licenseupdate`\\ ."
+
+#: ../../install/linux.rst:138 ../../install/mac.rst:136
+#: ../../install/windows.rst:106
 msgid ""
 "NanoLaboと同時にNanoLabo Toolが更新されている場合は、そちらもアップデートしてください。最新版のNanoLabo "
 "Toolに同梱されている計算エンジンでの使用を想定しています。"
@@ -515,20 +1725,20 @@ msgstr ""
 "conjunction with the calculation engines provided in the latest version "
 "of NanoLabo Tool."
 
-#: ../../install/linux.rst:234 ../../install/mac.rst:131
-#: ../../install/windows.rst:101
+#: ../../install/linux.rst:140 ../../install/mac.rst:138
+#: ../../install/windows.rst:108
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
 "Your software configurations and any projects you have created are stored"
 " separately from the installation directory. This ensures that you can "
 "continue using the software seamlessly, even after the update."
 
-#: ../../install/linux.rst:239 ../../install/mac.rst:136
-#: ../../install/windows.rst:106
+#: ../../install/linux.rst:145 ../../install/mac.rst:143
+#: ../../install/windows.rst:113
 msgid "アンインストール"
 msgstr "Uninstallation"
 
-#: ../../install/linux.rst:241
+#: ../../install/linux.rst:147
 msgid ""
 "端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
 ":file:`Change NanoLabo Tool Installation` を起動します。"
@@ -537,30 +1747,32 @@ msgstr ""
 "in :file:`_NanoLabo_Tool_installation` directory at your installation "
 "destination."
 
-#: ../../install/linux.rst:243
+#: ../../install/linux.rst:149
 msgid ""
 "$ AdvanceSoft/NanoLabo/_NanoLabo_Tool_installation/Change\\ NanoLabo\\ "
 "Tool\\ Installation"
 msgstr ""
 
-#: ../../install/linux.rst:247 ../../install/windows.rst:123
+#: ../../install/linux.rst:153 ../../install/windows.rst:130
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow the on-screen instructions to proceed with the uninstallation."
 
-#: ../../install/linux.rst:249 ../../install/windows.rst:125
-msgid "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLaboをアンインストールしてください。"
+#: ../../install/linux.rst:155 ../../install/windows.rst:132
+msgid ""
+"Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLabo "
+"GNNP、Advance/NanoLaboをアンインストールしてください。"
 msgstr ""
-"After uninstalling the Advance/NanoLabo Tool, make sure to also uninstall"
-" Advance/NanoLabo."
+"After uninstalling Advance/NanoLabo Tool, similarly uninstall Advance/NanoLabo "
+"GNNP and Advance/NanoLabo."
 
-#: ../../install/linux.rst:253 ../../install/windows.rst:129
-msgid "アンインストールの際に、インストール先のライセンスファイルは削除されずに残ります。また、インストールログファイルが残る場合があります。その際はお手数ですが手動で削除してください。"
+#: ../../install/linux.rst:159 ../../install/windows.rst:136
+msgid "アンインストールの際に、インストールログファイルが残る場合があります。また、旧ライセンスをご利用の場合は、ライセンスファイルは削除されずに残ります。その際はお手数ですが手動で削除してください。"
 msgstr ""
-"The license file in the installation directory is not automatically "
-"removed during the uninstallation process. Additionally, installation log"
-" files might remain. If so, please delete them manually."
+"During uninstallation, installation log files may remain. Also, if you were "
+"using an old license, the license files will not be deleted. In such cases, "
+"please delete these files manually."
 
-#: ../../install/linux.rst:257
+#: ../../install/linux.rst:163
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` "
 "）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"
@@ -571,69 +1783,64 @@ msgstr ""
 "uninstallation process. If you wish to remove them, please do so "
 "manually."
 
+#: ../../install/linux.rst:167
+msgid ""
+"Sentinel-LDK-RTEを後からアンインストールするには、\\ `Sentinel-LDK-RTEインストーラー "
+"<https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-"
+"AdvanceSoft-v10.13.1_Linux.tar.gz>`_\\ に入っている :file:`dunst` を実行してください。"
+msgstr ""
+"To uninstall Sentinel-LDK-RTE later, please run :file:`dunst`, which is included "
+"in the `Sentinel-LDK-RTE installer <https://apps.advancesoft.jp/sentinel/Sentinel-"
+"LDK-RTE-for-AdvanceSoft-v10.13.1_Linux.tar.gz>`_\\ ."
+
 #: ../../install/mac.rst:5
 msgid "インストール手順 (macOS)"
 msgstr "How to Install (macOS)"
 
 #: ../../install/mac.rst:12
-msgid ""
-"本ソフトウェアのインストールには、ディスクイメージファイルを使用します。ファイルは本体の「Advance/NanoLabo」と、オープンソースの計算エンジン等を含む「Advance/NanoLabo"
-" Tool」の2つに分かれています。それぞれ以下のリンクからダウンロードしてください。"
+msgid "本ソフトウェアのインストールには、ディスクイメージファイルを使用します。ファイルは3つに分かれています。それぞれ以下のリンクからダウンロードしてください。"
 msgstr ""
-"This software is provided in the form of disk image files. There are two "
-"separate files: \"Advance/NanoLabo\", which is the primary image, and "
-"\"Advance/NanoLabo Tool\", encompassing open-source calculation engines, "
-"among other features. Please download both files from the provided links "
-"below."
-
-#: ../../install/mac.rst:14
-msgid "Intel版：従来のマシンではこちらの2つをダウンロードしてください。"
-msgstr "Intel ver.: for pre-existing machines, download these 2."
+"Installation of this software requires three disk image files. Please download "
+"each file from the links below."
 
 #: ../../install/mac.rst:16
 msgid ""
-"`Advance/NanoLabo (ver.3.0) Intel版 "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-Intel.dmg>`_"
+"`Advance/NanoLabo (ver.3.1) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3089>`_"
 msgstr ""
-"`Advance/NanoLabo (ver.3.0) Intel ver. "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-Intel.dmg>`_"
-
-#: ../../install/mac.rst:18
-msgid ""
-"`Advance/NanoLabo Tool (ver.3.0) Intel版 "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-Intel.dmg>`_"
-msgstr ""
-"`Advance/NanoLabo Tool (ver.3.0) Intel ver. "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-Intel.dmg>`_"
 
 #: ../../install/mac.rst:20
-msgid "ARM版：Apple M1搭載マシンではこちらの2つをダウンロードしてください。"
-msgstr "ARM ver.: for machines with Apple M1, download these 2."
-
-#: ../../install/mac.rst:22
 msgid ""
-"`Advance/NanoLabo (ver.3.0) ARM版 "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-ARM.dmg>`_"
+"`Advance/NanoLabo Tool (ver.3.1) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3083>`_"
 msgstr ""
-"`Advance/NanoLabo (ver.3.0) ARM ver. "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_mac_v3.0-ARM.dmg>`_"
 
 #: ../../install/mac.rst:24
 msgid ""
-"`Advance/NanoLabo Tool (ver.3.0) ARM版 "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-ARM.dmg>`_"
+"`Advance/NanoLabo GNNP (ver.3.1) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3066>`_"
 msgstr ""
-"`Advance/NanoLabo Tool (ver.3.0) ARM ver. "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_mac_v3.0-ARM.dmg>`_"
 
-#: ../../install/mac.rst:35
+#: ../../install/mac.rst:26
+msgid "また、ライセンスマネージャーとしてSentinel-LDK-RTEを使用します。以下のリンクからインストーラーをダウンロードしてください。"
+msgstr ""
+"Additionally, Sentinel-LDK-RTE is used as the license manager. Please download "
+"the installer from the link below."
+
+#: ../../install/mac.rst:28
+msgid ""
+"`Sentinel-LDK-RTE <https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-"
+"for-AdvanceSoft-v10.13.1_macOS.tar>`_"
+msgstr ""
+
+#: ../../install/mac.rst:39
 msgid "まず、Advance/NanoLaboのdmgファイルを開きます。マウントが終わるとディスクイメージの内容が表示されますので、NanoLaboアイコンをアプリケーションディレクトリへドラッグ＆ドロップしてください。"
 msgstr ""
 "First, open the Advance/NanoLabo dmg file. Once mounted, you'll see the "
 "content of the disk image. Drag & drop the NanoLabo icon to the "
 "Applications directory."
 
-#: ../../install/mac.rst:41
+#: ../../install/mac.rst:45
 msgid ""
 "次に、Advance/NanoLabo Toolのdmgファイルを開き、同じようにAdvanceSoftディレクトリをApplication "
 "Supportへドラッグ＆ドロップします。"
@@ -641,23 +1848,47 @@ msgstr ""
 "Next, open the Advance/NanoLabo Tool dmg file and drag & drop the "
 "AdvanceSoft directory into the Application Support directory."
 
-#: ../../install/mac.rst:47
+#: ../../install/mac.rst:51
 msgid "このとき、認証を求めるダイアログが表示されますので、「認証」をクリックして名前とパスワードを入力してください。"
 msgstr ""
 "A dialog box asking for authentication will appear. Click "
 ":guilabel:`Authenticate` and enter the your username and password."
 
-#: ../../install/mac.rst:58
+#: ../../install/mac.rst:57
+msgid ""
+"FAIR-ChemまたはSevenNetを使う場合は、Advance/NanoLabo "
+"GNNPも同様にインストールしてください。確認のダイアログが表示されたら、「結合」を選んでください。"
+msgstr ""
+"If using FAIR-Chem or SevenNet, also install Advance/NanoLabo GNNP. When a "
+"confirmation dialog is displayed, select \"Merge\"."
+
+#: ../../install/mac.rst:59
+msgid ""
+"続けて、Sentinel-LDK-RTEをインストールします。ダウンロードしたファイルをダブルクリックして展開し、 "
+":file:`SentinelRuntimeInstallerCLI` "
+"を実行してください。「開発元を検証できないため開けません。」の表示が出た場合は、 :kbd:`control` "
+"キーを押しながらクリックして開いてください。"
+msgstr ""
+"Next, install Sentinel-LDK-RTE. Double-click the downloaded file to extract "
+"it, and then run :file:`SentinelRuntimeInstallerCLI`. If the message \"cannot "
+"be opened because the developer cannot be verified.\" appears, hold down the "
+":kbd:`control` key and click the file to open it."
+
+#: ../../install/mac.rst:65
+msgid "画面の指示に従い、インストールを行ってください。"
+msgstr "Follow the on-screen instructions to install."
+
+#: ../../install/mac.rst:72
 msgid "アプリケーションディレクトリのNanoLaboアイコンから起動してください。"
 msgstr "Launch the software using the NanoLabo icon in the Applications directory."
 
-#: ../../install/mac.rst:60
+#: ../../install/mac.rst:74
 msgid "初回のみ、起動の際に許可が必要となります。以下の手順で起動してください。"
 msgstr ""
 "The first time you open it, you'll need to grant permission. Please "
 "follow this procedure."
 
-#: ../../install/mac.rst:62
+#: ../../install/mac.rst:76
 msgid ""
 ":kbd:`control` キーを押しながらNanoLaboを開きます（開くをクリックするまで :kbd:`control` "
 "キーを離さないでください）。"
@@ -665,19 +1896,19 @@ msgstr ""
 "Hold down :kbd:`control` key, then click to open NanoLabo (do not release"
 " :kbd:`control` key until you click :guilabel:`Open` )."
 
-#: ../../install/mac.rst:68
+#: ../../install/mac.rst:82
 msgid "「検証中」のプログレスバーが表示されます。時間がかかる場合がありますので、少しお待ちください。"
 msgstr ""
 "\"Verifying\" progress bar will appear. This process might take some "
 "time, so please be patient."
 
-#: ../../install/mac.rst:74
+#: ../../install/mac.rst:88
 msgid "実行の許可を確認するダイアログが表示されますので、「開く」をクリックしてください。"
 msgstr ""
 "A dialog will appear asking for confirmation to open the application. "
 "Click :guilabel:`Open`\\ ."
 
-#: ../../install/mac.rst:80
+#: ../../install/mac.rst:94
 msgid ""
 ":guilabel:`Activate Advance/NanoLabo` "
 "ダイアログが表示されたら、（管理者ユーザーでログインしている場合）ユーザーアカウントのパスワードを :guilabel:`Password of "
@@ -690,7 +1921,7 @@ msgstr ""
 "password is used only for executing the commands in place and is never "
 "saved."
 
-#: ../../install/mac.rst:82
+#: ../../install/mac.rst:96
 msgid ""
 "または、手動でターミナルを開いて :guilabel:`Command` "
 "欄に表示されたコマンドを管理者ユーザーで実行する方法もあります。rootユーザー以外の場合は ``sudo`` "
@@ -704,48 +1935,19 @@ msgstr ""
 ":guilabel:`OK` , but the dialog will not show up during subsequent "
 "startups if the process is successful."
 
-#: ../../install/mac.rst:114
-msgid "ソフトウェアを起動すると、ライセンス登録を案内する画面が表示されます。"
+#: ../../install/mac.rst:132
+msgid "新しいバージョンにアップデートされる場合は、インストール時と同じ操作を行い、確認が表示されたら「置き換える」を選択してください。"
 msgstr ""
-"A registration window for license activation appears when you launch the "
-"software."
+"When updating to a new version, perform the same operations as during the initial "
+"installation. When the confirmation prompt appears, select \"Replace\"."
 
-#: ../../install/mac.rst:116
-msgid ""
-"ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。 "
-":file:`/Library/Application Support/AdvanceSoft/NanoLabo/license` "
-"ディレクトリにコピーしてください。"
-msgstr ""
-"After you complete the license registration, we will send you a license "
-"file ( :file:`nanolabo.lic` ), basically you receive it within 5 business"
-" days. Please copy this file to :file:`/Library/Application "
-"Support/AdvanceSoft/NanoLabo/license` directory."
-
-#: ../../install/mac.rst:118
-msgid ""
-"Finderのメニューバーから :menuselection:`移動 --> フォルダへ移動...` "
-"をクリックし、上記パスを入力していただくと簡単です。"
-msgstr ""
-"An easy way to locate the directory is by using Finder. Click "
-":menuselection:`Go --> Go to Folder...` in the menu bar and enter the "
-"path provided above."
-
-#: ../../install/mac.rst:127
-msgid ""
-"新しいバージョンにアップデートされる場合は、インストール時と同じ操作を行い、確認が表示されたら「置き換える」を選択してください。アップデート後、ライセンスファイルを再度"
-" :file:`license` ディレクトリにコピーしてください。"
-msgstr ""
-"When updating to a newer version, follow the same steps as the initial "
-"installation. When prompted, choose :guilabel:`Replace`. Afterward, copy "
-"the license file to :file:`license` directory once again."
-
-#: ../../install/mac.rst:138
+#: ../../install/mac.rst:145
 msgid "アプリケーションディレクトリのNanoLaboを削除してください。"
 msgstr ""
 "To uninstall NanoLabo, locate and delete it from the Applications "
 "directory."
 
-#: ../../install/mac.rst:142
+#: ../../install/mac.rst:149
 msgid ""
 "計算エンジンの実行ファイル等は :file:`/Library/Application Support/AdvanceSoft` "
 "以下に保存されていますので、必要に応じて削除してください。"
@@ -754,13 +1956,23 @@ msgstr ""
 ":file:`/Library/Application Support/AdvanceSoft` . You can remove them if"
 " desired."
 
-#: ../../install/mac.rst:146
+#: ../../install/mac.rst:153
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは :file:`ホームディレクトリ/.nanolabo` "
 "に保存されていますので、必要に応じて削除してください。"
 msgstr ""
 "Configuration setting and projects created by this software are stored in"
 " :file:`home directory/.nanolabo` . You can remove them if you want."
+
+#: ../../install/mac.rst:157
+msgid ""
+"Sentinel-LDK-RTEをアンインストールするには、Sentinel-LDK-"
+"RTEのインストーラーと同じディレクトリにあるSentinel Runtime "
+"Uninstallを開きます。ダイアログの指示に従ってアンインストールを実行してください。"
+msgstr ""
+"To uninstall Sentinel-LDK-RTE, open Sentinel Runtime Uninstall, which is located "
+"in the same directory as the Sentinel-LDK-RTE installer. Follow the instructions "
+"in the dialog to perform the uninstallation."
 
 #: ../../install/purchase.rst:5
 msgid "ライセンスご購入方法"
@@ -774,189 +1986,203 @@ msgstr ""
 "purchase a paid license to continue using it."
 
 #: ../../install/purchase.rst:9
-msgid "試用版・製品版とも、ご使用には弊社よりライセンスを取得していただく必要があります。ライセンス形態は実行環境により以下のようになっています。"
+msgid "試用版・製品版とも、ご使用には弊社よりライセンスを取得していただく必要があります。ライセンス形態は以下の2種類からお選びいただけます。"
 msgstr ""
-"To use either the trial or paid version, please obtain your license from "
-"us. The license model varies based on the environment, as follows:"
+"To use either the trial version or the full version, you must obtain a license "
+"from our company. You can choose from the following two license types:"
 
 #: ../../install/purchase.rst:11
-msgid "Windows・macOS： ノードロックライセンス"
-msgstr "Windows, macOS: node-locked license"
+msgid "ノードロックライセンス"
+msgstr "Node-locked license"
 
 #: ../../install/purchase.rst:13
 msgid "本製品を使用するコンピューターが固定されます。"
 msgstr "This allows you to use the software on one specific computer."
 
 #: ../../install/purchase.rst:15
-msgid "Linux： フローティングライセンス"
-msgstr "Linux: floating license"
+msgid "\\* インストール時に管理者権限が必要です。"
+msgstr "\\* Administrator privileges are required for installation."
 
 #: ../../install/purchase.rst:17
+msgid "フローティングライセンス"
+msgstr "Floating license"
+
+#: ../../install/purchase.rst:19
 msgid "本製品を使用するコンピューターは固定されませんが、ライセンスサーバー（ライセンス認証用のプログラム）を起動するコンピューターが固定されます。"
 msgstr ""
 "This permits use of the software on any computer. However, the license "
 "server (program for license authentication) must be run on one specific "
 "computer."
 
-#: ../../install/purchase.rst:19
+#: ../../install/purchase.rst:21
+msgid "\\* ライセンスサーバーのインストール時に管理者権限が必要です。"
+msgstr "\\* Administrator privileges are required for license server installation."
+
+#: ../../install/purchase.rst:23
+msgid "\\* macOSをクライアントマシンとして利用する場合、インストール時に管理者権限が必要です。"
+msgstr ""
+"\\* When using macOS as a client machine, administrator privileges are required for "
+"installation."
+
+#: ../../install/purchase.rst:25
 msgid "また、本ソフトウェアから使用できるオープンソースの計算エンジンについて、有償にて技術サポートを承ります。併せてご利用ください。"
 msgstr ""
 "We also offer paid technical support for the open-source calculation "
 "engines that are compatible with this software. We encourage you to "
 "consider utilizing this service."
 
-#: ../../install/purchase.rst:24
+#: ../../install/purchase.rst:30
 msgid "エディション"
 msgstr "Editions"
 
-#: ../../install/purchase.rst:26
+#: ../../install/purchase.rst:32
 msgid "トライアルパッケージ"
 msgstr "Trial Package"
 
-#: ../../install/purchase.rst:28
+#: ../../install/purchase.rst:34
 msgid "1カ月間無料"
 msgstr "Free for 1 month"
 
-#: ../../install/purchase.rst:29
+#: ../../install/purchase.rst:35
 msgid "製品パッケージの全機能を使用可能"
 msgstr "All functionalities in production package available"
 
-#: ../../install/purchase.rst:31
+#: ../../install/purchase.rst:37
 msgid "製品パッケージ"
 msgstr "Production Package"
 
-#: ../../install/purchase.rst:33
+#: ../../install/purchase.rst:39
 msgid "Base"
 msgstr ""
 
-#: ../../install/purchase.rst:35
+#: ../../install/purchase.rst:41
 msgid "基本的なモデリング・計算実行・結果の可視化機能をお使いいただけます。"
 msgstr "Basic modeling / calculation / visualization functions"
 
-#: ../../install/purchase.rst:37
+#: ../../install/purchase.rst:43
 msgid "Pro"
 msgstr ""
 
-#: ../../install/purchase.rst:39
+#: ../../install/purchase.rst:45
 msgid "基本機能に加え、強化された追加のモデリング・計算機能をお使いいただけます。"
 msgstr "Basic + additional powerful modeling / calculation functions"
 
-#: ../../install/purchase.rst:41
-msgid "Ver. 2.9.1 Pro版では、界面モデル作成機能、高分子モデラー機能が使用できます。"
+#: ../../install/purchase.rst:47
+msgid "Ver. 3.1 Pro版では、界面モデル作成機能、高分子モデラー機能、GIPAW（NMRスペクトル）が使用できます。"
 msgstr ""
-"Interface model builder and polymer modeler are available in Ver. 2.9.1 "
-"Pro edition."
+"In the Ver. 3.1 Pro edition, the Interface Builder, Polymer Modeler, and GIPAW "
+"(NMR spectra) features are available."
 
-#: ../../install/purchase.rst:46
+#: ../../install/purchase.rst:52
 msgid "価格表"
 msgstr "Pricing"
 
-#: ../../install/purchase.rst:53
+#: ../../install/purchase.rst:59
 msgid "年間ライセンス\\ `*`:sup:\\ （万円／年、税抜）"
 msgstr "Annual license\\ `*`:sup:\\ (/yr. without tax)"
 
-#: ../../install/purchase.rst:53 ../../install/purchase.rst:69
-#: ../../install/purchase.rst:85
+#: ../../install/purchase.rst:59 ../../install/purchase.rst:75
+#: ../../install/purchase.rst:91
 msgid "企業、国研"
 msgstr "Company, National institute"
 
-#: ../../install/purchase.rst:53 ../../install/purchase.rst:69
-#: ../../install/purchase.rst:85
+#: ../../install/purchase.rst:59 ../../install/purchase.rst:75
+#: ../../install/purchase.rst:91
 msgid "大学"
 msgstr "University"
 
-#: ../../install/purchase.rst:55 ../../install/purchase.rst:71
+#: ../../install/purchase.rst:61 ../../install/purchase.rst:77
 msgid "Advance/NanoLabo Base"
 msgstr ""
 
-#: ../../install/purchase.rst:55 ../../install/purchase.rst:87
-#: ../../install/purchase.rst:89
+#: ../../install/purchase.rst:61 ../../install/purchase.rst:93
+#: ../../install/purchase.rst:95
 msgid "50"
 msgstr "500,000 JPY"
 
-#: ../../install/purchase.rst:55 ../../install/purchase.rst:87
-#: ../../install/purchase.rst:89
+#: ../../install/purchase.rst:61 ../../install/purchase.rst:93
+#: ../../install/purchase.rst:95
 msgid "25"
 msgstr "250,000 JPY"
 
-#: ../../install/purchase.rst:57 ../../install/purchase.rst:73
+#: ../../install/purchase.rst:63 ../../install/purchase.rst:79
 msgid "Advance/NanoLabo Pro"
 msgstr ""
 
-#: ../../install/purchase.rst:57
+#: ../../install/purchase.rst:63
 msgid "90"
 msgstr "900,000 JPY"
 
-#: ../../install/purchase.rst:57
+#: ../../install/purchase.rst:63
 msgid "45"
 msgstr "450,000 JPY"
 
-#: ../../install/purchase.rst:59 ../../install/purchase.rst:75
+#: ../../install/purchase.rst:65 ../../install/purchase.rst:81
 msgid "Jupyter Interface for NanoLabo"
 msgstr ""
 
-#: ../../install/purchase.rst:59
+#: ../../install/purchase.rst:65
 msgid "+40"
 msgstr "+400,000 JPY"
 
-#: ../../install/purchase.rst:59
+#: ../../install/purchase.rst:65
 msgid "+20"
 msgstr "+200,000 JPY"
 
-#: ../../install/purchase.rst:62
+#: ../../install/purchase.rst:68
 msgid "`*`:sup: 年間ライセンス料金には保守サポートサービスが含まれます。"
 msgstr ""
 "`*`:sup: Maintenance and support service is included in annual license "
 "price."
 
-#: ../../install/purchase.rst:69
+#: ../../install/purchase.rst:75
 msgid "買取ライセンス\\ `**`:sup:\\ （万円、税抜）"
 msgstr "Permanent license\\ `**`:sup:\\ (without tax)"
 
-#: ../../install/purchase.rst:71
+#: ../../install/purchase.rst:77
 msgid "150"
 msgstr "1,500,000 JPY"
 
-#: ../../install/purchase.rst:71
+#: ../../install/purchase.rst:77
 msgid "75"
 msgstr "750,000 JPY"
 
-#: ../../install/purchase.rst:73
+#: ../../install/purchase.rst:79
 msgid "270"
 msgstr "2,700,000 JPY"
 
-#: ../../install/purchase.rst:73
+#: ../../install/purchase.rst:79
 msgid "135"
 msgstr "1,350,000 JPY"
 
-#: ../../install/purchase.rst:75
+#: ../../install/purchase.rst:81
 msgid "+120"
 msgstr "+1,200,000 JPY"
 
-#: ../../install/purchase.rst:75
+#: ../../install/purchase.rst:81
 msgid "+60"
 msgstr "+600,000 JPY"
 
-#: ../../install/purchase.rst:78
+#: ../../install/purchase.rst:84
 msgid "`**`:sup: 買取ライセンス料金には初年度のみ保守サポートサービスが含まれます。２年目以降は別途保守料金が必要です。"
 msgstr ""
 "`**`:sup: The price of the permanent license includes one year of "
 "maintenance and support service. Starting from the second year, an "
 "additional maintenance fee will be required."
 
-#: ../../install/purchase.rst:85
+#: ../../install/purchase.rst:91
 msgid "技術サポート（万円／年、税抜）"
 msgstr "Technical support (/yr. without tax)"
 
-#: ../../install/purchase.rst:87
+#: ../../install/purchase.rst:93
 msgid "オプションQEサポート\\ |sspade|"
 msgstr "QE Support Option\\ |sspade|"
 
-#: ../../install/purchase.rst:89
+#: ../../install/purchase.rst:95
 msgid "オプションLPサポート\\ |sheart|"
 msgstr "LP Support Option\\ |sheart|"
 
-#: ../../install/purchase.rst:92
+#: ../../install/purchase.rst:98
 msgid ""
 "|sspade| `Quantum ESPRESSO <https://www.quantum-espresso.org/>`_\\ "
 "の技術サポートです。"
@@ -964,139 +2190,37 @@ msgstr ""
 "|sspade| Technical support on using `Quantum ESPRESSO <https://www"
 ".quantum-espresso.org/>`_\\ ."
 
-#: ../../install/purchase.rst:94
+#: ../../install/purchase.rst:100
 msgid "|sheart| `LAMMPS <https://www.lammps.org/>`_\\ の技術サポートです。"
 msgstr ""
 "|sheart| Technical support on using `LAMMPS <https://www.lammps.org/>`_\\"
 " ."
 
-#: ../../install/purchase.rst:107
-msgid "お申し込み手順"
-msgstr "Licensing procedure"
+#: ../../install/purchase.rst:113
+msgid "お申し込み方法"
+msgstr "How to Apply for a License"
 
-#: ../../install/purchase.rst:109
+#: ../../install/purchase.rst:115
 msgid ""
-"ご使用になるコンピューター（Windows・macOSでは本製品を使用するコンピューター、Linuxではライセンスサーバーを起動するコンピューター）について、固有のHost"
-" IDを取得し、そのHost IDに対してライセンスファイルを発行します。"
+"`support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ "
+":sup:`*` 宛にご希望のライセンス種別を明記の上お申し込みください。"
 msgstr ""
-"This software retrieves a unique Host ID from the computer (Windows/macOS"
-" computer where you use this software, or Linux computer where you run "
-"the license server). We then issue a license file corresponding to that "
-"specific Host ID."
+"Please apply to `support.nano@advancesoft.jp <mailto:support.nano@advancesoft.jp>`_ "
+":sup:`*`, including your name, country, affiliation, and desired license type."
 
-#: ../../install/purchase.rst:111
-msgid "ライセンス登録後、原則5営業日以内にライセンスファイルをお送りします。"
-msgstr ""
-"After you register the license, we will typically send you a license file"
-" within 5 business days. "
-
-#: ../../install/purchase.rst:116
-msgid "インストール時"
-msgstr "During installation"
-
-#: ../../install/purchase.rst:118
+#: ../../install/purchase.rst:122
 msgid ""
-"インストーラーでインストールを行う際に、ライセンス登録画面が表示されます。インストール手順（\\ "
-":doc:`Windows<windows>`\\ 、\\ :doc:`Linux<linux>`\\ ）を参照ください。"
+"ライセンス契約後、noreply\\@sentinelcloud.comからEntitlement "
+"Certificateをメールでお送りしますので、記載されているProduct Keyを用いてライセンスの設定を行ってください。"
 msgstr ""
-"The license registration window will appear during the installation "
-"process. For guidance, please refer to How to Install (\\ "
-":doc:`Windows<windows>`\\ , :doc:`Linux<linux>`\\ )."
+"After the license registration, an Entitlement Certificate will be sent via email "
+"from noreply@sentinelcloud.com. Please use the Product Key provided in the "
+"certificate to configure the license."
 
-#: ../../install/purchase.rst:123
-msgid "インストール後または試用期間後"
-msgstr "After installation / After trial period"
-
-#: ../../install/purchase.rst:125
-msgid "ライセンス未登録、または期間が終了した状態でソフトウェアを起動しようとすると、ライセンス登録を案内する画面が表示されます。"
+#: ../../install/purchase.rst:124
+msgid "ライセンスの設定手順については\\ :ref:`こちら <licensesetupdate>`\\ を参照して下さい。"
 msgstr ""
-"If the license is either unregistered or expired, a window prompting "
-"license registration will appear when you launch the software."
-
-#: ../../install/purchase.rst:127
-msgid ""
-":guilabel:`FlexNet License Finder` というタイトルのウィンドウが表示された場合、 "
-":guilabel:`Cancel` をクリックして閉じてください。"
-msgstr ""
-"A window titled :guilabel:`FLEXible License Finder` may appear. Click "
-":guilabel:`Cancel` to close it."
-
-#: ../../install/purchase.rst:128
-msgid ""
-":guilabel:`FLEXible License Manager` というタイトルのウィンドウが表示された場合、 "
-":guilabel:`OK` をクリックして閉じてください。"
-msgstr ""
-"A window titled :guilabel:`FLEXible License Manager` may appear. Click "
-":guilabel:`OK` to close it."
-
-#: ../../install/purchase.rst:129
-msgid ":guilabel:`Error` というタイトルのウィンドウが表示されます。 :guilabel:`OK` をクリックしてください。"
-msgstr "If a window titled :guilabel:`Error` appears, click :guilabel:`OK`\\ ."
-
-#: ../../install/purchase.rst:130
-msgid ""
-":guilabel:`License Registration Guidance` ウィンドウが表示されます。 :guilabel:`Mail` "
-"をクリックするか、ウィンドウ内のHost NameとHost IDをコピーし、 `support.nano@advancesoft.jp "
-"<mailto:support.nano@advancesoft.jp>`_ `*`:sup: 宛にご希望のライセンス種別と併せてお送りください。"
-msgstr ""
-"When the :guilabel:`License Registration Guidance` window appears, click "
-":guilabel:`Mail` or copy the Host Name and Host ID displayed in the "
-"window and send this information to `support.nano@advancesoft.jp "
-"<mailto:support.nano@advancesoft.jp>`_ `*`:sup: along with the license "
-"type you wish to order."
-
-#: ../../install/purchase.rst:135
-msgid ":smallnote:`* このメールアドレスへの特定電子メール（広告・宣伝メール）の送信を拒否いたします。`"
-msgstr ""
-":smallnote:`* We do not accept commercial or promotional emails unrelated"
-" to our products or services to this address.`"
-
-#: ../../install/purchase.rst:140
-msgid "Windows上からLinuxマシンのHost IDを取得"
-msgstr "Acquiring Host ID of Linux machine from Windows"
-
-#: ../../install/purchase.rst:142
-msgid ""
-"弊社ツール\\ `remoteLicense <https://remotelicense-"
-"doc.readthedocs.io/ja/latest/>`_\\ を使うことで、Windows上から簡単にLinuxマシンのHost "
-"IDを取得できます。"
-msgstr ""
-"You can utilize `remoteLicense <https://remotelicense-"
-"doc.readthedocs.io/en/latest/>`_ tool to conveniently obtain the Host ID "
-"of a Linux machine while using Windows."
-
-#: ../../install/purchase.rst:144
-msgid ""
-"手順の概要を以下に示します。詳細は\\ `マニュアル <https://remotelicense-"
-"doc.readthedocs.io/ja/latest/>`_\\ を参照してください。"
-msgstr ""
-"Below is the outline of the procedure. For detailed instruction, please "
-"refer to the `manual <https://remotelicense-"
-"doc.readthedocs.io/en/latest/>`_\\ ."
-
-#: ../../install/purchase.rst:146
-msgid ""
-"`remoteLicenseインストーラー <https://remotelicense-"
-"doc.readthedocs.io/ja/latest/install.html#download>`_\\ "
-"を使ってインストールし、起動します。"
-msgstr ""
-"Install the software using the `remoteLicense installer <https"
-"://remotelicense-doc.readthedocs.io/en/latest/install.html#download>`_ "
-"and then launch it."
-
-#: ../../install/purchase.rst:147
-msgid ":guilabel:`Host` タブでLinuxマシンへの接続情報を設定します。"
-msgstr ""
-"Navigate to the :guilabel:`Host` tab and input the connection details for"
-" the Linux machine."
-
-#: ../../install/purchase.rst:148
-msgid ""
-":guilabel:`Get Host ID` をクリックし、Host IDが取得できたら :guilabel:`Send Mail of "
-"License Request` をクリックします。"
-msgstr ""
-"Click on :guilabel:`Get Host ID` . Once the Host ID is retrieved, click "
-"on :guilabel:`Send Mail of License Request` ."
+"For the license setup procedure, please see :ref:`here <licensesetupdate>`\\ ."
 
 #: ../../install/requirement.rst:5
 msgid "動作環境"
@@ -1111,87 +2235,77 @@ msgid "Windows 10・Windows 11 (64 bit)"
 msgstr "Windows 10 / Windows 11 (64 bit)"
 
 #: ../../install/requirement.rst:10
-msgid "CentOS 7 (64 bit) （2024年6月30日のOSサポート終了に伴い、本製品でもサポート対象外となります。）"
-msgstr ""
-"CentOS 7 (64 bit) (With the end of OS support on June 30, 2024, use on it"
-" will no longer be supported.)"
-
-#: ../../install/requirement.rst:11
 msgid "AlmaLinux 8"
 msgstr ""
 
-#: ../../install/requirement.rst:12
-msgid "macOS Ventura(13)以降 (64 bit)（Intel/Apple M1対応）"
-msgstr "macOS Ventura(13) or later (64 bit)(Intel/Apple M1 supported)"
+#: ../../install/requirement.rst:11
+msgid "macOS Ventura(13)以降 (64 bit)（Apple M1対応）"
+msgstr "macOS Ventura(13) or later (64 bit)(Apple M1 supported)"
 
-#: ../../install/requirement.rst:14
+#: ../../install/requirement.rst:13
+msgid "同梱している各計算エンジンの実行ファイルはmacOS上でのMPI並列実行に対応しておりません。"
+msgstr ""
+"The bundled executable files for each calculation engine do not support MPI "
+"parallel execution on macOS."
+
+#: ../../install/requirement.rst:15
 msgid "Java"
 msgstr ""
 
-#: ../../install/requirement.rst:16
+#: ../../install/requirement.rst:17
 msgid "Java Runtime Environment 17"
 msgstr ""
+
+#: ../../install/requirement.rst:19
+msgid "インストーラーに同梱されており、同時にインストールされます。"
+msgstr "It is bundled with the installer and is installed simultaneously."
 
 #: ../../install/windows.rst:5
 msgid "インストール手順 (Windows)"
 msgstr "How to Install (Windows)"
 
-#: ../../install/windows.rst:14
-msgid ""
-"`Advance/NanoLabo (ver.3.0) "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_windows_v3.0.exe>`_"
-msgstr ""
-
 #: ../../install/windows.rst:16
 msgid ""
-"`Advance/NanoLabo Tool (ver.3.0) "
-"<https://www.apps.advancesoft.jp/nanolabo/install_nanolabo_tool_windows_v3.0.exe>`_"
+"`Advance/NanoLabo (ver.3.1) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3088>`_"
 msgstr ""
 
-#: ../../install/windows.rst:22
+#: ../../install/windows.rst:20
+msgid ""
+"`Advance/NanoLabo Tool (ver.3.1) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3086>`_"
+msgstr ""
+
+#: ../../install/windows.rst:24
+msgid ""
+"`Advance/NanoLabo GNNP (ver.3.1) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3084>`_"
+msgstr ""
+
+#: ../../install/windows.rst:30
 msgid "インストーラーにはJava Runtime Environmentが同梱されており、インストール時にインストール先フォルダにコピーされます。"
 msgstr ""
 "The Java Runtime Environment is bundled with the installer. It will be "
 "copied to the designated installation folder during installation process."
 
-#: ../../install/windows.rst:29
+#: ../../install/windows.rst:37
 msgid "まず、Advance/NanoLaboのインストーラーを実行します。言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
 msgstr ""
 "First, execute the Advance/NanoLabo installer. If a language selection "
 "window appears, choose a language for the installation process (this "
 "choice does not affect the software's language setting)."
 
-#: ../../install/windows.rst:31
-msgid ""
-"画面の指示に従い、インストールの設定を行ってください。設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo"
-" Toolのインストール、およびライセンスの設定の際に必要になりますので、控えておいていただくようお願いします。"
-msgstr ""
-"Follow the on-screen instructions to configure the installation. Once the"
-" configuration is complete, a summary window will be displayed. The "
-"Install Folder location will be required when you install "
-"Advance/NanoLabo Tool and set up the license. Please make a note of the "
-"installation folder."
-
-#: ../../install/windows.rst:58
-msgid ""
-"ライセンス登録後、原則5営業日以内にライセンスファイル( :file:`nanolabo.lic` )をお送りします。インストール先の "
-":file:`license` フォルダーにコピーしてください。"
-msgstr ""
-"After you complete the license registration, we will typically send you a"
-" license file ( :file:`nanolabo.lic` ) within 5 business days. Please "
-"copy this file to :file:`license` folder in your installation directory."
-
-#: ../../install/windows.rst:67
+#: ../../install/windows.rst:70
 msgid "直接起動する場合は、インストール先の :file:`bin` フォルダーにある :file:`NanoLabo.exe` を起動してください。"
 msgstr ""
 "To launch the software directly, navigate to the :file:`bin` folder in "
 "the installation directory and execute :file:`NanoLabo.exe` ."
 
-#: ../../install/windows.rst:108
+#: ../../install/windows.rst:115
 msgid "次のいずれかの方法でアンインストーラーを起動してください。"
 msgstr "Use one of the following procedures to run the uninstaller."
 
-#: ../../install/windows.rst:110
+#: ../../install/windows.rst:117
 msgid ""
 "スタートボタンを右クリックし、「アプリと機能」を開きます。リストの中にあるAdvance/NanoLabo "
 "Toolをクリックし、アンインストールボタンをクリックします。"
@@ -1199,7 +2313,7 @@ msgstr ""
 "Right click the Start button and select \"Apps and Features\"\\ . Find "
 "and click Advance/NanoLabo Tool from the list. Click Uninstall button."
 
-#: ../../install/windows.rst:111
+#: ../../install/windows.rst:118
 msgid ""
 "スタートメニューから「Windows システム ツール」内の「コントロール "
 "パネル」を開きます。「プログラムのアンインストール」（アイコン表示の場合は「プログラムと機能」）を開き、リストの中にあるAdvance/NanoLabo"
@@ -1210,7 +2324,7 @@ msgstr ""
 "Features\" if in icons view) and double click on Advance/NanoLabo Tool in"
 " the list."
 
-#: ../../install/windows.rst:112
+#: ../../install/windows.rst:119
 msgid ""
 "インストール先の :file:`_NanoLabo_Tool_installation` フォルダーにある :file:`Change "
 "NanoLabo Tool Installation.exe` を起動します。"
@@ -1219,7 +2333,7 @@ msgstr ""
 "installation directory. Execute :file:`Change NanoLabo Tool "
 "Installation.exe` . "
 
-#: ../../install/windows.rst:116
+#: ../../install/windows.rst:123
 msgid ""
 "NanoLabo Toolのアンインストーラーを起動しようとしたときに、「ご使用のシステムで適切な Java "
 "仮想マシンが見つかりませんでした。」というエラーが表示される場合があります。Java実行環境をインストールすることで実行できるようになりますが、以下の手順でも回避できます。"
@@ -1230,7 +2344,7 @@ msgstr ""
 "allows it to run, you can also bypass this issue with the following "
 "steps:"
 
-#: ../../install/windows.rst:118
+#: ../../install/windows.rst:125
 msgid ""
 "インストール先の :file:`_NanoLabo_installation\\\\Change NanoLabo "
 "Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行をコピーします。"
@@ -1239,7 +2353,7 @@ msgstr ""
 "located in the installation directory and copy the line starting with "
 "``lax.nl.current.vm`` ."
 
-#: ../../install/windows.rst:119
+#: ../../install/windows.rst:126
 msgid ""
 ":file:`_NanoLabo_Tool_installation\\\\Change NanoLabo Tool "
 "Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行を探して、コピーした内容を上書きします。"
@@ -1248,7 +2362,7 @@ msgstr ""
 "Installation.lax` and locate the line starting with ``lax.nl.current.vm``"
 " . Overwrite the content with the copied line."
 
-#: ../../install/windows.rst:121
+#: ../../install/windows.rst:128
 msgid ""
 ":file:`Program Files` "
 "への書き込みは制限されているため、管理者権限で実行したテキストエディタを使うか、いったんファイルを別のフォルダに移して編集してから元の場所に戻してください。"
@@ -1258,7 +2372,7 @@ msgstr ""
 "file to another folder, edit it there, and then move it back to its "
 "original location."
 
-#: ../../install/windows.rst:133
+#: ../../install/windows.rst:140
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\.nanolabo` "
@@ -1270,7 +2384,7 @@ msgstr ""
 "deleted during the uninstallation process. If you wish to remove them, "
 "you will need to do so manually."
 
-#: ../../install/windows.rst:135
+#: ../../install/windows.rst:142
 msgid ""
 "また、Java VMの設定は "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\AppData\\\\Local\\\\VirtualStore` "
@@ -1278,4 +2392,13 @@ msgid ""
 msgstr ""
 "In some case, Java VM setting is stored in "
 ":file:`C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\VirtualStore` ."
+
+#: ../../install/windows.rst:146
+msgid ""
+"Sentinel-LDK-RTEは\"Thales Sentinel LDK Run-time "
+"Environment\"という名前でインストールされます。後からアンインストールする場合はそちらをアンインストールしてください。"
+msgstr ""
+"Sentinel-LDK-RTE is installed under the name \"Thales Sentinel LDK Run-time "
+"Environment\". To uninstall it later, please uninstall the component with this "
+"name."
 

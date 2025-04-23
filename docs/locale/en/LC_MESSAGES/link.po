@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-15 10:28+0900\n"
+"POT-Creation-Date: 2025-04-21 16:46+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,387 +31,451 @@ msgid "https://www.advancesoft.jp/"
 msgstr ""
 
 #: ../../link.rst:11
+msgid "Sentinel-LDK-RTEドキュメント"
+msgstr "Sentinel-LDK-RTE document"
+
+#: ../../link.rst:11
+msgid "https://apps.advancesoft.jp/sentinel/doc/index.html"
+msgstr ""
+
+#: ../../link.rst:14
 msgid "Advance/NanoLabo"
 msgstr ""
 
-#: ../../link.rst:14
+#: ../../link.rst:17
 msgid "Advance/NanoLaboホームページ"
 msgstr "Advance/NanoLabo homepage"
 
-#: ../../link.rst:14
+#: ../../link.rst:17
 msgid "https://www.nanolabo.advancesoft.jp/"
 msgstr "https://www.nanolabo.advancesoft.jp/en/"
 
-#: ../../link.rst:17 ../../link.rst:32
+#: ../../link.rst:20 ../../link.rst:35
 msgid "解析事例"
 msgstr "Analysis cases"
 
-#: ../../link.rst:17
+#: ../../link.rst:20
 msgid "http://case.advancesoft.jp/NanoLabo/"
 msgstr ""
 
-#: ../../link.rst:20
+#: ../../link.rst:23
 msgid "製品紹介動画リスト"
 msgstr "Product introduction videos list"
 
-#: ../../link.rst:20
-msgid "https://www.youtube.com/playlist?list=PLbypViQv43hxxSwnYsUS8PNlAGpAjLE7J"
-msgstr ""
-
 #: ../../link.rst:23
+msgid "https://www.youtube.com/playlist?list=PLbypViQv43hxxSwnYsUS8PNlAGpAjLE7J"
+msgstr "https://www.youtube.com/playlist?list=PLbypViQv43hy0116qdGgvIvxtIGtWwKfK"
+
+#: ../../link.rst:26
 msgid "Advance/NeuralMD"
 msgstr ""
 
-#: ../../link.rst:26
+#: ../../link.rst:29
 msgid "Advance/NeuralMDホームページ"
 msgstr "Advance/NeuralMD homepage"
 
-#: ../../link.rst:26
+#: ../../link.rst:29
 msgid "https://www.nanolabo.advancesoft.jp/neuralmd/"
 msgstr "https://www.nanolabo.advancesoft.jp/en/neuralmd/"
 
-#: ../../link.rst:29 ../../link.rst:106
+#: ../../link.rst:32 ../../link.rst:109
 msgid "マニュアル"
 msgstr "Manual"
 
-#: ../../link.rst:29
+#: ../../link.rst:32
 msgid "https://neuralmd-doc.readthedocs.io/ja/latest/"
 msgstr "https://neuralmd-doc.readthedocs.io/en/latest/"
 
-#: ../../link.rst:32
+#: ../../link.rst:35
 msgid "http://case.advancesoft.jp/NeuralMD/"
 msgstr ""
 
-#: ../../link.rst:35
+#: ../../link.rst:38
 msgid "力場データベース"
 msgstr "Force field database"
 
-#: ../../link.rst:35
+#: ../../link.rst:38
 msgid "https://www.nanolabo.advancesoft.jp/forcefield/"
 msgstr ""
 
-#: ../../link.rst:38
+#: ../../link.rst:41
 msgid "Advance/PHASE"
 msgstr ""
 
-#: ../../link.rst:41
+#: ../../link.rst:44
 msgid "Advance/PHASEホームページ"
 msgstr "Advance/PHASE homepage"
 
-#: ../../link.rst:41
+#: ../../link.rst:44
 msgid "https://www.advancesoft.jp/products/nano/advance-phase/"
 msgstr ""
 
-#: ../../link.rst:44
+#: ../../link.rst:47
 msgid "Quantum ESPRESSO"
 msgstr ""
 
-#: ../../link.rst:47
+#: ../../link.rst:50
 msgid "Quantum ESPRESSO ホームページ"
 msgstr "Quantum ESPRESSO homepage"
 
-#: ../../link.rst:47
+#: ../../link.rst:50
 msgid "https://www.quantum-espresso.org/"
 msgstr ""
 
-#: ../../link.rst:52
+#: ../../link.rst:55
 msgid "擬ポテンシャル"
 msgstr "Pseudo potential"
 
-#: ../../link.rst:50
+#: ../../link.rst:53
 msgid "http://pseudopotentials.quantum-espresso.org/"
 msgstr ""
 
-#: ../../link.rst:52
+#: ../../link.rst:55
 msgid "http://pseudopotentials.quantum-espresso.org/legacy_tables/"
 msgstr ""
 
-#: ../../link.rst:55
+#: ../../link.rst:58
 msgid "|lsquo|\\ pw.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ pw.x\\ |rsquo| manual"
 
-#: ../../link.rst:55
+#: ../../link.rst:58
 msgid "https://www.quantum-espresso.org/Doc/INPUT_PW.html"
 msgstr ""
 
-#: ../../link.rst:58
+#: ../../link.rst:61
 msgid "|lsquo|\\ pp.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ pp.x\\ |rsquo| manual"
 
-#: ../../link.rst:58
+#: ../../link.rst:61
 msgid "https://www.quantum-espresso.org/Doc/INPUT_PP.html"
 msgstr ""
 
-#: ../../link.rst:61
+#: ../../link.rst:64
 msgid "|lsquo|\\ dos.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ dos.x\\ |rsquo| manual"
 
-#: ../../link.rst:61
+#: ../../link.rst:64
 msgid "https://www.quantum-espresso.org/Doc/INPUT_DOS.html"
 msgstr ""
 
-#: ../../link.rst:64
+#: ../../link.rst:67
 msgid "|lsquo|\\ projwfc.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ projwfc.x\\ |rsquo| manual"
 
-#: ../../link.rst:64
+#: ../../link.rst:67
 msgid "https://www.quantum-espresso.org/Doc/INPUT_PROJWFC.html"
 msgstr ""
 
-#: ../../link.rst:67
+#: ../../link.rst:70
 msgid "|lsquo|\\ band.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ band.x\\ |rsquo| manual"
 
-#: ../../link.rst:67
+#: ../../link.rst:70
 msgid "https://www.quantum-espresso.org/Doc/INPUT_BANDS.html"
 msgstr ""
 
-#: ../../link.rst:70
+#: ../../link.rst:73
 msgid "|lsquo|\\ cp.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ cp.x\\ |rsquo| manual"
 
-#: ../../link.rst:70
+#: ../../link.rst:73
 msgid "https://www.quantum-espresso.org/Doc/INPUT_CP.html"
 msgstr ""
 
-#: ../../link.rst:73
+#: ../../link.rst:76
 msgid "|lsquo|\\ turbo_lanczos.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ turbo_lanczos.x\\ |rsquo| manual"
 
-#: ../../link.rst:73
+#: ../../link.rst:76
 msgid "https://www.quantum-espresso.org/Doc/INPUT_Lanczos.html"
 msgstr ""
 
-#: ../../link.rst:76
+#: ../../link.rst:79
 msgid "|lsquo|\\ turbo_eels.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ turbo_eels.x\\ |rsquo| manual"
 
-#: ../../link.rst:76
+#: ../../link.rst:79
 msgid "https://www.quantum-espresso.org/Doc/INPUT_EELS.html"
 msgstr ""
 
-#: ../../link.rst:79
+#: ../../link.rst:82
 msgid "|lsquo|\\ turbo_spectrum.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ turbo_spectrum.x\\ |rsquo| manual"
 
-#: ../../link.rst:79
+#: ../../link.rst:82
 msgid "https://www.quantum-espresso.org/Doc/INPUT_Spectrum.html"
 msgstr ""
 
-#: ../../link.rst:82
+#: ../../link.rst:85
 msgid "|lsquo|\\ ph.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ ph.x\\ |rsquo| manual"
 
-#: ../../link.rst:82
+#: ../../link.rst:85
 msgid "https://www.quantum-espresso.org/Doc/INPUT_PH.html"
 msgstr ""
 
-#: ../../link.rst:85
+#: ../../link.rst:88
 msgid "|lsquo|\\ q2r.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ q2r.x\\ |rsquo| manual"
 
-#: ../../link.rst:85
+#: ../../link.rst:88
 msgid "https://www.quantum-espresso.org/Doc/INPUT_Q2R.html"
 msgstr ""
 
-#: ../../link.rst:88
+#: ../../link.rst:91
 msgid "|lsquo|\\ dynmat.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ dynmat.x\\ |rsquo| manual"
 
-#: ../../link.rst:88
+#: ../../link.rst:91
 msgid "https://www.quantum-espresso.org/Doc/INPUT_DYNMAT.html"
 msgstr ""
 
-#: ../../link.rst:91
+#: ../../link.rst:94
 msgid "|lsquo|\\ matdyn.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ matdyn.x\\ |rsquo| manual"
 
-#: ../../link.rst:91
+#: ../../link.rst:94
 msgid "https://www.quantum-espresso.org/Doc/INPUT_MATDYN.html"
 msgstr ""
 
-#: ../../link.rst:94
+#: ../../link.rst:97
 msgid "|lsquo|\\ neb.x\\ |rsquo| マニュアル"
 msgstr "|lsquo|\\ neb.x\\ |rsquo| manual"
 
-#: ../../link.rst:94
+#: ../../link.rst:97
 msgid "https://www.quantum-espresso.org/Doc/INPUT_NEB.html"
 msgstr ""
 
-#: ../../link.rst:97
+#: ../../link.rst:100
 msgid "アドバンスソフト改修版Quantum ESPRESSOソースコード"
 msgstr "Source code of Quantum ESPRESSO modified by AdvanceSoft"
 
-#: ../../link.rst:97
+#: ../../link.rst:100
 msgid "https://github.com/advancesoftcorp/espresso"
 msgstr ""
 
-#: ../../link.rst:100
+#: ../../link.rst:103
 msgid "LAMMPS"
 msgstr ""
 
-#: ../../link.rst:103
+#: ../../link.rst:106
 msgid "LAMMPSホームページ"
 msgstr "LAMMPS homepage"
 
-#: ../../link.rst:103
+#: ../../link.rst:106
 msgid "https://www.lammps.org/"
 msgstr ""
 
-#: ../../link.rst:106
+#: ../../link.rst:109
 msgid "https://docs.lammps.org/Manual.html"
 msgstr ""
 
-#: ../../link.rst:109
+#: ../../link.rst:112
 msgid "アドバンスソフト改修版LAMMPSソースコード"
 msgstr "Source code of LAMMPS modified by AdvanceSoft"
 
-#: ../../link.rst:109
+#: ../../link.rst:112
 msgid "https://github.com/advancesoftcorp/lammps"
 msgstr ""
 
-#: ../../link.rst:112
-msgid "Open Catalyst Project"
-msgstr ""
-
 #: ../../link.rst:115
-msgid "Open Catalyst Projectホームページ"
-msgstr "Open Catalyst Project homepage"
-
-#: ../../link.rst:115
-msgid "https://opencatalystproject.org/"
+msgid "MatGL"
 msgstr ""
-
-#: ../../link.rst:118 ../../link.rst:130 ../../link.rst:139 ../../link.rst:148
-#: ../../link.rst:157 ../../link.rst:163 ../../link.rst:172
-msgid "Gitリポジトリ"
-msgstr "Git repository"
 
 #: ../../link.rst:118
-msgid "https://github.com/Open-Catalyst-Project/ocp"
-msgstr ""
-
-#: ../../link.rst:121
-msgid "M3GNet"
-msgstr ""
-
-#: ../../link.rst:124
-msgid "従来版"
-msgstr "Original version"
-
-#: ../../link.rst:127
-msgid "M3GNetドキュメント"
-msgstr "M3GNet document"
-
-#: ../../link.rst:127
-msgid "https://materialsvirtuallab.github.io/m3gnet/"
-msgstr ""
-
-#: ../../link.rst:130
-msgid "https://github.com/materialsvirtuallab/m3gnet"
-msgstr ""
-
-#: ../../link.rst:133
-msgid "MatGL版"
-msgstr "MatGL version"
-
-#: ../../link.rst:136
 msgid "MatGLドキュメント"
 msgstr "MatGL document"
 
-#: ../../link.rst:136
+#: ../../link.rst:118
 msgid "https://matgl.ai/"
 msgstr ""
 
-#: ../../link.rst:139
+#: ../../link.rst:121 ../../link.rst:130 ../../link.rst:139 ../../link.rst:151
+#: ../../link.rst:163 ../../link.rst:172 ../../link.rst:181 ../../link.rst:190
+#: ../../link.rst:199
+msgid "Gitリポジトリ"
+msgstr "Git repository"
+
+#: ../../link.rst:121
 msgid "https://github.com/materialsvirtuallab/matgl"
 msgstr ""
 
-#: ../../link.rst:142
+#: ../../link.rst:124
 msgid "CHGNet"
 msgstr ""
 
-#: ../../link.rst:145
+#: ../../link.rst:127
 msgid "CHGNetドキュメント"
 msgstr "CHGNet document"
 
-#: ../../link.rst:145
+#: ../../link.rst:127
 msgid "https://chgnet.lbl.gov/"
 msgstr ""
 
-#: ../../link.rst:148
+#: ../../link.rst:130
 msgid "https://github.com/CederGroupHub/chgnet"
 msgstr ""
 
+#: ../../link.rst:133
+msgid "MACE"
+msgstr ""
+
+#: ../../link.rst:136
+msgid "MACEドキュメント"
+msgstr "MatGL document"
+
+#: ../../link.rst:136
+#, fuzzy
+msgid "https://mace-docs.readthedocs.io/en/latest/"
+msgstr "https://neuralmd-doc.readthedocs.io/en/latest/"
+
+#: ../../link.rst:139
+msgid "https://github.com/ACEsuit/mace"
+msgstr ""
+
+#: ../../link.rst:142
+msgid "MACE-OFF Gitリポジトリ"
+msgstr ""
+
+#: ../../link.rst:142
+msgid "https://github.com/ACEsuit/mace-off"
+msgstr ""
+
+#: ../../link.rst:145
+msgid "MACE-Osaka24 Gitリポジトリ"
+msgstr ""
+
+#: ../../link.rst:145
+msgid "https://github.com/qiqb-osaka/mace-osaka24"
+msgstr ""
+
+#: ../../link.rst:148
+msgid "Orb"
+msgstr ""
+
 #: ../../link.rst:151
-msgid "Simple DFT-D3"
+msgid "https://github.com/orbital-materials/orb-models"
 msgstr ""
 
 #: ../../link.rst:154
-msgid "Simple DFT-D3ドキュメント"
-msgstr "Simple DFT-D3 document"
+msgid "技術ブログ記事"
+msgstr ""
 
 #: ../../link.rst:154
-msgid "https://dftd3.readthedocs.io/en/latest/"
+msgid ""
+"https://www.orbitalmaterials.com/post/technical-blog-introducing-the-orb-"
+"ai-based-interatomic-potential"
 msgstr ""
 
 #: ../../link.rst:157
-msgid "https://github.com/dftd3/simple-dftd3"
+msgid "MatterSim"
 msgstr ""
 
 #: ../../link.rst:160
-msgid "SevenNet"
+msgid "MatterSimドキュメント"
+msgstr "MatterSim document"
+
+#: ../../link.rst:160
+msgid "https://microsoft.github.io/mattersim/"
 msgstr ""
 
 #: ../../link.rst:163
-msgid "https://github.com/MDIL-SNU/SevenNet"
+msgid "https://github.com/microsoft/mattersim"
 msgstr ""
 
 #: ../../link.rst:166
-msgid "ThreeBodyTB"
+msgid "FAIR-Chem"
 msgstr ""
 
 #: ../../link.rst:169
-msgid "ThreeBodyTBドキュメント"
-msgstr "ThreeBodyTB document"
+msgid "FAIR-Chemドキュメント"
+msgstr "FAIR-Chem document"
 
 #: ../../link.rst:169
-msgid "https://pages.nist.gov/ThreeBodyTB.jl/"
+msgid "https://fair-chem.github.io/"
 msgstr ""
 
 #: ../../link.rst:172
+msgid "https://github.com/FAIR-Chem/fairchem"
+msgstr ""
+
+#: ../../link.rst:175
+msgid "Meta Open Materials 2024 (OMat24) モデル"
+msgstr "Meta Open Materials 2024 (OMat24) model"
+
+#: ../../link.rst:175
+msgid "https://huggingface.co/fairchem/OMAT24"
+msgstr ""
+
+#: ../../link.rst:178
+msgid "torch-dftd"
+msgstr ""
+
+#: ../../link.rst:181
+msgid "https://github.com/pfnet-research/torch-dftd"
+msgstr ""
+
+#: ../../link.rst:184
+msgid "ブログ記事"
+msgstr "Blog article"
+
+#: ../../link.rst:184
+msgid "https://tech.preferred.jp/ja/blog/dft-dispersion-pytorch-oss/"
+msgstr "https://tech.preferred.jp/en/blog/oss-pytorch-dftd3/"
+
+#: ../../link.rst:187
+msgid "SevenNet"
+msgstr ""
+
+#: ../../link.rst:190
+msgid "https://github.com/MDIL-SNU/SevenNet"
+msgstr ""
+
+#: ../../link.rst:193
+msgid "ThreeBodyTB"
+msgstr ""
+
+#: ../../link.rst:196
+msgid "ThreeBodyTBドキュメント"
+msgstr "ThreeBodyTB document"
+
+#: ../../link.rst:196
+msgid "https://pages.nist.gov/ThreeBodyTB.jl/"
+msgstr ""
+
+#: ../../link.rst:199
 msgid "https://github.com/usnistgov/ThreeBodyTB.jl"
 msgstr ""
 
-#: ../../link.rst:177
+#: ../../link.rst:204
 msgid "材料データベース"
 msgstr "Materials database"
 
-#: ../../link.rst:180
+#: ../../link.rst:207
 msgid "Materials Project"
 msgstr ""
 
-#: ../../link.rst:180
+#: ../../link.rst:207
 msgid "https://materialsproject.org/"
 msgstr ""
 
-#: ../../link.rst:183
+#: ../../link.rst:210
 msgid "PubChem"
 msgstr ""
 
-#: ../../link.rst:183
+#: ../../link.rst:210
 msgid "https://pubchem.ncbi.nlm.nih.gov/"
 msgstr ""
 
-#: ../../link.rst:186
+#: ../../link.rst:213
 msgid "Matlantis"
 msgstr ""
 
-#: ../../link.rst:189
+#: ../../link.rst:216
 msgid "Matlantis\\ |tm|\\ ホームページ"
 msgstr "Matlantis\\ |tm| homepage"
 
-#: ../../link.rst:189
+#: ../../link.rst:216
 msgid "https://matlantis.com/ja/"
 msgstr "https://matlantis.com/"
 
