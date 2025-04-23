@@ -120,6 +120,17 @@ FAIR-ChemまたはSevenNetを使う場合は、Advance/NanoLabo GNNPも同様に
 
 .. note::
 
+   Windows 11でアンインストーラーを起動しようとしたときに、「This Application has Unexpectedly Quit」「Flexeraayd$aaa: Windows DLL failed to load」というエラーが表示される場合があります。
+
+   これは :envvar:`JAVA_TOOL_OPTIONS="-Dos.name=Windows 10"` という環境変数を設定することで回避できます。アンインストーラーのみに適用するには、例えば次のようなバッチファイルを作成し、管理者権限で実行してください。
+
+   .. code-block:: batch
+
+       set JAVA_TOOL_OPTIONS="-Dos.name=Windows 10"
+       "C:\Program Files\AdvanceSoft\NanoLabo\_NanoLabo_Tool_installation\Change NanoLabo Tool Installation.exe"
+
+.. note::
+
    NanoLabo Toolのアンインストーラーを起動しようとしたときに、「ご使用のシステムで適切な Java 仮想マシンが見つかりませんでした。」というエラーが表示される場合があります。Java実行環境をインストールすることで実行できるようになりますが、以下の手順でも回避できます。
 
    #. インストール先の :file:`_NanoLabo_installation\\Change NanoLabo Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行をコピーします。
