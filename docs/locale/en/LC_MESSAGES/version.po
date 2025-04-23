@@ -40,13 +40,13 @@ msgstr "New features"
 msgid "密度を指定してスラブモデルをリサイズする機能を分子充填画面内に追加"
 msgstr ""
 "Added a feature to resize slab models by specifying density in the Packing "
-"Molecules screen."
+"Molecules screen"
 
 #: ../../version.rst:11
 msgid "QE: DOS・Bandのバンドギャップの自動計算（プロットに表示を追加）"
 msgstr ""
 "QE: Automatic calculation of band gap for DOS and Band structure (added display "
-"of the value to the plot)."
+"of the value to the plot)"
 
 #: ../../version.rst:12
 msgid ""
@@ -54,15 +54,15 @@ msgid ""
 "Chem(eqV2)、ORB、MatterSim、MACE、SevenNet新モデル）"
 msgstr ""
 "LAMMPS: Added support for various open-source GNN force fields (FAIR-Chem(eqV2), "
-"ORB, MatterSim, MACE, SevenNet new models)."
+"ORB, MatterSim, MACE, SevenNet new models)"
 
 #: ../../version.rst:13
 msgid "ThreeBodyTB v1.0.0に対応"
-msgstr "Added support for ThreeBodyTB v1.0.0."
+msgstr "Added support for ThreeBodyTB v1.0.0"
 
 #: ../../version.rst:14
 msgid "QE: |Gamma|\\ -Trickの使用有無を切り替えるオプションを追加"
-msgstr "QE: Added an option to toggle the use of the |Gamma|-Trick."
+msgstr "QE: Added an option to toggle the use of the |Gamma|-Trick"
 
 #: ../../version.rst:16 ../../version.rst:61 ../../version.rst:96
 #: ../../version.rst:145 ../../version.rst:180 ../../version.rst:200
@@ -78,7 +78,7 @@ msgstr "Changed license management module to Sentinel"
 
 #: ../../version.rst:20
 msgid "Sentinelは従来のライセンスファイルと互換性がありません。"
-msgstr "Sentinel is not compatible with previous license files"
+msgstr "Sentinel is not compatible with previous license files."
 
 #: ../../version.rst:21
 msgid "移行期間として、約1年間は従来方式とSentinelから選択してライセンス認証が行えます。"
