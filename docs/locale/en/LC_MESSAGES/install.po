@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-23 17:03+0900\n"
+"POT-Creation-Date: 2025-05-22 12:20+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1766,11 +1766,11 @@ msgid ""
 "Tool\\ Installation"
 msgstr ""
 
-#: ../../install/linux.rst:153 ../../install/windows.rst:141
+#: ../../install/linux.rst:153 ../../install/windows.rst:121
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow the on-screen instructions to proceed with the uninstallation."
 
-#: ../../install/linux.rst:155 ../../install/windows.rst:143
+#: ../../install/linux.rst:155 ../../install/windows.rst:123
 msgid ""
 "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLabo "
 "GNNP、Advance/NanoLaboをアンインストールしてください。"
@@ -1778,7 +1778,7 @@ msgstr ""
 "After uninstalling Advance/NanoLabo Tool, similarly uninstall "
 "Advance/NanoLabo GNNP and Advance/NanoLabo."
 
-#: ../../install/linux.rst:159 ../../install/windows.rst:147
+#: ../../install/linux.rst:159 ../../install/windows.rst:127
 msgid "アンインストールの際に、インストールログファイルが残る場合があります。また、旧ライセンスをご利用の場合は、ライセンスファイルは削除されずに残ります。その際はお手数ですが手動で削除してください。"
 msgstr ""
 "During uninstallation, installation log files may remain. Also, if you "
@@ -2351,73 +2351,7 @@ msgstr ""
 "installation directory. Execute :file:`Change NanoLabo Tool "
 "Installation.exe` . "
 
-#: ../../install/windows.rst:123
-msgid ""
-"Windows 11でアンインストーラーを起動しようとしたときに、「This Application has Unexpectedly "
-"Quit」「Flexeraayd$aaa: Windows DLL failed to load」というエラーが表示される場合があります。"
-msgstr ""
-"When trying to launch the uninstaller on Windows 11, errors like \"This "
-"Application has Unexpectedly Quit\" or \"Flexeraayd$aaa: Windows DLL failed "
-"to load\" may be displayed."
-
-#: ../../install/windows.rst:125
-msgid ""
-"これは :envvar:`JAVA_TOOL_OPTIONS=\"-Dos.name=Windows 10\"` "
-"という環境変数を設定することで回避できます。アンインストーラーのみに適用するには、例えば次のようなバッチファイルを作成し、管理者権限で実行してください。"
-msgstr ""
-"This can be avoided by setting the environment variable "
-":envvar:`JAVA_TOOL_OPTIONS=\"-Dos.name=Windows 10\"`\\ . To apply this only to "
-"the uninstaller, for example, create a batch file like the following and run "
-"it with administrator privileges."
-
-#: ../../install/windows.rst:127
-msgid ""
-"set JAVA_TOOL_OPTIONS=\"-Dos.name=Windows 10\"\n"
-"\"C:\\Program "
-"Files\\AdvanceSoft\\NanoLabo\\_NanoLabo_Tool_installation\\Change "
-"NanoLabo Tool Installation.exe\""
-msgstr ""
-
-#: ../../install/windows.rst:134
-msgid ""
-"NanoLabo Toolのアンインストーラーを起動しようとしたときに、「ご使用のシステムで適切な Java "
-"仮想マシンが見つかりませんでした。」というエラーが表示される場合があります。Java実行環境をインストールすることで実行できるようになりますが、以下の手順でも回避できます。"
-msgstr ""
-"When attempting to launch the NanoLabo Tool uninstaller, you may "
-"encounter an error stating, 'Could not find a valid Java virtual machine "
-"on this system to load.' While installing the Java Runtime Environment "
-"allows it to run, you can also bypass this issue with the following "
-"steps:"
-
-#: ../../install/windows.rst:136
-msgid ""
-"インストール先の :file:`_NanoLabo_installation\\\\Change NanoLabo "
-"Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行をコピーします。"
-msgstr ""
-"Open :file:`_NanoLabo_installation\\\\Change NanoLabo Installation.lax` "
-"located in the installation directory and copy the line starting with "
-"``lax.nl.current.vm`` ."
-
-#: ../../install/windows.rst:137
-msgid ""
-":file:`_NanoLabo_Tool_installation\\\\Change NanoLabo Tool "
-"Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行を探して、コピーした内容を上書きします。"
-msgstr ""
-"Open :file:`_NanoLabo_Tool_installation\\\\Change NanoLabo Tool "
-"Installation.lax` and locate the line starting with ``lax.nl.current.vm``"
-" . Overwrite the content with the copied line."
-
-#: ../../install/windows.rst:139
-msgid ""
-":file:`Program Files` "
-"への書き込みは制限されているため、管理者権限で実行したテキストエディタを使うか、いったんファイルを別のフォルダに移して編集してから元の場所に戻してください。"
-msgstr ""
-"Writing to :file:`Program Files` is restricted, so either use a text "
-"editor executed with administrator privileges or temporarily move the "
-"file to another folder, edit it there, and then move it back to its "
-"original location."
-
-#: ../../install/windows.rst:151
+#: ../../install/windows.rst:131
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\.nanolabo` "
@@ -2429,7 +2363,7 @@ msgstr ""
 "deleted during the uninstallation process. If you wish to remove them, "
 "you will need to do so manually."
 
-#: ../../install/windows.rst:153
+#: ../../install/windows.rst:133
 msgid ""
 "また、Java VMの設定は "
 ":file:`C:\\\\Users\\\\ユーザ名\\\\AppData\\\\Local\\\\VirtualStore` "
@@ -2438,7 +2372,7 @@ msgstr ""
 "In some case, Java VM setting is stored in "
 ":file:`C:\\\\Users\\\\username\\\\AppData\\\\Local\\\\VirtualStore` ."
 
-#: ../../install/windows.rst:157
+#: ../../install/windows.rst:137
 msgid ""
 "Sentinel-LDK-RTEは\"Thales Sentinel LDK Run-time "
 "Environment\"という名前でインストールされます。後からアンインストールする場合はそちらをアンインストールしてください。"
@@ -2446,4 +2380,99 @@ msgstr ""
 "Sentinel-LDK-RTE is installed under the name \"Thales Sentinel LDK Run-"
 "time Environment\". To uninstall it later, please uninstall the component"
 " with this name."
+
+#: ../../install/windows.rst:142
+msgid "アンインストール時のエラー"
+msgstr "Troubleshooting"
+
+#: ../../install/windows.rst:144
+msgid "バージョンアップのためにアンインストールしようとしてエラーが出た場合は、アンインストールせずにそのまま上書きインストールするか、またはインストール先フォルダを削除してからインストールしていただければ問題ありません。"
+msgstr ""
+"If an error occurs when you try to uninstall for a version upgrade, you can "
+"resolve the issue by either performing an overwrite installation without "
+"uninstalling, or by deleting the installation folder and then installing."
+
+#: ../../install/windows.rst:146
+msgid ""
+"Windows 11でアンインストーラーを起動しようとしたときに、「This Application has Unexpectedly "
+"Quit」「Flexeraayd$aaa: Windows DLL failed to load」というエラーが表示される場合があります。"
+msgstr ""
+"When trying to launch the uninstaller on Windows 11, errors like \"This "
+"Application has Unexpectedly Quit\" or \"Flexeraayd$aaa: Windows DLL "
+"failed to load\" may be displayed."
+
+#: ../../install/windows.rst:148
+msgid ""
+"これは :envvar:`JAVA_TOOL_OPTIONS=\"-Dos.name=Windows 10\"` "
+"という環境変数を設定することで回避できます。アンインストーラーのみに適用するには、例えば次のようなバッチファイルを作成し、管理者権限で実行してください。"
+msgstr ""
+"This can be avoided by setting the environment variable "
+":envvar:`JAVA_TOOL_OPTIONS=\"-Dos.name=Windows 10\"`\\ . To apply this "
+"only to the uninstaller, for example, create a batch file like the "
+"following and run it with administrator privileges."
+
+#: ../../install/windows.rst:150
+msgid ""
+"set JAVA_TOOL_OPTIONS=\"-Dos.name=Windows 10\"\n"
+"\"C:\\Program "
+"Files\\AdvanceSoft\\NanoLabo\\_NanoLabo_Tool_installation\\Change "
+"NanoLabo Tool Installation.exe\""
+msgstr ""
+
+#: ../../install/windows.rst:155
+msgid ""
+"NanoLabo Toolのアンインストーラーを起動しようとしたときに、「ご使用のシステムで適切な Java "
+"仮想マシンが見つかりませんでした。」というエラーが表示される場合があります。Java実行環境をインストールすることで実行できるようになりますが、以下の手順でも回避できます。"
+msgstr ""
+"When attempting to launch the NanoLabo Tool uninstaller, you may "
+"encounter an error stating, 'Could not find a valid Java virtual machine "
+"on this system to load.' While installing the Java Runtime Environment "
+"allows it to run, you can also bypass this issue with the following "
+"steps:"
+
+#: ../../install/windows.rst:157
+msgid ""
+"インストール先の :file:`_NanoLabo_installation\\\\Change NanoLabo "
+"Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行をコピーします。"
+msgstr ""
+"Open :file:`_NanoLabo_installation\\\\Change NanoLabo Installation.lax` "
+"located in the installation directory and copy the line starting with "
+"``lax.nl.current.vm`` ."
+
+#: ../../install/windows.rst:158
+msgid ""
+":file:`_NanoLabo_Tool_installation\\\\Change NanoLabo Tool "
+"Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行を探して、コピーした内容を上書きします。"
+msgstr ""
+"Open :file:`_NanoLabo_Tool_installation\\\\Change NanoLabo Tool "
+"Installation.lax` and locate the line starting with ``lax.nl.current.vm``"
+" . Overwrite the content with the copied line."
+
+#: ../../install/windows.rst:160
+msgid ""
+":file:`Program Files` "
+"への書き込みは制限されているため、管理者権限で実行したテキストエディタを使うか、いったんファイルを別のフォルダに移して編集してから元の場所に戻してください。"
+msgstr ""
+"Writing to :file:`Program Files` is restricted, so either use a text "
+"editor executed with administrator privileges or temporarily move the "
+"file to another folder, edit it there, and then move it back to its "
+"original location."
+
+#: ../../install/windows.rst:162
+msgid "アンインストールの順序などにより、インストール先フォルダのJava実行環境が削除されてしまい、他のアンインストーラーが起動しなくなる場合があります。"
+msgstr ""
+"Due to factors such as the uninstallation sequence, the Java runtime "
+"environment (JRE) in the installation folder might be removed, and as a "
+"result, other uninstallers may fail to launch."
+
+#: ../../install/windows.rst:164
+msgid ""
+"`zip版のJava実行環境をダウンロード <https://download.bell-sw.com/java/17.0.14+10"
+"/bellsoft-jre17.0.14+10-windows-amd64-full.zip>`_\\ して展開し、 :file:`jre` "
+"という名前にリネームしてインストール先フォルダに配置することで起動できるようになります。"
+msgstr ""
+"`Download the zip version of the Java Runtime Environment <https://download.bell-"
+"sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-windows-amd64-full.zip>`_\\ , "
+"extract it, rename the resulting folder to :file:`jre` , and place it in the "
+"installation folder. This will allow other uninstallers to launch."
 

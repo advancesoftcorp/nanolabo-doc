@@ -118,26 +118,6 @@ FAIR-ChemまたはSevenNetを使う場合は、Advance/NanoLabo GNNPも同様に
 * スタートメニューから「Windows システム ツール」内の「コントロール パネル」を開きます。「プログラムのアンインストール」（アイコン表示の場合は「プログラムと機能」）を開き、リストの中にあるAdvance/NanoLabo Toolをダブルクリックします。
 * インストール先の :file:`_NanoLabo_Tool_installation` フォルダーにある :file:`Change NanoLabo Tool Installation.exe` を起動します。
 
-.. note::
-
-   Windows 11でアンインストーラーを起動しようとしたときに、「This Application has Unexpectedly Quit」「Flexeraayd$aaa: Windows DLL failed to load」というエラーが表示される場合があります。
-
-   これは :envvar:`JAVA_TOOL_OPTIONS="-Dos.name=Windows 10"` という環境変数を設定することで回避できます。アンインストーラーのみに適用するには、例えば次のようなバッチファイルを作成し、管理者権限で実行してください。
-
-   .. code-block:: batch
-
-       set JAVA_TOOL_OPTIONS="-Dos.name=Windows 10"
-       "C:\Program Files\AdvanceSoft\NanoLabo\_NanoLabo_Tool_installation\Change NanoLabo Tool Installation.exe"
-
-.. note::
-
-   NanoLabo Toolのアンインストーラーを起動しようとしたときに、「ご使用のシステムで適切な Java 仮想マシンが見つかりませんでした。」というエラーが表示される場合があります。Java実行環境をインストールすることで実行できるようになりますが、以下の手順でも回避できます。
-
-   #. インストール先の :file:`_NanoLabo_installation\\Change NanoLabo Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行をコピーします。
-   #. :file:`_NanoLabo_Tool_installation\\Change NanoLabo Tool Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行を探して、コピーした内容を上書きします。
-   
-    - :file:`Program Files` への書き込みは制限されているため、管理者権限で実行したテキストエディタを使うか、いったんファイルを別のフォルダに移して編集してから元の場所に戻してください。
-
 画面の指示に従い、アンインストールを行ってください。
 
 Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLabo GNNP、Advance/NanoLaboをアンインストールしてください。
@@ -155,3 +135,30 @@ Advance/NanoLabo Toolのアンインストールが終わったら、同様にAd
 .. note::
 
    Sentinel-LDK-RTEは"Thales Sentinel LDK Run-time Environment"という名前でインストールされます。後からアンインストールする場合はそちらをアンインストールしてください。
+
+.. _uninstallerrorw:
+
+アンインストール時のエラー
+-----------------------------
+
+- バージョンアップのためにアンインストールしようとしてエラーが出た場合は、アンインストールせずにそのまま上書きインストールするか、またはインストール先フォルダを削除してからインストールしていただければ問題ありません。
+
+- Windows 11でアンインストーラーを起動しようとしたときに、「This Application has Unexpectedly Quit」「Flexeraayd$aaa: Windows DLL failed to load」というエラーが表示される場合があります。
+
+ これは :envvar:`JAVA_TOOL_OPTIONS="-Dos.name=Windows 10"` という環境変数を設定することで回避できます。アンインストーラーのみに適用するには、例えば次のようなバッチファイルを作成し、管理者権限で実行してください。
+
+ .. code-block:: batch
+
+     set JAVA_TOOL_OPTIONS="-Dos.name=Windows 10"
+     "C:\Program Files\AdvanceSoft\NanoLabo\_NanoLabo_Tool_installation\Change NanoLabo Tool Installation.exe"
+
+- NanoLabo Toolのアンインストーラーを起動しようとしたときに、「ご使用のシステムで適切な Java 仮想マシンが見つかりませんでした。」というエラーが表示される場合があります。Java実行環境をインストールすることで実行できるようになりますが、以下の手順でも回避できます。
+
+ #. インストール先の :file:`_NanoLabo_installation\\Change NanoLabo Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行をコピーします。
+ #. :file:`_NanoLabo_Tool_installation\\Change NanoLabo Tool Installation.lax` を開き、 ``lax.nl.current.vm`` で始まる行を探して、コピーした内容を上書きします。
+   
+  - :file:`Program Files` への書き込みは制限されているため、管理者権限で実行したテキストエディタを使うか、いったんファイルを別のフォルダに移して編集してから元の場所に戻してください。
+
+- アンインストールの順序などにより、インストール先フォルダのJava実行環境が削除されてしまい、他のアンインストーラーが起動しなくなる場合があります。
+
+ `zip版のJava実行環境をダウンロード <https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-windows-amd64-full.zip>`_\ して展開し、 :file:`jre` という名前にリネームしてインストール先フォルダに配置することで起動できるようになります。
