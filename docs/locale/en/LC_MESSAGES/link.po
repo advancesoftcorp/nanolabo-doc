@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-21 16:46+0900\n"
+"POT-Creation-Date: 2025-06-03 09:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -396,7 +396,7 @@ msgid "https://fair-chem.github.io/"
 msgstr ""
 
 #: ../../link.rst:172
-msgid "https://github.com/FAIR-Chem/fairchem"
+msgid "https://github.com/facebookresearch/fairchem"
 msgstr ""
 
 #: ../../link.rst:175

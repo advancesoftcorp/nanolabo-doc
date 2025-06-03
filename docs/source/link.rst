@@ -169,7 +169,7 @@ FAIR-Chemドキュメント
  https://fair-chem.github.io/
 
 Gitリポジトリ
- https://github.com/FAIR-Chem/fairchem
+ https://github.com/facebookresearch/fairchem
 
 Meta Open Materials 2024 (OMat24) モデル
  https://huggingface.co/fairchem/OMAT24

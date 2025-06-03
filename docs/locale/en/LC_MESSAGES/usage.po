@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-03 09:19+0900\n"
+"POT-Creation-Date: 2025-06-03 09:30+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1533,9 +1533,10 @@ msgid "FAIR-Chem"
 msgstr ""
 
 #: ../../usage/gnnp.rst:173
+#, fuzzy
 msgid ""
 "`ドキュメント <https://fair-chem.github.io/>`__ `GitHubリポジトリ "
-"<https://github.com/FAIR-Chem/fairchem>`__"
+"<https://github.com/facebookresearch/fairchem>`__"
 msgstr ""
 "`Document <https://fair-chem.github.io/>`__ `GitHub repository "
 "<https://github.com/FAIR-Chem/fairchem>`__"
@@ -1543,8 +1544,8 @@ msgstr ""
 #: ../../usage/gnnp.rst:175
 msgid "現在、NanoLaboではFAIRChem version 2に対応しておりません。以下の手順では1.10.0を指定してインストールしています。"
 msgstr ""
-"Currently, NanoLabo does not support FAIRChem version 2. In the following "
-"steps, version 1.10.0 is specified for installation."
+"Currently, NanoLabo does not support FAIRChem version 2. In the following"
+" steps, version 1.10.0 is specified for installation."
 
 #: ../../usage/gnnp.rst:177
 msgid ""

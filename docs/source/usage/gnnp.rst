@@ -170,7 +170,7 @@ Python環境の準備
 
 - FAIR-Chem
 
-   `ドキュメント <https://fair-chem.github.io/>`__ `GitHubリポジトリ <https://github.com/FAIR-Chem/fairchem>`__
+   `ドキュメント <https://fair-chem.github.io/>`__ `GitHubリポジトリ <https://github.com/facebookresearch/fairchem>`__
 
    現在、NanoLaboではFAIRChem version 2に対応しておりません。以下の手順では1.10.0を指定してインストールしています。
 
