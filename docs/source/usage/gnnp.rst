@@ -172,20 +172,26 @@ Python環境の準備
 
    `ドキュメント <https://fair-chem.github.io/>`__ `GitHubリポジトリ <https://github.com/FAIR-Chem/fairchem>`__
 
+   現在、NanoLaboではFAIRChem version 2に対応しておりません。以下の手順では1.10.0を指定してインストールしています。
+
    FAIR-Chemでは、環境ファイルから仮想環境を作成するインストール手順が示されています。 実行するとfair-chemという名前の仮想環境が作成されます。
 
    .. code-block:: console
     :caption: GPUを使う場合
 
-    curl -O https://raw.githubusercontent.com/FAIR-Chem/fairchem/main/packages/env.gpu.yml
+    curl -O https://raw.githubusercontent.com/facebookresearch/fairchem/refs/tags/fairchem_core-1.10.0/packages/env.gpu.yml
     # CUDAバージョンを変える場合はpytorch-cudaのバージョンを編集
     conda env create -f env.gpu.yml
+    conda activate fair-chem
+    pip install fairchem-core==1.10.0
 
    .. code-block:: console
     :caption: GPUを使わない場合
 
-    curl -O https://raw.githubusercontent.com/FAIR-Chem/fairchem/main/packages/env.cpu.yml
+    curl -O https://raw.githubusercontent.com/facebookresearch/fairchem/refs/tags/fairchem_core-1.10.0/packages/env.cpu.yml
     conda env create -f env.cpu.yml
+    conda activate fair-chem
+    pip install fairchem-core==1.10.0
 
    Open Materialsの学習済みモデル（モデル名にOMatを含むもの）はHugging Faceのアカウント作成と使用条件への同意が必要です。\ `fairchem/OMAT24 <https://huggingface.co/fairchem/OMAT24>`__\ を参照してください。ダウンロードしたチェックポイントファイルをNanoLaboインストール先の :file:`gnnp/fairchem-omat24` フォルダに配置してください。
 

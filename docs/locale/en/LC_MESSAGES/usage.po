@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-21 16:46+0900\n"
+"POT-Creation-Date: 2025-06-03 09:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -628,7 +628,7 @@ msgstr ""
 ":menuselection:`Properties --> LAMMPS` from the top left icon "
 "|mainmenuicon| and toggle the :guilabel:`Input File Editor` setting."
 
-#: ../../usage/calculation.rst:48 ../../usage/gnnp.rst:227
+#: ../../usage/calculation.rst:48 ../../usage/gnnp.rst:233
 #: ../../usage/grandproject.rst:74 ../../usage/initial.rst:65
 #: ../../usage/inputeditorlammps.rst:187 ../../usage/inputeditorqe.rst:36
 #: ../../usage/inputeditortb3.rst:52 ../../usage/jupyter.rst:46
@@ -1342,7 +1342,7 @@ msgstr "List"
 msgid "conda env list"
 msgstr ""
 
-#: ../../usage/gnnp.rst:73 ../../usage/gnnp.rst:113 ../../usage/gnnp.rst:177
+#: ../../usage/gnnp.rst:73 ../../usage/gnnp.rst:113 ../../usage/gnnp.rst:179
 msgid "GPUを使う場合"
 msgstr "When using GPUs"
 
@@ -1541,6 +1541,12 @@ msgstr ""
 "<https://github.com/FAIR-Chem/fairchem>`__"
 
 #: ../../usage/gnnp.rst:175
+msgid "現在、NanoLaboではFAIRChem version 2に対応しておりません。以下の手順では1.10.0を指定してインストールしています。"
+msgstr ""
+"Currently, NanoLabo does not support FAIRChem version 2. In the following "
+"steps, version 1.10.0 is specified for installation."
+
+#: ../../usage/gnnp.rst:177
 msgid ""
 "FAIR-Chemでは、環境ファイルから仮想環境を作成するインストール手順が示されています。 実行するとfair-"
 "chemという名前の仮想環境が作成されます。"
@@ -1549,30 +1555,38 @@ msgstr ""
 "environment from an environment file. Executing it will create a virtual "
 "environment named fair-chem."
 
-#: ../../usage/gnnp.rst:177
+#: ../../usage/gnnp.rst:179
 msgid ""
-"curl -O https://raw.githubusercontent.com/FAIR-"
-"Chem/fairchem/main/packages/env.gpu.yml\n"
+"curl -O "
+"https://raw.githubusercontent.com/facebookresearch/fairchem/refs/tags/fairchem_core-1.10.0/packages/env.gpu.yml"
+"\n"
 "# CUDAバージョンを変える場合はpytorch-cudaのバージョンを編集\n"
-"conda env create -f env.gpu.yml"
+"conda env create -f env.gpu.yml\n"
+"conda activate fair-chem\n"
+"pip install fairchem-core==1.10.0"
 msgstr ""
 "curl -O https://raw.githubusercontent.com/FAIR-"
 "Chem/fairchem/main/packages/env.gpu.yml\n"
 "# Edit the pytorch-cuda version if you want to change the CUDA version\n"
-"conda env create -f env.gpu.yml"
+"conda env create -f env.gpu.yml\n"
+"conda activate fair-chem\n"
+"pip install fairchem-core==1.10.0"
 
-#: ../../usage/gnnp.rst:184
+#: ../../usage/gnnp.rst:188
 msgid "GPUを使わない場合"
 msgstr "When not using GPUs"
 
-#: ../../usage/gnnp.rst:184
+#: ../../usage/gnnp.rst:188
 msgid ""
-"curl -O https://raw.githubusercontent.com/FAIR-"
-"Chem/fairchem/main/packages/env.cpu.yml\n"
-"conda env create -f env.cpu.yml"
+"curl -O "
+"https://raw.githubusercontent.com/facebookresearch/fairchem/refs/tags/fairchem_core-1.10.0/packages/env.cpu.yml"
+"\n"
+"conda env create -f env.cpu.yml\n"
+"conda activate fair-chem\n"
+"pip install fairchem-core==1.10.0"
 msgstr ""
 
-#: ../../usage/gnnp.rst:190
+#: ../../usage/gnnp.rst:196
 msgid ""
 "Open Materialsの学習済みモデル（モデル名にOMatを含むもの）はHugging "
 "Faceのアカウント作成と使用条件への同意が必要です。\\ `fairchem/OMAT24 "
@@ -1587,15 +1601,15 @@ msgstr ""
 "checkpoint file in the :file:`gnnp/fairchem-omat24` folder in the "
 "NanoLabo installation directory."
 
-#: ../../usage/gnnp.rst:195 ../../usage/inputeditortb3.rst:36
+#: ../../usage/gnnp.rst:201 ../../usage/inputeditortb3.rst:36
 msgid "NanoLaboへの設定"
 msgstr "Configuring NanoLabo"
 
-#: ../../usage/gnnp.rst:197 ../../usage/inputeditortb3.rst:38
+#: ../../usage/gnnp.rst:203 ../../usage/inputeditortb3.rst:38
 msgid "ローカル（NanoLaboを使っているマシン）で実行する場合"
 msgstr "To run locally (on the machine running NanoLabo)"
 
-#: ../../usage/gnnp.rst:199
+#: ../../usage/gnnp.rst:205
 msgid ""
 "画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Python` "
 "（またはForce Field設定画面の |gearicon| ボタン）でpython実行ファイルのパスを設定します。"
@@ -1604,11 +1618,11 @@ msgstr ""
 "Python` from the |mainmenuicon| located in the upper left corner of the "
 "screen(or |gearicon| button in the Force Field setting screen)."
 
-#: ../../usage/gnnp.rst:228 ../../usage/inputeditor.rst:20
+#: ../../usage/gnnp.rst:234 ../../usage/inputeditor.rst:20
 msgid "gearicon"
 msgstr ""
 
-#: ../../usage/gnnp.rst:201
+#: ../../usage/gnnp.rst:207
 msgid ""
 "Windowsでは :file:`condaのインストール先\\\\python.exe` 、Linux・macOSでは "
 ":file:`condaのインストール先/bin/python` にあります。"
@@ -1617,7 +1631,7 @@ msgstr ""
 "installation destination\\\\python.exe` . For Linux or mac OS, it is "
 "located in the :file:`conda installation destination/bin/python` . "
 
-#: ../../usage/gnnp.rst:203
+#: ../../usage/gnnp.rst:209
 msgid ""
 "また、仮想環境にインストールした場合、Windowsでは "
 ":file:`condaのインストール先\\\\envs\\\\仮想環境名\\\\python.exe` 、Linux・macOSでは "
@@ -1628,40 +1642,40 @@ msgstr ""
 "Windows, and :file:`conda installation path/envs/virtual environment "
 "name/bin/python` on Linux/macOS."
 
-#: ../../usage/gnnp.rst:205 ../../usage/inputeditortb3.rst:42
+#: ../../usage/gnnp.rst:211 ../../usage/inputeditortb3.rst:42
 msgid "リモート（計算サーバー等）で実行する場合"
 msgstr "To run remotely (on calculation server etc.)"
 
-#: ../../usage/gnnp.rst:207
+#: ../../usage/gnnp.rst:213
 msgid ":envvar:`LD_LIBRARY_PATH` にPython環境のlibフォルダを追加する必要があります。"
 msgstr ""
 "You need to add the Python environment's lib folder to "
 ":envvar:`LD_LIBRARY_PATH`."
 
-#: ../../usage/gnnp.rst:209
+#: ../../usage/gnnp.rst:215
 msgid "以下のフォルダはNanoLaboによって自動的にジョブスクリプトに追加されます。※仮想環境名の部分は力場の設定に応じたものが入ります。"
 msgstr ""
 "The following folders are automatically added to the job script by "
 "NanoLabo. Note that the virtual environment name part will be replaced "
 "with the one according to the force field settings."
 
-#: ../../usage/gnnp.rst:211
+#: ../../usage/gnnp.rst:217
 msgid ":file:`$\\\\{HOME\\\\}/miniconda3/lib``"
 msgstr ""
 
-#: ../../usage/gnnp.rst:212
+#: ../../usage/gnnp.rst:218
 msgid ":file:`$\\\\{HOME\\\\}/anaconda3/lib`"
 msgstr ""
 
-#: ../../usage/gnnp.rst:213
+#: ../../usage/gnnp.rst:219
 msgid ":file:`$\\\\{HOME\\\\}/miniconda3/envs/\\\\{m3gnet,chgnet,mace,orb,mattersim,fairchem\\\\}/lib`"
 msgstr ""
 
-#: ../../usage/gnnp.rst:214
+#: ../../usage/gnnp.rst:220
 msgid ":file:`$\\\\{HOME\\\\}/anaconda3/envs/\\\\{m3gnet,chgnet,mace,orb,mattersim,fairchem\\\\}/lib`"
 msgstr ""
 
-#: ../../usage/gnnp.rst:216
+#: ../../usage/gnnp.rst:222
 msgid ""
 "他の場所にインストールした場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> "
 "SSH server` を開き、ジョブスクリプトに :envvar:`LD_LIBRARY_PATH` を追加してください。"
@@ -1671,17 +1685,17 @@ msgstr ""
 ":menuselection:`Network --> SSH server`\\ , and then add the "
 ":envvar:`LD_LIBRARY_PATH` to your job script."
 
-#: ../../usage/gnnp.rst:218
+#: ../../usage/gnnp.rst:224
 msgid "export LD_LIBRARY_PATH=(condaのインストール先)/lib:$LD_LIBRARY_PATH"
 msgstr ""
 "export LD_LIBRARY_PATH=(conda installation "
 "destination)/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/gnnp.rst:222
+#: ../../usage/gnnp.rst:228
 msgid "仮想環境にインストールした場合"
 msgstr "When installed in a virtual environment"
 
-#: ../../usage/gnnp.rst:222
+#: ../../usage/gnnp.rst:228
 msgid ""
 "   export "
 "LD_LIBRARY_PATH=(condaのインストール先)/envs/(仮想環境名)/lib:$LD_LIBRARY_PATH"
@@ -1689,11 +1703,11 @@ msgstr ""
 "export LD_LIBRARY_PATH=(conda installation destination)/envs/(environment"
 " name)/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/gnnp.rst:233
+#: ../../usage/gnnp.rst:239
 msgid "モデルファイルのインポート"
 msgstr "Importing model files"
 
-#: ../../usage/gnnp.rst:235
+#: ../../usage/gnnp.rst:241
 msgid ""
 "ファインチューニングしたモデルや第三者の配布モデルを使う場合など、 :guilabel:`Model` "
 "リストボックスにないモデルを使いたい場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Import "
@@ -1707,21 +1721,21 @@ msgstr ""
 "model will be added to the :guilabel:`Model` list box and will be "
 "available for selection."
 
-#: ../../usage/gnnp.rst:240 ../../usage/inputeditortb3.rst:57
+#: ../../usage/gnnp.rst:246 ../../usage/inputeditortb3.rst:57
 msgid "実行時のエラー"
 msgstr "Troubleshooting"
 
-#: ../../usage/gnnp.rst:242
+#: ../../usage/gnnp.rst:248
 msgid "MatGLで、実行時に次のようなエラーが出る場合があります。"
 msgstr "With MatGL, the following error may occur at runtime."
 
-#: ../../usage/gnnp.rst:244
+#: ../../usage/gnnp.rst:250
 msgid ""
 "ValueError: No valid model found in pre-trained_models at "
 "https://github.com/materialsvirtuallab/matgl/raw/main/pretrained_models/."
 msgstr ""
 
-#: ../../usage/gnnp.rst:248
+#: ../../usage/gnnp.rst:254
 msgid "これは実行に必要な学習済みのモデルデータが存在しないというメッセージです。m3gnetパッケージにはモデルデータが含まれていないため、初回実行時にダウンロードを試みますが、インターネット接続に問題があると実行できません。"
 msgstr ""
 "This message suggests that the required pretrained model data for "
@@ -1730,7 +1744,7 @@ msgstr ""
 "if there is a problem with the internet connection, the download cannot "
 "proceed."
 
-#: ../../usage/gnnp.rst:250
+#: ../../usage/gnnp.rst:256
 msgid ""
 "代替として、モデルデータを手動でダウンロードすることもできます。\\ `matglのリポジトリ "
 "<https://github.com/materialsvirtuallab/matgl/tree/main/pretrained_models>`_\\"
@@ -1744,17 +1758,17 @@ msgstr ""
 "model you want to use and save them in :file:`(home "
 "directory)/.cache/matgl/(model name)`\\ ."
 
-#: ../../usage/gnnp.rst:252
+#: ../../usage/gnnp.rst:258
 msgid "Windowsで、実行時に次のようなエラーが出る場合があります。"
 msgstr "On Windows, you may encounter the following error during runtime."
 
-#: ../../usage/gnnp.rst:254
+#: ../../usage/gnnp.rst:260
 msgid ""
 "OMP: Error #15: Initializing libiomp5md.dll, but found libiomp5md.dll "
 "already initialized."
 msgstr ""
 
-#: ../../usage/gnnp.rst:258
+#: ../../usage/gnnp.rst:264
 msgid ""
 "この場合、 :file:`(condaのインストール先)\\\\Library\\\\bin\\\\libiomp5md.dll` "
 "をリネーム（例： :file:`libiomp5md.dll_` ）してください。"
@@ -1763,40 +1777,40 @@ msgstr ""
 "path)\\\\Library\\\\bin\\\\libiomp5md.dll` to :file:`libiomp5md.dll_` for"
 " example."
 
-#: ../../usage/gnnp.rst:260
+#: ../../usage/gnnp.rst:266
 msgid "DFT-D3を有効にして実行した時に次のようなエラーが出る場合があります。"
 msgstr "The following error may occur during runtime when DFT-D3 is enabled."
 
-#: ../../usage/gnnp.rst:262
+#: ../../usage/gnnp.rst:268
 msgid "version `GOMP_5.0' not found"
 msgstr ""
 
-#: ../../usage/gnnp.rst:266
+#: ../../usage/gnnp.rst:272
 msgid "この場合、次の環境変数を設定してください。"
 msgstr "If you encounter this issue, set the following environment variable."
 
-#: ../../usage/gnnp.rst:268
+#: ../../usage/gnnp.rst:274
 msgid "export LD_PRELOAD=(condaのインストール先)/lib/libgomp.so"
 msgstr "export LD_PRELOAD=(conda installation destination)/lib/libgomp.so"
 
-#: ../../usage/gnnp.rst:272
+#: ../../usage/gnnp.rst:278
 msgid "WindowsでGPUを使った場合、次のようなエラーで実行できない場合があります。"
 msgstr ""
 "When using a GPU on Windows, you may encounter certain errors that can "
 "prevent execution."
 
-#: ../../usage/gnnp.rst:274
+#: ../../usage/gnnp.rst:280
 msgid ""
 "FileNotFoundError: Could not find module 'C:\\Program Files\\NVIDIA "
 "Corporation\\NVSMI\\nvml.dll' (or one of its dependencies). Try using the"
 " full path with constructor syntax."
 msgstr ""
 
-#: ../../usage/gnnp.rst:278
+#: ../../usage/gnnp.rst:284
 msgid "pynvml.NVMLError_LibraryNotFound: NVML Shared Library Not Found"
 msgstr ""
 
-#: ../../usage/gnnp.rst:282
+#: ../../usage/gnnp.rst:288
 msgid ""
 "この場合、 :file:`C:\\\\Windows\\\\System32\\\\nvml.dll` を "
 ":file:`C:\\\\Program Files\\\\NVIDIA Corporation\\\\NVSMI\\\\nvml.dll` "
@@ -1807,54 +1821,54 @@ msgstr ""
 "Files\\\\NVIDIA Corporation\\\\NVSMI\\\\nvml.dll` (if the folder doesn't "
 "exist, create it first) and then execute the process again."
 
-#: ../../usage/gnnp.rst:284
+#: ../../usage/gnnp.rst:290
 msgid "pymatgen 2024.8.9以降で、実行時に次のようなエラーが出る場合があります。"
 msgstr "With pymatgen 2024.8.9 or later, the following error may occur at runtime."
 
-#: ../../usage/gnnp.rst:286
+#: ../../usage/gnnp.rst:292
 msgid "ValueError: Buffer dtype mismatch, expected 'const int64_t' but got 'long'"
 msgstr ""
 
-#: ../../usage/gnnp.rst:290
+#: ../../usage/gnnp.rst:296
 msgid ""
 "ValueError: Buffer dtype mismatch, expected 'const long' but got 'long "
 "long'"
 msgstr ""
 
-#: ../../usage/gnnp.rst:294
+#: ../../usage/gnnp.rst:300
 msgid "この場合、pymatgenのバージョンを下げることで改善する可能性があります。"
 msgstr "In this case, downgrading the pymatgen version may resolve the issue."
 
-#: ../../usage/gnnp.rst:296
+#: ../../usage/gnnp.rst:302
 msgid "pip install -U pymatgen==2024.7.18"
 msgstr ""
 
-#: ../../usage/gnnp.rst:303
+#: ../../usage/gnnp.rst:309
 msgid "LAMMPSを直接実行する場合"
 msgstr "Using LAMMPS directly"
 
-#: ../../usage/gnnp.rst:305
+#: ../../usage/gnnp.rst:311
 msgid "NanoLaboを使わず、LAMMPS単体で実行する場合の説明です。"
 msgstr ""
 "This guidance is for running LAMMPS in a standalone mode, not through "
 "NanoLabo."
 
-#: ../../usage/gnnp.rst:307
+#: ../../usage/gnnp.rst:313
 msgid "NanoLabo Tool同梱の実行ファイル :file:`lammps_gnnp` を使用します。"
 msgstr "Use the executable :file:`lammps_gnnp` included with NanoLabo Tool."
 
-#: ../../usage/gnnp.rst:309
+#: ../../usage/gnnp.rst:315
 msgid "MPI並列計算には非対応です。力場によっては、ビリアル応力の計算（NPT・NPHアンサンブル、セル最適化）に非対応のものがあります。"
 msgstr ""
 "MPI parallel computation is not supported. Some force fields do not "
 "support virial stress calculations (NPT/NPH ensembles, cell "
 "optimization)."
 
-#: ../../usage/gnnp.rst:314
+#: ../../usage/gnnp.rst:320
 msgid "環境変数の設定"
 msgstr "Setting Environment Variables"
 
-#: ../../usage/gnnp.rst:316
+#: ../../usage/gnnp.rst:322
 msgid ""
 "実行時にPythonの動的ライブラリを使用しますので、Linux・macOSでは環境変数 :envvar:`LD_LIBRARY_PATH` "
 "、Windowsでは環境変数 :envvar:`PATH` を設定してください。"
@@ -1863,17 +1877,17 @@ msgstr ""
 "variable :envvar:`LD_LIBRARY_PATH` on Linux/macOS, or the environment "
 "variable :envvar:`PATH` on Windows."
 
-#: ../../usage/gnnp.rst:318
+#: ../../usage/gnnp.rst:324
 msgid "LinuxではOpenMPIの動的ライブラリが必要ですので、こちらも :envvar:`LD_LIBRARY_PATH` に設定してください。"
 msgstr ""
 "On Linux, OpenMPI dynamic libraries are required, so add their path to "
 ":envvar:`LD_LIBRARY_PATH` as well."
 
-#: ../../usage/gnnp.rst:320 ../../usage/gnnp.rst:339
+#: ../../usage/gnnp.rst:326 ../../usage/gnnp.rst:345
 msgid "Linuxの例"
 msgstr "Linux example"
 
-#: ../../usage/gnnp.rst:320
+#: ../../usage/gnnp.rst:326
 msgid ""
 "$ export LD_LIBRARY_PATH=(condaのインストール先)/envs/(仮想環境名)/lib:(NanoLabo "
 "Toolのインストール先)/exec.LINUX/mpi/lib:$LD_LIBRARY_PATH"
@@ -1882,29 +1896,29 @@ msgstr ""
 "destination)/envs/(environment name)/lib:(NanoLabo Tool installation "
 "destination)/exec.LINUX/mpi/lib:$LD_LIBRARY_PATH"
 
-#: ../../usage/gnnp.rst:325 ../../usage/gnnp.rst:472
+#: ../../usage/gnnp.rst:331 ../../usage/gnnp.rst:478
 msgid "Windowsの例"
 msgstr "Windows example"
 
-#: ../../usage/gnnp.rst:325
+#: ../../usage/gnnp.rst:331
 msgid "> set PATH=(condaのインストール先)/envs/(仮想環境名);%PATH%"
 msgstr "> set PATH=(conda installation destination)/envs/(environment name);%PATH%"
 
-#: ../../usage/gnnp.rst:330
+#: ../../usage/gnnp.rst:336
 msgid "また、Linuxでは環境変数 :envvar:`OPAL_PREFIX` を設定してください。"
 msgstr ""
 "Additionally, on Linux, you should set the environment variable "
 ":envvar:`OPAL_PREFIX` ."
 
-#: ../../usage/gnnp.rst:332
+#: ../../usage/gnnp.rst:338
 msgid "デフォルトの場所にインストールした場合の例"
 msgstr "if installed in the default location"
 
-#: ../../usage/gnnp.rst:332
+#: ../../usage/gnnp.rst:338
 msgid "$ export OPAL_PREFIX=/opt/AdvanceSoft/NanoLabo/exec.LINUX/mpi"
 msgstr ""
 
-#: ../../usage/gnnp.rst:337
+#: ../../usage/gnnp.rst:343
 msgid ""
 "LAMMPSから :file:`gnnp_driver.py` を呼び出すことで動作しますので、NanoLabo Toolインストール先の "
 ":file:`gnnp` フォルダをPythonのモジュール検索パスに追加してください。例えば、環境変数 :envvar:`PYTHONPATH`"
@@ -1915,33 +1929,33 @@ msgstr ""
 " directory, to Python's module search path. You can do this by adding it "
 "to the :envvar:`PYTHONPATH` environment variable."
 
-#: ../../usage/gnnp.rst:339
+#: ../../usage/gnnp.rst:345
 msgid "$ export PYTHONPATH=(NanoLabo Toolのインストール先)/gnnp:$PYTHONPATH"
 msgstr ""
 "$ export PYTHONPATH=(NanoLabo Tool installation "
 "destination)/gnnp:$PYTHONPATH"
 
-#: ../../usage/gnnp.rst:347
+#: ../../usage/gnnp.rst:353
 msgid "入力ファイルの設定"
 msgstr "Setting Input File"
 
-#: ../../usage/gnnp.rst:349
+#: ../../usage/gnnp.rst:355
 msgid "単位系は ``units metal`` を設定してください。"
 msgstr "Set the unit system to ``units metal``\\ ."
 
-#: ../../usage/gnnp.rst:351
+#: ../../usage/gnnp.rst:357
 msgid "X, Y, Z方向とも周期境界条件にしてください。"
 msgstr "Set periodic boundary conditions in the X, Y, and Z directions."
 
-#: ../../usage/gnnp.rst:353
+#: ../../usage/gnnp.rst:359
 msgid "以下のように\\ ``pair_style``\\ を設定します。"
 msgstr "Set the ``pair_style`` as follows."
 
-#: ../../usage/gnnp.rst:355
+#: ../../usage/gnnp.rst:361
 msgid "GNN力場"
 msgstr "GNN force field"
 
-#: ../../usage/gnnp.rst:355
+#: ../../usage/gnnp.rst:361
 msgid ""
 "pair_style gnnp\n"
 "pair_coeff * * <gnnptype> <modelname> <元素名1 元素名2 ...>        # モデル名を指定する例"
@@ -1950,11 +1964,11 @@ msgstr ""
 "pair_coeff * * <gnnptype> <modelname> <element1 element2 ...>       # "
 "Example specifying model name"
 
-#: ../../usage/gnnp.rst:361
+#: ../../usage/gnnp.rst:367
 msgid "GNN力場 + DFT-D3による補正"
 msgstr "GNN force field + DFT-D3 correction"
 
-#: ../../usage/gnnp.rst:361
+#: ../../usage/gnnp.rst:367
 msgid ""
 "pair_style gnnp/d3\n"
 "pair_coeff * * <gnnptype> path <modelfile> <元素名1 元素名2 ...>   # "
@@ -1964,31 +1978,31 @@ msgstr ""
 "pair_coeff * * <gnnptype> path <modelfile> <element1 element2 ...>  # "
 "Example specifying model file"
 
-#: ../../usage/gnnp.rst:367
+#: ../../usage/gnnp.rst:373
 msgid "GNN力場、GPU使用"
 msgstr "GNN force field, use GPU"
 
-#: ../../usage/gnnp.rst:367
+#: ../../usage/gnnp.rst:373
 msgid ""
 "pair_style gnnp/gpu\n"
 "pair_coeff * * <gnnptype> <modelname> <元素名1 元素名2 ...>"
 msgstr ""
 "pair_style gnnp/gpu\n"
-"pair_coeff * * <gnnptype> <modelname> <element1 element2 ...>"
-
-#: ../../usage/gnnp.rst:373
-msgid "GNN力場 + DFT-D3による補正、GPU使用"
-msgstr "GNN force field + DFT-D3 correction, use GPU"
-
-#: ../../usage/gnnp.rst:373
-msgid ""
-"pair_style gnnp/d3/gpu\n"
-"pair_coeff * * <gnnptype> <modelname> <元素名1 元素名2 ...>"
-msgstr ""
-"pair_style gnnp/d3/gpu\n"
 "pair_coeff * * <gnnptype> <modelname> <element1 element2 ...>"
 
 #: ../../usage/gnnp.rst:379
+msgid "GNN力場 + DFT-D3による補正、GPU使用"
+msgstr "GNN force field + DFT-D3 correction, use GPU"
+
+#: ../../usage/gnnp.rst:379
+msgid ""
+"pair_style gnnp/d3/gpu\n"
+"pair_coeff * * <gnnptype> <modelname> <元素名1 元素名2 ...>"
+msgstr ""
+"pair_style gnnp/d3/gpu\n"
+"pair_coeff * * <gnnptype> <modelname> <element1 element2 ...>"
+
+#: ../../usage/gnnp.rst:385
 msgid "パラメーター"
 msgstr "Parameter"
 
@@ -2026,19 +2040,19 @@ msgstr ""
 msgid "pathに続けてファイルパスを指定すると、ファイルに保存されたモデルを使用"
 msgstr "To use a custom model saved in a file,　specify a file path after \"path\" "
 
-#: ../../usage/gnnp.rst:392
+#: ../../usage/gnnp.rst:398
 msgid "元素名"
 msgstr "element"
 
-#: ../../usage/gnnp.rst:392
+#: ../../usage/gnnp.rst:398
 msgid "LAMMPSのatom type毎に、対応する元素名を列挙"
 msgstr "list the element names in the same order as the atom types used in LAMMPS"
 
-#: ../../usage/gnnp.rst:395
+#: ../../usage/gnnp.rst:401
 msgid "使用可能な学習済みモデルの名前"
 msgstr "Name of the available pre-trained model"
 
-#: ../../usage/gnnp.rst:397
+#: ../../usage/gnnp.rst:403
 msgid "各力場の更新により、使用可能なモデルが追加・削除される場合があります。最新のリストは各力場のドキュメント・GitHubリポジトリをご確認ください。"
 msgstr ""
 "Available models may be added or removed due to updates of each force "
@@ -2272,13 +2286,13 @@ msgid ""
 ":sup:`**`"
 msgstr ""
 
-#: ../../usage/gnnp.rst:456
+#: ../../usage/gnnp.rst:462
 msgid "`*`:sup :file:`gnnp_driver.pyのあるフォルダ/mace-osaka24` にあるモデルファイルを読み込みます。"
 msgstr ""
 "`*`:sup Reads the model file located in :file:`(folder where "
 "gnn_driver.py is)/mace-osaka24`\\ ."
 
-#: ../../usage/gnnp.rst:458
+#: ../../usage/gnnp.rst:464
 msgid ""
 "`**`:sup: :file:`gnnp_driver.pyのあるフォルダ/fairchem-omat24` "
 "にあるモデルファイルを読み込みます。ファイルの入手にはHugging Faceのアカウント作成と使用条件への同意が必要です。\\ "
@@ -2289,11 +2303,11 @@ msgstr ""
 "creating a Hugging Face account and agreeing to the terms of use. See "
 "`fairchem/OMAT24 <https://huggingface.co/fairchem/OMAT24>`__\\ ."
 
-#: ../../usage/gnnp.rst:462
+#: ../../usage/gnnp.rst:468
 msgid "次のようなエラーで実行できない場合があります。"
 msgstr "The following error may appear at runtime."
 
-#: ../../usage/gnnp.rst:464
+#: ../../usage/gnnp.rst:470
 msgid ""
 "Fatal Python error: init_fs_encoding: failed to get the Python codec of "
 "the filesystem encoding\n"
@@ -2301,13 +2315,13 @@ msgid ""
 "ModuleNotFoundError: No module named 'encodings'"
 msgstr ""
 
-#: ../../usage/gnnp.rst:470
+#: ../../usage/gnnp.rst:476
 msgid "この場合、環境変数 :envvar:`PYTHONHOME` が正しく設定されているかご確認ください。"
 msgstr ""
 "In this case, ensure that the environment variable :envvar:`PYTHONHOME` "
 "is set correctly."
 
-#: ../../usage/gnnp.rst:472
+#: ../../usage/gnnp.rst:478
 msgid "set PYTHONHOME=(condaのインストール先)/envs/(仮想環境名)"
 msgstr "set PYTHONHOME=(conda installation destination)/envs/(environment name)"
 
