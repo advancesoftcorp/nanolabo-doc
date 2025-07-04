@@ -303,6 +303,14 @@ NanoLaboへの設定
 
   pip install -U pymatgen==2024.7.18
 
+- 実行時に次のようなエラーが出る場合があります。
+
+ .. code-block:: none
+
+  torch._dynamo.exc.BackendCompilerFailed
+
+ これはPyTorchのモデルを実行時に最適化するtorch.compile()のエラーです。エラーメッセージを元にコンパイラー等をインストール・設定して実行できるようにする方法もありますが、環境変数 :envvar:`TORCH_COMPILE_DISABLE=1` を設定することで回避することも可能です。
+
 .. _gnnplammps:
 
 LAMMPSを直接実行する場合
