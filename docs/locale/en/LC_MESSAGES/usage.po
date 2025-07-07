@@ -1533,13 +1533,12 @@ msgid "FAIR-Chem"
 msgstr ""
 
 #: ../../usage/gnnp.rst:173
-#, fuzzy
 msgid ""
 "`ドキュメント <https://fair-chem.github.io/>`__ `GitHubリポジトリ "
 "<https://github.com/facebookresearch/fairchem>`__"
 msgstr ""
 "`Document <https://fair-chem.github.io/>`__ `GitHub repository "
-"<https://github.com/FAIR-Chem/fairchem>`__"
+"<https://github.com/facebookresearch/fairchem>`__"
 
 #: ../../usage/gnnp.rst:175
 msgid "現在、NanoLaboではFAIRChem version 2に対応しておりません。以下の手順では1.10.0を指定してインストールしています。"
@@ -2476,7 +2475,6 @@ msgstr ""
 " the machine acting as the NeuralMD license server:"
 
 #: ../../usage/grandproject.rst:59
-#, fuzzy
 msgid ""
 "計算を実行するリモートのマシン上の :file:`$HOME/.hasplm/` に :file:`hasp_32462.ini` "
 "ファイルを作成（既にある場合は編集）し、ライセンスサーバーのIPアドレスまたはホスト名を以下の例を参考にして記述（既にある場合は行を追加）してください。"
@@ -2484,7 +2482,7 @@ msgstr ""
 "On the remote machine where you execute the calculation, create (or edit "
 "if it already exists) the :file:`hasp_32462.ini` file in "
 ":file:`$HOME/.hasplm/` and write (or add a line if it already exists) the"
-" IP address of the license server, referring to the example below."
+" IP address or host name of the license server, referring to the example below."
 
 #: ../../usage/grandproject.rst:64
 msgid "IPアドレスが192.168.00.000の場合"

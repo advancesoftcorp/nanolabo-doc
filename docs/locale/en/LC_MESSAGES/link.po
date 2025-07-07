@@ -322,12 +322,11 @@ msgstr ""
 
 #: ../../link.rst:136
 msgid "MACEドキュメント"
-msgstr "MatGL document"
+msgstr "MACE document"
 
 #: ../../link.rst:136
-#, fuzzy
 msgid "https://mace-docs.readthedocs.io/en/latest/"
-msgstr "https://neuralmd-doc.readthedocs.io/en/latest/"
+msgstr ""
 
 #: ../../link.rst:139
 msgid "https://github.com/ACEsuit/mace"
@@ -335,7 +334,7 @@ msgstr ""
 
 #: ../../link.rst:142
 msgid "MACE-OFF Gitリポジトリ"
-msgstr ""
+msgstr "MACE-OFF Git repository"
 
 #: ../../link.rst:142
 msgid "https://github.com/ACEsuit/mace-off"
@@ -343,7 +342,7 @@ msgstr ""
 
 #: ../../link.rst:145
 msgid "MACE-Osaka24 Gitリポジトリ"
-msgstr ""
+msgstr "MACE-Osaka24 Git repository"
 
 #: ../../link.rst:145
 msgid "https://github.com/qiqb-osaka/mace-osaka24"
@@ -359,7 +358,7 @@ msgstr ""
 
 #: ../../link.rst:154
 msgid "技術ブログ記事"
-msgstr ""
+msgstr "Technical blog article"
 
 #: ../../link.rst:154
 msgid ""
