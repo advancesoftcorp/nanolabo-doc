@@ -114,8 +114,8 @@ Python環境の準備
     :caption: GPUを使う場合
 
     pip install torch==2.2.0 --index-url https://download.pytorch.org/whl/cu121
-    pip install dgl -f https://data.dgl.ai/wheels/cu121/repo.html
-    pip install dglgo -f https://data.dgl.ai/wheels-test/repo.html
+    pip install dgl -f https://data.dgl.ai/wheels/torch-2.2/cu121/repo.html
+    pip install dglgo
 
    .. code-block:: console
 
@@ -216,19 +216,19 @@ NanoLaboへの設定
 
      * :file:`$\\{HOME\\}/miniconda3/lib``
      * :file:`$\\{HOME\\}/anaconda3/lib`
-     * :file:`$\\{HOME\\}/miniconda3/envs/\\{m3gnet,chgnet,mace,orb,mattersim,fairchem\\}/lib`
-     * :file:`$\\{HOME\\}/anaconda3/envs/\\{m3gnet,chgnet,mace,orb,mattersim,fairchem\\}/lib`
+     * :file:`$\\{HOME\\}/miniconda3/envs/\\{m3gnet,matgl,chgnet,mace,orb,mattersim,fairchem\\}/lib`
+     * :file:`$\\{HOME\\}/anaconda3/envs/\\{m3gnet,matgl,chgnet,mace,orb,mattersim,fairchem\\}/lib`
 
      他の場所にインストールした場合は、画面左上のアイコン |mainmenuicon| から :menuselection:`Network --> SSH server` を開き、ジョブスクリプトに :envvar:`LD_LIBRARY_PATH` を追加してください。
 
      .. code-block:: console
 
-         export LD_LIBRARY_PATH=(condaのインストール先)/lib:$LD_LIBRARY_PATH
+      export LD_LIBRARY_PATH=(condaのインストール先)/lib:$LD_LIBRARY_PATH
 
      .. code-block:: console
       :caption: 仮想環境にインストールした場合
 
-         export LD_LIBRARY_PATH=(condaのインストール先)/envs/(仮想環境名)/lib:$LD_LIBRARY_PATH
+      export LD_LIBRARY_PATH=(condaのインストール先)/envs/(仮想環境名)/lib:$LD_LIBRARY_PATH
 
 .. |mainmenuicon| image:: /img/mainmenuicon.png
 .. |gearicon| image:: /img/gear.png
