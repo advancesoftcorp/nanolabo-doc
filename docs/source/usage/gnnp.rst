@@ -44,7 +44,7 @@ Python環境の準備
       .. code-block:: console
        :caption: 作成
 
-       conda env create -n （仮想環境名） python=3.11
+       conda create -n （仮想環境名） python=3.11
 
       - 作成時点ではまだ仮想環境に入っていません。
 
