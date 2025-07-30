@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-22 15:33+0900\n"
+"POT-Creation-Date: 2025-07-30 10:42+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,7 +84,7 @@ msgstr ""
 "refer to :ref:`licensesetupdate`\\ ."
 
 #: ../../install/flex.rst:199 ../../install/license.rst:327
-#: ../../install/linux.rst:103
+#: ../../install/linux.rst:109
 msgid "mainmenuicon"
 msgstr ""
 
@@ -1492,23 +1492,33 @@ msgstr ""
 #: ../../install/linux.rst:39
 msgid ""
 "$ chmod +x install_nanolabo_linux.bin\n"
-"$ ./install_nanolabo_linux.bin"
+"$ sudo ./install_nanolabo_linux.bin"
 msgstr ""
 
-#: ../../install/linux.rst:44
+#: ../../install/linux.rst:46
+msgid "ライセンスマネージャー(Sentinel-LDK-RTE)をインストールするためにroot権限での実行が必要です。"
+msgstr "Root privileges are required to install the License Manager (Sentinel-LDK-RTE)."
+
+#: ../../install/linux.rst:48
+msgid "Sentinel-LDK-RTEのインストールが不要（既にインストール済みなど）という場合は一般ユーザーでも実行できます。"
+msgstr ""
+"It can also be run by a standard user if the installation of Sentinel-LDK-RTE "
+"is not required (e.g., it is already installed)."
+
+#: ../../install/linux.rst:50
 msgid "言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
 msgstr ""
 "If a language selection window appears, choose a language for the "
 "installation process (note that this selection does not determine the "
 "language used within the software itself)."
 
-#: ../../install/linux.rst:46 ../../install/windows.rst:39
+#: ../../install/linux.rst:52 ../../install/windows.rst:39
 msgid "画面の指示に従い、インストールの設定を行ってください。"
 msgstr ""
 "Proceed by following the on-screen instructions to configure the "
 "installation."
 
-#: ../../install/linux.rst:50
+#: ../../install/linux.rst:56
 msgid ""
 "書き込み権限のない場所にはインストールできません。インストール先として書き込み権限のある場所（ "
 ":file:`/home/ユーザー名/AdvanceSoft/NanoLabo` "
@@ -1519,13 +1529,16 @@ msgstr ""
 ":file:`/home/username/AdvanceSoft/NanoLabo` ) as the installation "
 "destination, or execute the installer as the user with write permission."
 
-#: ../../install/linux.rst:52 ../../install/windows.rst:41
-msgid "フローティングライセンスでクライアントとして使用する場合、Sentinel-LDK-RTEをインストールしますか？でいいえを選択してください。"
+#: ../../install/linux.rst:58
+msgid ""
+"フローティングライセンスでクライアントとして使用する場合、Sentinel-LDK-"
+"RTEをインストールしますか？でいいえを選択してください（一般ユーザーで実行した場合は確認は表示されません）。"
 msgstr ""
-"When asked \"Install Sentinel-LDK-RTE?\", select No if you are using this"
-" machine as a client with a floating license."
+"If you are using the software as a client with a floating license, select No "
+"for 'Install Sentinel-LDK-RTE?' (this confirmation prompt will not be "
+"displayed if run by a standard user)."
 
-#: ../../install/linux.rst:54 ../../install/windows.rst:43
+#: ../../install/linux.rst:60 ../../install/windows.rst:43
 msgid ""
 "ライセンスサーバーが異なるネットワークセグメントに存在する場合は、次の画面でライセンスサーバーのIPアドレスまたはホスト名を入力してください。ここで指定しない場合でも、後からライセンスサーバーのIPアドレスまたはホスト名を設定することは可能です。詳細は\\"
 " :ref:`floating`\\ を参照してください。"
@@ -1535,7 +1548,7 @@ msgstr ""
 "it is possible to configure the license server IP address or hostname "
 "later. For details, see :ref:`floating`\\ ."
 
-#: ../../install/linux.rst:58 ../../install/windows.rst:47
+#: ../../install/linux.rst:64 ../../install/windows.rst:47
 msgid ""
 "設定が終わると要約の画面が表示されます。特に、インストールフォルダーはAdvance/NanoLabo "
 "Toolのインストールの際に必要になりますので、控えておいていただくようお願いします。"
@@ -1544,53 +1557,53 @@ msgstr ""
 "Install Folder will be required when installing the Advance/NanoLabo "
 "Tool. Please make a note of the install folder."
 
-#: ../../install/linux.rst:62 ../../install/windows.rst:51
+#: ../../install/linux.rst:68 ../../install/windows.rst:51
 msgid "最後の画面で完了をクリックすると、Advance/NanoLaboのインストールが終了します。"
 msgstr ""
 "At the final window, click \"Done\" to complete the installation of "
 "Advance/NanoLabo."
 
-#: ../../install/linux.rst:64 ../../install/windows.rst:53
+#: ../../install/linux.rst:70 ../../install/windows.rst:53
 msgid "続けて、Advance/NanoLabo Toolのインストーラーを実行します。"
 msgstr "Next, run the Advance/NanoLabo Tool installer."
 
-#: ../../install/linux.rst:66
+#: ../../install/linux.rst:72
 msgid ""
 "$ chmod +x install_nanolabo_tool_linux.bin\n"
 "$ ./install_nanolabo_tool_linux.bin"
 msgstr ""
 
-#: ../../install/linux.rst:71 ../../install/windows.rst:55
+#: ../../install/linux.rst:77 ../../install/windows.rst:55
 msgid "画面の指示に従い、インストールの設定を行ってください。インストール先として、Advance/NanoLaboと同じ場所を選択してください。"
 msgstr ""
 "Follow the on-screen instructions to configure the installation. Ensure "
 "you select  the same location for the installation destination as you did"
 " for Advance/NanoLabo."
 
-#: ../../install/linux.rst:75 ../../install/windows.rst:59
+#: ../../install/linux.rst:81 ../../install/windows.rst:59
 msgid "インストール後、最後の画面で完了をクリックすると、Advance/NanoLabo Toolのインストールが終了します。"
 msgstr ""
 "At the final window, click \"Done\" to finish the installation of the "
 "Advance/NanoLabo Tool."
 
-#: ../../install/linux.rst:77 ../../install/windows.rst:61
+#: ../../install/linux.rst:83 ../../install/windows.rst:61
 msgid "FAIR-ChemまたはSevenNetを使う場合は、Advance/NanoLabo GNNPも同様にインストールしてください。"
 msgstr ""
 "If using FAIR-Chem or SevenNet, please install Advance/NanoLabo GNNP "
 "similarly."
 
-#: ../../install/linux.rst:82 ../../install/mac.rst:70
+#: ../../install/linux.rst:88 ../../install/mac.rst:70
 #: ../../install/windows.rst:66
 msgid "起動"
 msgstr "Launching"
 
-#: ../../install/linux.rst:84 ../../install/windows.rst:68
+#: ../../install/linux.rst:90 ../../install/windows.rst:68
 msgid "インストール時にショートカットを作成した場合は、ショートカットから起動してください。"
 msgstr ""
 "If you created a shortcut during installation, you can launch the "
 "software using that shortcut."
 
-#: ../../install/linux.rst:86
+#: ../../install/linux.rst:92
 msgid ""
 "直接起動する場合は、端末（ターミナル）でインストール先の :file:`bin` ディレクトリに移動し、 :file:`nanolabo.sh` "
 "を起動してください。"
@@ -1599,11 +1612,11 @@ msgstr ""
 ":file:`bin` directory within the install destination, and then execute "
 ":file:`nanolabo.sh` ."
 
-#: ../../install/linux.rst:88
+#: ../../install/linux.rst:94
 msgid "$ ./nanolabo.sh"
 msgstr ""
 
-#: ../../install/linux.rst:92 ../../install/mac.rst:102
+#: ../../install/linux.rst:98 ../../install/mac.rst:102
 #: ../../install/windows.rst:72
 msgid ""
 "初回起動時にはライセンスに関するダイアログが表示されますので、\\ :ref:`こちら <licensesetupdate>`\\ "
@@ -1612,15 +1625,15 @@ msgstr ""
 "On initial launch, a license dialog will appear. Please follow the "
 "procedure :ref:`here <licensesetupdate>` to set up the license."
 
-#: ../../install/linux.rst:97
+#: ../../install/linux.rst:103
 msgid "3Dモデルが表示されない場合の設定"
 msgstr "If 3D models aren't displayed"
 
-#: ../../install/linux.rst:99
+#: ../../install/linux.rst:105
 msgid "Java VMの引数を追加することで表示が改善します。"
 msgstr "You can add a Java VM argument to address the display issue."
 
-#: ../../install/linux.rst:101
+#: ../../install/linux.rst:107
 msgid ""
 "画面左上のアイコン |mainmenuicon| から :menuselection:`Properties --> Java VM` を開き、 "
 ":guilabel:`Arguments for Java VM` に ``-Dprism.forceGPU=true`` を追加します。その後 "
@@ -1631,17 +1644,17 @@ msgstr ""
 "``-Dprism.forceGPU=true`` to the :guilabel:`Arguments for Java VM`\\ . "
 "Then, click :guilabel:`OK` and restart NanoLabo."
 
-#: ../../install/linux.rst:109 ../../install/mac.rst:107
+#: ../../install/linux.rst:115 ../../install/mac.rst:107
 #: ../../install/windows.rst:77
 msgid "追加の設定項目"
 msgstr "Additional Settings"
 
-#: ../../install/linux.rst:111 ../../install/mac.rst:109
+#: ../../install/linux.rst:117 ../../install/mac.rst:109
 #: ../../install/windows.rst:79
 msgid "Materials FinderのAPI設定"
 msgstr "Materials Finder API Settings"
 
-#: ../../install/linux.rst:113 ../../install/mac.rst:111
+#: ../../install/linux.rst:119 ../../install/mac.rst:111
 #: ../../install/windows.rst:81
 msgid ""
 "Materials Projectから結晶構造を取得するためにAPIキーの設定が必要です。設定方法は\\ :ref:`こちら "
@@ -1651,12 +1664,12 @@ msgstr ""
 " the Materials Project. For the configuration method, please see "
 ":ref:`here <materialsfinder>`\\ ."
 
-#: ../../install/linux.rst:115 ../../install/mac.rst:113
+#: ../../install/linux.rst:121 ../../install/mac.rst:113
 #: ../../install/windows.rst:83
 msgid "グラフニューラルネットワーク汎用力場の設定"
 msgstr "Configuration for graph neural network universal force field"
 
-#: ../../install/linux.rst:117 ../../install/mac.rst:115
+#: ../../install/linux.rst:123 ../../install/mac.rst:115
 #: ../../install/windows.rst:85
 msgid ""
 "LAMMPSの計算でグラフニューラルネットワーク汎用力場を使うためには、別途Python環境での設定が必要です。設定方法は\\ :doc:`こちら"
@@ -1666,12 +1679,12 @@ msgstr ""
 "calculations, additional setup in a Python environment is required. For "
 "the configuration method, please see :doc:`here </usage/gnnp>`\\ ."
 
-#: ../../install/linux.rst:119 ../../install/mac.rst:117
+#: ../../install/linux.rst:125 ../../install/mac.rst:117
 #: ../../install/windows.rst:87
 msgid "汎用タイトバインディング法(ThreeBodyTB)の設定"
 msgstr "Configuration for versatile tight-binding method (ThreeBodyTB)"
 
-#: ../../install/linux.rst:121 ../../install/mac.rst:119
+#: ../../install/linux.rst:127 ../../install/mac.rst:119
 #: ../../install/windows.rst:89
 msgid ""
 "汎用タイトバインディング法(ThreeBodyTB)の計算を行うためには、別途Julia環境での設定が必要です。設定方法は\\ :doc:`こちら"
@@ -1681,12 +1694,12 @@ msgstr ""
 " additional settings in the Julia environment are necessary. Please refer"
 " :doc:`here </usage/inputeditortb3>` for the detailed setup instructions."
 
-#: ../../install/linux.rst:123 ../../install/mac.rst:121
+#: ../../install/linux.rst:129 ../../install/mac.rst:121
 #: ../../install/windows.rst:91
 msgid "リモート計算の設定"
 msgstr "Setting up for remote calculation"
 
-#: ../../install/linux.rst:125 ../../install/mac.rst:123
+#: ../../install/linux.rst:131 ../../install/mac.rst:123
 #: ../../install/windows.rst:93
 msgid ""
 "NanoLaboからリモートのマシンに計算ジョブを投入する場合、SSH接続の設定が必要です。設定方法は\\ :doc:`こちら "
@@ -1696,12 +1709,12 @@ msgstr ""
 " to establish an SSH connection. Please refer :doc:`here "
 "</usage/sshserver>` for the detailed setup instructions."
 
-#: ../../install/linux.rst:130 ../../install/mac.rst:128
+#: ../../install/linux.rst:136 ../../install/mac.rst:128
 #: ../../install/windows.rst:98
 msgid "更新・アップグレード"
 msgstr "Update/Upgrade"
 
-#: ../../install/linux.rst:132 ../../install/mac.rst:130
+#: ../../install/linux.rst:138 ../../install/mac.rst:130
 #: ../../install/windows.rst:100
 msgid ""
 "トライアル版から製品版にアップグレードされる場合、新たにインストールを行う必要はありません。\\ :ref:`licenseupdate`\\ "
@@ -1711,13 +1724,13 @@ msgstr ""
 "installation is not required. Please update only the license, referring "
 "to :ref:`licenseupdate`\\ ."
 
-#: ../../install/linux.rst:134 ../../install/windows.rst:102
+#: ../../install/linux.rst:140 ../../install/windows.rst:102
 msgid "新しいバージョンにアップデートされる場合、上書きインストールが可能です。"
 msgstr ""
 "When updating to a newer version, you can install directly over the "
 "existing version."
 
-#: ../../install/linux.rst:136 ../../install/mac.rst:134
+#: ../../install/linux.rst:142 ../../install/mac.rst:134
 #: ../../install/windows.rst:104
 msgid ""
 "メジャーバージョンが新しいNanoLaboにアップデートする場合は、ライセンスの更新が必要です。\\ :ref:`licenseupdate`\\"
@@ -1727,7 +1740,7 @@ msgstr ""
 "required. Please update the license, referring to :ref:`licenseupdate`\\ "
 "."
 
-#: ../../install/linux.rst:138 ../../install/mac.rst:136
+#: ../../install/linux.rst:144 ../../install/mac.rst:136
 #: ../../install/windows.rst:106
 msgid ""
 "NanoLaboと同時にNanoLabo Toolが更新されている場合は、そちらもアップデートしてください。最新版のNanoLabo "
@@ -1738,7 +1751,7 @@ msgstr ""
 "conjunction with the calculation engines provided in the latest version "
 "of NanoLabo Tool."
 
-#: ../../install/linux.rst:140 ../../install/mac.rst:138
+#: ../../install/linux.rst:146 ../../install/mac.rst:138
 #: ../../install/windows.rst:108
 msgid "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所に保存されていますので、アップデート後もそのままお使いいただけます。"
 msgstr ""
@@ -1746,12 +1759,12 @@ msgstr ""
 " separately from the installation directory. This ensures that you can "
 "continue using the software seamlessly, even after the update."
 
-#: ../../install/linux.rst:145 ../../install/mac.rst:143
+#: ../../install/linux.rst:151 ../../install/mac.rst:143
 #: ../../install/windows.rst:113
 msgid "アンインストール"
 msgstr "Uninstallation"
 
-#: ../../install/linux.rst:147
+#: ../../install/linux.rst:153
 msgid ""
 "端末（ターミナル）でインストール先の :file:`_NanoLabo_Tool_installation` ディレクトリにある "
 ":file:`Change NanoLabo Tool Installation` を起動します。"
@@ -1760,17 +1773,17 @@ msgstr ""
 "in :file:`_NanoLabo_Tool_installation` directory at your installation "
 "destination."
 
-#: ../../install/linux.rst:149
+#: ../../install/linux.rst:155
 msgid ""
 "$ AdvanceSoft/NanoLabo/_NanoLabo_Tool_installation/Change\\ NanoLabo\\ "
 "Tool\\ Installation"
 msgstr ""
 
-#: ../../install/linux.rst:153 ../../install/windows.rst:121
+#: ../../install/linux.rst:159 ../../install/windows.rst:121
 msgid "画面の指示に従い、アンインストールを行ってください。"
 msgstr "Follow the on-screen instructions to proceed with the uninstallation."
 
-#: ../../install/linux.rst:155 ../../install/windows.rst:123
+#: ../../install/linux.rst:161 ../../install/windows.rst:123
 msgid ""
 "Advance/NanoLabo Toolのアンインストールが終わったら、同様にAdvance/NanoLabo "
 "GNNP、Advance/NanoLaboをアンインストールしてください。"
@@ -1778,14 +1791,14 @@ msgstr ""
 "After uninstalling Advance/NanoLabo Tool, similarly uninstall "
 "Advance/NanoLabo GNNP and Advance/NanoLabo."
 
-#: ../../install/linux.rst:159 ../../install/windows.rst:127
+#: ../../install/linux.rst:165 ../../install/windows.rst:127
 msgid "アンインストールの際に、インストールログファイルが残る場合があります。また、旧ライセンスをご利用の場合は、ライセンスファイルは削除されずに残ります。その際はお手数ですが手動で削除してください。"
 msgstr ""
 "During uninstallation, installation log files may remain. Also, if you "
 "were using an old license, the license files will not be deleted. In such"
 " cases, please delete these files manually."
 
-#: ../../install/linux.rst:163
+#: ../../install/linux.rst:169
 msgid ""
 "本ソフトウェアの設定や作成したプロジェクト等のデータは、インストール先とは別の場所（ :file:`ホームディレクトリ/.nanolabo` "
 "）に保存され、アンインストール時には削除されません。必要に応じ、手動で削除してください。"
@@ -1796,7 +1809,7 @@ msgstr ""
 "uninstallation process. If you wish to remove them, please do so "
 "manually."
 
-#: ../../install/linux.rst:167
+#: ../../install/linux.rst:173
 msgid ""
 "Sentinel-LDK-RTEを後からアンインストールするには、\\ `Sentinel-LDK-RTEインストーラー "
 "<https://apps.advancesoft.jp/sentinel/Sentinel-LDK-RTE-for-"
@@ -2312,6 +2325,12 @@ msgstr ""
 "First, execute the Advance/NanoLabo installer. If a language selection "
 "window appears, choose a language for the installation process (this "
 "choice does not affect the software's language setting)."
+
+#: ../../install/windows.rst:41
+msgid "フローティングライセンスでクライアントとして使用する場合、Sentinel-LDK-RTEをインストールしますか？でいいえを選択してください。"
+msgstr ""
+"When asked \"Install Sentinel-LDK-RTE?\", select No if you are using this"
+" machine as a client with a floating license."
 
 #: ../../install/windows.rst:70
 msgid "直接起動する場合は、インストール先の :file:`bin` フォルダーにある :file:`NanoLabo.exe` を起動してください。"
