@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-30 10:42+0900\n"
+"POT-Creation-Date: 2025-09-08 11:15+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1440,8 +1440,8 @@ msgstr "Main Program"
 
 #: ../../install/linux.rst:16
 msgid ""
-"`Advance/NanoLabo (ver.3.1) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3093>`_"
+"`Advance/NanoLabo (ver.3.1.2) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3189>`_"
 msgstr ""
 
 #: ../../install/linux.rst:18 ../../install/mac.rst:18
@@ -1497,13 +1497,15 @@ msgstr ""
 
 #: ../../install/linux.rst:46
 msgid "ライセンスマネージャー(Sentinel-LDK-RTE)をインストールするためにroot権限での実行が必要です。"
-msgstr "Root privileges are required to install the License Manager (Sentinel-LDK-RTE)."
+msgstr ""
+"Root privileges are required to install the License Manager (Sentinel-"
+"LDK-RTE)."
 
 #: ../../install/linux.rst:48
 msgid "Sentinel-LDK-RTEのインストールが不要（既にインストール済みなど）という場合は一般ユーザーでも実行できます。"
 msgstr ""
-"It can also be run by a standard user if the installation of Sentinel-LDK-RTE "
-"is not required (e.g., it is already installed)."
+"It can also be run by a standard user if the installation of Sentinel-"
+"LDK-RTE is not required (e.g., it is already installed)."
 
 #: ../../install/linux.rst:50
 msgid "言語の選択画面が出た場合は、インストール中に使用する言語を選択してください（ソフトウェア本体で使用する言語ではありません）。"
@@ -1534,9 +1536,9 @@ msgid ""
 "フローティングライセンスでクライアントとして使用する場合、Sentinel-LDK-"
 "RTEをインストールしますか？でいいえを選択してください（一般ユーザーで実行した場合は確認は表示されません）。"
 msgstr ""
-"If you are using the software as a client with a floating license, select No "
-"for 'Install Sentinel-LDK-RTE?' (this confirmation prompt will not be "
-"displayed if run by a standard user)."
+"If you are using the software as a client with a floating license, select"
+" No for 'Install Sentinel-LDK-RTE?' (this confirmation prompt will not be"
+" displayed if run by a standard user)."
 
 #: ../../install/linux.rst:60 ../../install/windows.rst:43
 msgid ""
@@ -1832,8 +1834,8 @@ msgstr ""
 
 #: ../../install/mac.rst:16
 msgid ""
-"`Advance/NanoLabo (ver.3.1.1) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3163>`_"
+"`Advance/NanoLabo (ver.3.1.2) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3188>`_"
 msgstr ""
 
 #: ../../install/mac.rst:20
@@ -2297,8 +2299,8 @@ msgstr "How to Install (Windows)"
 
 #: ../../install/windows.rst:16
 msgid ""
-"`Advance/NanoLabo (ver.3.1) "
-"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3088>`_"
+"`Advance/NanoLabo (ver.3.1.2) "
+"<https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3190>`_"
 msgstr ""
 
 #: ../../install/windows.rst:20

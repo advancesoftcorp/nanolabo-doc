@@ -13,7 +13,7 @@
 
 - 本体
 
- `Advance/NanoLabo (ver.3.1) <https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3088>`_
+ `Advance/NanoLabo (ver.3.1.2) <https://www.nanolabo.advancesoft.jp/?sdm_process_download=1&download_id=3190>`_
 
 - オープンソースの計算エンジン等
 
