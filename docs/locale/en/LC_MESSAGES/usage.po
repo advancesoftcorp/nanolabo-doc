@@ -1556,7 +1556,6 @@ msgstr ""
 "environment named fair-chem."
 
 #: ../../usage/gnnp.rst:179
-#, fuzzy
 msgid ""
 "conda create -n fair-chem python=3.11\n"
 "conda activate fair-chem\n"
