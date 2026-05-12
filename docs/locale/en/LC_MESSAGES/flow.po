@@ -9,28 +9,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-22 15:12+0900\n"
+"POT-Creation-Date: 2026-05-12 16:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../flow.rst:5
 msgid "使用の流れ"
 msgstr "Usage Outline"
 
-#: ../../flow.rst:10
+#: ../../flow.rst:9
 msgid "解析したい物質を決めます。"
 msgstr "Decide a substance you want to analyze."
 
-#: ../../flow.rst:10
-msgid "\\"
-msgstr "\\"
-
-#: ../../flow.rst:15
+#: ../../flow.rst:12
 msgid "原子構造情報ファイルを用意します。"
 msgstr "Get the atomic structure information file."
 
@@ -44,14 +40,15 @@ msgstr ""
 "Search external materials databases (\\ `Materials Project "
 "<https://materialsproject.org/>`_\\ , `PubChem "
 "<https://pubchem.ncbi.nlm.nih.gov/>`_\\ ) by substance name or chemical "
-"formula from the search box at the top of the window. Additionally, you can "
-"import your own files or modify the atomic structure through the modeling function."
+"formula from the search box at the top of the window. Additionally, you "
+"can import your own files or modify the atomic structure through the "
+"modeling function."
 
 #: ../../flow.rst:15
 msgid "(\\ |rarr|\\ :doc:`usage/initial` |rarr|\\ :doc:`usage/explorer`)"
 msgstr ""
 
-#: ../../flow.rst:20
+#: ../../flow.rst:17
 msgid "解析の方法（計算エンジン）を選び、設定を行います。"
 msgstr ""
 "Choose the analysis method (calculation engine) and configure the "
@@ -60,14 +57,14 @@ msgstr ""
 #: ../../flow.rst:18
 msgid "計算条件などを指定する入力ファイルをGUI上で作成できます。"
 msgstr ""
-"Use the GUI to create input files, specifying the calculation "
-"conditions and other parameters as needed."
+"Use the GUI to create input files, specifying the calculation conditions "
+"and other parameters as needed."
 
 #: ../../flow.rst:20
 msgid "(\\ |rarr|\\ :doc:`usage/project` |rarr|\\ :doc:`usage/inputeditor`)"
 msgstr "(\\ |rarr|\\ :doc:`usage/project` |rarr|\\ :doc:`usage/inputeditor`)"
 
-#: ../../flow.rst:23
+#: ../../flow.rst:22
 msgid "計算を実行します。"
 msgstr "Run the calculation."
 
@@ -75,14 +72,17 @@ msgstr "Run the calculation."
 msgid "(\\ |rarr|\\ :doc:`usage/calculation`)"
 msgstr "(\\ |rarr|\\ :doc:`usage/calculation`)"
 
-#: ../../flow.rst:28
+#: ../../flow.rst:25
 msgid "結果を確認します。"
 msgstr "Review the result."
 
 #: ../../flow.rst:26
 msgid "画像や動画として結果を可視化し、ご活用ください。"
-msgstr "Visualize the data in the form of images or videos and utilize them as you want."
+msgstr ""
+"Visualize the data in the form of images or videos and utilize them as "
+"you want."
 
 #: ../../flow.rst:28
 msgid "(\\ |rarr|\\ :doc:`usage/result`)"
 msgstr "(\\ |rarr|\\ :doc:`usage/result`)"
+

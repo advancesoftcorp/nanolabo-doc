@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-23 18:49+0900\n"
+"POT-Creation-Date: 2026-05-12 16:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../index.rst:24
 msgid "目次:"
@@ -28,34 +28,30 @@ msgstr "Integrated Nanomaterial Analysis GUI Advance/NanoLabo"
 
 #: ../../index.rst:10
 msgid ""
-"`Advance/PHASE <https://www.advancesoft.jp/products/nano/advance-phase/"
-">`_\\ （当社製品）および、\\ `Quantum ESPRESSO <https://www.quantum-"
+"`Advance/PHASE <https://www.advancesoft.jp/products/nano/advance-"
+"phase/>`_\\ （当社製品）および、\\ `Quantum ESPRESSO <https://www.quantum-"
 "espresso.org/>`_\\ や\\ `LAMMPS <https://www.lammps.org/>`_\\ "
 "などオープンソースのナノ材料解析ソフトウェアに対応した統合GUIです。\\ `Materials Project "
 "<https://materialsproject.org/>`_\\ "
 "などの材料データベースを検索し、モデリング・計算条件設定が極めて容易に行えます。計算実行後は、結果を瞬時にグラフィック表示できます。"
 msgstr ""
 "An integrated GUI that supports `Advance/PHASE "
-"<https://www.advancesoft.jp/products/nano/advance-phase/>`_ (our product) "
-"as well as open-source nanomaterial analysis software such as `Quantum ESPRESSO "
-"<https://www.quantum-espresso.org/>`_ and `LAMMPS "
+"<https://www.advancesoft.jp/products/nano/advance-phase/>`_ (our product)"
+" as well as open-source nanomaterial analysis software such as `Quantum "
+"ESPRESSO <https://www.quantum-espresso.org/>`_ and `LAMMPS "
 "<https://www.lammps.org/>`_\\ . You can search materials databases like "
-"`Materials Project <https://materialsproject.org/>`_\\ , perform modeling,"
-" and configure calculation conditions with ease. After the calculation,"
-" you can instantly visualize and review the results."
+"`Materials Project <https://materialsproject.org/>`_\\ , perform "
+"modeling, and configure calculation conditions with ease. After the "
+"calculation, you can instantly visualize and review the results."
 
 #: ../../index.rst:12
 msgid "本サイトはオンラインマニュアルです。製品ホームページは |nanolabologo|_ へどうぞ。"
 msgstr ""
-"This site serves as the online manual. Please navigate to |nanolabologoen|_ for "
-"the product's homepage."
+"This site serves as the online manual. Please navigate to "
+"|nanolabologoen|_ for the product's homepage."
 
 #: ../../index.rst:14
 msgid "nanolabologo"
-msgstr ""
-
-#: ../../index.rst:18
-msgid "nanolabologoen"
 msgstr ""
 
 #: ../../index.rst:22

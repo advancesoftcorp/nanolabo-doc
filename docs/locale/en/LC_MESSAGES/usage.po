@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-15 15:13+0900\n"
+"POT-Creation-Date: 2026-05-12 16:02+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../usage.rst:5
 msgid "各機能の説明"
@@ -516,7 +516,7 @@ msgstr ""
 "view, click :guilabel:`Run` to open :guilabel:`Run a job` window, where "
 "you can configure the calculation job."
 
-#: ../../usage/calculation.rst:12
+#: ../../usage/calculation.rst:11
 msgid "Job Type"
 msgstr ""
 
@@ -530,7 +530,7 @@ msgstr ""
 "`ThreeBodyTB <https://pages.nist.gov/ThreeBodyTB.jl/>`_ only) Select a "
 "calculation type to be performed by the calculation engine."
 
-#: ../../usage/calculation.rst:17 ../../usage/sshserver.rst:36
+#: ../../usage/calculation.rst:14 ../../usage/sshserver.rst:36
 msgid "Host Name"
 msgstr ""
 
@@ -549,7 +549,7 @@ msgstr ""
 "The host and queue for remote execution should be added from the "
 "configuration screen beforehand."
 
-#: ../../usage/calculation.rst:25
+#: ../../usage/calculation.rst:24
 msgid "Queue Type"
 msgstr ""
 
@@ -561,7 +561,7 @@ msgstr "(Remote execution only) specify the queue to use."
 msgid "#Processes"
 msgstr ""
 
-#: ../../usage/calculation.rst:35
+#: ../../usage/calculation.rst:28
 msgid "#Threads"
 msgstr ""
 
@@ -593,7 +593,7 @@ msgstr ""
 "parallel and OpenMP parallel (hybrid parallel). The optimal combination "
 "depends on the machine environment."
 
-#: ../../usage/calculation.rst:38
+#: ../../usage/calculation.rst:37
 msgid "Project"
 msgstr "Project"
 
@@ -629,11 +629,10 @@ msgstr ""
 "|mainmenuicon| and toggle the :guilabel:`Input File Editor` setting."
 
 #: ../../usage/calculation.rst:48 ../../usage/gnnp.rst:235
-#: ../../usage/grandproject.rst:74 ../../usage/initial.rst:65
-#: ../../usage/inputeditorlammps.rst:187 ../../usage/inputeditorqe.rst:36
-#: ../../usage/inputeditortb3.rst:52 ../../usage/jupyter.rst:46
-#: ../../usage/modeler.rst:258 ../../usage/result.rst:60
-#: ../../usage/sshserver.rst:9
+#: ../../usage/initial.rst:65 ../../usage/inputeditorlammps.rst:187
+#: ../../usage/inputeditorqe.rst:36 ../../usage/inputeditortb3.rst:52
+#: ../../usage/jupyter.rst:46 ../../usage/modeler.rst:258
+#: ../../usage/result.rst:60 ../../usage/sshserver.rst:9
 msgid "mainmenuicon"
 msgstr ""
 
@@ -1571,7 +1570,8 @@ msgstr ""
 "curl -O "
 "https://raw.githubusercontent.com/facebookresearch/fairchem/refs/tags/fairchem_core-1.10.0/packages/env.gpu.yml"
 "\n"
-"# Edit the pytorch-cuda version in the yml if you want to change the CUDA version\n"
+"# Edit the pytorch-cuda version in the yml if you want to change the CUDA"
+" version\n"
 "conda env update -f env.gpu.yml\n"
 "pip install fairchem-core==1.10.0"
 
@@ -1664,18 +1664,22 @@ msgstr ""
 "with the one according to the force field settings."
 
 #: ../../usage/gnnp.rst:219
+#, python-brace-format
 msgid ":file:`$\\\\{HOME\\\\}/miniconda3/lib``"
 msgstr ""
 
 #: ../../usage/gnnp.rst:220
+#, python-brace-format
 msgid ":file:`$\\\\{HOME\\\\}/anaconda3/lib`"
 msgstr ""
 
 #: ../../usage/gnnp.rst:221
+#, python-brace-format
 msgid ":file:`$\\\\{HOME\\\\}/miniconda3/envs/\\\\{m3gnet,matgl,chgnet,mace,orb,mattersim,fairchem\\\\}/lib`"
 msgstr ""
 
 #: ../../usage/gnnp.rst:222
+#, python-brace-format
 msgid ":file:`$\\\\{HOME\\\\}/anaconda3/envs/\\\\{m3gnet,matgl,chgnet,mace,orb,mattersim,fairchem\\\\}/lib`"
 msgstr ""
 
@@ -2026,37 +2030,37 @@ msgstr ""
 msgid "パラメーター"
 msgstr "Parameter"
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:401
 msgid "gnnptype"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:401
 msgid "使用するGNN力場の種類"
 msgstr "Type of GNN force field to use"
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:402
 msgid "matgl, chgnet, mace, mace-off, orb, mattersim, fairchem"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:405
 msgid "modelname"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:406
 msgid "modelfile"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:404
 msgid "使用するモデル"
 msgstr "Model to use"
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:405
 msgid "各力場で用意されている、使用可能な学習済みモデルの名前を指定"
 msgstr ""
 "Specify the name of the available pre-trained model provided by each "
 "force field"
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:406
 msgid "pathに続けてファイルパスを指定すると、ファイルに保存されたモデルを使用"
 msgstr "To use a custom model saved in a file,　specify a file path after \"path\" "
 
@@ -2079,227 +2083,227 @@ msgstr ""
 "field. Please check the documentation or GitHub repository of each force "
 "field for the latest list."
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:419
 msgid "matgl"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:419
 msgid "M3GNet-MP-2021.2.8-PES"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:420
 msgid "M3GNet-MP-2021.2.8-DIRECT-PES"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:421
 msgid "M3GNet-MatPES-PBE-v2025.1-PES"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:422
 msgid "M3GNet-MatPES-r2SCAN-v2025.1-PES"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:423
 msgid "CHGNet-MPtrj-2023.12.1-2.7M-PES"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:424
 msgid "CHGNet-MPtrj-2024.2.13-11M-PES"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:425
 msgid "CHGNet-MatPES-PBE-2025.2.10-2.7M-PES"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:426
 msgid "CHGNet-MatPES-r2SCAN-2025.2.10-2.7M-PES"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:427
 msgid "TensorNet-MatPES-PBE-v2025.1-PES"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:428
 msgid "TensorNet-MatPES-r2SCAN-v2025.1-PES"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:430
 msgid "chgnet"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:430
 msgid "0.3.0, 0.2.0"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:432
 msgid "mace"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:432 ../../usage/gnnp.rst:440
 msgid "small, medium, large"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:433
 msgid "small-0b, medium-0b"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:434
 msgid "small-0b2, medium-0b2, large-0b2"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:435
 msgid "medium-0b3"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:436
 msgid "medium-mpa-0"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:437
 msgid "medium-omat-0"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:438
 msgid ""
 "mace-osaka24-small\\ :sup:`*`, mace-osaka24-medium\\ :sup:`*`, mace-"
 "osaka24-large\\ :sup:`*`"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:440
 msgid "mace-off"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:442
 msgid "orb"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:442
 msgid "orb-v2, orb-d3-v2, orb-d3-sm-v2, orb-d3-xs-v2, orb-mptraj-only-v2"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:444
 msgid "mattersim"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:444
 msgid "MatterSim-v1.0.0-1M, MatterSim-v1.0.0-5M"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:446
 msgid "fairchem"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:446
 msgid ""
 "CGCNN-S2EF-OC20-200k, CGCNN-S2EF-OC20-2M, CGCNN-S2EF-OC20-20M, CGCNN-"
 "S2EF-OC20-All"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:447
 msgid "DimeNet-S2EF-OC20-200k, DimeNet-S2EF-OC20-2M"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:448
 msgid ""
 "SchNet-S2EF-OC20-200k, SchNet-S2EF-OC20-2M, SchNet-S2EF-OC20-20M, SchNet-"
 "S2EF-OC20-All"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:449
 msgid ""
 "DimeNet++-S2EF-OC20-200k, DimeNet++-S2EF-OC20-2M, DimeNet++-S2EF-"
 "OC20-20M, DimeNet++-S2EF-OC20-All"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:450
 msgid "SpinConv-S2EF-OC20-2M, SpinConv-S2EF-OC20-All"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:451
 msgid "GemNet-dT-S2EF-OC20-2M, GemNet-dT-S2EF-OC20-All"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:452
 msgid "PaiNN-S2EF-OC20-All"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:453
 msgid ""
 "GemNet-OC-S2EF-OC20-2M, GemNet-OC-S2EF-OC20-All, GemNet-OC-S2EF-"
 "OC20-All+MD, GemNet-OC-Large-S2EF-OC20-All+MD"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:454
 msgid "SCN-S2EF-OC20-2M, SCN-t4-b2-S2EF-OC20-2M, SCN-S2EF-OC20-All+MD"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:455
 msgid "eSCN-L4-M2-Lay12-S2EF-OC20-2M"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:456
 msgid ""
 "eSCN-L6-M2-Lay12-S2EF-OC20-2M, eSCN-L6-M2-Lay12-S2EF-OC20-All+MD, "
 "eSCN-L6-M3-Lay20-S2EF-OC20-All+MD"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:457
 msgid ""
 "EquiformerV2-83M-S2EF-OC20-2M, EquiformerV2-31M-S2EF-OC20-All+MD, "
 "EquiformerV2-153M-S2EF-OC20-All+MD"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:458
 msgid "GemNet-dT-S2EFS-OC22"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:459
 msgid ""
 "GemNet-OC-S2EFS-OC22, GemNet-OC-S2EFS-OC20+OC22, GemNet-OC-S2EFS-nsn-"
 "OC20+OC22, GemNet-OC-S2EFS-OC20->OC22"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:460
 msgid "EquiformerV2-lE4-lF100-S2EFS-OC22"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:461
 msgid "SchNet-S2EF-ODAC"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:462
 msgid "DimeNet++-S2EF-ODAC"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:463
 msgid "PaiNN-S2EF-ODAC"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:464
 msgid "GemNet-OC-S2EF-ODAC"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:465
 msgid "eSCN-S2EF-ODAC"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:466
 msgid "EquiformerV2-S2EF-ODAC, EquiformerV2-Large-S2EF-ODAC"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:467
 msgid ""
 "EquiformerV2-31M-OMAT24\\ :sup:`**`, EquiformerV2-86M-OMAT24\\ :sup:`**`,"
 " EquiformerV2-153M-OMAT24\\ :sup:`**`"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:468
 msgid ""
 "EquiformerV2-31M-OMAT24-MP-sAlex\\ :sup:`**`, EquiformerV2-86M-OMAT24-MP-"
 "sAlex\\ :sup:`**`, EquiformerV2-153M-OMAT24-MP-sAlex\\ :sup:`**`"
 msgstr ""
 
-#: ../../usage/gnnp.rst
+#: ../../usage/gnnp.rst:469
 msgid ""
 "EquiformerV2-31M-MP\\ :sup:`**`, EquiformerV2-DeNS-31M-MP\\ :sup:`**`, "
 "EquiformerV2-DeNS-86M-MP\\ :sup:`**`, EquiformerV2-DeNS-153M-MP\\ "
@@ -2379,7 +2383,7 @@ msgstr ""
 "A dialog will appear, allowing you to choose the :guilabel:`Type of "
 "Grand-Project` to create."
 
-#: ../../usage/grandproject.rst:21 ../../usage/grandproject.rst:33
+#: ../../usage/grandproject.rst:18 ../../usage/grandproject.rst:33
 #: ../../usage/inputeditorlammps.rst:40
 msgid "NeuralMD"
 msgstr ""
@@ -2491,7 +2495,7 @@ msgstr ""
 msgid "IPアドレスが192.168.00.000の場合"
 msgstr "If the IP address is 192.168.00.000"
 
-#: ../../usage/grandproject.rst
+#: ../../usage/grandproject.rst:66
 msgid "serveraddr = 192.168.00.000"
 msgstr ""
 
@@ -2646,7 +2650,7 @@ msgstr ""
 msgid "元構造・ランダム構造生成の設定項目"
 msgstr "Configuration on original geometry / random geometries generation"
 
-#: ../../usage/grandproject.rst:147
+#: ../../usage/grandproject.rst:146
 msgid "Edit Input File of Q.E."
 msgstr ""
 
@@ -2659,7 +2663,7 @@ msgstr ""
 "reflected across these columns (in order to equalize the SCF calculation "
 "condition within the training data)."
 
-#: ../../usage/grandproject.rst:150
+#: ../../usage/grandproject.rst:149
 msgid "Edit Geometry by Modeler"
 msgstr ""
 
@@ -2667,7 +2671,7 @@ msgstr ""
 msgid "元構造をモデラーを使って編集します。"
 msgstr "Edit the original geometry using the modeler."
 
-#: ../../usage/grandproject.rst:153
+#: ../../usage/grandproject.rst:152
 msgid "Add Random Geometries / Remove Random Geometries"
 msgstr ""
 
@@ -2677,7 +2681,7 @@ msgstr ""
 "Add / remove configuration for generating random geometries from the "
 "original one."
 
-#: ../../usage/grandproject.rst:160
+#: ../../usage/grandproject.rst:155
 msgid "Use for Training NNP / Use for Testing NNP"
 msgstr ""
 
@@ -2695,7 +2699,7 @@ msgstr ""
 "title. This allows for quick identification even when the configuration "
 "view is collapsed."
 
-#: ../../usage/grandproject.rst:184
+#: ../../usage/grandproject.rst:162
 msgid "Generating Geometries"
 msgstr ""
 
@@ -2724,7 +2728,7 @@ msgstr ""
 "the settings, and run the calculation by :guilabel:`Run` from the lower "
 "left menu."
 
-#: ../../usage/grandproject.rst:168
+#: ../../usage/grandproject.rst:167
 msgid "Monte-Carlo (Metropolis)"
 msgstr ""
 
@@ -2747,7 +2751,7 @@ msgstr ""
 "Click on :guilabel:`Generate Geometries` to generate (or extract) random "
 "geometries using specified settings."
 
-#: ../../usage/grandproject.rst:182
+#: ../../usage/grandproject.rst:177
 msgid "Self-Learning Hybrid MC"
 msgstr ""
 
@@ -2791,7 +2795,7 @@ msgstr ""
 "If there is fixed atom(s), the coordinates remain unchanged when "
 "generating random geometries."
 
-#: ../../usage/grandproject.rst:195
+#: ../../usage/grandproject.rst:186
 msgid "Calculation of Q.E."
 msgstr ""
 
@@ -3548,6 +3552,7 @@ msgid "Lennard-Jones"
 msgstr ""
 
 #: ../../usage/inputeditorlammps.rst:23
+#, python-brace-format
 msgid ""
 ":guilabel:`Non-Bonded Interactions` 欄でLennard-Jonesポテンシャル "
 ":math:`E=4\\epsilon [(\\sigma /r)^{12} -(\\sigma /r)^6]` のパラメーター\\ "
@@ -3783,15 +3788,15 @@ msgstr ""
 msgid "任意の変形を許す"
 msgstr "Allow arbitrary deformation"
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:133 ../../usage/slhmc.rst:44
 msgid "XY Isotropic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:134 ../../usage/slhmc.rst:45
 msgid "YZ Isotropic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:135 ../../usage/slhmc.rst:46
 msgid "XZ Isotropic"
 msgstr ""
 
@@ -3799,15 +3804,15 @@ msgstr ""
 msgid "2つの軸方向の同じ割合での伸縮を許す"
 msgstr "Allow stretching along the 2 axes at the same ratio"
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:137 ../../usage/slhmc.rst:48
 msgid "XY Anisotropic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:138 ../../usage/slhmc.rst:49
 msgid "YZ Anisotropic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:139 ../../usage/slhmc.rst:50
 msgid "XZ Anisotropic"
 msgstr ""
 
@@ -3815,15 +3820,15 @@ msgstr ""
 msgid "2つの軸方向の伸縮を許す"
 msgstr "Allow stretching along the 2 axes"
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:141 ../../usage/slhmc.rst:52
 msgid "XY Monoclinic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:142 ../../usage/slhmc.rst:53
 msgid "YZ Monoclinic"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:143 ../../usage/slhmc.rst:54
 msgid "XZ Monoclinic"
 msgstr ""
 
@@ -3831,15 +3836,15 @@ msgstr ""
 msgid "2つの軸を含む面内の任意の変形を許す"
 msgstr "Allow arbitrary deformations in a plane containing the 2 axes"
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:145 ../../usage/slhmc.rst:56
 msgid "X Mobile"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:146 ../../usage/slhmc.rst:57
 msgid "Y Mobile"
 msgstr ""
 
-#: ../../usage/inputeditorlammps.rst ../../usage/slhmc.rst
+#: ../../usage/inputeditorlammps.rst:147 ../../usage/slhmc.rst:58
 msgid "Z Mobile"
 msgstr ""
 
@@ -3938,7 +3943,7 @@ msgstr ""
 "Configure optional operations in the :guilabel:`Option` mode of the input"
 " file editor."
 
-#: ../../usage/inputeditorlammps.rst:198
+#: ../../usage/inputeditorlammps.rst:197
 msgid "E-Field"
 msgstr ""
 
@@ -3946,7 +3951,7 @@ msgstr ""
 msgid "静電場を印加します。"
 msgstr "Apply a static electric field."
 
-#: ../../usage/inputeditorlammps.rst:201
+#: ../../usage/inputeditorlammps.rst:200
 msgid "Ext. Forces"
 msgstr ""
 
@@ -3954,7 +3959,7 @@ msgstr ""
 msgid "外力を印加します。"
 msgstr "Apply external forces."
 
-#: ../../usage/inputeditorlammps.rst:204
+#: ../../usage/inputeditorlammps.rst:203
 msgid "Move Atoms"
 msgstr ""
 
@@ -3962,7 +3967,7 @@ msgstr ""
 msgid "原子を一定の速度で（原子に働く力に依らず）動かします。"
 msgstr "Move atoms at a constant speed, regardless of the forces acting on them. "
 
-#: ../../usage/inputeditorlammps.rst:207
+#: ../../usage/inputeditorlammps.rst:206
 msgid "Deform Cell"
 msgstr ""
 
@@ -4024,7 +4029,7 @@ msgstr "User's"
 msgid "入力ファイルエディターの :guilabel:`User's` で任意コマンド追加、任意変数出力・グラフ化の設定を行います。"
 msgstr "Configure additional user commands / variables for output and plotting."
 
-#: ../../usage/inputeditorlammps.rst:231 ../../usage/inputeditorlammps.rst:240
+#: ../../usage/inputeditorlammps.rst:230 ../../usage/inputeditorlammps.rst:240
 msgid "User's Additional Settings into Input-file"
 msgstr ""
 
@@ -4034,7 +4039,7 @@ msgstr ""
 "Add any LAMMPS commands into the text box to insert them to the input "
 "file."
 
-#: ../../usage/inputeditorlammps.rst:236 ../../usage/inputeditorlammps.rst:250
+#: ../../usage/inputeditorlammps.rst:233 ../../usage/inputeditorlammps.rst:250
 msgid "User's Variables to Output and Plot"
 msgstr ""
 
@@ -4087,18 +4092,6 @@ msgstr ""
 "Please refer to `LAMMPS manual "
 "<https://docs.lammps.org/Commands_category.html>`_ for guidance on the "
 "usage of LAMMPS commands."
-
-#: ../../usage/inputeditorqe.rst:12
-msgid "import"
-msgstr ""
-
-#: ../../usage/inputeditorqe.rst:15
-msgid "view"
-msgstr ""
-
-#: ../../usage/inputeditorqe.rst:18
-msgid "to_be_smooth"
-msgstr ""
 
 #: ../../usage/inputeditorqe.rst:23
 msgid "入力ファイルエディター（Quantum ESPRESSO固有の設定）"
@@ -4257,13 +4250,25 @@ msgstr "Click |remove| to remove an image."
 msgid "イメージを別の構造に置き換えるには、 |import| をクリックして、置き換えたい構造を含むプロジェクトを選びます。"
 msgstr "Click |import| and select a project to replace an image with another."
 
+#: ../../usage/inputeditorqe.rst:12
+msgid "import"
+msgstr ""
+
 #: ../../usage/inputeditorqe.rst:87
 msgid "イメージの構造を確認するには、 |view| をクリックします。選択中のイメージ以外は残像で表示されます。"
 msgstr "Click |view| to highlight an image. "
 
+#: ../../usage/inputeditorqe.rst:15
+msgid "view"
+msgstr ""
+
 #: ../../usage/inputeditorqe.rst:89
 msgid "イメージ全体をスムーズ化するには、 |to_be_smooth| をクリックします。"
 msgstr "Additionally, you can click |to_be_smooth| to smoothen a series of images."
+
+#: ../../usage/inputeditorqe.rst:18
+msgid "to_be_smooth"
+msgstr ""
 
 #: ../../usage/inputeditorqe.rst:95
 msgid ""
@@ -4423,6 +4428,7 @@ msgstr ""
 " axis by :guilabel:`Shape Tensor`\\ ."
 
 #: ../../usage/inputeditorqe.rst:140
+#, python-brace-format
 msgid "参照物質の遮蔽テンソル :math:`\\sigma_\\mathrm{ref}` は、結果プロット画面で設定できます。"
 msgstr ""
 "You can also specify the shielding tensor of the reference compound "
@@ -4627,7 +4633,7 @@ msgstr ""
 "Click on the icon |mainmenuicon| located in the upper left corner of the "
 "screen, and open :menuselection:`Properties --> Jupyter Lab`\\ ."
 
-#: ../../usage/jupyter.rst:21
+#: ../../usage/jupyter.rst:20
 msgid "Type of Jupyter Lab"
 msgstr ""
 
@@ -4641,7 +4647,7 @@ msgstr ""
 ":guilabel:`Matlantis` to use Matlantis\\ |tm|\\ . For other JupyterLab "
 "environment, such as on-premises ones, set it to :guilabel:`On Premise`."
 
-#: ../../usage/jupyter.rst:24
+#: ../../usage/jupyter.rst:23
 msgid "Launching Behavior"
 msgstr ""
 
@@ -4681,7 +4687,7 @@ msgstr ""
 msgid "以下は各タブ共通の設定です。"
 msgstr "The settings below apply to both tabs."
 
-#: ../../usage/jupyter.rst:33
+#: ../../usage/jupyter.rst:32
 msgid "Uploading Path"
 msgstr ""
 
@@ -4691,7 +4697,7 @@ msgstr ""
 "Configure the path for uploading atomic structure from NanoLabo to "
 "JupyterLab. Specify a relative path to the root directory of Jupyterlab."
 
-#: ../../usage/jupyter.rst:36
+#: ../../usage/jupyter.rst:35
 msgid "Uploading File Type"
 msgstr ""
 
@@ -4701,7 +4707,7 @@ msgstr ""
 "Specify :file:`.POSCAR` format to include information on whether atomic "
 "coordinates are fixed/mobile during the uproad."
 
-#: ../../usage/jupyter.rst:39
+#: ../../usage/jupyter.rst:38
 msgid "Using NGLView"
 msgstr ""
 
@@ -4711,7 +4717,7 @@ msgstr ""
 "Include codes snippets for visualizing atomic structure with NGLView when"
 " importing files."
 
-#: ../../usage/jupyter.rst:42
+#: ../../usage/jupyter.rst:41
 msgid "Drag & Drop"
 msgstr ""
 
@@ -5132,12 +5138,12 @@ msgstr "Non-diagonal super cell expansion"
 
 #: ../../usage/modeler.rst:118
 msgid ""
-":guilabel:`Lattice` タブの :guilabel:`Super Cell` "
+":guilabel:`Lattice` タブの :guilabel:`Super Lattice` "
 "では、各軸方向の繰り返しにとどまらず、格子ベクトルの方向の取り直しを伴うようなより一般的なスーパーセルが生成できます。"
 msgstr ""
 "To create a more general super cell, not limited to repeating along the "
 "axes but including the redefinition of the lattice vectors, utilize the "
-":guilabel:`Super Cell` function in :guilabel:`Lattice` tab. "
+":guilabel:`Super Lattice` function in :guilabel:`Lattice` tab. "
 
 #: ../../usage/modeler.rst:120
 msgid ""
@@ -5249,7 +5255,7 @@ msgstr ""
 msgid "Finding a Primitive Cell"
 msgstr ""
 
-#: ../../usage/modeler.rst:171
+#: ../../usage/modeler.rst:168
 msgid "Finding a Standard Cell"
 msgstr ""
 
@@ -5257,7 +5263,7 @@ msgstr ""
 msgid "基本単位胞・慣用単位胞を自動的に決定し、相互に変換します。"
 msgstr "automatically find and convert to primitive / standard cell."
 
-#: ../../usage/modeler.rst:174
+#: ../../usage/modeler.rst:173
 msgid "More Symmetric Cell"
 msgstr ""
 
@@ -5272,7 +5278,7 @@ msgstr ""
 msgid "Hexagonal -> Orthorhombic"
 msgstr ""
 
-#: ../../usage/modeler.rst:182
+#: ../../usage/modeler.rst:179
 msgid "Orthorhombic -> Hexagonal"
 msgstr ""
 
@@ -5489,14 +5495,6 @@ msgstr ""
 ":guilabel:`Build` to display the structure with adsorbed molecules in the"
 " viewer. Clicking :guilabel:`Build` again will show a different structure"
 " while maintaining the same settings."
-
-#: ../../usage/modeler.rst:259
-msgid "increment"
-msgstr ""
-
-#: ../../usage/modeler.rst:260
-msgid "decrement"
-msgstr ""
 
 #: ../../usage/modeler.rst:267
 msgid "界面モデル（Pro版のみ）"
@@ -6649,7 +6647,7 @@ msgstr ""
 "In the :guilabel:`Server` tab, configure the settings related to the "
 "sever connection."
 
-#: ../../usage/sshserver.rst:38
+#: ../../usage/sshserver.rst:37
 msgid "Port"
 msgstr ""
 
@@ -6657,7 +6655,7 @@ msgstr ""
 msgid "サーバーのホスト名（またはIPアドレス）、ポート番号を入力します。"
 msgstr "Enter the host name (or IP address) and port number."
 
-#: ../../usage/sshserver.rst:45
+#: ../../usage/sshserver.rst:40
 msgid "Job Manager"
 msgstr "Job Manager settings"
 
@@ -6675,7 +6673,7 @@ msgstr ""
 "running a job manager. Please consult with the server administrator "
 "before the configuration."
 
-#: ../../usage/sshserver.rst:48
+#: ../../usage/sshserver.rst:47
 msgid "Work Directory"
 msgstr ""
 
@@ -6686,7 +6684,7 @@ msgstr ""
 " in the calculation. Specify a location with write permission. Typically,"
 " the user's home directory is suitable."
 
-#: ../../usage/sshserver.rst:51
+#: ../../usage/sshserver.rst:50
 msgid "Proxy Type"
 msgstr ""
 
@@ -6700,7 +6698,7 @@ msgstr ""
 "submitting calculation jobs to external cloud virtual machines or similar"
 " environment where a proxy is required for internet connection."
 
-#: ../../usage/sshserver.rst:64
+#: ../../usage/sshserver.rst:53
 msgid "Account"
 msgstr ""
 
@@ -6760,7 +6758,7 @@ msgstr "Job settings"
 msgid "次に、 :guilabel:`Job` タブでサーバーへのジョブ投入に関する設定を行います。"
 msgstr "In the :guilabel:`Job` tab, configure job posting settings for the server."
 
-#: ../../usage/sshserver.rst:79
+#: ../../usage/sshserver.rst:77
 msgid "Job Queue"
 msgstr ""
 
@@ -6776,7 +6774,7 @@ msgstr ""
 msgid "Job Posting Command"
 msgstr ""
 
-#: ../../usage/sshserver.rst:99
+#: ../../usage/sshserver.rst:84
 msgid "Job Script"
 msgstr ""
 
@@ -6881,7 +6879,7 @@ msgstr ""
 msgid ":guilabel:`Connection Style` で、低速ネットワーク用の設定ができます。"
 msgstr ":guilabel:`Connection Style` is settings for the low bandwidth network."
 
-#: ../../usage/sshserver.rst:128
+#: ../../usage/sshserver.rst:127
 msgid "Online Mode"
 msgstr ""
 
@@ -6891,7 +6889,7 @@ msgstr ""
 "if set to Always OFFLINE mode, the system will not fetch results "
 "(download files) in real-time."
 
-#: ../../usage/sshserver.rst:131
+#: ../../usage/sshserver.rst:130
 msgid "Download Mode"
 msgstr ""
 
@@ -6901,7 +6899,7 @@ msgstr ""
 "you can configure settings to download Only Text Files, excluding large "
 "binary files etc."
 
-#: ../../usage/sshserver.rst:134
+#: ../../usage/sshserver.rst:133
 msgid "Download Time"
 msgstr ""
 
