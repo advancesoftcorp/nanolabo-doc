@@ -40,7 +40,8 @@ release = u''
 # ones.
 extensions = [
     'sphinx.ext.imgmath',
-    #'sphinx.ext.imgconverter'
+    #'sphinx.ext.imgconverter',
+    'sphinx_design',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

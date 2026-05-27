@@ -1,0 +1,463 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, AdvanceSoft Corporation
+# This file is distributed under the same license as the Advance/NanoLabo
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advance/NanoLabo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-27 17:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../faq.rst:5
+msgid "よくある質問(FAQ)"
+msgstr "Frequently Asked Questions"
+
+#: ../../faq.rst:8
+msgid "ライセンス・アクティベーション・認証エラー"
+msgstr "License, Activation, and Authentication Errors"
+
+#: ../../faq.rst
+msgid "Q1：ライセンスを別のマシンに移行することはできますか？"
+msgstr "Q1: Can I transfer the license to another machine?"
+
+#: ../../faq.rst:13
+msgid ""
+"A1：Windows\\ |rarr|\\ "
+"Windowsの場合、移行ツールを使ってユーザー側の操作のみで移行することができます。ご希望の場合はお問い合わせください。それ以外のOSの場合は有償でのライセンス再発行となります。"
+msgstr ""
+"A1: For Windows |rarr| Windows, the transfer can be completed solely by the "
+"user using a migration tool. Please contact us if you request the tool. "
+"For other operating systems, the license will be reissued for a fee."
+
+#: ../../faq.rst
+msgid "Q2：手動でのライセンスアクティベーションの際、ACCまたはEMSの画面上でエラーが発生します。"
+msgstr "Q2: An error occurs on the ACC or EMS screen during manual license activation."
+
+#: ../../faq.rst:18
+msgid "A2："
+msgstr "A2:"
+
+#: ../../faq.rst:20
+msgid "C2Vファイルを正常に生成するには管理者権限でインストールされるライセンスマネージャーが必要です。NanoLaboインストーラーまたはライセンスマネージャー単独のインストーラーを管理者権限で実行してインストールし、ACC画面(http://localhost:1947)が表示できることをご確認ください。"
+msgstr ""
+"To successfully generate a C2V file, a license manager installed with "
+"administrator privileges is required. Please run the NanoLabo installer "
+"or the standalone license manager installer with administrator "
+"privileges to install it, and confirm that the ACC screen "
+"(http://localhost:1947) can be displayed."
+
+#: ../../faq.rst:21
+msgid ""
+"操作画面に紛らわしい箇所がありますので、\\ :ref:`licensesetupdate`\\ "
+"のスクリーンショットを確認しながら操作してください。特に以下にご注意ください。"
+msgstr ""
+"Some parts of the operation screen may be confusing, so please follow the "
+"steps while checking the screenshots in :ref:`licensesetupdate`\\ . "
+"Please pay particular attention to the following."
+
+#: ../../faq.rst:23
+msgid "EMSへのログイン時、中央の「Product Key ID」の欄に正しいProduct Keyを入力していることをご確認ください。"
+msgstr ""
+"When logging in to EMS, please confirm that you have entered the correct "
+"Product Key in the \"Product Key ID\" field in the center."
+
+#: ../../faq.rst:24
+msgid "EMSのProducts画面では、「Activate Offline」（Onlineではなく）をクリックしてください。"
+msgstr "On the EMS Products screen, please click \"Activate Offline\" (not \"Online\")."
+
+#: ../../faq.rst
+msgid "Q3：フローティングライセンスとは何ですか？／フローティングライセンスを使うにはどのような設定が必要ですか？"
+msgstr ""
+"Q3: What is a floating license? / What configuration is required "
+"to use a floating license?"
+
+#: ../../faq.rst:29
+msgid "A3："
+msgstr "A3:"
+
+#: ../../faq.rst:31
+msgid ""
+"特定の1台のマシンでの使用に限らず、同一ネットワーク内の複数のクライアントマシンから契約数の範囲内で交代で利用できるライセンスです。 "
+"|rarr|\\ :ref:`licensesetupdate`"
+msgstr ""
+"The license is not limited to use on a single specific machine, but can "
+"be used alternately by multiple client machines within the same network "
+"within the contracted number of licenses. |rarr|\\ :ref:`licensesetupdate`"
+
+#: ../../faq.rst:32
+msgid "管理者権限でNanoLaboをインストールすると、ライセンスマネージャーがインストールされ、アクティベーションを行えばそのままライセンスサーバーとして動作します。クライアント側ではNanoLaboをインストールして起動するだけです。"
+msgstr ""
+"Installing NanoLabo with administrator privileges installs the license "
+"manager, and after activation, it functions as a license server as is. "
+"On the client side, simply install and launch NanoLabo."
+
+#: ../../faq.rst:33
+#, python-format
+msgid ""
+"LAN内のマシンであれば、通常は自動的にライセンスサーバーを探索して参照します。探索がうまくいかず手動でライセンスサーバーを指定する場合は、クライアントマシンの「%LocalAppData%\\\\SafeNet"
+" Sentinel\\\\Sentinel "
+"LDK」（Windowsの場合）またはホームディレクトリ配下の「.hasplm」（Linuxの場合）に「hasp\\_32462.ini」というファイルを作成し、「serveraddr"
+" = "
+"(サーバーのIPアドレスまたはホスト名)」と記述してください。クライアントからライセンスサーバーの1947ポートにアクセスできるよう、ファイアウォールなどのセキュリティ設定にもご注意ください。"
+" |rarr|\\ :ref:`floating`\\_"
+msgstr ""
+"Machines within the LAN normally automatically search for and reference "
+"the license server. If the search fails and you need to specify the "
+"license server manually, create a file named \"hasp\\_32462.ini\" in "
+"\"%LocalAppData%\\\\SafeNet Sentinel\\\\Sentinel LDK\" (for Windows) or "
+"\".hasplm\" under the home directory (for Linux), and write "
+"\"serveraddr = (Server's IP address or hostname)\". Please also pay "
+"attention to security settings such as firewalls so that the client can "
+"access port 1947 of the license server. |rarr|\\ :ref:`floating`"
+
+#: ../../faq.rst
+msgid "Q4：フローティングライセンスを使いたいのですが、クライアント側でプロダクトキーを入力してもエラーになります。"
+msgstr ""
+"Q4: I want to use a floating license, but an error occurs even when I "
+"enter the product key on the client side."
+
+#: ../../faq.rst:38
+msgid "A4："
+msgstr "A4:"
+
+#: ../../faq.rst:40
+msgid "クライアント側でアクティベーションを行う必要はありません。ライセンスサーバーでアクティベーションを行っていれば、そのプロダクトキーは使用済みとなります。通常はクライアントから自動的にライセンスサーバーを探索して使用します。"
+msgstr ""
+"Activation is not required on the client side. If activation has "
+"been performed on the license server, that product key becomes used. "
+"Normally, the client automatically searches for and uses the license "
+"server."
+
+#: ../../faq.rst:41
+msgid ""
+"クライアント側でライセンスのエラーが出る（アクティベーションを求められる）場合、ライセンスサーバーへ正しくアクセスできていない可能性があります。コマンドで確認するには、Windows環境の場合PowerShellで「\\"
+" ``Test-NetConnection -ComputerName (サーバーのIPアドレスまたはホスト名) -Port 1947``\\ "
+"」、Linux環境であればターミナルで「\\ ``nc -vz (サーバーのIPアドレスまたはホスト名) 1947``\\ "
+"」を実行してください。アクセスできない場合はファイアウォール等の設定をご確認ください。 |rarr|\\ :ref:`floating`"
+msgstr ""
+"If a license error occurs on the client side (prompting for "
+"activation), the client may not be accessing the license server "
+"correctly. To check via command, run "
+"``Test-NetConnection -ComputerName (Server's IP address or "
+"hostname) -Port 1947`` in PowerShell for Windows, or "
+"``nc -vz (Server's IP address or hostname) 1947`` in the terminal "
+"for Linux. If access fails, please check the firewall and other "
+"settings. |rarr|\\ :ref:`floating`"
+
+
+#: ../../faq.rst:44
+msgid "計算設定・サーバー・ジョブ実行エラー"
+msgstr "Calculation Settings, Server, and Job Execution Errors"
+
+#: ../../faq.rst
+msgid "Q5：GNN力場／TB3(ThreeBodyTB)の計算を実行するとすぐにエラーで終了します。"
+msgstr ""
+"Q5: GNN force field / TB3 (ThreeBodyTB) calculations terminate with "
+"an error immediately upon execution."
+
+#: ../../faq.rst:49
+msgid ""
+"A5：GNN力場はPython環境、TB3はJulia環境のパッケージを使用して実行されます。これらはNanoLaboのインストーラーには含まれておらず、事前に別途インストールしていただく必要があります。インストール手順は各ページ（\\"
+" `GNNP <https://nanolabo-"
+"doc.readthedocs.io/ja/latest/usage/gnnp.html>`_\\ 、\\ `TB3 <https"
+"://nanolabo-doc.readthedocs.io/ja/latest/usage/inputeditortb3.html>`_\\ "
+"）を参照してください。また、MPI並列実行には対応していないため、MPI並列数(\\#Processes)を「1」として実行してください。"
+msgstr ""
+"A5: GNN force fields are executed using packages within the Python "
+"environment, and TB3 using packages within the Julia environment. These "
+"are not included in the NanoLabo installer and must be installed "
+"separately in advance. Please refer to each page (\\ `GNNP <https://"
+"nanolabo-doc.readthedocs.io/ja/latest/usage/gnnp.html>`_ and `TB3 <https"
+"://nanolabo-doc.readthedocs.io/ja/latest/usage/inputeditortb3.html>`_\\ "
+") for the installation procedures. Also, MPI parallel execution is "
+"not supported, so please run with the number of MPI processes "
+"(\\#Processes) set to \"1\"."
+
+#: ../../faq.rst
+msgid "Q6：Quantum ESPRESSOの計算が収束せずに止まります。"
+msgstr "Q6: Quantum ESPRESSO calculations stop without converging."
+
+#: ../../faq.rst:54
+msgid "A6："
+msgstr "A6:"
+
+#: ../../faq.rst:56
+msgid "原子構造やSCF計算設定が物理的に妥当でない可能性があるのでご確認ください。"
+msgstr ""
+"Please check your atomic structure and SCF calculation settings, as they "
+"may not be physically reasonable."
+
+#: ../../faq.rst:57
+msgid "SCF設定のMixing Rateを小さくすることで収束が安定することがあります。"
+msgstr ""
+"Reducing the Mixing Rate in the SCF settings may help stabilize "
+"convergence."
+
+#: ../../faq.rst:58
+msgid ""
+"SCF設定・Optimize設定画面の「Max "
+"Steps」のスライダーで上限を増やすことができます。スライダーの上限を超える値を設定したい場合は、スライダーを右クリックして「Extend "
+"the domain」を選択することで設定範囲を拡張できます。"
+msgstr ""
+"You can increase the upper limit with the \"Max Steps\" slider on the "
+"SCF Settings / Optimize Settings screen. If you want to set a value "
+"exceeding the upper limit of the slider, you can extend the setting "
+"range by right-clicking the slider and selecting \"Extend the domain\"."
+
+#: ../../faq.rst
+msgid "Q7：ジョブ投入後、すぐに\"Calculation was canceled.\"というメッセージが表示されます。"
+msgstr ""
+"Q7: Immediately after submitting a job, the message \"Calculation was "
+"canceled.\" is displayed."
+
+#: ../../faq.rst:63
+msgid ""
+"A7：ジョブが投入されずにすぐに終了してしまう場合、SSH接続設定やジョブ管理システムの設定に不備がある可能性があります。\\ "
+":ref:`sshserver`\\ のTestタブで接続設定が正しいかテストすることができます。また、Job "
+"Managerの選択が正しいか、Job Scriptの内容に不備が無いかご確認ください。"
+msgstr ""
+"A7: If a job terminates immediately without being submitted, there may be "
+"an issue with the SSH connection settings or the job management system "
+"settings. You can test whether the connection settings are correct on the "
+"Test tab of :ref:`sshserver`\\ . Also, please check that the Job Manager "
+"selection is correct and there are no errors in the Job Script content."
+
+#: ../../faq.rst
+msgid "Q8：ジョブスクリプトに書く内容を教えてください。／ジョブが意図したように実行されません。"
+msgstr ""
+"Q8: What should I write in the job script? / The job does "
+"not run as intended."
+
+#: ../../faq.rst:68
+msgid ""
+"A8：Job "
+"Scriptにはデフォルトでは必要最小限の内容が入っています。ジョブの実行方法はお使いのクラスターやスパコンの環境に依存しますので、システムのマニュアルやサンプルのジョブスクリプトがあればそれを参考にしていただき、不明な点はサーバーの管理者にお問い合わせください。"
+msgstr ""
+"A8: By default, the Job Script contains the minimum necessary content. "
+"Since how jobs are executed depends on your cluster or supercomputer "
+"environment, please refer to the system manual or sample job scripts if "
+"available, and contact your server administrator if you have any questions."
+
+#: ../../faq.rst
+msgid "Q9：ジョブ投入時に、サーバー側にインストールを行う必要はありますか？"
+msgstr ""
+"Q9: Do I need to install anything on the server side in advance "
+"when submitting a job?"
+
+#: ../../faq.rst:73
+msgid "A9：いいえ、ありません。通常はNanoLaboがジョブ投入時に実行ファイルを転送し、PATHに追加して実行する仕組みになっています。例外として、ジョブスクリプト内にPATHの指定やmoduleコマンドなどがある場合、追加が行われませんのでご注意ください。"
+msgstr ""
+"A9: No, it is not necessary. Normally, NanoLabo transfers the "
+"executable file when submitting a job, adds it to the PATH, and executes "
+"it. As an exception, please note that if there is a PATH specification "
+"or a module command in the job script, it will not be added."
+
+#: ../../faq.rst
+msgid "Q10：計算実行時の詳細なエラーログや標準出力・標準エラー出力はどこで確認できますか？"
+msgstr ""
+"Q10: Where can I check the detailed error logs, standard output, and "
+"standard error output during calculation execution?"
+
+#: ../../faq.rst:78
+msgid "A10：Result画面のLOG・ERRボタンから確認できます。ファイル本体は、プロジェクトフォルダ配下のqeまたはlammpsディレクトリ内に、「espresso.log.\\*」や「espresso.err.\\*」といったファイル名で出力されます。また、NanoLabo自体のログはホームディレクトリ/.nanolabo/.system内に「\\_logOut.\\*.txt」や「\\_logErr.\\*.txt」として出力されます。"
+msgstr ""
+"A10: You can check them from the LOG/ERR buttons on the Result screen. "
+"The file itself is output in the qe or lammps directory under the "
+"project folder with a file name such as \"espresso.log.\\*\" or "
+"\"espresso.err.\\*\". Also, NanoLabo's own logs are output in the home "
+"directory/.nanolabo/.system as \"\\_logOut.\\*.txt\" or \"\\_logErr.\\*.txt\"."
+
+#: ../../faq.rst
+msgid "Q11：管理者権限を持たない一般ユーザー環境にインストールする際の注意点はありますか？"
+msgstr ""
+"Q11: Are there any precautions when installing without administrator privileges?"
+
+#: ../../faq.rst:83
+msgid "A11："
+msgstr "A11:"
+
+#: ../../faq.rst:85
+msgid ""
+"ライセンスサーバーとなるマシンでは管理者権限でインストールする必要があります。フローティングライセンスのクライアントとして使うマシンでは一般ユーザーでインストール、使用していただけます（macOSではクライアントでも管理者権限が必要です）。"
+" |rarr|\\ :ref:`floating`"
+msgstr ""
+"The machine serving as the license server requires administrator "
+"privileges for installation. On machines used as floating license "
+"clients, non-admin users can install and use it (on macOS, administrator "
+"privileges are required even for clients). |rarr|\\ :ref:`floating`"
+
+#: ../../faq.rst:86
+msgid ""
+"各計算エンジンの実行ファイルへのパス設定がデフォルトで正しく設定されない場合は、画面左上メニューから "
+":menuselection:`Properties --> Quantum ESPRESSO` "
+"などの項目を開き、「Path」にインストール先の実行ファイル（pw.x等）を設定してください。"
+msgstr ""
+"If the path settings to the executable files for each calculation engine "
+"are not set correctly by default, open items such as "
+":menuselection:`Properties --> Quantum ESPRESSO` from the upper-left "
+"menu on the screen, and set the installed executable file (such as "
+"pw.x) in \"Path\"."
+
+#: ../../faq.rst
+msgid "Q12：自動生成される計算エンジンの入力ファイルを手で編集して実行することはできますか？"
+msgstr ""
+"Q12: Is it possible to manually edit and run the automatically "
+"generated input files for the calculation engine?"
+
+#: ../../faq.rst:91
+msgid ""
+"A12：可能です。画面左下のメニューからInput-"
+"fileを開き、内容を編集して、上矢印ボタンをクリックすると反映されます。ただし、出力をNanoLaboで読み込む都合上、一部の設定項目や書式は変更できないようになっていますのでご了承ください。"
+" |rarr|\\ :ref:`texteditor`"
+msgstr ""
+"A12: Yes, it is possible. Open Input-file from the lower-left menu on "
+"the screen, edit the content, and click the up arrow button to apply "
+"the changes. However, please note that some setting items and formats "
+"cannot be changed because NanoLabo needs to read the output. "
+"|rarr|\\ :ref:`texteditor`"
+
+#: ../../faq.rst:94
+msgid "モデリング・機能・対応エンジン"
+msgstr "Modeling, Features, and Supported Engines"
+
+#: ../../faq.rst
+msgid "Q13：VASPには対応していますか？"
+msgstr "Q13: Is VASP supported?"
+
+#: ../../faq.rst:99
+msgid "A13：VASPの入力ファイルを自動生成したり、計算エンジンとして実行する機能には対応しておりません。VASPの構造ファイルであるPOSCARの読み込み、および作成したモデルデータをPOSCAR形式でエクスポートする機能は標準で実装されています。"
+msgstr ""
+"A13: NanoLabo does not support features to automatically generate VASP "
+"input files or execute it as a calculation engine. However, functions "
+"to import POSCAR (VASP's structure file) and export the created model "
+"data in POSCAR format are supported."
+
+#: ../../faq.rst
+msgid "Q14：電荷密度データを使った解析を行いたいです。"
+msgstr "Q14: I want to perform analysis using charge density data."
+
+#: ../../faq.rst:104
+msgid "A14：NanoLabo内で直接解析を実行する機能はありません。電荷密度データは一般的なCUBE形式で出力することができますので、外部の解析ツールに渡して処理することは可能です。"
+msgstr ""
+"A14: NanoLabo does not have a feature to directly perform analysis "
+"within the software. Since charge density data can be output in the "
+"standard CUBE format, it can be passed to and processed by external "
+"analysis tools."
+
+#: ../../faq.rst
+msgid "Q15：既存の構造データファイルをインポートするにはどうすれば良いですか？"
+msgstr "Q15: How do I import existing structure data files?"
+
+#: ../../faq.rst:109
+msgid ""
+"A15：\\ :ref:`対応している形式 <filetype>`\\ "
+"であれば、NanoLaboの画面にドラッグ＆ドロップして開くことができます。または、ホームタブのMy "
+"Computerからファイルのある場所に移動し、開くこともできます。"
+msgstr ""
+"A15: You can open a file by dragging and dropping it onto the NanoLabo "
+"screen if it is in a :ref:`supported format <filetype>`\\ . Alternatively, "
+"you can navigate to the file location from My Computer on the Home tab "
+"to open it."
+
+#: ../../faq.rst
+msgid "Q16：Autopilot機能で入力した命令文は、AIの学習データとして利用されますか？"
+msgstr ""
+"Q16: Are the prompts entered in the Autopilot feature used for "
+"AI training?"
+
+#: ../../faq.rst:114
+msgid "A16：いいえ、利用されません。ユーザーが入力した内容は処理のために弊社サーバー経由でAIサービスに送信されますが、大規模言語モデル（LLM）のトレーニングデータとして利用されることはありません。ユーザーが同意した場合に限り、弊社の製品開発に活用する場合があります。"
+msgstr ""
+"A16: No, they are not. The content entered by the user is sent to the AI "
+"service via our server for processing, but it is never used as training "
+"data for large language models (LLMs). Only if the user agrees, it may "
+"be used for our product development."
+
+#: ../../faq.rst
+msgid "Q17：Autopilot機能を利用する際、ライセンス料金とは別にAIの利用料や追加費用は発生しますか？／追加の手続きは必要ですか？"
+msgstr ""
+"Q17: When using the Autopilot feature, are there any AI usage fees or "
+"additional costs separate from the license fee? / Are any additional "
+"sign-up processes required?"
+
+#: ../../faq.rst:119
+msgid "A17："
+msgstr "A17:"
+
+#: ../../faq.rst:121
+msgid ""
+"いいえ、発生しません。NanoLaboのライセンスをお持ちであれば、追加費用なしで標準機能としてご利用いただけます。Modeler画面で右下のNanoLaboアイコンからご利用いただけます。"
+" |rarr|\\ :ref:`autopilot`"
+msgstr ""
+"No, there are none. If you have a NanoLabo license, you can use it "
+"as a standard feature at no additional cost. You can access it from the "
+"NanoLabo icon at the bottom right of the Modeler screen. "
+"|rarr|\\ :ref:`autopilot`"
+
+#: ../../faq.rst:122
+msgid "なお、画面右上アイコンのチャットボットは別の機能となり、こちらはアカウント登録が必要です。"
+msgstr ""
+"Please note that the chatbot from the icon at the upper right of the "
+"screen is a separate feature and requires account registration."
+
+#: ../../faq.rst:125
+msgid "試用・契約・その他"
+msgstr "Trial, Licensing, and Others"
+
+#: ../../faq.rst
+msgid "Q18：製品の導入検討のために、無料トライアル（試用）は可能ですか？"
+msgstr "Q18: Is a free trial available for product evaluation?"
+
+#: ../../faq.rst:130
+msgid ""
+"A18：はい、可能です。まずはNanoLaboおよびNanoLabo Toolを対象マシンにダウンロード・\\ :doc:`install`\\ "
+"してください。その後、サポート窓口宛てに所属・お名前を明記の上、試用希望の旨をメールでお申し込みください。試用期間はライセンスの発行から1ヶ月間です。"
+msgstr ""
+"A18: Yes, it is possible. First, please download and :doc:`install <install>` "
+"NanoLabo and NanoLabo Tool on the target machine. Then, please email "
+"our support center with your name, affiliation, and a request for a trial. "
+"The trial period is one month from the issuance of the license."
+
+#: ../../faq.rst
+msgid "Q19：日本以外の国でライセンスを購入・利用することは可能でしょうか？"
+msgstr ""
+"Q19: Is it possible to purchase and use the license in countries "
+"outside Japan?"
+
+#: ../../faq.rst:135
+msgid "A19：弊社製品は一部の国において輸出規制の対象となる場合があります。そのため、海外からのご購入を検討される際は、トライアルライセンスのお申し込み時を含め、国名をお教えいただく必要があります。"
+msgstr ""
+"A19: Our products may be subject to export controls in some countries. "
+"Therefore, when considering a purchase from overseas, you need to "
+"inform us of the country name, including when applying for a trial license."
+
+#: ../../faq.rst
+msgid "Q20：チャットボットを利用するための手続きを教えてください。"
+msgstr "Q20: What is the procedure for using the chatbot?"
+
+#: ../../faq.rst:140
+msgid ""
+"A20：チャットボットのご利用にはユーザー登録が必要です。ご希望の際は、登録に使用する「Googleアカウント」または「Microsoftアカウント」のメールアドレスをサポート窓口または営業担当までお知らせください。画面右上のOpen"
+" Chatbotボタン、または\\ `チャットボットのウェブページ <https://nanolabo-"
+"ai.advancesoft.jp/chatbot/>`_\\ を開き、登録したアカウントでログインしてください。"
+msgstr ""
+"A20: User registration is required to use the chatbot. If you wish to "
+"use it, please provide the email address of your \"Google account\" or "
+"\"Microsoft account\" used for registration to our support center or sales "
+"representative. Click the \"Open Chatbot\" button at the upper right of "
+"the screen, or open `the chatbot web page "
+"<https://nanolabo-ai.advancesoft.jp/chatbot/>`_ and log in with your "
+"registered account."
+

@@ -54,3 +54,8 @@ table.align-center div.first {
     color: gray;
     text-align: end;
 }
+
+.strong {
+    font-weight: bold;
+    font-size: 1.2em;
+}

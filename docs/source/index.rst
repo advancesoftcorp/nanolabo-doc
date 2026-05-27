@@ -21,6 +21,17 @@
 
 初めて使用される場合は、\ :doc:`インストール<install>`\ を行った後、\ :doc:`使用の流れ<flow>`\ をご確認ください。
 
+|strong_link|_\ はこちら。
+
+.. role:: strong
+   :class: strong
+
+.. |strong_link| replace:: :strong:`よくある質問(FAQ)`
+.. _strong_link: faq.html
+
+.. |strong_link_en| replace:: :strong:`Frequently Asked Questions`
+.. _strong_link_en: faq.html
+
 .. toctree::
    :maxdepth: 2
    :caption: 目次:
@@ -30,6 +41,7 @@
    usage
    python
    demo
+   faq
    version
    link
 
