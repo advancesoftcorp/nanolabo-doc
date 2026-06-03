@@ -9,20 +9,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-08 11:15+0900\n"
+"POT-Creation-Date: 2026-06-03 16:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../version.rst:5
 msgid "バージョン情報"
 msgstr "Version Information"
 
-#: ../../version.rst:11
+#: ../../version.rst:7
 msgid "2025/09/08 バージョン3.1.2"
 msgstr "2025/09/08 Version 3.1.2"
 
@@ -33,23 +33,23 @@ msgstr "Fixed an issue where Sentinel license activation on NanoLabo would fail"
 #: ../../version.rst:9
 msgid "ネットワーク内に既にライセンスサーバーがある状態で未認証のNanoLaboを起動したとき、既存のライセンスキーを使わず、新たにNanoLabo上でのアクティベーションをするオプションを追加"
 msgstr ""
-"Added an option to perform a new activation on NanoLabo, without using an "
-"existing license key, when launching an unauthenticated NanoLabo on a network that "
-"already has a license server"
+"Added an option to perform a new activation on NanoLabo, without using an"
+" existing license key, when launching an unauthenticated NanoLabo on a "
+"network that already has a license server"
 
 #: ../../version.rst:10
 msgid "GNN力場をリモート実行で使う場合、モデルファイルを転送する際の処理を修正（mace-osaka24、EquiformerV2-OMat）"
 msgstr ""
-"Fixed the handling of model file transfers when using GNN force fields with "
-"remote execution (mace-osaka24, EquiformerV2-OMat)"
+"Fixed the handling of model file transfers when using GNN force fields "
+"with remote execution (mace-osaka24, EquiformerV2-OMat)"
 
 #: ../../version.rst:11
 msgid "本体のみの更新です。NanoLabo Toolインストーラーの更新はありません。"
 msgstr ""
-"This is an update for the NanoLabo itself only. There is no update for the "
-"NanoLabo Tool installer."
+"This is an update for the NanoLabo itself only. There is no update for "
+"the NanoLabo Tool installer."
 
-#: ../../version.rst:16
+#: ../../version.rst:13
 msgid "2025/07/18 バージョン3.1.1"
 msgstr "2025/07/18 Version 3.1.1"
 
@@ -64,7 +64,7 @@ msgstr ""
 "are no updates for the Windows or Linux versions, or the NanoLabo Tool "
 "installer."
 
-#: ../../version.rst:53
+#: ../../version.rst:18
 msgid "2025/04/21 バージョン3.1"
 msgstr "2025/04/21 Version 3.1"
 
@@ -227,7 +227,7 @@ msgstr ""
 msgid "その他、動作改善・バグ修正等"
 msgstr "Tune-ups, bug fixes, etc."
 
-#: ../../version.rst:80
+#: ../../version.rst:55
 msgid "2024/07/17 バージョン3.0"
 msgstr "2024/07/17 Version 3.0"
 
@@ -314,7 +314,7 @@ msgstr "LAMMPS: compatible with the latest versions of CHGNet and M3GNet (MatGL)
 msgid "（Windows版）curl.exeの同梱を廃止（OS付属のcurl.exeを使用）"
 msgstr "(Windows) no longer bundled curl.exe (use curl.exe included with OS)"
 
-#: ../../version.rst:89
+#: ../../version.rst:82
 msgid "2024/04/12 バージョン2.9.3"
 msgstr "2024/04/12 Version 2.9.3"
 
@@ -329,7 +329,7 @@ msgstr ""
 "are no updates for the Linux or macOS versions, or the NanoLabo Tool "
 "installer."
 
-#: ../../version.rst:120
+#: ../../version.rst:91
 msgid "2024/03/25 バージョン2.9.2"
 msgstr "2024/03/25 Version 2.9.2"
 
@@ -431,7 +431,7 @@ msgstr ""
 "for remote execution, support cases where long job IDs are truncated at "
 "the end in the output of the qstat command in PBS"
 
-#: ../../version.rst:172
+#: ../../version.rst:122
 msgid "2023/11/15 バージョン2.9.1"
 msgstr "2023/11/15 Version 2.9.1"
 
@@ -610,7 +610,7 @@ msgstr ""
 "adjusted environment variables related to OpenMP parallel for local "
 "calculations"
 
-#: ../../version.rst:203
+#: ../../version.rst:174
 msgid "2023/08/03 バージョン2.9"
 msgstr "2023/08/03 Version 2.9"
 
@@ -731,7 +731,7 @@ msgstr ""
 "added Windows 11 to supported OS / changed supported macOS version to "
 "Ventura(13) or later"
 
-#: ../../version.rst:222
+#: ../../version.rst:205
 msgid "2023/04/25 バージョン2.8"
 msgstr "2023/04/25 Version 2.8"
 
@@ -781,7 +781,7 @@ msgstr ""
 "For users of previous versions, files will be moved to the new location "
 "upon the first launch after the update."
 
-#: ../../version.rst:229
+#: ../../version.rst:224
 msgid "2023/03/08 バージョン2.7.1"
 msgstr "2023/03/08 Version 2.7.1"
 
@@ -812,7 +812,7 @@ msgstr ""
 "If you have already submitted jobs to a remote server, please remove the "
 ":file:`.nanobin2.7` folder from the Work Directory on the server."
 
-#: ../../version.rst:255
+#: ../../version.rst:231
 msgid "2023/03/06 バージョン2.7"
 msgstr "2023/03/06 Version 2.7"
 
@@ -885,7 +885,7 @@ msgstr ""
 "or earlier, you can either maintain the modification or revert the change"
 " after updating to 2.7."
 
-#: ../../version.rst:300
+#: ../../version.rst:257
 msgid "2022/09/30 バージョン2.6"
 msgstr "2022/09/30 Version 2.6"
 
@@ -1022,9 +1022,9 @@ msgid "LAMMPS: 入力ファイルのフォーマットを変更（ユーザー�
 msgstr "LAMMPS: changed input file format (more items are user-editable)"
 
 #: ../../version.rst:294
-msgid "LAMMPS: デフォルトの擬ポテンシャルをGBRV（GBRV非対応の元素はSSSP）に変更"
+msgid "QE: デフォルトの擬ポテンシャルをGBRV（GBRV非対応の元素はSSSP）に変更"
 msgstr ""
-"LAMMPS: default pseudo potential to GBRV (or SSSP if GBRV unavailable for"
+"QE: default pseudo potential to GBRV (or SSSP if GBRV unavailable for"
 " the element)"
 
 #: ../../version.rst:295
@@ -1047,7 +1047,7 @@ msgstr ""
 msgid "アイコンを変更"
 msgstr "changed icon"
 
-#: ../../version.rst:322
+#: ../../version.rst:302
 msgid "2022/05/20 バージョン2.5"
 msgstr "2022/05/20 Version 2.5"
 
@@ -1103,7 +1103,7 @@ msgstr ""
 "fixed a bug in set_all_atoms() in nanolabo.py (\"error: invalid "
 "atomsFile\" would always occur)"
 
-#: ../../version.rst:345
+#: ../../version.rst:324
 msgid "2022/02/04 バージョン2.4"
 msgstr "2022/02/04 Version 2.4"
 
@@ -1168,7 +1168,7 @@ msgstr ""
 msgid "サポート対象OSにAlmaLinux 8を追加"
 msgstr "added AlmaLinux 8 to the supported OS"
 
-#: ../../version.rst:366
+#: ../../version.rst:347
 msgid "2021/12/10 バージョン2.3"
 msgstr "2021/12/10 Version 2.3"
 
@@ -1216,7 +1216,7 @@ msgstr "changed the Java runtime environment to Liberica JRE 8"
 msgid "Materials APIの仕様変更に対応"
 msgstr "support for the updated specification of Materials API"
 
-#: ../../version.rst:380
+#: ../../version.rst:368
 msgid "2021/10/01 バージョン2.2"
 msgstr "2021/10/01 Version 2.2"
 
@@ -1240,7 +1240,7 @@ msgstr "QE: fixed ordering of intermediate images of NEB at the initial setting"
 msgid "Quantum ESPRESSOのバージョンを6.7へ更新"
 msgstr "update Quantum ESPRESSO to version 6.7"
 
-#: ../../version.rst:398
+#: ../../version.rst:382
 msgid "2021/06/04 バージョン2.1"
 msgstr "2021/06/04 Version 2.1"
 
@@ -1282,7 +1282,7 @@ msgstr "QE: changed the default k-point path for BAND calculations"
 msgid "lsf2pbs/qsub変更（bsub呼び出し方法）"
 msgstr "edited lsf2pbs/qsub (changed the way bsub is invoked)"
 
-#: ../../version.rst:407
+#: ../../version.rst:400
 msgid "2020/11/30 バージョン2.0"
 msgstr "2020/11/30 Version 2.0"
 
@@ -1298,7 +1298,7 @@ msgstr "QE: XAFS calculation"
 msgid "LAMMPS dumpファイル読み込み対応"
 msgstr "support for opening LAMMPS dump file"
 
-#: ../../version.rst:416
+#: ../../version.rst:409
 msgid "2020/07/29 バージョン1.5"
 msgstr "2020/07/29 Version 1.5"
 
@@ -1318,7 +1318,7 @@ msgstr ""
 "Suspend access during remote execution / download files from server / "
 "delete files on server"
 
-#: ../../version.rst:432
+#: ../../version.rst:418
 msgid "2020/04/27 バージョン1.4"
 msgstr "2020/04/27 Version 1.4"
 
@@ -1364,7 +1364,7 @@ msgstr "Preserve window size"
 msgid "（Linux版）長時間使用時に正常に動作しなくなる不具合を修正"
 msgstr "(Linux) Fixed problem of not functioning properly over long usage periods"
 
-#: ../../version.rst:437
+#: ../../version.rst:434
 msgid "2019/09/30 バージョン1.3"
 msgstr "2019/09/30 Version 1.3"
 
@@ -1376,7 +1376,7 @@ msgstr "released \"Pro version\" with additional functions"
 msgid "[Pro] 界面ビルダー"
 msgstr "[Pro] Interface builder"
 
-#: ../../version.rst:441
+#: ../../version.rst:439
 msgid "2019/08/05 バージョン1.2.1"
 msgstr "2019/08/05 Version 1.2.1"
 
@@ -1390,7 +1390,7 @@ msgstr ""
 msgid "その他、バグ修正等"
 msgstr "Bug fixes, etc."
 
-#: ../../version.rst:450
+#: ../../version.rst:443
 msgid "2019/06/28 バージョン1.2"
 msgstr "2019/06/28 Version 1.2"
 
@@ -1410,7 +1410,7 @@ msgstr "Cooperation with Python"
 msgid "原子構造ビューアーの機能改善"
 msgstr "Tune-up of atomic viewer"
 
-#: ../../version.rst:459
+#: ../../version.rst:452
 msgid "2019/05/09 バージョン1.1.2"
 msgstr "2019/05/09 Version 1.1.2"
 
@@ -1426,7 +1426,7 @@ msgstr "Lambda System"
 msgid "LAMMPSでReaxFF使用時にreal単位系を使うよう修正"
 msgstr "Fixed to use the real unit system when using ReaxFF in LAMMPS"
 
-#: ../../version.rst:462
+#: ../../version.rst:461
 msgid "2019/01/18 バージョン1.1.1"
 msgstr "2019/01/18 Version 1.1.1"
 
@@ -1434,7 +1434,7 @@ msgstr "2019/01/18 Version 1.1.1"
 msgid "バグ修正（プロキシ使用時の通信不具合）"
 msgstr "Bug fix (connection problem when using proxy)"
 
-#: ../../version.rst:477
+#: ../../version.rst:464
 msgid "2018/12/21 バージョン1.1"
 msgstr "2018/12/21 Version 1.1"
 
@@ -1474,7 +1474,7 @@ msgstr "Open files with an external text editor"
 msgid "エクスプローラーの機能強化"
 msgstr "Enhancement of explorer functions"
 
-#: ../../version.rst:480
+#: ../../version.rst:479
 msgid "2018/08/01 バージョン1.0"
 msgstr "2018/08/01 Version 1.0"
 
