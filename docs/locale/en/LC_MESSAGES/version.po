@@ -55,7 +55,7 @@ msgstr "2025/07/18 Version 3.1.1"
 
 #: ../../version.rst:14
 msgid "（macOS版）Sentinel LDK-RTEのインストール有無の確認方法を改善"
-msgstr ""
+msgstr "(macOS) Improved the method for checking whether Sentinel LDK-RTE is installed"
 
 #: ../../version.rst:16
 msgid "macOS版・本体のみの更新です。Windows版・Linux版の更新、NanoLabo Toolインストーラーの更新はありません。"

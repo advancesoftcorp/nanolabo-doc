@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Advance/NanoLabo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-12 16:02+0900\n"
+"POT-Creation-Date: 2026-07-24 12:17+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1139,8 +1139,8 @@ msgid "sannp.metro"
 msgstr ""
 
 #: ../../usage/explorer.rst:103
-msgid "`Advance/NeuralMD メトロポリス法設定ファイル`_"
-msgstr "`Advance/NeuralMD Metropolis method configuration file`_"
+msgid "`Advance/NeuralMD メトロポリス法設定ファイル <metro_link_>`_"
+msgstr "`Advance/NeuralMD Metropolis method configuration file <metro_link_en_>`_"
 
 #: ../../usage/explorer.rst:116
 msgid "以下の各方法でファイルを開くことができます。"
@@ -2311,9 +2311,9 @@ msgid ""
 msgstr ""
 
 #: ../../usage/gnnp.rst:472
-msgid "`*`:sup :file:`gnnp_driver.pyのあるフォルダ/mace-osaka24` にあるモデルファイルを読み込みます。"
+msgid "`*`:sup: :file:`gnnp_driver.pyのあるフォルダ/mace-osaka24` にあるモデルファイルを読み込みます。"
 msgstr ""
-"`*`:sup Reads the model file located in :file:`(folder where "
+"`*`:sup: Reads the model file located in :file:`(folder where "
 "gnn_driver.py is)/mace-osaka24`\\ ."
 
 #: ../../usage/gnnp.rst:474
