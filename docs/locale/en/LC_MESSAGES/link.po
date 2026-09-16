@@ -55,7 +55,7 @@ msgid "解析事例"
 msgstr "Analysis cases"
 
 #: ../../link.rst:20
-msgid "http://case.advancesoft.jp/NanoLabo/"
+msgid "https://case.advancesoft.jp/NanoLabo/"
 msgstr ""
 
 #: ../../link.rst:23
@@ -87,7 +87,7 @@ msgid "https://neuralmd-doc.readthedocs.io/ja/latest/"
 msgstr "https://neuralmd-doc.readthedocs.io/en/latest/"
 
 #: ../../link.rst:35
-msgid "http://case.advancesoft.jp/NeuralMD/"
+msgid "https://case.advancesoft.jp/NeuralMD/"
 msgstr ""
 
 #: ../../link.rst:38

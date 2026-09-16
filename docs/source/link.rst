@@ -17,7 +17,7 @@ Advance/NanoLaboホームページ
  https://www.nanolabo.advancesoft.jp/
 
 解析事例
- http://case.advancesoft.jp/NanoLabo/
+ https://case.advancesoft.jp/NanoLabo/
 
 製品紹介動画リスト
  https://www.youtube.com/playlist?list=PLbypViQv43hxxSwnYsUS8PNlAGpAjLE7J
@@ -32,7 +32,7 @@ Advance/NeuralMDホームページ
  https://neuralmd-doc.readthedocs.io/ja/latest/
 
 解析事例
- http://case.advancesoft.jp/NeuralMD/
+ https://case.advancesoft.jp/NeuralMD/
 
 力場データベース
  https://www.nanolabo.advancesoft.jp/forcefield/
